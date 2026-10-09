@@ -1,0 +1,1328 @@
+[
+ {
+  "id": "dev-320",
+  "term": "hook up",
+  "definition": "A colloquial expression for connecting a screen, system, or environment to something like an API or server.",
+  "example": "Hook up the real API instead of the mock data to check it.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "hook up a server",
+   "hook up an API",
+   "wire up an integration"
+  ]
+ },
+ {
+  "id": "dev-321",
+  "term": "strip out",
+  "definition": "An expression meaning to remove code, settings, or dependencies that are no longer needed.",
+  "example": "After validating the new feature, strip out the old branch code.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "stripping out code",
+   "stripping out legacy"
+  ]
+ },
+ {
+  "id": "dev-322",
+  "term": "put through",
+  "definition": "An expression meaning to include a change in a deployment or automated flow and run it.",
+  "example": "Put only the reviewed fixes through this deployment.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "put through a deploy",
+   "put through the pipeline"
+  ]
+ },
+ {
+  "id": "dev-323",
+  "term": "scrap and rebuild",
+  "definition": "An expression meaning to largely change an existing structure or implementation and rebuild it.",
+  "example": "Since the scope is large, check whether partial fixes are possible before scrapping the whole thing.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "overhaul",
+   "overhauling the code"
+  ]
+ },
+ {
+  "id": "dev-324",
+  "term": "enhancement",
+  "definition": "Work that improves the performance, quality, or usage scope of an existing feature or structure to a higher level.",
+  "example": "We're enhancing the search accuracy and the response speed.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "enhancement work"
+  ]
+ },
+ {
+  "id": "fashion-336",
+  "term": "apparel",
+  "definition": "Means clothing; in the field it is also used to refer to a company or business that plans, produces, and sells clothing.",
+  "example": "The apparel company's merchandising team collaborates with the fabric vendor.",
+  "category": "Company & production organization",
+  "aliases": [
+   "apparel company",
+   "clothing company"
+  ]
+ },
+ {
+  "id": "fashion-337",
+  "term": "brand company",
+  "definition": "A company that runs its own brand's direction, products, marketing, and sales.",
+  "example": "The brand company sets the seasonal concept and the target price.",
+  "category": "Company & production organization",
+  "aliases": [
+   "fashion brand company"
+  ]
+ },
+ {
+  "id": "fashion-338",
+  "term": "promotion vendor",
+  "definition": "A vendor that handles clothing development, material sourcing, and production on commission from a brand.",
+  "example": "We commission the promotion vendor for everything from samples to main production.",
+  "note": "This is the fashion production-outsourcing context. It differs from sales promotion in marketing.",
+  "category": "Company & production organization",
+  "aliases": [
+   "apparel production vendor",
+   "production promotion"
+  ]
+ },
+ {
+  "id": "fashion-339",
+  "term": "OEM",
+  "definition": "A method of producing and supplying products to the ordering company's requirements and brand.",
+  "example": "This product is produced via OEM.",
+  "category": "Company & production organization",
+  "aliases": [
+   "original equipment manufacturing"
+  ]
+ },
+ {
+  "id": "fashion-340",
+  "term": "ODM",
+  "definition": "A method where the manufacturer handles both product development and design and production and supplies it under the ordering company's brand.",
+  "example": "Review the ODM vendor's development samples.",
+  "category": "Company & production organization",
+  "aliases": [
+   "original design manufacturing"
+  ]
+ },
+ {
+  "id": "fashion-341",
+  "term": "sewing factory",
+  "definition": "A production vendor that sews cut fabric into garments.",
+  "example": "Align the sewing specs and the delivery date with the sewing factory.",
+  "category": "Company & production organization",
+  "aliases": [
+   "sewing factory",
+   "sewing vendor"
+  ]
+ },
+ {
+  "id": "fashion-342",
+  "term": "sample room",
+  "definition": "A workspace or organization that makes trial garments according to patterns and specs before main production.",
+  "example": "Deliver the revised pattern and fabric to the sample room.",
+  "category": "Company & production organization",
+  "aliases": [
+   "sample room vendor"
+  ]
+ },
+ {
+  "id": "fashion-343",
+  "term": "pattern room",
+  "definition": "An organization or workspace that develops and revises patterns based on a garment's form and measurements.",
+  "example": "Check the shoulder-line revision with the pattern room.",
+  "category": "Company & production organization",
+  "aliases": [
+   "pattern room vendor"
+  ]
+ },
+ {
+  "id": "fashion-344",
+  "term": "dyeing factory",
+  "definition": "A vendor that performs dyeing processes and related finishing on yarn, fabric, or products.",
+  "example": "The dyeing factory runs tests for each color.",
+  "category": "Company & production organization",
+  "aliases": [
+   "dyeing factory",
+   "dyeing vendor"
+  ]
+ },
+ {
+  "id": "fashion-345",
+  "term": "fabric vendor",
+  "definition": "A company that develops, produces, or distributes and supplies fabric.",
+  "example": "Check the stock and the additional-production availability with the fabric vendor.",
+  "category": "Company & production organization",
+  "aliases": [
+   "fabric vendor",
+   "fabric supplier",
+   "fabric dealer"
+  ]
+ },
+ {
+  "id": "fashion-346",
+  "term": "production management team",
+  "definition": "An organization that manages the production schedule, quantity, processes, quality, and partner-factory progress.",
+  "example": "The production management team checks the possibility of a delivery delay.",
+  "category": "Company & production organization",
+  "aliases": [
+   "production management",
+   "production team"
+  ]
+ },
+ {
+  "id": "fashion-347",
+  "term": "materials team",
+  "definition": "An organization in charge of developing, selecting, quality-checking, and supplying the fabrics and materials used in products.",
+  "example": "The materials team proposes fabrics suited to the season.",
+  "category": "Company & production organization",
+  "aliases": [
+   "materials development team",
+   "fabric team"
+  ]
+ },
+ {
+  "id": "fashion-348",
+  "term": "merchandising team",
+  "definition": "A team that plans the product assortment, price, volume, and schedule in line with the market, sales, and brand direction.",
+  "example": "Decide the quantity per style with the merchandising team.",
+  "category": "Company & production organization",
+  "aliases": [
+   "MD team",
+   "product team"
+  ]
+ },
+ {
+  "id": "fashion-349",
+  "term": "design room",
+  "definition": "An organization that designs the seasonal concept and the garments, colors, and details.",
+  "example": "The design room delivers the flat sketches and material combinations.",
+  "category": "Company & production organization",
+  "aliases": [
+   "apparel design team",
+   "fashion design team"
+  ]
+ },
+ {
+  "id": "fashion-350",
+  "term": "QC",
+  "definition": "Activities that inspect and manage whether products and the production process meet the set quality standards.",
+  "example": "In QC before shipping, check the sewing and the measurements.",
+  "category": "Company & production organization",
+  "aliases": [
+   "quality control",
+   "quality inspection",
+   "QC"
+  ]
+ },
+ {
+  "id": "fashion-351",
+  "term": "logistics team",
+  "definition": "An organization that manages the flow of goods: receiving, storage, movement, shipping, and delivery.",
+  "example": "Share the inbound schedule with the logistics team before the event starts.",
+  "category": "Company & production organization",
+  "aliases": [
+   "logistics department",
+   "shipping team"
+  ]
+ },
+ {
+  "id": "fashion-352",
+  "term": "TD",
+  "definition": "A role that technically coordinates realizing the design intent into the actual garment's fit, measurements, and sewing specs.",
+  "example": "The TD organizes the fitting comments and the measurement revisions.",
+  "category": "Company & production organization",
+  "aliases": [
+   "technical designer",
+   "technical design"
+  ]
+ },
+ {
+  "id": "fashion-353",
+  "term": "patternmaker",
+  "definition": "A person who makes garment production patterns according to the design and measurements.",
+  "example": "Adjust the sleeve range of motion with the patternmaker.",
+  "category": "Company & production organization",
+  "aliases": [
+   "patternmaker",
+   "pattern maker"
+  ]
+ },
+ {
+  "id": "fashion-354",
+  "term": "yarn",
+  "definition": "Material made by gathering fibers into a thin, long strand, used to make woven and knit fabrics.",
+  "example": "The fabric's feel changes with the yarn's thickness and twist.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "thread",
+   "yarn"
+  ]
+ },
+ {
+  "id": "fashion-355",
+  "term": "spinning",
+  "definition": "The process of arranging and twisting short fibers into yarn.",
+  "example": "Select raw material suited to the spinning conditions.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "spinning process"
+  ]
+ },
+ {
+  "id": "fashion-356",
+  "term": "weaving",
+  "definition": "The process of interlacing warp and weft to make woven fabric.",
+  "example": "Changing the weave structure changes the surface feel.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "weaving",
+   "weaving"
+  ]
+ },
+ {
+  "id": "fashion-357",
+  "term": "knitting",
+  "definition": "The process of making loops with yarn and connecting them to make knit fabric.",
+  "example": "Check the stretch and thickness according to the knit structure.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "knitting",
+   "knitting process"
+  ]
+ },
+ {
+  "id": "fashion-358",
+  "term": "warp",
+  "definition": "The threads laid in the lengthwise direction when weaving fabric.",
+  "example": "Place the pattern based on the warp direction.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "warp thread"
+  ]
+ },
+ {
+  "id": "fashion-359",
+  "term": "weft",
+  "definition": "The crosswise threads that interlace with the warp when weaving fabric.",
+  "example": "Change the weft color to compare the fabric feel.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "weft thread"
+  ]
+ },
+ {
+  "id": "fashion-360",
+  "term": "fiber composition",
+  "definition": "The ratio of each fiber type that makes up a fabric or product.",
+  "example": "Cross-check the fiber composition to be labeled against the test results.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "blend ratio",
+   "fiber composition"
+  ]
+ },
+ {
+  "id": "fashion-361",
+  "term": "fabric weight",
+  "definition": "A value indicating the weight of fabric. GSM expresses weight per area as grams per square meter.",
+  "example": "Even with the same structure, a higher weight can change how it wears.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "fabric weight",
+   "GSM",
+   "basis weight"
+  ]
+ },
+ {
+  "id": "fashion-362",
+  "term": "fabric width",
+  "definition": "The crosswise width of fabric. The usable width for cutting is confirmed after excluding the selvage and such.",
+  "example": "The fabric width changed, so recalculate the fabric consumption.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "fabric width",
+   "width",
+   "effective width"
+  ]
+ },
+ {
+  "id": "fashion-363",
+  "term": "fabric consumption",
+  "definition": "The amount of fabric needed per product unit, such as one garment.",
+  "example": "Calculate the fabric consumption by size and fabric width.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "fabric requirement",
+   "consumption"
+  ]
+ },
+ {
+  "id": "fashion-364",
+  "term": "shrinkage rate",
+  "definition": "The percentage by which fabric or product dimensions shrink before and after washing, processing, and so on.",
+  "example": "Reflect the shrinkage rate in the pattern after checking it.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "shrinkage rate",
+   "shrink"
+  ]
+ },
+ {
+  "id": "fashion-365",
+  "term": "colorfastness",
+  "definition": "A property indicating how well color holds up against external conditions such as friction, washing, and light.",
+  "example": "For dark fabric, also check the rubbing colorfastness.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "dye colorfastness"
+  ]
+ },
+ {
+  "id": "fashion-366",
+  "term": "pilling",
+  "definition": "A phenomenon where surface fibers tangle from friction and form small balls of fuzz.",
+  "example": "Check the degree of pilling in the wear areas.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "fuzz",
+   "pilling"
+  ]
+ },
+ {
+  "id": "fashion-367",
+  "term": "color bleeding",
+  "definition": "A phenomenon where one material's color transfers onto another material it contacts.",
+  "example": "Check whether color bleeding occurs on the light color blocks.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "color-bleed transfer",
+   "dye transfer"
+  ]
+ },
+ {
+  "id": "fashion-368",
+  "term": "yarn dyeing",
+  "definition": "A method of dyeing the yarn first and then making the fabric.",
+  "example": "The check pattern is done with yarn dyeing.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "yarn-dyed fabric"
+  ]
+ },
+ {
+  "id": "fashion-369",
+  "term": "piece dyeing",
+  "definition": "A method of dyeing after the fabric is made.",
+  "example": "Piece-dye the same greige fabric by color.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "piece-dyed fabric"
+  ]
+ },
+ {
+  "id": "fashion-370",
+  "term": "greige",
+  "definition": "Fabric that has been woven or knit but not yet dyed or finished.",
+  "example": "Check the greige stock and set the dyeing schedule.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "greige",
+   "unprocessed fabric"
+  ]
+ },
+ {
+  "id": "fashion-371",
+  "term": "washing",
+  "definition": "A finishing process that adjusts the feel, appearance, and shrinkage of fabric or garments through washing and treatment.",
+  "example": "Compare the color and dimensions before and after washing.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "wash",
+   "wash finishing"
+  ]
+ },
+ {
+  "id": "fashion-372",
+  "term": "tumbling",
+  "definition": "A term for a finishing that rotates or mechanically treats fabric or a product to adjust the feel or shrinkage stability.",
+  "example": "Recheck the weight and width after tumbling.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "tumble finishing",
+   "tumbling"
+  ]
+ },
+ {
+  "id": "fashion-373",
+  "term": "stenter",
+  "definition": "A finishing that spreads and fixes the fabric width while drying and heat-setting to adjust the width and form.",
+  "example": "Check the target width and weight after stentering.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "stenter",
+   "stenter finishing",
+   "stenter",
+   "stenter finishing",
+   "stenter",
+   "stenter"
+  ]
+ },
+ {
+  "id": "fashion-374",
+  "term": "coating",
+  "definition": "A treatment that applies a substance to the fabric surface to give properties such as water resistance, feel, or appearance.",
+  "example": "Check the condition of folded areas after coating.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "fabric coating"
+  ]
+ },
+ {
+  "id": "fashion-375",
+  "term": "lamination",
+  "definition": "A finishing that bonds a film or another layer to fabric to make a multi-layer material.",
+  "example": "Check the bonding condition after film lamination.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "fabric laminating",
+   "bonding finish"
+  ]
+ },
+ {
+  "id": "fashion-376",
+  "term": "lab dip",
+  "definition": "A small trial-dyed sample made to match the target color before main dyeing.",
+  "example": "Compare three lab dips against the standard color and approve.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "lab dip",
+   "lab dip test"
+  ]
+ },
+ {
+  "id": "fashion-377",
+  "term": "strike-off",
+  "definition": "A trial-printed sample made before the main print run to check color, pattern, size, and quality.",
+  "example": "Check the pattern size on the strike-off.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "strike off",
+   "print test sample"
+  ]
+ },
+ {
+  "id": "fashion-378",
+  "term": "fabric printing",
+  "definition": "The work of printing color and patterns onto set areas of fabric or garment surfaces.",
+  "example": "Mark the print position and size on the flat sketch.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "print",
+   "fabric printing"
+  ]
+ },
+ {
+  "id": "fashion-379",
+  "term": "embroidery",
+  "definition": "A decorative method of stitching patterns or letters onto fabric or garments with thread.",
+  "example": "Check the thread color and density of the logo embroidery.",
+  "category": "Materials & fabric processes",
+  "aliases": [
+   "embroidery"
+  ]
+ },
+ {
+  "id": "fashion-380",
+  "term": "basted fitting",
+  "definition": "The work or stage of temporarily sewing a garment to check the form and fit while making revisions.",
+  "example": "In the basted fitting, first check the shoulder and waist positions.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "basted sample"
+  ]
+ },
+ {
+  "id": "fashion-381",
+  "term": "initial run",
+  "definition": "A term for the first quantity produced or received.",
+  "example": "We decide reorders based on the initial-run sales.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "initial-run quantity",
+   "initial quantity",
+   "initial batch"
+  ]
+ },
+ {
+  "id": "fashion-382",
+  "term": "main production",
+  "definition": "The stage of producing the products to be sold at actual quantities based on the approved sample and specs.",
+  "example": "We begin main production after the sample approval.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "main run",
+   "main production",
+   "bulk production"
+  ]
+ },
+ {
+  "id": "fashion-383",
+  "term": "PP sample",
+  "definition": "A sample made before main production to confirm the actual materials, trims, and specs to be used.",
+  "example": "Pass the PP sample approvals to the factory.",
+  "note": "Sample stages, names, and approval processes can differ by brand and factory.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "PP sample",
+   "PP sample",
+   "pre-production sample",
+   "PP sample",
+   "PPS"
+  ]
+ },
+ {
+  "id": "fashion-384",
+  "term": "TOP sample",
+  "definition": "A sample pulled from early main-production units to check the production quality and specs.",
+  "example": "Check the label position and measurements on the TOP sample.",
+  "note": "The sampling timing and required quantity should be confirmed with each buyer.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "TOP sample",
+   "top sample",
+   "top sample",
+   "TOP sample"
+  ]
+ },
+ {
+  "id": "fashion-385",
+  "term": "size set",
+  "definition": "A sample set made in multiple sizes to check the size grading and fit.",
+  "example": "In the size set, also check the sleeve width of the small size.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "size set",
+   "size set sample"
+  ]
+ },
+ {
+  "id": "fashion-386",
+  "term": "marking",
+  "definition": "The work of arranging the cutting layout of pattern pieces, considering fabric usage and grain direction.",
+  "example": "Adjust the marking to reduce fabric loss.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "marker",
+   "marker",
+   "cut marking"
+  ]
+ },
+ {
+  "id": "fashion-387",
+  "term": "spreading",
+  "definition": "The work of spreading and stacking multiple layers of fabric, aligned in length and direction for easy cutting.",
+  "example": "Check the grain direction and tension during spreading.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "spreading work"
+  ]
+ },
+ {
+  "id": "fashion-388",
+  "term": "interlining",
+  "definition": "A material used to reinforce the form and body of garment parts such as collars and front plackets.",
+  "example": "Choose an interlining strength suited to the thin fabric.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "interlining",
+   "fusible interlining"
+  ]
+ },
+ {
+  "id": "fashion-389",
+  "term": "lining",
+  "definition": "Fabric added inside a garment to aid the feel, form, and finish.",
+  "example": "Check that the lining length doesn't extend past the shell fabric.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "lining"
+  ]
+ },
+ {
+  "id": "fashion-390",
+  "term": "shell fabric",
+  "definition": "The fabric that forms the main outer surface of a garment.",
+  "example": "Check the shrinkage difference between the shell and the lining.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "shell fabric"
+  ]
+ },
+ {
+  "id": "fashion-391",
+  "term": "stitch",
+  "definition": "The unit of sewing or topstitch expression that the needle and thread make in the fabric.",
+  "example": "Keep the visible stitch spacing consistent.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "stitch",
+   "sewing stitch",
+   "needle stitch",
+   "stitching"
+  ]
+ },
+ {
+  "id": "fashion-392",
+  "term": "topstitch",
+  "definition": "Sewing that is visible on the outside to decorate or to fix the seam allowance and form.",
+  "example": "Keep the topstitch width around the pocket consistent.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "topstitch",
+   "outer stitching"
+  ]
+ },
+ {
+  "id": "fashion-393",
+  "term": "overlock",
+  "definition": "A sewing method that wraps and stitches the fabric edge to prevent fraying or to join pieces.",
+  "example": "Finish the seam allowance edges with overlock.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "overlock",
+   "overlock",
+   "overlock"
+  ]
+ },
+ {
+  "id": "fashion-394",
+  "term": "binding",
+  "definition": "A method of finishing a fabric edge by wrapping it with a strip of material.",
+  "example": "Check that the neckline binding doesn't stretch out.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "binder finish"
+  ]
+ },
+ {
+  "id": "fashion-395",
+  "term": "bartack",
+  "definition": "Reinforcing a stress point with short, dense stitching.",
+  "example": "Add a bartack at both ends of the pocket opening.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "bartack",
+   "bartack stitching"
+  ]
+ },
+ {
+  "id": "fashion-396",
+  "term": "puckering",
+  "definition": "A phenomenon where the area around a seam gathers or wrinkles due to fabric, thread, or tension.",
+  "example": "Check the sewing conditions to reduce the side-seam puckering.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "pucker",
+   "seam wrinkle"
+  ]
+ },
+ {
+  "id": "fashion-397",
+  "term": "defect",
+  "definition": "A problem or product that doesn't meet the set specs or quality standards.",
+  "example": "Record the defect types together with photos.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "defect",
+   "defective product",
+   "defect case"
+  ]
+ },
+ {
+  "id": "fashion-398",
+  "term": "inspection",
+  "definition": "The work of inspecting a product's measurements, sewing, stains, trims, and packaging against standards.",
+  "example": "In the inspection before shipping, check for stains and loose threads.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "inspection work"
+  ]
+ },
+ {
+  "id": "fashion-399",
+  "term": "needle detection",
+  "definition": "The work of checking, with equipment, whether metal foreign objects such as needle fragments remain in a product.",
+  "example": "Record whether needle detection is complete in the shipping log.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "needle detection work"
+  ]
+ },
+ {
+  "id": "fashion-400",
+  "term": "pressing",
+  "definition": "The work of arranging a garment's form, wrinkles, and surface using heat and pressure.",
+  "example": "In pressing, keep the seams from showing through to the outside.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "press finishing",
+   "ironing finish"
+  ]
+ },
+ {
+  "id": "fashion-401",
+  "term": "hang tag",
+  "definition": "A tag attached to a product that provides information such as brand, price, and item number.",
+  "example": "Check that the hang tag's item number matches the actual product.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "tag",
+   "hang tag",
+   "paper tag"
+  ]
+ },
+ {
+  "id": "fashion-402",
+  "term": "care label",
+  "definition": "A label that shows information needed to use the product, such as materials and washing and handling.",
+  "example": "Check the care label wording against the final specs.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "care label",
+   "care tag",
+   "handling label"
+  ]
+ },
+ {
+  "id": "fashion-403",
+  "term": "inbound",
+  "definition": "When goods or materials arrive at a warehouse or store and their quantity and condition are checked.",
+  "example": "Match the received quantity against the purchase order.",
+  "category": "Distribution & store operations",
+  "aliases": [
+   "inbound processing"
+  ]
+ },
+ {
+  "id": "fashion-404",
+  "term": "outbound",
+  "definition": "Sending goods out of a warehouse or store for purposes such as orders or transfers.",
+  "example": "Recheck the color and size before shipping.",
+  "category": "Distribution & store operations",
+  "aliases": [
+   "outbound processing"
+  ]
+ },
+ {
+  "id": "fashion-405",
+  "term": "allocation",
+  "definition": "Dividing product quantities among stores, channels, or regions according to demand and plans.",
+  "example": "Allocate the volume based on each store's sales pace.",
+  "category": "Distribution & store operations",
+  "aliases": [
+   "volume allocation",
+   "store allocation",
+   "volume allocation",
+   "channel allocation"
+  ]
+ },
+ {
+  "id": "fashion-406",
+  "term": "replenishment",
+  "definition": "Restocking sold or short items to maintain appropriate inventory.",
+  "example": "Quickly replenish the core sizes.",
+  "category": "Distribution & store operations",
+  "aliases": [
+   "replenish",
+   "restock",
+   "inventory restock"
+  ]
+ },
+ {
+  "id": "fashion-407",
+  "term": "sell-through rate",
+  "definition": "A metric showing the share sold out of a period's received or available volume. The basis volume for the calculation is set by each organization.",
+  "example": "Review additional orders based on the weekly sell-through rate.",
+  "note": "It's used similarly to sales rate, but the denominator, period, and returns-handling basis can differ, so the metric's definition should be confirmed.",
+  "category": "Distribution & store operations",
+  "aliases": [
+   "sell-through",
+   "inventory sell-through rate"
+  ]
+ },
+ {
+  "id": "fashion-408",
+  "term": "inventory turnover",
+  "definition": "A metric showing how much inventory cycled through sales over a period.",
+  "example": "Review long-held products based on inventory turnover.",
+  "category": "Distribution & store operations",
+  "aliases": [
+   "inventory turnover",
+   "turnover"
+  ]
+ },
+ {
+  "id": "fashion-409",
+  "term": "carryover stock",
+  "definition": "Products or inventory that passed into the next period after a season or period ended.",
+  "example": "Plan a separate sales channel for the carryover stock.",
+  "category": "Distribution & store operations",
+  "aliases": [
+   "carryover product",
+   "carryover inventory"
+  ]
+ },
+ {
+  "id": "fashion-410",
+  "term": "carryover",
+  "definition": "Continuing to run a previous season's products or styles into the next season.",
+  "example": "Carry over the basic shirt and add new colors.",
+  "category": "Distribution & store operations",
+  "aliases": [
+   "carry over",
+   "continued product"
+  ]
+ },
+ {
+  "id": "fashion-411",
+  "term": "wholesale",
+  "definition": "A distribution method of selling goods to businesses such as retailers in bulk or on set trade terms.",
+  "example": "Send the next season's line sheet to the wholesale buyers.",
+  "category": "Distribution & store operations",
+  "aliases": [
+   "wholesale",
+   "wholesale selling"
+  ]
+ },
+ {
+  "id": "fashion-412",
+  "term": "retail",
+  "definition": "A distribution method of selling goods to the end consumer.",
+  "example": "Distinguish the retail price from the wholesale supply price.",
+  "category": "Distribution & store operations",
+  "aliases": [
+   "retail",
+   "retail selling"
+  ]
+ },
+ {
+  "id": "fashion-413",
+  "term": "showroom",
+  "definition": "A space displaying products so buyers and customers can view them and hold consultations or place orders.",
+  "example": "Show the seasonal samples and materials in the showroom.",
+  "category": "Distribution & store operations",
+  "aliases": [
+   "showroom operation"
+  ]
+ },
+ {
+  "id": "fashion-414",
+  "term": "order fair",
+  "definition": "An event that presents the next season's products and takes buyers' orders.",
+  "example": "Prepare samples by size before the order fair.",
+  "category": "Distribution & store operations",
+  "aliases": [
+   "order meeting",
+   "order exhibition"
+  ]
+ },
+ {
+  "id": "fashion-415",
+  "term": "pop-up",
+  "definition": "A temporary selling or experience space operated for a limited period.",
+  "example": "Check the flow and stock before the pop-up opens.",
+  "note": "This is the fashion-store context. It differs in meaning from a pop-up window on screen.",
+  "category": "Distribution & store operations",
+  "aliases": [
+   "pop-up store",
+   "short-term store"
+  ]
+ },
+ {
+  "id": "fashion-416",
+  "term": "visual merchandising",
+  "definition": "Activities that convey the brand and sales message in a store through product, fixtures, lighting, and space staging.",
+  "example": "Change the main fixture layout according to the VM guide.",
+  "category": "Distribution & store operations",
+  "aliases": [
+   "visual merchandising"
+  ]
+ },
+ {
+  "id": "fashion-417",
+  "term": "fixtures",
+  "definition": "Furniture and devices that display or store products or make up the sales space.",
+  "example": "Adjust the display to match the fixture height.",
+  "category": "Distribution & store operations",
+  "aliases": [
+   "store fixtures",
+   "display fixtures"
+  ]
+ },
+ {
+  "id": "fashion-418",
+  "term": "hanger rack",
+  "definition": "A device for hanging garments to store or display them.",
+  "example": "Arrange the color and size order on each rack.",
+  "category": "Distribution & store operations",
+  "aliases": [
+   "hanger",
+   "clothes hanger rack"
+  ]
+ },
+ {
+  "id": "fashion-419",
+  "term": "outfit",
+  "definition": "The state or combination of wearing garments and accessories together.",
+  "example": "Organize the shots needed for each of one model's outfits.",
+  "category": "Distribution & store operations",
+  "aliases": [
+   "outfit shot",
+   "full outfit"
+  ]
+ },
+ {
+  "id": "fashion-420",
+  "term": "worn shot",
+  "definition": "A photo showing a product actually being worn.",
+  "example": "Please include front and back worn shots on the detail page.",
+  "category": "Distribution & store operations",
+  "aliases": [
+   "worn shot",
+   "wearing photo"
+  ]
+ },
+ {
+  "id": "fashion-421",
+  "term": "dye-lot color difference",
+  "definition": "A state where a color difference appears between the same target color due to dye-lot or process-condition differences.",
+  "example": "Check that there's no dye-lot color difference between the body and the sleeves.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "dye-lot difference",
+   "dye-lot color difference",
+   "lot color difference"
+  ]
+ },
+ {
+  "id": "fashion-422",
+  "term": "skewing",
+  "definition": "A state where the fabric grain or garment seams rotate or go crooked from the intended direction.",
+  "example": "Check the side-seam skewing after washing.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "fabric skewing",
+   "side-seam twisting"
+  ]
+ },
+ {
+  "id": "fashion-423",
+  "term": "gaping",
+  "definition": "A state where a particular part of a garment doesn't sit naturally against the body or another part and lifts away.",
+  "example": "Please fix the part where the back-neck collar gaps.",
+  "note": "This entry is a fit issue where part of the garment lifts off the body when worn. Distinguish it from interlining bubbling, where fusible interlining separates from the shell fabric.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "gap",
+   "collar gap"
+  ]
+ },
+ {
+  "id": "fashion-424",
+  "term": "rippling",
+  "definition": "A term for a state where fabric or seams aren't smooth and wrinkle like waves.",
+  "example": "Please check the cause of the rippling around the zipper.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "ripple",
+   "fabric ripples",
+   "seam ripples"
+  ]
+ },
+ {
+  "id": "fashion-425",
+  "term": "body width",
+  "definition": "A term for the width or ease of a garment's body section.",
+  "example": "Keep the total length and just widen the body a little.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "chest width",
+   "garment width"
+  ]
+ },
+ {
+  "id": "fashion-426",
+  "term": "hand feel",
+  "definition": "The sensation—softness, resilience, roughness—felt when touching fabric by hand.",
+  "example": "Check that the hand feel doesn't become too rough after washing.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "hand feel",
+   "touch feel",
+   "fabric touch"
+  ]
+ },
+ {
+  "id": "fashion-427",
+  "term": "drape",
+  "definition": "A term describing the form in which a garment or fabric falls along the body and gravity.",
+  "example": "Revise it to a fit where the hem drapes naturally.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "draping fit",
+   "garment drape"
+  ]
+ },
+ {
+  "id": "fashion-428",
+  "term": "pull",
+  "definition": "A colloquial word used for various tasks such as making a sample, preparing quantity, or reducing measurements. What and how much must be confirmed from context.",
+  "example": "Please pull one sample so we can see it at the fitting.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "take in a size",
+   "pull a sample",
+   "pull fabric"
+  ]
+ },
+ {
+  "id": "design-272",
+  "term": "design agency",
+  "definition": "A company that designs brands, visuals, products, and digital experiences on commission from clients.",
+  "example": "Commission the brand revamp to the design agency.",
+  "category": "Design organizations & roles",
+  "aliases": [
+   "design company",
+   "specialized design firm"
+  ]
+ },
+ {
+  "id": "design-273",
+  "term": "design studio",
+  "definition": "An organization or workspace that carries out design planning and production.",
+  "example": "Review relevant work examples from the design studio.",
+  "category": "Design organizations & roles",
+  "aliases": [
+   "design workroom",
+   "studio"
+  ]
+ },
+ {
+  "id": "design-274",
+  "term": "design team",
+  "definition": "A team in charge of the design of products, brands, visuals, and experiences.",
+  "example": "Align the screen layout priorities with the design team.",
+  "category": "Design organizations & roles",
+  "aliases": [
+   "design department"
+  ]
+ },
+ {
+  "id": "design-275",
+  "term": "design lead",
+  "definition": "A role that leads a team's or project's design direction and quality.",
+  "example": "The design lead reviews the main user flows.",
+  "category": "Design organizations & roles",
+  "aliases": [
+   "lead designer",
+   "design leader"
+  ]
+ },
+ {
+  "id": "design-276",
+  "term": "product designer",
+  "definition": "A designer who designs a product's structure, experience, and screens considering user problems and business goals.",
+  "example": "The product designer improves the sign-up flow.",
+  "note": "Described in the digital product context. In industrial and product design, the same English title is also used for a role designing physical products.",
+  "category": "Design organizations & roles",
+  "aliases": [
+   "product designer",
+   "PD"
+  ]
+ },
+ {
+  "id": "design-277",
+  "term": "UX designer",
+  "definition": "A role that designs the structure, flow, and interactions of the process by which a user accomplishes a goal.",
+  "example": "The UX designer organizes the navigation flow.",
+  "category": "Design organizations & roles",
+  "aliases": [
+   "user experience designer"
+  ]
+ },
+ {
+  "id": "design-278",
+  "term": "UI designer",
+  "definition": "A role that designs the visual elements and interface expression of the screens a user operates.",
+  "example": "The UI designer aligns the button states and spacing.",
+  "category": "Design organizations & roles",
+  "aliases": [
+   "interface designer"
+  ]
+ },
+ {
+  "id": "design-279",
+  "term": "BX designer",
+  "definition": "A role that designs so a brand's identity is experienced consistently across many touchpoints.",
+  "example": "The BX designer connects the tone of the packaging and the space.",
+  "category": "Design organizations & roles",
+  "aliases": [
+   "brand experience designer"
+  ]
+ },
+ {
+  "id": "design-280",
+  "term": "graphic designer",
+  "definition": "A designer who conveys messages visually through type, images, color, and composition.",
+  "example": "The graphic designer creates the poster and leaflet.",
+  "category": "Design organizations & roles",
+  "aliases": [
+   "visual designer"
+  ]
+ },
+ {
+  "id": "design-281",
+  "term": "editorial designer",
+  "definition": "A designer who arranges the text and images of books, magazines, and brochures into readable pages.",
+  "example": "The editorial designer lays out the body text and figures.",
+  "category": "Design organizations & roles",
+  "aliases": [
+   "editorial designer"
+  ]
+ },
+ {
+  "id": "design-282",
+  "term": "motion designer",
+  "definition": "A designer who designs movement for type, shapes, and images to convey a message and mood.",
+  "example": "The motion designer produces the logo animation.",
+  "category": "Design organizations & roles",
+  "aliases": [
+   "motion graphics designer"
+  ]
+ },
+ {
+  "id": "design-283",
+  "term": "illustrator",
+  "definition": "A worker who expresses messages or scenes through drawing.",
+  "example": "Commission the illustrator for the packaging artwork.",
+  "note": "This means the person's role. Distinguish it from the Adobe Illustrator program of the same name.",
+  "category": "Design organizations & roles",
+  "aliases": [
+   "illustrator",
+   "illustration artist"
+  ]
+ },
+ {
+  "id": "design-284",
+  "term": "UX researcher",
+  "definition": "A role that researches user behavior, problems, and context to create the evidence needed for product and design decisions.",
+  "example": "The UX researcher organizes recurring problems from the interviews.",
+  "category": "Design organizations & roles",
+  "aliases": [
+   "user researcher",
+   "UX researcher"
+  ]
+ },
+ {
+  "id": "design-285",
+  "term": "UX writer",
+  "definition": "A role that designs on-screen guidance, buttons, and error messages so users can understand the product and act.",
+  "example": "The UX writer refines the error messages to be easy to understand.",
+  "category": "Design organizations & roles",
+  "aliases": [
+   "UX writing lead",
+   "UX writer"
+  ]
+ },
+ {
+  "id": "design-286",
+  "term": "UX",
+  "definition": "The whole experience a user has while encountering and using a product or service.",
+  "example": "Check the UX of the entire purchase process rather than a single screen.",
+  "category": "User experience design",
+  "aliases": [
+   "user experience",
+   "UX"
+  ]
+ },
+ {
+  "id": "dev-325",
+  "term": "UX",
+  "definition": "The whole experience a user has while encountering and using a product or service.",
+  "example": "Review the purchase UX and the processing logic together so a duplicate request doesn't create two orders.",
+  "category": "User experience design",
+  "aliases": [
+   "user experience",
+   "UX"
+  ]
+ },
+ {
+  "id": "design-287",
+  "term": "UI",
+  "definition": "The touchpoints—screens, inputs, outputs—through which a user sees and operates a system.",
+  "example": "Adjust it so the UI reads even on small screens.",
+  "category": "User experience design",
+  "aliases": [
+   "user interface",
+   "UI"
+  ]
+ },
+ {
+  "id": "dev-326",
+  "term": "UI",
+  "definition": "The touchpoints—screens, inputs, outputs—through which a user sees and operates a system.",
+  "example": "Handle it so the UI doesn't break even when the API response is empty.",
+  "category": "User experience design",
+  "aliases": [
+   "user interface",
+   "UI"
+  ]
+ },
+ {
+  "id": "design-288",
+  "term": "IA",
+  "definition": "The work of designing classification, hierarchy, and navigation relationships so information is easy to find and understand.",
+  "example": "Organize the IA first, then name the menus.",
+  "category": "User experience design",
+  "aliases": [
+   "information architecture",
+   "information design"
+  ]
+ },
+ {
+  "id": "dev-327",
+  "term": "IA",
+  "definition": "The work of designing classification, hierarchy, and navigation relationships so information is easy to find and understand.",
+  "example": "Build the screen routes and menu hierarchy according to the agreed IA.",
+  "category": "User experience design",
+  "aliases": [
+   "information architecture",
+   "information design"
+  ]
+ },
+ {
+  "id": "design-289",
+  "term": "user flow",
+  "definition": "The path of screens and actions a user goes through to accomplish a goal.",
+  "example": "Reduce unnecessary steps in the sign-up user flow.",
+  "category": "User experience design",
+  "aliases": [
+   "user flow",
+   "user flow"
+  ]
+ },
+ {
+  "id": "dev-328",
+  "term": "user flow",
+  "definition": "The path of screens and actions a user goes through to accomplish a goal.",
+  "example": "Per the login user flow, implement it to return to the original page after authentication.",
+  "category": "User experience design",
+  "aliases": [
+   "user flow",
+   "user flow"
+  ]
+ }
+]

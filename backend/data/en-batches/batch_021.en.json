@@ -1,0 +1,1174 @@
+[
+ {
+  "id": "hrfinance-396",
+  "term": "Deferred Revenue",
+  "definition": "An expression for the portion of consideration received or billed that has not yet been recognized as revenue.",
+  "example": "We recognize the deferred revenue from the annual maintenance fee over the service provision period.",
+  "category": "Closing, ERP & Internal Control",
+  "aliases": [
+   "Unearned Revenue"
+  ]
+ },
+ {
+  "id": "hrfinance-397",
+  "term": "Capitalization",
+  "definition": "Recognizing expenditure as an asset according to the applicable criteria rather than immediately expensing it.",
+  "example": "We review whether the development cost spending meets the criteria for capitalization.",
+  "category": "Closing, ERP & Internal Control",
+  "aliases": [
+   "Capitalization"
+  ]
+ },
+ {
+  "id": "hrfinance-398",
+  "term": "Expensing",
+  "definition": "The treatment of recognizing expenditure and the like as an expense of the relevant period rather than keeping it as an asset.",
+  "example": "For general maintenance spending, we distinguish items to be capitalized from items to be expensed.",
+  "category": "Closing, ERP & Internal Control",
+  "aliases": [
+   "Expense Recognition"
+  ]
+ },
+ {
+  "id": "hrfinance-399",
+  "term": "GR/IR",
+  "definition": "An ERP account or processing area that temporarily manages timing and amount differences between goods receipt and the purchase invoice.",
+  "example": "In the GR/IR balance, we check the items received but for which no invoice has arrived.",
+  "category": "Closing, ERP & Internal Control",
+  "aliases": [
+   "GRIR",
+   "Goods Receipt/Invoice Receipt Difference"
+  ]
+ },
+ {
+  "id": "hrfinance-400",
+  "term": "Three-way Match",
+  "definition": "A control that reconciles the quantities and amounts across the purchase order, goods receipt or acceptance, and the purchase invoice.",
+  "example": "Before payment, we use the three-way match to find items billed in excess of the order.",
+  "category": "Closing, ERP & Internal Control",
+  "aliases": [
+   "3-way match",
+   "Three-way Matching"
+  ]
+ },
+ {
+  "id": "hrfinance-401",
+  "term": "Account Mapping",
+  "definition": "The task of linking different account structures to the reporting or consolidation base accounts.",
+  "example": "We map the overseas subsidiary's ledger accounts to the group reporting accounts.",
+  "category": "Closing, ERP & Internal Control"
+ },
+ {
+  "id": "hrfinance-402",
+  "term": "Consolidation Package",
+  "definition": "A set of materials gathering the financial figures, intercompany transactions, notes, and the like needed for consolidation closing in a defined format.",
+  "example": "We indicate the intercompany counterparty in the subsidiary's consolidation package.",
+  "category": "Closing, ERP & Internal Control",
+  "aliases": [
+   "Reporting Package"
+  ]
+ },
+ {
+  "id": "hrfinance-403",
+  "term": "Separate Financial Statements",
+  "definition": "Financial statements from an individual-entity perspective in which a parent and the like present their investments and the like on a defined basis.",
+  "example": "In the dividend review materials, we distinguish profit on a consolidated basis from the separate financial statements.",
+  "category": "Closing, ERP & Internal Control",
+  "aliases": [
+   "Separate Financial Statements"
+  ]
+ },
+ {
+  "id": "hrfinance-404",
+  "term": "Consolidated Financial Statements",
+  "definition": "Financial statements that present a parent and its subsidiaries as if they were a single economic entity.",
+  "example": "When preparing the consolidated financial statements, we eliminate intra-group sales.",
+  "category": "Closing, ERP & Internal Control",
+  "aliases": [
+   "Consolidated Financial Statements"
+  ]
+ },
+ {
+  "id": "hrfinance-405",
+  "term": "Goodwill",
+  "definition": "An asset recognized in a business combination as the difference between the consideration transferred and the like and the fair value of the identifiable net assets.",
+  "example": "We organize the business outlook to be used in the post-acquisition goodwill impairment review.",
+  "category": "Closing, ERP & Internal Control"
+ },
+ {
+  "id": "hrfinance-406",
+  "term": "Debit-Credit Balancing",
+  "definition": "A state in which the totals of debits and credits agree in double-entry bookkeeping. Even if the amounts match, account or attribution errors may remain.",
+  "example": "After confirming the debits and credits balance, we re-review the account and the department the expense is attributed to.",
+  "category": "Closing, ERP & Internal Control",
+  "aliases": [
+   "Debit-Credit Match"
+  ]
+ },
+ {
+  "id": "hrfinance-407",
+  "term": "FTE",
+  "definition": "A headcount unit converting working hours to a full-time basis. It can differ from headcount, which is the number of people.",
+  "example": "On a 40-hour-per-week basis, two people working 20 hours a week count as 1 FTE in total.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "Full-time Equivalent"
+  ]
+ },
+ {
+  "id": "hrfinance-408",
+  "term": "TA",
+  "definition": "The work area of finding needed talent, building relationships, and running the hiring strategy and selection process.",
+  "example": "The TA team is preparing the sourcing strategy for key roles in the second half.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "Talent Acquisition"
+  ]
+ },
+ {
+  "id": "hrfinance-409",
+  "term": "TM",
+  "definition": "An activity that develops and manages talent by linking members' competencies, performance, careers, succession, and the like.",
+  "example": "From a TM perspective, we organize the successor candidates and growth tasks for key roles.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "Talent Management"
+  ]
+ },
+ {
+  "id": "hrfinance-410",
+  "term": "L&D",
+  "definition": "The area of designing education and learning experiences to develop members' competencies and job performance.",
+  "example": "The L&D staff check training completion rates together with actual on-the-job application.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "Learning & Development"
+  ]
+ },
+ {
+  "id": "hrfinance-411",
+  "term": "OD",
+  "definition": "An activity that improves the organization's structure, culture, ways of working, and the like to raise effectiveness.",
+  "example": "As an organizational development task, we diagnose the collaboration procedures between teams.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "Organizational Development"
+  ]
+ },
+ {
+  "id": "hrfinance-412",
+  "term": "ER",
+  "definition": "The HR area that handles the employment relationship, grievances, conflicts, and the like between the company and its members.",
+  "example": "The ER staff guide the fact-finding procedure after receiving a grievance.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "Employee Relations"
+  ]
+ },
+ {
+  "id": "hrfinance-413",
+  "term": "HCM",
+  "definition": "An approach or system category that manages human resources, encompassing workforce planning, hiring, payroll, performance, development, and the like.",
+  "example": "We decide how far to include payroll and talent management in the HCM implementation scope.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "Human Capital Management"
+  ]
+ },
+ {
+  "id": "hrfinance-414",
+  "term": "HRMS",
+  "definition": "A term for the system that manages HR work such as personnel information, payroll, and attendance. The scope distinction from HRIS and HCM varies by vendor.",
+  "example": "Before the HRMS integration, we align the standards for employee IDs and organization codes.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "Human Resource Management System"
+  ]
+ },
+ {
+  "id": "hrfinance-415",
+  "term": "People Analytics",
+  "definition": "An activity that analyzes HR data to support workforce operations, organizational experience, and HR decision-making.",
+  "example": "We use people analytics to check turnover trends by organization while restricting access to personal data.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "HR Analytics"
+  ]
+ },
+ {
+  "id": "hrfinance-416",
+  "term": "Time to Hire",
+  "definition": "The period from when a candidate enters the hiring process to when they accept the offer.",
+  "example": "We aggregate time to hire separately from the time to fill since the hiring request.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "TTH",
+   "Time to Hire"
+  ]
+ },
+ {
+  "id": "hrfinance-417",
+  "term": "Recruiting Funnel",
+  "definition": "A structure for viewing candidate counts and conversions by hiring stage, such as application, screening, interview, offer, and joining.",
+  "example": "In the recruiting funnel, we check the stage with large drop-off after interviews.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "Recruiting Funnel"
+  ]
+ },
+ {
+  "id": "hrfinance-418",
+  "term": "Hiring Conversion Rate",
+  "definition": "The ratio of candidates at one hiring stage who move to the next stage.",
+  "example": "We compare the conversion rate from application to interview by role.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "Stage Conversion Rate"
+  ]
+ },
+ {
+  "id": "hrfinance-419",
+  "term": "Candidate Experience",
+  "definition": "The hiring-process experience a candidate encounters, from searching the posting to being informed of the outcome.",
+  "example": "We check the impact of delayed rejection notices on the candidate experience.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "Applicant Experience"
+  ]
+ },
+ {
+  "id": "hrfinance-420",
+  "term": "Recruitment Branding",
+  "definition": "An activity that communicates the company's value and experience as a place to work.",
+  "example": "We create recruitment branding content based on current employees' actual work experience.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "Employer Branding"
+  ]
+ },
+ {
+  "id": "hrfinance-421",
+  "term": "EVP",
+  "definition": "The value proposition an organization offers its members, such as compensation, growth, culture, and work experience.",
+  "example": "We check whether the growth opportunities stated in the EVP are backed by actual programs.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "Employee Value Proposition",
+   "Employment Value Proposition"
+  ]
+ },
+ {
+  "id": "hrfinance-422",
+  "term": "Turnover Rate",
+  "definition": "The ratio of departures over a period compared with a defined basis such as average headcount.",
+  "example": "We report the turnover rate distinguishing voluntary from involuntary departures.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "Turnover Rate",
+   "Attrition Rate"
+  ]
+ },
+ {
+  "id": "hrfinance-423",
+  "term": "Voluntary Turnover",
+  "definition": "A type of turnover where a member leaves the company of their own will.",
+  "example": "We anonymize the reasons for voluntary turnover and organize them into organizational improvement tasks.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "Voluntary Resignation"
+  ]
+ },
+ {
+  "id": "hrfinance-424",
+  "term": "Involuntary Turnover",
+  "definition": "A type where employment ends for reasons other than the person's free choice, such as dismissal.",
+  "example": "For involuntary turnover statistics, we first align the population and classification criteria.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "Involuntary Separation"
+  ]
+ },
+ {
+  "id": "hrfinance-425",
+  "term": "Early Attrition",
+  "definition": "A phenomenon where a person leaves within a short period defined by the company after joining.",
+  "example": "We examine early attrition within three months of joining alongside the onboarding process.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "Early Turnover"
+  ]
+ },
+ {
+  "id": "hrfinance-426",
+  "term": "Key Talent",
+  "definition": "A group defined by the company's criteria as talent that makes an important contribution to business performance and future capabilities.",
+  "example": "We review the key talent selection criteria together with the development plan.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "Key Talent"
+  ]
+ },
+ {
+  "id": "hrfinance-427",
+  "term": "High Potential",
+  "definition": "Talent judged highly likely to take on greater responsibilities and roles in the future.",
+  "example": "We do not treat current performance and the high-potential judgment as the same score.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "HiPo",
+   "High Potential"
+  ]
+ },
+ {
+  "id": "hrfinance-428",
+  "term": "Nine-box",
+  "definition": "A tool for discussing talent by dividing two axes, such as performance and potential, each into three levels.",
+  "example": "Before finalizing the nine-box placement, we compare the evaluation evidence.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "9-box",
+   "Nine-box Grid"
+  ]
+ },
+ {
+  "id": "hrfinance-429",
+  "term": "Span of Control",
+  "definition": "The range or number of members a single manager directly manages.",
+  "example": "We review the span of control considering work complexity and the manager's role.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "Management Scope"
+  ]
+ },
+ {
+  "id": "hrfinance-430",
+  "term": "Vacancy Rate",
+  "definition": "The ratio of positions not filled among the approved headcount.",
+  "example": "For organizations with a high vacancy rate, we jointly check workload and staffing priorities.",
+  "category": "Workforce & Recruiting Analytics"
+ },
+ {
+  "id": "hrfinance-431",
+  "term": "Revenue per Employee",
+  "definition": "An indicator dividing sales by a defined workforce basis such as average headcount.",
+  "example": "We compare revenue per employee after aligning whether outsourced workers are included.",
+  "category": "Workforce & Recruiting Analytics",
+  "aliases": [
+   "Productivity per Employee"
+  ]
+ },
+ {
+  "id": "hrfinance-432",
+  "term": "Compa-ratio",
+  "definition": "A ratio dividing an individual's pay by a defined reference pay such as the midpoint of the relevant pay range.",
+  "example": "In promotion reviews, we examine the compa-ratio together with the role and performance.",
+  "category": "Compensation Design & Payroll Operations",
+  "aliases": [
+   "Compa Ratio"
+  ]
+ },
+ {
+  "id": "hrfinance-433",
+  "term": "Range Penetration",
+  "definition": "A ratio showing where pay sits between the minimum and maximum of the pay band.",
+  "example": "When viewing range penetration, we check whether the applicable band has changed.",
+  "category": "Compensation Design & Payroll Operations",
+  "aliases": [
+   "Range Penetration",
+   "Range Position"
+  ]
+ },
+ {
+  "id": "hrfinance-434",
+  "term": "Merit Increase",
+  "definition": "Raising base pay based on individual performance, contribution, and the like.",
+  "example": "Before allocating the merit increase budget, we align the evaluation criteria.",
+  "category": "Compensation Design & Payroll Operations",
+  "aliases": [
+   "Performance-based Increase"
+  ]
+ },
+ {
+  "id": "hrfinance-435",
+  "term": "Merit Matrix",
+  "definition": "A table that guides increase-rate ranges by combinations such as performance rating and pay position.",
+  "example": "We also set the exception approval criteria for the merit matrix.",
+  "category": "Compensation Design & Payroll Operations",
+  "aliases": [
+   "Salary Increase Matrix"
+  ]
+ },
+ {
+  "id": "hrfinance-436",
+  "term": "STI",
+  "definition": "Compensation paid based on a relatively short performance period, such as a year.",
+  "example": "We confirm the weighting of company performance versus individual performance in the STI.",
+  "category": "Compensation Design & Payroll Operations",
+  "aliases": [
+   "Short-term Incentive"
+  ]
+ },
+ {
+  "id": "hrfinance-437",
+  "term": "LTI",
+  "definition": "Compensation linked to long-term conditions such as performance over several years or continued service.",
+  "example": "We distinguish the performance measurement period and the payment timing of the LTI.",
+  "category": "Compensation Design & Payroll Operations",
+  "aliases": [
+   "Long-term Incentive"
+  ]
+ },
+ {
+  "id": "hrfinance-438",
+  "term": "Signing Bonus",
+  "definition": "A one-time compensation provided on condition of accepting an offer or joining.",
+  "example": "We confirm in writing the payment timing and clawback conditions of the signing bonus.",
+  "category": "Compensation Design & Payroll Operations",
+  "aliases": [
+   "Sign-on Bonus"
+  ]
+ },
+ {
+  "id": "hrfinance-439",
+  "term": "Retention Bonus",
+  "definition": "Compensation given on meeting a retention condition such as a set period of service.",
+  "example": "We explain that the retention bonus is separate from a base pay increase.",
+  "category": "Compensation Design & Payroll Operations",
+  "aliases": [
+   "Stay Bonus"
+  ]
+ },
+ {
+  "id": "hrfinance-440",
+  "term": "Stock Option",
+  "definition": "The right to buy company shares and the like at a set condition and price.",
+  "example": "We distinguish the number of options granted and the exercise price in the compensation statement.",
+  "category": "Compensation Design & Payroll Operations",
+  "aliases": [
+   "Stock Option"
+  ]
+ },
+ {
+  "id": "hrfinance-441",
+  "term": "RSU",
+  "definition": "A compensation unit designed so that, after meeting set service or performance conditions, the recipient receives shares or equivalent value.",
+  "example": "We separately explain the grant date and the actual vesting schedule of the RSU.",
+  "category": "Compensation Design & Payroll Operations",
+  "aliases": [
+   "Restricted Stock Unit"
+  ]
+ },
+ {
+  "id": "hrfinance-442",
+  "term": "Vesting",
+  "definition": "The process by which rights become fixed according to service or performance conditions in stock compensation and the like.",
+  "example": "We check the number vested as of the departure date.",
+  "category": "Compensation Design & Payroll Operations",
+  "aliases": [
+   "Vesting Schedule"
+  ]
+ },
+ {
+  "id": "hrfinance-443",
+  "term": "Cliff",
+  "definition": "A compensation condition where no rights vest before a set period elapses, with defined rights vesting from that point.",
+  "example": "We confirm the vesting method applied after the 1-year cliff.",
+  "category": "Compensation Design & Payroll Operations",
+  "aliases": [
+   "Cliff Period"
+  ]
+ },
+ {
+  "id": "hrfinance-444",
+  "term": "Grant",
+  "definition": "Awarding stock compensation and the like to the recipient under set conditions.",
+  "example": "We check whether the grant approval date differs from the vesting start date.",
+  "category": "Compensation Design & Payroll Operations",
+  "aliases": [
+   "Award"
+  ]
+ },
+ {
+  "id": "hrfinance-445",
+  "term": "Exercise Price",
+  "definition": "The set price paid to buy shares when exercising a right such as a stock option.",
+  "example": "We communicate the exercise price and the current share value separately.",
+  "category": "Compensation Design & Payroll Operations",
+  "aliases": [
+   "Strike Price"
+  ]
+ },
+ {
+  "id": "hrfinance-446",
+  "term": "Gross Pay",
+  "definition": "An expression for the amount paid before deductions in payroll calculation. It must be distinguished from the tax-law total salary in its calculation scope.",
+  "example": "We check the deduction items between gross pay and take-home pay.",
+  "category": "Compensation Design & Payroll Operations",
+  "aliases": [
+   "Gross Salary",
+   "Pre-tax Pay"
+  ]
+ },
+ {
+  "id": "hrfinance-447",
+  "term": "Gross-up",
+  "definition": "Back-calculating and adjusting the payment amount considering taxes, deductions, and the like to meet a target take-home amount.",
+  "example": "We confirm the taxes covered and the application scope of the gross-up agreement.",
+  "category": "Compensation Design & Payroll Operations",
+  "aliases": [
+   "Gross Up",
+   "Net-to-Gross"
+  ]
+ },
+ {
+  "id": "hrfinance-448",
+  "term": "Off-cycle Payroll",
+  "definition": "A payroll payment processed separately outside the regular payroll schedule.",
+  "example": "We pay the omitted allowance via off-cycle payroll and check for duplicate reflection.",
+  "category": "Compensation Design & Payroll Operations",
+  "aliases": [
+   "Off-cycle Pay"
+  ]
+ },
+ {
+  "id": "hrfinance-449",
+  "term": "Payroll Transfer File",
+  "definition": "A file organizing recipients, accounts, payment amounts, and the like for bank transfer.",
+  "example": "We reconcile the payroll transfer file total with the approved payroll register total.",
+  "category": "Compensation Design & Payroll Operations",
+  "aliases": [
+   "Payroll File",
+   "Payment File"
+  ]
+ },
+ {
+  "id": "hrfinance-450",
+  "term": "Payroll Input Data",
+  "definition": "Input data to reflect in the relevant payroll calculation, such as joiners and leavers, attendance, allowance, and deduction changes.",
+  "example": "Changes after the payroll input cutoff are managed with separate approval.",
+  "category": "Compensation Design & Payroll Operations",
+  "aliases": [
+   "Payroll Inputs"
+  ]
+ },
+ {
+  "id": "hrfinance-451",
+  "term": "Labor Cost Accrual",
+  "definition": "The treatment of reflecting expenses and liabilities for pay, bonuses, and the like incurred in the period even before payment.",
+  "example": "At closing, we review the labor cost accrual for bonuses not yet paid.",
+  "category": "Compensation Design & Payroll Operations",
+  "aliases": [
+   "Payroll Accrual"
+  ]
+ },
+ {
+  "id": "hrfinance-452",
+  "term": "AOP",
+  "definition": "A plan organizing the next year's sales, costs, workforce, investment, and execution direction.",
+  "example": "We align the AOP's sales assumptions with the hiring plan.",
+  "category": "Budgeting, Costing & Management Reporting",
+  "aliases": [
+   "Annual Operating Plan"
+  ]
+ },
+ {
+  "id": "hrfinance-453",
+  "term": "Long-range Plan",
+  "definition": "A plan organizing the business direction and financial, workforce, and investment goals over several years.",
+  "example": "We reflect the timing of the capacity expansion in the long-range plan in the funding outlook.",
+  "category": "Budgeting, Costing & Management Reporting",
+  "aliases": [
+   "LRP",
+   "Mid-term Plan"
+  ]
+ },
+ {
+  "id": "hrfinance-454",
+  "term": "Zero-based Budgeting",
+  "definition": "A budgeting method that does not take the prior year's budget as the starting point but re-examines the necessity and scale of spending.",
+  "example": "With zero-based budgeting, we re-confirm the necessity of recurring subscription costs.",
+  "category": "Budgeting, Costing & Management Reporting",
+  "aliases": [
+   "ZBB"
+  ]
+ },
+ {
+  "id": "hrfinance-455",
+  "term": "Driver-based Planning",
+  "definition": "A method that calculates the financial plan by linking operational factors such as headcount, sales volume, and unit price.",
+  "example": "We split the labor cost plan into the drivers of headcount and average salary.",
+  "category": "Budgeting, Costing & Management Reporting",
+  "aliases": [
+   "Driver-based Planning"
+  ]
+ },
+ {
+  "id": "hrfinance-456",
+  "term": "Scenario Analysis",
+  "definition": "An analysis comparing how results or funding situations change under several sets of assumptions.",
+  "example": "We compare the cash balance by base, upside, and downside scenario.",
+  "category": "Budgeting, Costing & Management Reporting",
+  "aliases": [
+   "Base Case",
+   "Upside",
+   "Downside"
+  ]
+ },
+ {
+  "id": "hrfinance-457",
+  "term": "Headroom",
+  "definition": "A practical expression for the remaining margin up to a set standard such as a borrowing limit, financial covenant, or budget.",
+  "example": "Covenant headroom shrank, so we inspect the impact of additional borrowing.",
+  "category": "Budgeting, Costing & Management Reporting",
+  "aliases": [
+   "Available Margin"
+  ]
+ },
+ {
+  "id": "hrfinance-458",
+  "term": "Contingency",
+  "definition": "A budget set aside to prepare for unexpected costs or risks.",
+  "example": "We set contingency as a separate line item in the project budget.",
+  "category": "Budgeting, Costing & Management Reporting",
+  "aliases": [
+   "Reserve",
+   "Contingency Budget"
+  ]
+ },
+ {
+  "id": "hrfinance-459",
+  "term": "Committed Cost",
+  "definition": "A cost for which an obligation to spend in the future has already arisen through an order, contract, and the like.",
+  "example": "In the remaining budget, we also check committed costs not yet paid.",
+  "category": "Budgeting, Costing & Management Reporting",
+  "aliases": [
+   "Commitment",
+   "Pre-committed Cost"
+  ]
+ },
+ {
+  "id": "hrfinance-460",
+  "term": "Profit Center",
+  "definition": "An organizational or management unit that manages revenue and cost together to evaluate profit responsibility.",
+  "example": "We apply the same common-cost allocation basis to the profit and loss of each profit center.",
+  "category": "Budgeting, Costing & Management Reporting",
+  "aliases": [
+   "Profit Center"
+  ]
+ },
+ {
+  "id": "hrfinance-461",
+  "term": "Business Unit P&L",
+  "definition": "A management report gathering sales, cost, expense, and profit by business unit.",
+  "example": "We show the business unit P&L figures before and after common-cost allocation separately.",
+  "category": "Budgeting, Costing & Management Reporting",
+  "aliases": [
+   "BU P&L"
+  ]
+ },
+ {
+  "id": "hrfinance-462",
+  "term": "PVM Analysis",
+  "definition": "An analysis that decomposes changes in sales and profit into changes in price, volume, product mix, and the like.",
+  "example": "With PVM analysis, we separate out the price-increase effect within the sales growth.",
+  "category": "Budgeting, Costing & Management Reporting",
+  "aliases": [
+   "Price-Volume-Mix Analysis"
+  ]
+ },
+ {
+  "id": "hrfinance-463",
+  "term": "Absorption Costing",
+  "definition": "A costing method that reflects both variable manufacturing costs and fixed manufacturing overhead in product cost.",
+  "example": "We distinguish absorption costing from the variable-costing-based profit used for management purposes.",
+  "category": "Budgeting, Costing & Management Reporting",
+  "aliases": [
+   "Full Costing"
+  ]
+ },
+ {
+  "id": "hrfinance-464",
+  "term": "Variable Costing",
+  "definition": "A costing method that charges variable manufacturing costs to products and treats fixed manufacturing overhead as a period cost.",
+  "example": "With variable costing, we compare the contribution margin by product.",
+  "category": "Budgeting, Costing & Management Reporting",
+  "aliases": [
+   "Direct Costing"
+  ]
+ },
+ {
+  "id": "hrfinance-465",
+  "term": "Activity-based Costing",
+  "definition": "A method that allocates costs incurred by activity to products, services, and the like according to what caused the activity.",
+  "example": "Using the number of inspections as the cost driver, we calculate activity-based costing.",
+  "category": "Budgeting, Costing & Management Reporting",
+  "aliases": [
+   "ABC"
+  ]
+ },
+ {
+  "id": "hrfinance-466",
+  "term": "Cost Driver",
+  "definition": "A factor such as activity volume or time that affects the incurrence or change of cost.",
+  "example": "We review whether the cost driver of logistics cost is the number of shipments or the weight.",
+  "category": "Budgeting, Costing & Management Reporting",
+  "aliases": [
+   "Cost Driver"
+  ]
+ },
+ {
+  "id": "hrfinance-467",
+  "term": "Standard Time",
+  "definition": "The baseline time needed to perform an operation under defined conditions.",
+  "example": "We reflect the difference between standard time and actual time in the labor cost analysis.",
+  "category": "Budgeting, Costing & Management Reporting"
+ },
+ {
+  "id": "hrfinance-468",
+  "term": "Utilization Rate",
+  "definition": "The ratio of the capacity of available equipment, time, and the like that was actually used. We align the denominator basis for comparison.",
+  "example": "We report the impact of a falling plant utilization rate on the fixed cost burden.",
+  "category": "Budgeting, Costing & Management Reporting",
+  "aliases": [
+   "Equipment Utilization Rate"
+  ]
+ },
+ {
+  "id": "hrfinance-469",
+  "term": "Non-operating Income",
+  "definition": "An expression classifying income arising outside the company's main operating activities. We confirm the presentation framework of the applicable accounting standards.",
+  "example": "We distinguish income related to asset disposal from recurring operating performance.",
+  "category": "Budgeting, Costing & Management Reporting"
+ },
+ {
+  "id": "hrfinance-470",
+  "term": "Non-operating Expense",
+  "definition": "An expression classifying expenses arising outside the main operating activities. Presentation may differ by the applicable accounting standards.",
+  "example": "We separately explain the impact of financial costs on overall profit or loss.",
+  "category": "Budgeting, Costing & Management Reporting"
+ },
+ {
+  "id": "hrfinance-471",
+  "term": "Pre-tax Profit",
+  "definition": "Profit before reflecting corporate tax expense.",
+  "example": "We reflect corporate tax expense on pre-tax profit to explain the change in net income.",
+  "category": "Budgeting, Costing & Management Reporting",
+  "aliases": [
+   "PBT",
+   "EBT",
+   "Profit Before Tax"
+  ]
+ },
+ {
+  "id": "marketing-639",
+  "term": "Media Efficiency",
+  "definition": "A perspective evaluating how much target performance such as reach and conversion is achieved relative to the budget invested.",
+  "example": "We judge media efficiency by looking not only at cost per click but also at conversion quality.",
+  "category": "Ad Strategy & Operations"
+ },
+ {
+  "id": "marketing-640",
+  "term": "Search Lift",
+  "definition": "An indicator of how much brand- or product-related search increased due to campaign exposure and the like.",
+  "example": "We distinguish the search lift from the video campaign from organic search growth.",
+  "category": "Ad Strategy & Operations"
+ },
+ {
+  "id": "marketing-641",
+  "term": "MQL",
+  "definition": "A lead classified as a target for follow-up because it meets the interest and fit criteria set by marketing activity.",
+  "example": "We agree on additional conditions for whether a whitepaper download alone counts as an MQL.",
+  "category": "Ad Strategy & Operations",
+  "aliases": [
+   "Marketing Qualified Lead"
+  ]
+ },
+ {
+  "id": "marketing-642",
+  "term": "SQL",
+  "definition": "A lead the sales team judges to be an actual sales opportunity after reviewing purchase likelihood, fit, and the like.",
+  "example": "We align with the sales team on the criteria for an MQL to become an SQL.",
+  "category": "Ad Strategy & Operations",
+  "aliases": [
+   "Sales Qualified Lead"
+  ]
+ },
+ {
+  "id": "marketing-643",
+  "term": "ABM",
+  "definition": "A method in which key corporate customer groups are selected and marketing and sales collaborate in a way tailored to each company's situation.",
+  "example": "We design the decision-makers and content for each ABM target company.",
+  "category": "Ad Strategy & Operations",
+  "aliases": [
+   "Account-based Marketing"
+  ]
+ },
+ {
+  "id": "marketing-644",
+  "term": "Conversion Value",
+  "definition": "The value assigned to a conversion based on purchase amount, business contribution, and the like.",
+  "example": "We check that canceled orders are not double-counted in the conversion value of purchase events.",
+  "category": "Ad Strategy & Operations"
+ },
+ {
+  "id": "marketing-645",
+  "term": "Optimization Score",
+  "definition": "A score in Google Ads that, along with recommendations, presents the room for performance improvement for an account and the like. It does not itself mean actual sales performance.",
+  "example": "Even if the optimization score is high, we separately review whether it fits the profitability goal.",
+  "category": "Ad Strategy & Operations"
+ },
+ {
+  "id": "marketing-646",
+  "term": "Conversion Delay",
+  "definition": "The delay from the ad interaction to the actual conversion or to when that conversion is reported.",
+  "example": "Before finalizing yesterday's performance, we account for conversion delay.",
+  "category": "Ad Strategy & Operations",
+  "aliases": [
+   "Conversion Lag"
+  ]
+ },
+ {
+  "id": "marketing-647",
+  "term": "Smart Bidding",
+  "definition": "A Google Ads bidding system that automatically adjusts bids per auction, targeting conversions or conversion value.",
+  "example": "Before using Smart Bidding, we check the accuracy of conversion measurement.",
+  "category": "Ad Strategy & Operations",
+  "aliases": [
+   "Automated Smart Bidding"
+  ]
+ },
+ {
+  "id": "marketing-648",
+  "term": "Creative Testing",
+  "definition": "The work of comparing how differences in image, copy, format, and the like affect ad performance.",
+  "example": "In creative testing, we record the changed element and the comparison period.",
+  "category": "Ad Strategy & Operations",
+  "aliases": [
+   "Creative Test"
+  ]
+ },
+ {
+  "id": "marketing-649",
+  "term": "Learning Phase",
+  "definition": "The stage in which the ad delivery system learns the performance pattern to match new settings and the like.",
+  "example": "Seeing fluctuations in the learning phase, we do not immediately conclude the creative failed.",
+  "category": "Ad Strategy & Operations",
+  "aliases": [
+   "Learning Period"
+  ]
+ },
+ {
+  "id": "marketing-650",
+  "term": "Ad Server",
+  "definition": "A system that delivers ad creatives and processes records such as impressions and clicks.",
+  "example": "We align the aggregation basis of the ad server and the media report.",
+  "category": "Ad Strategy & Operations",
+  "aliases": [
+   "Ad Server"
+  ]
+ },
+ {
+  "id": "marketing-651",
+  "term": "Viewability",
+  "definition": "An indicator of whether an ad met the conditions to be actually viewable on a user's screen, such as a defined area and duration.",
+  "example": "We check impressions together with viewability to review media quality.",
+  "category": "Ad Strategy & Operations",
+  "aliases": [
+   "Ad Viewability"
+  ]
+ },
+ {
+  "id": "marketing-652",
+  "term": "Brand Safety",
+  "definition": "Managing the risk of ads being shown next to inappropriate or harmful content.",
+  "example": "We set exclusion categories in line with brand safety criteria.",
+  "category": "Ad Strategy & Operations",
+  "aliases": [
+   "Brand Safety"
+  ]
+ },
+ {
+  "id": "dev-459",
+  "term": "Debounce",
+  "definition": "A method that groups repeated calls over short intervals and executes only when no additional call occurs for a set time.",
+  "example": "We debounce the search input so a request does not fire on every keystroke.",
+  "category": "Development Implementation & Operations",
+  "aliases": [
+   "Debouncing"
+  ]
+ },
+ {
+  "id": "dev-460",
+  "term": "Throttle",
+  "definition": "A method that limits the execution frequency of a repeated task by a set time interval and the like.",
+  "example": "We throttle scroll event handling to reduce excessive computation.",
+  "category": "Development Implementation & Operations",
+  "aliases": [
+   "Throttling"
+  ]
+ },
+ {
+  "id": "dev-461",
+  "term": "Event Loop",
+  "definition": "An execution structure that coordinates pending tasks, callbacks, and the like to be processed in execution order.",
+  "example": "We check whether a heavy synchronous computation blocks the event loop and freezes the screen.",
+  "category": "Development Implementation & Operations"
+ },
+ {
+  "id": "dev-462",
+  "term": "Serialization",
+  "definition": "The process of converting an object or data into a format that can be stored or transmitted.",
+  "example": "When serializing dates and large integers to JSON, we check for loss.",
+  "category": "Development Implementation & Operations",
+  "aliases": [
+   "Serialize"
+  ]
+ },
+ {
+  "id": "dev-463",
+  "term": "Deserialization",
+  "definition": "The process of restoring data in a stored or transmitted format into a structure usable by the program.",
+  "example": "After deserializing external input, we validate whether it is the expected data type.",
+  "category": "Development Implementation & Operations",
+  "aliases": [
+   "Deserialize"
+  ]
+ },
+ {
+  "id": "dev-464",
+  "term": "Pagination",
+  "definition": "A method of loading and displaying a long list in units of pages or cursors.",
+  "example": "We review cursor pagination so that duplicates do not occur when new items are inserted.",
+  "category": "Development Implementation & Operations",
+  "aliases": [
+   "Paging"
+  ]
+ },
+ {
+  "id": "dev-465",
+  "term": "Rate Limit",
+  "definition": "Limiting the number of requests allowed over a period based on criteria such as user, key, or address.",
+  "example": "When we hit the rate limit, we increase the retry interval.",
+  "category": "Development Implementation & Operations",
+  "aliases": [
+   "Request Limit",
+   "Rate Limiting"
+  ]
+ },
+ {
+  "id": "dev-466",
+  "term": "Circuit Breaker",
+  "definition": "A pattern that temporarily suspends repeatedly failing external calls to reduce the spread of failures.",
+  "example": "If payment service errors repeat, we restrict calls with a circuit breaker.",
+  "category": "Development Implementation & Operations"
+ },
+ {
+  "id": "dev-467",
+  "term": "Retry",
+  "definition": "Re-executing a task that ended in a temporary failure.",
+  "example": "We attach an idempotency key to payment retries to prevent duplicate payments.",
+  "category": "Development Implementation & Operations",
+  "aliases": [
+   "Retry"
+  ]
+ },
+ {
+  "id": "dev-468",
+  "term": "Exponential Backoff",
+  "definition": "A method that gradually increases the wait interval between retries.",
+  "example": "We mix in random delay with exponential backoff so simultaneous retries do not pile up.",
+  "category": "Development Implementation & Operations",
+  "aliases": [
+   "Backoff"
+  ]
+ },
+ {
+  "id": "dev-469",
+  "term": "Observability",
+  "definition": "The property of being able to understand a system's internal state and problems through outputs such as logs, metrics, and traces.",
+  "example": "We reinforce observability to see at which service a request slowed down.",
+  "category": "Development Implementation & Operations",
+  "aliases": [
+   "Observability"
+  ]
+ },
+ {
+  "id": "dev-470",
+  "term": "Distributed Tracing",
+  "definition": "A method of tracing a request across multiple services by connecting its path and processing time.",
+  "example": "We link the API and message-processing segments by trace ID.",
+  "category": "Development Implementation & Operations",
+  "aliases": [
+   "Tracing"
+  ]
+ },
+ {
+  "id": "dev-471",
+  "term": "ETL",
+  "definition": "A processing flow that extracts data, transforms it, and then loads it into the target store.",
+  "example": "We inspect duplicate loads and failure points in the ETL job.",
+  "category": "Development Implementation & Operations",
+  "aliases": [
+   "Extract, Transform, Load"
+  ]
+ },
+ {
+  "id": "dev-472",
+  "term": "ELT",
+  "definition": "A flow that extracts data, loads it into the target store first, and then transforms it there.",
+  "example": "In the ELT model, we distinguish the refresh timing of the raw and processed tables.",
+  "category": "Development Implementation & Operations",
+  "aliases": [
+   "Extract, Load, Transform"
+  ]
+ },
+ {
+  "id": "dev-473",
+  "term": "RBAC",
+  "definition": "A method of controlling resource access by linking permissions to user roles.",
+  "example": "We separate the RBAC permissions of administrators and read-only staff.",
+  "category": "Development Implementation & Operations",
+  "aliases": [
+   "Role-based Access Control"
+  ]
+ },
+ {
+  "id": "fashion-601",
+  "term": "SS",
+  "definition": "A season notation that plans and sells spring and summer products together.",
+  "example": "We align the fabric confirmation timing of the SS collection with the production schedule.",
+  "category": "Product, Fabric & Production",
+  "aliases": [
+   "S/S",
+   "Spring/Summer Season"
+  ]
+ },
+ {
+  "id": "fashion-602",
+  "term": "FW",
+  "definition": "A season notation that plans and sells fall and winter products together.",
+  "example": "We first check the fill-material procurement schedule for FW outerwear.",
+  "category": "Product, Fabric & Production",
+  "aliases": [
+   "F/W",
+   "AW",
+   "A/W",
+   "Fall/Winter Season"
+  ]
+ },
+ {
+  "id": "fashion-603",
+  "term": "Capsule Collection",
+  "definition": "A collection composed of a small number of products with a consistent concept.",
+  "example": "In a capsule collection, we coordinate colors and silhouettes so items can be mixed and matched.",
+  "category": "Product, Fabric & Production"
+ },
+ {
+  "id": "fashion-604",
+  "term": "Full Price",
+  "definition": "The normal price without a discount applied, or selling at that price.",
+  "example": "We treat styles with a high share of full-price sales as reorder candidates.",
+  "category": "Product, Fabric & Production",
+  "aliases": [
+   "Full-price Sale"
+  ]
+ },
+ {
+  "id": "fashion-605",
+  "term": "IMU",
+  "definition": "An initial margin indicator based on the difference between a product's initial retail price and its cost. We confirm the calculation denominator.",
+  "example": "We distinguish the planning-stage IMU from the actual margin after discounts.",
+  "category": "Product, Fabric & Production",
+  "aliases": [
+   "Initial Markup"
+  ]
+ },
+ {
+  "id": "fashion-606",
+  "term": "Marker Efficiency",
+  "definition": "An indicator of the proportion of the cutting layout area actually occupied by pattern pieces.",
+  "example": "We change the size combination to compare marker efficiency and fabric waste.",
+  "category": "Product, Fabric & Production",
+  "aliases": [
+   "Marking Efficiency"
+  ]
+ },
+ {
+  "id": "fashion-607",
+  "term": "Joining Seam",
+  "definition": "The work of joining and sewing two or more cut pieces together.",
+  "example": "Before the shoulder joining seam, we check the left-right pattern direction.",
+  "category": "Product, Fabric & Production"
+ },
+ {
+  "id": "fashion-608",
+  "term": "Double-needle Stitch",
+  "definition": "A method of making parallel seam lines with two needles and the like, or an expression for such a seam.",
+  "example": "We match the spacing and tension of the hem double-needle stitch to the sample.",
+  "category": "Product, Fabric & Production",
+  "aliases": [
+   "Two-row Stitch"
+  ]
+ },
+ {
+  "id": "fashion-609",
+  "term": "Stitch Length",
+  "definition": "The length between consecutive stitches in a seam. It is distinguished from stitch count, the number of stitches per unit length.",
+  "example": "We adjust the stitch length and tension together so thin fabric does not pucker.",
+  "category": "Product, Fabric & Production",
+  "aliases": [
+   "Stitch Length"
+  ]
+ },
+ {
+  "id": "fashion-610",
+  "term": "Warp Knitting",
+  "definition": "A knitting method that connects loops from multiple yarns in the warp direction.",
+  "example": "We lay out the pattern considering the stretch direction of the warp-knit fabric.",
+  "category": "Product, Fabric & Production"
+ },
+ {
+  "id": "fashion-611",
+  "term": "Weft Knitting",
+  "definition": "A knitting method that connects loops of yarn running in the crosswise direction.",
+  "example": "For weft-knit fabric, we check the dimensional change after washing with a sample.",
+  "category": "Product, Fabric & Production"
+ },
+ {
+  "id": "fashion-612",
+  "term": "Plain Weave",
+  "definition": "A basic woven structure where warp and weft cross over and under alternately.",
+  "example": "We compare the density and sheer-through of plain-weave shirt fabric.",
+  "category": "Product, Fabric & Production"
+ },
+ {
+  "id": "fashion-613",
+  "term": "Twill Weave",
+  "definition": "A woven structure in which diagonal patterns appear as the crossing points of warp and weft shift.",
+  "example": "We match the diagonal direction of twill fabric when cutting.",
+  "category": "Product, Fabric & Production",
+  "aliases": [
+   "Twill"
+  ]
+ },
+ {
+  "id": "fashion-614",
+  "term": "Satin Weave",
+  "definition": "A woven structure where the floats of yarn are long and the crossing points are dispersed, so a sheen tends to appear on the surface.",
+  "example": "For satin-weave fabric, we check surface snagging and seam slippage.",
+  "category": "Product, Fabric & Production",
+  "aliases": [
+   "Sateen Weave"
+  ]
+ },
+ {
+  "id": "film-510",
+  "term": "Shutter Angle",
+  "definition": "A setting expressing the proportion of a frame period that is exposed, as an angle. Even at the same angle, the exposure time differs by frame rate.",
+  "example": "Before slow-motion shooting, we check the shutter angle together with lighting flicker.",
+  "category": "Cinematography & Post Techniques",
+  "aliases": [
+   "Shutter Angle"
+  ]
+ }
+]

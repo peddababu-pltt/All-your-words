@@ -1,0 +1,1296 @@
+[
+ {
+  "id": "fashion-578",
+  "term": "Price-tier structure",
+  "definition": "A structure that divides and provides the price roles and ranges of products, such as entry, core, and premium.",
+  "example": "The core tier is empty in the jacket price-tier structure, so supplement the products.",
+  "category": "Product review and merchandising meetings",
+  "aliases": [
+   "price structure",
+   "price architecture"
+  ]
+ },
+ {
+  "id": "fashion-579",
+  "term": "Target fit",
+  "definition": "The degree to which a product's style, price, and wearing occasion match the target customer's taste and lifestyle.",
+  "example": "The design is good, but check whether the length suits the target fit of commuting customers.",
+  "note": "It refers to the suitability between customer and product. Distinguish it from fit, which means the actual measurements and silhouette when worn.",
+  "category": "Product review and merchandising meetings",
+  "aliases": [
+   "target fit",
+   "targetfit",
+   "target-fit"
+  ]
+ },
+ {
+  "id": "fashion-580",
+  "term": "Brand fit",
+  "definition": "The degree to which the expression of products, styling, and collaborations suits the brand's identity and product direction.",
+  "example": "Even for a trending detail, review whether it fits our collection's brand fit.",
+  "category": "Product review and merchandising meetings",
+  "aliases": [
+   "brandfit",
+   "brand suitability"
+  ]
+ },
+ {
+  "id": "fashion-581",
+  "term": "Optimal sales timing",
+  "definition": "The appropriate time to sell a given product considering season, events, demand changes, and so on.",
+  "example": "If delivery is late, you may miss the optimal sales timing for winter outerwear.",
+  "category": "Product review and merchandising meetings",
+  "aliases": [
+   "sales timing",
+   "timely sale"
+  ]
+ },
+ {
+  "id": "fashion-582",
+  "term": "Initial order quantity",
+  "definition": "The quantity first ordered or input when starting the sale or production of a new product.",
+  "example": "Keep the initial order quantity small and reorder after seeing initial sales.",
+  "note": "It concerns the first production or order quantity. Distinguish it from the sample-making quantity or the total seasonal order quantity.",
+  "category": "Product review and merchandising meetings",
+  "aliases": [
+   "initial quantity",
+   "initial volume",
+   "initial order volume"
+  ]
+ },
+ {
+  "id": "fashion-583",
+  "term": "Sell-through plan",
+  "definition": "A plan deciding when and through which channel, price, and promotion to sell remaining products.",
+  "example": "For end-of-season inventory, look at the sell-through plan by channel, not just the discount rate.",
+  "category": "Product review and merchandising meetings",
+  "aliases": [
+   "inventory sell-through plan",
+   "sell-down plan"
+  ]
+ },
+ {
+  "id": "fashion-584",
+  "term": "Delivery delay",
+  "definition": "A situation of being later than the agreed date for raw and sub-material supply, production, or delivery.",
+  "example": "Check the impact of the sub-material delivery delay on the finished-goods arrival date.",
+  "category": "Product review and merchandising meetings",
+  "aliases": [
+   "delay",
+   "delivery slippage"
+  ]
+ },
+ {
+  "id": "fashion-585",
+  "term": "Fitting meeting",
+  "definition": "A session where a sample is worn to examine measurements, balance, movement, and so on, and decide pattern and sewing revisions.",
+  "example": "In the fitting meeting, check whether the waist and rise are uncomfortable when seated.",
+  "category": "Fitting and sample meetings",
+  "aliases": [
+   "fitting meeting",
+   "fit meeting"
+  ]
+ },
+ {
+  "id": "fashion-586",
+  "term": "Revised sample",
+  "definition": "A sample remade to reflect the comments from the previous review.",
+  "example": "In the revised sample, check whether the sleeve-width change and collar lifting are resolved.",
+  "category": "Fitting and sample meetings",
+  "aliases": [
+   "re-sample",
+   "revised sample",
+   "revised sampling"
+  ]
+ },
+ {
+  "id": "fashion-587",
+  "term": "Base size",
+  "definition": "The size used as the reference when developing the pattern, measurements, and fit, and grading to other sizes.",
+  "example": "Match the fit of the base size first, then review the size set.",
+  "category": "Fitting and sample meetings",
+  "aliases": [
+   "base size",
+   "reference size"
+  ]
+ },
+ {
+  "id": "fashion-588",
+  "term": "Wearing ease",
+  "definition": "The ease added to body measurements in a garment for movement and silhouette.",
+  "example": "Since the shirt has no stretch, check the wearing ease at the back and arms.",
+  "category": "Fitting and sample meetings",
+  "aliases": [
+   "ease amount",
+   "ease",
+   "wearing ease allowance"
+  ]
+ },
+ {
+  "id": "fashion-589",
+  "term": "Balance",
+  "definition": "A state in which the front-back and left-right length and position relationships achieve the intended balance when worn.",
+  "example": "Examine the cause of the side seam rotating forward together with the front-back balance.",
+  "note": "This is the context of a garment's pattern, measurements, and wearing balance. Distinguish it from design balance, which means visual weight on screen.",
+  "category": "Fitting and sample meetings",
+  "aliases": [
+   "fit balance",
+   "front-back balance"
+  ]
+ },
+ {
+  "id": "fashion-600",
+  "term": "Drop release",
+  "definition": "Releasing products divided into set groups and timings within a season, or such a group.",
+  "example": "Compose the second drop with lightweight outerwear to sell before the rainy season.",
+  "note": "This is the context of sequential release in fashion. It differs from the general-business drop, which means excluding an agenda item or task.",
+  "category": "Fitting and sample meetings",
+  "aliases": [
+   "drop",
+   "season drop",
+   "product drop",
+   "drop schedule"
+  ]
+ },
+ {
+  "id": "fashion-590",
+  "term": "Key style",
+  "definition": "A style selected to represent the season's design direction or sales strategy.",
+  "example": "Connect other outfits based on the silhouette of the key style.",
+  "category": "Fitting and sample meetings",
+  "aliases": [
+   "key style",
+   "keystyle"
+  ]
+ },
+ {
+  "id": "fashion-591",
+  "term": "Cost down",
+  "definition": "The work of lowering a product's cost by adjusting materials, sub-materials, processes, and so on.",
+  "example": "Even when doing a cost down, zipper durability and sewing quality must be maintained.",
+  "category": "Fitting and sample meetings",
+  "aliases": [
+   "cost down",
+   "cost reduction"
+  ]
+ },
+ {
+  "id": "fashion-592",
+  "term": "Target cost",
+  "definition": "The cost standard to be met in product development, considering the selling price, profit, and distribution conditions.",
+  "example": "It exceeds the target cost, so review alternatives for the fabric and sewing process.",
+  "category": "Fitting and sample meetings",
+  "aliases": [
+   "target cost",
+   "targeted cost"
+  ]
+ },
+ {
+  "id": "fashion-593",
+  "term": "Cost analysis",
+  "definition": "The work of breaking down costs by item such as fabric, sub-materials, labor, and processing to examine the cost structure.",
+  "example": "In the cost analysis, check how much the embroidery labor accounts for.",
+  "category": "Fitting and sample meetings",
+  "aliases": [
+   "cost breakdown",
+   "costing"
+  ]
+ },
+ {
+  "id": "fashion-594",
+  "term": "Fabric confirmation",
+  "definition": "Deciding the fabric to use in production after reviewing quality, color, price, supply, and so on.",
+  "example": "Before confirming the fabric, also check the shrinkage rate and delivery.",
+  "category": "Fitting and sample meetings",
+  "aliases": [
+   "fabric fix",
+   "material confirmation",
+   "material fix"
+  ]
+ },
+ {
+  "id": "fashion-595",
+  "term": "Alternative fabric",
+  "definition": "A material reviewed in place of the existing fabric for reasons such as quality, price, or delivery.",
+  "example": "For the alternative fabric, do not just look at color; also compare drape and post-wash measurements.",
+  "category": "Fitting and sample meetings",
+  "aliases": [
+   "alternative material",
+   "fabric alternative"
+  ]
+ },
+ {
+  "id": "fashion-596",
+  "term": "Pre-production meeting",
+  "definition": "A meeting before mass production where the relevant people align on specifications, approved samples, processes, quality standards, and schedule.",
+  "example": "In the pre-production meeting, eliminate the differences between the approved sample and the work order.",
+  "note": "This is a pre-mass-production meeting for garments. It differs in participants and review subject from the PPM held before a fashion editorial shoot.",
+  "category": "Fitting and sample meetings",
+  "aliases": [
+   "pre-production meeting",
+   "PP meeting",
+   "PPM"
+  ]
+ },
+ {
+  "id": "fashion-597",
+  "term": "Mass-production approval",
+  "definition": "A procedure that approves starting mass production based on the reviewed sample and specifications.",
+  "example": "After checking the revised sewing specifications, grant mass-production approval.",
+  "category": "Fitting and sample meetings",
+  "aliases": [
+   "production approval",
+   "production confirmation",
+   "bulk approval"
+  ]
+ },
+ {
+  "id": "fashion-598",
+  "term": "Approval hold",
+  "definition": "A state of postponing the approval decision because there are unresolved matters in the sample or raw and sub-materials.",
+  "example": "The lot-to-lot shade check is not finished, so that fabric is on approval hold.",
+  "note": "It is a state before the review is finished. It does not necessarily mean final rejection or production cancellation.",
+  "category": "Fitting and sample meetings",
+  "aliases": [
+   "sample approval hold",
+   "sample hold"
+  ]
+ },
+ {
+  "id": "fashion-599",
+  "term": "Inspection standard",
+  "definition": "A standard for how and within what tolerance to inspect the measurements, sewing, and appearance of finished products.",
+  "example": "Review the defect samples together so the brand and factory use the same inspection standard.",
+  "category": "Fitting and sample meetings",
+  "aliases": [
+   "quality judgment standard",
+   "defect judgment standard"
+  ]
+ },
+ {
+  "id": "design-446",
+  "term": "Design critique",
+  "definition": "A review process where the design's goals and intent are shared and colleagues find directions for improvement through questions and feedback.",
+  "example": "In the critique, start with whether users can find information rather than whether it looks good.",
+  "note": "It means a review for improvement, separate from a formal approval procedure. The method and participants differ by organization.",
+  "category": "Design planning and review",
+  "aliases": [
+   "critique",
+   "design crit",
+   "design review",
+   "design check"
+  ]
+ },
+ {
+  "id": "design-447",
+  "term": "Concept",
+  "definition": "The central idea and expressive direction for coherently developing goals and messages into form, color, typeface, composition, and so on.",
+  "example": "Check whether the concept of approachable expertise shows through in the typeface and photos too.",
+  "category": "Design planning and review",
+  "aliases": [
+   "concept",
+   "design concept",
+   "design concept (variant)"
+  ]
+ },
+ {
+  "id": "design-448",
+  "term": "Design direction",
+  "definition": "The visual character the design should pursue and the direction of choices that realize it.",
+  "example": "Align the design direction around warm colors and clean forms.",
+  "category": "Design planning and review",
+  "aliases": [
+   "design direction",
+   "visual direction",
+   "art direction"
+  ]
+ },
+ {
+  "id": "design-449",
+  "term": "Option A / Option B",
+  "definition": "Different drafts presented separately for comparison and selection. Also agree on the scope of whether it is a simple color change or a fundamentally different concept.",
+  "example": "Option A emphasizes information delivery, and Option B emphasizes brand impression.",
+  "category": "Design planning and review",
+  "aliases": [
+   "Option A",
+   "Option B",
+   "A-option",
+   "B-option",
+   "A option",
+   "B option"
+  ]
+ },
+ {
+  "id": "design-450",
+  "term": "Main option",
+  "definition": "The central draft among several to be proposed or developed first.",
+  "example": "Keep the structure of the main option while adjusting the title contrast more.",
+  "category": "Design planning and review",
+  "aliases": [
+   "main option",
+   "primary draft",
+   "main draft"
+  ]
+ },
+ {
+  "id": "design-451",
+  "term": "Alternative draft",
+  "definition": "A separate design draft prepared to respond to constraints of the existing draft or other possibilities.",
+  "example": "Prepare a graphics-focused alternative draft in case using photos is difficult.",
+  "category": "Design planning and review",
+  "aliases": [
+   "alt draft",
+   "alternative option",
+   "alternative draft"
+  ]
+ },
+ {
+  "id": "design-452",
+  "term": "Visual flow",
+  "definition": "The order in which the gaze moves according to the placement, size, contrast, and so on of elements on a screen or page.",
+  "example": "To make people see the button after the title, check where to connect the visual flow.",
+  "category": "Design planning and review",
+  "aliases": [
+   "gaze path",
+   "visual flow"
+  ]
+ },
+ {
+  "id": "design-453",
+  "term": "Readability",
+  "definition": "The degree to which the composition of characters and text allows content to be read and understood comfortably.",
+  "example": "Adjust the body width and line spacing to improve the readability of long explanations.",
+  "note": "It is explained as distinct from legibility, but in practice both are often called readability broadly. Specify what reading problem exists.",
+  "category": "Design planning and review",
+  "aliases": [
+   "ease of reading",
+   "readability improvement"
+  ]
+ },
+ {
+  "id": "design-454",
+  "term": "Legibility",
+  "definition": "The degree to which the forms of individual characters or symbols can be distinguished and recognized.",
+  "example": "Compare the legibility of the numeral 1 and the letter I at small sizes.",
+  "category": "Design planning and review",
+  "aliases": [
+   "character distinguishability"
+  ]
+ },
+ {
+  "id": "design-455",
+  "term": "Visibility",
+  "definition": "The degree to which the presence and position of a visual element stand out under conditions such as distance, light, and background.",
+  "example": "Check whether the signage has sufficient visibility even from the end of the hallway.",
+  "category": "Design planning and review",
+  "aliases": [
+   "conspicuousness"
+  ]
+ },
+ {
+  "id": "design-456",
+  "term": "Information density",
+  "definition": "The amount and concentration of information contained within a given screen or page.",
+  "example": "Reduce the information density of the first screen and split the detailed explanation into the next section.",
+  "category": "Design planning and review",
+  "aliases": [
+   "screen density",
+   "density"
+  ]
+ },
+ {
+  "id": "design-457",
+  "term": "Visual weight",
+  "definition": "The degree to which an element draws the eye or feels heavy due to size, color, position, texture, and so on.",
+  "example": "The left photo has strong visual weight, so balance it with the title on the right.",
+  "category": "Design planning and review",
+  "aliases": [
+   "visual weight",
+   "sense of weight"
+  ]
+ },
+ {
+  "id": "design-458",
+  "term": "Balance",
+  "definition": "The balance that elements' visual weight and spatial arrangement achieve across the whole.",
+  "example": "Before just reducing the logo size, look at the balance of the photo and the whitespace.",
+  "note": "It is the balance of visual weight and arrangement. It is a different subject from a garment's front-back wearing balance.",
+  "category": "Design planning and review",
+  "aliases": [
+   "visual balance",
+   "layout balance"
+  ]
+ },
+ {
+  "id": "design-459",
+  "term": "Formative quality",
+  "definition": "The characteristic and completeness with which relationships of form, proportion, line, and plane are visually composed.",
+  "example": "Review whether the small protrusion of the symbol fits the overall formative quality.",
+  "category": "Design planning and review",
+  "aliases": [
+   "formal completeness",
+   "form completeness"
+  ]
+ },
+ {
+  "id": "design-460",
+  "term": "Consistency",
+  "definition": "The property by which expressions, rules, and behaviors serving the same purpose are kept uniform across related screens and deliverables.",
+  "example": "The same button's color differs by screen, so organize the design consistency.",
+  "category": "Design planning and review",
+  "aliases": [
+   "design consistency",
+   "visual consistency"
+  ]
+ },
+ {
+  "id": "design-461",
+  "term": "Feels off",
+  "definition": "Subjective feedback that the placement, proportion, or connection does not fit well with surrounding elements or the intent.",
+  "example": "Please point out specifically whether the awkward part is the photo ratio or the title position.",
+  "note": "It is subjective feedback, not a precise process name. Explain the subject, reason, and desired result together to align the revision direction.",
+  "category": "Design planning and review",
+  "aliases": [
+   "awkwardness",
+   "awkward placement"
+  ]
+ },
+ {
+  "id": "design-462",
+  "term": "Feels cramped",
+  "definition": "Feedback describing a sense that the gaze and reading flow are blocked because elements are crowded or whitespace and separation are insufficient.",
+  "example": "The card looks cramped, so try first increasing the whitespace between information groups.",
+  "note": "Do not treat personal impressions as if they were numbers. Point out subjects to check together, such as information volume, whitespace, and font size.",
+  "category": "Design planning and review",
+  "aliases": [
+   "cramped screen",
+   "give it room to breathe",
+   "breathing room"
+  ]
+ },
+ {
+  "id": "design-463",
+  "term": "Add emphasis",
+  "definition": "A working expression for adjusting size, contrast, weight, space, and so on so that important elements are seen first.",
+  "example": "Add weight to the title, but do not make all the supporting text bold too.",
+  "category": "Design planning and review",
+  "aliases": [
+   "add weight",
+   "to emphasize",
+   "to highlight"
+  ]
+ },
+ {
+  "id": "design-464",
+  "term": "Tidy up",
+  "definition": "A working expression for refining elements' alignment, spacing, hierarchy, and style by a consistent standard.",
+  "example": "Please tidy up the left baseline and the card spacing first.",
+  "category": "Design planning and review",
+  "aliases": [
+   "organize",
+   "tidying",
+   "an organized feel"
+  ]
+ },
+ {
+  "id": "design-465",
+  "term": "Actual size",
+  "definition": "The size at which something is actually used or produced. Check it as distinct from a zoomed screen state.",
+  "example": "Print the business card at actual size and check whether the text is legible.",
+  "note": "For print, check against the actual output size; for screen, against the actual display environment.",
+  "category": "Design planning and review",
+  "aliases": [
+   "actual size",
+   "actual-size print"
+  ]
+ },
+ {
+  "id": "design-466",
+  "term": "Safe area",
+  "definition": "The area where important text and elements are placed, avoiding the effects of trimming, cropping, and screen edges.",
+  "example": "Considering poster trimming tolerance, place the contact details within the safe area.",
+  "note": "It is not the same area as bleed, the trimming margin. Keep important information inside the finished area.",
+  "category": "Design planning and review",
+  "aliases": [
+   "safe area",
+   "safety area"
+  ]
+ },
+ {
+  "id": "design-467",
+  "term": "Layout confirmation",
+  "definition": "A decision that agrees on the information structure and main arrangement to serve as the basis for subsequent detailed work.",
+  "example": "After the layout confirmation, proceed with photo retouching, but share any major structural changes separately.",
+  "category": "Design planning and review",
+  "aliases": [
+   "layout fix",
+   "composition confirmation"
+  ]
+ },
+ {
+  "id": "design-468",
+  "term": "Design QA",
+  "definition": "The work of checking whether the implemented or produced result matches the draft, rules, and intended behavior.",
+  "example": "In design QA, compare long text and error states against the draft too.",
+  "category": "Design planning and review",
+  "aliases": [
+   "design inspection",
+   "implementation inspection",
+   "design Q.A."
+  ]
+ },
+ {
+  "id": "design-469",
+  "term": "Revision round",
+  "definition": "A revision unit in which one batch of feedback is collected, reflected, and reviewed again.",
+  "example": "In this revision round, collect structural changes, and check typos next time.",
+  "category": "Design planning and review",
+  "aliases": [
+   "revision cycle",
+   "revision round"
+  ]
+ },
+ {
+  "id": "design-470",
+  "term": "Source file cleanup",
+  "definition": "The work of organizing working source files such as layers, file names, links, and fonts so they can be handed over and revised.",
+  "example": "Before delivery, use source file cleanup to check for missing images and unused layers.",
+  "category": "Design planning and review",
+  "aliases": [
+   "source cleanup",
+   "editable source cleanup"
+  ]
+ },
+ {
+  "id": "film-483",
+  "term": "Storyboard reading",
+  "definition": "The process of reviewing the storyboard cuts in order to confirm directing intent, action, shooting, and production conditions.",
+  "example": "In the storyboard reading, match the hand picking up the product with the direction of the next cut.",
+  "category": "Storyboard and production meetings",
+  "aliases": [
+   "storyboard reading",
+   "storyboard meeting",
+   "storyboard review"
+  ]
+ },
+ {
+  "id": "film-484",
+  "term": "Script reading",
+  "definition": "The process where the cast and others read the script aloud to confirm dialogue, character relationships, and scene flow.",
+  "example": "In the script reading, align the points where emotions shift and the pacing of the lines.",
+  "category": "Storyboard and production meetings",
+  "aliases": [
+   "reading",
+   "script reading",
+   "table reading"
+  ]
+ },
+ {
+  "id": "film-485",
+  "term": "Shot list",
+  "definition": "A list organizing needed information such as the content, composition, and movement of the shots to be filmed.",
+  "example": "Mark the essential hand insert and an alternative composition on the shot list.",
+  "category": "Storyboard and production meetings",
+  "aliases": [
+   "shotlist",
+   "shot list",
+   "shooting cut list",
+   "shot-list",
+   "shootlist",
+   "shoot list"
+  ]
+ },
+ {
+  "id": "film-486",
+  "term": "Scene breakdown",
+  "definition": "The work of dividing and organizing elements needed for production by scene, such as cast, location, props, costumes, and effects.",
+  "example": "In the scene breakdown, check the spare costumes and equipment needed for the rain scene.",
+  "category": "Storyboard and production meetings",
+  "aliases": [
+   "scene analysis sheet",
+   "per-scene breakdown",
+   "script breakdown"
+  ]
+ },
+ {
+  "id": "film-487",
+  "term": "Shooting order",
+  "definition": "The actual order of shooting, decided by considering location, cast, light, and setup separately from the story order.",
+  "example": "Change the shooting order so the exterior cuts that need sunlight are shot first.",
+  "category": "Storyboard and production meetings",
+  "aliases": [
+   "shoot order",
+   "shooting sequence",
+   "shooting order"
+  ]
+ },
+ {
+  "id": "film-488",
+  "term": "Movement path",
+  "definition": "The path along which cast, camera, or crew move within the scene and on the shooting location.",
+  "example": "Check at rehearsal where the actors' movement path and the camera movement overlap.",
+  "category": "Storyboard and production meetings",
+  "aliases": [
+   "actor blocking",
+   "camera path",
+   "movement route"
+  ]
+ },
+ {
+  "id": "film-489",
+  "term": "Eyeline direction",
+  "definition": "Deciding where and how the cast look, to create the scene's relationships and expression.",
+  "example": "Even in a close-up without the other actor, match the eyeline to the same height.",
+  "category": "Storyboard and production meetings",
+  "aliases": [
+   "eyeline handling",
+   "gaze direction",
+   "eyeline"
+  ]
+ },
+ {
+  "id": "film-490",
+  "term": "Acting tone",
+  "definition": "The mode of expression in acting shown through the intensity and character of lines, expressions, and gestures.",
+  "example": "The situation is comic, but try keeping the acting tone serious.",
+  "category": "Storyboard and production meetings",
+  "aliases": [
+   "acting tone",
+   "line delivery tone",
+   "tone adjustment"
+  ]
+ },
+ {
+  "id": "film-491",
+  "term": "Emotional arc",
+  "definition": "The flow in which a character's emotions change and continue along events and scenes.",
+  "example": "Even if the shooting order changes, check that it can start from the emotional arc of the previous scene.",
+  "category": "Storyboard and production meetings",
+  "aliases": [
+   "emotional flow",
+   "flow of emotion"
+  ]
+ },
+ {
+  "id": "film-492",
+  "term": "Plausibility",
+  "definition": "The degree to which the connection of a character's actions and events is convincing within the work's setting and context.",
+  "example": "The plausibility of suddenly leaving is weak, so add a clue in the earlier scene.",
+  "category": "Storyboard and production meetings",
+  "aliases": [
+   "scene plausibility",
+   "narrative plausibility"
+  ]
+ },
+ {
+  "id": "film-493",
+  "term": "Build-up",
+  "definition": "A structure that stacks preceding scenes and information so that later events, emotions, and reactions feel convincing.",
+  "example": "Build up with two cuts before the twist so the character's choice is understandable.",
+  "note": "This is the context of stacking a video's scenes, emotions, and events. It differs in subject from the general-business usage of building up the grounds of a proposal.",
+  "category": "Storyboard and production meetings",
+  "aliases": [
+   "build up",
+   "scene build-up"
+  ]
+ },
+ {
+  "id": "film-494",
+  "term": "Previs",
+  "definition": "Pre-visualization that tests composition, blocking, and timing with simple video or 3D before the main shoot or final production.",
+  "example": "Check the complex camera movement with previs and decide the set size.",
+  "category": "Storyboard and production meetings",
+  "aliases": [
+   "previsualization",
+   "previsual",
+   "previz",
+   "previs"
+  ]
+ },
+ {
+  "id": "film-495",
+  "term": "Tech rehearsal",
+  "definition": "A rehearsal that checks the operation and transition timing of camera, lighting, sound, and equipment.",
+  "example": "Before the cast enters, check the lighting transitions and recording status with a tech rehearsal.",
+  "category": "Storyboard and production meetings",
+  "aliases": [
+   "technical rehearsal",
+   "technical run"
+  ]
+ },
+ {
+  "id": "film-496",
+  "term": "Run-through",
+  "definition": "A rehearsal that runs a segment or program in order, as uninterrupted as possible, to check the flow and timing.",
+  "example": "Once the individual setups are done, check the total runtime with a run-through.",
+  "category": "Storyboard and production meetings",
+  "aliases": [
+   "run through",
+   "full rehearsal"
+  ]
+ },
+ {
+  "id": "film-497",
+  "term": "Weather plan",
+  "definition": "Alternatives for location, schedule, scenes, and so on to apply when weather changes make shooting difficult.",
+  "example": "Write the indoor alternative cuts and the decision time for postponing the shoot into the weather plan.",
+  "category": "Storyboard and production meetings",
+  "aliases": [
+   "rain alternative",
+   "rain plan",
+   "weather alternative"
+  ]
+ },
+ {
+  "id": "film-498",
+  "term": "Paper edit",
+  "definition": "An editing method that first organizes the order and structure of content using text such as interview transcripts or scripts.",
+  "example": "In the interview paper edit, select the key remarks, then move them to the timeline.",
+  "category": "Editing and post-production review",
+  "aliases": [
+   "paper editing",
+   "paper-based edit"
+  ]
+ },
+ {
+  "id": "film-499",
+  "term": "Assembly cut",
+  "definition": "An early edit that first strings selected scenes together to examine the overall content and structure.",
+  "example": "In the assembly cut, check for missing explanations, then reduce the length afterward.",
+  "note": "The standard for distinguishing it from a rough cut can differ by team. Check the review scope and completion level of the edit together.",
+  "category": "Editing and post-production review",
+  "aliases": [
+   "assembly",
+   "assembled cut"
+  ]
+ },
+ {
+  "id": "film-500",
+  "term": "Edit point",
+  "definition": "The point decided for which frame or action to cut on or connect.",
+  "example": "Try moving the edit point to the frame where the hand begins to move.",
+  "category": "Editing and post-production review",
+  "aliases": [
+   "cut point",
+   "editing point"
+  ]
+ },
+ {
+  "id": "film-501",
+  "term": "Pacing",
+  "definition": "The progression speed and rhythm of the story as felt through cut lengths, information volume, and scene arrangement.",
+  "example": "Adjust the pacing of the information-heavy middle to give the audience time to follow.",
+  "category": "Editing and post-production review",
+  "aliases": [
+   "edit pacing",
+   "progression speed"
+  ]
+ },
+ {
+  "id": "film-502",
+  "term": "Redundant cut",
+  "definition": "A cut that repeats already-conveyed information or a similar scene.",
+  "example": "Reduce redundant cuts where the feature explanation overlaps, and keep the actual-use scene.",
+  "category": "Editing and post-production review",
+  "aliases": [
+   "redundant scene",
+   "repeated cut"
+  ]
+ },
+ {
+  "id": "film-503",
+  "term": "Match action",
+  "definition": "A connecting method of shooting and editing so that one action flows naturally between different shots.",
+  "example": "Match the position and speed of the hand grabbing the doorknob and connect them with match action.",
+  "category": "Editing and post-production review",
+  "aliases": [
+   "action match",
+   "movement match"
+  ]
+ },
+ {
+  "id": "film-504",
+  "term": "Jumps",
+  "definition": "An expression that a discontinuity stands out because action, position, or time suddenly differs between cuts.",
+  "example": "The hand holding the glass differs from cut to cut, so the connection jumps; look at another take.",
+  "category": "Editing and post-production review",
+  "aliases": [
+   "there is a jump",
+   "the connection jumps"
+  ]
+ },
+ {
+  "id": "film-505",
+  "term": "Drags",
+  "definition": "Feedback that the pacing of a scene or edit runs longer than intended, reducing tension or interest.",
+  "example": "The same explanation continues and the middle drags, so trim the redundant dialogue.",
+  "category": "Editing and post-production review",
+  "aliases": [
+   "sags",
+   "feels loose"
+  ]
+ },
+ {
+  "id": "film-506",
+  "term": "Tighten up",
+  "definition": "A working expression for compressing the pacing by reducing unnecessary pauses or repetition in editing.",
+  "example": "Please trim the silences between answers a bit and cut them together more tightly.",
+  "note": "This entry means tightening the editing pace. Distinguish it from the usages of requesting a tighter framing in shooting or saying there is no schedule slack.",
+  "category": "Editing and post-production review",
+  "aliases": [
+   "tight",
+   "cut tightly",
+   "tight editing"
+  ]
+ },
+ {
+  "id": "film-507",
+  "term": "Sound bridge",
+  "definition": "A method of connecting a transition by carrying music, ambient sound, or dialogue across the preceding and following scenes.",
+  "example": "Use the train sound heard first as a sound bridge to move to the next location.",
+  "category": "Editing and post-production review",
+  "aliases": [
+   "soundbridge",
+   "sound connection"
+  ]
+ },
+ {
+  "id": "film-508",
+  "term": "Temp music",
+  "definition": "A track used temporarily instead of the final music to set the mood and timing of the edit.",
+  "example": "Reference the mood of the temp music, but confirm the usage rights of the final track separately.",
+  "category": "Editing and post-production review",
+  "aliases": [
+   "temp track",
+   "scratch music",
+   "temporary music"
+  ]
+ },
+ {
+  "id": "film-509",
+  "term": "Review notes",
+  "definition": "Feedback recording revision requests for an edit and the like, together with timecode, subject, and desired result.",
+  "example": "In the review notes, write the exact timecode and the corrected subtitle text.",
+  "note": "This is the context of video post-production feedback. Rather than only recording taste, leave the subject and desired change specifically.",
+  "category": "Editing and post-production review",
+  "aliases": [
+   "revision notes",
+   "edit notes",
+   "screening comments"
+  ]
+ },
+ {
+  "id": "hrfinance-001",
+  "term": "HR",
+  "definition": "The work of managing the relationship between people and work, such as recruiting, placement, evaluation, compensation, and organizational operation.",
+  "example": "HR compiles the headcount plans by department.",
+  "category": "HR organization and roles",
+  "aliases": [
+   "HR",
+   "Human Resources"
+  ]
+ },
+ {
+  "id": "hrfinance-002",
+  "term": "HR team",
+  "definition": "The organization responsible for HR systems and operations from an employee's hire to departure.",
+  "example": "Check the effective date of the assignment with the HR team.",
+  "category": "HR organization and roles",
+  "aliases": [
+   "HR team"
+  ]
+ },
+ {
+  "id": "hrfinance-003",
+  "term": "HR planning",
+  "definition": "The work of designing the workforce structure and HR systems such as evaluation, compensation, and job grades.",
+  "example": "HR planning reviews the impact of the new job-grade system.",
+  "category": "HR organization and roles"
+ },
+ {
+  "id": "hrfinance-004",
+  "term": "HR operations",
+  "definition": "The work of routinely executing systems such as HR information, assignments, certificates, and onboarding and offboarding.",
+  "example": "The HR operations owner checks for missing onboarding documents.",
+  "category": "HR organization and roles",
+  "aliases": [
+   "HR Operations",
+   "HR Ops"
+  ]
+ },
+ {
+  "id": "hrfinance-005",
+  "term": "HRBP",
+  "definition": "A role that collaborates with a specific business unit to solve workforce and organizational problems and connect HR systems.",
+  "example": "Discuss the workforce impact of the reorganization with the business unit HRBP.",
+  "category": "HR organization and roles",
+  "aliases": [
+   "H.R.B.P.",
+   "HR Business Partner"
+  ]
+ },
+ {
+  "id": "hrfinance-006",
+  "term": "HRM",
+  "definition": "Activities that manage an organization's workforce through recruiting, placement, evaluation, compensation, and so on.",
+  "example": "Split HRM metrics into recruiting and retention areas.",
+  "category": "HR organization and roles",
+  "aliases": [
+   "Human Resource Management"
+  ]
+ },
+ {
+  "id": "hrfinance-007",
+  "term": "HRD",
+  "definition": "Activities that build employees' capabilities through training, career development, and so on.",
+  "example": "The HRD owner prepares the new-leader training.",
+  "category": "HR organization and roles",
+  "aliases": [
+   "Human Resource Development"
+  ]
+ },
+ {
+  "id": "hrfinance-008",
+  "term": "Recruiter",
+  "definition": "A person who organizes hiring needs and runs candidate sourcing, screening, and onboarding.",
+  "example": "Deliver the interview feedback to the recruiter.",
+  "category": "HR organization and roles",
+  "aliases": [
+   "recruiter",
+   "Recruiter"
+  ]
+ },
+ {
+  "id": "hrfinance-009",
+  "term": "Sourcer",
+  "definition": "A role that finds and contacts target talent for hiring and builds the candidate pool.",
+  "example": "The sourcer finds candidates with the relevant technical experience.",
+  "category": "HR organization and roles",
+  "aliases": [
+   "Sourcer",
+   "sourcing specialist"
+  ]
+ },
+ {
+  "id": "hrfinance-010",
+  "term": "Hiring manager",
+  "definition": "The person in the hiring organization who leads the required competencies and selection decisions.",
+  "example": "Define the scope of required experience with the hiring manager.",
+  "category": "HR organization and roles",
+  "aliases": [
+   "hiring manager",
+   "Hiring manager"
+  ]
+ },
+ {
+  "id": "hrfinance-011",
+  "term": "C&B",
+  "definition": "The work area dealing with compensation systems such as pay, incentives, and benefits.",
+  "example": "The C&B owner reviews the salary ranges and benefit costs.",
+  "category": "HR organization and roles",
+  "aliases": [
+   "Compensation and Benefits",
+   "comp and benefits"
+  ]
+ },
+ {
+  "id": "hrfinance-012",
+  "term": "Organizational culture team",
+  "definition": "The organization responsible for improving organizational culture, such as ways of working, values, and communication experience.",
+  "example": "Share the internal survey results with the organizational culture team.",
+  "category": "HR organization and roles"
+ },
+ {
+  "id": "hrfinance-013",
+  "term": "Labor relations officer",
+  "definition": "A person responsible for operating working conditions, labor-management relations, and labor-related systems.",
+  "example": "Check the procedure for changing the work system with the labor relations officer.",
+  "category": "HR organization and roles"
+ },
+ {
+  "id": "hrfinance-014",
+  "term": "People team",
+  "definition": "An organization name for the HR function centered on employee experience and organizational operation.",
+  "example": "The People team reviews the onboarding adaptation process.",
+  "category": "HR organization and roles",
+  "aliases": [
+   "People team"
+  ]
+ },
+ {
+  "id": "hrfinance-015",
+  "term": "Head of HR",
+  "definition": "The person responsible for overseeing the organization's HR strategy and major HR functions.",
+  "example": "Report the annual workforce plan to the Head of HR.",
+  "category": "HR organization and roles",
+  "aliases": [
+   "CHRO"
+  ]
+ },
+ {
+  "id": "hrfinance-016",
+  "term": "HR information system",
+  "definition": "A system that manages HR data such as employee information, assignments, and attendance.",
+  "example": "Check whether the department in the HRIS matches the assignment.",
+  "category": "HR organization and roles",
+  "aliases": [
+   "HRIS",
+   "H.R.I.S."
+  ]
+ },
+ {
+  "id": "hrfinance-017",
+  "term": "HR master data",
+  "definition": "The core data that serves as the basis for HR work, such as employee ID, affiliation, job grade, and hire date.",
+  "example": "Reflect the changes in the HR master data before running payroll.",
+  "category": "HR organization and roles"
+ },
+ {
+  "id": "hrfinance-018",
+  "term": "Personnel order",
+  "definition": "An official measure announcing an employee's HR change such as hiring, promotion, or transfer.",
+  "example": "Distinguish the effective date and the announcement date of the personnel order.",
+  "category": "HR organization and roles"
+ },
+ {
+  "id": "hrfinance-019",
+  "term": "Organization chart",
+  "definition": "Material that depicts the department composition and reporting relationships in a diagram.",
+  "example": "Update the organization chart once the reorganization is complete.",
+  "category": "HR organization and roles"
+ },
+ {
+  "id": "hrfinance-020",
+  "term": "Job description",
+  "definition": "A document organizing a job's purpose, responsibilities, tasks, and required competencies.",
+  "example": "Specify the scope of responsibility in the job description before hiring.",
+  "category": "HR organization and roles",
+  "aliases": [
+   "JD",
+   "Job description"
+  ]
+ },
+ {
+  "id": "hrfinance-021",
+  "term": "Hiring plan",
+  "definition": "A plan that sets the number of hires, jobs, timing, and budget according to business and organizational needs.",
+  "example": "Reflect the new-business headcount in the quarterly hiring plan.",
+  "category": "Recruiting and selection"
+ },
+ {
+  "id": "hrfinance-022",
+  "term": "Hiring requisition",
+  "definition": "A document in which a department states the reason for filling, the job, the number of people, and so on to request hiring approval.",
+  "example": "State in the hiring requisition whether it is a backfill or an addition.",
+  "category": "Recruiting and selection",
+  "aliases": [
+   "hiring requisition",
+   "Requisition"
+  ]
+ },
+ {
+  "id": "hrfinance-023",
+  "term": "Headcount",
+  "definition": "The number of people belonging to an organization or the approved headcount size.",
+  "example": "Align whether people on leave are included, then compare headcount.",
+  "category": "Recruiting and selection",
+  "aliases": [
+   "HC",
+   "Headcount",
+   "head count",
+   "H.C."
+  ]
+ },
+ {
+  "id": "hrfinance-024",
+  "term": "Authorized headcount",
+  "definition": "The number of people allocated or approved for an organization or job.",
+  "example": "Check whether hiring is possible within the team's authorized headcount.",
+  "category": "Recruiting and selection"
+ },
+ {
+  "id": "hrfinance-025",
+  "term": "Current headcount",
+  "definition": "The number of people actually placed as of a reference point.",
+  "example": "Organize the gap between authorized and current headcount by department.",
+  "category": "Recruiting and selection"
+ },
+ {
+  "id": "hrfinance-026",
+  "term": "Staffing up",
+  "definition": "The work of filling insufficient or vacant workforce.",
+  "example": "Set the staffing-up timing considering the work of the departing employee.",
+  "category": "Recruiting and selection"
+ },
+ {
+  "id": "hrfinance-027",
+  "term": "Adding headcount",
+  "definition": "The work of increasing the previously set headcount size.",
+  "example": "Request added headcount to operate the new store.",
+  "category": "Recruiting and selection"
+ },
+ {
+  "id": "hrfinance-028",
+  "term": "Replacement hiring",
+  "definition": "Hiring to fill a vacancy created by departure, transfer, and so on.",
+  "example": "Distinguish whether this hiring is an addition or a backfill.",
+  "category": "Recruiting and selection",
+  "aliases": [
+   "backfill",
+   "Backfill"
+  ]
+ },
+ {
+  "id": "hrfinance-029",
+  "term": "Job posting",
+  "definition": "A recruitment notice made public so applicants can learn the job, qualifications, and process.",
+  "example": "Write the actual responsibilities and the screening order in the job posting.",
+  "category": "Recruiting and selection"
+ },
+ {
+  "id": "hrfinance-030",
+  "term": "Applicant tracking system",
+  "definition": "A system that manages applicant information and hiring stages, interview records, and so on.",
+  "example": "Check the candidates awaiting interviews in the ATS.",
+  "category": "Recruiting and selection",
+  "aliases": [
+   "ATS",
+   "A.T.S.",
+   "recruiting management system"
+  ]
+ },
+ {
+  "id": "hrfinance-031",
+  "term": "Talent pool",
+  "definition": "A set of candidates managed with future hiring potential in mind.",
+  "example": "Confirm consent to store the information and register them in the talent pool.",
+  "category": "Recruiting and selection",
+  "aliases": [
+   "Talent pool"
+  ]
+ },
+ {
+  "id": "hrfinance-032",
+  "term": "Direct sourcing",
+  "definition": "A method of directly finding and contacting suitable candidates instead of waiting for applications to a posting.",
+  "example": "For experienced-hire positions, also run direct sourcing.",
+  "category": "Recruiting and selection"
+ },
+ {
+  "id": "hrfinance-033",
+  "term": "Employee referral",
+  "definition": "A hiring channel in which current employees introduce suitable candidates to the company.",
+  "example": "Review referral candidates by the same evaluation standard.",
+  "category": "Recruiting and selection",
+  "aliases": [
+   "staff referral"
+  ]
+ },
+ {
+  "id": "hrfinance-034",
+  "term": "Document screening",
+  "definition": "A selection stage that reviews career, competency, and application conditions through application documents.",
+  "example": "Align the document screening criteria with the interviewers first.",
+  "category": "Recruiting and selection"
+ },
+ {
+  "id": "hrfinance-035",
+  "term": "Structured interview",
+  "definition": "An interview method that prepares common questions and evaluation criteria to compare candidates.",
+  "example": "Organize the evaluation scale per question for the structured interview.",
+  "category": "Recruiting and selection"
+ },
+ {
+  "id": "hrfinance-036",
+  "term": "Competency interview",
+  "definition": "An interview that checks job-performance competency through actual experience and behavioral examples.",
+  "example": "In the competency interview, ask about specific actions taken to resolve a conflict.",
+  "category": "Recruiting and selection"
+ },
+ {
+  "id": "hrfinance-037",
+  "term": "Interview evaluation form",
+  "definition": "A form for recording the evidence confirmed in the interview and the evaluation results.",
+  "example": "In the interview evaluation form, write the confirmed examples rather than impressions.",
+  "category": "Recruiting and selection"
+ },
+ {
+  "id": "hrfinance-038",
+  "term": "Reference check",
+  "definition": "The process of verifying past work experience and so on, following the candidate's consent and proper procedures.",
+  "example": "Set the reference check items to job-related content.",
+  "category": "Recruiting and selection",
+  "aliases": [
+   "reputation check"
+  ]
+ },
+ {
+  "id": "hrfinance-039",
+  "term": "Offer negotiation",
+  "definition": "The process of negotiating pay, job grade, and working conditions before joining.",
+  "example": "In the offer negotiation, explain the fixed pay and variable pay separately.",
+  "category": "Recruiting and selection"
+ },
+ {
+  "id": "hrfinance-040",
+  "term": "Offer letter",
+  "definition": "A document in which the company proposes employment conditions to a candidate.",
+  "example": "Finally confirm the start date and compensation terms in the offer letter.",
+  "category": "Recruiting and selection",
+  "aliases": [
+   "employment offer letter",
+   "Offer letter"
+  ]
+ },
+ {
+  "id": "hrfinance-041",
+  "term": "Offer acceptance rate",
+  "definition": "The proportion of candidates who accepted the offer among those who received one.",
+  "example": "Align the aggregation period, then compare the offer acceptance rate.",
+  "category": "Onboarding, career, and organization",
+  "aliases": [
+   "OAR",
+   "Offer Acceptance Rate"
+  ]
+ },
+ {
+  "id": "hrfinance-042",
+  "term": "Time to fill",
+  "definition": "The time elapsed between defined start and end points, such as from the hiring request to filling.",
+  "example": "Unify the start point of time to fill as the approval date.",
+  "category": "Onboarding, career, and organization",
+  "aliases": [
+   "Time to fill",
+   "TTF",
+   "time to fill",
+   "Time-to-fill"
+  ]
+ },
+ {
+  "id": "hrfinance-043",
+  "term": "Cost per hire",
+  "definition": "The amount of cost spent on hiring activities aggregated by a defined scope and standard, or the cost per person.",
+  "example": "Include external fees and advertising costs in the cost per hire.",
+  "category": "Onboarding, career, and organization",
+  "aliases": [
+   "Cost per hire",
+   "CPH",
+   "cost per hire",
+   "hiring unit cost"
+  ]
+ },
+ {
+  "id": "hrfinance-044",
+  "term": "Onboarding",
+  "definition": "The process of helping new members adapt to the work, organization, and systems.",
+  "example": "Include a guide to system access in the onboarding schedule.",
+  "category": "Onboarding, career, and organization"
+ },
+ {
+  "id": "hrfinance-045",
+  "term": "Offboarding",
+  "definition": "The process of handover, settlement, and access revocation in line with departure or contract end.",
+  "example": "Check account revocation with the offboarding checklist.",
+  "category": "Onboarding, career, and organization"
+ }
+]

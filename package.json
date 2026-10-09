@@ -1,0 +1,22 @@
+{
+  "name": "allyourwords",
+  "version": "1.1.0",
+  "private": true,
+  "description": "다, 너의 단어 (All your Words) — Palette plugin",
+  "scripts": {
+    "dev": "pltt dev",
+    "test": "pltt test",
+    "package": "pltt package"
+  },
+  "dependencies": {
+    "@palettelab/sdk": "^0.1.34",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@palettelab/cli": "^0.3.68",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.6.0"
+  }
+}

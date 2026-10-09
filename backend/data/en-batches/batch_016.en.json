@@ -1,0 +1,1405 @@
+[
+ {
+  "id": "design-444",
+  "term": "Viewport",
+  "definition": "The screen area that displays a web document. The area used to calculate layout can differ from the area actually visible depending on factors such as zoom and the keyboard.",
+  "example": "Check that the input field and buttons are not hidden in the mobile viewport.",
+  "category": "User experience design",
+  "aliases": [
+   "view port"
+  ]
+ },
+ {
+  "id": "film-474",
+  "term": "RAW",
+  "definition": "A recording method or data that preserves the information captured by a camera sensor in a form prior to final image processing.",
+  "example": "Check the exposure and color processing settings during RAW development.",
+  "note": "Log is a way of representing the signal, while RAW concerns the processing and recording form of sensor information. Do not conflate the two as the same file type.",
+  "category": "Exposure and color",
+  "aliases": [
+   "raw",
+   "RAW shooting",
+   "raw data"
+  ]
+ },
+ {
+  "id": "film-475",
+  "term": "Timecode",
+  "definition": "A code that identifies the temporal position of video or audio using values such as hours, minutes, seconds, and frames.",
+  "example": "Deliver the original footage together with its timecode information to the editing team.",
+  "note": "It does not always match the absolute time of an actual clock. You must align criteria such as the frame rate and whether drop-frame is used.",
+  "category": "Video post-production",
+  "aliases": [
+   "time code",
+   "TC"
+  ]
+ },
+ {
+  "id": "film-476",
+  "term": "Fine cut",
+  "definition": "A stage or edit in which the cut lengths, transitions, and rhythm are finely refined from an edit whose overall structure is already set.",
+  "example": "In the fine cut, adjust the pacing of the pauses between lines of dialogue.",
+  "note": "The distinction between rough and final edits differs by team. Do not assume it is the same as the final delivery version with color grading, sound, and compositing completed.",
+  "category": "Video post-production",
+  "aliases": [
+   "precision editing",
+   "finecut"
+  ]
+ },
+ {
+  "id": "film-477",
+  "term": "Motion tracking",
+  "definition": "The work of analyzing the movement of feature points or regions within footage to track changes such as position and rotation.",
+  "example": "Use motion tracking to match graphics to the movement of a sign.",
+  "note": "Distinguish it from tracking shots where the camera moves to follow a subject. Here it means image analysis in post-production.",
+  "category": "Video post-production",
+  "aliases": [
+   "tracking",
+   "movement tracking",
+   "motiontracking"
+  ]
+ },
+ {
+  "id": "film-478",
+  "term": "Masking",
+  "definition": "The work of designating an area so that only part of the frame is visible or to limit the range to which an effect is applied.",
+  "example": "Use masking to define the area on the face where correction will be applied.",
+  "category": "Video post-production",
+  "aliases": [
+   "video mask",
+   "mask"
+  ]
+ },
+ {
+  "id": "film-479",
+  "term": "Look",
+  "definition": "The visual impression of footage created by color, contrast, texture, and so on, or the direction of that expression.",
+  "example": "Match the look to a reference, then adjust it scene by scene.",
+  "note": "This is the context of a video's visual expression. Do not automatically equate it with look and feel, which also includes the operational feel of an interface.",
+  "category": "Video post-production",
+  "aliases": [
+   "video look",
+   "color look"
+  ]
+ },
+ {
+  "id": "fashion-564",
+  "term": "Sampling",
+  "definition": "The process of making garment samples before mass production to check and adjust design, fit, material, sewing, and so on.",
+  "example": "Revise the work order to reflect the sampling results.",
+  "category": "Product development and production",
+  "aliases": [
+   "sample making",
+   "garment sampling"
+  ]
+ },
+ {
+  "id": "fashion-565",
+  "term": "Labor cost",
+  "definition": "The cost set as compensation for performing agreed work such as sewing or processing.",
+  "example": "Check the scope of work included in the labor cost and any additional processing fees.",
+  "category": "Product development and production",
+  "aliases": [
+   "sewing labor cost",
+   "processing labor cost"
+  ]
+ },
+ {
+  "id": "fashion-566",
+  "term": "Fiber blend",
+  "definition": "Mixing different types of fibers to form yarn or fabric.",
+  "example": "Check the fiber types and ratios of the blended fabric.",
+  "note": "Distinguish it from union weaving, which combines different yarns as warp and weft.",
+  "category": "Material and fabric processing",
+  "aliases": [
+   "blended yarn",
+   "blended fabric"
+  ]
+ },
+ {
+  "id": "fashion-567",
+  "term": "Bias",
+  "definition": "A direction diagonal to the warp and weft of a fabric. True bias, at 45 degrees to each of the two directions, is used in cutting that takes advantage of drape and stretch.",
+  "example": "After bias cutting, check the stretch and trim the length.",
+  "category": "Material and fabric processing",
+  "aliases": [
+   "bias direction",
+   "true bias",
+   "bias cut"
+  ]
+ },
+ {
+  "id": "fashion-568",
+  "term": "Transfer printing",
+  "definition": "A printing method that transfers a pattern prepared on paper or film onto fabric or a garment using conditions such as heat and pressure.",
+  "example": "Check the fabric and work conditions suited to the transfer method.",
+  "note": "The transfer principle of ink, dye, film, and so on differs by method. Sublimation transfer is one type of transfer printing, and not all transfers are sublimation.",
+  "category": "Printing and dyeing",
+  "aliases": [
+   "heat transfer",
+   "transfer print",
+   "thermal transfer"
+  ]
+ },
+ {
+  "id": "fashion-569",
+  "term": "Drop shoulder",
+  "definition": "A design in which the shoulder line where the sleeve attaches is set lower than the natural shoulder point.",
+  "example": "Check the sleeve length of the drop shoulder while it is worn.",
+  "category": "Sample and sewing process",
+  "aliases": [
+   "dropshoulder",
+   "drop-shoulder"
+  ]
+ },
+ {
+  "id": "fashion-570",
+  "term": "Basting",
+  "definition": "The work of temporarily fixing the position or shape of fabric with provisional stitches before the main sewing.",
+  "example": "Baste to set the position, then proceed with the main sewing.",
+  "note": "The submitted word 'simchimi' was not adopted as a sewing headword. Basting is used in fitting, but it is not the same as the entire fitting stage.",
+  "category": "Sample and sewing process",
+  "aliases": [
+   "basting",
+   "basting stitch",
+   "tacking"
+  ]
+ },
+ {
+  "id": "fashion-571",
+  "term": "Stitch count",
+  "definition": "The number of sewing stitches that fit within a set length. SPI means stitches per inch.",
+  "example": "Set the stitch count to suit the fabric and the sewing purpose.",
+  "note": "A higher stitch count is not unconditionally better sewing. Set it according to the fabric, thread, needle, and sewing purpose.",
+  "category": "Sample and sewing process",
+  "aliases": [
+   "SPI",
+   "Stitches per inch",
+   "stitch density"
+  ]
+ },
+ {
+  "id": "marketing-611",
+  "term": "Key copy",
+  "definition": "A central phrase crafted to convey the core message of an advertisement or campaign to consumers. It is used as the standard for setting the expressive direction of various creative assets.",
+  "example": "Decide the campaign key copy first, then adapt it for banners and videos.",
+  "note": "The key message is the core content to be conveyed, and the key copy expresses it as ad copy. It can be used as a headline or slogan, but it is not always the same concept. The scope of use for the main copy may differ by company.",
+  "category": "Advertising copy and messaging",
+  "aliases": [
+   "key copy",
+   "core copy",
+   "main copy",
+   "main-copy"
+  ]
+ },
+ {
+  "id": "fashion-572",
+  "term": "Interlining lifting",
+  "definition": "A defect in which the bond between the fusible interlining and the outer fabric weakens or detaches, causing the surface to bubble up. Distinguish it from a fit problem where the garment lifts away from the body when worn.",
+  "example": "Interlining lifting appeared on the front panel after washing, so check the bonding conditions and material compatibility.",
+  "note": "Do not determine the cause from visible bubbles alone. Inspect the material, bonding conditions, finishing, and washing conditions together.",
+  "category": "Sewing and bonding quality",
+  "aliases": [
+   "interlining lift",
+   "interlining lifted",
+   "interlining delamination"
+  ]
+ },
+ {
+  "id": "marketing-612",
+  "term": "Logic",
+  "definition": "An explanatory structure that connects the problems found in research and consumer understanding to strategy, concept, and execution, convincing others why this advertising should be done.",
+  "example": "The idea is good, but please strengthen the logic that connects it to the problem analysis up front.",
+  "note": "In advertising planning it refers to the persuasion that leads from research to strategy and idea; in general business it explains the grounds and conclusion of a judgment. Processing rules in development are covered under the logic (code) entry.",
+  "category": "Advertising planning and persuasion",
+  "aliases": [
+   "planning logic",
+   "persuasion logic",
+   "logical structure",
+   "build the logic",
+   "building the logic"
+  ]
+ },
+ {
+  "id": "marketing-613",
+  "term": "Front end",
+  "definition": "In an advertising proposal, the part that analyzes background, market, consumers, and problems and builds the basis for strategy before presenting the full concept or execution plan.",
+  "example": "The front end raised a pricing problem, but the later campaign idea talks about awareness, so they do not connect.",
+  "note": "It is not a fixed process name or page range. State what it is the front part of. Check the explanation by field.",
+  "category": "Advertising planning and persuasion",
+  "aliases": [
+   "front section",
+   "front-end analysis",
+   "planning front end",
+   "proposal front end"
+  ]
+ },
+ {
+  "id": "marketing-614",
+  "term": "Back end",
+  "definition": "The term for the later part of a proposal that develops the previously presented analysis and strategy into concrete concept, deliverables, media operation, schedule, and so on.",
+  "example": "The target definition in the front end must carry through to the media and execution plan in the back end.",
+  "note": "It is not a fixed process name or page range. State what it is the back part of.",
+  "category": "Advertising planning and persuasion",
+  "aliases": [
+   "back section",
+   "rear part",
+   "back-end part",
+   "proposal back end"
+  ]
+ },
+ {
+  "id": "marketing-615",
+  "term": "Problem definition",
+  "definition": "Specifying, based on research and business goals, what consumer perception or behavior the campaign needs to change.",
+  "example": "If awareness is high but purchases are low, reconsider whether the problem should be defined as a lack of awareness.",
+  "category": "Advertising planning and persuasion",
+  "aliases": [
+   "problem framing",
+   "task definition"
+  ]
+ },
+ {
+  "id": "marketing-616",
+  "term": "Appeal",
+  "definition": "Conveying a product or message attractively by appealing to consumers' interest, desires, emotions, and so on.",
+  "example": "Rather than listing features, appeal to the time saved while using it.",
+  "category": "Advertising planning and persuasion",
+  "aliases": [
+   "to appeal",
+   "appeal method",
+   "advertising appeal"
+  ]
+ },
+ {
+  "id": "marketing-617",
+  "term": "Appeal point",
+  "definition": "The appeal or reason emphasized in advertising to get consumers interested or to choose the product.",
+  "example": "Set the appeal point of this ad as ease of use rather than low price.",
+  "note": "It means the reason emphasized in advertising and does not necessarily match the USP, a unique strength that competitors lack.",
+  "category": "Advertising planning and persuasion",
+  "aliases": [
+   "selling point",
+   "appeal angle",
+   "setting the appeal point"
+  ]
+ },
+ {
+  "id": "marketing-618",
+  "term": "Storyline",
+  "definition": "The sequence of a proposal structured so that analysis, insight, strategy, and idea connect into a single persuasive flow.",
+  "example": "Before designing the slides, read just the titles in sequence to check the storyline.",
+  "category": "Advertising planning and persuasion",
+  "aliases": [
+   "story line",
+   "proposal storyline"
+  ]
+ },
+ {
+  "id": "marketing-619",
+  "term": "Big idea",
+  "definition": "A central creative idea that can bind and extend the various media and executions of a campaign into one.",
+  "example": "Check whether this big idea extends beyond the TV ad to in-store events as well.",
+  "category": "Advertising planning and persuasion",
+  "aliases": [
+   "big idea",
+   "central creative idea"
+  ]
+ },
+ {
+  "id": "marketing-620",
+  "term": "Creative",
+  "definition": "The creative work, or its output, concerning what idea and expression will be used to convey an advertisement's message.",
+  "example": "Keeping the strategy, split the creative into a humor-focused version and a plain version.",
+  "category": "Advertising planning and persuasion",
+  "aliases": [
+   "the creative",
+   "creative option",
+   "creative"
+  ]
+ },
+ {
+  "id": "marketing-621",
+  "term": "Kick",
+  "definition": "A metaphor for the decisive element in an advertising idea or expression that grabs attention and makes it memorable.",
+  "example": "The overall flow makes sense, but it lacks a memorable kick at the end.",
+  "note": "It is a metaphorical expression used in idea reviews. Not every company calls the same element a kick, so specify what to strengthen.",
+  "category": "Advertising planning and persuasion",
+  "aliases": [
+   "kick point",
+   "finishing touch"
+  ]
+ },
+ {
+  "id": "common-168",
+  "term": "Logic",
+  "definition": "The relationship and way of development that explains how the premise, grounds, and conclusion of a judgment or proposal connect.",
+  "example": "Please explain the logic of how the conclusion that costs will decrease was derived.",
+  "note": "In advertising planning it refers to the persuasion that leads from research to strategy and idea; in general business it explains the grounds and conclusion of a judgment. Processing rules in development are covered under the logic (code) entry.",
+  "category": "Planning and coordination",
+  "aliases": [
+   "logical development",
+   "to build an argument"
+  ]
+ },
+ {
+  "id": "common-169",
+  "term": "Premise",
+  "definition": "A condition or assumption set as the starting point of a judgment or plan.",
+  "example": "The premise that staff would be added has changed, so let's review the schedule again.",
+  "category": "Planning and coordination",
+  "aliases": [
+   "precondition",
+   "basic premise"
+  ]
+ },
+ {
+  "id": "common-170",
+  "term": "Grounds",
+  "definition": "The facts, data, or reasons presented to support a claim or judgment.",
+  "example": "Please attach demand changes and cost data as grounds for the opinion that the budget should be increased.",
+  "category": "Planning and coordination",
+  "aliases": [
+   "basis for judgment",
+   "supporting data"
+  ]
+ },
+ {
+  "id": "common-171",
+  "term": "Context",
+  "definition": "The background and surrounding circumstances needed to understand the meaning of a statement or judgment.",
+  "example": "If you share the context in which this revision request arose, it will be easier to set the scope.",
+  "category": "Planning and coordination",
+  "aliases": [
+   "context",
+   "textual context",
+   "work context"
+  ]
+ },
+ {
+  "id": "common-172",
+  "term": "Justification",
+  "definition": "The necessity and legitimate reason explaining why a particular proposal or task must be done.",
+  "example": "There is an explanation that we can do it, but we need more on why it must be done now.",
+  "category": "Planning and coordination",
+  "aliases": [
+   "reason it must be done",
+   "justification for proceeding"
+  ]
+ },
+ {
+  "id": "common-173",
+  "term": "Rationale",
+  "definition": "A public reason for explaining an action or proposal to stakeholders and gaining acceptance.",
+  "example": "Beyond simple cost reduction, make clear the rationale of improving customer inconvenience.",
+  "category": "Planning and coordination",
+  "aliases": [
+   "rationale for proceeding"
+  ]
+ },
+ {
+  "id": "common-174",
+  "term": "Point of discussion",
+  "definition": "The central issue that must be judged or agreed on in a discussion.",
+  "example": "Rather than design taste, today's point of discussion is how far the delivery scope should go.",
+  "category": "Planning and coordination",
+  "aliases": [
+   "key issue",
+   "organizing the issues"
+  ]
+ },
+ {
+  "id": "common-175",
+  "term": "Logical leap",
+  "definition": "A state in which the explanation or evidence needed to move from premise or grounds to conclusion is missing.",
+  "example": "Concluding the preference of all customers from the opinions of a few respondents is a logical leap.",
+  "category": "Planning and coordination",
+  "aliases": [
+   "logical jump",
+   "leap",
+   "logic jump"
+  ]
+ },
+ {
+  "id": "common-176",
+  "term": "Hypothesis",
+  "definition": "A tentative explanation set up and to be verified in order to explain an observed phenomenon or predict a result.",
+  "example": "Set up the hypothesis that long guidance text increases inquiries, and compare.",
+  "category": "Planning and coordination",
+  "aliases": [
+   "setting a hypothesis",
+   "hypothesis testing"
+  ]
+ },
+ {
+  "id": "common-177",
+  "term": "Gist",
+  "definition": "The core content of a proposal or document excluding the details.",
+  "example": "Please share the gist of the proposal in three sentences first.",
+  "category": "Planning and coordination",
+  "aliases": [
+   "core gist",
+   "main point"
+  ]
+ },
+ {
+  "id": "common-178",
+  "term": "Big picture",
+  "definition": "The overall concept that considers goals, structure, priorities, and relationships together before deciding individual tasks.",
+  "example": "Before getting into the detailed schedule, let's align on the big picture of overall goals and roles.",
+  "category": "Planning and coordination",
+  "aliases": [
+   "big picture",
+   "the big picture",
+   "overall picture"
+  ]
+ },
+ {
+  "id": "common-179",
+  "term": "Direction",
+  "definition": "The goal or orientation used as the standard for choices and judgments while carrying out work.",
+  "example": "Even with several options, maintain the direction of prioritizing ease of use over cost.",
+  "category": "Planning and coordination",
+  "aliases": [
+   "setting direction",
+   "to set the direction"
+  ]
+ },
+ {
+  "id": "common-180",
+  "term": "Narrative structure",
+  "definition": "A framework that structures a story or explanation into introduction, development, turn, and conclusion.",
+  "example": "Review the narrative structure of the presentation and fix the part that ends without a conclusion.",
+  "note": "Not every proposal must follow this order. A structure that delivers the conclusion first is also used.",
+  "category": "Planning and coordination",
+  "aliases": [
+   "four-part narrative structure"
+  ]
+ },
+ {
+  "id": "common-181",
+  "term": "Connecting link",
+  "definition": "The relationship or explanation that makes preceding and following claims or content flow naturally.",
+  "example": "Please add one more slide explaining the link between the customer research results and the proposal.",
+  "category": "Planning and coordination",
+  "aliases": [
+   "connecting link",
+   "bridge",
+   "transition bridge"
+  ]
+ },
+ {
+  "id": "common-182",
+  "term": "Slide",
+  "definition": "A business term for a single screen or page of presentation or report material. Depending on context, it can also refer to a set of such pages collectively.",
+  "example": "On this slide, please keep only one conclusion and its supporting grounds.",
+  "category": "Business documents and progress",
+  "aliases": [
+   "presentation slide",
+   "PPT slide",
+   "PowerPoint slide",
+   "a single slide",
+   "deck slide",
+   "PT slide"
+  ]
+ },
+ {
+  "id": "common-183",
+  "term": "Wording",
+  "definition": "A term referring to which words and sentences were used to express the same content.",
+  "example": "Please change the wording of the notice so it does not read as if it is already confirmed.",
+  "category": "Business documents and progress",
+  "aliases": [
+   "wording revision",
+   "phrasing",
+   "to change the wording"
+  ]
+ },
+ {
+  "id": "common-184",
+  "term": "Backup data",
+  "definition": "The detailed material or source data that supports the figures and claims in a report or proposal.",
+  "example": "Along with the summary slide, please prepare the backup data for checking the calculation basis.",
+  "note": "This is the context of supporting material for reports and proposals. It differs from data backup, which is replicated for disaster recovery.",
+  "category": "Business documents and progress",
+  "aliases": [
+   "backing data",
+   "evidence data"
+  ]
+ },
+ {
+  "id": "dev-435",
+  "term": "Logic",
+  "definition": "The processing rules and sequence of a program that performs calculation, judgment, state changes, and so on according to input and conditions.",
+  "example": "Because the amount changes if the order of applying discounts and coupons differs, check the payment logic.",
+  "note": "This means the rules and processing flow that software actually executes. Distinguish it from the logical argument used to persuade a proposal.",
+  "category": "Code and implementation",
+  "aliases": [
+   "logic",
+   "processing logic",
+   "business logic",
+   "domain logic"
+  ]
+ },
+ {
+  "id": "dev-436",
+  "term": "Front side",
+  "definition": "A relative term for the part that receives or processes requests and data earlier than a given function or component used as the reference.",
+  "example": "Validate the input format on the front side before sending the request to the server, but keep server validation too.",
+  "note": "It means a relative processing position. Do not always equate the front side with the frontend; confirm the target and reference such as browser, gateway, or preprocessing.",
+  "category": "Code and implementation",
+  "aliases": [
+   "front side",
+   "upstream processing",
+   "front-side processing"
+  ]
+ },
+ {
+  "id": "dev-437",
+  "term": "Back side",
+  "definition": "A relative term for the part that takes over and processes requests and data behind a given function or component used as the reference.",
+  "example": "After the API accepts the task, check whether the actual processing completes in the back-side task queue.",
+  "note": "It means a relative processing position. Do not always equate the back side with the backend; confirm the target and reference such as follow-up functions, queues, or services.",
+  "category": "Code and implementation",
+  "aliases": [
+   "back side",
+   "rear side",
+   "downstream side",
+   "back-side processing",
+   "rear processing"
+  ]
+ },
+ {
+  "id": "film-480",
+  "term": "Front part",
+  "definition": "A relative term for the beginning side of the video or segment being edited.",
+  "example": "The interview at the front part runs long, so show the key remark first and move the background explanation later.",
+  "note": "It is colloquial for the beginning side of a video or editing segment. It does not mean the same as pre-production, the preparation stage before shooting.",
+  "category": "Editing and structure",
+  "aliases": [
+   "front part",
+   "video front part",
+   "editing front part"
+  ]
+ },
+ {
+  "id": "film-481",
+  "term": "Back part",
+  "definition": "A relative term for the ending side of the video or segment being edited.",
+  "example": "The same explanation repeats at the back part, so trim the two cuts just before the ending.",
+  "note": "It is colloquial for the ending side of a video or editing segment. It does not mean the same as the entire post-production process.",
+  "category": "Editing and structure",
+  "aliases": [
+   "back part",
+   "rear part",
+   "tail end",
+   "video back part",
+   "editing back part"
+  ]
+ },
+ {
+  "id": "film-482",
+  "term": "Storyline",
+  "definition": "The developmental flow in which events, characters, and information connect in a video to form the overall story.",
+  "example": "Check whether the storyline still flows naturally after changing the interview order.",
+  "category": "Editing and structure",
+  "aliases": [
+   "story line",
+   "story flow"
+  ]
+ },
+ {
+  "id": "design-445",
+  "term": "Design intent",
+  "definition": "The reason behind choices of form, layout, color, and so on based on goals, users, brand, and production conditions, and the effect intended to be conveyed.",
+  "example": "Explain the design intent that the title was enlarged for information priority, not decoration.",
+  "category": "Design planning and review",
+  "aliases": [
+   "design logic",
+   "logic",
+   "design purpose",
+   "rationale",
+   "design rationale",
+   "rationale"
+  ]
+ },
+ {
+  "id": "common-185",
+  "term": "Sync-up",
+  "definition": "A short communication or meeting to check and align differences in progress, understanding, schedule, and so on among stakeholders.",
+  "example": "Let's sync up on the changed scope before tomorrow's client meeting.",
+  "category": "Meeting facilitation and coordination",
+  "aliases": [
+   "sync up",
+   "getting in sync",
+   "to get in sync"
+  ]
+ },
+ {
+  "id": "common-186",
+  "term": "Check-in",
+  "definition": "A process of briefly confirming participants' situations, progress, and where they need help at the start or middle of a meeting.",
+  "example": "Before the main agenda, let's check in on whether anyone is stuck.",
+  "category": "Meeting facilitation and coordination",
+  "aliases": [
+   "meeting check-in",
+   "check in"
+  ]
+ },
+ {
+  "id": "common-187",
+  "term": "Timebox",
+  "definition": "A method of setting a time limit in advance for a discussion or task, or that time interval itself.",
+  "example": "Let's discuss this agenda item in a 15-minute timebox and organize the remaining issues separately.",
+  "category": "Meeting facilitation and coordination",
+  "aliases": [
+   "time box",
+   "timeboxing"
+  ]
+ },
+ {
+  "id": "common-188",
+  "term": "Parking lot",
+  "definition": "A list or method of separately noting topics that are off the current discussion or hard to decide immediately, to revisit later.",
+  "example": "Leave the separate budget discussion in the parking lot and set a time to revisit it with the owner.",
+  "note": "It does not mean forgetting the deferred item. Record the time to revisit it and who is responsible.",
+  "category": "Meeting facilitation and coordination",
+  "aliases": [
+   "parking lot",
+   "parking",
+   "the parking lot"
+  ]
+ },
+ {
+  "id": "common-189",
+  "term": "Off-topic",
+  "definition": "Content that strays from the current agenda or purpose of discussion.",
+  "example": "That suggestion is off-topic for today's agenda, so let's set a separate meeting.",
+  "category": "Meeting facilitation and coordination",
+  "aliases": [
+   "off topic",
+   "going off on a tangent"
+  ]
+ },
+ {
+  "id": "common-190",
+  "term": "Working session",
+  "definition": "A meeting where participants jointly create documents, drafts, or solutions rather than merely sharing status.",
+  "example": "In the working session to organize the scope, let's create the task list by owner together.",
+  "category": "Meeting facilitation and coordination",
+  "aliases": [
+   "working session",
+   "hands-on work meeting",
+   "work session"
+  ]
+ },
+ {
+  "id": "common-191",
+  "term": "Pre-read",
+  "definition": "Material shared to be read in advance of a meeting so participants understand the context and issues.",
+  "example": "Mark the three decision questions in the pre-read before sending it.",
+  "category": "Meeting facilitation and coordination",
+  "aliases": [
+   "pre read",
+   "advance reading material"
+  ]
+ },
+ {
+  "id": "common-192",
+  "term": "One-pager",
+  "definition": "Material that summarizes the purpose, key content, and needed decisions within a single page.",
+  "example": "Summarize the cost and expected effect on the one-pager so reviewers can judge quickly.",
+  "category": "Meeting facilitation and coordination",
+  "aliases": [
+   "one pager",
+   "one-page summary"
+  ]
+ },
+ {
+  "id": "common-193",
+  "term": "Next steps",
+  "definition": "The specific tasks and order to follow after a meeting or task.",
+  "example": "Before ending the meeting, assign owners and deadlines for the next steps.",
+  "category": "Meeting facilitation and coordination",
+  "aliases": [
+   "nextsteps",
+   "next step",
+   "follow-up steps"
+  ]
+ },
+ {
+  "id": "common-194",
+  "term": "Open issue",
+  "definition": "A matter that still needs further confirmation or discussion because no answer or decision has been reached.",
+  "example": "Leave the quote's scope of inclusion as an open issue and confirm it with the purchasing team.",
+  "category": "Meeting facilitation and coordination",
+  "aliases": [
+   "open issue",
+   "unresolved issue",
+   "pending agenda item"
+  ]
+ },
+ {
+  "id": "common-195",
+  "term": "Agreed items",
+  "definition": "The content that stakeholders participating in the discussion have agreed to accept together.",
+  "example": "In the minutes, distinguish the agreed items from content requiring additional approval.",
+  "category": "Meeting facilitation and coordination",
+  "aliases": [
+   "agreement items",
+   "meeting agreement"
+  ]
+ },
+ {
+  "id": "common-196",
+  "term": "Decision log",
+  "definition": "A record kept so that decisions made, along with their reasons, dates, and involved parties, can be traced.",
+  "example": "Check the decision log for the reason the scope was reduced earlier.",
+  "category": "Meeting facilitation and coordination",
+  "aliases": [
+   "decision log",
+   "decision record"
+  ]
+ },
+ {
+  "id": "common-197",
+  "term": "Decision-maker",
+  "definition": "A person with the authority and responsibility to make the final choice or approval on a particular matter.",
+  "example": "Before gathering opinions, confirm who the decision-maker for this budget is.",
+  "category": "Meeting facilitation and coordination",
+  "aliases": [
+   "decision maker",
+   "final approver"
+  ]
+ },
+ {
+  "id": "common-198",
+  "term": "Stakeholder",
+  "definition": "A person or organization that influences, or is affected by the outcome of, a task or decision.",
+  "example": "The operations team is also a stakeholder affected by the change, so include them in the review.",
+  "category": "Meeting facilitation and coordination",
+  "aliases": [
+   "interested party",
+   "stake holder"
+  ]
+ },
+ {
+  "id": "common-199",
+  "term": "Facilitator",
+  "definition": "A role that helps the process so participants contribute opinions on purpose and keep the discussion moving.",
+  "example": "The facilitator manages speaking time and organizes the remaining issues.",
+  "category": "Meeting facilitation and coordination",
+  "aliases": [
+   "facilitation",
+   "meeting facilitator"
+  ]
+ },
+ {
+  "id": "common-200",
+  "term": "Buy-in",
+  "definition": "A state in which stakeholders understand the necessity and direction of a proposal and support and participate in it.",
+  "example": "Before execution, explain the burden and the effect together to gain the operations owner's buy-in.",
+  "category": "Meeting facilitation and coordination",
+  "aliases": [
+   "buy in",
+   "securing consensus"
+  ]
+ },
+ {
+  "id": "common-202",
+  "term": "Blocker",
+  "definition": "A problem or condition that blocks the next task or progress until it is resolved.",
+  "example": "Unconfirmed delivery specifications are a blocker, so get the owner's confirmation first.",
+  "category": "Schedule and priority",
+  "aliases": [
+   "blocking issue",
+   "obstacle to progress"
+  ]
+ },
+ {
+  "id": "common-203",
+  "term": "Escalation",
+  "definition": "Raising a problem that is hard to resolve within the current scope to a person with greater authority or relevant responsibility to request judgment or support.",
+  "example": "The cross-department schedule conflict is not resolving, so escalate it to the person in charge.",
+  "category": "Schedule and priority",
+  "aliases": [
+   "escalate",
+   "upward reporting",
+   "issue escalation"
+  ]
+ },
+ {
+  "id": "common-204",
+  "term": "Trade-off",
+  "definition": "A relationship in which improving one condition requires giving up or reducing another.",
+  "example": "Compare the trade-off between launch timing and feature scope, then decide.",
+  "category": "Schedule and priority",
+  "aliases": [
+   "trade off",
+   "conflicting relationship"
+  ]
+ },
+ {
+  "id": "common-205",
+  "term": "Priority",
+  "definition": "The order in which multiple tasks should be handled first according to importance, urgency, dependencies, and so on.",
+  "example": "Set priority by customer impact and deadline rather than request order.",
+  "category": "Schedule and priority",
+  "aliases": [
+   "prioritization",
+   "priority"
+  ]
+ },
+ {
+  "id": "common-206",
+  "term": "Quick win",
+  "definition": "A task or result that yields visible improvement with relatively small input or in a short time.",
+  "example": "Before the big overhaul, start with fixing the guidance text as a quick win.",
+  "category": "Schedule and priority",
+  "aliases": [
+   "quick win",
+   "fast result"
+  ]
+ },
+ {
+  "id": "common-207",
+  "term": "Impact",
+  "definition": "The size and nature of the effect a task or decision has on customers, performance, cost, operations, and so on.",
+  "example": "Compare not only the workload but also the impact of how much customer inconvenience will be reduced.",
+  "category": "Schedule and priority",
+  "aliases": [
+   "degree of impact",
+   "expected effect"
+  ]
+ },
+ {
+  "id": "common-208",
+  "term": "On track",
+  "definition": "A state of progressing in line with the agreed plan or goal.",
+  "example": "The key deliverables are coming out as scheduled, so the current timeline is on track.",
+  "category": "Schedule and priority",
+  "aliases": [
+   "on track",
+   "progressing normally"
+  ]
+ },
+ {
+  "id": "common-209",
+  "term": "Off track",
+  "definition": "A state of deviating from the agreed schedule or goal and needing adjustment.",
+  "example": "The review is delayed and the schedule is off track, so let's make a recovery plan.",
+  "category": "Schedule and priority",
+  "aliases": [
+   "off track",
+   "plan deviation"
+  ]
+ },
+ {
+  "id": "common-210",
+  "term": "Buffer",
+  "definition": "The slack left in schedule, resources, and so on to absorb unexpected delays or fluctuations.",
+  "example": "Allow a two-day buffer considering the time external inspection may take.",
+  "note": "It means slack in work schedule or resources. Distinguish it from a buffer, the temporary storage space in a program.",
+  "category": "Schedule and priority",
+  "aliases": [
+   "schedule buffer",
+   "slack time",
+   "buffer period"
+  ]
+ },
+ {
+  "id": "common-211",
+  "term": "Critical path",
+  "definition": "The task path that determines the overall completion time when considering the sequence and durations of a project.",
+  "example": "An approval on the critical path is delayed, which may push back the overall delivery date.",
+  "category": "Schedule and priority",
+  "aliases": [
+   "criticalpath",
+   "main process path"
+  ]
+ },
+ {
+  "id": "common-212",
+  "term": "Pain point",
+  "definition": "A specific difficulty or inconvenience a customer or user experiences in the process of achieving a goal.",
+  "example": "Having to contact several people repeatedly is a pain point in the intake process.",
+  "category": "Schedule and priority",
+  "aliases": [
+   "pain point",
+   "point of inconvenience"
+  ]
+ },
+ {
+  "id": "marketing-622",
+  "term": "Communication objective",
+  "definition": "The goal set for what change to create in the target's awareness, understanding, attitude, or behavior through advertising.",
+  "example": "Separate from the sales goal, set a communication objective of informing people about the new usage.",
+  "category": "Advertising planning and persuasion",
+  "aliases": [
+   "advertising communication objective"
+  ]
+ },
+ {
+  "id": "marketing-623",
+  "term": "Communication strategy",
+  "definition": "The direction that decides who to deliver what message to, through which touchpoints and methods, to create the intended change.",
+  "example": "Separate the communication strategy for repeat customers and first-time customers.",
+  "category": "Advertising planning and persuasion",
+  "aliases": [
+   "message strategy",
+   "communication direction"
+  ]
+ },
+ {
+  "id": "marketing-625",
+  "term": "Target insight",
+  "definition": "An understanding found in the target consumer's behavior, desires, and tensions, used as the starting point for advertising strategy and expression.",
+  "example": "Review the target insight that the reason for hesitating to buy is not price but anxiety about failure.",
+  "category": "Advertising planning and persuasion",
+  "aliases": [
+   "target insight",
+   "consumer insight"
+  ]
+ },
+ {
+  "id": "marketing-626",
+  "term": "Reason to believe",
+  "definition": "The evidence and reasons presented so consumers can believe an advertisement's promise or product claim.",
+  "example": "Check what reason to believe will be presented for the copy that promises an effect.",
+  "note": "Even within advertising, RTB can mean real-time bidding in ad trading. Check from context whether it is the basis of a strategy or media bidding.",
+  "category": "Advertising planning and persuasion",
+  "aliases": [
+   "RTB",
+   "R.T.B.",
+   "reason to believe"
+  ]
+ },
+ {
+  "id": "marketing-627",
+  "term": "Brand fit",
+  "definition": "The degree to which an idea, model, collaboration, or expression suits the brand's identity and direction.",
+  "example": "The buzz is high, but separately review whether the model is a brand fit.",
+  "category": "Advertising planning and persuasion",
+  "aliases": [
+   "brandfit",
+   "brand suitability"
+  ]
+ },
+ {
+  "id": "marketing-628",
+  "term": "Target fit",
+  "definition": "The degree to which a message, expression, or medium matches the target consumer's situation and interests.",
+  "example": "Look at the actual customers' target fit first, rather than the copy the team likes.",
+  "category": "Advertising planning and persuasion",
+  "aliases": [
+   "target fit",
+   "targetfit",
+   "target-fit"
+  ]
+ },
+ {
+  "id": "marketing-629",
+  "term": "Message hierarchy",
+  "definition": "A structure that divides content to be conveyed in advertising by importance and decides which message is shown or remembered first.",
+  "example": "Set the message hierarchy so the product name and the benefit do not compete.",
+  "category": "Advertising planning and persuasion",
+  "aliases": [
+   "message priority"
+  ]
+ },
+ {
+  "id": "marketing-630",
+  "term": "Creative review",
+  "definition": "The process of reviewing whether advertising ideas and drafts fit the strategy, brand, and media conditions, and deciding the revision direction.",
+  "example": "In the creative review, discuss based on the brief's goals rather than personal taste.",
+  "category": "Advertising planning and persuasion",
+  "aliases": [
+   "creative review",
+   "creative check"
+  ]
+ },
+ {
+  "id": "marketing-631",
+  "term": "Planning intent",
+  "definition": "An explanation of the problem awareness behind creating this campaign and what it aims to convey to or change in consumers.",
+  "example": "Check whether the planning intent is maintained even when the expression changes.",
+  "category": "Advertising planning and persuasion",
+  "aliases": [
+   "planning intent",
+   "campaign intent"
+  ]
+ },
+ {
+  "id": "marketing-632",
+  "term": "Rough idea",
+  "definition": "An idea draft that simply shows only the core concept before finished copy or drafts.",
+  "example": "Pick from three rough ideas' concepts first, then develop the selected one.",
+  "category": "Advertising planning and persuasion",
+  "aliases": [
+   "roughidea",
+   "idea draft"
+  ]
+ },
+ {
+  "id": "marketing-633",
+  "term": "Budget pacing",
+  "definition": "Checking and adjusting so that the advertising spend is used at the targeted pace and proportion over the run period.",
+  "example": "Check the budget pacing so the budget is not front-loaded early in the month.",
+  "category": "Campaign meetings and performance",
+  "aliases": [
+   "pacing",
+   "ad pacing"
+  ]
+ },
+ {
+  "id": "marketing-634",
+  "term": "Creative fatigue",
+  "definition": "The phenomenon where interest or response declines from repeated exposure to the same advertising expression.",
+  "example": "Frequency is high and click response is dropping, so suspect creative fatigue.",
+  "note": "Do not conclude that the cause of a performance drop is fatigue. Also check factors such as bidding, targeting, measurement, and seasonality.",
+  "category": "Campaign meetings and performance",
+  "aliases": [
+   "ad fatigue",
+   "creative burnout"
+  ]
+ },
+ {
+  "id": "marketing-635",
+  "term": "Lift",
+  "definition": "The difference or increase showing how much a metric such as awareness or conversion rose compared with a baseline group or comparison condition.",
+  "example": "When reporting lift, specify whether it is the absolute difference from a comparison group or a relative increase rate.",
+  "note": "The calculation method differs by metric and comparison design. A simple before-and-after increase does not confirm a causal effect.",
+  "category": "Campaign meetings and performance",
+  "aliases": [
+   "ad lift",
+   "brand lift",
+   "conversion lift"
+  ]
+ },
+ {
+  "id": "marketing-636",
+  "term": "Holdout",
+  "definition": "A group deliberately not exposed to the advertising or treatment, kept as a comparison baseline.",
+  "example": "Compare the holdout and exposed groups to examine the campaign's incremental effect.",
+  "category": "Campaign meetings and performance",
+  "aliases": [
+   "hold out",
+   "holdout group"
+  ]
+ },
+ {
+  "id": "marketing-637",
+  "term": "Incremental effect",
+  "definition": "The result that occurred additionally because of advertising, compared with not advertising.",
+  "example": "Check the comparison design so you do not count all ad-attributed sales as incremental effect.",
+  "category": "Campaign meetings and performance",
+  "aliases": [
+   "incrementality",
+   "incremental performance"
+  ]
+ },
+ {
+  "id": "marketing-638",
+  "term": "Performance review",
+  "definition": "The process of reviewing campaign results and causes against goals and deciding what to keep or change in the next run.",
+  "example": "In the performance review, check not only the good creatives but also missing conversion tracking.",
+  "category": "Campaign meetings and performance",
+  "aliases": [
+   "campaign review",
+   "ad performance meeting"
+  ]
+ },
+ {
+  "id": "dev-438",
+  "term": "Sprint planning",
+  "definition": "A Scrum event that defines the sprint goal, the work to be done, and the plan to carry it out.",
+  "example": "In sprint planning, check the work needed for the goal together with available time.",
+  "category": "Development meetings and planning",
+  "aliases": [
+   "sprint plan",
+   "planning meeting"
+  ]
+ },
+ {
+  "id": "dev-439",
+  "term": "Sprint review",
+  "definition": "A Scrum event where the sprint results and progress toward the goal are examined with stakeholders and the next work is adjusted.",
+  "example": "In the sprint review, look at the actual behavior and user response to discuss the next direction.",
+  "note": "Do not treat it only as a simple demo or final approval gate. Review results and environmental changes together and adjust the next direction.",
+  "category": "Development meetings and planning",
+  "aliases": [
+   "sprint review"
+  ]
+ },
+ {
+  "id": "dev-440",
+  "term": "Backlog refinement",
+  "definition": "The ongoing activity of breaking backlog items into smaller, clearer pieces and specifying descriptions, order, size, and so on.",
+  "example": "In refinement, split the vague order-cancellation requirement by condition.",
+  "note": "It is an ongoing activity and is not defined as a separate mandatory Scrum event.",
+  "category": "Development meetings and planning",
+  "aliases": [
+   "refinement",
+   "backlog refinement",
+   "backlog grooming",
+   "grooming"
+  ]
+ },
+ {
+  "id": "dev-441",
+  "term": "Technical review",
+  "definition": "The process of technically examining how to implement requirements and the constraints, risks, and operational burden.",
+  "example": "In the technical review, check the compatibility and maintenance burden of the new library.",
+  "category": "Development meetings and design",
+  "aliases": [
+   "tech review",
+   "technical review"
+  ]
+ },
+ {
+  "id": "dev-442",
+  "term": "Design review",
+  "definition": "The process of reviewing before implementation whether the design of components, data, interfaces, failure handling, and so on satisfies the requirements.",
+  "example": "In the design review, check what state the data is left in when payment fails.",
+  "category": "Development meetings and design",
+  "aliases": [
+   "architecture review",
+   "design check"
+  ]
+ },
+ {
+  "id": "dev-443",
+  "term": "ADR",
+  "definition": "A document that records important design decisions along with their background, alternatives, reasons for the choice, and impact.",
+  "example": "Record the reason for choosing a synchronous call and its constraints as an ADR.",
+  "category": "Development meetings and design",
+  "aliases": [
+   "Architecture Decision Record",
+   "A.D.R."
+  ]
+ },
+ {
+  "id": "dev-444",
+  "term": "DoR",
+  "definition": "A standard the team agrees on for how much requirements, dependencies, verification conditions, and so on must be prepared before starting work.",
+  "example": "Per the DoR, check that the acceptance criteria and required APIs are organized.",
+  "note": "It is the team's work-readiness standard. It is not an official artifact mandated by the Scrum Guide.",
+  "category": "Development meetings and design",
+  "aliases": [
+   "Definition of Ready",
+   "readiness criteria"
+  ]
+ },
+ {
+  "id": "dev-445",
+  "term": "Spike",
+  "definition": "Work that investigates or experiments with an uncertain technical problem or approach in a short, limited scope.",
+  "example": "Since accurate effort estimation is hard, confirm the integration feasibility with a half-day spike.",
+  "note": "It is investigative work limited by time and learning goal. It does not necessarily produce a completed product feature.",
+  "category": "Development meetings and design",
+  "aliases": [
+   "technical spike",
+   "spike work"
+  ]
+ },
+ {
+  "id": "dev-446",
+  "term": "Edge case",
+  "definition": "A case where input, state, or environment lies at a boundary or rare condition and may behave differently from the normal flow.",
+  "example": "Also review edge cases such as a zero amount or a session that just expired.",
+  "category": "Development meetings and design",
+  "aliases": [
+   "edge case",
+   "boundary case"
+  ]
+ },
+ {
+  "id": "dev-447",
+  "term": "Happy path",
+  "definition": "The representative success flow that proceeds with expected input and order without errors or exceptions.",
+  "example": "Do not just check the happy path; also test payment cancellation and retry.",
+  "category": "Development meetings and design",
+  "aliases": [
+   "normal flow",
+   "normal scenario"
+  ]
+ },
+ {
+  "id": "dev-448",
+  "term": "Exception handling",
+  "definition": "Handling that detects errors or conditions outside the normal flow and determines recovery, notification, halting, and so on.",
+  "example": "In the timeout exception handling, check that no duplicate payment occurs.",
+  "category": "Development meetings and design",
+  "aliases": [
+   "exception handling",
+   "error handling"
+  ]
+ },
+ {
+  "id": "dev-449",
+  "term": "Fallback",
+  "definition": "An alternative behavior applied when the original function or path is unavailable.",
+  "example": "Add a fallback that shows the default list when the recommendation API fails.",
+  "category": "Development meetings and design",
+  "aliases": [
+   "fallback handling",
+   "alternative behavior"
+  ]
+ },
+ {
+  "id": "dev-450",
+  "term": "Backward compatibility",
+  "definition": "The property by which a new version continues to support the data, interfaces, and usage of the previous version.",
+  "example": "When changing the API response, check backward compatibility with the old app version.",
+  "category": "Development meetings and design",
+  "aliases": [
+   "backward compat",
+   "backward compatibility"
+  ]
+ },
+ {
+  "id": "dev-451",
+  "term": "Breaking change",
+  "definition": "A change that may prevent existing users or integration code from continuing to work without modification.",
+  "example": "Check with the client whether adding a required field is a breaking change.",
+  "category": "Development meetings and design",
+  "aliases": [
+   "compatibility-breaking change",
+   "change that breaks compatibility"
+  ]
+ },
+ {
+  "id": "dev-452",
+  "term": "Idempotency",
+  "definition": "The property that repeating the same request or operation produces the same intended effect as performing it once.",
+  "example": "Design idempotency so that retrying a payment does not create a duplicate order.",
+  "note": "It does not mean the response content or response code of repeated requests must always be identical.",
+  "category": "Development meetings and design",
+  "aliases": [
+   "idempotent",
+   "idempotency"
+  ]
+ },
+ {
+  "id": "dev-453",
+  "term": "Data integrity",
+  "definition": "A state in which the relationships and values among data conform to defined rules and do not contradict each other.",
+  "example": "Check the data integrity between order status and payment records.",
+  "category": "Development meetings and design",
+  "aliases": [
+   "integrity",
+   "data consistency"
+  ]
+ },
+ {
+  "id": "dev-454",
+  "term": "Impact scope",
+  "definition": "The scope of functions and systems whose behavior may change or where problems may arise due to code, configuration, or data changes.",
+  "example": "Check the impact scope of changing the shared authentication module and decide the regression test targets.",
+  "category": "Development meetings and design",
+  "aliases": [
+   "change impact",
+   "impact analysis"
+  ]
+ },
+ {
+  "id": "dev-455",
+  "term": "Rollout",
+  "definition": "The process of applying or releasing a new feature or version to users, environments, and so on in stages.",
+  "example": "Roll out to internal users first, check the error rate, then widen the scope.",
+  "category": "Development meetings and design",
+  "aliases": [
+   "roll out",
+   "feature rollout"
+  ]
+ },
+ {
+  "id": "dev-456",
+  "term": "Rollback plan",
+  "definition": "A plan that defines the conditions, procedures, and responsibilities for reverting to the previous state if a deployment or change has problems.",
+  "example": "Check the rollback plan for whether even data changes can be reverted.",
+  "category": "Development meetings and design",
+  "aliases": [
+   "rollback plan",
+   "restore plan"
+  ]
+ },
+ {
+  "id": "dev-457",
+  "term": "Code freeze",
+  "definition": "A state or rule that restricts code changes during a set period for release stabilization and so on.",
+  "example": "After the code freeze, only approved emergency fixes are applied.",
+  "category": "Development meetings and design",
+  "aliases": [
+   "code freeze",
+   "freeze"
+  ]
+ },
+ {
+  "id": "dev-458",
+  "term": "Bug triage",
+  "definition": "The process of determining reproducibility, severity, priority, ownership, and handling direction for reported bugs.",
+  "example": "In bug triage, we decided to handle the data-loss issue first.",
+  "category": "Development meetings and design",
+  "aliases": [
+   "triage",
+   "bug classification"
+  ]
+ },
+ {
+  "id": "fashion-573",
+  "term": "Product review meeting",
+  "definition": "A session to review developed garment samples together for design, fit, material, price, and sales potential, and decide on revisions or adoption.",
+  "example": "In the product review meeting, compare by outfit, then separate the jackets to adopt from the pants to revise.",
+  "category": "Product review and merchandising meetings",
+  "aliases": [
+   "product review",
+   "merchandise review",
+   "review meeting"
+  ]
+ },
+ {
+  "id": "fashion-574",
+  "term": "Lineup",
+  "definition": "The overall composition of items and styles developed together in a season or collection.",
+  "example": "Seeing the outerwear-heavy lineup, reinforce the inner items.",
+  "category": "Product review and merchandising meetings",
+  "aliases": [
+   "product lineup",
+   "season lineup"
+  ]
+ },
+ {
+  "id": "fashion-575",
+  "term": "Number of styles",
+  "definition": "The number of distinct garment designs planned or operated. Distinguish it from the number of SKUs by color and size combination.",
+  "example": "Keep the number of styles and reduce the number of colors to adjust inventory burden.",
+  "category": "Product review and merchandising meetings",
+  "aliases": [
+   "style count",
+   "number of styles"
+  ]
+ },
+ {
+  "id": "fashion-576",
+  "term": "Item composition",
+  "definition": "The composition deciding what proportion and role of items such as tops, bottoms, and outerwear to carry.",
+  "example": "Seeing seasonal demand, increase the proportion of lightweight outerwear in the item composition.",
+  "category": "Product review and merchandising meetings",
+  "aliases": [
+   "item mix",
+   "product composition"
+  ]
+ },
+ {
+  "id": "fashion-577",
+  "term": "Product mix",
+  "definition": "The combination and proportion of product categories, price ranges, styles, and so on that a brand will carry.",
+  "example": "Review the product mix of basic items and seasonal statement products.",
+  "category": "Product review and merchandising meetings",
+  "aliases": [
+   "productmix",
+   "merchandise mix"
+  ]
+ }
+]

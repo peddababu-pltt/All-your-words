@@ -1,0 +1,1365 @@
+[
+ {
+  "id": "marketing-442",
+  "term": "Tripod",
+  "definition": "Equipment that supports a camera on three legs.",
+  "example": "I mount the camera on a tripod.",
+  "category": "Equipment & Rigs",
+  "aliases": [
+   "tripod"
+  ]
+ },
+ {
+  "id": "marketing-455",
+  "term": "Bounce",
+  "definition": "Light reflected off a wall or reflector onto the subject.",
+  "example": "I soften it with a ceiling bounce.",
+  "category": "Lighting",
+  "aliases": [
+   "bounce light",
+   "reflected light"
+  ]
+ },
+ {
+  "id": "marketing-459",
+  "term": "High key",
+  "definition": "A lighting style that keeps a bright tone with low contrast.",
+  "example": "It's a bright ad, so we go high key.",
+  "category": "Lighting",
+  "aliases": [
+   "high key"
+  ]
+ },
+ {
+  "id": "marketing-460",
+  "term": "Low key",
+  "definition": "A lighting style that uses dark areas and strong contrast.",
+  "example": "We build tension with low key.",
+  "category": "Lighting",
+  "aliases": [
+   "low key",
+   "low-key"
+  ]
+ },
+ {
+  "id": "marketing-462",
+  "term": "Impression",
+  "definition": "When an ad is shown to a user according to a medium's measurement criteria. Because it can be shown repeatedly to the same person, it is distinguished from the number of people reached.",
+  "example": "If an ad is shown to the same customer three times, it can be counted as three impressions.",
+  "note": "This refers to ad delivery. Exposure, the amount of light a camera receives, is explained under exposure in the video and shooting field.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "ad impression",
+   "impression",
+   "impressions"
+  ]
+ },
+ {
+  "id": "marketing-466",
+  "term": "Pre-production",
+  "definition": "The stage of planning, casting, and preparation before the main shoot.",
+  "example": "We decide the blocking in pre-production.",
+  "category": "Production & Planning",
+  "aliases": [
+   "pre-production",
+   "pre-pro",
+   "pre-production"
+  ]
+ },
+ {
+  "id": "marketing-467",
+  "term": "Production",
+  "definition": "The production stage where planned scenes are actually shot.",
+  "example": "The production schedule begins.",
+  "category": "Production & Planning",
+  "aliases": [
+   "main shoot",
+   "production"
+  ]
+ },
+ {
+  "id": "marketing-468",
+  "term": "Post-production",
+  "definition": "The stage of completing editing, color, sound, and more after the shoot.",
+  "example": "We set the post-production schedule.",
+  "category": "Production & Planning",
+  "aliases": [
+   "post-production",
+   "post",
+   "post work"
+  ]
+ },
+ {
+  "id": "marketing-469",
+  "term": "Call sheet",
+  "definition": "A document that lays out the day's shooting schedule, location, participants, and more.",
+  "example": "I check tomorrow's call sheet.",
+  "category": "Production & Planning",
+  "aliases": [
+   "call sheet",
+   "daily shooting plan"
+  ]
+ },
+ {
+  "id": "marketing-470",
+  "term": "Call time",
+  "definition": "The designated time by which participants must arrive on set.",
+  "example": "Call time differs by team.",
+  "category": "Production & Planning",
+  "aliases": [
+   "call time",
+   "assembly time"
+  ]
+ },
+ {
+  "id": "marketing-471",
+  "term": "Blocking",
+  "definition": "The task of determining an actor's position and movement within a scene.",
+  "example": "We move the camera to match the blocking.",
+  "category": "Production & Planning",
+  "aliases": [
+   "actor movement",
+   "movement planning"
+  ]
+ },
+ {
+  "id": "marketing-474",
+  "term": "Action",
+  "definition": "The signal to start the actors' performance or movement.",
+  "example": "Open the door after action.",
+  "category": "On-set Operations",
+  "aliases": [
+   "action cue"
+  ]
+ },
+ {
+  "id": "marketing-475",
+  "term": "Cut",
+  "definition": "The signal to stop the ongoing performance or shooting.",
+  "example": "Cut, let's reset the blocking.",
+  "category": "On-set Operations",
+  "aliases": [
+   "cut",
+   "cut signal"
+  ]
+ },
+ {
+  "id": "marketing-476",
+  "term": "Storyboard",
+  "definition": "A plan that organizes the order and composition of shots as drawings.",
+  "example": "We align the flow with the storyboard.",
+  "category": "Production & Planning",
+  "aliases": [
+   "storyboard",
+   "continuity",
+   "drawn continuity"
+  ]
+ },
+ {
+  "id": "marketing-477",
+  "term": "Dailies",
+  "definition": "Review footage used to check what was shot that day.",
+  "example": "We check continuity in the dailies.",
+  "category": "Production & Planning",
+  "aliases": [
+   "rushes",
+   "rushes",
+   "rushes"
+  ]
+ },
+ {
+  "id": "marketing-478",
+  "term": "Cyclorama",
+  "definition": "A shooting background that joins the wall and floor with a curved surface.",
+  "example": "We shoot the product against the cyclorama.",
+  "note": "We linked the English term cyclorama to the domestic shooting-background expression. The specific space varies by studio.",
+  "category": "Production & Planning",
+  "aliases": [
+   "cyclorama",
+   "cyclorama studio",
+   "cyclorama"
+  ]
+ },
+ {
+  "id": "marketing-479",
+  "term": "Foley",
+  "definition": "The work of creating and recording action sounds directly in post to match the picture.",
+  "example": "We supplement the footsteps with foley.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "foley sound",
+   "foley effects"
+  ]
+ },
+ {
+  "id": "marketing-480",
+  "term": "Color correction",
+  "definition": "The work of adjusting exposure, color balance, and more to set the baseline color state of footage.",
+  "example": "We match color correction across cameras.",
+  "category": "Exposure & Color",
+  "aliases": [
+   "color correction",
+   "color correction"
+  ]
+ },
+ {
+  "id": "marketing-481",
+  "term": "Color grading",
+  "definition": "The work of designing color and contrast for the emotion and mood of a scene.",
+  "example": "We give it a cold mood with grading.",
+  "category": "Exposure & Color",
+  "aliases": [
+   "grading",
+   "color styling"
+  ]
+ },
+ {
+  "id": "marketing-482",
+  "term": "LUT",
+  "definition": "A conversion table that changes input color values into defined output values.",
+  "example": "We apply the LUT suited to the source.",
+  "note": "Uses differ, such as technical color-space conversion versus creative look application. Check which camera and color space it is for.",
+  "category": "Exposure & Color",
+  "aliases": [
+   "lookup table",
+   "LUT",
+   "LUT"
+  ]
+ },
+ {
+  "id": "marketing-484",
+  "term": "Slate",
+  "definition": "A board that records shot information and leaves a reference for syncing sound and picture.",
+  "example": "I check the slate number.",
+  "category": "On-set Operations",
+  "aliases": [
+   "clapperboard",
+   "clapperboard",
+   "clapperboard"
+  ]
+ },
+ {
+  "id": "marketing-485",
+  "term": "Sync",
+  "definition": "Aligning the timing of separately recorded sound and picture.",
+  "example": "We sync using the slate.",
+  "category": "On-set Operations",
+  "aliases": [
+   "syncing",
+   "synchronization",
+   "sync"
+  ]
+ },
+ {
+  "id": "marketing-487",
+  "term": "J-cut",
+  "definition": "An edit that lets the next scene's sound be heard before its picture.",
+  "example": "We play the next line first with a J-cut.",
+  "category": "Editing",
+  "aliases": [
+   "J-cut",
+   "J-cut",
+   "audio lead-in"
+  ]
+ },
+ {
+  "id": "design-357",
+  "term": "J-cut",
+  "definition": "An edit that lets the next scene's sound be heard before its picture.",
+  "example": "We play the next line first with a J-cut.",
+  "category": "Motion & Video Editing",
+  "aliases": [
+   "J-cut",
+   "J-cut",
+   "audio lead-in"
+  ]
+ },
+ {
+  "id": "marketing-488",
+  "term": "L-cut",
+  "definition": "An edit where the previous scene's sound continues after the picture changes.",
+  "example": "We show the reaction with an L-cut.",
+  "category": "Editing",
+  "aliases": [
+   "L-cut",
+   "L-cut",
+   "audio trailing"
+  ]
+ },
+ {
+  "id": "design-358",
+  "term": "L-cut",
+  "definition": "An edit where the previous scene's sound continues after the picture changes.",
+  "example": "We show the reaction with an L-cut.",
+  "category": "Motion & Video Editing",
+  "aliases": [
+   "L-cut",
+   "L-cut",
+   "audio trailing"
+  ]
+ },
+ {
+  "id": "marketing-489",
+  "term": "Jump cut",
+  "definition": "An edit that cuts so that time or motion appears to jump discontinuously within a similar composition.",
+  "example": "We shorten the paused part with a jump cut.",
+  "category": "Editing",
+  "aliases": [
+   "jump cut"
+  ]
+ },
+ {
+  "id": "design-359",
+  "term": "Jump cut",
+  "definition": "An edit that cuts so that time or motion appears to jump discontinuously within a similar composition.",
+  "example": "We shorten the paused part with a jump cut.",
+  "category": "Motion & Video Editing",
+  "aliases": [
+   "jump cut"
+  ]
+ },
+ {
+  "id": "marketing-490",
+  "term": "Match cut",
+  "definition": "An edit that joins different shots using similarity of shape, motion, or sound.",
+  "example": "We connect round shapes with a match cut.",
+  "category": "Editing",
+  "aliases": [
+   "match cut"
+  ]
+ },
+ {
+  "id": "design-360",
+  "term": "Match cut",
+  "definition": "An edit that joins different shots using similarity of shape, motion, or sound.",
+  "example": "We connect round shapes with a match cut.",
+  "category": "Motion & Video Editing",
+  "aliases": [
+   "match cut"
+  ]
+ },
+ {
+  "id": "marketing-491",
+  "term": "Clip",
+  "definition": "A single piece of video or audio used in editing.",
+  "example": "I place the clip on the timeline.",
+  "category": "Editing",
+  "aliases": [
+   "clip"
+  ]
+ },
+ {
+  "id": "design-361",
+  "term": "Clip",
+  "definition": "A single piece of video or audio used in editing.",
+  "example": "I place the clip on the timeline.",
+  "category": "Motion & Video Editing",
+  "aliases": [
+   "clip"
+  ]
+ },
+ {
+  "id": "marketing-492",
+  "term": "Frame",
+  "definition": "A single still image that makes up a video.",
+  "example": "I check it frame by frame.",
+  "category": "Editing",
+  "aliases": [
+   "frame"
+  ]
+ },
+ {
+  "id": "design-362",
+  "term": "Frame",
+  "definition": "A workspace in design tools such as Figma that sets the size and boundary of a screen or group of elements. You can apply layout rules to the inner elements or nest it inside another frame.",
+  "example": "I lay out the screen inside a mobile frame and set the scroll area.",
+  "note": "This refers to a container in design tools. The frame that refers to a single video image in motion work is explained in the video and shooting field.",
+  "category": "UI & Design Tools",
+  "aliases": [
+   "frame",
+   "design frame",
+   "screen frame"
+  ]
+ },
+ {
+  "id": "marketing-493",
+  "term": "Frame rate",
+  "definition": "The number of frames recorded or played per second.",
+  "example": "We match the frame rate.",
+  "category": "Editing",
+  "aliases": [
+   "frame rate",
+   "FPS",
+   "frame rate"
+  ]
+ },
+ {
+  "id": "design-363",
+  "term": "Frame rate",
+  "definition": "The number of frames recorded or played per second.",
+  "example": "We match the frame rate.",
+  "category": "Motion & Video Editing",
+  "aliases": [
+   "frame rate",
+   "FPS",
+   "frame rate"
+  ]
+ },
+ {
+  "id": "marketing-494",
+  "term": "Codec",
+  "definition": "A method or program that compresses and restores video and audio.",
+  "example": "I check the delivery codec.",
+  "category": "Editing",
+  "aliases": [
+   "codec"
+  ]
+ },
+ {
+  "id": "design-364",
+  "term": "Codec",
+  "definition": "A method or program that compresses and restores video and audio.",
+  "example": "I check the delivery codec.",
+  "category": "Motion & Video Editing",
+  "aliases": [
+   "codec"
+  ]
+ },
+ {
+  "id": "marketing-495",
+  "term": "Rendering",
+  "definition": "The process of computing the results of editing and effects to produce the picture.",
+  "example": "I render the effects section.",
+  "category": "Editing",
+  "aliases": [
+   "render",
+   "render"
+  ]
+ },
+ {
+  "id": "design-365",
+  "term": "Rendering",
+  "definition": "The process of computing information such as models, materials, lighting, and effects to produce an image or frame. Used in 3D visualization and motion design to check or output the resulting picture.",
+  "example": "I render a 3D package mockup to compare impressions under different materials and lighting.",
+  "note": "The computation process is distinguished from exporting to a file format. Rendering may be performed together during export.",
+  "category": "3D & Motion Design",
+  "aliases": [
+   "render",
+   "render"
+  ]
+ },
+ {
+  "id": "marketing-496",
+  "term": "Chroma key",
+  "definition": "A technique that makes a specific color range transparent to composite it with another image.",
+  "example": "We key out the green background with chroma key.",
+  "category": "Editing",
+  "aliases": [
+   "chroma key",
+   "green-screen compositing"
+  ]
+ },
+ {
+  "id": "design-366",
+  "term": "Chroma key",
+  "definition": "A technique that makes a specific color range transparent to composite it with another image.",
+  "example": "We key out the green background with chroma key.",
+  "category": "Motion & Video Editing",
+  "aliases": [
+   "chroma key",
+   "green-screen compositing"
+  ]
+ },
+ {
+  "id": "marketing-497",
+  "term": "Keyframe",
+  "definition": "An animation reference point that sets a property value at a specific time.",
+  "example": "I add a keyframe to the position.",
+  "category": "Editing",
+  "aliases": [
+   "keyframe"
+  ]
+ },
+ {
+  "id": "design-367",
+  "term": "Keyframe",
+  "definition": "An animation reference point that sets a property value at a specific time.",
+  "example": "I add a keyframe to the position.",
+  "category": "Motion & Video Editing",
+  "aliases": [
+   "keyframe"
+  ]
+ },
+ {
+  "id": "marketing-498",
+  "term": "Letterbox",
+  "definition": "The bands left at the top and bottom when maintaining the aspect ratio.",
+  "example": "We fit the ratio without letterboxing.",
+  "category": "Editing",
+  "aliases": [
+   "letterbox"
+  ]
+ },
+ {
+  "id": "design-368",
+  "term": "Letterbox",
+  "definition": "The bands left at the top and bottom when maintaining the aspect ratio.",
+  "example": "We fit the ratio without letterboxing.",
+  "category": "Motion & Video Editing",
+  "aliases": [
+   "letterbox"
+  ]
+ },
+ {
+  "id": "marketing-499",
+  "term": "Rough cut",
+  "definition": "An edit that assembles the main flow before fine trimming.",
+  "example": "We check the structure in the rough cut.",
+  "category": "Editing",
+  "aliases": [
+   "rough cut",
+   "rough edit",
+   "rough cut",
+   "rough cut",
+   "rough edit"
+  ]
+ },
+ {
+  "id": "design-369",
+  "term": "Rough cut",
+  "definition": "An edit that assembles the main flow before fine trimming.",
+  "example": "We check the structure in the rough cut.",
+  "category": "Motion & Video Editing",
+  "aliases": [
+   "rough cut",
+   "rough edit",
+   "rough cut",
+   "rough cut",
+   "rough edit"
+  ]
+ },
+ {
+  "id": "marketing-500",
+  "term": "Trimming",
+  "definition": "The work of refining a clip's in and out points.",
+  "example": "I trim the part where they catch their breath.",
+  "category": "Editing",
+  "aliases": [
+   "trim",
+   "trim"
+  ]
+ },
+ {
+  "id": "design-370",
+  "term": "Trimming",
+  "definition": "The work of refining a clip's in and out points.",
+  "example": "I trim the part where they catch their breath.",
+  "category": "Motion & Video Editing",
+  "aliases": [
+   "trim",
+   "trim"
+  ]
+ },
+ {
+  "id": "fashion-447",
+  "term": "Storyboard",
+  "definition": "A plan that organizes the order and composition of shots as drawings.",
+  "example": "In the lookbook video storyboard, I mark the outfit transitions and fabric-detail shots.",
+  "category": "Fashion Shooting & Styling",
+  "aliases": [
+   "storyboard",
+   "continuity",
+   "drawn continuity"
+  ]
+ },
+ {
+  "id": "fashion-450",
+  "term": "High-angle shot",
+  "definition": "A shooting composition that looks down from a position higher than the subject.",
+  "example": "I shoot the bag and accessory layout from a high angle, looking down from above.",
+  "note": "We organized the high angle together with the Korean shooting expression. Distinguish it from the top shot, a directly overhead vertical composition.",
+  "category": "Fashion Shooting & Styling",
+  "aliases": [
+   "high angle",
+   "high angle"
+  ]
+ },
+ {
+  "id": "fashion-451",
+  "term": "Low-angle shot",
+  "definition": "A shooting composition that looks up from a position lower than the subject.",
+  "example": "I shoot the model from a low angle to emphasize the silhouette of the long coat.",
+  "note": "Organized as the Korean shooting expression corresponding to the low angle.",
+  "category": "Fashion Shooting & Styling",
+  "aliases": [
+   "low angle",
+   "low angle",
+   "low angle"
+  ]
+ },
+ {
+  "id": "fashion-452",
+  "term": "Angle",
+  "definition": "The camera's height and direction in viewing the subject.",
+  "example": "I set the shooting angle so the actual fit of the pants is not distorted.",
+  "category": "Fashion Shooting & Styling",
+  "aliases": [
+   "camera angle",
+   "camera angle"
+  ]
+ },
+ {
+  "id": "fashion-453",
+  "term": "Full shot",
+  "definition": "A composition that captures the whole figure from head to toe.",
+  "example": "I capture the full styling, including the shoes, in a full shot.",
+  "category": "Fashion Shooting & Styling",
+  "aliases": [
+   "full shot",
+   "full-body shot",
+   "FS",
+   "full figure"
+  ]
+ },
+ {
+  "id": "fashion-454",
+  "term": "Bust shot",
+  "definition": "A composition capturing a person roughly from the chest up to the head.",
+  "example": "I take a bust shot that shows the knit's neckline and upper-body fit.",
+  "note": "Shot boundaries vary by on-set convention. Agree specifically on how far down the chest to frame.",
+  "category": "Fashion Shooting & Styling",
+  "aliases": [
+   "bust",
+   "bust shot",
+   "BS",
+   "chest shot"
+  ]
+ },
+ {
+  "id": "fashion-455",
+  "term": "Close-up",
+  "definition": "A shot that captures a face or object up close to show the detail.",
+  "example": "I shoot the shirt's buttons and stitching details in close-up.",
+  "category": "Fashion Shooting & Styling",
+  "aliases": [
+   "close-up",
+   "CU",
+   "CU"
+  ]
+ },
+ {
+  "id": "fashion-456",
+  "term": "Cyclorama",
+  "definition": "A shooting background that joins the wall and floor with a curved surface.",
+  "example": "I shoot full-body product photos per outfit against a white cyclorama.",
+  "note": "We linked the English term cyclorama to the domestic shooting-background expression. The specific space varies by studio.",
+  "category": "Fashion Shooting & Styling",
+  "aliases": [
+   "cyclorama",
+   "cyclorama studio",
+   "cyclorama"
+  ]
+ },
+ {
+  "id": "fashion-457",
+  "term": "Color correction",
+  "definition": "The work of adjusting the brightness, white balance, and color of product photos so the garment's color and material are conveyed appropriately.",
+  "example": "I color-correct against a physical sample so the ivory shirt does not look yellow.",
+  "note": "This is the product-photography context. It differs from the process of dyeing fabric or fixing dye defects. Results may differ from the real item depending on screen and lighting conditions.",
+  "category": "Fashion Shooting & Styling",
+  "aliases": [
+   "color correction",
+   "product photo color correction"
+  ]
+ },
+ {
+  "id": "film-360",
+  "term": "Art director",
+  "definition": "The role that leads the visual direction of a project.",
+  "example": "I check with the agency art director whether the product scene matches the key-visual intent.",
+  "category": "Ad Video & Creative Collaboration",
+  "aliases": [
+   "AD",
+   "art director"
+  ]
+ },
+ {
+  "id": "film-361",
+  "term": "Copywriter",
+  "definition": "The role that turns advertising and brand messages into words.",
+  "example": "I adjust the sentence length with the copywriter to match the narration timing.",
+  "category": "Ad Video & Creative Collaboration",
+  "aliases": [
+   "CW",
+   "copywriter"
+  ]
+ },
+ {
+  "id": "film-362",
+  "term": "Brand guide",
+  "definition": "Material that organizes the rules for using the logo, colors, fonts, and more.",
+  "example": "I compare the end card's logo size and margins against the brand guide.",
+  "category": "Ad Video & Production Collaboration",
+  "aliases": [
+   "brand guidelines",
+   "brand guidebook"
+  ]
+ },
+ {
+  "id": "film-363",
+  "term": "Key visual",
+  "definition": "The central visual image that represents a campaign or brand.",
+  "example": "I carry the light and composition of the campaign key visual into the product scenes of the video.",
+  "category": "Ad Video & Production Collaboration",
+  "aliases": [
+   "key visual",
+   "KV",
+   "key visual",
+   "key visual"
+  ]
+ },
+ {
+  "id": "film-364",
+  "term": "Mood board",
+  "definition": "A board that gathers images, colors, textures, and more to show the direction of expression.",
+  "example": "I align the director's lighting, art, and color direction with a mood board.",
+  "category": "Ad Video & Production Collaboration",
+  "aliases": [
+   "mood board"
+  ]
+ },
+ {
+  "id": "film-365",
+  "term": "Brief",
+  "definition": "A document that summarizes the production goal, audience, and core requirements.",
+  "example": "I check the required product scenes and delivery length in the client brief.",
+  "category": "Ad Video & Production Collaboration",
+  "aliases": [
+   "briefing document",
+   "creative brief"
+  ]
+ },
+ {
+  "id": "film-366",
+  "term": "Draft",
+  "definition": "A design proposal made first to review the direction.",
+  "example": "I review the title-motion draft for the movement and caption legibility.",
+  "note": "It is a review proposal, distinguished from the approved final delivery file.",
+  "category": "Ad Video & Production Collaboration",
+  "aliases": [
+   "design draft",
+   "draft",
+   "draft work"
+  ]
+ },
+ {
+  "id": "film-367",
+  "term": "Copy",
+  "definition": "The actual text that goes into a design, such as titles and body.",
+  "example": "I read the narration copy to check whether it fits a 15-second video.",
+  "category": "Ad Video & Production Collaboration",
+  "aliases": [
+   "wording",
+   "copywriting"
+  ]
+ },
+ {
+  "id": "film-368",
+  "term": "Tone and manner",
+  "definition": "The voice and mood kept consistent in brand expression.",
+  "example": "I match the character's line delivery with the tone and manner of the shooting and color correction.",
+  "category": "Ad Video & Production Collaboration",
+  "aliases": [
+   "tone and manner",
+   "T&M",
+   "tone and manner guide"
+  ]
+ },
+ {
+  "id": "film-369",
+  "term": "Reference",
+  "definition": "Images or examples referred to when deciding the direction of expression.",
+  "example": "I share references of camera movement and lighting changes for the long take with the director.",
+  "category": "Ad Video & Production Collaboration",
+  "aliases": [
+   "reference material",
+   "ref",
+   "reference"
+  ]
+ },
+ {
+  "id": "film-371",
+  "term": "Advertiser",
+  "definition": "The party that pays for and commissions advertising to promote a product, service, or organization.",
+  "example": "Before the client preview, I prepare the latest edit and the list of changes.",
+  "category": "Ad Video & Client Collaboration",
+  "aliases": [
+   "brand advertiser"
+  ]
+ },
+ {
+  "id": "design-371",
+  "term": "Advertiser",
+  "definition": "The party that pays for and commissions advertising to promote a product, service, or organization.",
+  "example": "I reflect the advertiser's revision requests in the draft and mark the changes.",
+  "category": "Ad Design & Collaboration",
+  "aliases": [
+   "brand advertiser"
+  ]
+ },
+ {
+  "id": "film-372",
+  "term": "Advertising agency",
+  "definition": "A company that handles advertising planning, production, media operation, and more to meet an advertiser's goals.",
+  "example": "I prepare the shooting schedule based on the continuity finalized by the advertising agency.",
+  "category": "Ad Video & Client Collaboration",
+  "aliases": [
+   "advertising agency",
+   "agency",
+   "agency"
+  ]
+ },
+ {
+  "id": "design-372",
+  "term": "Advertising agency",
+  "definition": "A company that handles advertising planning, production, media operation, and more to meet an advertiser's goals.",
+  "example": "I propose banner designs based on the brief received from the advertising agency.",
+  "category": "Ad Design & Collaboration",
+  "aliases": [
+   "advertising agency",
+   "agency",
+   "agency"
+  ]
+ },
+ {
+  "id": "film-373",
+  "term": "Full-service advertising agency",
+  "definition": "An agency that comprehensively provides multiple advertising functions such as strategy, creative, production, and media.",
+  "example": "I align the video approval process with the AE and production team of the full-service agency.",
+  "category": "Ad Video & Client Collaboration",
+  "aliases": [
+   "full-service agency",
+   "full-service agency"
+  ]
+ },
+ {
+  "id": "design-373",
+  "term": "Full-service advertising agency",
+  "definition": "An agency that comprehensively provides multiple advertising functions such as strategy, creative, production, and media.",
+  "example": "I align the key-visual application rules with the production team of the full-service agency.",
+  "category": "Ad Design & Collaboration",
+  "aliases": [
+   "full-service agency",
+   "full-service agency"
+  ]
+ },
+ {
+  "id": "film-378",
+  "term": "TVC",
+  "definition": "An advertising video placed on television broadcast.",
+  "example": "I check the length of the TVC master and the broadcast delivery specs.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "TVCF",
+   "CF",
+   "TV ad",
+   "TVC"
+  ]
+ },
+ {
+  "id": "film-379",
+  "term": "Campaign",
+  "definition": "Multiple marketing activities connected over a period under a single goal and message.",
+  "example": "I secure together the shots needed for the 30-second main cut and the 6-second version of the same campaign.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "ad campaign",
+   "marketing campaign"
+  ]
+ },
+ {
+  "id": "film-380",
+  "term": "Headline",
+  "definition": "A phrase that delivers the core message in large type so it is read first in an ad.",
+  "example": "I secure enough time for the ad headline to be read on the title screen.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "headline copy",
+   "main copy"
+  ]
+ },
+ {
+  "id": "film-381",
+  "term": "Slogan",
+  "definition": "The core idea of a brand or campaign expressed in a short, memorable sentence.",
+  "example": "I place the brand slogan over the final product shot and sync it with the narration.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "brand slogan",
+   "tagline"
+  ]
+ },
+ {
+  "id": "fashion-476",
+  "term": "Lighting",
+  "definition": "The work of controlling the direction, intensity, color, and texture of light to create the shape and mood of people and spaces.",
+  "example": "I adjust the lighting so the stitching and material texture of the black jacket are visible.",
+  "note": "This is the collaboration context of editorial, lookbook, and product photography. Lighting-team operations and specialized equipment terms are covered in the video and shooting field.",
+  "category": "Fashion Shooting & Styling",
+  "aliases": [
+   "lighting",
+   "lighting work"
+  ]
+ },
+ {
+  "id": "fashion-482",
+  "term": "2D",
+  "definition": "A method in garment development of designing and modifying pattern pieces on a flat plane. Shapes and dimensions are handled in the 2D pattern window of digital tools.",
+  "example": "Modify the sleeve length in the 2D pattern and check it on the 3D garment, please.",
+  "note": "This is the pattern-development context in fashion. Distinguish it from 2D meaning the compositing and motion-graphics part in ad post-production.",
+  "category": "Digital Fashion & Patterns",
+  "aliases": [
+   "2D",
+   "2D pattern",
+   "2D CAD",
+   "flat pattern"
+  ]
+ },
+ {
+  "id": "fashion-483",
+  "term": "3D",
+  "definition": "A digital garment-development method that constructs flat patterns into a three-dimensional garment and virtually dresses it to check form, fit, drape, and more.",
+  "example": "Before making a physical sample, I review the silhouette and fit with a 3D garment.",
+  "note": "This is 3D in garment development. Distinguish it from creating three-dimensional graphics for advertising; virtual review alone does not fully replace physical wear and sewing verification.",
+  "category": "Digital Fashion & Patterns",
+  "aliases": [
+   "3D",
+   "3D",
+   "3D garment",
+   "3D virtual garment",
+   "virtual fitting",
+   "digital garment"
+  ]
+ },
+ {
+  "id": "design-378",
+  "term": "Ad creative",
+  "definition": "Expressive materials used in ads, such as images, copy, and video.",
+  "example": "I organize the hierarchy of the photos, typography, and logo that go into the ad creative.",
+  "category": "Ad Operations",
+  "aliases": [
+   "creative",
+   "creative asset"
+  ]
+ },
+ {
+  "id": "design-379",
+  "term": "Branding",
+  "definition": "Activities that build a brand's identity and perception.",
+  "example": "I carry out the branding design so the symbol and packaging convey the same identity.",
+  "category": "Brand Strategy",
+  "aliases": [
+   "brand building"
+  ]
+ },
+ {
+  "id": "design-380",
+  "term": "Brand identity",
+  "definition": "The unique character and expression system through which a brand presents itself.",
+  "example": "I make the brand identity concrete through rules for using color, typefaces, and images.",
+  "category": "Brand Strategy",
+  "aliases": [
+   "brand identity",
+   "BI"
+  ]
+ },
+ {
+  "id": "design-381",
+  "term": "Positioning",
+  "definition": "Defining the perception and position a brand will occupy amid competition.",
+  "example": "I choose the packaging material and typeface so the positioning as a premium everyday item comes through.",
+  "category": "Brand Strategy",
+  "aliases": [
+   "brand positioning"
+  ]
+ },
+ {
+  "id": "design-382",
+  "term": "USP",
+  "definition": "A distinctive strength that becomes the reason a customer chooses the product.",
+  "example": "I adjust the visual hierarchy of information so the product USP is seen first.",
+  "category": "Brand Strategy",
+  "aliases": [
+   "USP",
+   "unique selling proposition"
+  ]
+ },
+ {
+  "id": "design-383",
+  "term": "Persona",
+  "definition": "Researched customer characteristics organized into a concrete figure.",
+  "example": "I review the font size and interaction method based on the persona's usage environment.",
+  "category": "Customer Understanding",
+  "aliases": [
+   "customer persona",
+   "target persona"
+  ]
+ },
+ {
+  "id": "design-384",
+  "term": "Insight",
+  "definition": "A reason for behavior or a meaningful understanding found in data.",
+  "example": "I reflect the insights from user observation into improving the screen structure.",
+  "category": "Customer Understanding",
+  "aliases": [
+   "consumer insight",
+   "customer insight"
+  ]
+ },
+ {
+  "id": "design-385",
+  "term": "Market research",
+  "definition": "Research that gathers market and customer information to use in decision-making.",
+  "example": "I do market research on competitors' packaging and store displays to set the design direction.",
+  "category": "Customer Understanding",
+  "aliases": [
+   "market research",
+   "market research"
+  ]
+ },
+ {
+  "id": "dev-347",
+  "term": "Product designer",
+  "definition": "A designer who designs a product's structure, experience, and screens, considering user problems and business goals.",
+  "example": "I align the error-recovery flow with the product designer, then define the implementation scope.",
+  "note": "Explained in the digital-product context. In industrial and product design, the role designing physical products uses the same English title.",
+  "category": "Product Team & Design Collaboration",
+  "aliases": [
+   "product designer",
+   "PD"
+  ]
+ },
+ {
+  "id": "dev-348",
+  "term": "UX designer",
+  "definition": "The role that designs the structure, flow, and interactions of the process by which users achieve their goals.",
+  "example": "I check the exception paths of the sign-up steps with the UX designer and implement the routing.",
+  "category": "Product Team & Design Collaboration",
+  "aliases": [
+   "user experience designer"
+  ]
+ },
+ {
+  "id": "dev-349",
+  "term": "UI designer",
+  "definition": "The role that designs the visual elements and interface expression of the screens users operate.",
+  "example": "I check the button's disabled state and long-label rules with the UI designer.",
+  "category": "Product Team & Design Collaboration",
+  "aliases": [
+   "interface designer"
+  ]
+ },
+ {
+  "id": "dev-350",
+  "term": "UX researcher",
+  "definition": "The role that researches user behavior, problems, and context to produce the evidence needed for product and design decisions.",
+  "example": "I reproduce, as test data, the search-failure situation the UX researcher observed.",
+  "category": "Product Team & Design Collaboration",
+  "aliases": [
+   "user researcher",
+   "UX researcher"
+  ]
+ },
+ {
+  "id": "dev-351",
+  "term": "UX writer",
+  "definition": "The role that designs on-screen guidance, buttons, error messages, and more so users can understand the product and act.",
+  "example": "I align with the UX writer on how to communicate server error codes to users.",
+  "category": "Product Team & Design Collaboration",
+  "aliases": [
+   "UX writing lead",
+   "UX writer"
+  ]
+ },
+ {
+  "id": "dev-352",
+  "term": "Design lead",
+  "definition": "The role that leads the design direction and quality of a team or project.",
+  "example": "I review with the design lead the impact that changing shared components will have on existing screens.",
+  "category": "Product Team & Design Collaboration",
+  "aliases": [
+   "lead designer",
+   "design leader"
+  ]
+ },
+ {
+  "id": "dev-353",
+  "term": "Design team",
+  "definition": "The team responsible for designing products, brands, visuals, and experiences.",
+  "example": "I compare the implemented screens with the design team to check spacing and state-based behavior.",
+  "category": "Product Team & Design Collaboration",
+  "aliases": [
+   "design department"
+  ]
+ },
+ {
+  "id": "dev-354",
+  "term": "Layout",
+  "definition": "A structure that arranges elements such as text, images, and whitespace to fit the purpose.",
+  "example": "I set CSS constraints so the layout holds even when the content length changes.",
+  "category": "Visual Design & Production",
+  "aliases": [
+   "page composition",
+   "screen layout"
+  ]
+ },
+ {
+  "id": "dev-355",
+  "term": "Grid",
+  "definition": "A two-dimensional layout method that arranges elements by rows and columns on a web screen. In CSS Grid, you control placement by specifying tracks, areas, and gaps.",
+  "example": "I implement the product list with CSS grid and change the number of columns by screen width.",
+  "note": "This is the context of implementing a visual design's layout basis. The grid in a design guide does not automatically map one-to-one to CSS properties.",
+  "category": "Frontend & Implementation",
+  "aliases": [
+   "grid",
+   "layout grid",
+   "CSS Grid"
+  ]
+ },
+ {
+  "id": "dev-356",
+  "term": "Margin",
+  "definition": "The space placed outside a CSS box's border. It affects the distance from and arrangement with other elements and is distinguished from padding, the inner space.",
+  "example": "I check whether paragraph top and bottom margins collapse and adjust the card spacing.",
+  "category": "Frontend & Implementation",
+  "aliases": [
+   "outer margin",
+   "external margin",
+   "margin"
+  ]
+ },
+ {
+  "id": "dev-357",
+  "term": "Layer",
+  "definition": "A logical tier that divides a program's responsibilities. It separates presentation, business rules, data access, and more to manage each tier's role and dependencies.",
+  "example": "I move the order-amount calculation out of the screen code into the business layer.",
+  "note": "This is a layer in software architecture. It differs from a working layer in image editing or the dressing order of garments, and each tier does not require a separate server.",
+  "category": "Design & Architecture",
+  "aliases": [
+   "tier",
+   "software layer",
+   "architecture layer",
+   "layer structure"
+  ]
+ },
+ {
+  "id": "marketing-501",
+  "term": "Layout",
+  "definition": "A structure that arranges elements such as text, images, and whitespace to fit the purpose.",
+  "example": "In the layout, I organize the hierarchy of the title and body.",
+  "category": "Visual Design & Production",
+  "aliases": [
+   "page composition",
+   "screen layout"
+  ]
+ },
+ {
+  "id": "fashion-492",
+  "term": "Layout",
+  "definition": "A structure that arranges elements such as text, images, and whitespace to fit the purpose.",
+  "example": "In the lookbook layout, I decide the order of the full-outfit and detail photos.",
+  "category": "Brand Visuals",
+  "aliases": [
+   "page composition",
+   "screen layout"
+  ]
+ },
+ {
+  "id": "marketing-502",
+  "term": "Grid",
+  "definition": "A reference structure of columns, rows, and gaps for arranging elements consistently.",
+  "example": "I align the cards' starting line to the grid.",
+  "category": "Visual Design & Production",
+  "aliases": [
+   "grid",
+   "layout grid"
+  ]
+ },
+ {
+  "id": "marketing-503",
+  "term": "Palette",
+  "definition": "A set of colors to use in work, assembled to fit the purpose and combination.",
+  "example": "I pick an accent color within the brand palette.",
+  "category": "Visual Design & Production",
+  "aliases": [
+   "color palette",
+   "color palette"
+  ]
+ },
+ {
+  "id": "fashion-494",
+  "term": "Palette",
+  "definition": "Colors composed together for use in a collection, product line, or brand expression. You set the relationship between the main and accent colors and apply it to fabrics, trims, and visuals.",
+  "example": "After setting the autumn collection palette, I match the fabric swatches and button colors together.",
+  "category": "Color & Product Planning",
+  "aliases": [
+   "color palette",
+   "color combination"
+  ]
+ },
+ {
+  "id": "marketing-504",
+  "term": "Saturation",
+  "definition": "A property indicating how vivid and strong a color feels.",
+  "example": "I lower the photo's saturation so the text reads better.",
+  "category": "Visual Design & Production",
+  "aliases": [
+   "color saturation"
+  ]
+ },
+ {
+  "id": "fashion-495",
+  "term": "Saturation",
+  "definition": "A property indicating how vivid and strong a color feels.",
+  "example": "I compare swatches to see whether the new fabric's color scheme is more saturated than the existing collection.",
+  "category": "Brand Visuals",
+  "aliases": [
+   "color saturation"
+  ]
+ },
+ {
+  "id": "marketing-505",
+  "term": "Value",
+  "definition": "A property indicating how light or dark a color appears.",
+  "example": "I check the value difference between the background and the text.",
+  "category": "Visual Design & Production",
+  "aliases": [
+   "brightness",
+   "color value"
+  ]
+ },
+ {
+  "id": "fashion-496",
+  "term": "Value",
+  "definition": "A property indicating how light or dark a color appears.",
+  "example": "I check the value difference between the jacket and the lining using physical samples.",
+  "category": "Brand Visuals",
+  "aliases": [
+   "brightness",
+   "color value"
+  ]
+ },
+ {
+  "id": "marketing-506",
+  "term": "Hue",
+  "definition": "The property that distinguishes colors, such as red, yellow, and blue.",
+  "example": "I compare by changing the hue at the same value.",
+  "category": "Visual Design & Production",
+  "aliases": [
+   "color wheel",
+   "hue"
+  ]
+ },
+ {
+  "id": "fashion-497",
+  "term": "Hue",
+  "definition": "The property that distinguishes colors, such as red, yellow, and blue.",
+  "example": "I compare the hue in the work order against the delivered fabric's hue.",
+  "category": "Brand Visuals",
+  "aliases": [
+   "color wheel",
+   "hue"
+  ]
+ },
+ {
+  "id": "marketing-507",
+  "term": "Contrast",
+  "definition": "The distinction and emphasis created by differences between elements such as color, brightness, and size.",
+  "example": "Please increase the contrast between the body text and the background.",
+  "category": "Visual Design & Production",
+  "aliases": [
+   "contrast",
+   "contrast"
+  ]
+ },
+ {
+  "id": "fashion-498",
+  "term": "Contrast",
+  "definition": "The distinction and emphasis created by differences between elements such as color, brightness, and size.",
+  "example": "I reduce the color contrast between the top and bottom to create a calm outfit.",
+  "category": "Brand Visuals",
+  "aliases": [
+   "contrast",
+   "contrast"
+  ]
+ },
+ {
+  "id": "marketing-508",
+  "term": "Whitespace",
+  "definition": "Space left empty between and around elements to create separation, emphasis, and reading flow.",
+  "example": "Please add more whitespace between unrelated pieces of information.",
+  "category": "Visual Design & Production",
+  "aliases": [
+   "white space",
+   "negative space"
+  ]
+ },
+ {
+  "id": "fashion-499",
+  "term": "Whitespace",
+  "definition": "Space left empty between and around elements to create separation, emphasis, and reading flow.",
+  "example": "I balance the whitespace around the outfit photos on the lookbook page.",
+  "category": "Brand Visuals",
+  "aliases": [
+   "white space",
+   "negative space"
+  ]
+ },
+ {
+  "id": "marketing-509",
+  "term": "Retouching",
+  "definition": "The work of modifying the unnecessary parts, color, and texture of a photo or image to fit the purpose.",
+  "example": "I keep the product's shape and only retouch out the dust.",
+  "category": "Visual Design & Production",
+  "aliases": [
+   "retouch",
+   "retouching",
+   "photo retouching"
+  ]
+ },
+ {
+  "id": "fashion-500",
+  "term": "Retouching",
+  "definition": "The work of modifying the unnecessary parts, color, and texture of a photo or image to fit the purpose.",
+  "example": "Without changing the garment's fit, I only retouch out the dust and background in the product photo.",
+  "category": "Brand Visuals",
+  "aliases": [
+   "retouch",
+   "retouching",
+   "photo retouching"
+  ]
+ },
+ {
+  "id": "marketing-510",
+  "term": "Layer",
+  "definition": "A working layer that stacks and manages images and elements so they can be edited independently.",
+  "example": "Please separate the text and background layers.",
+  "category": "Visual Design & Production",
+  "aliases": [
+   "layer structure"
+  ]
+ },
+ {
+  "id": "fashion-501",
+  "term": "Layer",
+  "definition": "The order or tiers placed inside and outside when layering multiple garments. In virtual garment work, you also adjust the arrangement and overlap between garments.",
+  "example": "I check the garment layer order so the jacket sits over the shirt.",
+  "note": "This is the context of layering garments. Distinguish it from the working layer in image-editing tools.",
+  "category": "Digital Fashion & Patterns",
+  "aliases": [
+   "garment layer",
+   "outfit layer",
+   "layering"
+  ]
+ }
+]

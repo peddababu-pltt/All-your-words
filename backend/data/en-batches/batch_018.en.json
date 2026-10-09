@@ -1,0 +1,1013 @@
+[
+ {
+  "id": "hrfinance-046",
+  "term": "Buddy program",
+  "definition": "A system that designates a colleague to closely help a new member adapt.",
+  "example": "Share with the buddy the things new hires frequently ask.",
+  "category": "Onboarding, career, and organization"
+ },
+ {
+  "id": "hrfinance-047",
+  "term": "Probation evaluation",
+  "definition": "The process of evaluating job adaptation and performance during the probation period against set criteria.",
+  "example": "Explain the evidence used in the probation evaluation to the individual.",
+  "category": "Onboarding, career, and organization"
+ },
+ {
+  "id": "hrfinance-048",
+  "term": "Career development plan",
+  "definition": "A plan organizing an employee's career goals and the needed experience and competency development direction.",
+  "example": "In the CDP discussion, decide the next task to take on.",
+  "category": "Onboarding, career, and organization",
+  "aliases": [
+   "CDP"
+  ]
+ },
+ {
+  "id": "hrfinance-049",
+  "term": "Individual development plan",
+  "definition": "A plan organizing an individual's competency-improvement goals and the implementing activities and schedule.",
+  "example": "Include not only training but also actual application tasks in the IDP.",
+  "category": "Onboarding, career, and organization",
+  "aliases": [
+   "IDP"
+  ]
+ },
+ {
+  "id": "hrfinance-050",
+  "term": "Internal job posting",
+  "definition": "A method of opening job opportunities within the company to receive employees' applications.",
+  "example": "Announce the eligibility and transfer procedure for the internal job posting.",
+  "category": "Onboarding, career, and organization",
+  "aliases": [
+   "internal recruitment"
+  ]
+ },
+ {
+  "id": "hrfinance-051",
+  "term": "Job rotation",
+  "definition": "A method of placing employees to experience different jobs for competency development or organizational operation.",
+  "example": "Secure a handover period before the job rotation.",
+  "category": "Onboarding, career, and organization",
+  "aliases": [
+   "Job rotation"
+  ]
+ },
+ {
+  "id": "hrfinance-052",
+  "term": "Transfer",
+  "definition": "An HR measure that moves and places an employee to another department or work location.",
+  "example": "Align the transferee's start date with both departments.",
+  "category": "Onboarding, career, and organization"
+ },
+ {
+  "id": "hrfinance-053",
+  "term": "Promotion",
+  "definition": "An HR measure in which the job grade or position within the organization moves to a higher level.",
+  "example": "Check the evaluation period required for the promotion review.",
+  "category": "Onboarding, career, and organization"
+ },
+ {
+  "id": "hrfinance-054",
+  "term": "Grade advancement",
+  "definition": "Moving up to a higher qualification or grade in the company's grading system. The distinction from promotion differs by system.",
+  "example": "Check the rules for whether a grade advancement also includes a position change.",
+  "category": "Onboarding, career, and organization"
+ },
+ {
+  "id": "hrfinance-055",
+  "term": "Job grade",
+  "definition": "A grade indicating job level, proficiency, and organizational position.",
+  "example": "Inform employees of the expected role by job grade.",
+  "category": "Onboarding, career, and organization"
+ },
+ {
+  "id": "hrfinance-056",
+  "term": "Position",
+  "definition": "A role indicating the responsibility held in the organization, such as team leader or division head.",
+  "example": "Adjust approval authority according to the position change.",
+  "category": "Onboarding, career, and organization"
+ },
+ {
+  "id": "hrfinance-057",
+  "term": "Rank",
+  "definition": "A title indicating the standing an individual holds in the organization. Usage distinctions from job grade and position differ by company.",
+  "example": "Align the rank notation on the business card with the HR standard.",
+  "category": "Onboarding, career, and organization"
+ },
+ {
+  "id": "hrfinance-058",
+  "term": "Job family",
+  "definition": "A classification grouping jobs with similar work character and competencies.",
+  "example": "Distinguish the competency standards of the development job family and the sales job family.",
+  "category": "Onboarding, career, and organization",
+  "aliases": [
+   "Job family"
+  ]
+ },
+ {
+  "id": "hrfinance-059",
+  "term": "Job evaluation",
+  "definition": "The process of evaluating a job's responsibility, difficulty, and impact to judge its relative value.",
+  "example": "In job evaluation, separate the jobholder's impression from the job's value.",
+  "category": "Onboarding, career, and organization"
+ },
+ {
+  "id": "hrfinance-060",
+  "term": "Succession planning",
+  "definition": "A plan preparing successor candidates and development directions in case of a vacancy in a key role.",
+  "example": "Record the candidates' readiness level in the succession plan.",
+  "category": "Onboarding, career, and organization",
+  "aliases": [
+   "Succession planning"
+  ]
+ },
+ {
+  "id": "hrfinance-061",
+  "term": "Performance management",
+  "definition": "The process of managing work performance through goal setting, progress checks, feedback, and evaluation.",
+  "example": "Do not end performance management with a single year-end evaluation.",
+  "category": "Evaluation and organizational culture"
+ },
+ {
+  "id": "hrfinance-062",
+  "term": "Performance appraisal",
+  "definition": "A procedure that judges an employee's performance, competency, and behavior against set criteria.",
+  "example": "Re-communicate the evaluation criteria before the performance appraisal.",
+  "category": "Evaluation and organizational culture"
+ },
+ {
+  "id": "hrfinance-063",
+  "term": "Competency assessment",
+  "definition": "Evaluating the level of knowledge, skills, and behavior needed for the job.",
+  "example": "Use observable behavioral criteria in the competency assessment.",
+  "category": "Evaluation and organizational culture"
+ },
+ {
+  "id": "hrfinance-064",
+  "term": "Management by objectives",
+  "definition": "A method of managing performance centered on agreed work goals and the achieved results.",
+  "example": "Align the measurement criteria and scope of responsibility for the MBO goals.",
+  "category": "Evaluation and organizational culture",
+  "aliases": [
+   "MBO"
+  ]
+ },
+ {
+  "id": "hrfinance-065",
+  "term": "Evaluation calibration",
+  "definition": "The process of discussing differences in standards among evaluators or organizations to check the consistency of evaluation.",
+  "example": "In evaluation calibration, compare the grounds for the scores.",
+  "category": "Evaluation and organizational culture",
+  "aliases": [
+   "evaluation alignment meeting"
+  ]
+ },
+ {
+  "id": "hrfinance-066",
+  "term": "Multi-rater evaluation",
+  "definition": "A method that gathers observations from various parties such as managers, peers, and reports for evaluation.",
+  "example": "Check that multi-rater responses do not allow a particular person to be inferred.",
+  "category": "Evaluation and organizational culture",
+  "aliases": [
+   "360-degree evaluation"
+  ]
+ },
+ {
+  "id": "hrfinance-067",
+  "term": "Upward evaluation",
+  "definition": "A method in which employees evaluate their own manager or leader.",
+  "example": "Connect the upward-evaluation results to the leader's improvement tasks.",
+  "category": "Evaluation and organizational culture"
+ },
+ {
+  "id": "hrfinance-068",
+  "term": "Absolute evaluation",
+  "definition": "A method that evaluates by whether preset criteria are met rather than ranking against others.",
+  "example": "Specify the criteria per grade for absolute evaluation.",
+  "category": "Evaluation and organizational culture"
+ },
+ {
+  "id": "hrfinance-069",
+  "term": "Relative evaluation",
+  "definition": "A method that compares performance or level within a group to set grades and so on.",
+  "example": "Review whether the composition of the relative-evaluation group is appropriate.",
+  "category": "Evaluation and organizational culture"
+ },
+ {
+  "id": "hrfinance-070",
+  "term": "Evaluation bias",
+  "definition": "The phenomenon where evaluation is influenced by irrelevant impressions, recent events, personal preferences, and so on.",
+  "example": "To reduce evaluation bias, gather examples from the entire period.",
+  "category": "Evaluation and organizational culture"
+ },
+ {
+  "id": "hrfinance-071",
+  "term": "Halo effect",
+  "definition": "A tendency for one prominent impression to sway other evaluation areas as well.",
+  "example": "Keep the halo effect of presentation skill from mixing into the evaluation of analytical competency.",
+  "category": "Evaluation and organizational culture"
+ },
+ {
+  "id": "hrfinance-072",
+  "term": "Performance improvement plan",
+  "definition": "A plan that sets goals, support, and check schedules to improve performance that falls short of expectations.",
+  "example": "In the PIP, write the improvement criteria together with the support the company will provide.",
+  "category": "Evaluation and organizational culture",
+  "aliases": [
+   "PIP"
+  ]
+ },
+ {
+  "id": "hrfinance-073",
+  "term": "One-on-one",
+  "definition": "A conversation in which a leader and an employee individually discuss work, growth, difficulties, and so on.",
+  "example": "In the one-on-one, first check what work needs support.",
+  "category": "Evaluation and organizational culture",
+  "aliases": [
+   "1on1",
+   "one-on-one meeting"
+  ]
+ },
+ {
+  "id": "hrfinance-074",
+  "term": "Stay interview",
+  "definition": "An interview to learn why a current employee keeps working and the risk factors for attrition.",
+  "example": "In the stay interview, ask about the work environment that would be good to change.",
+  "category": "Evaluation and organizational culture"
+ },
+ {
+  "id": "hrfinance-075",
+  "term": "Exit interview",
+  "definition": "An interview that hears experiences, reasons, and improvement opinions during the departure process.",
+  "example": "Analyze the exit-interview opinions in aggregate without personal identification.",
+  "category": "Evaluation and organizational culture",
+  "aliases": [
+   "Exit interview"
+  ]
+ },
+ {
+  "id": "hrfinance-076",
+  "term": "Organizational commitment",
+  "definition": "The sense of attachment and willingness to engage that an employee feels toward the organization and work.",
+  "example": "Look at the organizational commitment survey results together with the team's work conditions.",
+  "category": "Evaluation and organizational culture"
+ },
+ {
+  "id": "hrfinance-077",
+  "term": "Employee experience",
+  "definition": "The totality of experiences an employee has in the organization, from application through employment to departure.",
+  "example": "To improve employee experience, examine the inconveniences of the first day.",
+  "category": "Evaluation and organizational culture",
+  "aliases": [
+   "EX",
+   "Employee experience"
+  ]
+ },
+ {
+  "id": "hrfinance-078",
+  "term": "Pulse survey",
+  "definition": "A survey that frequently checks employees' state or opinions with short questions.",
+  "example": "Check the reaction to the changed policy with a pulse survey.",
+  "category": "Evaluation and organizational culture"
+ },
+ {
+  "id": "hrfinance-079",
+  "term": "eNPS",
+  "definition": "A metric calculated by classifying responses about willingness to recommend the workplace into promoters, detractors, and so on.",
+  "example": "Read the eNPS figures together with the open-ended comments.",
+  "category": "Evaluation and organizational culture",
+  "aliases": [
+   "Employee Net Promoter Score"
+  ]
+ },
+ {
+  "id": "hrfinance-080",
+  "term": "Psychological safety",
+  "definition": "A state in which the fear of interpersonal disadvantage from asking questions, raising concerns, or making mistakes is low.",
+  "example": "In the retrospective, check the psychological safety to voice opposing views.",
+  "category": "Evaluation and organizational culture"
+ },
+ {
+  "id": "hrfinance-081",
+  "term": "Employment contract",
+  "definition": "A contract whose content is the provision of labor and the payment of wages in return.",
+  "example": "Check the job content and work location in the employment contract.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Labor relations and HR operations"
+ },
+ {
+  "id": "hrfinance-082",
+  "term": "Written employment contract",
+  "definition": "A contract document that sets working conditions such as wages and working hours in writing.",
+  "example": "Explain the terms of the employment contract and confirm whether it was provided.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Labor relations and HR operations"
+ },
+ {
+  "id": "hrfinance-083",
+  "term": "Rules of employment",
+  "definition": "Rules that set the working conditions and work discipline applied at a workplace.",
+  "example": "Check the required procedure with the labor officer before amending the rules of employment.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Labor relations and HR operations"
+ },
+ {
+  "id": "hrfinance-084",
+  "term": "HR regulations",
+  "definition": "Internal regulations that set HR operation standards such as hiring, transfer, evaluation, and discipline.",
+  "example": "Look up the approval procedure for transfers in the HR regulations.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Labor relations and HR operations"
+ },
+ {
+  "id": "hrfinance-085",
+  "term": "Service regulations",
+  "definition": "Internal regulations that set work order, compliance items, and reporting procedures.",
+  "example": "Check the criteria for reporting external activities in the service regulations.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Labor relations and HR operations"
+ },
+ {
+  "id": "hrfinance-086",
+  "term": "Fixed-term worker",
+  "definition": "A worker hired for a set employment-contract period.",
+  "example": "Check the contract end date of the fixed-term worker in advance.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Labor relations and HR operations"
+ },
+ {
+  "id": "hrfinance-087",
+  "term": "Part-time worker",
+  "definition": "A worker whose contractual working hours are shorter than those of comparable full-time workers.",
+  "example": "Check the part-time worker's workdays and hours against the contract.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Labor relations and HR operations"
+ },
+ {
+  "id": "hrfinance-088",
+  "term": "Dispatched labor",
+  "definition": "A structure in which a worker hired by a temporary-work agency works under the direction and command of the user company.",
+  "example": "Check the operational differences between dispatched labor and subcontracting.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Labor relations and HR operations"
+ },
+ {
+  "id": "hrfinance-089",
+  "term": "Subcontracting",
+  "definition": "A contract form agreeing to complete a certain task and pay compensation for the result.",
+  "example": "Clarify the deliverables and inspection criteria of the subcontracting agreement.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Labor relations and HR operations"
+ },
+ {
+  "id": "hrfinance-090",
+  "term": "Permanent employee",
+  "definition": "A term for a form of employment that is continuous without a set term.",
+  "example": "Separately explain the probation conditions for permanent hiring.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Labor relations and HR operations"
+ },
+ {
+  "id": "hrfinance-091",
+  "term": "Open-ended contract worker",
+  "definition": "A worker employed under an employment contract with no separately set end date.",
+  "example": "Check the treatment system for open-ended contract workers against the applicable rules.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Labor relations and HR operations"
+ },
+ {
+  "id": "hrfinance-092",
+  "term": "Trial employment",
+  "definition": "A period or system of examining suitability to decide whether to make a formal hire.",
+  "example": "Check the conditions and evaluation method of trial employment in the contract.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Labor relations and HR operations"
+ },
+ {
+  "id": "hrfinance-093",
+  "term": "Probation",
+  "definition": "A period or process of adaptation and training after hiring to become familiar with the work.",
+  "example": "Decide the tasks to handle during probation and the support owner.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Labor relations and HR operations"
+ },
+ {
+  "id": "hrfinance-094",
+  "term": "Labor-management council",
+  "definition": "A body in which the worker and employer sides participate to discuss cooperative matters of workplace operation.",
+  "example": "Inform employees of the outcomes of the labor-management council agenda.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Labor relations and HR operations"
+ },
+ {
+  "id": "hrfinance-095",
+  "term": "Labor union",
+  "definition": "An organization that workers form for common purposes such as maintaining and improving working conditions.",
+  "example": "Prepare the agenda to discuss with the labor union by category.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Labor relations and HR operations"
+ },
+ {
+  "id": "hrfinance-096",
+  "term": "Collective bargaining",
+  "definition": "The process in which the labor union and employer side negotiate over working conditions and so on.",
+  "example": "Record the agreed and non-agreed items from collective bargaining separately.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Labor relations and HR operations"
+ },
+ {
+  "id": "hrfinance-097",
+  "term": "Collective agreement",
+  "definition": "An agreement on working conditions and so on concluded by the labor union and employer side through bargaining.",
+  "example": "Check the scope of application of the collective agreement before operating the system.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Labor relations and HR operations"
+ },
+ {
+  "id": "hrfinance-098",
+  "term": "Disciplinary action",
+  "definition": "Taking disadvantageous measures for rule violations and so on according to set procedures and standards.",
+  "example": "Check the facts and the explanation procedure before the disciplinary review.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Labor relations and HR operations"
+ },
+ {
+  "id": "hrfinance-099",
+  "term": "Grievance handling",
+  "definition": "A procedure that receives and supports the resolution of work or work-environment difficulties raised by employees.",
+  "example": "Restrict access to grievance-handling records.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Labor relations and HR operations"
+ },
+ {
+  "id": "hrfinance-100",
+  "term": "HR committee",
+  "definition": "An internal body that deliberates and decides on major HR matters.",
+  "example": "Prepare the agenda and materials to submit to the HR committee.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Labor relations and HR operations"
+ },
+ {
+  "id": "hrfinance-101",
+  "term": "Attendance",
+  "definition": "Records concerning work status and time, such as clock-in, clock-out, absence, tardiness, and leave.",
+  "example": "At month-end, check attendance omissions with employees.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Attendance and leave"
+ },
+ {
+  "id": "hrfinance-102",
+  "term": "Contractual working hours",
+  "definition": "The hours the worker and employer have agreed to work within the statutory range.",
+  "example": "Align the contract's contractual working hours with the attendance settings.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Attendance and leave"
+ },
+ {
+  "id": "hrfinance-103",
+  "term": "Actual working hours",
+  "definition": "The time actually spent performing work.",
+  "example": "Separate and aggregate break time from the actual working hours.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Attendance and leave"
+ },
+ {
+  "id": "hrfinance-104",
+  "term": "Break time",
+  "definition": "Time guaranteed for the worker to use freely during work.",
+  "example": "Check how break time is operated in the work schedule.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Attendance and leave"
+ },
+ {
+  "id": "hrfinance-105",
+  "term": "Overtime work",
+  "definition": "Work performed exceeding the set standard working hours.",
+  "example": "Cross-check overtime approvals against the actual hours.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Attendance and leave"
+ },
+ {
+  "id": "hrfinance-106",
+  "term": "Night work",
+  "definition": "Work performed during the night hours defined by law.",
+  "example": "Aggregate night-work hours separately in the attendance data.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Attendance and leave"
+ },
+ {
+  "id": "hrfinance-107",
+  "term": "Holiday work",
+  "definition": "Working on a holiday on which there is no duty to work.",
+  "example": "Check the holiday-work records and the substitution arrangements.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Attendance and leave"
+ },
+ {
+  "id": "hrfinance-108",
+  "term": "Flexible work arrangements",
+  "definition": "A general term for work systems that flexibly operate time, location, and so on.",
+  "example": "Inform employees which of the flexible work arrangements apply to our organization.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Attendance and leave"
+ },
+ {
+  "id": "hrfinance-109",
+  "term": "Variable working-hours system",
+  "definition": "A system that adjusts daily and weekly working hours so the standard is met on average over a set unit period.",
+  "example": "Review the introduction requirements and the work schedule for the variable working-hours system together.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Attendance and leave"
+ },
+ {
+  "id": "hrfinance-110",
+  "term": "Flextime system",
+  "definition": "A system in which the worker chooses clock-in and clock-out times under set conditions such as the total working hours of the settlement period.",
+  "example": "Explain the settlement criteria of the flextime system to employees.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Attendance and leave"
+ },
+ {
+  "id": "hrfinance-111",
+  "term": "Staggered-hours system",
+  "definition": "A method of setting different clock-in and clock-out times while keeping the daily working hours the same.",
+  "example": "Adjust the common meeting time to fit the staggered-hours requests.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Attendance and leave"
+ },
+ {
+  "id": "hrfinance-112",
+  "term": "Discretionary work",
+  "definition": "A system that treats certain tasks requiring discretion in work method and time allocation as having been worked for a set number of hours.",
+  "example": "First check the eligible tasks and the agreement content for discretionary work.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Attendance and leave"
+ },
+ {
+  "id": "hrfinance-113",
+  "term": "Deemed working hours",
+  "definition": "A method that treats a set number of hours as having been worked under defined requirements, such as when actual time is hard to calculate.",
+  "example": "Review whether deemed working hours can be applied to business trips.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Attendance and leave"
+ },
+ {
+  "id": "hrfinance-114",
+  "term": "Annual leave",
+  "definition": "Annual paid leave granted under law and so on in the employment relationship.",
+  "example": "Check the accrual, use, and remaining balance of annual leave.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Attendance and leave"
+ },
+ {
+  "id": "hrfinance-115",
+  "term": "Half-day leave",
+  "definition": "A method of using a day's leave divided into half-day units.",
+  "example": "Check whether the half-day leave hours match the company standard.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Attendance and leave"
+ },
+ {
+  "id": "hrfinance-116",
+  "term": "Compensatory leave",
+  "definition": "A system that substitutes leave for the payment of certain premium wages according to set procedures.",
+  "example": "Record the granting criteria and remaining hours of compensatory leave.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Attendance and leave"
+ },
+ {
+  "id": "hrfinance-117",
+  "term": "Holiday substitution",
+  "definition": "Swapping a scheduled holiday and a workday according to set procedures.",
+  "example": "Confirm the holiday-substitution date and the notice content in advance.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Attendance and leave"
+ },
+ {
+  "id": "hrfinance-118",
+  "term": "Substitute day off",
+  "definition": "A practical term collectively referring to taking a day off on another day in response to extra work and so on.",
+  "example": "Check whether the substitute day off is a holiday substitution or compensatory leave.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Attendance and leave"
+ },
+ {
+  "id": "hrfinance-119",
+  "term": "Leave of absence",
+  "definition": "A state of resting from work for a certain period while the employment relationship is maintained.",
+  "example": "Inform about the pay and return procedure during the leave of absence.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Attendance and leave"
+ },
+ {
+  "id": "hrfinance-120",
+  "term": "Return to work",
+  "definition": "An employee who had been resting from work due to leave and so on starting work again.",
+  "example": "Restore system permissions in time for the return-to-work date.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Attendance and leave"
+ },
+ {
+  "id": "hrfinance-121",
+  "term": "Payroll register",
+  "definition": "A ledger recording each employee's payment amount, deductions, and net pay.",
+  "example": "Cross-check the payroll register against the approved change records.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Payroll and compensation"
+ },
+ {
+  "id": "hrfinance-122",
+  "term": "Pay statement",
+  "definition": "A document informing of the components of wages and the calculation and deduction details.",
+  "example": "Show the calculation basis of variable allowances on the pay statement.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Payroll and compensation"
+ },
+ {
+  "id": "hrfinance-123",
+  "term": "Base pay",
+  "definition": "The base compensation item that serves as the standard in the pay composition.",
+  "example": "Communicate base pay and separate allowances distinctly.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Payroll and compensation"
+ },
+ {
+  "id": "hrfinance-124",
+  "term": "Ordinary wage",
+  "definition": "Wages set to be paid regularly and uniformly for contractual work and so on, a concept used as the basis for calculating statutory allowances.",
+  "example": "Review the items included in ordinary wage against the current standard.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Payroll and compensation"
+ },
+ {
+  "id": "hrfinance-125",
+  "term": "Average wage",
+  "definition": "A wage concept calculated based on the wages of a defined calculation reason and period.",
+  "example": "Check the average-wage calculation data before the departure settlement.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Payroll and compensation"
+ },
+ {
+  "id": "hrfinance-126",
+  "term": "Fixed pay",
+  "definition": "The compensation portion paid relatively consistently according to set conditions.",
+  "example": "Distinguish fixed pay from performance-linked compensation in the compensation sheet.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Payroll and compensation"
+ },
+ {
+  "id": "hrfinance-127",
+  "term": "Variable pay",
+  "definition": "The compensation portion whose amount varies according to conditions such as performance or results.",
+  "example": "Record the target amount and the actual paid amount of variable pay separately.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Payroll and compensation"
+ },
+ {
+  "id": "hrfinance-128",
+  "term": "Performance pay",
+  "definition": "Compensation paid linked to performance criteria of the individual, organization, company, and so on.",
+  "example": "Inform about the payment criteria and target period of the performance pay.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Payroll and compensation"
+ },
+ {
+  "id": "hrfinance-129",
+  "term": "Bonus",
+  "definition": "Money paid in addition to base pay regularly or under specific conditions.",
+  "example": "Check the payment conditions of the bonus in the regulations and the contract.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Payroll and compensation"
+ },
+ {
+  "id": "hrfinance-130",
+  "term": "Compensation band",
+  "definition": "The lower and upper range of compensation set according to job, grade, and so on.",
+  "example": "Review whether the proposed salary is within the relevant compensation band.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Payroll and compensation",
+  "aliases": [
+   "pay band",
+   "Salary band",
+   "pay range",
+   "salary band",
+   "pay-band",
+   "Salary Range"
+  ]
+ },
+ {
+  "id": "hrfinance-131",
+  "term": "Compensation positioning",
+  "definition": "The direction deciding where to position the compensation level compared with the market or internal standards.",
+  "example": "Review the compensation positioning of key jobs using market data.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Payroll and compensation"
+ },
+ {
+  "id": "hrfinance-132",
+  "term": "Total rewards",
+  "definition": "A compensation concept that considers pay, incentives, benefits, and non-monetary value together.",
+  "example": "Distinguish the monetary items from the benefits in the total rewards statement.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Payroll and compensation",
+  "aliases": [
+   "Total rewards"
+  ]
+ },
+ {
+  "id": "hrfinance-133",
+  "term": "Compensation equity",
+  "definition": "The perspective of whether compensation for similar roles and contributions is consistent and fair.",
+  "example": "Check the internal compensation equity of the new-hire terms.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Payroll and compensation"
+ },
+ {
+  "id": "hrfinance-134",
+  "term": "Salary table",
+  "definition": "A table organizing the annual compensation standards by job grade, grade, and so on.",
+  "example": "When applying the salary table, check whether variable pay is included.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Payroll and compensation"
+ },
+ {
+  "id": "hrfinance-135",
+  "term": "Retroactive payment",
+  "definition": "Paying an amount that should have applied to a past period by reflecting it later.",
+  "example": "After the raise is confirmed, retroactively pay last month's difference.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Payroll and compensation"
+ },
+ {
+  "id": "hrfinance-136",
+  "term": "Pro-rata calculation",
+  "definition": "A method of dividing a fixed amount such as a monthly amount by the applicable number of days.",
+  "example": "Pro-rate the pay of a mid-month joiner according to the set standard.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Payroll and compensation"
+ },
+ {
+  "id": "hrfinance-137",
+  "term": "Deduction",
+  "definition": "Subtracting set amounts such as taxes and insurance premiums from pay and so on.",
+  "example": "Check the basis and amount of the payroll deduction items.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Payroll and compensation"
+ },
+ {
+  "id": "hrfinance-138",
+  "term": "Net pay",
+  "definition": "The amount actually received after reflecting deductions and so on from the gross payment.",
+  "example": "Check the difference in this month's net pay in the deduction details.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Payroll and compensation",
+  "aliases": [
+   "net amount paid"
+  ]
+ },
+ {
+  "id": "hrfinance-139",
+  "term": "Labor cost",
+  "definition": "Costs such as pay and contributions incurred in hiring and utilizing workforce.",
+  "example": "Include the employer's share of insurance premiums in the departmental labor-cost budget.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Payroll and compensation"
+ },
+ {
+  "id": "hrfinance-140",
+  "term": "Payroll closing",
+  "definition": "The work of finalizing attendance, allowance, and deduction changes in time for the set payday.",
+  "example": "Reflect the missing leave-of-absence records before the payroll closing.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Payroll and compensation",
+  "aliases": [
+   "payroll close",
+   "payroll cutoff"
+  ]
+ },
+ {
+  "id": "hrfinance-141",
+  "term": "Four major insurances",
+  "definition": "A collective term for national pension, health insurance, employment insurance, and industrial accident insurance.",
+  "example": "Check the four-major-insurance reporting targets and information for the new hire.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Social insurance and retirement",
+  "aliases": [
+   "four social insurances"
+  ]
+ },
+ {
+  "id": "hrfinance-142",
+  "term": "National pension",
+  "definition": "A public pension system that prepares for income reduction due to old age, disability, death, and so on.",
+  "example": "Check the income data to use for the national pension reporting.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Social insurance and retirement"
+ },
+ {
+  "id": "hrfinance-143",
+  "term": "Health insurance",
+  "definition": "An insurance system that socially shares the burden of medical costs due to illness, injury, and so on.",
+  "example": "Prepare the report of a change in health-insurance eligibility.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Social insurance and retirement"
+ },
+ {
+  "id": "hrfinance-144",
+  "term": "Employment insurance",
+  "definition": "A social insurance that supports livelihood stability during unemployment and employment maintenance and vocational-ability development.",
+  "example": "Cross-check the employment-insurance filings against the onboarding and offboarding records.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Social insurance and retirement"
+ },
+ {
+  "id": "hrfinance-145",
+  "term": "Industrial accident insurance",
+  "definition": "A social insurance that compensates workers' losses from work-related accidents.",
+  "example": "Organize the accident data related to industrial accident insurance accurately.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Social insurance and retirement"
+ },
+ {
+  "id": "hrfinance-146",
+  "term": "Acquisition-of-eligibility report",
+  "definition": "A procedure notifying that enrollment eligibility has newly arisen in social insurance and so on.",
+  "example": "Check the hire date and the acquisition-of-eligibility reporting criteria.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Social insurance and retirement"
+ },
+ {
+  "id": "hrfinance-147",
+  "term": "Loss-of-eligibility report",
+  "definition": "A procedure notifying that enrollment eligibility has ended due to departure and so on.",
+  "example": "Check the reason for departure, then prepare the loss-of-eligibility report.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Social insurance and retirement"
+ },
+ {
+  "id": "hrfinance-148",
+  "term": "Monthly remuneration base",
+  "definition": "The monthly remuneration base amount used for calculating insurance premiums and so on.",
+  "example": "Compare the reported monthly remuneration base against the pay change records.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Social insurance and retirement"
+ },
+ {
+  "id": "hrfinance-149",
+  "term": "Standard monthly income",
+  "definition": "The income amount that serves as the basis for national pension premiums and benefit calculation.",
+  "example": "Check via the agency's notice whether it is subject to a standard monthly income change.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Social insurance and retirement"
+ },
+ {
+  "id": "hrfinance-150",
+  "term": "Premium reconciliation",
+  "definition": "The work of adjusting the premium difference by comparing reported amounts with finalized data such as actual remuneration.",
+  "example": "Reflect the premium reconciliation details in the payroll deductions.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Social insurance and retirement"
+ },
+ {
+  "id": "hrfinance-151",
+  "term": "Severance pay",
+  "definition": "The benefit paid upon departure according to the requirements set in the retirement-benefit system.",
+  "example": "Check the tenure data needed for the severance-pay calculation.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Social insurance and retirement"
+ },
+ {
+  "id": "hrfinance-152",
+  "term": "Retirement pension",
+  "definition": "A system that accumulates and manages retirement-benefit funds at an external financial institution and so on.",
+  "example": "Cross-check the retirement-pension contribution records against the provider's data.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Social insurance and retirement"
+ },
+ {
+  "id": "hrfinance-153",
+  "term": "Defined benefit",
+  "definition": "A type of retirement pension in which the benefit level to be received at retirement is set in advance.",
+  "example": "Check the funding status of the defined-benefit plan with the managing institution.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Social insurance and retirement",
+  "aliases": [
+   "DB type",
+   "DB"
+  ]
+ },
+ {
+  "id": "hrfinance-154",
+  "term": "Defined contribution",
+  "definition": "A type of retirement pension in which the employer's contribution level is set and the benefit varies with investment results and so on.",
+  "example": "Check for any missed contributions in the defined-contribution plan.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Social insurance and retirement",
+  "aliases": [
+   "DC type",
+   "DC"
+  ]
+ },
+ {
+  "id": "hrfinance-155",
+  "term": "Individual retirement pension",
+  "definition": "A retirement-pension account or system in which an individual accumulates and manages retirement benefits and so on.",
+  "example": "Check the IRP account information needed before transferring the retirement benefit.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Social insurance and retirement",
+  "aliases": [
+   "IRP"
+  ]
+ },
+ {
+  "id": "hrfinance-156",
+  "term": "Departure settlement",
+  "definition": "The work of organizing payment and deduction details such as pay, leave, and retirement benefits in line with departure.",
+  "example": "Re-check the tenure period on the departure settlement sheet.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Social insurance and retirement"
+ },
+ {
+  "id": "hrfinance-157",
+  "term": "Continuous service period",
+  "definition": "A concept meaning the period during which the employment relationship was continuously maintained.",
+  "example": "Check the criteria for determining the continuous service period including leave periods.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Social insurance and retirement"
+ },
+ {
+  "id": "hrfinance-158",
+  "term": "Interim settlement",
+  "definition": "Settling the severance pay for the relevant period before departure under defined requirements.",
+  "example": "Check whether the interim-settlement application reason meets the requirements.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Social insurance and retirement"
+ },
+ {
+  "id": "hrfinance-159",
+  "term": "Recommended resignation",
+  "definition": "A form of ending the employment relationship in which the employer proposes departure and the worker accepts it.",
+  "example": "Confirm the actual intent and the agreement content of the recommended resignation.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Social insurance and retirement"
+ },
+ {
+  "id": "hrfinance-160",
+  "term": "Dismissal",
+  "definition": "The employer unilaterally ending the employment relationship.",
+  "example": "Review the reasons and procedures of dismissal-related matters separately.",
+  "note": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time.",
+  "category": "Social insurance and retirement"
+ },
+ {
+  "id": "hrfinance-161",
+  "term": "Finance",
+  "definition": "The work area that manages the company's fundraising, use of funds, and financial condition.",
+  "example": "Please have Finance review the funding plan needed for the new facility investment.",
+  "category": "Finance organization and basics",
+  "aliases": [
+   "Finance"
+  ]
+ },
+ {
+  "id": "hrfinance-162",
+  "term": "Finance team",
+  "definition": "The organization in charge of the company's funding plans and financial management. The scope of also handling accounting and tax differs by company.",
+  "example": "I shared next month's payment schedule with the Finance team.",
+  "category": "Finance organization and basics",
+  "aliases": [
+   "Finance department"
+  ]
+ },
+ {
+  "id": "hrfinance-163",
+  "term": "Accounting team",
+  "definition": "The organization that records transactions per accounting standards and manages the ledgers and financial statements.",
+  "example": "The accounting team confirmed the account code for this expense.",
+  "category": "Finance organization and basics",
+  "aliases": [
+   "bookkeeping team"
+  ]
+ },
+ {
+  "id": "hrfinance-164",
+  "term": "Treasury team",
+  "definition": "The organization that manages cash flow and liquidity and executes funding and investment plans.",
+  "example": "The treasury team is checking the balance needed for payday.",
+  "category": "Finance organization and basics",
+  "aliases": [
+   "treasury department"
+  ]
+ },
+ {
+  "id": "hrfinance-165",
+  "term": "Tax officer",
+  "definition": "A person who manages tax filing and payment data and tax-related handling matters.",
+  "example": "Please check the tax treatment of overseas service fees with the tax officer.",
+  "category": "Finance organization and basics",
+  "aliases": [
+   "tax specialist"
+  ]
+ }
+]

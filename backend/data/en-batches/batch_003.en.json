@@ -1,0 +1,1398 @@
+[
+ {
+  "id": "fashion-071",
+  "term": "Cross-selling",
+  "definition": "Recommending additional products to use together with a chosen item.",
+  "example": "We cross-sell a belt that goes with the jacket.",
+  "category": "Store & Retail",
+  "aliases": [
+   "Cross sale",
+   "Cross selling"
+  ]
+ },
+ {
+  "id": "fashion-072",
+  "term": "Average Transaction Value",
+  "definition": "The average purchase amount per transaction.",
+  "example": "We look at the store's average transaction value on a per-transaction basis.",
+  "note": "Here it is the average per transaction. When tallied as the average per customer, the denominator is different.",
+  "category": "Store & Retail",
+  "aliases": [
+   "ATV",
+   "Average purchase amount"
+  ]
+ },
+ {
+  "id": "fashion-073",
+  "term": "Pop-up store",
+  "definition": "A temporary store that operates only for a set period.",
+  "example": "We open a pop-up store to introduce new products.",
+  "category": "Store & Retail",
+  "aliases": [
+   "Pop-up",
+   "Popup store"
+  ]
+ },
+ {
+  "id": "fashion-074",
+  "term": "Deadstock",
+  "definition": "Inventory that remains unsold over a long period.",
+  "example": "We decide how to deal with the deadstock.",
+  "category": "Store & Retail",
+  "aliases": [
+   "Slow-moving inventory",
+   "Dead stock"
+  ]
+ },
+ {
+  "id": "fashion-075",
+  "term": "OTB",
+  "definition": "The budget available for additional purchases under the sales and inventory plan.",
+  "example": "We check the OTB before placing additional buys.",
+  "category": "Sales & Inventory",
+  "aliases": [
+   "Open to buy",
+   "Open-to-buy"
+  ]
+ },
+ {
+  "id": "fashion-076",
+  "term": "Markdown",
+  "definition": "Lowering the current selling price.",
+  "example": "We decide the end-of-season markdown range.",
+  "category": "Sales & Inventory",
+  "aliases": [
+   "Price reduction",
+   "Mark down"
+  ]
+ },
+ {
+  "id": "fashion-077",
+  "term": "Sell-through rate",
+  "definition": "The ratio of quantity sold to quantity received within a set period.",
+  "example": "Of 100 units received, 60 sold, so the sell-through rate is 60%.",
+  "note": "Here it is quantity sold ÷ quantity received × 100. Check each company's standard for period, returns, and additional inbound stock.",
+  "category": "Sales & Inventory",
+  "aliases": [
+   "Sell-through",
+   "Sell through",
+   "Depletion rate",
+   "Sell-through rate",
+   "Sales depletion rate",
+   "Sell Through"
+  ]
+ },
+ {
+  "id": "fashion-078",
+  "term": "Store conversion rate",
+  "definition": "The share of store visits that resulted in a purchase.",
+  "example": "We check the store conversion rate by looking at visitor count alongside transaction count.",
+  "category": "Sales & Inventory",
+  "aliases": [
+   "Purchase conversion rate",
+   "Store purchase rate"
+  ]
+ },
+ {
+  "id": "fashion-079",
+  "term": "Reorder",
+  "definition": "Placing an additional order for a product already ordered.",
+  "example": "We reorder colors that sell well.",
+  "category": "Sales & Inventory",
+  "aliases": [
+   "Re-order",
+   "Additional order"
+  ]
+ },
+ {
+  "id": "fashion-080",
+  "term": "Reorder point",
+  "definition": "The reference quantity at which an additional order is placed once inventory reaches that level.",
+  "example": "We set the reorder point taking lead time into account.",
+  "category": "Sales & Inventory",
+  "aliases": [
+   "ROP",
+   "Order point"
+  ]
+ },
+ {
+  "id": "fashion-081",
+  "term": "Safety stock",
+  "definition": "Extra inventory held to prepare for demand increases or delayed inbound stock.",
+  "example": "We keep safety stock in case of shipping delays.",
+  "category": "Sales & Inventory",
+  "aliases": [
+   "Buffer stock",
+   "Safety inventory"
+  ]
+ },
+ {
+  "id": "fashion-082",
+  "term": "Tech pack",
+  "definition": "A document bundling production information such as measurements, materials, and construction.",
+  "example": "We hand the latest tech pack to the factory.",
+  "category": "Product Development & Production",
+  "aliases": [
+   "Technical package",
+   "Work order sheet",
+   "Production work order",
+   "Spec sheet"
+  ]
+ },
+ {
+  "id": "fashion-083",
+  "term": "Flat sketch",
+  "definition": "A drawing that represents a garment's shape and sewing construction in a flat view.",
+  "example": "We also mark the back-panel seam lines on the flat sketch.",
+  "category": "Product Development & Production",
+  "aliases": [
+   "Flat",
+   "Flat sketch",
+   "Technical flat"
+  ]
+ },
+ {
+  "id": "fashion-084",
+  "term": "BOM",
+  "definition": "A list of the materials and quantities needed to make a product.",
+  "example": "We also include the zipper and labels in the BOM.",
+  "category": "Product Development & Production",
+  "aliases": [
+   "Bill of materials",
+   "B.O.M."
+  ]
+ },
+ {
+  "id": "fashion-085",
+  "term": "Spec sheet",
+  "definition": "A table organizing a product's measurement points and specifications.",
+  "example": "We revise the sleeve length on the spec sheet.",
+  "category": "Product Development & Production",
+  "aliases": [
+   "Specification sheet",
+   "Measurement chart",
+   "Size spec"
+  ]
+ },
+ {
+  "id": "fashion-086",
+  "term": "POM",
+  "definition": "The defined location and reference for taking a measurement.",
+  "example": "We mark the chest-circumference POM on the flat sketch.",
+  "category": "Product Development & Production",
+  "aliases": [
+   "Point of measure",
+   "Measurement point"
+  ]
+ },
+ {
+  "id": "fashion-087",
+  "term": "Trims",
+  "definition": "Materials used besides the main fabric, such as buttons, zippers, and labels.",
+  "example": "We match the trim colors to the fabric.",
+  "category": "Product Development & Production",
+  "aliases": [
+   "Trim",
+   "Trimmings"
+  ]
+ },
+ {
+  "id": "fashion-088",
+  "term": "Tolerance",
+  "definition": "The allowed range of deviation from the specification.",
+  "example": "We set the overall-length tolerance at 0.5 cm.",
+  "category": "Product Development & Production",
+  "aliases": [
+   "Tolerance",
+   "Measurement tolerance"
+  ]
+ },
+ {
+  "id": "fashion-089",
+  "term": "Seam allowance",
+  "definition": "The margin left between the cutting line and the stitching line for sewing.",
+  "example": "We note the seam allowance width on the flat sketch.",
+  "note": "\"Nuishiro\" is a term found in older sewing terminology references.",
+  "category": "Product Development & Production",
+  "aliases": [
+   "Seam margin",
+   "Nuishiro"
+  ]
+ },
+ {
+  "id": "fashion-090",
+  "term": "Fitting",
+  "definition": "The task of putting a garment on to check fit, measurements, and silhouette.",
+  "example": "After the sample fitting, we adjust the shoulder width.",
+  "category": "Sample & Fitting",
+  "aliases": [
+   "Fit check",
+   "Wear inspection"
+  ]
+ },
+ {
+  "id": "fashion-091",
+  "term": "Fit sample",
+  "definition": "A test product used to check the worn state and measurements.",
+  "example": "We check the sleeve movement with the fit sample.",
+  "category": "Sample & Fitting",
+  "aliases": [
+   "Fitting sample",
+   "Fit-sample"
+  ]
+ },
+ {
+  "id": "fashion-092",
+  "term": "Fit comment",
+  "definition": "Notes written after a fitting on what to fix and where.",
+  "example": "We send the fit comments along with photos.",
+  "category": "Sample & Fitting",
+  "aliases": [
+   "Fitting comment",
+   "Sample comment"
+  ]
+ },
+ {
+  "id": "fashion-093",
+  "term": "Fit approval",
+  "definition": "Approving the standard after finishing the fit review.",
+  "example": "After fit approval, we move to the next production stage.",
+  "category": "Sample & Fitting",
+  "aliases": [
+   "Fit confirm",
+   "Fitting approval"
+  ]
+ },
+ {
+  "id": "fashion-094",
+  "term": "Colorway",
+  "definition": "The color or color-combination options offered for the same design.",
+  "example": "This style comes in three colorways.",
+  "category": "Product Development & Production",
+  "aliases": [
+   "Color way",
+   "Color option"
+  ]
+ },
+ {
+  "id": "fashion-095",
+  "term": "Size run",
+  "definition": "The full set of sizes in which a product is offered.",
+  "example": "We set the size run from XS to XL.",
+  "category": "Product Development & Production",
+  "aliases": [
+   "Size range",
+   "Range of sizes"
+  ]
+ },
+ {
+  "id": "fashion-096",
+  "term": "Grading",
+  "definition": "The task of developing a base pattern into other sizes according to set rules.",
+  "example": "We grade from the base M size.",
+  "category": "Product Development & Production",
+  "aliases": [
+   "Pattern grading",
+   "Size development"
+  ]
+ },
+ {
+  "id": "dev-063",
+  "term": "Epic",
+  "definition": "A large bundle of work that can be broken into several smaller tasks or stories.",
+  "example": "We group the sign-up improvements into an epic.",
+  "category": "Requirements & Planning",
+  "aliases": [
+   "Epic issue"
+  ]
+ },
+ {
+  "id": "dev-064",
+  "term": "User story",
+  "definition": "A description of a desired feature and its reason from the user's perspective.",
+  "example": "We write down why the user needs it in the user story.",
+  "category": "Requirements & Planning",
+  "aliases": [
+   "User story",
+   "Userstory"
+  ]
+ },
+ {
+  "id": "dev-065",
+  "term": "Initiative",
+  "definition": "A higher-level undertaking that groups several epics under a common goal.",
+  "example": "We drive an initiative to improve the search experience.",
+  "category": "Requirements & Planning",
+  "aliases": [
+   "Strategic initiative"
+  ]
+ },
+ {
+  "id": "dev-066",
+  "term": "DoD",
+  "definition": "The shared criteria by which a team recognizes work as done.",
+  "example": "We include testing and documentation updates in the DoD.",
+  "category": "Requirements & Planning",
+  "aliases": [
+   "Definition of Done",
+   "Definition of done"
+  ]
+ },
+ {
+  "id": "dev-067",
+  "term": "Acceptance criteria",
+  "definition": "The conditions for judging that a particular requirement has been met.",
+  "example": "We also note handling of empty input in the acceptance criteria.",
+  "category": "Requirements & Planning",
+  "aliases": [
+   "AC",
+   "Acceptance standard",
+   "Approval criteria",
+   "Completion conditions",
+   "Acceptance criteria"
+  ]
+ },
+ {
+  "id": "dev-068",
+  "term": "Technical debt",
+  "definition": "The future burden on improvements caused by choices in structure or implementation.",
+  "example": "We clean up the technical debt from accumulated duplicate logic.",
+  "category": "Development Collaboration",
+  "aliases": [
+   "Tech debt",
+   "Technical debt"
+  ]
+ },
+ {
+  "id": "dev-069",
+  "term": "Refactoring",
+  "definition": "The work of improving code structure while keeping external behavior unchanged.",
+  "example": "We refactor while leaving the functionality as is.",
+  "category": "Development Collaboration",
+  "aliases": [
+   "Refactoring",
+   "Code structure improvement",
+   "Refactor",
+   "To refactor"
+  ]
+ },
+ {
+  "id": "dev-070",
+  "term": "PO",
+  "definition": "The role that manages the backlog and priorities to maximize product value.",
+  "example": "We set the next sprint's priorities with the PO.",
+  "note": "The purchase order in fashion and retail and the Product Owner in development and product teams have different meanings.",
+  "category": "Product Team Roles",
+  "aliases": [
+   "P.O.",
+   "Product Owner",
+   "Product lead"
+  ]
+ },
+ {
+  "id": "dev-071",
+  "term": "Scrum Master",
+  "definition": "The role that helps the team understand Scrum and work effectively.",
+  "example": "The Scrum Master helps resolve collaboration blockers.",
+  "category": "Product Team Roles",
+  "aliases": [
+   "SM",
+   "Scrummaster"
+  ]
+ },
+ {
+  "id": "dev-072",
+  "term": "CI",
+  "definition": "A practice of frequently merging changed code and automatically building and verifying it.",
+  "example": "We run CI tests on every PR.",
+  "category": "Build & Deployment",
+  "aliases": [
+   "Continuous Integration",
+   "C.I."
+  ]
+ },
+ {
+  "id": "dev-073",
+  "term": "Build",
+  "definition": "The process of producing a runnable or deployable artifact from source.",
+  "example": "We check why the build failed.",
+  "category": "Build & Deployment",
+  "aliases": [
+   "Build job"
+  ]
+ },
+ {
+  "id": "dev-074",
+  "term": "Code review",
+  "definition": "The process in which another developer reads and reviews the changed code.",
+  "example": "We get a code review before merging.",
+  "category": "Build & Deployment",
+  "aliases": [
+   "Code review",
+   "Reviewer review"
+  ]
+ },
+ {
+  "id": "dev-075",
+  "term": "Continuous Delivery",
+  "definition": "A practice of keeping verified changes ready to be deployed at any time.",
+  "example": "We put an approval step in the continuous delivery pipeline.",
+  "note": "CD stands for both Continuous Delivery and Continuous Deployment, so check whether it includes automatic reflection to production.",
+  "category": "Build & Deployment",
+  "aliases": [
+   "CD",
+   "Continuous Delivery"
+  ]
+ },
+ {
+  "id": "dev-076",
+  "term": "Continuous Deployment",
+  "definition": "A practice of automatically reflecting verified changes all the way to the production environment.",
+  "example": "Once all checks pass, we reflect changes via continuous deployment.",
+  "note": "The timing of deployment and of releasing a feature to users can differ through mechanisms such as feature flags.",
+  "category": "Build & Deployment",
+  "aliases": [
+   "CD",
+   "Continuous Deployment"
+  ]
+ },
+ {
+  "id": "dev-077",
+  "term": "Deployment",
+  "definition": "The task of reflecting changed software into a running environment.",
+  "example": "We deploy today's fixes to the production environment.",
+  "category": "Build & Deployment",
+  "aliases": [
+   "Deploy",
+   "deploy",
+   "Deployment",
+   "To deploy",
+   "Deploy"
+  ]
+ },
+ {
+  "id": "dev-078",
+  "term": "Production environment",
+  "definition": "The running environment that serves actual users.",
+  "example": "We verify before reflecting changes to the production environment.",
+  "category": "Build & Deployment",
+  "aliases": [
+   "Production",
+   "Production environment",
+   "Production server",
+   "prod",
+   "Prod",
+   "production"
+  ]
+ },
+ {
+  "id": "dev-079",
+  "term": "Hotfix",
+  "definition": "A fix that resolves an urgent problem in a version currently in operation.",
+  "example": "We handle the login failure with a hotfix.",
+  "category": "Build & Deployment",
+  "aliases": [
+   "Hot fix",
+   "Emergency patch",
+   "Emergency patch",
+   "Hotfix",
+   "To hotfix"
+  ]
+ },
+ {
+  "id": "dev-080",
+  "term": "Release",
+  "definition": "Putting out a software version so it can be used.",
+  "example": "We include the improved features in this release.",
+  "category": "Build & Deployment",
+  "aliases": [
+   "Release",
+   "Version launch"
+  ]
+ },
+ {
+  "id": "dev-081",
+  "term": "E2E test",
+  "definition": "A test that connects and verifies the user's entire flow.",
+  "example": "We run an E2E test from login through ordering.",
+  "category": "Quality & Testing",
+  "aliases": [
+   "E2E",
+   "End-to-end",
+   "End-to-end test"
+  ]
+ },
+ {
+  "id": "dev-082",
+  "term": "Smoke test",
+  "definition": "A test that quickly checks whether core features basically work.",
+  "example": "We start with a smoke test after deployment.",
+  "category": "Quality & Testing",
+  "aliases": [
+   "Smoke test",
+   "Basic operation check"
+  ]
+ },
+ {
+  "id": "dev-083",
+  "term": "Acceptance test",
+  "definition": "A test that checks whether the product satisfies business requirements.",
+  "example": "The responsible person runs an acceptance test using real work scenarios.",
+  "category": "Quality & Testing",
+  "aliases": [
+   "Acceptance test",
+   "Acceptance testing",
+   "Acceptance test"
+  ]
+ },
+ {
+  "id": "dev-084",
+  "term": "Performance test",
+  "definition": "A test that checks system performance such as speed and stability.",
+  "example": "We run a performance test for times with many concurrent users.",
+  "category": "Quality & Testing",
+  "aliases": [
+   "Performance test",
+   "Performance testing"
+  ]
+ },
+ {
+  "id": "dev-085",
+  "term": "Manual test",
+  "definition": "A test in which a person operates it directly and checks the results.",
+  "example": "We also review the screen flow with manual testing.",
+  "category": "Quality & Testing",
+  "aliases": [
+   "Manual testing"
+  ]
+ },
+ {
+  "id": "dev-086",
+  "term": "Automated test",
+  "definition": "A test that runs the verification process via scripts or tools.",
+  "example": "We run repetitive checks as automated tests.",
+  "category": "Quality & Testing",
+  "aliases": [
+   "Test automation"
+  ]
+ },
+ {
+  "id": "dev-087",
+  "term": "Component",
+  "definition": "A unit of software divided to take on an independent role. In front-end work it mainly means a reusable UI implementation unit that bundles screen structure and behavior.",
+  "example": "We make the button component render in a disabled state based on the properties it receives.",
+  "note": "This explanation centers on UI components. The reusable source in a design tool and the actual implementation code are distinguished.",
+  "category": "Front-end & Implementation",
+  "aliases": [
+   "Component UI",
+   "UI component",
+   "Reusable component"
+  ]
+ },
+ {
+  "id": "design-047",
+  "term": "Component",
+  "definition": "A master unit of UI design made for repeated use, such as buttons and input fields. Its presentation is managed consistently across screens through instances and variants.",
+  "example": "After editing the master button component, we also check the linked instances.",
+  "note": "This is the design-tool context of a component. We define its correspondence with the component in implementation code and hand it to the development team.",
+  "category": "UI & Design System",
+  "aliases": [
+   "Component UI",
+   "UI component",
+   "Comp",
+   "Componentization"
+  ]
+ },
+ {
+  "id": "dev-088",
+  "term": "Variant",
+  "definition": "Variations of the same component such as size and state.",
+  "example": "We map the design's disabled variant to the disabled property and style.",
+  "note": "Here it means a variation of a UI component.",
+  "category": "UI Implementation & Design Collaboration",
+  "aliases": [
+   "Variant",
+   "Variants",
+   "Variants"
+  ]
+ },
+ {
+  "id": "design-048",
+  "term": "Variant",
+  "definition": "Variations of the same component such as size and state.",
+  "example": "We add a disabled variant of the button.",
+  "note": "Here it means a variation of a UI component.",
+  "category": "UI & Collaboration",
+  "aliases": [
+   "Variant",
+   "Variants",
+   "Variants"
+  ]
+ },
+ {
+  "id": "dev-089",
+  "term": "Component set",
+  "definition": "A collection that bundles related variants together.",
+  "example": "Looking at the component set we received, we implement the button's size and state combinations.",
+  "category": "UI Implementation & Design Collaboration",
+  "aliases": [
+   "Component set"
+  ]
+ },
+ {
+  "id": "design-049",
+  "term": "Component set",
+  "definition": "A collection that bundles related variants together.",
+  "example": "We bundle the button variants into a component set.",
+  "category": "UI & Collaboration",
+  "aliases": [
+   "Component set"
+  ]
+ },
+ {
+  "id": "dev-090",
+  "term": "Design token",
+  "definition": "A shared, named unit for design values such as color and spacing.",
+  "example": "We link color design tokens to CSS variables to reflect theme changes.",
+  "category": "UI Implementation & Design Collaboration",
+  "aliases": [
+   "Design token",
+   "Token"
+  ]
+ },
+ {
+  "id": "design-050",
+  "term": "Design token",
+  "definition": "A shared, named unit for design values such as color and spacing.",
+  "example": "We manage the accent color as a design token.",
+  "category": "UI & Collaboration",
+  "aliases": [
+   "Design token",
+   "Token"
+  ]
+ },
+ {
+  "id": "dev-091",
+  "term": "Theme",
+  "definition": "A presentation system of colors, styles, and so on applied to the same UI.",
+  "example": "We save the user's theme setting and apply it on their next visit as well.",
+  "category": "UI Implementation & Design Collaboration",
+  "aliases": [
+   "UI theme",
+   "Screen theme"
+  ]
+ },
+ {
+  "id": "design-051",
+  "term": "Theme",
+  "definition": "A presentation system of colors, styles, and so on applied to the same UI.",
+  "example": "We prepare a light theme and a dark theme.",
+  "category": "UI & Collaboration",
+  "aliases": [
+   "UI theme",
+   "Screen theme"
+  ]
+ },
+ {
+  "id": "dev-092",
+  "term": "Handoff",
+  "definition": "The process of passing the design information and intent needed for implementation to the development team.",
+  "example": "At handoff we check the loading and error states and keyboard behavior before implementing.",
+  "note": "It includes not only passing files but also explaining states, behaviors, and edge conditions.",
+  "category": "UI Implementation & Design Collaboration",
+  "aliases": [
+   "Hand off",
+   "Dev handoff"
+  ]
+ },
+ {
+  "id": "design-052",
+  "term": "Handoff",
+  "definition": "The process of passing the design information and intent needed for implementation to the development team.",
+  "example": "At handoff we also explain the behavior for each state.",
+  "note": "It includes not only passing files but also explaining states, behaviors, and edge conditions.",
+  "category": "UI & Collaboration",
+  "aliases": [
+   "Hand off",
+   "Dev handoff"
+  ]
+ },
+ {
+  "id": "dev-093",
+  "term": "Design system",
+  "definition": "A system of shared rules and reusable elements for building a consistent product.",
+  "example": "We pull the button component from the design system and wire it into the checkout screen.",
+  "category": "UI Implementation & Design Collaboration",
+  "aliases": [
+   "Design system",
+   "DS"
+  ]
+ },
+ {
+  "id": "design-053",
+  "term": "Design system",
+  "definition": "A system of shared rules and reusable elements for building a consistent product.",
+  "example": "We build new screens following the design system too.",
+  "category": "UI & Collaboration",
+  "aliases": [
+   "Design system",
+   "DS"
+  ]
+ },
+ {
+  "id": "design-054",
+  "term": "Bleed",
+  "definition": "The image area extended beyond the finished line to allow for cutting error.",
+  "example": "Please fill the background color all the way to the bleed.",
+  "category": "Printing & Output",
+  "aliases": [
+   "Cutting margin",
+   "Bleed",
+   "bleed"
+  ]
+ },
+ {
+  "id": "design-055",
+  "term": "Trim marks",
+  "definition": "Marks that indicate where to cut printed material.",
+  "example": "We add trim marks to the output file.",
+  "category": "Printing & Output",
+  "aliases": [
+   "Trim marks",
+   "Crop marks",
+   "Cut marks"
+  ]
+ },
+ {
+  "id": "design-056",
+  "term": "Registration marks",
+  "definition": "Marks for aligning the color plates so they print in the same position.",
+  "example": "We use the registration marks to check for plate misalignment.",
+  "note": "On the print floor they are also called \"donbo.\"",
+  "category": "Printing & Output",
+  "aliases": [
+   "Registration marks",
+   "Pin register marks",
+   "Donbo"
+  ]
+ },
+ {
+  "id": "design-057",
+  "term": "Color bar",
+  "definition": "An arrangement of color patches used to check print color and density.",
+  "example": "We check the print quality by looking at the color bar.",
+  "category": "Printing & Output",
+  "aliases": [
+   "Color bar",
+   "Color strip"
+  ]
+ },
+ {
+  "id": "design-058",
+  "term": "Spot color",
+  "definition": "A method of printing a specified color with a separate ink, or that color itself.",
+  "example": "We discuss printing the brand color as a spot color.",
+  "category": "Printing & Production",
+  "aliases": [
+   "Spot color",
+   "Spot colour"
+  ]
+ },
+ {
+  "id": "design-059",
+  "term": "Pantone",
+  "definition": "A color system for specifying and communicating colors by number and so on.",
+  "example": "We check the Pantone number together with the physical chip.",
+  "note": "Depending on the material, printing method, and whether it is coated, the same number can appear as a different color.",
+  "category": "Printing & Production",
+  "aliases": [
+   "Pantone",
+   "Pantone color",
+   "PANTONE"
+  ]
+ },
+ {
+  "id": "design-060",
+  "term": "Press check",
+  "definition": "Checking color and production quality at the printing site.",
+  "example": "We do a press check during the first print run.",
+  "category": "Printing & Production",
+  "aliases": [
+   "Press check",
+   "On-site print inspection"
+  ]
+ },
+ {
+  "id": "design-061",
+  "term": "Goods",
+  "definition": "Related merchandise made based on a brand or content.",
+  "example": "We design goods based on the album concept.",
+  "category": "Printing & Production",
+  "aliases": [
+   "Brand goods",
+   "Merchandise"
+  ]
+ },
+ {
+  "id": "common-017",
+  "term": "Fix (finalize)",
+  "definition": "Confirming something that has been discussed.",
+  "example": "We fix the meeting date for Friday.",
+  "note": "Here it means finalizing a schedule or plan. In development, fixing a bug means correcting an error.",
+  "category": "Meetings & Collaboration",
+  "aliases": [
+   "Finalize",
+   "Fix the schedule"
+  ]
+ },
+ {
+  "id": "common-018",
+  "term": "Develop",
+  "definition": "Developing an idea or plan into something more concrete.",
+  "example": "We develop the chosen direction a bit further.",
+  "category": "Meetings & Collaboration",
+  "aliases": [
+   "Develop",
+   "Make concrete",
+   "To develop",
+   "To make concrete",
+   "Develop",
+   "To develop",
+   "Develop",
+   "Develop"
+  ]
+ },
+ {
+  "id": "common-019",
+  "term": "Rough",
+  "definition": "A roughly outlined state before the details are refined.",
+  "example": "Let's first share a rough direction.",
+  "note": "This is framed as describing an early state with details omitted, rather than a judgment of low quality.",
+  "category": "Meetings & Collaboration",
+  "aliases": [
+   "Roughly",
+   "Rough draft",
+   "Rough outline"
+  ]
+ },
+ {
+  "id": "common-020",
+  "term": "Feedback",
+  "definition": "An opinion delivered after reviewing work.",
+  "example": "We gather the feedback and deliver it all at once.",
+  "category": "Meetings & Collaboration",
+  "aliases": [
+   "F/B",
+   "FB",
+   "Feed back"
+  ]
+ },
+ {
+  "id": "common-021",
+  "term": "Deadline",
+  "definition": "The due date by which work must be finished.",
+  "example": "The deadline for this task is Thursday.",
+  "category": "Meetings & Collaboration",
+  "aliases": [
+   "Due",
+   "Due date",
+   "Due date",
+   "due date",
+   "Due date",
+   "DL"
+  ]
+ },
+ {
+  "id": "common-022",
+  "term": "KPI",
+  "definition": "The key measurement metric for judging the degree of goal achievement.",
+  "example": "We agree on KPIs aligned with the team's goals.",
+  "note": "To compare, you must define not only the metric name but also the formula, period, data source, and target value.",
+  "category": "Goals & Performance",
+  "aliases": [
+   "K.P.I.",
+   "Key Performance Indicator"
+  ]
+ },
+ {
+  "id": "design-073",
+  "term": "RGB",
+  "definition": "A method of representing color with red, green, and blue light.",
+  "example": "We check images for screen use against the RGB standard.",
+  "category": "Color & Production",
+  "aliases": [
+   "R.G.B.",
+   "Primary colors of light"
+  ]
+ },
+ {
+  "id": "marketing-078",
+  "term": "RGB",
+  "definition": "A method of representing color with red, green, and blue light.",
+  "example": "We check images for screen use against the RGB standard.",
+  "category": "Color & Production",
+  "aliases": [
+   "R.G.B.",
+   "Primary colors of light"
+  ]
+ },
+ {
+  "id": "fashion-127",
+  "term": "RGB",
+  "definition": "A method of representing color with red, green, and blue light.",
+  "example": "We check the color of product photos for our own online store on an RGB screen.",
+  "category": "Color & Production",
+  "aliases": [
+   "R.G.B.",
+   "Primary colors of light"
+  ]
+ },
+ {
+  "id": "design-074",
+  "term": "CMYK",
+  "definition": "A method of representing color with cyan, magenta, yellow, and black inks.",
+  "example": "For print files we check the result of the CMYK conversion.",
+  "category": "Color & Production",
+  "aliases": [
+   "C.M.Y.K.",
+   "Four-color process"
+  ]
+ },
+ {
+  "id": "marketing-079",
+  "term": "CMYK",
+  "definition": "A method of representing color with cyan, magenta, yellow, and black inks.",
+  "example": "For print files we check the result of the CMYK conversion.",
+  "category": "Color & Production",
+  "aliases": [
+   "C.M.Y.K.",
+   "Four-color process"
+  ]
+ },
+ {
+  "id": "fashion-128",
+  "term": "CMYK",
+  "definition": "A method of representing color with cyan, magenta, yellow, and black inks.",
+  "example": "Before printing the lookbook, we check with a CMYK conversion whether the garment colors shift.",
+  "category": "Color & Production",
+  "aliases": [
+   "C.M.Y.K.",
+   "Four-color process"
+  ]
+ },
+ {
+  "id": "design-075",
+  "term": "Overprint",
+  "definition": "A setting that prints over the top without knocking out the color plate beneath.",
+  "example": "We check the overprint on the black text.",
+  "category": "Printing & Output",
+  "aliases": [
+   "Overprinting",
+   "Overlapping print"
+  ]
+ },
+ {
+  "id": "design-076",
+  "term": "Knockout",
+  "definition": "A treatment that removes the underlying color where the top object will print.",
+  "example": "We check whether the overlapping area is set to knockout.",
+  "category": "Printing & Output",
+  "aliases": [
+   "Knock-out",
+   "knockout"
+  ]
+ },
+ {
+  "id": "design-077",
+  "term": "Auto Layout",
+  "definition": "A feature that adjusts the arrangement and size of elements according to content and rules.",
+  "example": "Even as the text grows, Auto Layout keeps the spacing.",
+  "category": "UI & Collaboration",
+  "aliases": [
+   "Autolayout",
+   "Automatic layout",
+   "Auto layout",
+   "Auto Layout"
+  ]
+ },
+ {
+  "id": "dev-108",
+  "term": "Auto Layout",
+  "definition": "A feature that adjusts the arrangement and size of elements according to content and rules.",
+  "example": "We check the mockup's Auto Layout spacing and line-break rules and implement them in CSS.",
+  "note": "This is a collaboration context of receiving Figma design values and implementing them. On the web, it is implemented with that environment's layout rules such as CSS.",
+  "category": "UI Implementation & Design Collaboration",
+  "aliases": [
+   "Autolayout",
+   "Automatic layout"
+  ]
+ },
+ {
+  "id": "design-078",
+  "term": "Padding",
+  "definition": "The margin between a container's edge and the content inside it.",
+  "example": "We increase the left and right padding of the button.",
+  "category": "UI & Collaboration",
+  "aliases": [
+   "Inner margin",
+   "Inner padding"
+  ]
+ },
+ {
+  "id": "dev-109",
+  "term": "Padding",
+  "definition": "In the CSS box model, the inner spacing placed between the content area and the border.",
+  "example": "We add left and right padding to the button and check that the content isn't cut off even with long text.",
+  "category": "Front-end & Implementation",
+  "aliases": [
+   "Inner margin",
+   "Inner padding",
+   "padding"
+  ]
+ },
+ {
+  "id": "design-079",
+  "term": "Gap",
+  "definition": "The spacing between elements placed side by side.",
+  "example": "We unify the gap between cards.",
+  "category": "UI & Collaboration",
+  "aliases": [
+   "Element spacing",
+   "Item spacing"
+  ]
+ },
+ {
+  "id": "dev-110",
+  "term": "Gap",
+  "definition": "The spacing placed between rows or columns in CSS Grid, Flexbox, and the like. It is distinct from the container's outer margin and each item's inner padding.",
+  "example": "We set the card list's gap to 16px and also check the vertical spacing after wrapping.",
+  "category": "Front-end & Implementation",
+  "aliases": [
+   "Element spacing",
+   "Item spacing",
+   "gap"
+  ]
+ },
+ {
+  "id": "design-080",
+  "term": "Hug",
+  "definition": "A setting that sizes an element to wrap its inner content.",
+  "example": "We set the label frame to hug.",
+  "note": "This describes a sizing setting in Figma's Auto Layout.",
+  "category": "UI & Collaboration",
+  "aliases": [
+   "Hug contents",
+   "Fit to content"
+  ]
+ },
+ {
+  "id": "dev-111",
+  "term": "Hug",
+  "definition": "A setting that sizes an element to wrap its inner content.",
+  "example": "We make a label set to hug in the mockup grow with the text length in code too.",
+  "note": "This is Figma's fit-to-content sizing setting. Since it is not a CSS property name, we implement it while also checking the content, minimum size, and wrapping conditions.",
+  "category": "UI Implementation & Design Collaboration",
+  "aliases": [
+   "Hug contents",
+   "Fit to content"
+  ]
+ },
+ {
+  "id": "design-081",
+  "term": "Fill container",
+  "definition": "A setting that fills the available space of the parent container.",
+  "example": "We set the input field's width to fill container.",
+  "note": "This is a sizing setting in Figma's Auto Layout. Its scope depends on the parent frame's settings.",
+  "category": "UI & Collaboration",
+  "aliases": [
+   "Fill-container",
+   "Fill the container"
+  ]
+ },
+ {
+  "id": "dev-112",
+  "term": "Fill container",
+  "definition": "A setting that fills the available space of the parent container.",
+  "example": "We implement an input field set to fill container so it fills the remaining width of the parent area.",
+  "note": "This is Figma's fill-the-parent sizing setting. We check the parent's size and margins and translate it into web layout constraints.",
+  "category": "UI Implementation & Design Collaboration",
+  "aliases": [
+   "Fill-container",
+   "Fill the container"
+  ]
+ },
+ {
+  "id": "marketing-080",
+  "term": "CRM",
+  "definition": "The activities and systems for managing relationships using customer information and contact history.",
+  "example": "We link purchase history to the CRM.",
+  "category": "Customer & Operations",
+  "aliases": [
+   "C.R.M.",
+   "Customer Relationship Management"
+  ]
+ },
+ {
+  "id": "fashion-129",
+  "term": "CRM",
+  "definition": "The activities and systems for managing relationships using customer information and contact history.",
+  "example": "We segment CRM message targets using purchased apparel items and size history.",
+  "category": "Own Store & Customer Operations",
+  "aliases": [
+   "C.R.M.",
+   "Customer Relationship Management"
+  ]
+ },
+ {
+  "id": "dev-113",
+  "term": "CRM",
+  "definition": "The activities and systems for managing relationships using customer information and contact history.",
+  "example": "We pass the order-completed event and customer identifier to the CRM integration API.",
+  "category": "Customer & Operations",
+  "aliases": [
+   "C.R.M.",
+   "Customer Relationship Management"
+  ]
+ },
+ {
+  "id": "marketing-081",
+  "term": "SEO",
+  "definition": "Improving a site so that search engines understand and find its content.",
+  "example": "We review the SEO of product descriptions and titles.",
+  "category": "Search & Traffic",
+  "aliases": [
+   "S.E.O.",
+   "Search Engine Optimization"
+  ]
+ },
+ {
+  "id": "fashion-130",
+  "term": "SEO",
+  "definition": "Improving a site so that search engines understand and find its content.",
+  "example": "We review the title and description of a coat product on our own store from an SEO perspective.",
+  "category": "Own Store & Search Traffic",
+  "aliases": [
+   "S.E.O.",
+   "Search Engine Optimization"
+  ]
+ },
+ {
+  "id": "dev-114",
+  "term": "SEO",
+  "definition": "Improving a site so that search engines understand and find its content.",
+  "example": "We review the HTML and meta information against SEO standards so search engines can read the content.",
+  "category": "Search & Traffic",
+  "aliases": [
+   "S.E.O.",
+   "Search Engine Optimization"
+  ]
+ },
+ {
+  "id": "marketing-082",
+  "term": "Organic traffic",
+  "definition": "Visits that come from natural search rather than paid search ads.",
+  "example": "We also watch changes in organic traffic.",
+  "note": "Here it means natural search traffic. Some teams also call all traffic obtained without paid spend \"organic.\"",
+  "category": "Search & Traffic",
+  "aliases": [
+   "Natural search traffic",
+   "Organic inflow"
+  ]
+ },
+ {
+  "id": "fashion-131",
+  "term": "Organic traffic",
+  "definition": "Visits that come from natural search rather than paid search ads.",
+  "example": "We look at the organic traffic to our store from natural searches related to linen shirts.",
+  "note": "Here it means natural search traffic. Some teams also call all traffic obtained without paid spend \"organic.\"",
+  "category": "Own Store & Search Traffic",
+  "aliases": [
+   "Natural search traffic",
+   "Organic inflow"
+  ]
+ },
+ {
+  "id": "marketing-083",
+  "term": "UTM",
+  "definition": "Values appended to a URL to distinguish traffic source and campaign.",
+  "example": "We distinguish the UTM for each banner link.",
+  "note": "In Google's documentation it distinguishes source, medium, campaign, and so on. Do not put personally identifiable information in the URL values.",
+  "category": "Search & Traffic",
+  "aliases": [
+   "U.T.M.",
+   "Campaign parameters",
+   "UTM tags"
+  ]
+ },
+ {
+  "id": "fashion-132",
+  "term": "UTM",
+  "definition": "Values appended to a URL to distinguish traffic source and campaign.",
+  "example": "We split the UTM of the lookbook link and the influencer styling link to compare traffic.",
+  "note": "In Google's documentation it distinguishes source, medium, campaign, and so on. Do not put personally identifiable information in the URL values.",
+  "category": "Own Store & Search Traffic",
+  "aliases": [
+   "U.T.M.",
+   "Campaign parameters",
+   "UTM tags"
+  ]
+ },
+ {
+  "id": "dev-116",
+  "term": "UTM",
+  "definition": "Values appended to a URL to distinguish traffic source and campaign.",
+  "example": "We test whether the UTM parameters are preserved even after a redirect.",
+  "note": "In Google's documentation it distinguishes source, medium, campaign, and so on. Do not put personally identifiable information in the URL values.",
+  "category": "Search & Traffic",
+  "aliases": [
+   "U.T.M.",
+   "Campaign parameters",
+   "UTM tags"
+  ]
+ },
+ {
+  "id": "fashion-097",
+  "term": "CPC",
+  "definition": "The cost of one ad click.",
+  "example": "We check the CPC of the new-product ad.",
+  "category": "Fashion Brand & Ad Performance",
+  "aliases": [
+   "Cost per click",
+   "C.P.C."
+  ]
+ },
+ {
+  "id": "fashion-098",
+  "term": "CPM",
+  "definition": "The cost of showing an ad 1,000 times.",
+  "example": "We compare the CPM of the collection ads.",
+  "category": "Fashion Brand & Ad Performance",
+  "aliases": [
+   "Cost per thousand impressions",
+   "C.P.M."
+  ]
+ },
+ {
+  "id": "fashion-099",
+  "term": "CTR",
+  "definition": "The ratio of clicks to ad impressions.",
+  "example": "We compare the CTR by product image.",
+  "note": "It is calculated as clicks ÷ impressions × 100. Distinguish it from metrics that use the number of people as the denominator.",
+  "category": "Fashion Brand & Ad Performance",
+  "aliases": [
+   "Click-through rate",
+   "C.T.R."
+  ]
+ },
+ {
+  "id": "fashion-100",
+  "term": "ROAS",
+  "definition": "The ratio of revenue generated relative to ad spend.",
+  "example": "We check the ROAS of the new-product ad on our own store.",
+  "note": "It is a revenue-based metric. It does not directly mean profit margin or net profit.",
+  "category": "Fashion Brand & Ad Performance",
+  "aliases": [
+   "Return on ad spend",
+   "ROAS"
+  ]
+ },
+ {
+  "id": "fashion-101",
+  "term": "CVR",
+  "definition": "The ratio of visits or clicks that led to a target action.",
+  "example": "We review the CVR after improving the detail page.",
+  "note": "You must also check whether the denominator is clicks or visits and which action is defined as a conversion.",
+  "category": "Fashion Brand & Ad Performance",
+  "aliases": [
+   "Conversion rate",
+   "C.V.R."
+  ]
+ },
+ {
+  "id": "fashion-102",
+  "term": "CPA",
+  "definition": "The cost per one target action such as a purchase or sign-up.",
+  "example": "We adjust the budget based on the first-purchase CPA.",
+  "category": "Fashion Brand & Ad Performance",
+  "aliases": [
+   "Cost per action",
+   "C.P.A."
+  ]
+ },
+ {
+  "id": "fashion-103",
+  "term": "Impressions",
+  "definition": "The total number of times an ad was displayed.",
+  "example": "We check the impressions of the seasonal campaign.",
+  "category": "Fashion Brand & Ad Performance",
+  "aliases": [
+   "Impressions",
+   "Exposures"
+  ]
+ },
+ {
+  "id": "fashion-104",
+  "term": "Reach",
+  "definition": "The number of people reached by an ad, excluding duplicates.",
+  "example": "We check the reach of the collection ad.",
+  "category": "Fashion Brand & Ad Performance",
+  "aliases": [
+   "Reach",
+   "Reach"
+  ]
+ },
+ {
+  "id": "fashion-105",
+  "term": "Targeting",
+  "definition": "Deciding the audience to whom an ad will be shown.",
+  "example": "We target it to fit new customers.",
+  "category": "Fashion Brand & Ad Performance",
+  "aliases": [
+   "Targeting"
+  ]
+ },
+ {
+  "id": "fashion-106",
+  "term": "Audience",
+  "definition": "The people an ad or content is aimed at.",
+  "example": "We split out the audience of recently purchasing customers.",
+  "category": "Fashion Brand & Ad Performance",
+  "aliases": [
+   "Prospects",
+   "Target customers"
+  ]
+ },
+ {
+  "id": "fashion-107",
+  "term": "Segment",
+  "definition": "A group of customers divided by shared characteristics.",
+  "example": "We create segments by purchase cycle.",
+  "category": "Fashion Brand & Ad Performance",
+  "aliases": [
+   "Customer group",
+   "Customer segmentation"
+  ]
+ },
+ {
+  "id": "fashion-108",
+  "term": "Retargeting",
+  "definition": "A method of advertising again to people who had prior contact, such as a visit.",
+  "example": "We retarget customers who abandoned their cart.",
+  "category": "Fashion Brand & Ad Performance",
+  "aliases": [
+   "Re-targeting",
+   "Remarketing"
+  ]
+ },
+ {
+  "id": "fashion-109",
+  "term": "Landing page",
+  "definition": "A page people arrive at by clicking an ad, email, and so on, designed to drive a specific action.",
+  "example": "We build a landing page for the seasonal promotion.",
+  "category": "Fashion Brand & Ad Performance",
+  "aliases": [
+   "Landing",
+   "Landingpage"
+  ]
+ }
+]

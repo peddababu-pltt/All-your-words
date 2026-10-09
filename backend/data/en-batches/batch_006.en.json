@@ -1,0 +1,1408 @@
+[
+ {
+  "id": "design-120",
+  "term": "Photoshop",
+  "definition": "A short way of saying Photoshop. Also used to refer to photo retouching or image compositing work.",
+  "example": "In Photoshop, we refine the poster background's texture and the subject's mask.",
+  "category": "Production Tools",
+  "aliases": [
+   "Photoshop",
+   "Photoshop",
+   "Photoshop",
+   "Photoshop work"
+  ]
+ },
+ {
+  "id": "film-177",
+  "term": "Photoshop",
+  "definition": "A short way of saying Photoshop. Also used to refer to photo retouching or image compositing work.",
+  "example": "In Photoshop, we clean up unnecessary elements in the background still used for compositing.",
+  "category": "Production Tools",
+  "aliases": [
+   "Photoshop",
+   "Photoshop",
+   "Photoshop",
+   "Photoshop work"
+  ]
+ },
+ {
+  "id": "marketing-150",
+  "term": "Photoshop",
+  "definition": "A short way of saying Photoshop. Also used to refer to photo retouching or image compositing work.",
+  "example": "In Photoshop, I cleaned up the dust on the product photo.",
+  "category": "Production Tools",
+  "aliases": [
+   "Photoshop",
+   "Photoshop",
+   "Photoshop",
+   "Photoshop work"
+  ]
+ },
+ {
+  "id": "fashion-207",
+  "term": "Photoshop",
+  "definition": "A short way of saying Photoshop. Also used to refer to photo retouching or image compositing work.",
+  "example": "In Photoshop, we keep the garment's silhouette and only clean up the background smudges.",
+  "category": "Production Tools",
+  "aliases": [
+   "Photoshop",
+   "Photoshop",
+   "Photoshop",
+   "Photoshop work"
+  ]
+ },
+ {
+  "id": "design-121",
+  "term": "Illustrator",
+  "definition": "In a tooling context, a short way of saying Adobe Illustrator. It is used for vector graphics such as logos and shapes.",
+  "example": "In Illustrator, we check the symbol's curves and its legibility at small sizes.",
+  "note": "In a context about the artwork itself, it can be short for 'illustration,' so confirm whether it refers to the tool.",
+  "category": "Production Tools",
+  "aliases": [
+   "Illustrator",
+   "Adobe Illustrator",
+   "Illustrator"
+  ]
+ },
+ {
+  "id": "film-178",
+  "term": "Illustrator",
+  "definition": "In a tooling context, a short way of saying Adobe Illustrator. It is used for vector graphics such as logos and shapes.",
+  "example": "We hand off the title vectors made in Illustrator to the motion work.",
+  "note": "In a context about the artwork itself, it can be short for 'illustration,' so confirm whether it refers to the tool.",
+  "category": "Production Tools",
+  "aliases": [
+   "Illustrator",
+   "Adobe Illustrator",
+   "Illustrator"
+  ]
+ },
+ {
+  "id": "marketing-151",
+  "term": "Illustrator",
+  "definition": "In a tooling context, a short way of saying Adobe Illustrator. It is used for vector graphics such as logos and shapes.",
+  "example": "Please apply the logo revisions to the original Illustrator file.",
+  "note": "In a context about the artwork itself, it can be short for 'illustration,' so confirm whether it refers to the tool.",
+  "category": "Production Tools",
+  "aliases": [
+   "Illustrator",
+   "Adobe Illustrator",
+   "Illustrator"
+  ]
+ },
+ {
+  "id": "fashion-208",
+  "term": "Illustrator",
+  "definition": "In a tooling context, a short way of saying Adobe Illustrator. It is used for vector graphics such as logos and shapes.",
+  "example": "In Illustrator, we organize the per-color masters of the T-shirt print artwork.",
+  "note": "In a context about the artwork itself, it can be short for 'illustration,' so confirm whether it refers to the tool.",
+  "category": "Production Tools",
+  "aliases": [
+   "Illustrator",
+   "Adobe Illustrator",
+   "Illustrator"
+  ]
+ },
+ {
+  "id": "design-122",
+  "term": "After Effects",
+  "definition": "A short way of saying After Effects. A production tool used for motion graphics and video compositing.",
+  "example": "In After Effects, we create motion where the logo's shape flows continuously.",
+  "category": "Production Tools",
+  "aliases": [
+   "After Effects",
+   "After Effects",
+   "After Effects",
+   "After Effects",
+   "After Effects"
+  ]
+ },
+ {
+  "id": "film-179",
+  "term": "After Effects",
+  "definition": "A short way of saying After Effects. A production tool used for motion graphics and video compositing.",
+  "example": "In After Effects, we composite explanatory graphics that track the filmed footage.",
+  "category": "Production Tools",
+  "aliases": [
+   "After Effects",
+   "After Effects",
+   "After Effects",
+   "After Effects",
+   "After Effects"
+  ]
+ },
+ {
+  "id": "marketing-152",
+  "term": "After Effects",
+  "definition": "A short way of saying After Effects. A production tool used for motion graphics and video compositing.",
+  "example": "In After Effects, we create the logo's entrance motion.",
+  "category": "Production Tools",
+  "aliases": [
+   "After Effects",
+   "After Effects",
+   "After Effects",
+   "After Effects",
+   "After Effects"
+  ]
+ },
+ {
+  "id": "common-039",
+  "term": "Portfolio",
+  "definition": "Short for 'portfolio.' Material that gathers the projects you've done and your role and results in them.",
+  "example": "I noted the role I took in this project in my portfolio.",
+  "category": "Career & Hiring",
+  "aliases": [
+   "portfolio",
+   "portfolio"
+  ]
+ },
+ {
+  "id": "dev-151",
+  "term": "Coding test",
+  "definition": "Short for 'coding test.' An assessment that checks the ability to solve a given problem with code.",
+  "example": "In coding-test practice, try to also explain why your solution is correct.",
+  "category": "Career & Hiring",
+  "aliases": [
+   "coding test",
+   "coding test"
+  ]
+ },
+ {
+  "id": "dev-152",
+  "term": "Computer science",
+  "definition": "A short way of saying computer science or the computer science department.",
+  "example": "I'm connecting what I learned in my computer science major to practical work.",
+  "category": "Career & Hiring",
+  "aliases": [
+   "computer science",
+   "computer science",
+   "computer science department"
+  ]
+ },
+ {
+  "id": "dev-153",
+  "term": "Engineer Information Processing",
+  "definition": "A short way of referring to the Engineer Information Processing certification.",
+  "example": "I use what I studied for the Engineer Information Processing exam to review development fundamentals.",
+  "category": "Career & Hiring",
+  "aliases": [
+   "Engineer Information Processing",
+   "Information Processing Engineer"
+  ]
+ },
+ {
+  "id": "dev-154",
+  "term": "TypeScript",
+  "definition": "A short way of saying TypeScript. A language that adds type annotations and checking to JavaScript.",
+  "example": "We decided to write the next feature in TypeScript.",
+  "category": "Web & Programming",
+  "aliases": [
+   "TypeScript",
+   "TypeScript",
+   "TypeScript",
+   "TS"
+  ]
+ },
+ {
+  "id": "dev-155",
+  "term": "Front-end",
+  "definition": "A short way of saying front-end. The area that implements the screens users directly see and their interactions.",
+  "example": "We fix the front-end to catch API errors and show a retry button.",
+  "category": "Development Collaboration",
+  "aliases": [
+   "front-end",
+   "front-end",
+   "front end",
+   "FE"
+  ]
+ },
+ {
+  "id": "design-124",
+  "term": "Front-end",
+  "definition": "A short way of saying front-end. The area that implements the screens users directly see and their interactions.",
+  "example": "We hand the front-end developer the drafts for each screen state and the spacing rules.",
+  "category": "Development Collaboration",
+  "aliases": [
+   "front-end",
+   "front-end",
+   "front end",
+   "FE"
+  ]
+ },
+ {
+  "id": "dev-156",
+  "term": "DB",
+  "definition": "A field term for reading 'DB' aloud in Korean. It refers to a database that systematically stores and retrieves data.",
+  "example": "We check the product options stored in the DB.",
+  "category": "Web & Programming",
+  "aliases": [
+   "DB",
+   "database",
+   "database"
+  ]
+ },
+ {
+  "id": "common-040",
+  "term": "Restore",
+  "definition": "Short for 'restoring to the original state.' Reverting a changed work product or setting to its previous state.",
+  "example": "Please restore to the previous version for comparison review.",
+  "note": "What gets reverted differs by field. In development it may mean code, settings, or data; in production it may mean drafts or edited versions.",
+  "category": "Collaboration & Communication",
+  "aliases": [
+   "restore to original",
+   "original-state restoration",
+   "to revert"
+  ]
+ },
+ {
+  "id": "common-041",
+  "term": "Copy-paste",
+  "definition": "A short way of referring to copying and pasting together. The work of duplicating text, code, images, and so on and placing them elsewhere.",
+  "example": "We copy-paste the previous text, then fix the changed date.",
+  "category": "Collaboration & Communication",
+  "aliases": [
+   "copy and paste",
+   "copy and paste",
+   "copy & paste",
+   "to copy-paste"
+  ]
+ },
+ {
+  "id": "common-042",
+  "term": "Project",
+  "definition": "An informal short term for 'project.' A unit of work carried out toward a set goal.",
+  "example": "We share the owner and schedule of this project.",
+  "category": "Meetings & Collaboration",
+  "aliases": [
+   "project",
+   "project work"
+  ]
+ },
+ {
+  "id": "common-043",
+  "term": "Personal statement",
+  "definition": "Short for 'self-introduction letter.' A hiring document that explains one's motivation, experience, and so on in writing.",
+  "example": "In my personal statement, I wrote about a problem I solved in a project.",
+  "category": "Career & Hiring",
+  "aliases": [
+   "self-introduction letter",
+   "cover letter"
+  ]
+ },
+ {
+  "id": "common-044",
+  "term": "Expense approval",
+  "definition": "A short way of referring to an expense-approval request or its document. The work of organizing the details and evidence of costs incurred or to be incurred and obtaining approval.",
+  "example": "Please submit the expense approval with the receipts attached.",
+  "note": "The pre-spending approval and post-spending settlement procedures and form names differ by company.",
+  "category": "Expenses & Settlement",
+  "aliases": [
+   "expense resolution",
+   "expense approval",
+   "expense approval form",
+   "expense approval slip"
+  ]
+ },
+ {
+  "id": "common-045",
+  "term": "Corporate card",
+  "definition": "Short for 'corporate card.' A card used to pay for the company's business expenses.",
+  "example": "We pay for shoot props with the corporate card and keep the receipts.",
+  "category": "Expenses & Settlement",
+  "aliases": [
+   "corporate card",
+   "corporate card"
+  ]
+ },
+ {
+  "id": "common-046",
+  "term": "Leaving right on time",
+  "definition": "A short way of saying leaving work exactly at the set quitting time.",
+  "example": "I'll wrap up on schedule and leave right on time today.",
+  "category": "Organization & Ways of Working",
+  "aliases": [
+   "leaving sharply on time",
+   "on-time departure"
+  ]
+ },
+ {
+  "id": "common-047",
+  "term": "Work-life balance",
+  "definition": "Short for 'work-life balance.' It means the balance between work and personal life.",
+  "example": "We also consider the team's work-life balance when planning schedules.",
+  "category": "Organization & Ways of Working",
+  "aliases": [
+   "work-life balance",
+   "balance of work and life"
+  ]
+ },
+ {
+  "id": "marketing-165",
+  "term": "PD",
+  "definition": "A production lead who coordinates the schedule, budget, staffing, and progress of video production. They align production conditions between the director and the client.",
+  "example": "Please align the shoot schedule and post-production budget with the PD first.",
+  "note": "This is centered on the PD in advertising production. In broadcasting, a PD may also handle planning and directing, so the scope of work differs by organization.",
+  "category": "Company & Production Organization",
+  "aliases": [
+   "PD",
+   "producer"
+  ]
+ },
+ {
+  "id": "film-190",
+  "term": "PD",
+  "definition": "A production lead who coordinates the schedule, budget, staffing, and progress of video production. They align production conditions between the director and the client.",
+  "example": "The PD coordinates the shoot schedule, equipment, and post-production budget.",
+  "note": "This is centered on the PD in advertising production. In broadcasting, a PD may also handle planning and directing, so the scope of work differs by organization.",
+  "category": "Company & Production Organization",
+  "aliases": [
+   "PD",
+   "producer"
+  ]
+ },
+ {
+  "id": "marketing-166",
+  "term": "PD production house",
+  "definition": "A company that runs advertising production centered on production PDs. It assembles directors, staff, and post-production vendors per project and carries out production.",
+  "example": "For this job, the PD production house handles everything from casting the director.",
+  "category": "Company & Production Organization",
+  "aliases": [
+   "PD production",
+   "PD-duction",
+   "PD-duction",
+   "PD production house"
+  ]
+ },
+ {
+  "id": "film-191",
+  "term": "PD production house",
+  "definition": "A company that runs advertising production centered on production PDs. It assembles directors, staff, and post-production vendors per project and carries out production.",
+  "example": "For this job, the PD production house handles everything from casting the director.",
+  "category": "Company & Production Organization",
+  "aliases": [
+   "PD production",
+   "PD-duction",
+   "PD-duction",
+   "PD production house"
+  ]
+ },
+ {
+  "id": "marketing-167",
+  "term": "Duction",
+  "definition": "A field shorthand for a production house, i.e., a video production company.",
+  "example": "Please ask the duction for the shoot estimate and available dates.",
+  "note": "It is a colloquial term for a production house. 'Production' in pre-production, production, and post-production is a separate context meaning a production stage.",
+  "category": "Company & Production Organization",
+  "aliases": [
+   "production company",
+   "ad production house",
+   "ad production"
+  ]
+ },
+ {
+  "id": "film-192",
+  "term": "Duction",
+  "definition": "A field shorthand for a production house, i.e., a video production company.",
+  "example": "We check with the duction on the progress of location scouting and the equipment load-in schedule.",
+  "note": "It is a colloquial term for a production house. 'Production' in pre-production, production, and post-production is a separate context meaning a production stage.",
+  "category": "Company & Production Organization",
+  "aliases": [
+   "production company",
+   "ad production house",
+   "ad production"
+  ]
+ },
+ {
+  "id": "marketing-168",
+  "term": "Director production house",
+  "definition": "A type of video production company that wins and produces projects centered on the directing of its in-house directors.",
+  "example": "I watched this director production house's recent ad work.",
+  "note": "The distinction from a PD production house is an industry description of operating style, not a legal classification of the company.",
+  "category": "Company & Production Organization",
+  "aliases": [
+   "director-duction",
+   "director production"
+  ]
+ },
+ {
+  "id": "film-193",
+  "term": "Director production house",
+  "definition": "A type of video production company that wins and produces projects centered on the directing of its in-house directors.",
+  "example": "I watched this director production house's recent ad work.",
+  "note": "The distinction from a PD production house is an industry description of operating style, not a legal classification of the company.",
+  "category": "Company & Production Organization",
+  "aliases": [
+   "director-duction",
+   "director production"
+  ]
+ },
+ {
+  "id": "marketing-169",
+  "term": "Line PD",
+  "definition": "A production lead who practically coordinates staffing, equipment, locations, budget execution, and scheduling at the production site.",
+  "example": "The line PD sorts out the vehicle and equipment load-in times.",
+  "category": "Company & Production Organization",
+  "aliases": [
+   "line PD",
+   "line PD",
+   "line producer"
+  ]
+ },
+ {
+  "id": "film-194",
+  "term": "Line PD",
+  "definition": "A production lead who practically coordinates staffing, equipment, locations, budget execution, and scheduling at the production site.",
+  "example": "The line PD sorts out the vehicle and equipment load-in times.",
+  "category": "Company & Production Organization",
+  "aliases": [
+   "line PD",
+   "line PD",
+   "line producer"
+  ]
+ },
+ {
+  "id": "marketing-170",
+  "term": "Planning office",
+  "definition": "A department that develops advertising production ideas into drafts, copy, storyboards, and so on. Depending on the production house, art and copy staff work together there.",
+  "example": "The planning office first put together two storyboard options.",
+  "note": "This is the context of a planning office at an ad production house. The work may differ from a general company's corporate planning office.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "production planning office",
+   "advertising planning office"
+  ]
+ },
+ {
+  "id": "film-195",
+  "term": "Planning office",
+  "definition": "A department that develops advertising production ideas into drafts, copy, storyboards, and so on. Depending on the production house, art and copy staff work together there.",
+  "example": "We review the storyboard organized by the ad production house's planning office together with the director's treatment.",
+  "note": "This is the context of a planning office at an ad production house. The work may differ from a general company's corporate planning office.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "production planning office",
+   "advertising planning office"
+  ]
+ },
+ {
+  "id": "marketing-171",
+  "term": "Planner",
+  "definition": "A planning lead who designs ideas and an execution direction based on an ad's goals and message.",
+  "example": "The planner organizes the planning intent and creates drafts with the art team.",
+  "note": "The role varies depending on what is being planned, such as strategy, media, or creative.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "creative planner",
+   "planner"
+  ]
+ },
+ {
+  "id": "film-196",
+  "term": "Planner",
+  "definition": "A planning lead who designs ideas and an execution direction based on an ad's goals and message.",
+  "example": "We discuss with the ad-production planner how the storyboard's ideas are realized in the shoot.",
+  "note": "The role varies depending on what is being planned, such as strategy, media, or creative.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "creative planner",
+   "planner"
+  ]
+ },
+ {
+  "id": "marketing-172",
+  "term": "EPD",
+  "definition": "A title for a production lead who oversees a project's production direction and quality, as well as budget, schedule, and staffing.",
+  "example": "Let's first confirm the production scope and final schedule with the EPD.",
+  "note": "It is an overall-production title used at actual production houses. The English expansion can differ by company, so we do not pin it to one.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "EPD",
+   "executive production lead",
+   "executive production"
+  ]
+ },
+ {
+  "id": "film-197",
+  "term": "EPD",
+  "definition": "A title for a production lead who oversees a project's production direction and quality, as well as budget, schedule, and staffing.",
+  "example": "Let's first confirm the production scope and final schedule with the EPD.",
+  "note": "It is an overall-production title used at actual production houses. The English expansion can differ by company, so we do not pin it to one.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "EPD",
+   "executive production lead",
+   "executive production"
+  ]
+ },
+ {
+  "id": "marketing-173",
+  "term": "ECD",
+  "definition": "A creative lead who oversees the direction and quality of an organization's major campaigns and multiple creative works.",
+  "example": "At the ECD review, we confirm the campaign's central idea.",
+  "note": "The composition and approval relationships among CD, ECD, and CCO differ by company.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "ECD",
+   "ECD",
+   "executive creative director"
+  ]
+ },
+ {
+  "id": "design-134",
+  "term": "ECD",
+  "definition": "A creative lead who oversees the direction and quality of an organization's major campaigns and multiple creative works.",
+  "example": "At the agency ECD review, we confirm the overall direction of the campaign visuals.",
+  "note": "The composition and approval relationships among CD, ECD, and CCO differ by company.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "ECD",
+   "ECD",
+   "executive creative director"
+  ]
+ },
+ {
+  "id": "marketing-174",
+  "term": "CCO",
+  "definition": "A top-executive title that leads creative strategy and the creative organization at the company level.",
+  "example": "The CCO reviews the creative direction for each brand together with us.",
+  "note": "This entry is the CCO of a creative organization. Other organizations may use the same abbreviation for a different title.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "chief creative officer"
+  ]
+ },
+ {
+  "id": "design-135",
+  "term": "CCO",
+  "definition": "A top-executive title that leads creative strategy and the creative organization at the company level.",
+  "example": "We propose the brand-redesign creative direction and design applications to the CCO.",
+  "note": "This entry is the CCO of a creative organization. Other organizations may use the same abbreviation for a different title.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "chief creative officer"
+  ]
+ },
+ {
+  "id": "marketing-175",
+  "term": "2D",
+  "definition": "The work, or responsible part, in advertising post-production that handles flat graphics, motion graphics, video compositing, retouching, and so on.",
+  "example": "The cleanup around the product and the title are done in 2D.",
+  "note": "It means a post-production part in advertising. It does not mean only 2D animation, and the scope covering compositing, motion, and design differs by company.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "2D",
+   "2D",
+   "2D work",
+   "2D team"
+  ]
+ },
+ {
+  "id": "film-198",
+  "term": "2D",
+  "definition": "The work, or responsible part, in advertising post-production that handles flat graphics, motion graphics, video compositing, retouching, and so on.",
+  "example": "We hand the wire removal and title compositing of the footage to the 2D part.",
+  "note": "It means a post-production part in advertising. It does not mean only 2D animation, and the scope covering compositing, motion, and design differs by company.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "2D",
+   "2D",
+   "2D work",
+   "2D team"
+  ]
+ },
+ {
+  "id": "design-136",
+  "term": "2D",
+  "definition": "Graphic work that composes shapes, images, and text on a flat plane. In motion design, movement over time may also be added.",
+  "example": "We compose the poster and title screen with 2D graphics.",
+  "note": "This is the context of graphic production in design. Distinguish it from the 2D part in advertising post-production.",
+  "category": "Visual Design & Production",
+  "aliases": [
+   "2D",
+   "2D graphics",
+   "flat graphics"
+  ]
+ },
+ {
+  "id": "marketing-176",
+  "term": "3D",
+  "definition": "Computer-graphics work, or the responsible part, that applies materials, lighting, and movement to 3D models to create images or video.",
+  "example": "We make product cross-sections that are hard to shoot for real in 3D.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "3D",
+   "3D",
+   "3D work",
+   "3D team"
+  ]
+ },
+ {
+  "id": "film-199",
+  "term": "3D",
+  "definition": "Computer-graphics work, or the responsible part, that applies materials, lighting, and movement to 3D models to create images or video.",
+  "example": "We make product cross-sections that are hard to shoot for real in 3D.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "3D",
+   "3D",
+   "3D work",
+   "3D team"
+  ]
+ },
+ {
+  "id": "design-137",
+  "term": "3D",
+  "definition": "Computer-graphics work, or the responsible part, that applies materials, lighting, and movement to 3D models to create images or video.",
+  "example": "We make the new product package in 3D to review its structure and material rendering.",
+  "category": "Motion & Video Design",
+  "aliases": [
+   "3D",
+   "3D",
+   "3D work",
+   "3D team"
+  ]
+ },
+ {
+  "id": "marketing-177",
+  "term": "D.I",
+  "definition": "A term that mainly refers to the color-correction and color-grading process in advertising post-production. It matches the color and brightness of each scene and refines the mood of the final image.",
+  "example": "After the edit lock, we match skin tones and product colors in D.I.",
+  "note": "Digital intermediate originally refers broadly to digital intermediate processing and post-production. In advertising, it often refers to the color-correction process or vendor. Distinguish it from DIT on set.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "DI",
+   "D.I.",
+   "DI",
+   "digital intermediate"
+  ]
+ },
+ {
+  "id": "film-200",
+  "term": "D.I",
+  "definition": "A term that mainly refers to the color-correction and color-grading process in advertising post-production. It matches the color and brightness of each scene and refines the mood of the final image.",
+  "example": "After the edit lock, we match skin tones and product colors in D.I.",
+  "note": "Digital intermediate originally refers broadly to digital intermediate processing and post-production. In advertising, it often refers to the color-correction process or vendor. Distinguish it from DIT on set.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "DI",
+   "D.I.",
+   "DI",
+   "digital intermediate",
+   "D I"
+  ]
+ },
+ {
+  "id": "marketing-178",
+  "term": "Editing",
+  "definition": "The work of selecting the needed parts from footage and arranging the order, length, and sound to create the story to be told.",
+  "example": "In editing, please trim the opening and move the product shots earlier.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "video editing",
+   "editing"
+  ]
+ },
+ {
+  "id": "film-201",
+  "term": "Editing",
+  "definition": "The work of selecting the needed parts from footage and arranging the order, length, and sound to create the story to be told.",
+  "example": "In the interview edit, we change the order of answers and add the needed B-roll.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "video editing",
+   "editing"
+  ]
+ },
+ {
+  "id": "design-139",
+  "term": "Editing",
+  "definition": "The work of arranging the text and images of a book, magazine, brochure, and so on according to page order, hierarchy, and margins to create a reading flow.",
+  "example": "In the catalog layout, we place the product photo and description on the same spread.",
+  "note": "Here it means page layout. Distinguish it from video editing and cut editing used in motion design.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "page layout",
+   "editorial design",
+   "editing"
+  ]
+ },
+ {
+  "id": "marketing-179",
+  "term": "Recording",
+  "definition": "The work of capturing voices, performances, on-site sound, and so on as audio data.",
+  "example": "Please finalize the copy before the narration recording.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "recording",
+   "voice recording"
+  ]
+ },
+ {
+  "id": "film-202",
+  "term": "Recording",
+  "definition": "The work of capturing voices, performances, on-site sound, and so on as audio data.",
+  "example": "Before recording on-set dialogue, we check the mic position and the noise conditions.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "recording",
+   "voice recording"
+  ]
+ },
+ {
+  "id": "marketing-180",
+  "term": "Voice actor",
+  "definition": "A person who specializes in vocal expression, such as character acting or advertising narration.",
+  "example": "I'll listen to voice-actor candidates that match the brand tone.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "voice actor"
+  ]
+ },
+ {
+  "id": "film-203",
+  "term": "Voice actor",
+  "definition": "A person who specializes in vocal expression, such as character acting or advertising narration.",
+  "example": "I'll listen to voice-actor candidates that match the brand tone.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "voice actor"
+  ]
+ },
+ {
+  "id": "marketing-181",
+  "term": "Narration",
+  "definition": "Spoken words that explain a video's content or message. It is sometimes used as distinct from on-screen dialogue.",
+  "example": "Please add narration to the final product explanation.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "narration",
+   "narration recording",
+   "NA"
+  ]
+ },
+ {
+  "id": "film-204",
+  "term": "Narration",
+  "definition": "Spoken words that explain a video's content or message. It is sometimes used as distinct from on-screen dialogue.",
+  "example": "Please add narration to the final product explanation.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "narration",
+   "narration recording",
+   "NA"
+  ]
+ },
+ {
+  "id": "marketing-182",
+  "term": "Compositing",
+  "definition": "The work of overlaying and adjusting multiple videos, images, and graphics into a single image.",
+  "example": "Please composite the shot product onto a new background.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "compositing",
+   "composite"
+  ]
+ },
+ {
+  "id": "film-205",
+  "term": "Compositing",
+  "definition": "The work of overlaying and adjusting multiple videos, images, and graphics into a single image.",
+  "example": "Please composite the shot product onto a new background.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "compositing",
+   "composite"
+  ]
+ },
+ {
+  "id": "design-140",
+  "term": "Compositing",
+  "definition": "The work of overlaying and adjusting multiple videos, images, and graphics into a single image.",
+  "example": "We composite the poster background and the product photo, matching the direction of the light.",
+  "category": "Motion & Video Design",
+  "aliases": [
+   "compositing",
+   "composite"
+  ]
+ },
+ {
+  "id": "marketing-183",
+  "term": "Alpha channel",
+  "definition": "Information that holds the transparency of each part of an image or video.",
+  "example": "Please provide the logo animation as a file with an alpha channel.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "alpha",
+   "alpha channel"
+  ]
+ },
+ {
+  "id": "film-206",
+  "term": "Alpha channel",
+  "definition": "Information that holds the transparency of each part of an image or video.",
+  "example": "Please provide the logo animation as a file with an alpha channel.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "alpha",
+   "alpha channel"
+  ]
+ },
+ {
+  "id": "design-141",
+  "term": "Alpha channel",
+  "definition": "Information that holds the transparency of each part of an image or video.",
+  "example": "We render with an alpha channel included so the motion logo can be placed over the background.",
+  "category": "Motion & Video Design",
+  "aliases": [
+   "alpha",
+   "alpha channel"
+  ]
+ },
+ {
+  "id": "marketing-184",
+  "term": "Rotoscoping",
+  "definition": "The work of creating separation regions along the boundary of a moving person or object in footage. It is used for background replacement or partial effects.",
+  "example": "Please clean up the hair boundary further with roto.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "roto",
+   "roto work"
+  ]
+ },
+ {
+  "id": "film-207",
+  "term": "Rotoscoping",
+  "definition": "The work of creating separation regions along the boundary of a moving person or object in footage. It is used for background replacement or partial effects.",
+  "example": "Please clean up the hair boundary further with roto.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "roto",
+   "roto work"
+  ]
+ },
+ {
+  "id": "design-142",
+  "term": "Rotoscoping",
+  "definition": "The work of creating separation regions along the boundary of a moving person or object in footage. It is used for background replacement or partial effects.",
+  "example": "In motion work overlaying live action and type, we separate the subject's boundary with roto.",
+  "category": "Motion & Video Design",
+  "aliases": [
+   "roto",
+   "roto work"
+  ]
+ },
+ {
+  "id": "marketing-185",
+  "term": "Directing",
+  "definition": "The work of leading scene composition, performance, and shooting expression to realize the planning intent in image and sound.",
+  "example": "Even with the same copy, let's change the mood with an understated directing approach.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "directing",
+   "video directing"
+  ]
+ },
+ {
+  "id": "film-208",
+  "term": "Directing",
+  "definition": "The work of leading scene composition, performance, and shooting expression to realize the planning intent in image and sound.",
+  "example": "Even with the same copy, let's change the mood with an understated directing approach.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "directing",
+   "video directing"
+  ]
+ },
+ {
+  "id": "marketing-186",
+  "term": "Director",
+  "definition": "The directing lead who decides a work's or ad's scene, performance, and expression direction and leads the production crew.",
+  "example": "The director reviews the actors' blocking and camera positions together with us.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "directing director",
+   "director"
+  ]
+ },
+ {
+  "id": "film-209",
+  "term": "Director",
+  "definition": "The directing lead who decides a work's or ad's scene, performance, and expression direction and leads the production crew.",
+  "example": "The director reviews the actors' blocking and camera positions together with us.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "directing director",
+   "director"
+  ]
+ },
+ {
+  "id": "marketing-187",
+  "term": "Assistant director",
+  "definition": "A directing-team member who assists the director and coordinates shoot prep, progress, and communication between departments.",
+  "example": "The assistant director checks the prep status for the next scene with each team.",
+  "note": "AD uses the same abbreviation as Art Director in advertising and design, but the role is different.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "assistant director",
+   "AD",
+   "AD"
+  ]
+ },
+ {
+  "id": "film-210",
+  "term": "Assistant director",
+  "definition": "A directing-team member who assists the director and coordinates shoot prep, progress, and communication between departments.",
+  "example": "The assistant director checks the prep status for the next scene with each team.",
+  "note": "AD uses the same abbreviation as Art Director in advertising and design, but the role is different.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "assistant director",
+   "AD",
+   "AD"
+  ]
+ },
+ {
+  "id": "marketing-188",
+  "term": "Directing department",
+  "definition": "A team that supports shoot prep, on-site progress, and performers' blocking to realize the director's vision.",
+  "example": "The directing department guides the next performers' standby positions.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "directing team"
+  ]
+ },
+ {
+  "id": "film-211",
+  "term": "Directing department",
+  "definition": "A team that supports shoot prep, on-site progress, and performers' blocking to realize the director's vision.",
+  "example": "The directing department guides the next performers' standby positions.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "directing team"
+  ]
+ },
+ {
+  "id": "marketing-189",
+  "term": "Production department",
+  "definition": "A team that arranges operating conditions such as the location, staffing, vehicles, meals, and budget for a shoot and supports on-site progress.",
+  "example": "Please check the parking space for the equipment truck with the production department.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "production team"
+  ]
+ },
+ {
+  "id": "film-212",
+  "term": "Production department",
+  "definition": "A team that arranges operating conditions such as the location, staffing, vehicles, meals, and budget for a shoot and supports on-site progress.",
+  "example": "Please check the parking space for the equipment truck with the production department.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "production team"
+  ]
+ },
+ {
+  "id": "marketing-190",
+  "term": "Camera team",
+  "definition": "A team that operates shooting gear such as cameras and lenses and handles the video recording, including composition, focus, and exposure.",
+  "example": "The camera team prepares the next lens and camera setup.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "camera team",
+   "camera department"
+  ]
+ },
+ {
+  "id": "film-213",
+  "term": "Camera team",
+  "definition": "A team that operates shooting gear such as cameras and lenses and handles the video recording, including composition, focus, and exposure.",
+  "example": "The camera team prepares the next lens and camera setup.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "camera team",
+   "camera department"
+  ]
+ },
+ {
+  "id": "marketing-191",
+  "term": "Lighting",
+  "definition": "The work of controlling the direction, intensity, color, and texture of light to shape the form and mood of people and spaces.",
+  "example": "Please soften the lighting a bit to reduce the shadows on the face.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "lighting",
+   "lighting work"
+  ]
+ },
+ {
+  "id": "film-214",
+  "term": "Lighting",
+  "definition": "The work of controlling the direction, intensity, color, and texture of light to shape the form and mood of people and spaces.",
+  "example": "Please soften the lighting a bit to reduce the shadows on the face.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "lighting",
+   "lighting work"
+  ]
+ },
+ {
+  "id": "marketing-192",
+  "term": "Lighting director",
+  "definition": "The lead who directs lighting design, setup, and operation to match the shooting and directing intent.",
+  "example": "We first align the direction of the window light with the lighting director.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "lighting director",
+   "gaffer"
+  ]
+ },
+ {
+  "id": "film-215",
+  "term": "Lighting director",
+  "definition": "The lead who directs lighting design, setup, and operation to match the shooting and directing intent.",
+  "example": "We first align the direction of the window light with the lighting director.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "lighting director",
+   "gaffer"
+  ]
+ },
+ {
+  "id": "marketing-193",
+  "term": "Lighting team",
+  "definition": "A shooting-crew unit that prepares lights, diffusers, and power and controls the light.",
+  "example": "Once the lighting team finishes the backlight setup, we'll rehearse.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "lighting department"
+  ]
+ },
+ {
+  "id": "film-216",
+  "term": "Lighting team",
+  "definition": "A shooting-crew unit that prepares lights, diffusers, and power and controls the light.",
+  "example": "Once the lighting team finishes the backlight setup, we'll rehearse.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "lighting department"
+  ]
+ },
+ {
+  "id": "marketing-194",
+  "term": "Production designer",
+  "definition": "The lead who designs and coordinates the direction of the on-screen art, such as sets, spaces, props, and color.",
+  "example": "The production designer proposed the space colors and prop materials.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "production designer",
+   "art director"
+  ]
+ },
+ {
+  "id": "film-217",
+  "term": "Production designer",
+  "definition": "The lead who designs and coordinates the direction of the on-screen art, such as sets, spaces, props, and color.",
+  "example": "The production designer proposed the space colors and prop materials.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "production designer",
+   "art director"
+  ]
+ },
+ {
+  "id": "marketing-195",
+  "term": "Art team",
+  "definition": "A team that prepares and manages the spatial elements that appear on screen, such as sets and props.",
+  "example": "The art team swaps the table props to match the next shot.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "art department"
+  ]
+ },
+ {
+  "id": "film-218",
+  "term": "Art team",
+  "definition": "A team that prepares and manages the spatial elements that appear on screen, such as sets and props.",
+  "example": "The art team swaps the table props to match the next shot.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "art department"
+  ]
+ },
+ {
+  "id": "marketing-196",
+  "term": "Prop",
+  "definition": "An object placed in a scene or used by a performer.",
+  "example": "Please avoid reflective materials for the props next to the product.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "prop",
+   "small props"
+  ]
+ },
+ {
+  "id": "film-219",
+  "term": "Prop",
+  "definition": "An object placed in a scene or used by a performer.",
+  "example": "Please avoid reflective materials for the props next to the product.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "prop",
+   "small props"
+  ]
+ },
+ {
+  "id": "marketing-197",
+  "term": "Location manager",
+  "definition": "A person who finds shooting locations and manages usage conditions, permits, and on-site coordination.",
+  "example": "We check the available shooting hours with the location manager.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "location manager",
+   "location team"
+  ]
+ },
+ {
+  "id": "film-220",
+  "term": "Location manager",
+  "definition": "A person who finds shooting locations and manages usage conditions, permits, and on-site coordination.",
+  "example": "We check the available shooting hours with the location manager.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "location manager",
+   "location team"
+  ]
+ },
+ {
+  "id": "marketing-198",
+  "term": "Sync sound recording",
+  "definition": "The work of recording dialogue and on-site sound simultaneously with the video shoot.",
+  "example": "For the sync sound, let me quickly check the air-conditioner noise.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "location sound",
+   "sync recording"
+  ]
+ },
+ {
+  "id": "film-221",
+  "term": "Sync sound recording",
+  "definition": "The work of recording dialogue and on-site sound simultaneously with the video shoot.",
+  "example": "For the sync sound, let me quickly check the air-conditioner noise.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "location sound",
+   "sync recording",
+   "simultaneous recording"
+  ]
+ },
+ {
+  "id": "marketing-199",
+  "term": "Boom operator",
+  "definition": "A crew member who moves a mic mounted on a boom pole without letting it enter the frame, helping capture dialogue.",
+  "example": "The boom operator moves the mic following the actor's blocking.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "boom man",
+   "boom op"
+  ]
+ },
+ {
+  "id": "film-222",
+  "term": "Boom operator",
+  "definition": "A crew member who moves a mic mounted on a boom pole without letting it enter the frame, helping capture dialogue.",
+  "example": "The boom operator moves the mic following the actor's blocking.",
+  "category": "Planning & Production Roles",
+  "aliases": [
+   "boom man",
+   "boom op"
+  ]
+ },
+ {
+  "id": "marketing-200",
+  "term": "Shooting",
+  "definition": "The work of recording planned scenes, people, and products as photos or video with a camera.",
+  "example": "Before shooting, we check the product condition and the shots we need.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "shooting",
+   "shoot work"
+  ]
+ },
+ {
+  "id": "film-223",
+  "term": "Shooting",
+  "definition": "The work of recording planned scenes, people, and products as photos or video with a camera.",
+  "example": "Before shooting, we check the product condition and the shots we need.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "shooting",
+   "shoot work"
+  ]
+ },
+ {
+  "id": "fashion-221",
+  "term": "Shooting",
+  "definition": "The work of recording planned scenes, people, and products as photos or video with a camera.",
+  "example": "Before the product shoot, we steam the garments and check the list of front, back, and detail shots.",
+  "category": "Fashion Shoot & Styling",
+  "aliases": [
+   "shooting",
+   "shoot work"
+  ]
+ },
+ {
+  "id": "marketing-201",
+  "term": "Location",
+  "definition": "A place used for shooting. It is also used to refer to an actual space outside the studio.",
+  "example": "If it rains, we also secure an indoor location as a backup.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "location",
+   "shooting location"
+  ]
+ },
+ {
+  "id": "film-224",
+  "term": "Location",
+  "definition": "A place used for shooting. It is also used to refer to an actual space outside the studio.",
+  "example": "If it rains, we also secure an indoor location as a backup.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "location",
+   "shooting location"
+  ]
+ },
+ {
+  "id": "fashion-222",
+  "term": "Location",
+  "definition": "A place used for shooting. It is also used to refer to an actual space outside the studio.",
+  "example": "We pick a location that suits the summer resort-wear lookbook.",
+  "category": "Fashion Shoot & Styling",
+  "aliases": [
+   "location",
+   "shooting location"
+  ]
+ },
+ {
+  "id": "marketing-202",
+  "term": "Location scouting",
+  "definition": "The work of visiting candidate shooting locations to check light, space, noise, power, and access conditions.",
+  "example": "We go scouting at the same time of day to see the afternoon light.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "location scouting",
+   "site visit"
+  ]
+ },
+ {
+  "id": "film-225",
+  "term": "Location scouting",
+  "definition": "The work of visiting candidate shooting locations to check light, space, noise, power, and access conditions.",
+  "example": "We go scouting at the same time of day to see the afternoon light.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "location scouting",
+   "site visit"
+  ]
+ },
+ {
+  "id": "fashion-223",
+  "term": "Location scouting",
+  "definition": "The work of visiting candidate shooting locations to check light, space, noise, power, and access conditions.",
+  "example": "At the lookbook location scouting, we check the changing space and where to store the clothes.",
+  "category": "Fashion Shoot & Styling",
+  "aliases": [
+   "location scouting",
+   "site visit"
+  ]
+ },
+ {
+  "id": "marketing-203",
+  "term": "Casting",
+  "definition": "The work of selecting actors, models, and performers that fit the plan and roles, and coordinating their participation.",
+  "example": "We narrow down the model casting candidates to match the brand image.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "performer casting",
+   "model casting"
+  ]
+ },
+ {
+  "id": "film-226",
+  "term": "Casting",
+  "definition": "The work of selecting actors, models, and performers that fit the plan and roles, and coordinating their participation.",
+  "example": "We narrow down the model casting candidates to match the brand image.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "performer casting",
+   "model casting"
+  ]
+ },
+ {
+  "id": "fashion-224",
+  "term": "Casting",
+  "definition": "The work of selecting actors, models, and performers that fit the plan and roles, and coordinating their participation.",
+  "example": "We proceed with model casting to match the sample sizes and the brand image.",
+  "category": "Fashion Shoot & Styling",
+  "aliases": [
+   "performer casting",
+   "model casting"
+  ]
+ },
+ {
+  "id": "marketing-204",
+  "term": "Rehearsal",
+  "definition": "A run-through before the main shoot to align performance, blocking, and progress.",
+  "example": "In the rehearsal, we start by aligning the timing of picking up the product.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "rehearsal shoot",
+   "dry rehearsal"
+  ]
+ },
+ {
+  "id": "film-227",
+  "term": "Rehearsal",
+  "definition": "A run-through before the main shoot to align performance, blocking, and progress.",
+  "example": "In the rehearsal, we start by aligning the timing of picking up the product.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "rehearsal shoot",
+   "dry rehearsal"
+  ]
+ },
+ {
+  "id": "fashion-225",
+  "term": "Rehearsal",
+  "definition": "A run-through before the main shoot to align performance, blocking, and progress.",
+  "example": "In the lookbook video rehearsal, we see whether the clothes flow naturally when walking.",
+  "category": "Fashion Shoot & Styling",
+  "aliases": [
+   "rehearsal shoot",
+   "dry rehearsal"
+  ]
+ },
+ {
+  "id": "marketing-205",
+  "term": "Set",
+  "definition": "A space or stage built to suit the shooting purpose.",
+  "example": "To change the wall color, we also need to check the set-build schedule.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "shooting set",
+   "set stage"
+  ]
+ },
+ {
+  "id": "film-228",
+  "term": "Set",
+  "definition": "A space or stage built to suit the shooting purpose.",
+  "example": "To change the wall color, we also need to check the set-build schedule.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "shooting set",
+   "set stage"
+  ]
+ }
+]

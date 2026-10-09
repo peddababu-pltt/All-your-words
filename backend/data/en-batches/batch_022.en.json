@@ -1,0 +1,1290 @@
+[
+ {
+  "id": "film-511",
+  "term": "Rolling Shutter",
+  "definition": "A method where exposure and readout are performed sequentially at different times for different positions on the sensor, which can cause distortion during fast movement.",
+  "example": "Check for rolling shutter distortion where vertical lines bend during fast pans.",
+  "category": "Cinematography & Post-Production Techniques"
+ },
+ {
+  "id": "film-512",
+  "term": "Global Shutter",
+  "definition": "A method that captures an image by aligning the exposure timing across the entire sensor.",
+  "example": "Check whether the camera you will use for fast-action shoots supports a global shutter.",
+  "category": "Cinematography & Post-Production Techniques"
+ },
+ {
+  "id": "film-513",
+  "term": "Genlock",
+  "definition": "A method of synchronizing the frame timing of multiple video devices to a reference signal.",
+  "example": "In multi-camera shoots, distinguish and configure the roles of genlock and timecode.",
+  "category": "Cinematography & Post-Production Techniques",
+  "aliases": [
+   "Gen-lock"
+  ]
+ },
+ {
+  "id": "film-514",
+  "term": "Jam Sync",
+  "definition": "A method of setting one device's timecode onto another device and letting each device run in sync.",
+  "example": "After jam-syncing the camera and the audio recorder, recheck for drift during long takes.",
+  "category": "Cinematography & Post-Production Techniques",
+  "aliases": [
+   "Jam-sync"
+  ]
+ },
+ {
+  "id": "film-515",
+  "term": "Overcrank",
+  "definition": "A method of shooting at a higher frame rate than the playback standard to show motion in slow motion.",
+  "example": "Shoot water splashes with overcrank and secure the necessary amount of light.",
+  "category": "Cinematography & Post-Production Techniques",
+  "aliases": [
+   "High-speed shooting",
+   "High frame rate shooting"
+  ]
+ },
+ {
+  "id": "film-516",
+  "term": "Undercrank",
+  "definition": "A method of shooting at a lower frame rate than the playback standard to show motion sped up.",
+  "example": "Use undercrank to speed up the movement of a crowd.",
+  "category": "Cinematography & Post-Production Techniques",
+  "aliases": [
+   "Low frame rate shooting"
+  ]
+ },
+ {
+  "id": "film-517",
+  "term": "Speed Ramp",
+  "definition": "An effect that gradually or deliberately changes the playback speed within a single clip.",
+  "example": "Set the speed ramp section to match the emphasis point of the action.",
+  "category": "Cinematography & Post-Production Techniques",
+  "aliases": [
+   "Speed ramping"
+  ]
+ },
+ {
+  "id": "film-518",
+  "term": "Optical Flow",
+  "definition": "A technique that estimates motion between consecutive frames. It is used for video interpolation and speed conversion.",
+  "example": "After applying optical flow, check whether the edges of the fingers break up.",
+  "category": "Cinematography & Post-Production Techniques"
+ },
+ {
+  "id": "film-519",
+  "term": "Overscan",
+  "definition": "The action of cropping off part of the edge of a display, or the term for the margin area that accounts for this.",
+  "example": "When placing broadcast subtitles, check the overscan and the safe area.",
+  "category": "Cinematography & Post-Production Techniques"
+ },
+ {
+  "id": "film-520",
+  "term": "Dynamic Range",
+  "definition": "The range of bright and dark that a camera can record or a display can reproduce.",
+  "example": "Check whether the highlights outside the window and the shadows indoors fall within the dynamic range.",
+  "category": "Cinematography & Post-Production Techniques",
+  "aliases": [
+   "DR",
+   "Dynamic range"
+  ]
+ },
+ {
+  "id": "film-521",
+  "term": "Chroma Subsampling",
+  "definition": "A method of storing color-difference information at a lower resolution than the luminance information of a video, and the notation for that ratio.",
+  "example": "For footage intended for chroma-key compositing, check the chroma subsampling together with the bit depth.",
+  "category": "Cinematography & Post-Production Techniques",
+  "aliases": [
+   "4:2:2",
+   "4:2:0",
+   "4:4:4"
+  ]
+ },
+ {
+  "id": "film-522",
+  "term": "Bit Depth",
+  "definition": "The number of bits used to represent the value of one component of a signal. It relates to how many levels of values can be represented.",
+  "example": "Before applying heavy color grading, check the bit depth of the source.",
+  "category": "Cinematography & Post-Production Techniques",
+  "aliases": [
+   "Bit depth",
+   "Bit-depth",
+   "10-bit",
+   "8-bit"
+  ]
+ },
+ {
+  "id": "film-523",
+  "term": "Banding",
+  "definition": "A phenomenon where a gradation of brightness or color that should be smooth appears broken up into bands.",
+  "example": "Check the delivery file to ensure no banding appears in the sky gradient.",
+  "category": "Cinematography & Post-Production Techniques"
+ },
+ {
+  "id": "film-524",
+  "term": "Round Trip",
+  "definition": "A workflow where an editing project is sent to another tool such as color grading or sound, and the result is reconnected back to the original work.",
+  "example": "Before a color-grading round trip, align the frame rate and the file names.",
+  "category": "Cinematography & Post-Production Techniques",
+  "aliases": [
+   "Round-trip"
+  ]
+ },
+ {
+  "id": "design-471",
+  "term": "Instance",
+  "definition": "A used copy linked to a master component. It inherits structural or style changes from the master while some properties can be changed separately.",
+  "example": "Change only the text of the button instance while keeping the shared style link.",
+  "category": "Design Systems & Visual Production",
+  "aliases": [
+   "Component instance"
+  ]
+ },
+ {
+  "id": "design-472",
+  "term": "Constraint",
+  "definition": "A rule that determines how a child element's position and size respond when the parent frame's size changes.",
+  "example": "Set constraints so the button stays pinned to the right even as the screen width grows.",
+  "category": "Design Systems & Visual Production",
+  "aliases": [
+   "Resizing constraint",
+   "Constraint rule"
+  ]
+ },
+ {
+  "id": "design-473",
+  "term": "Override",
+  "definition": "Specifying text, images, or properties differently from the master in a component instance.",
+  "example": "Check whether the instance's overrides are preserved after the master is updated.",
+  "category": "Design Systems & Visual Production",
+  "aliases": [
+   "Component override"
+  ]
+ },
+ {
+  "id": "design-474",
+  "term": "Detach",
+  "definition": "Breaking the link between a component instance and its master, turning it into an independent element.",
+  "example": "First consider whether to detach only the special screen or to add more master variants.",
+  "category": "Design Systems & Visual Production",
+  "aliases": [
+   "Detach instance",
+   "Detached instance"
+  ]
+ },
+ {
+  "id": "design-475",
+  "term": "Nesting",
+  "definition": "A composition method of placing other components or layouts inside a component or layout.",
+  "example": "Nest the button inside the card to easily apply shared changes.",
+  "category": "Design Systems & Visual Production",
+  "aliases": [
+   "Nested component"
+  ]
+ },
+ {
+  "id": "design-476",
+  "term": "Semantic Token",
+  "definition": "A design token that expresses its purpose or role by name rather than the actual color or size value.",
+  "example": "For an error message color, use a semantic token meaning error instead of a red value.",
+  "category": "Design Systems & Visual Production",
+  "aliases": [
+   "Meaning-based token"
+  ]
+ },
+ {
+  "id": "design-477",
+  "term": "Optical Alignment",
+  "definition": "Aligning so that it feels right to people, considering not only the coordinate center but also the shape and visual weight.",
+  "example": "Finely adjust a circular icon and text using optical alignment.",
+  "category": "Design Systems & Visual Production",
+  "aliases": [
+   "Visual alignment"
+  ]
+ },
+ {
+  "id": "design-478",
+  "term": "Optical Size",
+  "definition": "A typeface design or variable axis that adjusts strokes, spacing, and details to match the size at which the text is used.",
+  "example": "Apply an optical size suited to that size for small body text.",
+  "category": "Design Systems & Visual Production",
+  "aliases": [
+   "Optical sizing"
+  ]
+ },
+ {
+  "id": "design-479",
+  "term": "Variable Font",
+  "definition": "A font that can continuously vary the values of supported axes such as weight and width within a single font file.",
+  "example": "Check the weight axis range of the variable font and apply it to headings and body text.",
+  "category": "Design Systems & Visual Production",
+  "aliases": [
+   "Variable typeface"
+  ]
+ },
+ {
+  "id": "design-480",
+  "term": "Descender",
+  "definition": "The part of a letter that extends below the baseline.",
+  "example": "Check the text area so the descenders of lowercase letters are not clipped.",
+  "category": "Design Systems & Visual Production"
+ },
+ {
+  "id": "design-481",
+  "term": "Cap Height",
+  "definition": "The reference height of capital letters in a typeface.",
+  "example": "When mixing different fonts, match their sizes based on cap height.",
+  "category": "Design Systems & Visual Production",
+  "aliases": [
+   "Cap-height"
+  ]
+ },
+ {
+  "id": "design-482",
+  "term": "Logo Lockup",
+  "definition": "A logo combination that binds the symbol, wordmark, tagline, and so on in a fixed relationship.",
+  "example": "Mark the minimum clear space of the horizontal logo lockup in the guidelines.",
+  "category": "Design Systems & Visual Production",
+  "aliases": [
+   "Logo combination",
+   "Lockup"
+  ]
+ },
+ {
+  "id": "design-483",
+  "term": "Wordmark",
+  "definition": "A logo built around the lettering of a brand name.",
+  "example": "Refine the letter spacing of the wordmark so it stays legible even at small sizes.",
+  "category": "Design Systems & Visual Production",
+  "aliases": [
+   "Logotype",
+   "Word mark"
+  ]
+ },
+ {
+  "id": "design-484",
+  "term": "Symbol",
+  "definition": "A mark centered on a shape or image created to identify a brand.",
+  "example": "Check whether the symbol remains recognizable in a single color and at small sizes.",
+  "category": "Design Systems & Visual Production",
+  "aliases": [
+   "Symbol",
+   "Symbol mark"
+  ]
+ },
+ {
+  "id": "design-485",
+  "term": "Iconography",
+  "definition": "A visual system that consistently defines the shape, lines, meaning, and usage rules of icons.",
+  "example": "Align the line weight and corner rules in the iconography guide.",
+  "category": "Design Systems & Visual Production",
+  "aliases": [
+   "Icon system"
+  ]
+ },
+ {
+  "id": "common-213",
+  "term": "Change Request",
+  "definition": "A formal or managed request to change the agreed scope, requirements, schedule, and so on.",
+  "example": "Record the cost and schedule impact together in the change request.",
+  "category": "Documentation & Collaboration",
+  "aliases": [
+   "CR",
+   "Change request"
+  ]
+ },
+ {
+  "id": "common-214",
+  "term": "SOW",
+  "definition": "A document that organizes the scope of work, deliverables, schedule, and responsibilities to be performed in a contract or project.",
+  "example": "Separate the number of revisions and the excluded work in the SOW.",
+  "category": "Documentation & Collaboration",
+  "aliases": [
+   "Statement of Work",
+   "Scope of Work document",
+   "Work scope statement"
+  ]
+ },
+ {
+  "id": "common-215",
+  "term": "RACI",
+  "definition": "A chart that marks responsibility for each task by dividing it into responsible, accountable, consulted, and informed.",
+  "example": "Check the accountable owner in the RACI so no approval is missed.",
+  "category": "Documentation & Collaboration",
+  "aliases": [
+   "Responsibility assignment matrix"
+  ]
+ },
+ {
+  "id": "common-216",
+  "term": "DACI",
+  "definition": "A method of defining decision-making roles by distinguishing driver, approver, contributor, and informed.",
+  "example": "Define the DACI for the new policy to clarify who makes the final call.",
+  "category": "Documentation & Collaboration",
+  "aliases": [
+   "Decision-making role model"
+  ]
+ },
+ {
+  "id": "common-217",
+  "term": "Point of Contact",
+  "definition": "The main contact person who gathers work inquiries and coordination.",
+  "example": "Designate a point of contact for this matter so client inquiries are received in one place.",
+  "category": "Documentation & Collaboration",
+  "aliases": [
+   "Contact person",
+   "Contact window",
+   "Contact Point"
+  ]
+ },
+ {
+  "id": "common-218",
+  "term": "EOD",
+  "definition": "A deadline expression meaning the end of the workday. It is best used after agreeing on the time zone and the actual time.",
+  "example": "First align with the overseas contact on which time zone EOD refers to.",
+  "category": "Documentation & Collaboration",
+  "aliases": [
+   "End of business day",
+   "End of day"
+  ]
+ },
+ {
+  "id": "common-219",
+  "term": "EOW",
+  "definition": "A deadline expression meaning the end of the given work week.",
+  "example": "Instead of saying you will deliver by EOW, confirm what time on Friday.",
+  "category": "Documentation & Collaboration",
+  "aliases": [
+   "Before the weekend",
+   "End of week"
+  ]
+ },
+ {
+  "id": "common-220",
+  "term": "BAU",
+  "definition": "Ordinary day-to-day work or a normal operating state, as distinguished from project-based change work.",
+  "example": "Assign a separate person to handle BAU inquiries even during the transition work.",
+  "category": "Documentation & Collaboration",
+  "aliases": [
+   "Normal operations",
+   "Day-to-day operations"
+  ]
+ },
+ {
+  "id": "common-221",
+  "term": "OJT",
+  "definition": "A training method of learning the necessary knowledge and skills while performing actual work.",
+  "example": "In OJT, define the tasks to be tried hands-on and the criteria for checking them.",
+  "category": "Documentation & Collaboration",
+  "aliases": [
+   "On-the-job field training",
+   "On-the-job training"
+  ]
+ },
+ {
+  "id": "common-222",
+  "term": "Intake",
+  "definition": "The initial reception process of receiving a work request and organizing its content, priority, and assignment.",
+  "example": "Please write the purpose of the request and the needed date on the intake form.",
+  "category": "Documentation & Collaboration",
+  "aliases": [
+   "Request intake"
+  ]
+ },
+ {
+  "id": "common-223",
+  "term": "Handshake",
+  "definition": "A figurative work expression meaning that the parties have mutually confirmed and agreed on handover conditions, roles, or scope.",
+  "example": "We have completed the handshake with the operations team on the incident-response scope.",
+  "category": "Documentation & Collaboration",
+  "aliases": [
+   "Agreement confirmation"
+  ]
+ },
+ {
+  "id": "common-224",
+  "term": "Ownership",
+  "definition": "The attitude of taking responsibility for the outcome of something and managing it to the end, or the attribution of responsibility.",
+  "example": "Even for a joint task, decide who will take final ownership.",
+  "category": "Documentation & Collaboration",
+  "aliases": [
+   "Ownership",
+   "Responsible party"
+  ]
+ },
+ {
+  "id": "hrfinance-472",
+  "term": "Clear the Books",
+  "definition": "A practical expression meaning to identify the cause of remaining open items or balances and settle them with appropriate accounting treatment. It does not mean erasing amounts without basis.",
+  "example": "We decided to clear the books on the old suspense receipts after verifying the deposit records.",
+  "category": "HR & Finance Field Jargon",
+  "aliases": [
+   "Clear out the books",
+   "Clear the balance",
+   "Clear out the balance"
+  ]
+ },
+ {
+  "id": "hrfinance-473",
+  "term": "Expense Deferral",
+  "definition": "Recognizing an expense in a later period. It is not a simple performance adjustment but requires an attribution judgment that meets the applicable criteria.",
+  "example": "Check the expense deferral for the portion of prepaid insurance that belongs to the next period.",
+  "category": "HR & Finance Field Jargon",
+  "aliases": [
+   "Defer an expense",
+   "Carry over an expense"
+  ]
+ },
+ {
+  "id": "hrfinance-474",
+  "term": "Book Revenue",
+  "definition": "An expression meaning to reflect sales in the accounts in line with the revenue recognition criteria and the attribution timing of a transaction.",
+  "example": "Review whether a case for which inspection is not yet complete can be booked as this month's revenue.",
+  "category": "HR & Finance Field Jargon",
+  "aliases": [
+   "Record revenue",
+   "Revenue is booked"
+  ]
+ },
+ {
+  "id": "hrfinance-475",
+  "term": "Outsource Bookkeeping",
+  "definition": "Entrusting the work of recording transactions and keeping the books to an external accounting or tax service.",
+  "example": "Even when bookkeeping is outsourced, the company must accurately provide the supporting documents and transaction details.",
+  "category": "HR & Finance Field Jargon",
+  "aliases": [
+   "Entrust bookkeeping",
+   "Bookkeeping service"
+  ]
+ },
+ {
+  "id": "hrfinance-476",
+  "term": "Open a Headcount Slot",
+  "definition": "An expression meaning to approve a position to hire for, or to open it so hiring can begin.",
+  "example": "We decided to open the headcount slot for the replacement hire after confirming the budget.",
+  "category": "HR & Finance Field Jargon",
+  "aliases": [
+   "Open a req",
+   "Open a headcount slot",
+   "Open a position"
+  ]
+ },
+ {
+  "id": "hrfinance-477",
+  "term": "Offer Goes Out",
+  "definition": "An expression meaning that a proposal containing the employment terms is delivered to a candidate.",
+  "example": "Once the compensation is approved, the offer goes out to the candidate.",
+  "category": "HR & Finance Field Jargon",
+  "aliases": [
+   "Make an offer",
+   "Extend an offer",
+   "Send an offer"
+  ]
+ },
+ {
+  "id": "hrfinance-478",
+  "term": "Align to the Pay Scale",
+  "definition": "An expression meaning to adjust salary terms within the company's compensation standards for the relevant job, grade, and experience.",
+  "example": "Review internal equity and align the offer amount to the salary table.",
+  "category": "HR & Finance Field Jargon",
+  "aliases": [
+   "Align to the salary table"
+  ]
+ },
+ {
+  "id": "hrfinance-479",
+  "term": "Align the Compensation Package",
+  "definition": "An expression meaning to coordinate employment terms such as pay, grade, and benefits between the company's standards and the candidate's expectations.",
+  "example": "Separate base pay and incentives to align the compensation package.",
+  "category": "HR & Finance Field Jargon",
+  "aliases": [
+   "Align the compensation"
+  ]
+ },
+ {
+  "id": "marketing-653",
+  "term": "Polishing",
+  "definition": "An expression meaning to refine the wording, structure, and tone of a draft into a state that is easy to deliver. It is a different context from greenwashing, which means deceptive promotion.",
+  "example": "Before sending it to the client, polish the copy by toning down exaggerated expressions.",
+  "category": "Advertising & Marketing Field Jargon",
+  "aliases": [
+   "Polish",
+   "Wording polish",
+   "Copy polish"
+  ]
+ },
+ {
+  "id": "marketing-654",
+  "term": "Build Slides",
+  "definition": "An expression meaning to structure and write the pages of a presentation deck for a report or proposal.",
+  "example": "Build the pitch deck slides based on the agreed strategy.",
+  "category": "Advertising & Marketing Field Jargon",
+  "aliases": [
+   "Build out slides",
+   "Slide work"
+  ]
+ },
+ {
+  "id": "marketing-655",
+  "term": "Burn Budget",
+  "definition": "A colloquial expression meaning to actually spend the advertising budget on media placement.",
+  "example": "Before burning budget on new creative, check that conversion tracking is working.",
+  "category": "Advertising & Marketing Field Jargon",
+  "aliases": [
+   "Spend the budget",
+   "Burn ad spend",
+   "Burn through ad spend"
+  ]
+ },
+ {
+  "id": "marketing-656",
+  "term": "Run Creative",
+  "definition": "An expression meaning to place ad creative on media or to run multiple creatives in rotation.",
+  "example": "Fatigue has risen, so run new creative with a small budget to test it.",
+  "category": "Advertising & Marketing Field Jargon",
+  "aliases": [
+   "Run the creative",
+   "Run ads"
+  ]
+ },
+ {
+  "id": "marketing-657",
+  "term": "Alternate Option",
+  "definition": "An alternative made in a different direction from the current proposal.",
+  "example": "Keep the message but also prepare an alternate option with a different style of expression.",
+  "category": "Advertising & Marketing Field Jargon",
+  "aliases": [
+   "Different option",
+   "Alternative"
+  ]
+ },
+ {
+  "id": "marketing-658",
+  "term": "Rework Copy",
+  "definition": "An expression meaning to rewrite advertising copy or refine it multiple times.",
+  "example": "Rework the headline copy so the product's advantages become clear.",
+  "category": "Advertising & Marketing Field Jargon",
+  "aliases": [
+   "Rework the copy",
+   "Rework the wording"
+  ]
+ },
+ {
+  "id": "marketing-659",
+  "term": "One-Line Summary",
+  "definition": "The work of condensing a campaign's core logic or message into a short single sentence.",
+  "example": "Before writing the opening of the proposal, summarize the value the consumer gets in one line.",
+  "category": "Advertising & Marketing Field Jargon",
+  "aliases": [
+   "One-liner",
+   "One-line"
+  ]
+ },
+ {
+  "id": "marketing-660",
+  "term": "Counterproposal",
+  "definition": "Presenting a different method or condition that better fits the goal, rather than simply carrying out the client's request as-is.",
+  "example": "Counterpropose a channel with better target touchpoints than the requested medium.",
+  "category": "Advertising & Marketing Field Jargon",
+  "aliases": [
+   "Counter-proposal"
+  ]
+ },
+ {
+  "id": "dev-474",
+  "term": "Cut a Branch",
+  "definition": "An expression meaning to create a new working branch from a base branch or similar.",
+  "example": "For hotfixes, cut a branch from the current production version to work on it.",
+  "category": "Development Field Jargon",
+  "aliases": [
+   "Cut a branch off",
+   "Create a branch"
+  ]
+ },
+ {
+  "id": "dev-475",
+  "term": "Hardcode",
+  "definition": "An expression meaning to put a value or processing directly into the code. It is often used in the context of putting in a fixed value instead of a configuration.",
+  "example": "Do not hardcode addresses that differ per environment; separate them into configuration.",
+  "category": "Development Field Jargon",
+  "aliases": [
+   "Hardcode a value",
+   "Hardcode the value",
+   "Hardcode a constant"
+  ]
+ },
+ {
+  "id": "dev-476",
+  "term": "Add Logging",
+  "definition": "An expression meaning to add logging code so the execution state or errors can be checked.",
+  "example": "Add diagnostic logging, excluding personal information, to the section that is hard to reproduce.",
+  "category": "Development Field Jargon",
+  "aliases": [
+   "Insert logging"
+  ]
+ },
+ {
+  "id": "dev-477",
+  "term": "Spin Up a Server",
+  "definition": "An expression meaning to run a server program or instance so it can accept requests.",
+  "example": "After spinning up the local server, check the API responses.",
+  "category": "Development Field Jargon",
+  "aliases": [
+   "Bring up a server",
+   "Bring up the server"
+  ]
+ },
+ {
+  "id": "dev-478",
+  "term": "Wipe the DB",
+  "definition": "An expression meaning to empty or reset the contents of a database. The scope of deletion must always be confirmed specifically.",
+  "example": "Before wiping the test DB, confirm it is not connected to production.",
+  "category": "Development Field Jargon",
+  "aliases": [
+   "Wipe DB",
+   "Wipe the DB",
+   "Wipe the database"
+  ]
+ },
+ {
+  "id": "dev-479",
+  "term": "Fire a Query",
+  "definition": "An expression meaning to run a read or modify request against a database or similar.",
+  "example": "Before firing a query against a large table, review the execution plan.",
+  "category": "Development Field Jargon",
+  "aliases": [
+   "Run a query"
+  ]
+ },
+ {
+  "id": "dev-480",
+  "term": "Grunt-Work Code",
+  "definition": "An informal expression referring to code written by hand, repeating similar processing.",
+  "example": "Review whether the grunt-work code can be consolidated into a shared function.",
+  "category": "Development Field Jargon",
+  "aliases": [
+   "Repetitive code"
+  ]
+ },
+ {
+  "id": "dev-481",
+  "term": "Magic Number",
+  "definition": "A specific numeric value written directly in code without a name that explains its meaning.",
+  "example": "Replace the timeout's magic number with a constant that reveals its unit.",
+  "category": "Development Field Jargon",
+  "aliases": [
+   "Magic-number"
+  ]
+ },
+ {
+  "id": "fashion-615",
+  "term": "Outright Purchase",
+  "definition": "A transaction method where a retailer or similar buys goods outright and bears the inventory and sales risk. The scope of possible returns depends on the transaction terms.",
+  "example": "First confirm the defect-exchange and return terms for outright-purchase goods.",
+  "category": "Fashion & Textile Field Jargon",
+  "aliases": [
+   "Outright buy",
+   "Outright purchase"
+  ]
+ },
+ {
+  "id": "fashion-616",
+  "term": "By Color",
+  "definition": "A field expression for dividing the same product by color.",
+  "example": "Sales of this shirt differ by color, so split the reorder quantity accordingly.",
+  "category": "Fashion & Textile Field Jargon",
+  "aliases": [
+   "Per color",
+   "By color variant"
+  ]
+ },
+ {
+  "id": "fashion-617",
+  "term": "Single Unit",
+  "definition": "An expression meaning an order or transaction of a single piece of goods, rather than a bundle or set quantity.",
+  "example": "Check with the new client whether single-unit orders are possible.",
+  "category": "Fashion & Textile Field Jargon",
+  "aliases": [
+   "Single-unit order",
+   "Single-piece order"
+  ]
+ },
+ {
+  "id": "fashion-618",
+  "term": "Combined Packing",
+  "definition": "Combining multiple products or orders into a single package for shipping.",
+  "example": "Bundle orders eligible for combined packing, but confirm the recipient and the ship date.",
+  "note": "This entry means combined packing in shipping and packaging. For the processing of bonding fabrics, see 'fabric bonding.'",
+  "category": "Fashion & Textile Field Jargon",
+  "aliases": [
+   "Combined-shipment packing",
+   "Combined packaging"
+  ]
+ },
+ {
+  "id": "fashion-619",
+  "term": "Swap Exchange",
+  "definition": "A method of handing over a replacement item while collecting a defective item.",
+  "example": "For defect swap exchanges, note the quantity and style number on the delivery slip.",
+  "category": "Fashion & Textile Field Jargon",
+  "aliases": [
+   "Defect swap",
+   "Direct exchange"
+  ]
+ },
+ {
+  "id": "fashion-620",
+  "term": "Stitch",
+  "definition": "A field expression meaning to sew fabric with a sewing machine.",
+  "example": "After checking the pocket position, stitch the topstitching.",
+  "category": "Fashion & Textile Field Jargon",
+  "aliases": [
+   "Machine-stitch",
+   "Sew"
+  ]
+ },
+ {
+  "id": "fashion-621",
+  "term": "Unpick",
+  "definition": "An expression meaning to undo the thread of an existing seam to take it apart, for example for alterations.",
+  "example": "Before unpicking the side seam for a fit adjustment, check the seam allowance.",
+  "category": "Fashion & Textile Field Jargon",
+  "aliases": [
+   "Unpick a seam",
+   "Pick out the stitches"
+  ]
+ },
+ {
+  "id": "film-525",
+  "term": "Out of Focus",
+  "definition": "Refers to a state where the intended subject is not in focus.",
+  "example": "The eyes were out of focus in the key-line shot, so we reshot it.",
+  "category": "Filming & Editing Field Jargon",
+  "aliases": [
+   "Loses focus",
+   "Out of focus",
+   "Focus error"
+  ]
+ },
+ {
+  "id": "film-526",
+  "term": "In Focus",
+  "definition": "Refers to a state where the intended subject is precisely in focus.",
+  "example": "Zoom in to check whether the eyes are in focus at the spot where the actor stops.",
+  "category": "Filming & Editing Field Jargon",
+  "aliases": [
+   "Is in focus",
+   "Pull focus"
+  ]
+ },
+ {
+  "id": "film-527",
+  "term": "Frame Jump",
+  "definition": "An expression meaning the on-screen motion momentarily appears to break up due to dropped or duplicated frames or an editing-connection problem.",
+  "example": "Compare the sections where frames jump in the delivery version against the original.",
+  "category": "Filming & Editing Field Jargon",
+  "aliases": [
+   "Frames jump",
+   "Frame skip"
+  ]
+ },
+ {
+  "id": "film-528",
+  "term": "Overlap Audio",
+  "definition": "An expression meaning to overlap or connect the audio of the preceding and following cuts to make the scene transition natural.",
+  "example": "Overlap the audio of the next scene first to smooth the transition.",
+  "category": "Filming & Editing Field Jargon",
+  "aliases": [
+   "Overlap the sound",
+   "Overlap the audio"
+  ]
+ },
+ {
+  "id": "film-529",
+  "term": "Split Cuts",
+  "definition": "An expression meaning to divide a single section into several short cuts for editing.",
+  "example": "Split the cuts in information-heavy sections, but keep the meaning from breaking.",
+  "category": "Filming & Editing Field Jargon",
+  "aliases": [
+   "Split the cuts"
+  ]
+ },
+ {
+  "id": "design-486",
+  "term": "Outline Text",
+  "definition": "An expression meaning to convert text from an editable state into vector outlines.",
+  "example": "For print files, check the font usage terms and outline the necessary text before handing it over.",
+  "category": "Design Field Jargon",
+  "aliases": [
+   "Outline the letters",
+   "Outline the font",
+   "Outline the typeface"
+  ]
+ },
+ {
+  "id": "design-487",
+  "term": "Trace a Path",
+  "definition": "An expression meaning to draw a vector path along the outline of a subject.",
+  "example": "Trace a path along the outline of the logo image, then refine the curves.",
+  "category": "Design Field Jargon",
+  "aliases": [
+   "Trace the path",
+   "Trace the outline"
+  ]
+ },
+ {
+  "id": "design-488",
+  "term": "Match the Tone",
+  "definition": "An expression meaning to adjust color, contrast, and image mood to fit the overall visual direction.",
+  "example": "Match the tone of product photos shot on different days.",
+  "category": "Design Field Jargon",
+  "aliases": [
+   "Match the tone"
+  ]
+ },
+ {
+  "id": "design-489",
+  "term": "Place",
+  "definition": "An expression meaning to position a logo, text, or image at the appropriate spot in the layout.",
+  "example": "After securing the top margin, place the logo.",
+  "category": "Design Field Jargon",
+  "aliases": [
+   "Place the logo",
+   "Place the image"
+  ]
+ },
+ {
+  "id": "design-490",
+  "term": "Produce a Draft",
+  "definition": "An expression meaning to create or print a design proposal for review.",
+  "example": "Produce a draft suited to the vertical medium first.",
+  "category": "Design Field Jargon",
+  "aliases": [
+   "Produce a draft"
+  ]
+ },
+ {
+  "id": "design-491",
+  "term": "Broken Link",
+  "definition": "A state where an external file such as an image referenced by an editing file cannot be found.",
+  "example": "Before handing off to the print shop, check the packaged files for broken links.",
+  "category": "Design Field Jargon",
+  "aliases": [
+   "Link is broken",
+   "Missing image link"
+  ]
+ },
+ {
+  "id": "design-492",
+  "term": "Final Final",
+  "definition": "A self-deprecating expression for the situation where revisions keep appearing even after something was called final.",
+  "example": "Instead of final final file names, distinguish delivery versions by approval date and version number.",
+  "category": "Design Field Jargon",
+  "aliases": [
+   "Final of the final",
+   "Really final"
+  ]
+ },
+ {
+  "id": "common-225",
+  "term": "Overhaul",
+  "definition": "An informal expression meaning to largely scrap an existing proposal or work and rebuild it from the direction and structure up.",
+  "example": "Before overhauling the existing plan because the requirements changed, first check the impact.",
+  "category": "Workplace Field Jargon",
+  "aliases": [
+   "Scrap and rebuild",
+   "Complete rework"
+  ]
+ },
+ {
+  "id": "common-226",
+  "term": "Handling",
+  "definition": "An expression meaning to take charge of a task or stakeholder and manage and coordinate its progress.",
+  "example": "Client inquiries are handled by the designated person in charge.",
+  "category": "Workplace Field Jargon",
+  "aliases": [
+   "Handle"
+  ]
+ },
+ {
+  "id": "common-227",
+  "term": "Push Hard",
+  "definition": "A figurative expression meaning to raise the pace and focus on driving work forward.",
+  "example": "With the deadline near, push hard on the high-priority tasks.",
+  "category": "Workplace Field Jargon",
+  "aliases": [
+   "Put the drive on"
+  ]
+ },
+ {
+  "id": "common-228",
+  "term": "Case by Case",
+  "definition": "An abbreviation meaning that things differ by situation or case rather than being judged uniformly.",
+  "example": "Contract terms are case by case, so do not finalize based only on past cases.",
+  "category": "Workplace Field Jargon",
+  "aliases": [
+   "Case by case",
+   "Case-by-case"
+  ]
+ },
+ {
+  "id": "common-229",
+  "term": "Person by Person",
+  "definition": "An informal abbreviation meaning that preferences, methods, and reactions differ from person to person.",
+  "example": "Do not brush off reporting style as person by person; set a team standard.",
+  "category": "Workplace Field Jargon",
+  "aliases": [
+   "Person by person"
+  ]
+ },
+ {
+  "id": "common-230",
+  "term": "Shared Chat Room",
+  "definition": "A term for a group chat space created to exchange work announcements and materials.",
+  "example": "Do not leave the final materials only in the shared chat room; also keep them in the shared repository.",
+  "category": "Workplace Field Jargon",
+  "aliases": [
+   "Work chat room",
+   "Group chat"
+  ]
+ },
+ {
+  "id": "common-231",
+  "term": "Dumping Grunt Work",
+  "definition": "A critical expression used when someone feels that leftover or difficult tasks are being offloaded onto others.",
+  "example": "Complaints about repeated dumping of grunt work came up, so we re-discussed the division of duties.",
+  "category": "Workplace Field Jargon",
+  "aliases": [
+   "Offloading grunt work"
+  ]
+ },
+ {
+  "id": "common-232",
+  "term": "Touch",
+  "definition": "A colloquial expression meaning to modify or get involved in part of existing work.",
+  "example": "When touching an approved part, record the reason for the change.",
+  "category": "Workplace Field Jargon",
+  "aliases": [
+   "Touch",
+   "Tweak"
+  ]
+ },
+ {
+  "id": "hrfinance-480",
+  "term": "IR",
+  "definition": "The activity of explaining and communicating a company's performance, strategy, and financial information to investors and others.",
+  "example": "Explain the adjusted metrics in the IR materials by tying them to the disclosed figures.",
+  "category": "Corporate Finance & Business Metrics",
+  "aliases": [
+   "Investor relations",
+   "Investor communications"
+  ]
+ },
+ {
+  "id": "hrfinance-481",
+  "term": "Valuation",
+  "definition": "The work of estimating the economic value of a company or asset with a defined method and assumptions.",
+  "example": "Specify the comparable companies and the discount rate used in the valuation.",
+  "category": "Corporate Finance & Business Metrics",
+  "aliases": [
+   "Val",
+   "Valuation",
+   "Company valuation"
+  ]
+ },
+ {
+  "id": "hrfinance-482",
+  "term": "Multiple",
+  "definition": "A multiple of enterprise value or equity value relative to a metric such as earnings or revenue.",
+  "example": "When looking at comparable-company multiples, standardize the measurement period of the metric.",
+  "category": "Corporate Finance & Business Metrics",
+  "aliases": [
+   "Multiple",
+   "Valuation multiple"
+  ]
+ },
+ {
+  "id": "hrfinance-483",
+  "term": "EV/EBITDA",
+  "definition": "A valuation multiple of enterprise value divided by EBITDA. Capital expenditures and working capital needs must be considered separately.",
+  "example": "In EV/EBITDA comparisons, align the excluded items of adjusted EBITDA.",
+  "category": "Corporate Finance & Business Metrics",
+  "aliases": [
+   "EV/EBITDA",
+   "EV-to-EBITDA"
+  ]
+ },
+ {
+  "id": "hrfinance-484",
+  "term": "Due Diligence",
+  "definition": "The process of investigating financial, legal, and business facts and risks before a decision such as an investment or acquisition.",
+  "example": "In due diligence, reconcile key-customer revenue against cash collection.",
+  "category": "Corporate Finance & Business Metrics",
+  "aliases": [
+   "DD",
+   "Due dil",
+   "Due diligence",
+   "Corporate due diligence"
+  ]
+ },
+ {
+  "id": "hrfinance-485",
+  "term": "FDD",
+  "definition": "Due diligence that verifies the performance, financial position, and cash flows of an acquisition or investment target.",
+  "example": "In FDD, distinguish normal recurring earnings from one-off items.",
+  "category": "Corporate Finance & Business Metrics",
+  "aliases": [
+   "Financial due diligence",
+   "Financial DD"
+  ]
+ },
+ {
+  "id": "hrfinance-486",
+  "term": "QoE",
+  "definition": "A due-diligence and analysis perspective that evaluates the sustainability of earnings, their conversion to cash, and one-off impacts.",
+  "example": "In QoE analysis, examine related-party revenue and non-recurring costs.",
+  "category": "Corporate Finance & Business Metrics",
+  "aliases": [
+   "Quality of earnings",
+   "Quality of Earnings"
+  ]
+ },
+ {
+  "id": "hrfinance-487",
+  "term": "MRR",
+  "definition": "A metric that converts recurring contract revenue, such as subscriptions, to a monthly basis. It may differ from the accounting revenue of the current month.",
+  "example": "Exclude one-off setup fees from the MRR calculation.",
+  "category": "Corporate Finance & Business Metrics",
+  "aliases": [
+   "Monthly recurring revenue",
+   "Monthly recurring sales"
+  ]
+ },
+ {
+  "id": "hrfinance-488",
+  "term": "ARR",
+  "definition": "A metric that converts recurring contract revenue to an annual basis. Distinguish it from one-off revenue and its recognition timing.",
+  "example": "Break down ARR growth into new contracts and expansion from existing customers.",
+  "category": "Corporate Finance & Business Metrics",
+  "aliases": [
+   "Annual recurring revenue",
+   "Annualized recurring revenue"
+  ]
+ },
+ {
+  "id": "hrfinance-489",
+  "term": "GRR",
+  "definition": "A metric that measures the retained ratio from existing customers' base revenue, reflecting churn and contraction but excluding upsell.",
+  "example": "Distinguish GRR from new-customer revenue to see the stability of existing contracts.",
+  "category": "Corporate Finance & Business Metrics",
+  "aliases": [
+   "Gross revenue retention"
+  ]
+ },
+ {
+  "id": "hrfinance-490",
+  "term": "NRR",
+  "definition": "A retention ratio that reflects churn, contraction, and expansion on existing customers' base recurring revenue. New-customer revenue is excluded.",
+  "example": "Analyze whether the NRR improvement is due to price increases or to greater usage.",
+  "category": "Corporate Finance & Business Metrics",
+  "aliases": [
+   "Net revenue retention",
+   "NDR"
+  ]
+ },
+ {
+  "id": "hrfinance-491",
+  "term": "Unit Economics",
+  "definition": "The relationship between the cost and the revenue of acquiring and serving a single unit such as a customer or order.",
+  "example": "When looking at unit economics, align the scope of contribution margin and customer acquisition cost.",
+  "category": "Corporate Finance & Business Metrics",
+  "aliases": [
+   "Unit-level economics"
+  ]
+ },
+ {
+  "id": "hrfinance-492",
+  "term": "Expense Reimbursement",
+  "definition": "The work of verifying the supporting documents and policies for costs spent for work and then paying and accounting for them.",
+  "example": "When settling travel expenses, submit the purpose of use together with the receipts.",
+  "category": "Payroll, Expense & Tax Operations",
+  "aliases": [
+   "Expense processing",
+   "Actual-cost reimbursement"
+  ]
+ },
+ {
+  "id": "hrfinance-493",
+  "term": "Expense Approval Form",
+  "definition": "A document that states the reason, amount, account, and supporting documents for a payment and obtains approval.",
+  "example": "Check the vendor and the payment account on the expense approval form.",
+  "category": "Payroll, Expense & Tax Operations",
+  "aliases": [
+   "Expense form",
+   "Expenditure approval"
+  ]
+ },
+ {
+  "id": "hrfinance-494",
+  "term": "Memo Line",
+  "definition": "A field in a voucher or ledger that briefly describes the transaction.",
+  "example": "Write the covered payment period and the service details in the memo line.",
+  "category": "Payroll, Expense & Tax Operations",
+  "aliases": [
+   "Voucher memo"
+  ]
+ },
+ {
+  "id": "hrfinance-495",
+  "term": "Employee Benefits Expense",
+  "definition": "An expense account that records spending for employees' welfare and benefits.",
+  "example": "Classify meal allowances and health-checkup costs as employee benefits expense per company standards.",
+  "category": "Payroll, Expense & Tax Operations",
+  "aliases": [
+   "Benefits expense"
+  ]
+ },
+ {
+  "id": "hrfinance-496",
+  "term": "Travel & Transportation Expense",
+  "definition": "An item that gathers costs such as transportation and lodging for work travel and business trips, per the company's account standards.",
+  "example": "Settle the travel and transportation expense for an overseas trip in line with the exchange rate and supporting documents.",
+  "category": "Payroll, Expense & Tax Operations",
+  "aliases": [
+   "Travel expense"
+  ]
+ },
+ {
+  "id": "hrfinance-497",
+  "term": "Entertainment Expense",
+  "definition": "An accounting and practical expression for spending such as entertainment and hospitality to maintain business relationships. The tax-law name and the scope of deductible expenses should be checked separately.",
+  "example": "Record the attendees and the business purpose in the entertainment expense settlement.",
+  "category": "Payroll, Expense & Tax Operations",
+  "aliases": [
+   "Business promotion expense",
+   "Business development expense"
+  ]
+ },
+ {
+  "id": "hrfinance-498",
+  "term": "Fees Paid",
+  "definition": "An expense item that records fees paid in exchange for external services or work handling.",
+  "example": "Check the classification of payment-gateway fees and advisory fees under fees paid.",
+  "category": "Payroll, Expense & Tax Operations",
+  "aliases": [
+   "Fee expense"
+  ]
+ },
+ {
+  "id": "hrfinance-499",
+  "term": "Remaining Budget",
+  "definition": "The amount left after subtracting spending and so on from the allocated budget. Check the basis for whether committed costs are deducted.",
+  "example": "Even if there is a remaining budget, first check the unpaid purchase orders.",
+  "category": "Payroll, Expense & Tax Operations",
+  "aliases": [
+   "Budget balance"
+  ]
+ },
+ {
+  "id": "hrfinance-500",
+  "term": "Amended Return",
+  "definition": "An expression for the procedure of filing again to correct the tax amount and so on in a previous return.",
+  "example": "We found an omission in the filing and are reviewing with the person in charge whether an amended return is needed.",
+  "category": "Payroll, Expense & Tax Operations",
+  "aliases": [
+   "Amended tax return"
+  ]
+ },
+ {
+  "id": "hrfinance-501",
+  "term": "Claim for Rectification",
+  "definition": "A procedure to request a reduction or correction, for defined reasons, of a tax amount that has already been filed or assessed.",
+  "example": "After checking whether there was an overfiling, review the possibility of a claim for rectification.",
+  "category": "Payroll, Expense & Tax Operations",
+  "aliases": [
+   "Tax rectification claim"
+  ]
+ },
+ {
+  "id": "hrfinance-502",
+  "term": "Taxable / Non-Taxable",
+  "definition": "An expression that distinguishes whether a payroll item or similar is subject to taxation. Do not judge by the item name alone; check the requirements.",
+  "example": "Check whether the taxable/non-taxable classification of payroll items matches the actual payment conditions.",
+  "category": "Payroll, Expense & Tax Operations",
+  "aliases": [
+   "Non-taxable pay",
+   "Taxable pay"
+  ]
+ },
+ {
+  "id": "hrfinance-503",
+  "term": "Mid-Year Leaver Settlement",
+  "definition": "The work of settling the applicable items such as salary, deductions, and taxes for an employee who leaves during the year.",
+  "example": "In the mid-year leaver settlement, separate the amount already paid from the additional amount to be paid.",
+  "category": "Payroll, Expense & Tax Operations",
+  "aliases": [
+   "Mid-year resignee settlement"
+  ]
+ },
+ {
+  "id": "fashion-627",
+  "term": "Fabric Bonding",
+  "definition": "Processing that bonds another fabric or film onto a fabric to adjust its thickness, form, or function. Distinguish it from logistics combined packing, which bundles goods into one package.",
+  "example": "To hold the bag's shape, bond a reinforcing fabric to the outer shell and check the adhesion.",
+  "category": "Fabric Processing & Field Jargon",
+  "aliases": [
+   "Fabric lamination",
+   "Bonding",
+   "Bonded fabric"
+  ]
+ },
+ {
+  "id": "marketing-035",
+  "term": "Kickoff",
+  "definition": "The first meeting to align the goals, roles, and schedule of the work to begin.",
+  "example": "At the campaign kickoff, align the target, key message, and production schedule with the client.",
+  "category": "Advertising Collaboration & Meetings",
+  "aliases": [
+   "Kickoff meeting",
+   "Kick-off",
+   "Kick-off",
+   "Kick off",
+   "Kickoff meeting",
+   "Launch meeting",
+   "Commencement meeting"
+  ]
+ },
+ {
+  "id": "dev-056",
+  "term": "Kickoff",
+  "definition": "The first meeting to align the goals, roles, and schedule of the work to begin.",
+  "example": "At the development kickoff, define the requirements, deployment scope, and owners.",
+  "category": "Development Collaboration & Meetings",
+  "aliases": [
+   "Kickoff meeting",
+   "Kick-off",
+   "Kick-off",
+   "Kick off",
+   "Kickoff meeting",
+   "Launch meeting",
+   "Commencement meeting"
+  ]
+ },
+ {
+  "id": "fashion-030",
+  "term": "Kickoff",
+  "definition": "The first meeting to align the goals, roles, and schedule of the work to begin.",
+  "example": "At the new-season kickoff, align the schedules of the merchandising, design, and production teams.",
+  "category": "Fashion Collaboration & Meetings",
+  "aliases": [
+   "Kickoff meeting",
+   "Kick-off",
+   "Kick-off",
+   "Kick off",
+   "Kickoff meeting",
+   "Launch meeting",
+   "Commencement meeting"
+  ]
+ }
+]

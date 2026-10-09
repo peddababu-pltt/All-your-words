@@ -1,0 +1,1310 @@
+[
+ {
+  "id": "design-256",
+  "term": "ATL",
+  "definition": "A conventional umbrella term for advertising centered on mass media such as TV, radio, newspapers, and magazines.",
+  "example": "We check the per-medium production specifications for the key visual used in ATL advertising.",
+  "note": "As digital channels have merged in, the boundary and classification between ATL and BTL can vary by company and campaign.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "above the line"
+  ]
+ },
+ {
+  "id": "marketing-347",
+  "term": "BTL",
+  "definition": "A conventional umbrella term for activities other than mass-media advertising, such as events, experiences, and promotions.",
+  "example": "At a BTL event, we let customers experience the product firsthand.",
+  "note": "This is a conventional distinction used in contrast with ATL. Not every company classifies the same activities into the same category.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "below the line"
+  ]
+ },
+ {
+  "id": "fashion-321",
+  "term": "BTL",
+  "definition": "A conventional umbrella term for activities other than mass-media advertising, such as events, experiences, and promotions.",
+  "example": "We prepare a BTL event that offers styling experiences at the new store.",
+  "note": "This is a conventional distinction used in contrast with ATL. Not every company classifies the same activities into the same category.",
+  "category": "Fashion Brand & Campaign",
+  "aliases": [
+   "below the line"
+  ]
+ },
+ {
+  "id": "design-257",
+  "term": "BTL",
+  "definition": "A conventional umbrella term for activities other than mass-media advertising, such as events, experiences, and promotions.",
+  "example": "We design the information panels and participation cards for the BTL experience booth.",
+  "note": "This is a conventional distinction used in contrast with ATL. Not every company classifies the same activities into the same category.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "below the line"
+  ]
+ },
+ {
+  "id": "marketing-348",
+  "term": "OOH",
+  "definition": "Advertising encountered in spaces outside the home. It includes ads on streets, transit facilities, buildings, and the like.",
+  "example": "We select OOH locations to match the customer's route.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "outdoor advertising",
+   "out-of-home advertising"
+  ]
+ },
+ {
+  "id": "fashion-322",
+  "term": "OOH",
+  "definition": "Advertising encountered in spaces outside the home. It includes ads on streets, transit facilities, buildings, and the like.",
+  "example": "We run OOH for the season collection around the flagship store.",
+  "category": "Fashion Brand & Campaign",
+  "aliases": [
+   "outdoor advertising",
+   "out-of-home advertising"
+  ]
+ },
+ {
+  "id": "design-258",
+  "term": "OOH",
+  "definition": "Advertising encountered in spaces outside the home. It includes ads on streets, transit facilities, buildings, and the like.",
+  "example": "For OOH drafts, we check that the title is legible from the actual viewing distance.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "outdoor advertising",
+   "out-of-home advertising"
+  ]
+ },
+ {
+  "id": "marketing-349",
+  "term": "DOOH",
+  "definition": "Advertising shown in out-of-home spaces using digital screens.",
+  "example": "We check the DOOH aspect ratio and playback duration.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "digital out-of-home advertising"
+  ]
+ },
+ {
+  "id": "fashion-323",
+  "term": "DOOH",
+  "definition": "Advertising shown in out-of-home spaces using digital screens.",
+  "example": "We check that the outfit images are not cropped on the mall's DOOH screen.",
+  "category": "Fashion Brand & Campaign",
+  "aliases": [
+   "digital out-of-home advertising"
+  ]
+ },
+ {
+  "id": "design-259",
+  "term": "DOOH",
+  "definition": "Advertising shown in out-of-home spaces using digital screens.",
+  "example": "We check that the DOOH motion graphics fit the screen specs and playback duration.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "digital out-of-home advertising"
+  ]
+ },
+ {
+  "id": "marketing-350",
+  "term": "TVC",
+  "definition": "An advertising video placed on television broadcasts.",
+  "example": "We set the lengths of the TVC and the online version separately.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "TVCF",
+   "CF",
+   "TV commercial",
+   "TV ad"
+  ]
+ },
+ {
+  "id": "fashion-324",
+  "term": "TVC",
+  "definition": "An advertising video placed on television broadcasts.",
+  "example": "We review the scenes that show the product's features in the TVC for the new outdoor product.",
+  "category": "Fashion Brand & Campaign",
+  "aliases": [
+   "TVCF",
+   "CF",
+   "TV commercial",
+   "TV ad"
+  ]
+ },
+ {
+  "id": "design-260",
+  "term": "TVC",
+  "definition": "An advertising video placed on television broadcasts.",
+  "example": "We produce the brand logo motion for the TVC end card.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "TVCF",
+   "CF",
+   "TV commercial",
+   "TV ad"
+  ]
+ },
+ {
+  "id": "marketing-351",
+  "term": "Headline",
+  "definition": "A phrase that delivers the core message prominently so it is read first in an advertisement.",
+  "example": "Please put the benefit the customer gains into the headline.",
+  "category": "Advertising Copy & Messaging",
+  "aliases": [
+   "head copy",
+   "main copy"
+  ]
+ },
+ {
+  "id": "fashion-325",
+  "term": "Headline",
+  "definition": "A phrase that delivers the core message prominently so it is read first in an advertisement.",
+  "example": "We put the advantage of breathability into the headline for the summer shirt feature.",
+  "category": "Fashion Brand & Campaign",
+  "aliases": [
+   "head copy",
+   "main copy"
+  ]
+ },
+ {
+  "id": "design-261",
+  "term": "Headline",
+  "definition": "A phrase that delivers the core message prominently so it is read first in an advertisement.",
+  "example": "We adjust the font size and line breaks so the headline reads at a glance.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "head copy",
+   "main copy"
+  ]
+ },
+ {
+  "id": "marketing-352",
+  "term": "Body copy",
+  "definition": "The body text beneath the headline that explains the content and rationale of a product or service.",
+  "example": "Please trim the body copy to focus on the core features.",
+  "category": "Advertising Copy & Messaging",
+  "aliases": [
+   "body copy",
+   "main text copy"
+  ]
+ },
+ {
+  "id": "fashion-326",
+  "term": "Body copy",
+  "definition": "The body text beneath the headline that explains the content and rationale of a product or service.",
+  "example": "In the knit product page body copy, we explain the fiber composition and care instructions.",
+  "category": "Fashion Brand & Campaign",
+  "aliases": [
+   "body copy",
+   "main text copy"
+  ]
+ },
+ {
+  "id": "design-262",
+  "term": "Body copy",
+  "definition": "The body text beneath the headline that explains the content and rationale of a product or service.",
+  "example": "We set the column width and line spacing so the body copy stays easy to read even when it runs long.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "body copy",
+   "main text copy"
+  ]
+ },
+ {
+  "id": "marketing-353",
+  "term": "Slogan",
+  "definition": "A brand's or campaign's core idea expressed in a short, memorable sentence.",
+  "example": "We review whether the slogan also fits this campaign.",
+  "category": "Advertising Copy & Messaging",
+  "aliases": [
+   "brand slogan",
+   "tagline"
+  ]
+ },
+ {
+  "id": "fashion-327",
+  "term": "Slogan",
+  "definition": "A brand's or campaign's core idea expressed in a short, memorable sentence.",
+  "example": "We check whether the brand slogan also matches this season's collection direction.",
+  "category": "Fashion Brand & Campaign",
+  "aliases": [
+   "brand slogan",
+   "tagline"
+  ]
+ },
+ {
+  "id": "design-263",
+  "term": "Slogan",
+  "definition": "A brand's or campaign's core idea expressed in a short, memorable sentence.",
+  "example": "We review a logo lockup that places the slogan together with the symbol.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "brand slogan",
+   "tagline"
+  ]
+ },
+ {
+  "id": "marketing-354",
+  "term": "Storytelling",
+  "definition": "A way of delivering a message by structuring it into the form and flow of a story.",
+  "example": "We frame the product development process as storytelling.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "brand storytelling"
+  ]
+ },
+ {
+  "id": "fashion-328",
+  "term": "Storytelling",
+  "definition": "A way of delivering a message by structuring it into the form and flow of a story.",
+  "example": "We frame the process of choosing the fabric and completing the sample as storytelling.",
+  "category": "Fashion Brand & Campaign",
+  "aliases": [
+   "brand storytelling"
+  ]
+ },
+ {
+  "id": "design-264",
+  "term": "Storytelling",
+  "definition": "A way of delivering a message by structuring it into the form and flow of a story.",
+  "example": "We visualize the brand storytelling through the order of information and the connection between images.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "brand storytelling"
+  ]
+ },
+ {
+  "id": "marketing-355",
+  "term": "Content calendar",
+  "definition": "A plan that organizes the topics, publishing dates, and owners of content by channel.",
+  "example": "We also mark the shooting and review schedules on the content calendar.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "publishing calendar",
+   "content schedule"
+  ]
+ },
+ {
+  "id": "fashion-329",
+  "term": "Content calendar",
+  "definition": "A plan that organizes the topics, publishing dates, and owners of content by channel.",
+  "example": "On the content calendar, we mark the lookbook shoot, product arrival, and collection reveal dates.",
+  "category": "Fashion Brand & Campaign",
+  "aliases": [
+   "publishing calendar",
+   "content schedule"
+  ]
+ },
+ {
+  "id": "marketing-356",
+  "term": "Press release",
+  "definition": "Material that organizes and distributes an organization's news and facts for the press to reference.",
+  "example": "We include the product launch date and key information in the press release.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "press release"
+  ]
+ },
+ {
+  "id": "fashion-330",
+  "term": "Press release",
+  "definition": "Material that organizes and distributes an organization's news and facts for the press to reference.",
+  "example": "In the collection press release, we convey the designer's intent and the main materials.",
+  "category": "Fashion Brand & Campaign",
+  "aliases": [
+   "press release"
+  ]
+ },
+ {
+  "id": "marketing-357",
+  "term": "Press kit",
+  "definition": "Material that bundles an introduction, images, key information, and the like for the press and media to reference.",
+  "example": "We include the logo and high-resolution product photos in the press kit.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "media kit",
+   "press kit"
+  ]
+ },
+ {
+  "id": "fashion-331",
+  "term": "Press kit",
+  "definition": "Material that bundles an introduction, images, key information, and the like for the press and media to reference.",
+  "example": "In the collection press kit, we include lookbook images, product names, and a rental contact.",
+  "category": "Fashion Brand & Campaign",
+  "aliases": [
+   "media kit",
+   "press kit"
+  ]
+ },
+ {
+  "id": "design-267",
+  "term": "Press kit",
+  "definition": "Material that bundles an introduction, images, key information, and the like for the press and media to reference.",
+  "example": "We organize the logo files and an image usage guide to include in the press kit.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "media kit",
+   "press kit"
+  ]
+ },
+ {
+  "id": "marketing-358",
+  "term": "Sponsorship",
+  "definition": "An activity of providing products, services, or funds for purposes such as exposure, relationships, or promotion.",
+  "example": "In the sponsorship terms, we set the exposure method and usage period.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "sponsorship",
+   "product sponsorship"
+  ]
+ },
+ {
+  "id": "fashion-332",
+  "term": "Sponsorship",
+  "definition": "An activity of providing products, services, or funds for purposes such as exposure, relationships, or promotion.",
+  "example": "We check the rental period and return condition of the actor's costume sponsorship.",
+  "category": "Fashion Brand & Campaign",
+  "aliases": [
+   "sponsorship",
+   "product sponsorship"
+  ]
+ },
+ {
+  "id": "marketing-359",
+  "term": "Ambassador",
+  "definition": "A person given the role of representing a brand or continuously promoting it.",
+  "example": "Ambassador content is produced in line with the brand guidelines.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "ambassador",
+   "brand ambassador"
+  ]
+ },
+ {
+  "id": "fashion-333",
+  "term": "Ambassador",
+  "definition": "A person given the role of representing a brand or continuously promoting it.",
+  "example": "We arrange the size and schedule of the collection samples the ambassador will wear.",
+  "category": "Fashion Brand & Campaign",
+  "aliases": [
+   "ambassador",
+   "brand ambassador"
+  ]
+ },
+ {
+  "id": "marketing-360",
+  "term": "Launch",
+  "definition": "The act of introducing a new product, service, or brand to the market.",
+  "example": "Before the launch, we finish the product page and store preparations.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "launch",
+   "release"
+  ]
+ },
+ {
+  "id": "fashion-334",
+  "term": "Launch",
+  "definition": "The act of introducing a new product, service, or brand to the market.",
+  "example": "Before launching the new clothing line, we finish stocking and registering the products on our own online store.",
+  "category": "Fashion Brand & Campaign",
+  "aliases": [
+   "launch",
+   "release"
+  ]
+ },
+ {
+  "id": "design-270",
+  "term": "Launch",
+  "definition": "The act of introducing a new product, service, or brand to the market.",
+  "example": "In time for the brand launch, we deliver the web, poster, and packaging designs.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "launch",
+   "release"
+  ]
+ },
+ {
+  "id": "marketing-361",
+  "term": "Teaser",
+  "definition": "Content that builds interest and anticipation by revealing partial information before the full content is disclosed.",
+  "example": "We release the teaser a week before the launch.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "teaser ad",
+   "teaser content"
+  ]
+ },
+ {
+  "id": "fashion-335",
+  "term": "Teaser",
+  "definition": "Content that builds interest and anticipation by revealing partial information before the full content is disclosed.",
+  "example": "We release a teaser that shows only part of the new collection's silhouette.",
+  "category": "Fashion Brand & Campaign",
+  "aliases": [
+   "teaser ad",
+   "teaser content"
+  ]
+ },
+ {
+  "id": "design-271",
+  "term": "Teaser",
+  "definition": "Content that builds interest and anticipation by revealing partial information before the full content is disclosed.",
+  "example": "We make a teaser poster that shows only part of the form before revealing the full product.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "teaser ad",
+   "teaser content"
+  ]
+ },
+ {
+  "id": "dev-241",
+  "term": "SI",
+  "definition": "A business or role that connects multiple systems or builds business systems to meet a client's requirements.",
+  "example": "In an SI project, we check the integration with the client's existing systems.",
+  "note": "This means the work of building client systems. The scope of planning, development, integration, and operations contracts differs by organization.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "system integration",
+   "SI"
+  ]
+ },
+ {
+  "id": "dev-242",
+  "term": "SM",
+  "definition": "A term referring to the work of continuously operating, maintaining, and servicing a built system.",
+  "example": "The SM owner handles operational errors and improvement requests.",
+  "note": "Here this is the system maintenance and operations context. A scrum master can also be abbreviated as SM.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "system maintenance",
+   "SM"
+  ]
+ },
+ {
+  "id": "dev-243",
+  "term": "Solution provider",
+  "definition": "A company that provides, as products or services, software or systems that solve specific business problems.",
+  "example": "We check the integration method and support scope with the solution provider.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "solution company"
+  ]
+ },
+ {
+  "id": "dev-244",
+  "term": "SaaS",
+  "definition": "A software delivery model used over a network instead of the user installing and operating it on their own server.",
+  "example": "We adopt the work tool as SaaS to reduce the operational burden.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "SaaS",
+   "software as a service"
+  ]
+ },
+ {
+  "id": "dev-245",
+  "term": "CTO",
+  "definition": "The chief officer who oversees a company's technical direction and engineering organization.",
+  "example": "We discuss technology investment priorities with the CTO.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "chief technology officer",
+   "CTO"
+  ]
+ },
+ {
+  "id": "dev-246",
+  "term": "CPO",
+  "definition": "The chief officer who leads product strategy and the overall product organization.",
+  "example": "The CPO shares the direction of the product portfolio.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "chief product officer"
+  ]
+ },
+ {
+  "id": "dev-247",
+  "term": "PM",
+  "definition": "A role that sets a product's direction and priorities based on user problems and business goals and coordinates execution across multiple functions.",
+  "example": "The PM organizes the customer problems to solve this quarter.",
+  "note": "This entry is Product manager. A project manager is also abbreviated as PM, so the scope of the role should be confirmed.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "product manager"
+  ]
+ },
+ {
+  "id": "dev-249",
+  "term": "Tech lead",
+  "definition": "A role that leads a team's technical direction and key design and implementation decisions.",
+  "example": "We review the data structure change with the tech lead.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "tech lead",
+   "TL",
+   "technical leader"
+  ]
+ },
+ {
+  "id": "dev-250",
+  "term": "Engineering manager",
+  "definition": "A role that manages the people, collaboration, growth, and execution environment of a development organization.",
+  "example": "We coordinate the team's workload with the engineering manager.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "EM",
+   "development manager"
+  ]
+ },
+ {
+  "id": "dev-251",
+  "term": "Front-end developer",
+  "definition": "A developer who builds the screens and interactions of web and app products that users see and operate.",
+  "example": "The front-end developer builds the search screen.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "front developer",
+   "FE developer",
+   "front-end",
+   "FE"
+  ]
+ },
+ {
+  "id": "dev-252",
+  "term": "Back-end",
+  "definition": "The area responsible for server-side functions behind a service, such as data processing, business rules, authentication, and APIs.",
+  "example": "Payment processing is validated on the back-end.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "back-end development",
+   "server development",
+   "back-end",
+   "BE"
+  ]
+ },
+ {
+  "id": "dev-253",
+  "term": "Back-end developer",
+  "definition": "A developer who designs and builds server-side data processing, business logic, APIs, and the like.",
+  "example": "We align the response data format with the back-end developer.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "BE developer",
+   "server developer"
+  ]
+ },
+ {
+  "id": "dev-254",
+  "term": "Full-stack",
+  "definition": "Handling multiple development areas of a service, such as front-end and back-end, together, or a developer who does so.",
+  "example": "The full-stack developer builds the initial screen and the API together.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "full-stack developer"
+  ]
+ },
+ {
+  "id": "dev-255",
+  "term": "SRE",
+  "definition": "An approach or role that raises a service's reliability and operational efficiency using software engineering methods.",
+  "example": "The SRE automates incident response and manages reliability targets.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "site reliability engineering",
+   "SRE engineer",
+   "SRE"
+  ]
+ },
+ {
+  "id": "dev-256",
+  "term": "DBA",
+  "definition": "The person who manages the stable operation of a database, including its configuration, performance, access, and backups.",
+  "example": "We review a change to a large table with the DBA.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "database administrator",
+   "DBA"
+  ]
+ },
+ {
+  "id": "dev-257",
+  "term": "Data engineer",
+  "definition": "A role that builds the structures to collect, store, transform, and reliably supply data.",
+  "example": "The data engineer builds the pipeline for analytics.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "DE",
+   "data pipeline owner"
+  ]
+ },
+ {
+  "id": "dev-258",
+  "term": "Data analyst",
+  "definition": "A role that analyzes data to explain phenomena and produce the evidence needed for business decisions.",
+  "example": "We align the event schema with the data analyst and then apply the tracking code.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "DA",
+   "data analyst"
+  ]
+ },
+ {
+  "id": "dev-259",
+  "term": "Data scientist",
+  "definition": "A role that interprets data using statistics, experiments, and modeling to solve prediction and optimization problems.",
+  "example": "The data scientist reviews the demand forecasting model.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "DS"
+  ]
+ },
+ {
+  "id": "dev-260",
+  "term": "QA engineer",
+  "definition": "A role that performs testing, defect analysis, and quality activities to raise product quality.",
+  "example": "The QA engineer verifies the main payment scenarios.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "QA owner",
+   "test engineer"
+  ]
+ },
+ {
+  "id": "dev-261",
+  "term": "Security team",
+  "definition": "An organization in charge of security policy, inspections, and response to protect systems and data.",
+  "example": "Before external integration, we review access permissions with the security team.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "information security team",
+   "InfoSec"
+  ]
+ },
+ {
+  "id": "dev-262",
+  "term": "Development team",
+  "definition": "A team that designs, builds, tests, and improves software.",
+  "example": "We check the technical constraints of the requirements with the development team.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "engineering team",
+   "development department"
+  ]
+ },
+ {
+  "id": "dev-263",
+  "term": "Product team",
+  "definition": "A team that drives planning, design, and development together, centered on product goals and user experience.",
+  "example": "In the product team, we align on the success criteria for this experiment.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "product team"
+  ]
+ },
+ {
+  "id": "dev-264",
+  "term": "Squad",
+  "definition": "An organizational model that forms a small, cross-functional team to pursue a specific product goal.",
+  "example": "We formed a squad in charge of improving the purchase experience.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "squad team"
+  ]
+ },
+ {
+  "id": "dev-265",
+  "term": "Chapter",
+  "definition": "An organizational model in which members of the same specialty across multiple product teams share knowledge and standards.",
+  "example": "In the front-end chapter, we discuss code conventions.",
+  "note": "This is a name used in certain organizational models; not every IT company uses the squad-and-chapter structure.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "functional chapter"
+  ]
+ },
+ {
+  "id": "dev-266",
+  "term": "PRD",
+  "definition": "A document that organizes a product's problem, goals, features, conditions, and success criteria.",
+  "example": "Please also clearly note the out-of-scope items in the PRD.",
+  "category": "Design & Data",
+  "aliases": [
+   "product requirements document"
+  ]
+ },
+ {
+  "id": "dev-267",
+  "term": "Technical specification",
+  "definition": "A document that details technical requirements and methods such as the implementation structure, interfaces, data, and constraints.",
+  "example": "We include the error response format in the technical specification.",
+  "category": "Design & Data",
+  "aliases": [
+   "tech spec",
+   "development specification"
+  ]
+ },
+ {
+  "id": "dev-268",
+  "term": "Architecture",
+  "definition": "A structure that defines a system's main components and their relationships, responsibilities, and behavior.",
+  "example": "We review an architecture that fits the increase in traffic.",
+  "category": "Design & Data",
+  "aliases": [
+   "system architecture",
+   "structural design"
+  ]
+ },
+ {
+  "id": "dev-269",
+  "term": "ERD",
+  "definition": "A diagram that represents data entities and attributes and the relationships between entities.",
+  "example": "We check the relationship between orders and products with the ERD.",
+  "category": "Design & Data",
+  "aliases": [
+   "entity relationship diagram"
+  ]
+ },
+ {
+  "id": "dev-270",
+  "term": "Schema",
+  "definition": "A framework that defines the structure, types, relationships, and constraints of data.",
+  "example": "If the response schema changes, please notify the integrating team.",
+  "category": "Design & Data",
+  "aliases": [
+   "DB schema",
+   "data schema"
+  ]
+ },
+ {
+  "id": "dev-271",
+  "term": "SQL",
+  "definition": "A language used to query and manage data in a relational database.",
+  "example": "We query last month's order count with SQL.",
+  "category": "Design & Data",
+  "aliases": [
+   "SQL",
+   "query language",
+   "sequel"
+  ]
+ },
+ {
+  "id": "dev-272",
+  "term": "Query",
+  "definition": "A request sent to a system such as a database to retrieve or manipulate data.",
+  "example": "Please change this query to retrieve only the needed columns.",
+  "category": "Design & Data",
+  "aliases": [
+   "query",
+   "DB query"
+  ]
+ },
+ {
+  "id": "dev-273",
+  "term": "Index",
+  "definition": "A separately maintained search structure that lets data be found faster.",
+  "example": "We check whether there is an index that matches the query conditions.",
+  "category": "Design & Data",
+  "aliases": [
+   "DB index",
+   "index"
+  ]
+ },
+ {
+  "id": "dev-274",
+  "term": "Transaction",
+  "definition": "A way of grouping multiple data operations into a single processing unit to maintain consistency.",
+  "example": "We handle order creation and inventory deduction as one transaction.",
+  "category": "Design & Data",
+  "aliases": [
+   "DB transaction"
+  ]
+ },
+ {
+  "id": "dev-275",
+  "term": "Migration",
+  "definition": "The work of moving data, structures, or systems to a new format or environment.",
+  "example": "Before deployment, we check the migration and rollback plan.",
+  "category": "Design & Data",
+  "aliases": [
+   "data migration",
+   "DB migration"
+  ]
+ },
+ {
+  "id": "dev-276",
+  "term": "ORM",
+  "definition": "A way of handling program objects and relational database data by mapping them to each other.",
+  "example": "We also review the queries the ORM generates from a performance perspective.",
+  "category": "Design & Data",
+  "aliases": [
+   "object-relational mapping"
+  ]
+ },
+ {
+  "id": "dev-277",
+  "term": "Endpoint",
+  "definition": "An address or access point for a specific function or resource in an API and the like.",
+  "example": "We check the response of the order lookup endpoint.",
+  "category": "Design & Data",
+  "aliases": [
+   "API endpoint"
+  ]
+ },
+ {
+  "id": "dev-278",
+  "term": "Payload",
+  "definition": "The part of a communication message that carries the actual data to be delivered.",
+  "example": "To reproduce the error, we check the request payload.",
+  "category": "Design & Data",
+  "aliases": [
+   "request body",
+   "response data"
+  ]
+ },
+ {
+  "id": "dev-279",
+  "term": "Authorization",
+  "definition": "Determining and allowing whether a verified user or subject can access a specific resource or action.",
+  "example": "Even after login, we check document viewing permission at the authorization step.",
+  "category": "Design & Data",
+  "aliases": [
+   "permission check",
+   "granting permission"
+  ]
+ },
+ {
+  "id": "dev-280",
+  "term": "Token",
+  "definition": "A value that represents specific information such as authentication or permissions and is used to pass it between systems.",
+  "example": "We handle re-authentication when the token has expired.",
+  "category": "Design & Data",
+  "aliases": [
+   "authentication token",
+   "access token"
+  ]
+ },
+ {
+  "id": "dev-281",
+  "term": "Session",
+  "definition": "A unit that maintains the state of interaction between a user and a system over a certain period.",
+  "example": "When the user logs out, we end that session.",
+  "category": "Design & Data",
+  "aliases": [
+   "user session"
+  ]
+ },
+ {
+  "id": "dev-282",
+  "term": "Webhook",
+  "definition": "A method that sends data to a predefined address to give notice when a specific event occurs.",
+  "example": "We receive the payment-completed webhook and update the order status.",
+  "category": "Design & Data",
+  "aliases": [
+   "web hook"
+  ]
+ },
+ {
+  "id": "dev-283",
+  "term": "Queue",
+  "definition": "A structure that lines up requests or tasks to be processed in order.",
+  "example": "Email-sending tasks are placed in a queue and processed sequentially.",
+  "category": "Design & Data",
+  "aliases": [
+   "message queue",
+   "task queue"
+  ]
+ },
+ {
+  "id": "dev-284",
+  "term": "Batch",
+  "definition": "A way of gathering multiple pieces of data and processing them all at once at a set time or under a set condition.",
+  "example": "Every night we update the statistics with a batch job.",
+  "category": "Design & Data",
+  "aliases": [
+   "batch job",
+   "batch processing"
+  ]
+ },
+ {
+  "id": "dev-285",
+  "term": "Cron",
+  "definition": "A term for a tool or job that schedules tasks to run repeatedly on a set schedule.",
+  "example": "We schedule the early-morning cleanup task with cron.",
+  "category": "Design & Data",
+  "aliases": [
+   "cron job"
+  ]
+ },
+ {
+  "id": "dev-286",
+  "term": "Proxy",
+  "definition": "A component that relays requests and responses between a client and another server.",
+  "example": "The proxy routes requests by distinguishing their paths.",
+  "note": "This is the IT component that relays requests and responses. It differs from the proxy media used in place of the original in video editing.",
+  "category": "Design & Data",
+  "aliases": [
+   "proxy server"
+  ]
+ },
+ {
+  "id": "dev-287",
+  "term": "Load balancer",
+  "definition": "A component that distributes requests across multiple servers to manage load and availability.",
+  "example": "We make the load balancer send requests only to healthy servers.",
+  "category": "Design & Data",
+  "aliases": [
+   "load balancer",
+   "LB"
+  ]
+ },
+ {
+  "id": "dev-288",
+  "term": "CDN",
+  "definition": "A system that delivers content such as images and files close to users through servers in multiple regions.",
+  "example": "Large images are delivered through the CDN.",
+  "category": "Design & Data",
+  "aliases": [
+   "content delivery network"
+  ]
+ },
+ {
+  "id": "dev-289",
+  "term": "DevOps",
+  "definition": "An approach that improves software delivery and operations through collaboration, automation, and shared responsibility between development and operations.",
+  "example": "From a DevOps perspective, we connect the deployment and incident-response flows.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "DevOps"
+  ]
+ },
+ {
+  "id": "dev-290",
+  "term": "Staging",
+  "definition": "An environment where changes are verified under conditions similar to production before going live.",
+  "example": "We verify the payment flow in staging and then deploy.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "staging environment",
+   "verification environment"
+  ]
+ },
+ {
+  "id": "dev-291",
+  "term": "Development environment",
+  "definition": "A working environment set up to write, run, and check code.",
+  "example": "We organize the documentation so new teammates can set up their development environment.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "dev environment",
+   "local environment",
+   "development",
+   "dev"
+  ]
+ },
+ {
+  "id": "dev-292",
+  "term": "Debugging",
+  "definition": "The process of finding, analyzing, and fixing the cause of a program problem.",
+  "example": "We debug the failing section while watching the logs.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "debug",
+   "bug fixing",
+   "to debug"
+  ]
+ },
+ {
+  "id": "dev-293",
+  "term": "Bug",
+  "definition": "A problem where a program behaves differently from its intended behavior or requirements.",
+  "example": "Please file the bug along with the reproduction conditions.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "defect",
+   "error"
+  ]
+ },
+ {
+  "id": "dev-294",
+  "term": "Log",
+  "definition": "Information that records a system's behavior, events, and errors.",
+  "example": "We check the logs around the time of the request.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "log record",
+   "execution record"
+  ]
+ },
+ {
+  "id": "dev-295",
+  "term": "Monitoring",
+  "definition": "The activity of continuously observing a system's status, performance, and errors.",
+  "example": "Right after deployment, we monitor the error rate.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "status monitoring",
+   "operational monitoring"
+  ]
+ },
+ {
+  "id": "dev-296",
+  "term": "Outage",
+  "definition": "An event in which a service function stops or is not provided at the normal level.",
+  "example": "We share the scope of the outage's impact and the recovery status.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "service outage",
+   "incident"
+  ]
+ },
+ {
+  "id": "dev-297",
+  "term": "Incident retrospective",
+  "definition": "An activity or document that analyzes the course, cause, and response of an incident and organizes actions to prevent recurrence.",
+  "example": "In the incident retrospective, we examine why detection was delayed.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "postmortem",
+   "incident report"
+  ]
+ },
+ {
+  "id": "dev-298",
+  "term": "RCA",
+  "definition": "The work of finding the core cause behind surface symptoms so the same problem does not recur.",
+  "example": "Based on the RCA results, we decide the recurrence-prevention work.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "root cause analysis"
+  ]
+ },
+ {
+  "id": "dev-299",
+  "term": "SLA",
+  "definition": "The service level and conditions, such as quality and support, agreed between a service provider and a customer.",
+  "example": "We check the support hours and incident-response terms in the SLA.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "service level agreement"
+  ]
+ },
+ {
+  "id": "dev-300",
+  "term": "SLO",
+  "definition": "A measurable target set for a service's reliability and performance.",
+  "example": "We set improvement priorities to meet the availability SLO.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "service level objective"
+  ]
+ },
+ {
+  "id": "dev-301",
+  "term": "SLI",
+  "definition": "A metric that measures the quality a service provides.",
+  "example": "We track the response success rate as an SLI.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "service level indicator"
+  ]
+ },
+ {
+  "id": "dev-302",
+  "term": "Docker",
+  "definition": "A tool used to package and run an application and its runtime environment as container images.",
+  "example": "We share an identical runtime environment using a Docker image.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "container tool"
+  ]
+ },
+ {
+  "id": "dev-303",
+  "term": "Container",
+  "definition": "A way of bundling a program with its required environment and handling it as an isolated execution unit.",
+  "example": "We run multiple containers from the same image.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "application container"
+  ]
+ },
+ {
+  "id": "dev-304",
+  "term": "Kubernetes",
+  "definition": "A platform that manages the placement, scaling, and operation of multiple containers.",
+  "example": "We check the status of the service instances in Kubernetes.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "K8s",
+   "kube"
+  ]
+ },
+ {
+  "id": "dev-305",
+  "term": "Rolling deployment",
+  "definition": "A deployment method that replaces running instances with the new version a portion at a time.",
+  "example": "During the rolling deployment, we check the new version's error rate.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "rolling update"
+  ]
+ },
+ {
+  "id": "dev-306",
+  "term": "Canary deployment",
+  "definition": "A method that first serves the new version to some users or traffic to observe issues and then expands it.",
+  "example": "We limit the blast radius with a canary deployment.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "canary release"
+  ]
+ },
+ {
+  "id": "dev-307",
+  "term": "Blue-green deployment",
+  "definition": "A deployment method that prepares the current and new version environments side by side and switches the traffic target.",
+  "example": "Before the blue-green deployment, we check the new environment's settings.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "blue-green"
+  ]
+ },
+ {
+  "id": "dev-308",
+  "term": "Load test",
+  "definition": "A test that sends requests matching expected usage to check a system's performance and stability.",
+  "example": "Before the event, we run a load test with the expected concurrent connections.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "load test"
+  ]
+ },
+ {
+  "id": "dev-309",
+  "term": "Regression test",
+  "definition": "A test that checks whether previously working features still work correctly after a change.",
+  "example": "After the payment fix, we also regression-test sign-up.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "regression test"
+  ]
+ },
+ {
+  "id": "dev-310",
+  "term": "Test case",
+  "definition": "A test unit that specifies the conditions, inputs, steps, and expected results to verify.",
+  "example": "We also include empty input and invalid input in the test cases.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "TC",
+   "test case"
+  ]
+ },
+ {
+  "id": "dev-311",
+  "term": "Coverage",
+  "definition": "A measure of how much of the target scope, such as code or requirements, the tests covered.",
+  "example": "We check the coverage together with what was actually verified.",
+  "note": "A high number does not mean there are no bugs or that the test quality is high.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "test coverage",
+   "code coverage"
+  ]
+ },
+ {
+  "id": "dev-312",
+  "term": "Memory leak",
+  "definition": "A problem where memory that is no longer needed is not released and remains, increasing usage.",
+  "example": "It slows down when left on for a long time, so we check for a memory leak.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "memory leak"
+  ]
+ },
+ {
+  "id": "dev-313",
+  "term": "Race condition",
+  "definition": "A problematic situation where the result changes depending on the execution order and timing of concurrent tasks.",
+  "example": "We check whether a race condition occurs with concurrent requests.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "race condition"
+  ]
+ },
+ {
+  "id": "dev-314",
+  "term": "Deadlock",
+  "definition": "A state where multiple tasks each wait for resources held by the others and none can proceed.",
+  "example": "We unify the locking order to reduce the possibility of a deadlock.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "deadlock"
+  ]
+ },
+ {
+  "id": "dev-315",
+  "term": "Reproduce",
+  "definition": "The work of confirming that a reported error occurs again under the same conditions.",
+  "example": "We need the OS and the input order to reproduce the bug.",
+  "category": "Work Instructions & Field Expressions",
+  "aliases": [
+   "to reproduce",
+   "reproduction path",
+   "repro",
+   "reproduction conditions",
+   "reproduction scenario"
+  ]
+ },
+ {
+  "id": "dev-316",
+  "term": "Blow up",
+  "definition": "A colloquial development-field expression meaning that an error, stoppage, or failure has occurred.",
+  "example": "The build blew up, so I am looking from the first error log.",
+  "category": "Work Instructions & Field Expressions",
+  "aliases": [
+   "blows up",
+   "server crash",
+   "build failure"
+  ]
+ },
+ {
+  "id": "dev-317",
+  "term": "Hang",
+  "definition": "A term for a state where a program or server stops or becomes unresponsive.",
+  "example": "We check the memory usage at the moment the app hangs.",
+  "category": "Work Instructions & Field Expressions",
+  "aliases": [
+   "hangs",
+   "server hang",
+   "app hang"
+  ]
+ },
+ {
+  "id": "dev-318",
+  "term": "Print (to log)",
+  "definition": "An expression meaning to output a program's state or values to the logs, console, and so on to check them.",
+  "example": "Let's print the value coming into the conditional to the log.",
+  "category": "Work Instructions & Field Expressions",
+  "aliases": [
+   "print to log",
+   "print to console",
+   "logging"
+  ]
+ },
+ {
+  "id": "dev-319",
+  "term": "Roll (a build)",
+  "definition": "A colloquialism meaning to build and package code or files into a deployable bundle.",
+  "example": "Please apply the fix and roll the test build again.",
+  "category": "Work Instructions & Field Expressions",
+  "aliases": [
+   "roll a build",
+   "roll a package",
+   "roll an image"
+  ]
+ }
+]

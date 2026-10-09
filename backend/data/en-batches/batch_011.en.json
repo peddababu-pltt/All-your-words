@@ -1,0 +1,1314 @@
+[
+ {
+  "id": "design-290",
+  "term": "journey map",
+  "definition": "A map organizing the stages a user goes through toward a goal along with their actions, thoughts, emotions, and touchpoints.",
+  "example": "Find the anxious stretch after payment on the journey map.",
+  "category": "User experience design",
+  "aliases": [
+   "customer journey map",
+   "user journey map"
+  ]
+ },
+ {
+  "id": "dev-329",
+  "term": "journey map",
+  "definition": "A map organizing the stages a user goes through toward a goal along with their actions, thoughts, emotions, and touchpoints.",
+  "example": "Connect the order-status API to reduce the post-payment anxiety found on the journey map.",
+  "category": "User experience design",
+  "aliases": [
+   "customer journey map",
+   "user journey map"
+  ]
+ },
+ {
+  "id": "design-291",
+  "term": "usability testing",
+  "definition": "A method of checking product usage problems by watching users perform real tasks.",
+  "example": "In usability testing, observe whether users find the search filter.",
+  "category": "User experience design",
+  "aliases": [
+   "usability test",
+   "user test"
+  ]
+ },
+ {
+  "id": "dev-330",
+  "term": "usability testing",
+  "definition": "A method of checking product usage problems by watching users perform real tasks.",
+  "example": "Reproduce the keyboard-navigation issue found in usability testing and fix the focus code.",
+  "category": "User experience design",
+  "aliases": [
+   "usability test",
+   "user test"
+  ]
+ },
+ {
+  "id": "design-292",
+  "term": "interaction",
+  "definition": "The way a user's actions and a system's responses exchange.",
+  "example": "Design the interaction so the state is clear after a click.",
+  "category": "User experience design",
+  "aliases": [
+   "interaction",
+   "interaction design"
+  ]
+ },
+ {
+  "id": "dev-331",
+  "term": "interaction",
+  "definition": "The way a user's actions and a system's responses exchange.",
+  "example": "During the save interaction, block duplicate requests and show the completion result.",
+  "category": "User experience design",
+  "aliases": [
+   "interaction",
+   "interaction design"
+  ]
+ },
+ {
+  "id": "design-293",
+  "term": "affordance",
+  "definition": "The property of possible actions in the relationship between a user and an object. In design, what can be done and its cues are reviewed together.",
+  "example": "Check that an element that looks like a button actually presses.",
+  "category": "User experience design",
+  "aliases": [
+   "action possibility"
+  ]
+ },
+ {
+  "id": "dev-332",
+  "term": "affordance",
+  "definition": "The property of possible actions in the relationship between a user and an object. In design, what can be done and its cues are reviewed together.",
+  "example": "Implement elements that look clickable as real buttons so the affordance and the behavior match.",
+  "category": "User experience design",
+  "aliases": [
+   "action possibility"
+  ]
+ },
+ {
+  "id": "design-294",
+  "term": "heuristic evaluation",
+  "definition": "A method of checking interface problems against established usability principles.",
+  "example": "Before user testing, find the basic problems with a heuristic evaluation.",
+  "category": "User experience design",
+  "aliases": [
+   "heuristic review"
+  ]
+ },
+ {
+  "id": "dev-333",
+  "term": "heuristic evaluation",
+  "definition": "A method of checking interface problems against established usability principles.",
+  "example": "Put the error-recovery issues found in the heuristic evaluation into the development backlog.",
+  "category": "User experience design",
+  "aliases": [
+   "heuristic review"
+  ]
+ },
+ {
+  "id": "design-295",
+  "term": "accessibility review",
+  "definition": "An activity that checks whether people using various abilities, devices, and assistive technologies can use it.",
+  "example": "Include keyboard navigation and reading order in the accessibility review.",
+  "category": "User experience design",
+  "aliases": [
+   "accessibility check"
+  ]
+ },
+ {
+  "id": "dev-334",
+  "term": "accessibility review",
+  "definition": "An activity that checks whether people using various abilities, devices, and assistive technologies can use it.",
+  "example": "In the accessibility review, test the label associations and the keyboard focus order.",
+  "category": "User experience design",
+  "aliases": [
+   "accessibility check"
+  ]
+ },
+ {
+  "id": "design-296",
+  "term": "responsive",
+  "definition": "A design approach where the layout and presentation flexibly change according to screen size and environment.",
+  "example": "In responsive, check the menu layout on narrow screens.",
+  "category": "User experience design",
+  "aliases": [
+   "responsive design",
+   "responsive web"
+  ]
+ },
+ {
+  "id": "dev-335",
+  "term": "responsive",
+  "definition": "A design approach where the layout and presentation flexibly change according to screen size and environment.",
+  "example": "Make the responsive CSS avoid horizontal overflow even with long text and narrow screens.",
+  "category": "User experience design",
+  "aliases": [
+   "responsive design",
+   "responsive web"
+  ]
+ },
+ {
+  "id": "design-297",
+  "term": "breakpoint",
+  "definition": "A reference point at which layout rules change according to conditions such as screen width.",
+  "example": "Set a breakpoint at the point where the content feels cramped.",
+  "category": "User experience design",
+  "aliases": [
+   "breakpoint",
+   "responsive breakpoint"
+  ]
+ },
+ {
+  "id": "dev-336",
+  "term": "breakpoint",
+  "definition": "A reference point at which layout rules change according to conditions such as screen width.",
+  "example": "Test the media query behavior at the widths just before and after the breakpoint.",
+  "category": "User experience design",
+  "aliases": [
+   "breakpoint",
+   "responsive breakpoint"
+  ]
+ },
+ {
+  "id": "design-298",
+  "term": "state",
+  "definition": "The current appearance and value of an element or system that changes according to conditions such as selection, input, loading, or error.",
+  "example": "Design not only the default state but also the error state.",
+  "category": "User experience design",
+  "aliases": [
+   "UI state",
+   "component state"
+  ]
+ },
+ {
+  "id": "dev-337",
+  "term": "state",
+  "definition": "The values and conditions a program or component currently holds. It changes according to user input and request results, and is used to determine the display and behavior.",
+  "example": "When the request finishes, clear the loading state and store the response data in state.",
+  "category": "Frontend & implementation",
+  "aliases": [
+   "UI state",
+   "component state",
+   "state"
+  ]
+ },
+ {
+  "id": "design-299",
+  "term": "hover",
+  "definition": "The state where a pointer is over an element.",
+  "example": "Don't hide important guidance only on hover.",
+  "category": "User experience design",
+  "aliases": [
+   "mouse over",
+   "hover state"
+  ]
+ },
+ {
+  "id": "dev-338",
+  "term": "hover",
+  "definition": "The state where a pointer is over an element.",
+  "example": "Implement the hover style and the keyboard focus style together.",
+  "category": "User experience design",
+  "aliases": [
+   "mouse over",
+   "hover state"
+  ]
+ },
+ {
+  "id": "design-300",
+  "term": "focus",
+  "definition": "The current target that will receive keyboard input or operation.",
+  "example": "Make the focus visible when moving with the Tab key.",
+  "category": "User experience design",
+  "aliases": [
+   "keyboard focus",
+   "input focus"
+  ]
+ },
+ {
+  "id": "dev-339",
+  "term": "focus",
+  "definition": "The current target that will receive keyboard input or operation.",
+  "example": "Implement it so that closing the modal restores focus to the button that opened it.",
+  "category": "User experience design",
+  "aliases": [
+   "keyboard focus",
+   "input focus"
+  ]
+ },
+ {
+  "id": "design-301",
+  "term": "modal",
+  "definition": "A dialog that opens over the current context and restricts other screen operations until it's closed.",
+  "example": "When the modal closes, return focus to the original button.",
+  "category": "User experience design",
+  "aliases": [
+   "modal window",
+   "modal dialog"
+  ]
+ },
+ {
+  "id": "dev-340",
+  "term": "modal",
+  "definition": "A dialog that opens over the current context and restricts other screen operations until it's closed.",
+  "example": "Handle it so keyboard focus doesn't escape to background elements while the modal is open.",
+  "category": "User experience design",
+  "aliases": [
+   "modal window",
+   "modal dialog"
+  ]
+ },
+ {
+  "id": "design-302",
+  "term": "toast",
+  "definition": "A notification form that briefly shows a short status or result.",
+  "example": "Notify the save result with a short toast.",
+  "category": "User experience design",
+  "aliases": [
+   "toast message"
+  ]
+ },
+ {
+  "id": "dev-341",
+  "term": "toast",
+  "definition": "A notification form that briefly shows a short status or result.",
+  "example": "When the save request succeeds, show a toast and also announce the result to assistive tech.",
+  "category": "User experience design",
+  "aliases": [
+   "toast message"
+  ]
+ },
+ {
+  "id": "design-303",
+  "term": "tooltip",
+  "definition": "A help that briefly shows an element's function or extra explanation nearby.",
+  "example": "Supplement the icon's function with a tooltip.",
+  "category": "User experience design",
+  "aliases": [
+   "help tooltip"
+  ]
+ },
+ {
+  "id": "dev-342",
+  "term": "tooltip",
+  "definition": "A help that briefly shows an element's function or extra explanation nearby.",
+  "example": "Implement the tooltip to open on keyboard focus, not just on mouse.",
+  "category": "User experience design",
+  "aliases": [
+   "help tooltip"
+  ]
+ },
+ {
+  "id": "design-304",
+  "term": "bottom sheet",
+  "definition": "A panel form that rises from the bottom of the screen to offer options or extra content.",
+  "example": "Let mobile filters be selected in a bottom sheet.",
+  "category": "User experience design",
+  "aliases": [
+   "bottom sheet"
+  ]
+ },
+ {
+  "id": "dev-343",
+  "term": "bottom sheet",
+  "definition": "A panel form that rises from the bottom of the screen to offer options or extra content.",
+  "example": "Release the scroll lock when the bottom sheet is closed.",
+  "category": "User experience design",
+  "aliases": [
+   "bottom sheet"
+  ]
+ },
+ {
+  "id": "design-305",
+  "term": "skeleton",
+  "definition": "A representation that shows an empty form of the expected layout while content is loading.",
+  "example": "Show a skeleton while the list is loading.",
+  "category": "User experience design",
+  "aliases": [
+   "skeleton UI",
+   "loading skeleton",
+   "skeleton screen",
+   "skeleton screen"
+  ]
+ },
+ {
+  "id": "dev-344",
+  "term": "skeleton",
+  "definition": "A representation that shows an empty form of the expected layout while content is loading.",
+  "example": "When the response arrives, replace the skeleton with the real data.",
+  "category": "User experience design",
+  "aliases": [
+   "skeleton UI",
+   "loading skeleton",
+   "skeleton screen",
+   "skeleton screen"
+  ]
+ },
+ {
+  "id": "design-306",
+  "term": "empty state",
+  "definition": "A screen state that explains the reason and guides the next action when there's no list or result.",
+  "example": "Add a filter reset to the empty state when there are no search results.",
+  "category": "User experience design",
+  "aliases": [
+   "empty state",
+   "empty screen"
+  ]
+ },
+ {
+  "id": "dev-345",
+  "term": "empty state",
+  "definition": "A screen state that explains the reason and guides the next action when there's no list or result.",
+  "example": "When the API returns an empty array, show the empty-state guidance and a reset button.",
+  "category": "User experience design",
+  "aliases": [
+   "empty state",
+   "empty screen"
+  ]
+ },
+ {
+  "id": "design-307",
+  "term": "error state",
+  "definition": "A state that explains and helps resolve things when an action failed or there's an input problem.",
+  "example": "Provide a way to retry in the error state.",
+  "category": "User experience design",
+  "aliases": [
+   "error state"
+  ]
+ },
+ {
+  "id": "dev-346",
+  "term": "error state",
+  "definition": "A state that explains and helps resolve things when an action failed or there's an input problem.",
+  "example": "Catch the request failure, switch to the error state, and wire up a retry.",
+  "category": "User experience design",
+  "aliases": [
+   "error state"
+  ]
+ },
+ {
+  "id": "design-308",
+  "term": "layout",
+  "definition": "A structure that arranges elements such as text, images, and whitespace to suit the purpose.",
+  "example": "In the layout, organize the hierarchy of the title and body.",
+  "category": "Visual design & production",
+  "aliases": [
+   "page composition",
+   "screen arrangement"
+  ]
+ },
+ {
+  "id": "design-309",
+  "term": "grid",
+  "definition": "A reference structure of columns, rows, and spacing for arranging elements consistently.",
+  "example": "Align the cards' starting line to the grid.",
+  "category": "Visual design & production",
+  "aliases": [
+   "grid",
+   "layout grid",
+   "grid system"
+  ]
+ },
+ {
+  "id": "design-310",
+  "term": "hierarchy",
+  "definition": "Distinguishing the importance and reading order of information through size, position, color, and weight.",
+  "example": "Distinguish the hierarchy of the primary button and the secondary link.",
+  "category": "Visual design & production",
+  "aliases": [
+   "visual hierarchy",
+   "information hierarchy"
+  ]
+ },
+ {
+  "id": "design-311",
+  "term": "whitespace",
+  "definition": "Space left empty between and around elements to create separation, emphasis, and reading flow.",
+  "example": "Give more whitespace between unrelated information.",
+  "category": "Visual design & production",
+  "aliases": [
+   "white space",
+   "negative space"
+  ]
+ },
+ {
+  "id": "design-312",
+  "term": "margin",
+  "definition": "The spacing placed on the outside of an element or page.",
+  "example": "Distinguish the card's outer margin from the inner padding.",
+  "category": "Visual design & production",
+  "aliases": [
+   "outer margin",
+   "external margin"
+  ]
+ },
+ {
+  "id": "design-313",
+  "term": "gutter",
+  "definition": "The spacing placed between columns of a page or grid. In binding it can also mean the inner margin.",
+  "example": "Widen the gutter to separate the content of the two columns.",
+  "category": "Visual design & production",
+  "aliases": [
+   "column spacing",
+   "inter-column spacing"
+  ]
+ },
+ {
+  "id": "design-314",
+  "term": "object",
+  "definition": "An element such as type, a shape, or an image that can be selected, moved, and transformed in a design tool.",
+  "example": "Group the objects to move them together.",
+  "category": "Visual design & production",
+  "aliases": [
+   "design object",
+   "object"
+  ]
+ },
+ {
+  "id": "design-315",
+  "term": "layer",
+  "definition": "A working layer managed in a stack so images and elements can be edited independently.",
+  "example": "Please separate the text and background layers.",
+  "category": "Visual design & production",
+  "aliases": [
+   "layer structure"
+  ]
+ },
+ {
+  "id": "design-316",
+  "term": "artboard",
+  "definition": "An independent working area that makes up one screen, printed piece, and so on.",
+  "example": "Split the artboards by size to produce them.",
+  "category": "Visual design & production",
+  "aliases": [
+   "art board",
+   "work board"
+  ]
+ },
+ {
+  "id": "design-317",
+  "term": "mask",
+  "definition": "A method of controlling which areas show or hide without erasing the original.",
+  "example": "Use a mask to adjust the visible range of the image.",
+  "category": "Visual design & production",
+  "aliases": [
+   "layer mask",
+   "masking"
+  ]
+ },
+ {
+  "id": "design-318",
+  "term": "clipping mask",
+  "definition": "A mask that limits the visible area based on the shape of another object or element.",
+  "example": "Put the photo inside a circular clipping mask.",
+  "category": "Visual design & production",
+  "aliases": [
+   "clipping",
+   "clipping mask"
+  ]
+ },
+ {
+  "id": "design-319",
+  "term": "blend mode",
+  "definition": "A method that sets by what rule the color and brightness of stacked layers are mixed.",
+  "example": "Change the blend mode to compare the composite feel.",
+  "category": "Visual design & production",
+  "aliases": [
+   "blend mode",
+   "blending mode"
+  ]
+ },
+ {
+  "id": "design-320",
+  "term": "opacity",
+  "definition": "The degree indicating how opaque an element appears.",
+  "example": "Please lower the opacity of the background pattern.",
+  "category": "Visual design & production",
+  "aliases": [
+   "opacity",
+   "transparency adjustment"
+  ]
+ },
+ {
+  "id": "design-321",
+  "term": "gradient",
+  "definition": "A representation where color or brightness changes gradually along a direction or form.",
+  "example": "Check that the mid color of the gradient doesn't get muddy.",
+  "category": "Visual design & production",
+  "aliases": [
+   "gradient",
+   "color transition",
+   "gradient"
+  ]
+ },
+ {
+  "id": "design-322",
+  "term": "palette",
+  "definition": "A set of colors gathered for the work to suit the purpose and combination.",
+  "example": "Pick a secondary color from within the brand palette.",
+  "category": "Visual design & production",
+  "aliases": [
+   "color palette",
+   "color palette"
+  ]
+ },
+ {
+  "id": "design-323",
+  "term": "saturation",
+  "definition": "A property indicating how vivid and strong a color feels.",
+  "example": "Lower the photo's saturation so the text reads better.",
+  "category": "Visual design & production",
+  "aliases": [
+   "color saturation"
+  ]
+ },
+ {
+  "id": "design-324",
+  "term": "brightness",
+  "definition": "A property indicating how bright or dark a color appears.",
+  "example": "Check the brightness difference between the background and the text.",
+  "category": "Visual design & production",
+  "aliases": [
+   "brightness",
+   "color value"
+  ]
+ },
+ {
+  "id": "design-325",
+  "term": "hue",
+  "definition": "The property that distinguishes colors, such as red, yellow, and blue.",
+  "example": "Change the hue at the same brightness to compare.",
+  "category": "Visual design & production",
+  "aliases": [
+   "color wheel",
+   "hue"
+  ]
+ },
+ {
+  "id": "design-326",
+  "term": "contrast",
+  "definition": "When differences between elements—color, brightness, size—create separation and emphasis.",
+  "example": "Please increase the contrast between the body text and the background.",
+  "category": "Visual design & production",
+  "aliases": [
+   "contrast",
+   "contrast"
+  ]
+ },
+ {
+  "id": "design-327",
+  "term": "outline",
+  "definition": "An element's outer line. In print file work, it can also mean converting text from editable characters into shape outlines.",
+  "example": "Outline the text in the print copy.",
+  "category": "Visual design & production",
+  "aliases": [
+   "outline",
+   "text outline conversion",
+   "create outlines",
+   "outlining text",
+   "outlining fonts",
+   "create outlines",
+   "create outlines"
+  ]
+ },
+ {
+  "id": "design-328",
+  "term": "retouching",
+  "definition": "The work of modifying unnecessary parts, color, and texture of a photo or image to suit the purpose.",
+  "example": "Keep the product's shape and retouch only the dust.",
+  "category": "Visual design & production",
+  "aliases": [
+   "retouch",
+   "correction",
+   "photo retouching"
+  ]
+ },
+ {
+  "id": "design-329",
+  "term": "comp book",
+  "definition": "Material that bundles several design options, explanations, and application examples for comparison and proposal.",
+  "example": "Briefly note the reason for choosing each option in the comp book.",
+  "category": "Visual design & production",
+  "aliases": [
+   "comp collection",
+   "design proposal"
+  ]
+ },
+ {
+  "id": "design-330",
+  "term": "print shop",
+  "definition": "A vendor that receives print data and produces actual printed materials on paper or other substrates.",
+  "example": "Check the paper and finishing conditions with the print shop.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "printing vendor",
+   "printing company"
+  ]
+ },
+ {
+  "id": "marketing-362",
+  "term": "print shop",
+  "definition": "A vendor that receives print data and produces actual printed materials on paper or other substrates.",
+  "example": "Check the paper and finishing conditions with the print shop.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "printing vendor",
+   "printing company"
+  ]
+ },
+ {
+  "id": "design-331",
+  "term": "press check",
+  "definition": "The work of checking and coordinating the process or physical output so the production result matches the intent and specs.",
+  "example": "In the press check, confirm the color and finish.",
+  "note": "This is the design-production context. It's not an entry explaining the qualifications and legal responsibility of construction or statutory supervision.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "production supervision"
+  ]
+ },
+ {
+  "id": "marketing-363",
+  "term": "press check",
+  "definition": "The work of checking and coordinating the process or physical output so the production result matches the intent and specs.",
+  "example": "In the press check, confirm the color and finish.",
+  "note": "This is the design-production context. It's not an entry explaining the qualifications and legal responsibility of construction or statutory supervision.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "production supervision"
+  ]
+ },
+ {
+  "id": "design-332",
+  "term": "proofing",
+  "definition": "The process of checking and fixing errors in text, layout, and color before printing or publishing, or the output used for checking.",
+  "example": "In the final proof, check the typos and the page order.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "proofing work",
+   "proof copy"
+  ]
+ },
+ {
+  "id": "marketing-364",
+  "term": "proofing",
+  "definition": "The process of checking and fixing errors in text, layout, and color before printing or publishing, or the output used for checking.",
+  "example": "In the final proof, check the typos and the page order.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "proofing work",
+   "proof copy"
+  ]
+ },
+ {
+  "id": "design-333",
+  "term": "copyediting",
+  "definition": "The work of reviewing and refining a text's expression, notation, logic, and consistency.",
+  "example": "After copyediting, typeset the revised sentences again.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "sentence copyediting"
+  ]
+ },
+ {
+  "id": "marketing-365",
+  "term": "copyediting",
+  "definition": "The work of reviewing and refining a text's expression, notation, logic, and consistency.",
+  "example": "After copyediting, typeset the revised sentences again.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "sentence copyediting"
+  ]
+ },
+ {
+  "id": "design-334",
+  "term": "typesetting",
+  "definition": "The work of arranging text and images to the page specs and editorial rules.",
+  "example": "After the proofing is done, check the final typesetting.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "typesetting work"
+  ]
+ },
+ {
+  "id": "marketing-366",
+  "term": "typesetting",
+  "definition": "The work of arranging text and images to the page specs and editorial rules.",
+  "example": "After the proofing is done, check the final typesetting.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "typesetting work"
+  ]
+ },
+ {
+  "id": "design-335",
+  "term": "platemaking",
+  "definition": "The process of making the plates used for printing.",
+  "example": "Before platemaking, check the spot-color settings in the final file.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "platemaking work"
+  ]
+ },
+ {
+  "id": "marketing-367",
+  "term": "platemaking",
+  "definition": "The process of making the plates used for printing.",
+  "example": "Before platemaking, check the spot-color settings in the final file.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "platemaking work"
+  ]
+ },
+ {
+  "id": "design-336",
+  "term": "offset printing",
+  "definition": "A printing method that transfers ink from the plate to the substrate via an intermediate rubber blanket.",
+  "example": "Get a quote for the large brochure run with offset printing.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "offset printing",
+   "offset"
+  ]
+ },
+ {
+  "id": "marketing-368",
+  "term": "offset printing",
+  "definition": "A printing method that transfers ink from the plate to the substrate via an intermediate rubber blanket.",
+  "example": "Get a quote for the large brochure run with offset printing.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "offset printing",
+   "offset"
+  ]
+ },
+ {
+  "id": "design-337",
+  "term": "digital printing",
+  "definition": "A printing method that outputs based on digital data without making printing plates.",
+  "example": "Check the small prototype run with digital printing.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "digital output"
+  ]
+ },
+ {
+  "id": "marketing-369",
+  "term": "digital printing",
+  "definition": "A printing method that outputs based on digital data without making printing plates.",
+  "example": "Check the small prototype run with digital printing.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "digital output"
+  ]
+ },
+ {
+  "id": "design-338",
+  "term": "four-color printing",
+  "definition": "Printing that expresses color by combining the four basic inks, usually CMYK.",
+  "example": "For colors hard to achieve in four-color printing, consider spot colors.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "four-color printing",
+   "four-color",
+   "process printing"
+  ]
+ },
+ {
+  "id": "marketing-370",
+  "term": "four-color printing",
+  "definition": "Printing that expresses color by combining the four basic inks, usually CMYK.",
+  "example": "For colors hard to achieve in four-color printing, consider spot colors.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "four-color printing",
+   "four-color",
+   "process printing"
+  ]
+ },
+ {
+  "id": "design-339",
+  "term": "black",
+  "definition": "A term for the black ink or black printing plate in printing.",
+  "example": "Check the black-plate settings for small black text.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "black plate",
+   "K plate"
+  ]
+ },
+ {
+  "id": "marketing-371",
+  "term": "black",
+  "definition": "A term for the black ink or black printing plate in printing.",
+  "example": "Check the black-plate settings for small black text.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "black plate",
+   "K plate"
+  ]
+ },
+ {
+  "id": "design-340",
+  "term": "dieline",
+  "definition": "A production line marking the cutting and folding positions of packaging or processed pieces.",
+  "example": "Please separate the dieline and the actual design layers.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "dieline",
+   "die line",
+   "package dieline"
+  ]
+ },
+ {
+  "id": "marketing-372",
+  "term": "dieline",
+  "definition": "A production line marking the cutting and folding positions of packaging or processed pieces.",
+  "example": "Please separate the dieline and the actual design layers.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "dieline",
+   "die line",
+   "package dieline"
+  ]
+ },
+ {
+  "id": "design-341",
+  "term": "folding",
+  "definition": "A finishing that folds printed material at set positions and in set order.",
+  "example": "Arrange the inner pages according to the fold direction.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "folding finish"
+  ]
+ },
+ {
+  "id": "marketing-373",
+  "term": "folding",
+  "definition": "A finishing that folds printed material at set positions and in set order.",
+  "example": "Arrange the inner pages according to the fold direction.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "folding finish"
+  ]
+ },
+ {
+  "id": "design-342",
+  "term": "creasing",
+  "definition": "A finishing that presses a line at the fold position so paper folds well.",
+  "example": "Add a crease to thick paper before folding.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "fold line",
+   "crease line",
+   "creasing finish"
+  ]
+ },
+ {
+  "id": "marketing-374",
+  "term": "creasing",
+  "definition": "A finishing that presses a line at the fold position so paper folds well.",
+  "example": "Add a crease to thick paper before folding.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "fold line",
+   "crease line",
+   "creasing finish"
+  ]
+ },
+ {
+  "id": "design-343",
+  "term": "perforation",
+  "definition": "A finishing that adds holes or cuts at regular intervals so something can be torn off easily.",
+  "example": "Add perforation to the coupon part so it can be separated.",
+  "note": "This entry is the tear-off finishing in printing. It differs from the sewing machine on an apparel floor.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "perforation line",
+   "perforation line"
+  ]
+ },
+ {
+  "id": "marketing-375",
+  "term": "perforation",
+  "definition": "A finishing that adds holes or cuts at regular intervals so something can be torn off easily.",
+  "example": "Add perforation to the coupon part so it can be separated.",
+  "note": "This entry is the tear-off finishing in printing. It differs from the sewing machine on an apparel floor.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "perforation line",
+   "perforation line"
+  ]
+ },
+ {
+  "id": "design-344",
+  "term": "binding",
+  "definition": "The process of binding multiple printed sheets into book form in the correct order.",
+  "example": "Choose a binding suited to the page count and usage.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "binding work"
+  ]
+ },
+ {
+  "id": "marketing-376",
+  "term": "binding",
+  "definition": "The process of binding multiple printed sheets into book form in the correct order.",
+  "example": "Choose a binding suited to the page count and usage.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "binding work"
+  ]
+ },
+ {
+  "id": "design-345",
+  "term": "saddle stitching",
+  "definition": "A binding method that nests folded sheets and binds the center fold with staples or similar.",
+  "example": "Do the thin booklet with saddle stitching.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "saddle-stitch binding"
+  ]
+ },
+ {
+  "id": "marketing-377",
+  "term": "saddle stitching",
+  "definition": "A binding method that nests folded sheets and binds the center fold with staples or similar.",
+  "example": "Do the thin booklet with saddle stitching.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "saddle-stitch binding"
+  ]
+ },
+ {
+  "id": "design-346",
+  "term": "perfect binding",
+  "definition": "A binding method that binds the spine side with adhesive and connects it to the cover.",
+  "example": "Get a quote for the thick catalog with perfect binding.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "perfect binding",
+   "adhesive binding"
+  ]
+ },
+ {
+  "id": "marketing-378",
+  "term": "perfect binding",
+  "definition": "A binding method that binds the spine side with adhesive and connects it to the cover.",
+  "example": "Get a quote for the thick catalog with perfect binding.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "perfect binding",
+   "adhesive binding"
+  ]
+ },
+ {
+  "id": "design-347",
+  "term": "box mockup",
+  "definition": "A trial model of a packaging structure made to check the size, form, assembly, and print positions.",
+  "example": "Put the actual product into the box mockup to try it.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "package mockup",
+   "carton mockup"
+  ]
+ },
+ {
+  "id": "marketing-379",
+  "term": "box mockup",
+  "definition": "A trial model of a packaging structure made to check the size, form, assembly, and print positions.",
+  "example": "Put the actual product into the box mockup to try it.",
+  "category": "Printing & delivery processes",
+  "aliases": [
+   "package mockup",
+   "carton mockup"
+  ]
+ },
+ {
+  "id": "design-348",
+  "term": "letter spacing",
+  "definition": "The spacing between letters.",
+  "example": "Tighten the title's letter spacing a little so it reads as one block.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "letter spacing",
+   "letter-spacing adjustment"
+  ]
+ },
+ {
+  "id": "marketing-380",
+  "term": "letter spacing",
+  "definition": "The spacing between letters.",
+  "example": "Tighten the title's letter spacing a little so it reads as one block.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "letter spacing",
+   "letter-spacing adjustment"
+  ]
+ },
+ {
+  "id": "design-349",
+  "term": "line spacing",
+  "definition": "The spacing between lines of text.",
+  "example": "Please widen the body line spacing to make it easier to read.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "line spacing",
+   "line-spacing adjustment"
+  ]
+ },
+ {
+  "id": "marketing-381",
+  "term": "line spacing",
+  "definition": "The spacing between lines of text.",
+  "example": "Please widen the body line spacing to make it easier to read.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "line spacing",
+   "line-spacing adjustment"
+  ]
+ },
+ {
+  "id": "design-350",
+  "term": "tone down",
+  "definition": "An expression meaning to lower the intensity of color, brightness, or expression to make it calmer.",
+  "example": "Please tone down the background to emphasize the title.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "tone down",
+   "lower the tone"
+  ]
+ },
+ {
+  "id": "marketing-382",
+  "term": "tone down",
+  "definition": "An expression meaning to lower the intensity of color, brightness, or expression to make it calmer.",
+  "example": "Please tone down the background to emphasize the title.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "tone down",
+   "lower the tone"
+  ]
+ },
+ {
+  "id": "fashion-431",
+  "term": "tone down",
+  "definition": "A working expression meaning to adjust the color and expression of garments, a collection, or brand visuals to be calmer.",
+  "example": "The color blocking is too strong, so compare with a toned-down fabric for the sleeve blocking.",
+  "note": "It's not a standard term for an exact color value. Match with a swatch which of brightness or saturation to adjust.",
+  "category": "Color & product planning",
+  "aliases": [
+   "tone down"
+  ]
+ },
+ {
+  "id": "design-351",
+  "term": "pare down",
+  "definition": "A work instruction to reduce unnecessary visual elements or content so the essence stands out.",
+  "example": "Remove a few icons and focus on the key information.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "paring down",
+   "removing elements"
+  ]
+ },
+ {
+  "id": "marketing-383",
+  "term": "pare down",
+  "definition": "A work instruction to reduce unnecessary visual elements or content so the essence stands out.",
+  "example": "Remove a few icons and focus on the key information.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "paring down",
+   "removing elements"
+  ]
+ },
+ {
+  "id": "fashion-432",
+  "term": "pare down",
+  "definition": "A work instruction in garment design or styling to pare down decoration, color, or items to simplify the overall expression.",
+  "example": "Please remove some of the jacket's trim so the fabric texture shows.",
+  "note": "It's a context-dependent colloquialism. If it means excluding production quantity or reducing pattern measurements, confirm the target and figures separately.",
+  "category": "Design & styling",
+  "aliases": [
+   "paring down"
+  ]
+ },
+ {
+  "id": "design-352",
+  "term": "enlarge",
+  "definition": "A work instruction to increase the size of an element such as text or an image.",
+  "example": "Enlarge the main title and keep the secondary description.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "increasing the size",
+   "increasing the size"
+  ]
+ },
+ {
+  "id": "marketing-384",
+  "term": "enlarge",
+  "definition": "A work instruction to increase the size of an element such as text or an image.",
+  "example": "Enlarge the main title and keep the secondary description.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "increasing the size",
+   "increasing the size"
+  ]
+ },
+ {
+  "id": "fashion-433",
+  "term": "enlarge",
+  "definition": "A working expression to increase the size of a specific garment measurement or of a print or decoration.",
+  "example": "Compare the current size with a draft where the chest print width is enlarged by 2 cm.",
+  "note": "It doesn't mean scaling the whole size up by the same ratio. Decide together which area to enlarge and the reference measurement.",
+  "category": "Design & pattern revision",
+  "aliases": [
+   "increasing the size"
+  ]
+ },
+ {
+  "id": "design-353",
+  "term": "squished",
+  "definition": "A state where an image is scaled off-ratio so its form looks flat or warped.",
+  "example": "Keep the original ratio so the logo doesn't get squished.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "squished image",
+   "aspect-ratio distortion"
+  ]
+ },
+ {
+  "id": "marketing-385",
+  "term": "squished",
+  "definition": "A state where an image is scaled off-ratio so its form looks flat or warped.",
+  "example": "Keep the original ratio so the logo doesn't get squished.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "squished image",
+   "aspect-ratio distortion"
+  ]
+ },
+ {
+  "id": "design-354",
+  "term": "pixelated",
+  "definition": "A state where an image or text looks rough or doesn't display properly due to low resolution or file problems.",
+  "example": "The logo is pixelated when enlarged, so we need the vector original.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "image pixelation",
+   "text breaking",
+   "quality degradation"
+  ]
+ },
+ {
+  "id": "marketing-386",
+  "term": "pixelated",
+  "definition": "A state where an image or text looks rough or doesn't display properly due to low resolution or file problems.",
+  "example": "The logo is pixelated when enlarged, so we need the vector original.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "image pixelation",
+   "text breaking",
+   "quality degradation"
+  ]
+ },
+ {
+  "id": "design-355",
+  "term": "precise alignment",
+  "definition": "A colloquial expression for aligning elements' baselines or spacing exactly.",
+  "example": "Please align the bottoms of the cards precisely to the same line.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "precise alignment",
+   "exact alignment"
+  ]
+ },
+ {
+  "id": "marketing-387",
+  "term": "precise alignment",
+  "definition": "A colloquial expression for aligning elements' baselines or spacing exactly.",
+  "example": "Please align the bottoms of the cards precisely to the same line.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "precise alignment",
+   "exact alignment"
+  ]
+ },
+ {
+  "id": "design-356",
+  "term": "black line",
+  "definition": "A term for a line expressed in black on a drawing or design.",
+  "example": "Separate the layers so the dieline and the black line aren't confused.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "black-line treatment",
+   "black line"
+  ]
+ },
+ {
+  "id": "marketing-388",
+  "term": "black line",
+  "definition": "A term for a line expressed in black on a drawing or design.",
+  "example": "Separate the layers so the dieline and the black line aren't confused.",
+  "category": "Work instructions & on-site expressions",
+  "aliases": [
+   "black-line treatment",
+   "black line"
+  ]
+ },
+ {
+  "id": "fashion-438",
+  "term": "sewing machine",
+  "definition": "A sewing machine that stitches fabric and such with thread to join or finish it.",
+  "example": "Check the sewing-machine needle and tension to match the fabric thickness.",
+  "note": "This means the sewing machine in apparel sewing. Distinguish it from the perforation finishing that adds tear-off lines to printed material.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "sewing machine",
+   "sewing machine"
+  ]
+ },
+ {
+  "id": "fashion-439",
+  "term": "sewing operator",
+  "definition": "A worker who makes garments and products using a sewing machine or by hand sewing.",
+  "example": "Explain the revised sewing specs to the sewing operator.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "machine sewer",
+   "sewing worker"
+  ]
+ },
+ {
+  "id": "fashion-440",
+  "term": "seam allowance finishing",
+  "definition": "The work of finishing the leftover fabric edges after sewing so they don't fray, or organizing their thickness and direction.",
+  "example": "For the thick parts, change the seam-allowance finishing method.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "seam allowance finish"
+  ]
+ },
+ {
+  "id": "fashion-441",
+  "term": "dart",
+  "definition": "A construction element made by folding and sewing part of flat fabric to fit the body's three-dimensional form.",
+  "example": "Adjust the waist dart amount to fine-tune the fit.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "dart"
+  ]
+ },
+ {
+  "id": "fashion-442",
+  "term": "tuck",
+  "definition": "A detail that folds fabric and fixes part of it to create ease or a decorative form.",
+  "example": "Match the front-panel tuck direction symmetrically on both sides.",
+  "category": "Sample & sewing processes",
+  "aliases": [
+   "tuck pleat",
+   "tuck detail"
+  ]
+ }
+]

@@ -1,0 +1,11 @@
+{
+  "fields": {
+    "marketing": "Marketing",
+    "dev": "Dev & IT",
+    "fashion": "Fashion",
+    "film": "Film",
+    "design": "Design",
+    "hrfinance": "HR & Finance",
+    "common": "Common"
+  }
+}

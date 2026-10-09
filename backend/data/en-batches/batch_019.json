@@ -1,0 +1,1322 @@
+[
+ {
+  "id": "hrfinance-166",
+  "term": "CFO",
+  "definition": "회사의 재무 전략과 재무 관리 전반을 총괄하는 경영 책임자.",
+  "example": "대규모 투자안은 CFO 검토 후 경영회의에 올립니다.",
+  "category": "재무 조직·기초",
+  "aliases": [
+   "최고재무책임자"
+  ]
+ },
+ {
+  "id": "hrfinance-167",
+  "term": "FP&A",
+  "definition": "예산·실적·전망을 분석해 경영 의사결정을 지원하는 재무 업무.",
+  "example": "FP&A에서 매출 전망 변경에 따른 손익 영향을 계산했어요.",
+  "category": "재무 조직·기초",
+  "aliases": [
+   "재무계획분석",
+   "재무 기획",
+   "에프피앤에이",
+   "에프피에이",
+   "FPA",
+   "재무 계획 및 분석"
+  ]
+ },
+ {
+  "id": "hrfinance-168",
+  "term": "관리회계",
+  "definition": "내부 의사결정과 성과 관리를 위해 원가·예산·수익성 등의 정보를 만드는 회계 영역.",
+  "example": "사업부별 수익성은 관리회계 기준으로 다시 볼게요.",
+  "category": "재무 조직·기초",
+  "aliases": [
+   "Management Accounting"
+  ]
+ },
+ {
+  "id": "hrfinance-169",
+  "term": "재무회계",
+  "definition": "외부 이해관계자에게 재무 상태와 성과를 보고하기 위해 거래를 기록하고 재무제표를 작성하는 회계 영역.",
+  "example": "관리용 집계와 재무회계 장부의 차이를 확인했어요.",
+  "category": "재무 조직·기초",
+  "aliases": [
+   "Financial Accounting"
+  ]
+ },
+ {
+  "id": "hrfinance-170",
+  "term": "회계정책",
+  "definition": "재무제표를 작성할 때 회사가 적용하는 회계 기준과 구체적인 처리 원칙.",
+  "example": "해당 계약의 수익 인식은 회사 회계정책에 따라 검토합니다.",
+  "category": "재무 조직·기초",
+  "aliases": [
+   "Accounting Policy"
+  ]
+ },
+ {
+  "id": "hrfinance-171",
+  "term": "회계기간",
+  "definition": "회사의 재무 성과와 거래를 구분해 보고하는 기간. 연간 보고 기간을 회계연도라고 한다.",
+  "example": "이번 회계기간에 귀속되는 비용인지 먼저 확인해 주세요.",
+  "category": "재무 조직·기초",
+  "aliases": [
+   "회계연도"
+  ]
+ },
+ {
+  "id": "hrfinance-172",
+  "term": "계정과목",
+  "definition": "거래의 성격에 따라 장부에 기록하는 분류 항목.",
+  "example": "교육비를 어느 계정과목으로 처리할지 문의했어요.",
+  "category": "재무 조직·기초",
+  "aliases": [
+   "계정 코드"
+  ]
+ },
+ {
+  "id": "hrfinance-173",
+  "term": "차변",
+  "definition": "복식부기에서 분개나 계정의 왼쪽. 자산 증가나 비용 발생 등을 기록하며 계정 성격에 따라 쓰임이 달라진다.",
+  "example": "선급금을 지급하면 자산 계정의 차변에 기록합니다.",
+  "category": "재무 조직·기초",
+  "aliases": [
+   "Debit",
+   "차대변"
+  ]
+ },
+ {
+  "id": "hrfinance-174",
+  "term": "대변",
+  "definition": "복식부기에서 분개나 계정의 오른쪽. 부채·자본 증가나 수익 발생 등을 기록하며 계정 성격에 따라 쓰임이 달라진다.",
+  "example": "매출이 발생해 수익 계정의 대변에 기록했어요.",
+  "category": "재무 조직·기초",
+  "aliases": [
+   "Credit"
+  ]
+ },
+ {
+  "id": "hrfinance-175",
+  "term": "분개",
+  "definition": "거래를 차변과 대변의 계정과목·금액으로 나누어 장부에 기록하는 회계 처리.",
+  "example": "수수료가 빠져 있어 입금액 차이에 대한 분개를 추가했어요.",
+  "category": "재무 조직·기초",
+  "aliases": [
+   "Journal Entry"
+  ]
+ },
+ {
+  "id": "hrfinance-176",
+  "term": "전표",
+  "definition": "거래의 계정·금액·거래처 등 회계 처리 내용을 기록한 문서나 시스템 기록.",
+  "example": "증빙을 첨부한 뒤 전표 승인을 요청해 주세요.",
+  "category": "재무 조직·기초",
+  "aliases": [
+   "회계전표"
+  ]
+ },
+ {
+  "id": "hrfinance-177",
+  "term": "총계정원장",
+  "definition": "모든 회계 거래를 계정과목별로 모아 기록한 장부.",
+  "example": "총계정원장에서 해당 비용의 누적 금액을 확인했어요.",
+  "category": "재무 조직·기초",
+  "aliases": [
+   "General Ledger",
+   "GL",
+   "지엘",
+   "G/L"
+  ]
+ },
+ {
+  "id": "hrfinance-178",
+  "term": "보조원장",
+  "definition": "총계정원장의 금액을 거래처·자산 등 세부 항목으로 나누어 관리하는 장부.",
+  "example": "채권 보조원장과 총계정원장의 합계가 일치하는지 맞춰 봅시다.",
+  "category": "재무 조직·기초",
+  "aliases": [
+   "보조부"
+  ]
+ },
+ {
+  "id": "hrfinance-179",
+  "term": "시산표",
+  "definition": "각 계정의 잔액이나 합계를 모아 차변과 대변의 균형을 확인하는 표.",
+  "example": "결산 분개를 반영한 시산표로 잔액을 검토했어요.",
+  "category": "재무 조직·기초",
+  "aliases": [
+   "Trial Balance",
+   "TB",
+   "티비",
+   "트라이얼 밸런스"
+  ]
+ },
+ {
+  "id": "hrfinance-180",
+  "term": "증빙",
+  "definition": "거래 사실과 금액·내용을 뒷받침하는 계약서·영수증 등의 자료.",
+  "example": "출장 경비 전표에 교통비 증빙을 첨부해 주세요.",
+  "category": "재무 조직·기초",
+  "aliases": [
+   "증빙서류"
+  ]
+ },
+ {
+  "id": "hrfinance-181",
+  "term": "재무제표",
+  "definition": "기업의 재무 상태·경영 성과·현금 흐름 등을 정해진 형식으로 보여 주는 보고서 묶음.",
+  "example": "투자 검토 자료에 최근 재무제표를 함께 넣었어요.",
+  "category": "재무제표·계정",
+  "aliases": [
+   "Financial Statements"
+  ]
+ },
+ {
+  "id": "hrfinance-182",
+  "term": "재무상태표",
+  "definition": "특정 시점의 자산·부채·자본을 보여 주는 재무제표.",
+  "example": "재무상태표에서 차입금과 현금 잔액을 함께 확인해 주세요.",
+  "category": "재무제표·계정",
+  "aliases": [
+   "대차대조표",
+   "BS",
+   "B/S",
+   "비에스",
+   "밸런스시트",
+   "밸런스 시트"
+  ]
+ },
+ {
+  "id": "hrfinance-183",
+  "term": "손익계산서",
+  "definition": "일정 기간의 수익과 비용을 통해 기업의 이익 또는 손실을 보여 주는 보고서.",
+  "example": "이번 달 손익계산서에서 외주비 증가 원인을 확인했어요.",
+  "category": "재무제표·계정",
+  "aliases": [
+   "PL",
+   "P&L",
+   "P/L",
+   "피엘",
+   "피앤엘",
+   "IS",
+   "Income Statement"
+  ]
+ },
+ {
+  "id": "hrfinance-184",
+  "term": "현금흐름표",
+  "definition": "일정 기간 현금과 현금성자산의 변동을 영업·투자·재무활동으로 구분해 보여 주는 재무제표.",
+  "example": "이익이 나는데 현금이 줄어든 이유를 현금흐름표로 확인했어요.",
+  "category": "재무제표·계정",
+  "aliases": [
+   "Cash Flow Statement",
+   "CFS",
+   "Statement of Cash Flows",
+   "캐시플로우 표"
+  ]
+ },
+ {
+  "id": "hrfinance-185",
+  "term": "자본변동표",
+  "definition": "일정 기간 자본의 구성 항목이 어떻게 변했는지 보여 주는 재무제표.",
+  "example": "배당과 유상증자 내역을 자본변동표에 반영했어요.",
+  "category": "재무제표·계정",
+  "aliases": [
+   "Statement of Changes in Equity"
+  ]
+ },
+ {
+  "id": "hrfinance-186",
+  "term": "주석",
+  "definition": "재무제표의 수치와 회계정책 등에 대한 추가 설명을 담은 자료.",
+  "example": "충당부채의 세부 내역은 주석에서 확인할 수 있어요.",
+  "category": "재무제표·계정",
+  "aliases": [
+   "재무제표 주석"
+  ]
+ },
+ {
+  "id": "hrfinance-187",
+  "term": "자산",
+  "definition": "과거 사건의 결과로 기업이 통제하며 경제적 효익을 가져올 것으로 보는 자원.",
+  "example": "새로 구입한 장비를 자산으로 등록할지 검토해 주세요.",
+  "category": "재무제표·계정",
+  "aliases": [
+   "Assets"
+  ]
+ },
+ {
+  "id": "hrfinance-188",
+  "term": "부채",
+  "definition": "과거 사건으로 인해 기업이 자원을 이전해야 하는 현재의 의무.",
+  "example": "결제 전인 거래 대금은 부채로 남아 있어요.",
+  "category": "재무제표·계정",
+  "aliases": [
+   "Liabilities"
+  ]
+ },
+ {
+  "id": "hrfinance-189",
+  "term": "자본",
+  "definition": "기업의 자산에서 부채를 차감한 잔여 지분.",
+  "example": "이번 결산 손실이 자본에 미치는 영향을 확인했어요.",
+  "category": "재무제표·계정",
+  "aliases": [
+   "Equity"
+  ]
+ },
+ {
+  "id": "hrfinance-190",
+  "term": "유동자산",
+  "definition": "정상 영업주기 안에 실현·소비되거나 단기간에 회수될 자산 등 유동성 기준으로 분류한 자산.",
+  "example": "재고와 매출채권이 유동자산에서 차지하는 비중이 높아요.",
+  "category": "재무제표·계정",
+  "aliases": [
+   "Current Assets"
+  ]
+ },
+ {
+  "id": "hrfinance-191",
+  "term": "유동부채",
+  "definition": "정상 영업주기 안에 결제되거나 단기간에 상환해야 하는 의무 등 유동성 기준으로 분류한 부채.",
+  "example": "곧 만기가 오는 차입금을 유동부채로 분류했어요.",
+  "category": "재무제표·계정",
+  "aliases": [
+   "Current Liabilities"
+  ]
+ },
+ {
+  "id": "hrfinance-192",
+  "term": "유형자산",
+  "definition": "생산·서비스 제공 등에 사용하기 위해 보유하는 토지·건물·기계 같은 물리적 자산.",
+  "example": "노후 기계의 유형자산 장부가액을 확인했어요.",
+  "category": "재무제표·계정",
+  "aliases": [
+   "PPE",
+   "유형 고정자산"
+  ]
+ },
+ {
+  "id": "hrfinance-193",
+  "term": "무형자산",
+  "definition": "물리적 실체는 없지만 식별할 수 있는 비화폐성 자산. 소프트웨어나 특허권 등이 포함될 수 있다.",
+  "example": "소프트웨어 개발비의 무형자산 인식 요건을 검토합니다.",
+  "category": "재무제표·계정",
+  "aliases": [
+   "Intangible Assets"
+  ]
+ },
+ {
+  "id": "hrfinance-194",
+  "term": "재고자산",
+  "definition": "판매 목적으로 보유한 상품·제품이나 생산 중인 재공품·원재료 등의 자산.",
+  "example": "창고 실사 수량과 재고자산 장부 수량을 대조했어요.",
+  "category": "재무제표·계정",
+  "aliases": [
+   "Inventory"
+  ]
+ },
+ {
+  "id": "hrfinance-195",
+  "term": "선급금",
+  "definition": "재화나 용역을 공급받기 전에 거래처에 미리 지급한 금액.",
+  "example": "계약금은 선급금으로 처리하고 납품 시 정산할게요.",
+  "category": "재무제표·계정",
+  "aliases": [
+   "Advance Payment"
+  ]
+ },
+ {
+  "id": "hrfinance-196",
+  "term": "선수금",
+  "definition": "재화나 용역을 제공하기 전에 고객으로부터 미리 받은 금액.",
+  "example": "아직 납품하지 않은 주문의 입금액은 선수금으로 관리합니다.",
+  "category": "재무제표·계정",
+  "aliases": [
+   "Advance Received"
+  ]
+ },
+ {
+  "id": "hrfinance-197",
+  "term": "선급비용",
+  "definition": "이미 지급했으나 향후 기간에 귀속되는 비용을 자산으로 기록한 금액.",
+  "example": "일 년 치 보험료 중 다음 달 이후분은 선급비용으로 남겨요.",
+  "category": "재무제표·계정",
+  "aliases": [
+   "Prepaid Expense"
+  ]
+ },
+ {
+  "id": "hrfinance-198",
+  "term": "미지급비용",
+  "definition": "이미 발생했으나 아직 지급하지 않은 비용에 대한 부채.",
+  "example": "이번 달 발생한 이자는 미지급비용으로 반영해 주세요.",
+  "category": "재무제표·계정",
+  "aliases": [
+   "Accrued Expense"
+  ]
+ },
+ {
+  "id": "hrfinance-199",
+  "term": "충당부채",
+  "definition": "지출 시기나 금액이 불확실하지만 인식 요건을 충족하는 현재 의무를 추정해 기록한 부채.",
+  "example": "품질 보증 의무의 예상 지출을 충당부채로 검토했어요.",
+  "category": "재무제표·계정",
+  "aliases": [
+   "Provision"
+  ]
+ },
+ {
+  "id": "hrfinance-200",
+  "term": "이익잉여금",
+  "definition": "누적 이익 중 배당 등으로 처분되지 않고 회사 내부에 남아 있는 금액.",
+  "example": "배당안을 검토하기 위해 이익잉여금 변동을 확인했어요.",
+  "category": "재무제표·계정",
+  "aliases": [
+   "Retained Earnings"
+  ]
+ },
+ {
+  "id": "hrfinance-201",
+  "term": "매출채권",
+  "definition": "일상적인 영업에서 재화·용역을 판매하고 아직 받지 못한 대금에 대한 권리.",
+  "example": "거래처별 매출채권 잔액을 영업팀에 전달했어요.",
+  "category": "매출·매입·채권",
+  "aliases": [
+   "AR",
+   "Accounts Receivable",
+   "에이알",
+   "A/R"
+  ]
+ },
+ {
+  "id": "hrfinance-202",
+  "term": "매입채무",
+  "definition": "일상적인 영업에서 재화·용역을 구입하고 아직 지급하지 않은 대금에 대한 의무.",
+  "example": "이번 주 지급 예정 매입채무를 정리해 주세요.",
+  "category": "매출·매입·채권",
+  "aliases": [
+   "AP",
+   "Accounts Payable",
+   "에이피",
+   "A/P"
+  ]
+ },
+ {
+  "id": "hrfinance-203",
+  "term": "외상매출금",
+  "definition": "일상적인 영업상 판매 대금 중 아직 받지 못했으며 어음 등으로 바뀌지 않은 채권.",
+  "example": "지난달 납품 건의 외상매출금이 아직 남아 있어요.",
+  "category": "매출·매입·채권",
+  "aliases": [
+   "외상 매출금"
+  ]
+ },
+ {
+  "id": "hrfinance-204",
+  "term": "외상매입금",
+  "definition": "일상적인 영업상 구입 대금 중 아직 지급하지 않았으며 어음 등으로 바뀌지 않은 채무.",
+  "example": "원재료 거래처의 외상매입금을 결제 일정에 넣었어요.",
+  "category": "매출·매입·채권",
+  "aliases": [
+   "외상 매입금"
+  ]
+ },
+ {
+  "id": "hrfinance-205",
+  "term": "미수금",
+  "definition": "주된 영업 거래 외의 거래 등에서 발생한 아직 받지 못한 금액을 처리하는 계정.",
+  "example": "중고 장비 매각 대금의 미수금을 확인해 주세요.",
+  "category": "매출·매입·채권",
+  "aliases": [
+   "Other Receivables"
+  ]
+ },
+ {
+  "id": "hrfinance-206",
+  "term": "미지급금",
+  "definition": "매입채무 등과 구분되는 거래에서 발생한 아직 지급하지 않은 금액을 처리하는 계정.",
+  "example": "비품 구입 대금을 미지급금으로 기록했어요.",
+  "category": "매출·매입·채권",
+  "aliases": [
+   "Other Payables"
+  ]
+ },
+ {
+  "id": "hrfinance-207",
+  "term": "채권 연령분석",
+  "definition": "채권을 발생일이나 만기 경과 기간별로 나누어 회수 상태를 살펴보는 분석.",
+  "example": "채권 연령분석에서 장기 미회수 건을 먼저 추렸어요.",
+  "category": "매출·매입·채권",
+  "aliases": [
+   "에이징",
+   "Aging"
+  ]
+ },
+ {
+  "id": "hrfinance-208",
+  "term": "대손",
+  "definition": "거래처의 지급 불능 등으로 채권을 회수하지 못하게 되는 손실.",
+  "example": "해당 채권의 회수 가능성과 대손 처리 요건을 검토합니다.",
+  "category": "매출·매입·채권",
+  "aliases": [
+   "Bad Debt"
+  ]
+ },
+ {
+  "id": "hrfinance-209",
+  "term": "대손충당금",
+  "definition": "채권에서 예상되는 회수 손실을 추정해 장부에 반영한 금액.",
+  "example": "회수 전망이 악화된 채권의 대손충당금을 재검토했어요.",
+  "category": "매출·매입·채권",
+  "aliases": [
+   "Allowance for Doubtful Accounts"
+  ]
+ },
+ {
+  "id": "hrfinance-210",
+  "term": "대손상각",
+  "definition": "회수 불가능해진 채권을 장부에서 제거하거나 손실로 처리하는 것.",
+  "example": "승인된 장기 채권에 대해 대손상각 분개를 반영했어요.",
+  "category": "매출·매입·채권",
+  "aliases": [
+   "Bad Debt Write-off"
+  ]
+ },
+ {
+  "id": "hrfinance-211",
+  "term": "수금",
+  "definition": "고객이나 거래처에서 받을 대금을 실제로 받는 일.",
+  "example": "이번 주 수금 예정액을 자금 계획에 반영해 주세요.",
+  "category": "매출·매입·채권",
+  "aliases": [
+   "Collection"
+  ]
+ },
+ {
+  "id": "hrfinance-212",
+  "term": "입금 매칭",
+  "definition": "들어온 입금액을 해당 거래처·청구 건·채권에 연결하는 작업.",
+  "example": "입금자명이 달라서 거래처에 확인한 뒤 입금 매칭했어요.",
+  "category": "매출·매입·채권",
+  "aliases": [
+   "입금 대사"
+  ]
+ },
+ {
+  "id": "hrfinance-213",
+  "term": "상계",
+  "definition": "서로 주고받을 채권과 채무 등을 요건과 합의에 따라 대등한 금액만큼 없애는 처리.",
+  "example": "거래처와 상계 가능 여부를 확인한 뒤 잔액을 정산했어요.",
+  "category": "매출·매입·채권",
+  "aliases": [
+   "Offsetting"
+  ]
+ },
+ {
+  "id": "hrfinance-214",
+  "term": "매출 인식",
+  "definition": "적용 회계 기준에 따라 재화·용역 제공의 수익을 장부에 반영하는 것.",
+  "example": "입금일과 매출 인식일이 항상 같은 것은 아니에요.",
+  "category": "매출·매입·채권",
+  "aliases": [
+   "수익 인식",
+   "Revenue Recognition"
+  ]
+ },
+ {
+  "id": "hrfinance-215",
+  "term": "매출 차감",
+  "definition": "반품·할인 등으로 최초 매출액에서 금액을 줄여 반영하는 처리.",
+  "example": "확정된 반품 금액을 이번 달 매출 차감에 넣었어요.",
+  "category": "매출·매입·채권",
+  "aliases": [
+   "매출 공제"
+  ]
+ },
+ {
+  "id": "hrfinance-216",
+  "term": "매출총이익",
+  "definition": "매출액에서 매출원가를 뺀 금액.",
+  "example": "원재료비 상승으로 매출총이익이 예상보다 줄었어요.",
+  "category": "매출·매입·채권",
+  "aliases": [
+   "Gross Profit",
+   "GP",
+   "매총",
+   "지피"
+  ]
+ },
+ {
+  "id": "hrfinance-217",
+  "term": "매출원가",
+  "definition": "해당 기간에 판매한 재화나 제공한 용역에 대응하는 원가.",
+  "example": "출고분과 매출원가 반영분의 차이를 확인해 주세요.",
+  "category": "매출·매입·채권",
+  "aliases": [
+   "COGS"
+  ]
+ },
+ {
+  "id": "hrfinance-218",
+  "term": "판매관리비",
+  "definition": "판매 활동과 회사의 관리·운영에 발생하는 비용을 묶은 항목.",
+  "example": "부서별 판매관리비 증가 내역을 정리했어요.",
+  "category": "매출·매입·채권",
+  "aliases": [
+   "판관비",
+   "SG&A",
+   "에스지앤에이",
+   "SGA",
+   "판관"
+  ]
+ },
+ {
+  "id": "hrfinance-219",
+  "term": "영업이익",
+  "definition": "매출 등 영업 수익에서 관련 영업 비용을 차감한 영업활동의 손익.",
+  "example": "매출은 늘었지만 판관비가 증가해 영업이익은 줄었어요.",
+  "category": "매출·매입·채권",
+  "aliases": [
+   "Operating Profit",
+   "OP",
+   "오피"
+  ]
+ },
+ {
+  "id": "hrfinance-220",
+  "term": "당기순이익",
+  "definition": "해당 회계기간의 수익과 비용, 법인세 비용 등을 반영한 최종 손익.",
+  "example": "영업이익과 당기순이익 차이의 주요 원인을 설명해 주세요.",
+  "category": "매출·매입·채권",
+  "aliases": [
+   "Net Income",
+   "NI",
+   "NP",
+   "Net Profit",
+   "넷인컴",
+   "순익"
+  ]
+ },
+ {
+  "id": "hrfinance-221",
+  "term": "결산",
+  "definition": "회계기간의 거래를 마무리하고 조정해 재무 상태와 손익을 확정하는 과정.",
+  "example": "결산 전에 누락된 비용 증빙을 모두 제출해 주세요.",
+  "category": "결산·회계처리",
+  "aliases": [
+   "Closing"
+  ]
+ },
+ {
+  "id": "hrfinance-222",
+  "term": "월마감",
+  "definition": "월 단위로 거래 입력과 검토를 마치고 장부와 실적을 정리하는 업무.",
+  "example": "월마감 일정에 맞춰 미승인 전표를 처리해 주세요.",
+  "category": "결산·회계처리",
+  "aliases": [
+   "월 마감",
+   "월결산",
+   "월차 결산",
+   "월차 마감",
+   "월차결산",
+   "먼슬리 클로징",
+   "월말 마감"
+  ]
+ },
+ {
+  "id": "hrfinance-223",
+  "term": "결산조정",
+  "definition": "기간 귀속과 평가 등을 맞추기 위해 결산 시 추가하거나 수정하는 회계 처리.",
+  "example": "감가상각과 미지급비용을 결산조정에 반영했어요.",
+  "category": "결산·회계처리",
+  "aliases": [
+   "결산 분개"
+  ]
+ },
+ {
+  "id": "hrfinance-224",
+  "term": "발생주의",
+  "definition": "현금의 수수 시점보다 거래나 경제적 사건이 발생한 기간에 수익·비용 등을 인식하는 방식.",
+  "example": "아직 결제하지 않은 용역비도 발생주의에 따라 검토합니다.",
+  "category": "결산·회계처리",
+  "aliases": [
+   "Accrual Basis"
+  ]
+ },
+ {
+  "id": "hrfinance-225",
+  "term": "현금주의",
+  "definition": "현금을 실제로 받거나 지급한 시점을 기준으로 수익·비용 등을 기록하는 방식.",
+  "example": "현금주의 집계와 발생주의 손익의 차이를 설명했어요.",
+  "category": "결산·회계처리",
+  "aliases": [
+   "Cash Basis"
+  ]
+ },
+ {
+  "id": "hrfinance-226",
+  "term": "기간 귀속",
+  "definition": "거래의 수익이나 비용이 어느 회계기간에 해당하는지 판단하는 것.",
+  "example": "청구서는 다음 달에 와도 용역 제공 기간을 보고 기간 귀속을 확인해요.",
+  "category": "결산·회계처리",
+  "aliases": [
+   "Period Attribution"
+  ]
+ },
+ {
+  "id": "hrfinance-227",
+  "term": "컷오프",
+  "definition": "거래가 올바른 회계기간에 기록됐는지 구분하고 확인하는 결산 기준이나 절차.",
+  "example": "월말 출고분의 매출 컷오프를 다시 점검해 주세요.",
+  "category": "결산·회계처리",
+  "aliases": [
+   "Cut-off",
+   "컷옵",
+   "커트오프",
+   "커트 오프",
+   "Cutoff"
+  ]
+ },
+ {
+  "id": "hrfinance-228",
+  "term": "감가상각",
+  "definition": "유형자산의 상각 대상 금액을 사용 기간에 걸쳐 체계적으로 비용 배분하는 것.",
+  "example": "새 장비의 사용 개시일을 기준으로 감가상각을 계산했어요.",
+  "category": "결산·회계처리",
+  "aliases": [
+   "Depreciation",
+   "감가",
+   "디프리"
+  ]
+ },
+ {
+  "id": "hrfinance-229",
+  "term": "무형자산상각",
+  "definition": "내용연수가 유한한 무형자산의 상각 대상 금액을 사용 기간에 걸쳐 배분하는 것.",
+  "example": "소프트웨어의 무형자산상각 기간을 확인해 주세요.",
+  "category": "결산·회계처리",
+  "aliases": [
+   "Amortisation",
+   "무형자산 상각",
+   "아모티제이션",
+   "아모타이제이션",
+   "Amortization"
+  ]
+ },
+ {
+  "id": "hrfinance-230",
+  "term": "내용연수",
+  "definition": "자산을 사용할 것으로 예상하는 기간이나 생산량 등의 사용 가능 범위.",
+  "example": "기계 교체 계획이 바뀌어 내용연수 추정을 검토했어요.",
+  "category": "결산·회계처리",
+  "aliases": [
+   "Useful Life"
+  ]
+ },
+ {
+  "id": "hrfinance-231",
+  "term": "잔존가치",
+  "definition": "자산의 사용 종료 시 처분으로 회수할 것으로 예상하는 금액에서 처분원가를 뺀 추정액.",
+  "example": "감가상각 계산에 적용한 잔존가치를 다시 확인했어요.",
+  "category": "결산·회계처리",
+  "aliases": [
+   "Residual Value"
+  ]
+ },
+ {
+  "id": "hrfinance-232",
+  "term": "손상차손",
+  "definition": "자산의 장부금액이 회수가능액 등을 초과해 가치를 낮추며 인식하는 손실.",
+  "example": "실적이 부진한 사업 자산의 손상차손 여부를 검토합니다.",
+  "category": "결산·회계처리",
+  "aliases": [
+   "Impairment Loss"
+  ]
+ },
+ {
+  "id": "hrfinance-233",
+  "term": "장부가액",
+  "definition": "회계 장부에 인식되어 있는 자산이나 부채의 금액.",
+  "example": "매각 가격과 장부가액의 차이를 계산했어요.",
+  "category": "결산·회계처리",
+  "aliases": [
+   "장부금액",
+   "Carrying Amount"
+  ]
+ },
+ {
+  "id": "hrfinance-234",
+  "term": "재고실사",
+  "definition": "실제 보유 재고의 수량과 상태를 확인해 장부와 비교하는 작업.",
+  "example": "재고실사 차이가 난 품목은 출고 기록부터 확인해 주세요.",
+  "category": "결산·회계처리",
+  "aliases": [
+   "재고 조사"
+  ]
+ },
+ {
+  "id": "hrfinance-235",
+  "term": "대사",
+  "definition": "서로 다른 장부·자료의 금액이나 내역을 비교해 차이를 확인하고 맞추는 작업.",
+  "example": "은행 거래 내역과 현금 계정 잔액을 대사했어요.",
+  "category": "결산·회계처리",
+  "aliases": [
+   "Reconciliation",
+   "리컨",
+   "리콘",
+   "리컨실리에이션",
+   "리컨실리",
+   "대사하다",
+   "맞대사"
+  ]
+ },
+ {
+  "id": "hrfinance-236",
+  "term": "은행잔액조정",
+  "definition": "은행 명세서와 회사 장부의 잔액 차이를 미처리 거래 등으로 설명하고 조정하는 절차.",
+  "example": "미반영 수수료를 찾아 은행잔액조정표에 넣었어요.",
+  "category": "결산·회계처리",
+  "aliases": [
+   "Bank Reconciliation"
+  ]
+ },
+ {
+  "id": "hrfinance-237",
+  "term": "환산",
+  "definition": "외화 표시 거래나 잔액을 적용 기준에 맞는 환율로 보고 통화 금액으로 바꾸는 것.",
+  "example": "결산일 외화 잔액의 환산 내역을 확인해 주세요.",
+  "category": "결산·회계처리",
+  "aliases": [
+   "외화 환산"
+  ]
+ },
+ {
+  "id": "hrfinance-238",
+  "term": "환차손익",
+  "definition": "외화 거래의 결제나 잔액 평가 과정에서 환율 변동으로 발생하는 손익.",
+  "example": "달러 대금 결제에서 발생한 환차손익을 구분했어요.",
+  "category": "결산·회계처리",
+  "aliases": [
+   "외환차손익",
+   "환율 차이"
+  ]
+ },
+ {
+  "id": "hrfinance-239",
+  "term": "연결결산",
+  "definition": "지배기업과 종속기업을 하나의 경제적 실체로 보고 내부 거래 등을 조정해 결산하는 작업.",
+  "example": "종속기업 자료를 받아 연결결산 조정을 진행하고 있어요.",
+  "category": "결산·회계처리",
+  "aliases": [
+   "Consolidation",
+   "콘솔",
+   "컨솔",
+   "연결 마감"
+  ]
+ },
+ {
+  "id": "hrfinance-240",
+  "term": "내부거래 제거",
+  "definition": "연결재무제표에서 그룹 내부 거래와 잔액 등이 중복 반영되지 않도록 없애는 조정.",
+  "example": "계열사 간 매출과 채권은 내부거래 제거 대상인지 확인합니다.",
+  "category": "결산·회계처리",
+  "aliases": [
+   "연결 제거"
+  ]
+ },
+ {
+  "id": "hrfinance-241",
+  "term": "원가",
+  "definition": "재화나 용역을 취득·생산하거나 특정 활동을 수행하기 위해 투입한 자원의 금액.",
+  "example": "제품별 원가를 계산할 때 포장비 포함 여부를 맞춰 주세요.",
+  "category": "원가·예산",
+  "aliases": [
+   "Cost"
+  ]
+ },
+ {
+  "id": "hrfinance-242",
+  "term": "직접비",
+  "definition": "특정 제품·프로젝트 등에 직접 연결해 식별할 수 있는 비용.",
+  "example": "해당 프로젝트 전담 외주비는 직접비로 집계했어요.",
+  "category": "원가·예산",
+  "aliases": [
+   "Direct Cost"
+  ]
+ },
+ {
+  "id": "hrfinance-243",
+  "term": "간접비",
+  "definition": "여러 제품·부서 등에 공통으로 발생해 특정 대상에 직접 연결하기 어려운 비용.",
+  "example": "공용 설비의 간접비 배부 기준을 검토해 주세요.",
+  "category": "원가·예산",
+  "aliases": [
+   "Indirect Cost"
+  ]
+ },
+ {
+  "id": "hrfinance-244",
+  "term": "고정비",
+  "definition": "일정한 활동 범위에서 생산량이나 판매량 변동과 무관하게 총액이 대체로 일정한 비용.",
+  "example": "판매량이 줄어도 임차료 같은 고정비는 계속 발생해요.",
+  "category": "원가·예산",
+  "aliases": [
+   "Fixed Cost"
+  ]
+ },
+ {
+  "id": "hrfinance-245",
+  "term": "변동비",
+  "definition": "생산량이나 판매량 등 활동 수준에 따라 총액이 변하는 비용.",
+  "example": "판매량 가정이 바뀌어 변동비 예산도 수정했어요.",
+  "category": "원가·예산",
+  "aliases": [
+   "Variable Cost"
+  ]
+ },
+ {
+  "id": "hrfinance-246",
+  "term": "원가배부",
+  "definition": "공통으로 발생한 원가를 정한 기준에 따라 부서·제품 등에 나누어 배정하는 것.",
+  "example": "공용 창고비의 원가배부 기준을 면적으로 정했어요.",
+  "category": "원가·예산",
+  "aliases": [
+   "Cost Allocation"
+  ]
+ },
+ {
+  "id": "hrfinance-247",
+  "term": "배부기준",
+  "definition": "공통 원가를 나누기 위해 사용하는 인원·면적·작업시간 등의 기준.",
+  "example": "부서 인원이 바뀌어 배부기준을 업데이트했어요.",
+  "category": "원가·예산",
+  "aliases": [
+   "배부 기준"
+  ]
+ },
+ {
+  "id": "hrfinance-248",
+  "term": "표준원가",
+  "definition": "정상적인 작업 조건 등을 가정해 사전에 설정한 제품이나 작업의 기준 원가.",
+  "example": "실제 투입량을 표준원가 계산의 가정과 비교했어요.",
+  "category": "원가·예산",
+  "aliases": [
+   "Standard Cost"
+  ]
+ },
+ {
+  "id": "hrfinance-249",
+  "term": "실제원가",
+  "definition": "실제로 발생한 자원 투입과 금액을 바탕으로 계산한 원가.",
+  "example": "월마감 후 실제원가와 계획 원가의 차이를 분석합니다.",
+  "category": "원가·예산",
+  "aliases": [
+   "Actual Cost"
+  ]
+ },
+ {
+  "id": "hrfinance-250",
+  "term": "원가차이",
+  "definition": "기준·예산 원가와 실제 원가 사이의 차이.",
+  "example": "원가차이를 구매 단가와 사용 수량 요인으로 나눴어요.",
+  "category": "원가·예산",
+  "aliases": [
+   "Cost Variance"
+  ]
+ },
+ {
+  "id": "hrfinance-251",
+  "term": "공헌이익",
+  "definition": "매출액에서 변동비를 뺀 금액. 고정비 회수와 이익에 기여하는 정도를 본다.",
+  "example": "할인안을 적용해도 공헌이익이 남는지 계산해 주세요.",
+  "category": "원가·예산",
+  "aliases": [
+   "Contribution Margin"
+  ]
+ },
+ {
+  "id": "hrfinance-252",
+  "term": "손익분기점",
+  "definition": "총수익과 총비용이 같아 이익도 손실도 발생하지 않는 매출이나 활동 수준.",
+  "example": "새 매장의 손익분기점 매출을 검토했어요.",
+  "category": "원가·예산",
+  "aliases": [
+   "BEP",
+   "Break-even Point"
+  ]
+ },
+ {
+  "id": "hrfinance-253",
+  "term": "예산",
+  "definition": "일정 기간의 수입·지출·자원 사용 등을 미리 계획한 금액.",
+  "example": "부서별 예산안을 다음 주까지 취합할게요.",
+  "category": "원가·예산",
+  "aliases": [
+   "Budget",
+   "BGT",
+   "버짓",
+   "버젯"
+  ]
+ },
+ {
+  "id": "hrfinance-254",
+  "term": "예산 편성",
+  "definition": "사업 계획에 맞춰 부서·항목별 예산을 수립하고 조정하는 과정.",
+  "example": "채용 계획을 반영해 인건비 예산 편성을 시작했어요.",
+  "category": "원가·예산",
+  "aliases": [
+   "Budgeting"
+  ]
+ },
+ {
+  "id": "hrfinance-255",
+  "term": "예산 집행",
+  "definition": "승인된 예산 범위에서 지출이나 자원 사용을 실행하는 것.",
+  "example": "이번 장비 구매는 승인된 예산 집행 건인가요?",
+  "category": "원가·예산",
+  "aliases": [
+   "Budget Execution"
+  ]
+ },
+ {
+  "id": "hrfinance-256",
+  "term": "예산 전용",
+  "definition": "정해진 승인 절차에 따라 예산을 다른 항목이나 부서 등의 용도로 옮겨 사용하는 것.",
+  "example": "교육비 잔액을 다른 용도로 쓰려면 예산 전용 승인이 필요해요.",
+  "category": "원가·예산",
+  "aliases": [
+   "예산 이체"
+  ]
+ },
+ {
+  "id": "hrfinance-257",
+  "term": "추가경정예산",
+  "definition": "기존 예산을 변경하거나 추가할 필요가 생겨 다시 편성하는 예산.",
+  "example": "신규 사업이 확정돼 추경안을 작성하고 있어요.",
+  "category": "원가·예산",
+  "aliases": [
+   "추경"
+  ]
+ },
+ {
+  "id": "hrfinance-258",
+  "term": "예실대비",
+  "definition": "예산과 실제 집행·성과를 비교해 차이와 원인을 확인하는 분석.",
+  "example": "예실대비표에 집행 지연 사유를 함께 적어 주세요.",
+  "category": "원가·예산",
+  "aliases": [
+   "예산 실적 대비",
+   "예실",
+   "예대실",
+   "BvA",
+   "Budget vs Actual",
+   "예실 분석"
+  ]
+ },
+ {
+  "id": "hrfinance-259",
+  "term": "롤링 포캐스트",
+  "definition": "새 실적과 정보를 반영하며 전망 기간을 계속 갱신하는 방식.",
+  "example": "매달 롤링 포캐스트로 향후 자금 수요를 업데이트해요.",
+  "category": "원가·예산",
+  "aliases": [
+   "Rolling Forecast",
+   "수정 전망"
+  ]
+ },
+ {
+  "id": "hrfinance-260",
+  "term": "코스트센터",
+  "definition": "비용을 집계하고 책임을 관리하기 위해 구분한 부서나 관리 단위.",
+  "example": "신규 조직의 코스트센터를 먼저 생성해 주세요.",
+  "category": "원가·예산",
+  "aliases": [
+   "Cost Center",
+   "비용센터"
+  ]
+ },
+ {
+  "id": "hrfinance-261",
+  "term": "자금수지",
+  "definition": "일정 기간 예상 또는 실제 자금 유입과 유출을 정리한 내역.",
+  "example": "대금 지급이 몰리는 주의 자금수지를 먼저 확인했어요.",
+  "category": "자금·재무분석",
+  "aliases": [
+   "Cash Budget"
+  ]
+ },
+ {
+  "id": "hrfinance-262",
+  "term": "유동성",
+  "definition": "필요한 시점에 지급 의무를 이행할 수 있는 자금 확보 능력.",
+  "example": "큰 대금 지급 전에 단기 유동성을 점검해 주세요.",
+  "category": "자금·재무분석",
+  "aliases": [
+   "Liquidity"
+  ]
+ },
+ {
+  "id": "hrfinance-263",
+  "term": "운전자본",
+  "definition": "영업 운영에 필요한 자금 수준을 보는 개념. 순운전자본은 보통 유동자산에서 유동부채를 뺀 금액이다.",
+  "example": "재고와 채권이 늘면서 운전자본 부담이 커졌어요.",
+  "category": "자금·재무분석",
+  "aliases": [
+   "Working Capital"
+  ]
+ },
+ {
+  "id": "hrfinance-264",
+  "term": "현금성자산",
+  "definition": "정해진 금액의 현금으로 쉽게 전환되고 가치 변동 위험이 작은 단기 고유동성 투자자산.",
+  "example": "해당 단기 금융상품이 현금성자산 요건에 맞는지 검토합니다.",
+  "category": "자금·재무분석",
+  "aliases": [
+   "Cash Equivalents"
+  ]
+ },
+ {
+  "id": "hrfinance-265",
+  "term": "영업활동현금흐름",
+  "definition": "기업의 주된 수익 창출 활동 등 영업활동에서 발생한 현금 흐름.",
+  "example": "채권 회수가 늦어져 영업활동현금흐름이 감소했어요.",
+  "category": "자금·재무분석",
+  "aliases": [
+   "영업 현금흐름",
+   "CFO cash flow",
+   "OCF",
+   "CFO",
+   "Cash Flow from Operations",
+   "Operating Cash Flow"
+  ]
+ },
+ {
+  "id": "hrfinance-266",
+  "term": "투자활동현금흐름",
+  "definition": "장기자산 등의 취득·처분과 관련한 투자활동에서 발생한 현금 흐름.",
+  "example": "공장 설비 구입으로 투자활동현금흐름에 지출이 잡혔어요.",
+  "category": "자금·재무분석",
+  "aliases": [
+   "투자 현금흐름",
+   "CFI",
+   "Cash Flow from Investing Activities"
+  ]
+ },
+ {
+  "id": "hrfinance-267",
+  "term": "재무활동현금흐름",
+  "definition": "자본과 차입금의 규모·구성을 바꾸는 재무활동에서 발생한 현금 흐름.",
+  "example": "차입금 상환을 재무활동현금흐름으로 분류했어요.",
+  "category": "자금·재무분석",
+  "aliases": [
+   "재무 현금흐름",
+   "CFF",
+   "Cash Flow from Financing Activities"
+  ]
+ },
+ {
+  "id": "hrfinance-268",
+  "term": "차입금",
+  "definition": "외부에서 빌려 상환 의무가 있는 자금.",
+  "example": "다음 분기 차입금 만기 일정을 정리해 주세요.",
+  "category": "자금·재무분석",
+  "aliases": [
+   "Borrowings"
+  ]
+ },
+ {
+  "id": "hrfinance-269",
+  "term": "차입한도",
+  "definition": "금융기관과 약정한 조건에 따라 빌릴 수 있는 금액의 한도.",
+  "example": "추가 대출 전에 남은 차입한도를 확인했어요.",
+  "category": "자금·재무분석",
+  "aliases": [
+   "여신한도"
+  ]
+ },
+ {
+  "id": "hrfinance-270",
+  "term": "약정",
+  "definition": "자금 거래의 금액·기간·금리·준수 조건 등을 당사자 간 정해 놓은 계약 내용.",
+  "example": "새 대출 약정에 재무비율 유지 조건이 있는지 검토해 주세요.",
+  "category": "자금·재무분석",
+  "aliases": [
+   "금융 약정"
+  ]
+ },
+ {
+  "id": "hrfinance-271",
+  "term": "만기",
+  "definition": "채무 상환이나 금융상품 계약 종료 등 정해진 의무가 도래하는 시점.",
+  "example": "같은 달에 만기가 몰리지 않도록 자금 일정을 조정했어요.",
+  "category": "자금·재무분석",
+  "aliases": [
+   "Maturity"
+  ]
+ },
+ {
+  "id": "hrfinance-272",
+  "term": "차환",
+  "definition": "기존 차입금을 갚기 위해 새 차입이나 채권 발행으로 자금을 조달하는 것.",
+  "example": "만기 차입금의 차환 조건을 금융기관과 협의하고 있어요.",
+  "category": "자금·재무분석",
+  "aliases": [
+   "Refinancing"
+  ]
+ },
+ {
+  "id": "hrfinance-273",
+  "term": "자본적지출",
+  "definition": "장기간 사용할 자산의 취득·개선 등으로 자산에 반영하는 지출.",
+  "example": "새 생산설비 구매는 CAPEX 계획에 포함했어요.",
+  "category": "자금·재무분석",
+  "aliases": [
+   "CAPEX",
+   "자본적 지출",
+   "캐펙스",
+   "카펙스",
+   "캐팩스",
+   "캡엑스"
+  ]
+ },
+ {
+  "id": "hrfinance-274",
+  "term": "운영비",
+  "definition": "사업의 일상적인 운영에 발생하는 비용을 가리키는 관리상 표현.",
+  "example": "시스템 도입비와 이후 월 운영비를 나누어 비교해 주세요.",
+  "category": "자금·재무분석",
+  "aliases": [
+   "OPEX",
+   "운영 지출",
+   "오펙스",
+   "오팩스"
+  ]
+ },
+ {
+  "id": "hrfinance-275",
+  "term": "EBITDA",
+  "definition": "이자·법인세·감가상각·무형자산상각 영향을 차감하기 전 이익을 보는 지표. 산정 기준은 자료별로 확인해야 한다.",
+  "example": "기업 간 EBITDA를 비교하기 전에 조정 항목을 맞춰 봅시다.",
+  "note": "에비따·에비타 등은 EBITDA를 소리 내어 부르는 표현입니다. EBITDA는 실제 현금흐름과 같지 않으며 운전자본·투자 지출 등을 함께 봐야 합니다.",
+  "category": "자금·재무분석",
+  "aliases": [
+   "상각전영업이익",
+   "에비따",
+   "에비타",
+   "에빗다",
+   "이비따",
+   "이비타",
+   "이빗다"
+  ]
+ },
+ {
+  "id": "hrfinance-276",
+  "term": "부채비율",
+  "definition": "부채를 자본과 비교해 자본구조를 보는 비율.",
+  "example": "차입 계획을 반영한 뒤 부채비율이 어떻게 변하는지 계산했어요.",
+  "category": "자금·재무분석",
+  "aliases": [
+   "Debt-to-equity Ratio"
+  ]
+ },
+ {
+  "id": "hrfinance-277",
+  "term": "유동비율",
+  "definition": "유동자산을 유동부채와 비교해 단기 지급 능력을 살펴보는 비율.",
+  "example": "유동비율과 함께 재고의 현금화 가능성도 확인해 주세요.",
+  "category": "자금·재무분석",
+  "aliases": [
+   "Current Ratio"
+  ]
+ },
+ {
+  "id": "hrfinance-278",
+  "term": "매출채권회전일수",
+  "definition": "매출채권을 현금으로 회수하는 데 걸리는 평균 기간을 추정한 지표.",
+  "example": "대형 거래처의 결제 지연으로 DSO가 늘었어요.",
+  "category": "자금·재무분석",
+  "aliases": [
+   "DSO"
+  ]
+ },
+ {
+  "id": "hrfinance-279",
+  "term": "순차입금",
+  "definition": "차입금에서 현금성 자금 등을 차감해 보는 순수 차입 부담. 포함 항목은 산정 기준에 따라 달라진다.",
+  "example": "순차입금 계산에 어떤 금융자산을 차감했는지 표시해 주세요.",
+  "category": "자금·재무분석",
+  "aliases": [
+   "Net Debt"
+  ]
+ },
+ {
+  "id": "hrfinance-280",
+  "term": "잉여현금흐름",
+  "definition": "영업으로 만든 현금에서 설비 투자 등을 차감해 여유 자금을 보는 지표. 분석 목적에 따라 계산 방식이 달라진다.",
+  "example": "설비 투자 증가가 잉여현금흐름에 미치는 영향을 검토했어요.",
+  "category": "자금·재무분석",
+  "aliases": [
+   "FCF",
+   "Free Cash Flow",
+   "프리캐시플로우",
+   "프리 캐시 플로우",
+   "에프씨에프"
+  ]
+ },
+ {
+  "id": "hrfinance-281",
+  "term": "세무조정",
+  "definition": "회계상 이익과 세법상 소득 계산의 차이를 조정하는 작업.",
+  "example": "결산 후 법인세 신고를 위한 세무조정을 진행합니다.",
+  "note": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+  "category": "세무·신고",
+  "aliases": [
+   "Tax Adjustment"
+  ]
+ },
+ {
+  "id": "hrfinance-282",
+  "term": "손금",
+  "definition": "세법상 소득 계산에서 차감하는 비용이나 손실 항목.",
+  "example": "회계상 비용이어도 세법상 손금 인정 여부는 별도로 확인해요.",
+  "note": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+  "category": "세무·신고",
+  "aliases": [
+   "Tax-deductible Expense"
+  ]
+ },
+ {
+  "id": "hrfinance-283",
+  "term": "손금불산입",
+  "definition": "회계상 비용 등을 세무상 소득 계산에서는 차감하지 않는 조정.",
+  "example": "증빙 요건을 충족하지 못한 비용의 손금불산입 여부를 검토해 주세요.",
+  "note": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+  "category": "세무·신고",
+  "aliases": [
+   "손금 불산입"
+  ]
+ },
+ {
+  "id": "hrfinance-284",
+  "term": "익금",
+  "definition": "세법상 소득 계산에 포함하는 수익 등의 항목.",
+  "example": "회계 처리와 별도로 익금에 해당하는지 확인했어요.",
+  "note": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+  "category": "세무·신고",
+  "aliases": [
+   "Taxable Revenue"
+  ]
+ },
+ {
+  "id": "hrfinance-285",
+  "term": "익금불산입",
+  "definition": "회계상 수익 등을 세무상 소득 계산에서는 포함하지 않는 조정.",
+  "example": "해당 수익의 익금불산입 요건을 세무 담당자에게 확인했어요.",
+  "note": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+  "category": "세무·신고",
+  "aliases": [
+   "익금 불산입"
+  ]
+ }
+]

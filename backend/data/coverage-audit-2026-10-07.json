@@ -1,0 +1,905 @@
+{
+  "date": "2026-10-07",
+  "previous": 2445,
+  "total": 2882,
+  "added": 437,
+  "updated": 109,
+  "addedByField": {
+    "hrfinance": 204,
+    "marketing": 43,
+    "dev": 43,
+    "fashion": 43,
+    "film": 41,
+    "design": 43,
+    "common": 20
+  },
+  "updatedRows": [
+    {
+      "id": "marketing-001",
+      "field": "marketing",
+      "term": "CPC",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "marketing-002",
+      "field": "marketing",
+      "term": "CPM",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "marketing-005",
+      "field": "marketing",
+      "term": "CTR",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "marketing-006",
+      "field": "marketing",
+      "term": "ROAS",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "marketing-007",
+      "field": "marketing",
+      "term": "CVR",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "marketing-008",
+      "field": "marketing",
+      "term": "CPA",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "dev-004",
+      "field": "dev",
+      "term": "풀 리퀘스트",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "dev-021",
+      "field": "dev",
+      "term": "QA",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "design-001",
+      "field": "design",
+      "term": "누끼",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "design-006",
+      "field": "design",
+      "term": "벡터",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "design-007",
+      "field": "design",
+      "term": "래스터",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "fashion-003",
+      "field": "fashion",
+      "term": "시아게",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "film-034",
+      "field": "film",
+      "term": "B롤",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "film-035",
+      "field": "film",
+      "term": "시마이",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "film-067",
+      "field": "film",
+      "term": "포커스 풀러",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "common-009",
+      "field": "common",
+      "term": "컨펌",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "marketing-029",
+      "field": "marketing",
+      "term": "키비주얼",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "common-010",
+      "field": "common",
+      "term": "킥오프",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "common-011",
+      "field": "common",
+      "term": "어젠다",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "common-012",
+      "field": "common",
+      "term": "액션 아이템",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "marketing-042",
+      "field": "marketing",
+      "term": "AE",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "marketing-044",
+      "field": "marketing",
+      "term": "미디어 플래닝",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "marketing-048",
+      "field": "marketing",
+      "term": "아트 디렉터",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "marketing-049",
+      "field": "marketing",
+      "term": "카피라이터",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "marketing-050",
+      "field": "marketing",
+      "term": "광고 소재",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "fashion-054",
+      "field": "fashion",
+      "term": "VMD",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "fashion-056",
+      "field": "fashion",
+      "term": "MOQ",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "fashion-057",
+      "field": "fashion",
+      "term": "PO",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "fashion-077",
+      "field": "fashion",
+      "term": "판매율",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "dev-069",
+      "field": "dev",
+      "term": "리팩터링",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "dev-077",
+      "field": "dev",
+      "term": "배포",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "dev-079",
+      "field": "dev",
+      "term": "핫픽스",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "design-047",
+      "field": "design",
+      "term": "컴포넌트",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "common-018",
+      "field": "common",
+      "term": "디벨롭",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "design-077",
+      "field": "design",
+      "term": "오토 레이아웃",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "common-023",
+      "field": "common",
+      "term": "아삽",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "common-027",
+      "field": "common",
+      "term": "얼라인",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "common-028",
+      "field": "common",
+      "term": "팔로업",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "common-031",
+      "field": "common",
+      "term": "R&R",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "dev-139",
+      "field": "dev",
+      "term": "레거시",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "marketing-123",
+      "field": "marketing",
+      "term": "크리에이티브 디렉터",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "film-200",
+      "field": "film",
+      "term": "D.I",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "film-221",
+      "field": "film",
+      "term": "동시녹음",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "film-233",
+      "field": "film",
+      "term": "듀레이션",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "film-243",
+      "field": "film",
+      "term": "클린본",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "film-244",
+      "field": "film",
+      "term": "오프라인 편집",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "film-255",
+      "field": "film",
+      "term": "후시녹음",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "common-097",
+      "field": "common",
+      "term": "회의록",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "marketing-350",
+      "field": "marketing",
+      "term": "TVC",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "dev-251",
+      "field": "dev",
+      "term": "프론트엔드 개발자",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "dev-252",
+      "field": "dev",
+      "term": "백엔드",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "dev-255",
+      "field": "dev",
+      "term": "SRE",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "dev-256",
+      "field": "dev",
+      "term": "DBA",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "dev-271",
+      "field": "dev",
+      "term": "SQL",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "dev-292",
+      "field": "dev",
+      "term": "디버깅",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "dev-314",
+      "field": "dev",
+      "term": "데드락",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "fashion-373",
+      "field": "fashion",
+      "term": "텐타",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "fashion-383",
+      "field": "fashion",
+      "term": "PP 샘플",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "fashion-384",
+      "field": "fashion",
+      "term": "TOP 샘플",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "fashion-391",
+      "field": "fashion",
+      "term": "스티치",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "fashion-397",
+      "field": "fashion",
+      "term": "불량",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "design-321",
+      "field": "design",
+      "term": "그라데이션",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "design-327",
+      "field": "design",
+      "term": "아웃라인",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "fashion-445",
+      "field": "fashion",
+      "term": "립",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "dev-379",
+      "field": "dev",
+      "term": "POC",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "common-141",
+      "field": "common",
+      "term": "리비전",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "common-142",
+      "field": "common",
+      "term": "사인오프",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "dev-395",
+      "field": "dev",
+      "term": "스파게티 코드",
+      "changed": [
+        "note",
+        "aliases"
+      ]
+    },
+    {
+      "id": "dev-396",
+      "field": "dev",
+      "term": "땜질",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "film-432",
+      "field": "film",
+      "term": "A롤",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "film-454",
+      "field": "film",
+      "term": "픽처 락",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "common-182",
+      "field": "common",
+      "term": "장표",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-016",
+      "field": "hrfinance",
+      "term": "인사정보시스템",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-023",
+      "field": "hrfinance",
+      "term": "헤드카운트",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-030",
+      "field": "hrfinance",
+      "term": "지원자추적시스템",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-041",
+      "field": "hrfinance",
+      "term": "오퍼 수락률",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-042",
+      "field": "hrfinance",
+      "term": "채용 소요기간",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-043",
+      "field": "hrfinance",
+      "term": "채용 비용",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-130",
+      "field": "hrfinance",
+      "term": "보상밴드",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-140",
+      "field": "hrfinance",
+      "term": "급여 마감",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-167",
+      "field": "hrfinance",
+      "term": "FP&A",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-177",
+      "field": "hrfinance",
+      "term": "총계정원장",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-179",
+      "field": "hrfinance",
+      "term": "시산표",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-182",
+      "field": "hrfinance",
+      "term": "재무상태표",
+      "changed": [
+        "english",
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-183",
+      "field": "hrfinance",
+      "term": "손익계산서",
+      "changed": [
+        "english",
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-184",
+      "field": "hrfinance",
+      "term": "현금흐름표",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-201",
+      "field": "hrfinance",
+      "term": "매출채권",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-202",
+      "field": "hrfinance",
+      "term": "매입채무",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-216",
+      "field": "hrfinance",
+      "term": "매출총이익",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-218",
+      "field": "hrfinance",
+      "term": "판매관리비",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-219",
+      "field": "hrfinance",
+      "term": "영업이익",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-220",
+      "field": "hrfinance",
+      "term": "당기순이익",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-222",
+      "field": "hrfinance",
+      "term": "월마감",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-227",
+      "field": "hrfinance",
+      "term": "컷오프",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-228",
+      "field": "hrfinance",
+      "term": "감가상각",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-229",
+      "field": "hrfinance",
+      "term": "무형자산상각",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-235",
+      "field": "hrfinance",
+      "term": "대사",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-239",
+      "field": "hrfinance",
+      "term": "연결결산",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-253",
+      "field": "hrfinance",
+      "term": "예산",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-258",
+      "field": "hrfinance",
+      "term": "예실대비",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-265",
+      "field": "hrfinance",
+      "term": "영업활동현금흐름",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-266",
+      "field": "hrfinance",
+      "term": "투자활동현금흐름",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-267",
+      "field": "hrfinance",
+      "term": "재무활동현금흐름",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-273",
+      "field": "hrfinance",
+      "term": "자본적지출",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-274",
+      "field": "hrfinance",
+      "term": "운영비",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-275",
+      "field": "hrfinance",
+      "term": "EBITDA",
+      "changed": [
+        "english",
+        "note",
+        "aliases",
+        "sources"
+      ]
+    },
+    {
+      "id": "hrfinance-280",
+      "field": "hrfinance",
+      "term": "잉여현금흐름",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-301",
+      "field": "hrfinance",
+      "term": "기표",
+      "changed": [
+        "aliases"
+      ]
+    },
+    {
+      "id": "hrfinance-302",
+      "field": "hrfinance",
+      "term": "역분개",
+      "changed": [
+        "english",
+        "aliases"
+      ]
+    }
+  ],
+  "scope": "전체 구조·중복·필수값 검사 및 추가 항목의 분야·뜻·예문 편집 검토. 외부 전문가 감수나 모든 항목의 신규 웹 검증을 의미하지 않음.",
+  "decisions": [
+    "브랜드 리프트는 기존 리프트 별칭 유지; 중복 생성 제외",
+    "러닝타임은 듀레이션 별칭으로 통합",
+    "개발 갈아엎다는 기존 엎다로 검색; 중복 생성 제외",
+    "디자인 얼라인의 의견 조율과 요소 정렬은 다른 의미로 유지",
+    "합포의 물류 포장 의미와 원단 접착 가공 의미를 공개 제작·물류 자료로 구분"
+  ]
+}

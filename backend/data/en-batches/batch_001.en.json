@@ -1,0 +1,1315 @@
+[
+ {
+  "id": "film-038",
+  "term": "Whip pan",
+  "definition": "A pan turned left or right so fast that the image blurs.",
+  "example": "We reveal the next person with a whip pan.",
+  "category": "Camera Movement",
+  "aliases": [
+   "Swish pan",
+   "Swing pan"
+  ]
+ },
+ {
+  "id": "film-039",
+  "term": "Dolly in",
+  "definition": "A move where the camera itself gets closer to the subject.",
+  "example": "We dolly in to match the expression.",
+  "category": "Camera Movement",
+  "aliases": [
+   "Push in",
+   "Dolly in"
+  ]
+ },
+ {
+  "id": "film-040",
+  "term": "Dolly out",
+  "definition": "A move where the camera itself moves away from the subject.",
+  "example": "We dolly out to reveal the space.",
+  "category": "Camera Movement",
+  "aliases": [
+   "Pull out",
+   "Dolly out"
+  ]
+ },
+ {
+  "id": "film-041",
+  "term": "Zoom in",
+  "definition": "Making the subject appear larger in frame by increasing the focal length.",
+  "example": "Zoom in on the sign.",
+  "category": "Camera Movement",
+  "aliases": [
+   "Zoom in"
+  ]
+ },
+ {
+  "id": "film-042",
+  "term": "Zoom out",
+  "definition": "Capturing a wider range in frame by decreasing the focal length.",
+  "example": "Zoom out so the surroundings are visible.",
+  "category": "Camera Movement",
+  "aliases": [
+   "Zoom out"
+  ]
+ },
+ {
+  "id": "film-043",
+  "term": "Dolly zoom",
+  "definition": "A technique that changes perspective by combining camera movement with a zoom in the opposite direction.",
+  "example": "We use a dolly zoom at the uneasy moment.",
+  "category": "Camera Movement",
+  "aliases": [
+   "Dolly zoom",
+   "Vertigo effect",
+   "Zolly"
+  ]
+ },
+ {
+  "id": "film-044",
+  "term": "Roll",
+  "definition": "Rotating the camera around the axis pointing toward the lens.",
+  "example": "Give it a tilting feel with a roll.",
+  "note": "On set, 'roll camera' is a cue to start recording, a different usage from the camera rotation described here.",
+  "category": "Camera Movement",
+  "aliases": [
+   "Camera roll",
+   "Roll shot"
+  ]
+ },
+ {
+  "id": "film-045",
+  "term": "Arc shot",
+  "definition": "A shot that moves in an arc around the subject.",
+  "example": "We capture the two people with an arc shot around them.",
+  "category": "Camera Movement",
+  "aliases": [
+   "Arc",
+   "Arc shot"
+  ]
+ },
+ {
+  "id": "film-046",
+  "term": "Fixed shot",
+  "definition": "A shot in which the camera's position and framing do not move.",
+  "example": "This scene is a fixed shot.",
+  "category": "Camera Movement",
+  "aliases": [
+   "Fixed shot",
+   "Static shot"
+  ]
+ },
+ {
+  "id": "film-047",
+  "term": "Pedestal",
+  "definition": "A move that raises or lowers the entire camera vertically.",
+  "example": "We match eye level with a pedestal up.",
+  "category": "Camera Movement",
+  "aliases": [
+   "Pedestal up",
+   "Pedestal down"
+  ]
+ },
+ {
+  "id": "film-048",
+  "term": "Truck",
+  "definition": "A move where the camera travels sideways in parallel.",
+  "example": "We truck right alongside the subject.",
+  "category": "Camera Movement",
+  "aliases": [
+   "Trucking",
+   "Truck left",
+   "Truck right"
+  ]
+ },
+ {
+  "id": "film-049",
+  "term": "Boom shot",
+  "definition": "A shot that moves the camera up and down with a crane or jib arm.",
+  "example": "We reveal the yard with a boom up.",
+  "category": "Camera Movement",
+  "aliases": [
+   "Boom up",
+   "Boom down",
+   "Boom shot"
+  ]
+ },
+ {
+  "id": "film-050",
+  "term": "Handheld",
+  "definition": "A method of shooting while supporting the camera with the hands or shoulder.",
+  "example": "We'll go handheld for the moving scene.",
+  "note": "'Demochi' is a field term found in 1985 language-refinement materials.",
+  "category": "Equipment & Rigs",
+  "aliases": [
+   "Handheld shot",
+   "Demochi"
+  ]
+ },
+ {
+  "id": "film-051",
+  "term": "Tripod",
+  "definition": "Equipment that supports the camera on three legs.",
+  "example": "We put the camera on the tripod.",
+  "category": "Equipment & Rigs",
+  "aliases": [
+   "Tripod"
+  ]
+ },
+ {
+  "id": "film-052",
+  "term": "Dolly",
+  "definition": "A wheeled support rig that carries the camera and moves it smoothly.",
+  "example": "We check the dolly's path of movement.",
+  "category": "Equipment & Rigs",
+  "aliases": [
+   "Dolly",
+   "Camera dolly"
+  ]
+ },
+ {
+  "id": "film-053",
+  "term": "Slider",
+  "definition": "Equipment that moves the camera a short distance along a rail.",
+  "example": "We push the slider past the product.",
+  "category": "Equipment & Rigs",
+  "aliases": [
+   "Camera slider"
+  ]
+ },
+ {
+  "id": "film-054",
+  "term": "Jib",
+  "definition": "Equipment that mounts the camera on a long arm for wide movement.",
+  "example": "We capture the whole stage with a jib.",
+  "note": "'Jimmy Jib' is a field term derived from an equipment brand name. Not every jib is a product of that brand.",
+  "category": "Equipment & Rigs",
+  "aliases": [
+   "Jib arm",
+   "Jimmy Jib",
+   "Crane",
+   "Camera crane"
+  ]
+ },
+ {
+  "id": "film-055",
+  "term": "Steadicam",
+  "definition": "A name for a body-mounted stabilizer class used for smooth moving shots.",
+  "example": "We follow the hallway with a Steadicam.",
+  "note": "Steadicam is an equipment brand name. Don't confuse it as a generic term for all stabilizers or electronic gimbals.",
+  "category": "Equipment & Rigs",
+  "aliases": [
+   "Steadicam"
+  ]
+ },
+ {
+  "id": "film-056",
+  "term": "Gimbal",
+  "definition": "A stabilizer that reduces camera shake by controlling rotation axes.",
+  "example": "Balance the gimbal first.",
+  "category": "Equipment & Rigs",
+  "aliases": [
+   "Gimbal",
+   "Camera gimbal"
+  ]
+ },
+ {
+  "id": "film-057",
+  "term": "Snorricam",
+  "definition": "A device that fixes the camera to an actor's body so it moves with them.",
+  "example": "We fix the figure in place and show them with a Snorricam.",
+  "category": "Equipment & Rigs",
+  "aliases": [
+   "Body mount",
+   "Body rig"
+  ]
+ },
+ {
+  "id": "film-058",
+  "term": "Prime lens",
+  "definition": "A lens with a single fixed focal length.",
+  "example": "Today we use a 50mm prime lens.",
+  "category": "Lenses & Focus",
+  "aliases": [
+   "Prime lens",
+   "Prime"
+  ]
+ },
+ {
+  "id": "film-059",
+  "term": "Zoom lens",
+  "definition": "A lens whose focal length can be changed.",
+  "example": "We adjust the composition with a zoom lens.",
+  "category": "Lenses & Focus",
+  "aliases": [
+   "Zoom lens"
+  ]
+ },
+ {
+  "id": "film-060",
+  "term": "Wide-angle lens",
+  "definition": "A short-focal-length lens that captures a wide angle of view on the same sensor.",
+  "example": "We capture the narrow interior with a wide-angle lens.",
+  "category": "Lenses & Focus",
+  "aliases": [
+   "Wide angle",
+   "Wide lens"
+  ]
+ },
+ {
+  "id": "film-061",
+  "term": "Telephoto lens",
+  "definition": "A long-focal-length lens that captures distant subjects large.",
+  "example": "We shoot the distant stage with a telephoto lens.",
+  "category": "Lenses & Focus",
+  "aliases": [
+   "Telephoto",
+   "Tele"
+  ]
+ },
+ {
+  "id": "film-062",
+  "term": "Standard lens",
+  "definition": "A lens with a focal length near the diagonal length of the sensor.",
+  "example": "We check the composition with a standard lens.",
+  "category": "Lenses & Focus",
+  "aliases": [
+   "Normal lens"
+  ]
+ },
+ {
+  "id": "film-063",
+  "term": "Macro lens",
+  "definition": "A lens designed to capture small subjects large from close up.",
+  "example": "We shoot texture with a macro lens.",
+  "category": "Lenses & Focus",
+  "aliases": [
+   "Macro",
+   "Close-up lens"
+  ]
+ },
+ {
+  "id": "film-064",
+  "term": "Parfocal",
+  "definition": "A lens property where set focus is maintained even when the zoom changes.",
+  "example": "Check that it's parfocal before zooming.",
+  "category": "Lenses & Focus",
+  "aliases": [
+   "Parfocal lens"
+  ]
+ },
+ {
+  "id": "film-065",
+  "term": "Anamorphic",
+  "definition": "A lens method that records the image horizontally compressed and expands it later.",
+  "example": "We expand the image to match the anamorphic.",
+  "category": "Lenses & Focus",
+  "aliases": [
+   "Anamorphic lens"
+  ]
+ },
+ {
+  "id": "film-066",
+  "term": "Rack focus",
+  "definition": "A technique that shifts focus to subjects at different distances within one shot.",
+  "example": "We rack focus from the cup to the figure.",
+  "category": "Lenses & Focus",
+  "aliases": [
+   "Rack focus",
+   "Focus shift"
+  ]
+ },
+ {
+  "id": "film-067",
+  "term": "Focus puller",
+  "definition": "A camera assistant who sets and maintains focus during shooting.",
+  "example": "We coordinate movement with the focus puller.",
+  "category": "Lenses & Focus",
+  "aliases": [
+   "First AC",
+   "1st AC",
+   "Focus man"
+  ]
+ },
+ {
+  "id": "film-068",
+  "term": "Follow focus",
+  "definition": "A device that helps precisely control lens focus.",
+  "example": "We mark distances on the follow focus.",
+  "category": "Lenses & Focus",
+  "aliases": [
+   "Follow focus"
+  ]
+ },
+ {
+  "id": "film-069",
+  "term": "Shallow depth of field",
+  "definition": "A state where the in-focus front-to-back range is narrow.",
+  "example": "We emphasize the figure with a shallow depth of field.",
+  "note": "'Out-focusing' is linked as a search term for the effect of blurring the background. Distinguish it from a state where the entire image is out of focus.",
+  "category": "Lenses & Focus",
+  "aliases": [
+   "Shallow focus",
+   "Out-focusing"
+  ]
+ },
+ {
+  "id": "film-070",
+  "term": "Deep depth of field",
+  "definition": "A state where everything appears sharp from near to far.",
+  "example": "We show the space with a deep depth of field.",
+  "category": "Lenses & Focus",
+  "aliases": [
+   "Deep focus",
+   "Pan focus"
+  ]
+ },
+ {
+  "id": "film-071",
+  "term": "Key light",
+  "definition": "The main light that illuminates the subject.",
+  "example": "Place the key light on the left.",
+  "category": "Lighting",
+  "aliases": [
+   "Key light",
+   "Main light"
+  ]
+ },
+ {
+  "id": "film-072",
+  "term": "Fill light",
+  "definition": "Light that softens the shadows created by the key light.",
+  "example": "Reduce the fill light a little.",
+  "category": "Lighting",
+  "aliases": [
+   "Fill light",
+   "Secondary light"
+  ]
+ },
+ {
+  "id": "film-073",
+  "term": "Back light",
+  "definition": "Light shone from behind the subject to separate it from the background.",
+  "example": "We separate the figure with a back light.",
+  "category": "Lighting",
+  "aliases": [
+   "Back light",
+   "Backlight"
+  ]
+ },
+ {
+  "id": "film-074",
+  "term": "Rim light",
+  "definition": "Light that creates a bright outline along the edge of the subject.",
+  "example": "Add a rim light on the shoulder.",
+  "category": "Lighting",
+  "aliases": [
+   "Rim light",
+   "Edge light"
+  ]
+ },
+ {
+  "id": "film-075",
+  "term": "Practical",
+  "definition": "A lighting source that is actually visible within the frame.",
+  "example": "We use the lamp as a practical.",
+  "category": "Lighting",
+  "aliases": [
+   "Practical light"
+  ]
+ },
+ {
+  "id": "film-076",
+  "term": "Bounce",
+  "definition": "Light reflected off a wall or reflector.",
+  "example": "We soften it with a ceiling bounce.",
+  "category": "Lighting",
+  "aliases": [
+   "Bounce light",
+   "Reflected light"
+  ]
+ },
+ {
+  "id": "film-077",
+  "term": "Hard light",
+  "definition": "Light that creates sharply defined shadows.",
+  "example": "We bring out texture with hard light.",
+  "category": "Lighting",
+  "aliases": [
+   "Hard light"
+  ]
+ },
+ {
+  "id": "film-078",
+  "term": "Soft light",
+  "definition": "Light that creates soft-edged shadows.",
+  "example": "We light the face with soft light.",
+  "category": "Lighting",
+  "aliases": [
+   "Soft light"
+  ]
+ },
+ {
+  "id": "film-079",
+  "term": "Flag",
+  "definition": "An opaque board or cloth that blocks light or limits its spread.",
+  "example": "We block the light on the wall with a flag.",
+  "category": "Lighting",
+  "aliases": [
+   "Gobo board",
+   "Flag"
+  ]
+ },
+ {
+  "id": "film-080",
+  "term": "Barn door",
+  "definition": "Flaps in front of a light that control the spread of the beam.",
+  "example": "We reduce the side light with barn doors.",
+  "category": "Lighting",
+  "aliases": [
+   "Barn doors"
+  ]
+ },
+ {
+  "id": "film-081",
+  "term": "Three-point lighting",
+  "definition": "A basic lighting setup combining key, fill, and back light.",
+  "example": "We start the interview with three-point lighting.",
+  "category": "Lighting",
+  "aliases": [
+   "Three-point lighting"
+  ]
+ },
+ {
+  "id": "film-082",
+  "term": "High key",
+  "definition": "A lighting style that keeps a bright tone with little contrast.",
+  "example": "It's a bright commercial, so we go high key.",
+  "category": "Lighting",
+  "aliases": [
+   "High key"
+  ]
+ },
+ {
+  "id": "film-083",
+  "term": "Low key",
+  "definition": "A lighting style that uses dark areas and strong contrast.",
+  "example": "We create tension with low key.",
+  "category": "Lighting",
+  "aliases": [
+   "Low key"
+  ]
+ },
+ {
+  "id": "film-084",
+  "term": "Diffusion",
+  "definition": "Material or treatment that scatters light to make it soft.",
+  "example": "We install diffusion on the window.",
+  "category": "Lighting",
+  "aliases": [
+   "Diffuser",
+   "Diffusion cloth"
+  ]
+ },
+ {
+  "id": "film-085",
+  "term": "Negative fill",
+  "definition": "A method that absorbs or blocks reflected light to deepen shadows.",
+  "example": "We add negative fill with black cloth.",
+  "category": "Lighting",
+  "aliases": [
+   "Negative fill",
+   "Black reflector"
+  ]
+ },
+ {
+  "id": "film-086",
+  "term": "Exposure",
+  "definition": "Brightness control related to the amount of light reaching the sensor.",
+  "example": "We check exposure against the view outside the window.",
+  "category": "Exposure & Color",
+  "aliases": [
+   "Exposure"
+  ]
+ },
+ {
+  "id": "film-087",
+  "term": "Aperture",
+  "definition": "The part inside a lens that adjusts the size of the opening light passes through.",
+  "example": "We stop down the aperture to increase depth of field.",
+  "category": "Exposure & Color",
+  "aliases": [
+   "Iris",
+   "iris",
+   "F-number",
+   "F-stop"
+  ]
+ },
+ {
+  "id": "film-088",
+  "term": "Shutter speed",
+  "definition": "The time light is received when recording a single frame.",
+  "example": "We adjust the shutter to match the motion.",
+  "category": "Exposure & Color",
+  "aliases": [
+   "Shutter speed",
+   "Exposure time"
+  ]
+ },
+ {
+  "id": "film-089",
+  "term": "ISO",
+  "definition": "A sensitivity setting that affects image brightness processing and noise.",
+  "example": "We check the lighting and ISO together.",
+  "category": "Exposure & Color",
+  "aliases": [
+   "ISO",
+   "Sensitivity"
+  ]
+ },
+ {
+  "id": "film-090",
+  "term": "Overexposure",
+  "definition": "A state recorded brighter than needed, where detail in bright areas may be lost.",
+  "example": "We check the sky for overexposure.",
+  "category": "Exposure & Color",
+  "aliases": [
+   "Overexposure",
+   "Over-exposed"
+  ]
+ },
+ {
+  "id": "film-091",
+  "term": "Underexposure",
+  "definition": "A state recorded darker than needed, where dark areas are hard to distinguish.",
+  "example": "We compensate for underexposure on the face.",
+  "category": "Exposure & Color",
+  "aliases": [
+   "Underexposure",
+   "Under-exposed"
+  ]
+ },
+ {
+  "id": "film-092",
+  "term": "J-cut",
+  "definition": "An edit that lets the next scene's sound be heard before the picture.",
+  "example": "We let the next line be heard first with a J-cut.",
+  "category": "Editing",
+  "aliases": [
+   "J cut",
+   "Audio lead-in"
+  ]
+ },
+ {
+  "id": "film-093",
+  "term": "L-cut",
+  "definition": "An edit where the previous scene's sound continues after the picture changes.",
+  "example": "We show the reaction with an L-cut.",
+  "category": "Editing",
+  "aliases": [
+   "L cut",
+   "Audio lead-out"
+  ]
+ },
+ {
+  "id": "film-094",
+  "term": "Split edit",
+  "definition": "An edit where the transition points of sound and picture differ.",
+  "example": "We connect the dialogue with a split edit.",
+  "category": "Editing",
+  "aliases": [
+   "Split edit"
+  ]
+ },
+ {
+  "id": "film-095",
+  "term": "Jump cut",
+  "definition": "An edit that cuts within a similar composition so that time or action appears to jump.",
+  "example": "We shorten the pause with a jump cut.",
+  "category": "Editing",
+  "aliases": [
+   "Jump cut"
+  ]
+ },
+ {
+  "id": "film-096",
+  "term": "Match cut",
+  "definition": "An edit that joins different shots using similarity of form, action, or sound.",
+  "example": "We connect round shapes with a match cut.",
+  "category": "Editing",
+  "aliases": [
+   "Match cut"
+  ]
+ },
+ {
+  "id": "film-097",
+  "term": "Clip",
+  "definition": "A single piece of video or audio used in editing.",
+  "example": "We place the clip on the timeline.",
+  "category": "Editing",
+  "aliases": [
+   "clip"
+  ]
+ },
+ {
+  "id": "film-098",
+  "term": "Frame",
+  "definition": "A single still image that makes up a video.",
+  "example": "We check frame by frame.",
+  "category": "Editing",
+  "aliases": [
+   "frame"
+  ]
+ },
+ {
+  "id": "film-099",
+  "term": "Frame rate",
+  "definition": "The number of frames recorded or played per second.",
+  "example": "We match the frame rate.",
+  "category": "Editing",
+  "aliases": [
+   "Frame rate",
+   "FPS"
+  ]
+ },
+ {
+  "id": "film-100",
+  "term": "Codec",
+  "definition": "A method or program that compresses and restores video and audio.",
+  "example": "We check the delivery codec.",
+  "category": "Editing",
+  "aliases": [
+   "codec"
+  ]
+ },
+ {
+  "id": "film-101",
+  "term": "Rendering",
+  "definition": "The process of computing the result of edits and effects into a final image.",
+  "example": "We render the effect section.",
+  "category": "Editing",
+  "aliases": [
+   "Render",
+   "render"
+  ]
+ },
+ {
+  "id": "film-102",
+  "term": "Chroma key",
+  "definition": "A technique that makes a specific color range transparent to composite it with another image.",
+  "example": "We key out the green background with chroma key.",
+  "category": "Editing",
+  "aliases": [
+   "Chroma key",
+   "Green screen compositing"
+  ]
+ },
+ {
+  "id": "film-103",
+  "term": "Keyframe",
+  "definition": "An animation reference point that specifies a property value at a specific time.",
+  "example": "We add a keyframe to the position.",
+  "category": "Editing",
+  "aliases": [
+   "Key frame"
+  ]
+ },
+ {
+  "id": "film-104",
+  "term": "Letterbox",
+  "definition": "The bands left at the top and bottom when maintaining an aspect ratio.",
+  "example": "We match the ratio without letterboxing.",
+  "category": "Editing",
+  "aliases": [
+   "Letter box"
+  ]
+ },
+ {
+  "id": "film-105",
+  "term": "Rough cut",
+  "definition": "An edit assembling the main flow before detailed refinement.",
+  "example": "We check the structure in the rough cut.",
+  "category": "Editing",
+  "aliases": [
+   "Rough cut",
+   "Preliminary edit",
+   "Rough-cut review"
+  ]
+ },
+ {
+  "id": "film-106",
+  "term": "Room tone",
+  "definition": "The location's inherent background sound, recorded without dialogue or action.",
+  "example": "We record this room's room tone.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "Room tone",
+   "Ambient sound"
+  ]
+ },
+ {
+  "id": "film-107",
+  "term": "Lavalier",
+  "definition": "A small microphone attached to clothing or the body.",
+  "example": "We check the lavalier for clothing rustle.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "Lapel mic",
+   "Lavalier",
+   "Lav mic"
+  ]
+ },
+ {
+  "id": "film-108",
+  "term": "Shotgun mic",
+  "definition": "A long directional microphone designed to pick up sound mainly from the front.",
+  "example": "We point the shotgun toward the speaker.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "Shotgun",
+   "Directional shotgun",
+   "Shotgun microphone"
+  ]
+ },
+ {
+  "id": "film-109",
+  "term": "Boom pole",
+  "definition": "A long pole for placing the mic near the speaker from off-frame.",
+  "example": "Keep the boom pole out of the frame.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "Boom pole",
+   "Boom mic pole"
+  ]
+ },
+ {
+  "id": "film-110",
+  "term": "Phantom power",
+  "definition": "DC power supplied through the microphone cable.",
+  "example": "We check the mic's phantom power requirement.",
+  "note": "The required voltage and support vary by microphone and input device. It is not a feature that must be turned on for every microphone.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "Phantom power",
+   "48V",
+   "P48"
+  ]
+ },
+ {
+  "id": "film-111",
+  "term": "Pre-production",
+  "definition": "The stage of planning, casting, and preparation before the main shoot.",
+  "example": "We set the blocking in pre-production.",
+  "category": "Production & Planning",
+  "aliases": [
+   "Pre-production",
+   "Pre-pro"
+  ]
+ },
+ {
+  "id": "film-112",
+  "term": "Production",
+  "definition": "The production stage of actually shooting the planned scenes.",
+  "example": "The production schedule begins.",
+  "category": "Production & Planning",
+  "aliases": [
+   "Principal photography",
+   "production"
+  ]
+ },
+ {
+  "id": "film-113",
+  "term": "Post-production",
+  "definition": "The stage of completing editing, color, and sound after shooting.",
+  "example": "We set the post-production schedule.",
+  "category": "Production & Planning",
+  "aliases": [
+   "Post-production",
+   "Post"
+  ]
+ },
+ {
+  "id": "film-114",
+  "term": "Call sheet",
+  "definition": "A document announcing the day's shooting schedule, locations, participants, and more.",
+  "example": "We check tomorrow's call sheet.",
+  "category": "Production & Planning",
+  "aliases": [
+   "Call sheet",
+   "Daily shooting schedule"
+  ]
+ },
+ {
+  "id": "film-115",
+  "term": "Call time",
+  "definition": "The designated time by which shooting participants must arrive on set.",
+  "example": "The call time differs by team.",
+  "category": "Production & Planning",
+  "aliases": [
+   "Call time",
+   "Assembly time"
+  ]
+ },
+ {
+  "id": "film-116",
+  "term": "Blocking",
+  "definition": "The task of setting the positions and movements of actors in a scene.",
+  "example": "We move the camera to match the blocking.",
+  "category": "Production & Planning",
+  "aliases": [
+   "Actor movement",
+   "Movement design"
+  ]
+ },
+ {
+  "id": "film-117",
+  "term": "Roll camera",
+  "definition": "An instruction to start camera recording.",
+  "example": "Roll camera—we're ready.",
+  "category": "On-Set Workflow",
+  "aliases": [
+   "Camera roll",
+   "Rolling"
+  ]
+ },
+ {
+  "id": "film-118",
+  "term": "Roll sound",
+  "definition": "An instruction to start audio recording.",
+  "example": "We wait for the cue after roll sound.",
+  "category": "On-Set Workflow",
+  "aliases": [
+   "Sound roll"
+  ]
+ },
+ {
+  "id": "film-119",
+  "term": "Action",
+  "definition": "The cue to begin the actors' performance and movement.",
+  "example": "Open the door after action.",
+  "category": "On-Set Workflow",
+  "aliases": [
+   "Action cue"
+  ]
+ },
+ {
+  "id": "film-120",
+  "term": "Cut",
+  "definition": "The signal to stop the ongoing performance and shooting.",
+  "example": "Cut—let's reset the blocking.",
+  "category": "On-Set Workflow",
+  "aliases": [
+   "Cut",
+   "Cut sign"
+  ]
+ },
+ {
+  "id": "film-121",
+  "term": "Storyboard",
+  "definition": "A plan that organizes the order and composition of shots as drawings.",
+  "example": "We align the flow with the storyboard.",
+  "category": "Production & Planning",
+  "aliases": [
+   "Storyboard",
+   "Conti"
+  ]
+ },
+ {
+  "id": "film-122",
+  "term": "Dailies",
+  "definition": "Review footage for checking the day's shoot.",
+  "example": "We check continuity in the dailies.",
+  "category": "Production & Planning",
+  "aliases": [
+   "Rushes"
+  ]
+ },
+ {
+  "id": "film-123",
+  "term": "Cyclorama",
+  "definition": "A shooting backdrop where the boundary of wall and floor is joined by a curved surface.",
+  "example": "We shoot the product on the cyclorama.",
+  "note": "The cyclorama from English-language sources is linked to the domestic term for a shooting backdrop. The specific spatial form varies by studio.",
+  "category": "Production & Planning",
+  "aliases": [
+   "Cyclorama",
+   "Cyc studio"
+  ]
+ },
+ {
+  "id": "film-124",
+  "term": "Foley",
+  "definition": "The work of creating and recording action sounds directly in post to match the picture.",
+  "example": "We supplement the footsteps with Foley.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "Foley sound",
+   "Foley effects"
+  ]
+ },
+ {
+  "id": "film-125",
+  "term": "Cutaway",
+  "definition": "A shot that briefly turns attention to another subject or reaction from the main action.",
+  "example": "We insert a cutaway of the listener.",
+  "category": "Frame Composition",
+  "aliases": [
+   "Cutaway shot"
+  ]
+ },
+ {
+  "id": "film-126",
+  "term": "Day for night",
+  "definition": "A shooting and grading method that makes scenes shot in daytime look like night.",
+  "example": "We test day for night.",
+  "category": "Frame Composition",
+  "aliases": [
+   "Day for night",
+   "Day-for-night shooting"
+  ]
+ },
+ {
+  "id": "film-127",
+  "term": "Color correction",
+  "definition": "The work of adjusting exposure, color balance, and such to set the image's baseline color.",
+  "example": "We match color correction across cameras.",
+  "category": "Exposure & Color",
+  "aliases": [
+   "Color correction"
+  ]
+ },
+ {
+  "id": "film-128",
+  "term": "Color grading",
+  "definition": "The work of designing color and contrast for a scene's emotion and mood.",
+  "example": "We give it a cold mood with grading.",
+  "category": "Exposure & Color",
+  "aliases": [
+   "Grading",
+   "Color styling"
+  ]
+ },
+ {
+  "id": "film-129",
+  "term": "Waveform",
+  "definition": "A display that checks image signal brightness and such as a waveform.",
+  "example": "We check brightness with the waveform.",
+  "category": "Exposure & Color",
+  "aliases": [
+   "Waveform",
+   "Waveform monitor"
+  ]
+ },
+ {
+  "id": "film-130",
+  "term": "LUT",
+  "definition": "A conversion table that changes input color values into set output values.",
+  "example": "We apply a LUT suited to the source.",
+  "note": "Uses differ, from technical color-space conversion to creative color application. Check which camera or color space it's for.",
+  "category": "Exposure & Color",
+  "aliases": [
+   "Lookup table",
+   "LUT"
+  ]
+ },
+ {
+  "id": "film-131",
+  "term": "Log recording",
+  "definition": "A shooting method that records brightness information along a log curve.",
+  "example": "We apply a conversion suited to the log footage.",
+  "note": "Log is not the same as RAW. It needs conversion matched to the recording curve and the camera's color space.",
+  "category": "Exposure & Color",
+  "aliases": [
+   "Log",
+   "Log gamma"
+  ]
+ },
+ {
+  "id": "film-132",
+  "term": "DIT",
+  "definition": "A technical role that manages the color, signal, and workflow of digital footage on set.",
+  "example": "We check monitor color with the DIT.",
+  "category": "Exposure & Color",
+  "aliases": [
+   "Digital imaging technician",
+   "DIT"
+  ]
+ },
+ {
+  "id": "film-133",
+  "term": "Slate",
+  "definition": "A board that records shot information and marks a reference for syncing sound and picture.",
+  "example": "We check the slate number.",
+  "category": "On-Set Workflow",
+  "aliases": [
+   "Clapperboard",
+   "Slate",
+   "clapperboard"
+  ]
+ },
+ {
+  "id": "film-134",
+  "term": "Sync",
+  "definition": "Aligning the timing of separately recorded sound and picture.",
+  "example": "We sync using the slate.",
+  "category": "On-Set Workflow",
+  "aliases": [
+   "Syncing",
+   "Synchronization",
+   "sync"
+  ]
+ },
+ {
+  "id": "film-135",
+  "term": "MOS",
+  "definition": "A marking that no sound is recorded for that footage.",
+  "example": "We shoot this insert MOS.",
+  "note": "There are several theories about the origin of the abbreviation, so we don't assert one. Here we describe only its actual use as a silent-shooting marking.",
+  "category": "On-Set Workflow",
+  "aliases": [
+   "MOS",
+   "Silent shooting"
+  ]
+ },
+ {
+  "id": "film-136",
+  "term": "Script supervisor",
+  "definition": "The person who records and checks takes and scene continuity.",
+  "example": "The script supervisor checks continuity.",
+  "category": "On-Set Workflow",
+  "aliases": [
+   "Scripter",
+   "Scripty",
+   "scripty"
+  ]
+ },
+ {
+  "id": "film-137",
+  "term": "Tail slate",
+  "definition": "A method of slating at the end of a take instead of the start.",
+  "example": "This time we record it with a tail slate.",
+  "category": "On-Set Workflow",
+  "aliases": [
+   "End slate",
+   "Tail slate"
+  ]
+ },
+ {
+  "id": "film-138",
+  "term": "Soft sticks",
+  "definition": "A notice that the slate will be clapped gently.",
+  "example": "The face is close, so let's go with soft sticks.",
+  "note": "A cue found in English-language on-set materials. Not every domestic set uses the same term.",
+  "category": "On-Set Workflow",
+  "aliases": [
+   "Soft stick"
+  ]
+ },
+ {
+  "id": "film-139",
+  "term": "Second sticks",
+  "definition": "A signal that the slate will be clapped again.",
+  "example": "The sound was faint, so we go with second sticks.",
+  "note": "A cue found in English-language on-set materials. Domestically it may be said as 'slate again' and such.",
+  "category": "On-Set Workflow",
+  "aliases": [
+   "Second stick"
+  ]
+ },
+ {
+  "id": "film-140",
+  "term": "Ripple edit",
+  "definition": "An edit that adjusts a clip's length while pushing or pulling the following clips along.",
+  "example": "We close the gap with a ripple edit.",
+  "category": "Editing",
+  "aliases": [
+   "Ripple edit"
+  ]
+ },
+ {
+  "id": "film-141",
+  "term": "Rolling edit",
+  "definition": "An edit that moves the boundary of two adjoining clips while keeping the total length.",
+  "example": "We move the transition point with a rolling edit.",
+  "category": "Editing",
+  "aliases": [
+   "Rolling edit",
+   "Roll edit"
+  ]
+ },
+ {
+  "id": "film-142",
+  "term": "Slip edit",
+  "definition": "An edit that keeps a clip's position and length while changing its internal start and end frames.",
+  "example": "We change the expression with a slip edit.",
+  "category": "Editing",
+  "aliases": [
+   "Slip edit"
+  ]
+ },
+ {
+  "id": "film-143",
+  "term": "Slide edit",
+  "definition": "An edit that moves a clip and adjusts adjacent clip lengths to keep the total length.",
+  "example": "We move the position with a slide edit.",
+  "category": "Editing",
+  "aliases": [
+   "Slide edit"
+  ]
+ },
+ {
+  "id": "film-144",
+  "term": "Trimming",
+  "definition": "The work of refining a clip's in and out points.",
+  "example": "We trim the part where they catch their breath.",
+  "category": "Editing",
+  "aliases": [
+   "Trim",
+   "trim"
+  ]
+ },
+ {
+  "id": "common-004",
+  "term": "Groundwork",
+  "definition": "An expression for preparing and taking care of things so work goes smoothly.",
+  "example": "We check the groundwork before the event.",
+  "category": "Field Expressions",
+  "aliases": [
+   "Preparation",
+   "Getting ready"
+  ]
+ },
+ {
+  "id": "common-005",
+  "term": "Scratch",
+  "definition": "A term for a flaw or scratch mark on the surface of an object.",
+  "example": "We check whether there are scratches on the panel.",
+  "category": "Field Expressions",
+  "aliases": [
+   "Get scratched",
+   "Blemish"
+  ]
+ },
+ {
+  "id": "common-006",
+  "term": "To the max",
+  "definition": "An expression used to mean full or to the fullest.",
+  "example": "My schedule is packed today, so it's hard to add another meeting.",
+  "note": "It can be replaced with specific words like 'full' or 'to the maximum'. If it's an instruction to adjust equipment, check the exact value.",
+  "category": "Field Expressions",
+  "aliases": [
+   "Full",
+   "To the fullest",
+   "Maxed out"
+  ]
+ },
+ {
+  "id": "common-007",
+  "term": "Cart",
+  "definition": "A field term for a cart used to move loads.",
+  "example": "We move the boxes with a cart.",
+  "category": "Field Expressions",
+  "aliases": [
+   "Handcart",
+   "Pushcart"
+  ]
+ },
+ {
+  "id": "design-014",
+  "term": "Alignment",
+  "definition": "Arranging elements to a consistent reference line.",
+  "example": "We left-align the title.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "Align",
+   "Alignment"
+  ]
+ },
+ {
+  "id": "design-015",
+  "term": "Alt text",
+  "definition": "Information that describes in words what an image conveys.",
+  "example": "We add alt text to the photo.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "alt text",
+   "Alternative text"
+  ]
+ },
+ {
+  "id": "design-016",
+  "term": "Aspect ratio",
+  "definition": "The ratio of a screen's width to its height.",
+  "example": "We set the aspect ratio to 16:9.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "Aspect ratio",
+   "Width-to-height ratio"
+  ]
+ },
+ {
+  "id": "design-017",
+  "term": "Baseline",
+  "definition": "The reference line in typography on which letters sit.",
+  "example": "We align the body text baseline.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "Baseline",
+   "Text baseline"
+  ]
+ },
+ {
+  "id": "design-018",
+  "term": "Boolean operation",
+  "definition": "Operations that create shapes by uniting, subtracting, or intersecting shapes.",
+  "example": "We cut a hole with a Boolean operation.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "Shape combining",
+   "Boolean"
+  ]
+ },
+ {
+  "id": "design-019",
+  "term": "Bézier curve",
+  "definition": "A mathematical curve whose shape is controlled by control points.",
+  "example": "We refine the outline with a Bézier curve.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "Bezier",
+   "Bézier",
+   "bezier"
+  ]
+ },
+ {
+  "id": "design-020",
+  "term": "Copy",
+  "definition": "The actual text that goes into a design, such as titles and body.",
+  "example": "We shorten the button copy.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "Wording",
+   "Copywriting"
+  ]
+ },
+ {
+  "id": "design-021",
+  "term": "Ascender",
+  "definition": "The part of a lowercase letter that rises above the x-height.",
+  "example": "It's a typeface with long ascenders.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "Ascender line"
+  ]
+ },
+ {
+  "id": "design-022",
+  "term": "Accessibility",
+  "definition": "The degree to which people of varying abilities and environments can use a product.",
+  "example": "We check keyboard accessibility.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "Accessible design",
+   "A11y"
+  ]
+ }
+]

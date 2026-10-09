@@ -1,0 +1,1320 @@
+[
+ {
+  "id": "marketing-001",
+  "term": "CPC",
+  "definition": "The cost of a single ad click.",
+  "example": "Please compare CPC across creatives.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "Cost per click",
+   "CPC"
+  ]
+ },
+ {
+  "id": "marketing-002",
+  "term": "CPM",
+  "definition": "The cost of showing an ad 1,000 times.",
+  "example": "This campaign runs on a CPM basis.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "Cost per thousand impressions",
+   "CPM"
+  ]
+ },
+ {
+  "id": "marketing-003",
+  "term": "CPV",
+  "definition": "The cost of a single valid video view.",
+  "example": "First check each platform's valid-view criteria.",
+  "note": "Valid-view duration and qualifying criteria vary by platform and ad product.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "Cost per view",
+   "CPV"
+  ]
+ },
+ {
+  "id": "marketing-004",
+  "term": "CPT",
+  "definition": "A cost paid according to a fixed ad placement duration.",
+  "example": "We'll run the main screen on a CPT basis for one day.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "Cost per time",
+   "CPT"
+  ]
+ },
+ {
+  "id": "marketing-005",
+  "term": "CTR",
+  "definition": "The ratio of clicks to ad impressions.",
+  "example": "With 20 clicks and 1,000 impressions, the CTR is 2%.",
+  "note": "Calculated as clicks ÷ impressions × 100. Distinguish it from metrics that use the number of people as the denominator.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "Click-through rate",
+   "CTR"
+  ]
+ },
+ {
+  "id": "marketing-006",
+  "term": "ROAS",
+  "definition": "Revenue generated relative to ad spend.",
+  "example": "We calculate ROAS from ad revenue and cost.",
+  "note": "A revenue-based metric. It does not directly indicate profit margin or net profit.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "Return on ad spend",
+   "ROAS"
+  ]
+ },
+ {
+  "id": "marketing-007",
+  "term": "CVR",
+  "definition": "The share of visits or clicks that lead to a target action.",
+  "example": "Signup CVR is the number of signups divided by the number of visits.",
+  "note": "Check whether the denominator is clicks or visits, and which action is defined as a conversion.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "Conversion rate",
+   "CVR"
+  ]
+ },
+ {
+  "id": "marketing-008",
+  "term": "CPA",
+  "definition": "The cost of each target action, such as a purchase or signup.",
+  "example": "We check the CPA of acquiring one signup.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "Cost per action",
+   "CPA"
+  ]
+ },
+ {
+  "id": "marketing-009",
+  "term": "Impressions",
+  "definition": "The total number of times an ad is displayed.",
+  "example": "If the same person sees it twice, that counts as two impressions.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "Impression",
+   "Exposure"
+  ]
+ },
+ {
+  "id": "marketing-010",
+  "term": "Reach",
+  "definition": "The number of unique people an ad reached, excluding duplicates.",
+  "example": "Report impressions and reach separately.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "Reach",
+   "Unique reach"
+  ]
+ },
+ {
+  "id": "marketing-011",
+  "term": "Targeting",
+  "definition": "The act of defining who an ad will be shown to.",
+  "example": "We split targeting by interests.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "Audience targeting"
+  ]
+ },
+ {
+  "id": "marketing-012",
+  "term": "Audience",
+  "definition": "The people an ad or piece of content is aimed at.",
+  "example": "Define an audience that matches the campaign goal.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "Prospective customers",
+   "Target audience"
+  ]
+ },
+ {
+  "id": "marketing-013",
+  "term": "Segment",
+  "definition": "A group of customers divided by shared characteristics.",
+  "example": "We separate recent buyers into their own segment.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "Customer group",
+   "Customer segmentation"
+  ]
+ },
+ {
+  "id": "marketing-014",
+  "term": "Retargeting",
+  "definition": "Advertising again to people who had prior contact, such as a visit.",
+  "example": "We retarget people who visited the cart.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "Retargeting",
+   "Remarketing"
+  ]
+ },
+ {
+  "id": "marketing-015",
+  "term": "De-targeting",
+  "definition": "Excluding a specific group from the audience shown an ad.",
+  "example": "We exclude existing buyers from this campaign.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "Exclusion targeting"
+  ]
+ },
+ {
+  "id": "dev-001",
+  "term": "Commit",
+  "definition": "A unit that records file changes in version history.",
+  "example": "I committed the login code I edited.",
+  "category": "Code & Version Control",
+  "aliases": [
+   "commit"
+  ]
+ },
+ {
+  "id": "dev-002",
+  "term": "Branch",
+  "definition": "A line of versioning you can work on independently.",
+  "example": "Start edits on a new branch.",
+  "category": "Code & Version Control",
+  "aliases": [
+   "branch"
+  ]
+ },
+ {
+  "id": "dev-003",
+  "term": "Merge",
+  "definition": "Combining different change histories into one.",
+  "example": "Once review is done, merge into the main branch.",
+  "category": "Code & Version Control",
+  "aliases": [
+   "merge"
+  ]
+ },
+ {
+  "id": "dev-004",
+  "term": "Pull request",
+  "definition": "A proposal to review and incorporate changes.",
+  "example": "Please describe the reason for the change in the PR.",
+  "category": "Code & Version Control",
+  "aliases": [
+   "PR",
+   "Pull request",
+   "Open a PR",
+   "Raise a PR"
+  ]
+ },
+ {
+  "id": "dev-005",
+  "term": "Fork",
+  "definition": "A separate repository created based on another repository.",
+  "example": "We fork the open-source repo and make edits.",
+  "category": "Code & Version Control",
+  "aliases": [
+   "fork"
+  ]
+ },
+ {
+  "id": "dev-006",
+  "term": "Repository",
+  "definition": "A space that stores project files and their change history.",
+  "example": "Docs are managed in the same repository.",
+  "category": "Code & Version Control",
+  "aliases": [
+   "Repo",
+   "repo",
+   "Repository"
+  ]
+ },
+ {
+  "id": "dev-007",
+  "term": "Issue",
+  "definition": "An item for recording and tracking bugs, tasks, discussions, and more.",
+  "example": "Please note the reproduction steps in the issue.",
+  "category": "Code & Version Control",
+  "aliases": [
+   "issue",
+   "Ticket"
+  ]
+ },
+ {
+  "id": "dev-008",
+  "term": "Conflict",
+  "definition": "A state where overlapping changes cannot be merged automatically.",
+  "example": "A conflict occurred because the same line was edited.",
+  "category": "Code & Version Control",
+  "aliases": [
+   "Conflict",
+   "Merge conflict"
+  ]
+ },
+ {
+  "id": "dev-009",
+  "term": "Clone",
+  "definition": "Copying a repository and its history to your own computer.",
+  "example": "First clone the repository locally.",
+  "category": "Code & Version Control",
+  "aliases": [
+   "clone",
+   "Copy"
+  ]
+ },
+ {
+  "id": "dev-010",
+  "term": "Push",
+  "definition": "Sending local change history to a remote repository.",
+  "example": "I pushed the committed work to the remote.",
+  "category": "Code & Version Control",
+  "aliases": [
+   "push"
+  ]
+ },
+ {
+  "id": "dev-011",
+  "term": "Pull",
+  "definition": "Fetching remote changes and applying them to your current work.",
+  "example": "Please pull the latest changes before starting.",
+  "category": "Code & Version Control",
+  "aliases": [
+   "pull"
+  ]
+ },
+ {
+  "id": "dev-012",
+  "term": "Revert",
+  "definition": "Creating a new commit that undoes a previous change.",
+  "example": "I reverted the problematic commit.",
+  "category": "Code & Version Control",
+  "aliases": [
+   "revert",
+   "Roll back"
+  ]
+ },
+ {
+  "id": "dev-013",
+  "term": "Agile",
+  "definition": "An approach that improves a product through short iterations and feedback.",
+  "example": "We adjust the next tasks based on user feedback.",
+  "category": "Development Collaboration",
+  "aliases": [
+   "agile"
+  ]
+ },
+ {
+  "id": "dev-014",
+  "term": "Scrum",
+  "definition": "An agile framework for collaborating with defined roles and iteration cycles.",
+  "example": "Let's set this sprint's goal together.",
+  "category": "Development Collaboration",
+  "aliases": [
+   "scrum"
+  ]
+ },
+ {
+  "id": "dev-015",
+  "term": "Sprint",
+  "definition": "A fixed-length work cycle for producing a targeted deliverable.",
+  "example": "We'll improve search in the next sprint.",
+  "category": "Development Collaboration",
+  "aliases": [
+   "sprint"
+  ]
+ },
+ {
+  "id": "dev-016",
+  "term": "Stand-up",
+  "definition": "A short team meeting to share progress and blockers.",
+  "example": "In stand-up, start with blocked tasks.",
+  "category": "Development Collaboration",
+  "aliases": [
+   "Daily scrum",
+   "Daily"
+  ]
+ },
+ {
+  "id": "dev-017",
+  "term": "Retrospective",
+  "definition": "An activity to reflect on past working methods and decide improvements.",
+  "example": "In the retrospective, pick one thing to change next time.",
+  "category": "Development Collaboration",
+  "aliases": [
+   "Retro",
+   "retrospective"
+  ]
+ },
+ {
+  "id": "dev-018",
+  "term": "Story point",
+  "definition": "A unit for estimating the relative size and complexity of work.",
+  "example": "We set points by comparing with similar tasks.",
+  "note": "It is not a universal unit that converts directly to time, and it varies by the team's standard.",
+  "category": "Development Collaboration",
+  "aliases": [
+   "Point",
+   "Story points"
+  ]
+ },
+ {
+  "id": "dev-019",
+  "term": "Backlog",
+  "definition": "A collected list of upcoming features, improvements, and fixes.",
+  "example": "We gather requests in the backlog and prioritize them.",
+  "category": "Development Collaboration",
+  "aliases": [
+   "Product backlog"
+  ]
+ },
+ {
+  "id": "dev-020",
+  "term": "Burndown chart",
+  "definition": "A graph showing how remaining work changes over a period.",
+  "example": "We check remaining work with the burndown chart.",
+  "category": "Development Collaboration",
+  "aliases": [
+   "Burndown"
+  ]
+ },
+ {
+  "id": "dev-021",
+  "term": "QA",
+  "definition": "The processes and activities for ensuring software quality.",
+  "example": "In QA before release, we check the main user flows.",
+  "note": "Testing is part of quality assurance. Depending on the team, QA may also refer to a testing phase or the responsible organization.",
+  "category": "Quality & Testing",
+  "aliases": [
+   "QA",
+   "Quality assurance",
+   "QA testing"
+  ]
+ },
+ {
+  "id": "dev-022",
+  "term": "Unit test",
+  "definition": "A test that verifies a small unit of code works as expected.",
+  "example": "We add a unit test to the price calculation function.",
+  "category": "Quality & Testing",
+  "aliases": [
+   "Unit testing",
+   "unit testing",
+   "Unit test"
+  ]
+ },
+ {
+  "id": "dev-023",
+  "term": "Integration test",
+  "definition": "A test that verifies multiple components work correctly together.",
+  "example": "We integration-test the link between payment and order storage.",
+  "category": "Quality & Testing",
+  "aliases": [
+   "integration testing",
+   "Integration test"
+  ]
+ },
+ {
+  "id": "design-001",
+  "term": "Cutout",
+  "definition": "The task of separating a desired subject from its background in an image.",
+  "example": "Please deliver product photos with the background cut out.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "Cutting out",
+   "Background removal",
+   "Clipping"
+  ]
+ },
+ {
+  "id": "design-002",
+  "term": "Kerning",
+  "definition": "Adjusting the spacing between two specific letters.",
+  "example": "We fine-tune the space between the two letters in the logo with kerning.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "kerning"
+  ]
+ },
+ {
+  "id": "design-003",
+  "term": "Tracking",
+  "definition": "Adjusting the spacing across an entire selected range of letters.",
+  "example": "Please widen the tracking of the body text a little.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "Letter spacing",
+   "tracking"
+  ]
+ },
+ {
+  "id": "design-004",
+  "term": "Leading",
+  "definition": "The vertical spacing between lines of text.",
+  "example": "Increase the body leading to make it easier to read.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "Line spacing",
+   "leading"
+  ]
+ },
+ {
+  "id": "design-005",
+  "term": "Typography",
+  "definition": "Visual expression that organizes letterforms, size, spacing, and more.",
+  "example": "We distinguish headings from body text with typography.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "typography",
+   "Typo"
+  ]
+ },
+ {
+  "id": "design-006",
+  "term": "Vector",
+  "definition": "Graphics expressed through the mathematical information of points and lines.",
+  "example": "Deliver the logo as a vector, which scales well.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "Vector graphic",
+   "Vectorization",
+   "Vectorize"
+  ]
+ },
+ {
+  "id": "design-007",
+  "term": "Raster",
+  "definition": "An image expressed with a grid of pixels.",
+  "example": "For raster images, check the original resolution.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "Bitmap",
+   "bitmap",
+   "Pixel image",
+   "Bitmap image"
+  ]
+ },
+ {
+  "id": "design-008",
+  "term": "Resolution",
+  "definition": "A pixel-related measure indicating the level of detail in an image.",
+  "example": "Check the image resolution against the size you'll use.",
+  "note": "Pixel dimensions and output density (PPI) should be checked separately.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "resolution"
+  ]
+ },
+ {
+  "id": "design-009",
+  "term": "PPI",
+  "definition": "The number of image pixels placed along one inch.",
+  "example": "Please check the output size together with the PPI.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "PPI"
+  ]
+ },
+ {
+  "id": "design-010",
+  "term": "EPS",
+  "definition": "A PostScript-based file format used to deliver graphics.",
+  "example": "We deliver it as the EPS requested by the print shop.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "EPS"
+  ]
+ },
+ {
+  "id": "design-011",
+  "term": "Mood board",
+  "definition": "A board that gathers images, colors, and textures to show a creative direction.",
+  "example": "We share a mood board before producing drafts.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "Moodboard"
+  ]
+ },
+ {
+  "id": "design-012",
+  "term": "Reference",
+  "definition": "Images or examples referred to when setting a creative direction.",
+  "example": "Please collect references with the mood you want.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "Reference material",
+   "Ref",
+   "reference"
+  ]
+ },
+ {
+  "id": "design-013",
+  "term": "Mockup",
+  "definition": "A model or draft that previews how a design will look when applied.",
+  "example": "We review the packaging design as a mockup.",
+  "category": "Visual & Editorial Design",
+  "aliases": [
+   "Mockup image",
+   "mock-up"
+  ]
+ },
+ {
+  "id": "fashion-001",
+  "term": "Hand finishing",
+  "definition": "The process of finishing details such as buttons and hems by hand after sewing.",
+  "example": "This lot still has the hand-finishing process left.",
+  "category": "Sewing & Materials Basics",
+  "aliases": [
+   "Madome"
+  ]
+ },
+ {
+  "id": "fashion-002",
+  "term": "Side seam",
+  "definition": "The side line where the front and back panels of a garment meet.",
+  "example": "Please check the side-seam stitching.",
+  "category": "Sewing & Materials Basics",
+  "aliases": [
+   "Waki"
+  ]
+ },
+ {
+  "id": "fashion-003",
+  "term": "Finishing press",
+  "definition": "The finishing work on a garment, including ironing.",
+  "example": "Please complete the finishing press before shipment.",
+  "note": "Sources vary slightly, scoping it from ironing-focused work to the entire finishing process.",
+  "category": "Sewing & Materials Basics",
+  "aliases": [
+   "Shiage",
+   "Finishing",
+   "Finish processing"
+  ]
+ },
+ {
+  "id": "fashion-004",
+  "term": "Piece-rate worker",
+  "definition": "A sewing worker paid according to work volume or unit price.",
+  "example": "This process is done on a piece-rate basis.",
+  "category": "Sewing & Materials Basics"
+ },
+ {
+  "id": "fashion-005",
+  "term": "Sewing assistant",
+  "definition": "A term for support staff who assist with other tasks on site.",
+  "example": "In the records, this term means a person who helps with the work.",
+  "note": "It can be taken as a demeaning term, so when addressing someone directly we recommend a specific role name such as support staff.",
+  "category": "Sewing & Materials Basics"
+ },
+ {
+  "id": "fashion-006",
+  "term": "Presser",
+  "definition": "The person in charge of ironing on the sewing floor.",
+  "example": "We ask the presser to do the final pressing.",
+  "note": "The source records the ironing worker with this term. 'Ironing' is linked as a search aid.",
+  "category": "Sewing & Materials Basics",
+  "aliases": [
+   "Ironing"
+  ]
+ },
+ {
+  "id": "fashion-007",
+  "term": "Overlock operator",
+  "definition": "A sewing technician in charge of overlock work.",
+  "example": "We assign edge finishing to the overlock operator.",
+  "category": "Sewing & Materials Basics",
+  "aliases": [
+   "Overlocker"
+  ]
+ },
+ {
+  "id": "fashion-008",
+  "term": "Pattern (fabric)",
+  "definition": "A field term referring to the pattern or ground of a fabric.",
+  "example": "This fabric has a fairly large pattern.",
+  "note": "Even with the same Korean spelling, the meaning differs by field. Distinguish the general-work sense of 'fake' from the fashion sense of 'pattern'.",
+  "category": "Sewing & Materials Basics",
+  "aliases": [
+   "Pattern",
+   "Patterned motif"
+  ]
+ },
+ {
+  "id": "fashion-009",
+  "term": "Basting",
+  "definition": "A term for temporary stitching done before the main sewing.",
+  "example": "Let's set the shape first with basting.",
+  "category": "Sewing & Materials Basics",
+  "aliases": [
+   "Tacking"
+  ]
+ },
+ {
+  "id": "fashion-010",
+  "term": "Whipstitching",
+  "definition": "Work that wraps and stitches the edge of fabric.",
+  "example": "We finish the edge with whipstitching.",
+  "category": "Sewing & Materials Basics",
+  "aliases": [
+   "Overcasting"
+  ]
+ },
+ {
+  "id": "fashion-011",
+  "term": "Pattern",
+  "definition": "The template of shapes and measurements for making each part of a garment.",
+  "example": "We revise the sleeve pattern based on the sample.",
+  "category": "Sewing & Materials Basics",
+  "aliases": [
+   "Garment template",
+   "Patternmaking"
+  ]
+ },
+ {
+  "id": "fashion-012",
+  "term": "Sample",
+  "definition": "A trial product that confirms form and specs before mass production.",
+  "example": "We check the sample fit before mass production.",
+  "category": "Sewing & Materials Basics",
+  "aliases": [
+   "Prototype",
+   "Sample garment"
+  ]
+ },
+ {
+  "id": "fashion-013",
+  "term": "Cutting",
+  "definition": "Cutting fabric according to the pattern.",
+  "example": "We start cutting with the finalized pattern.",
+  "note": "'Dachi' is a field term for cutting on the sewing floor.",
+  "category": "Sewing & Materials Basics",
+  "aliases": [
+   "Fabric cutting",
+   "Dachi"
+  ]
+ },
+ {
+  "id": "fashion-014",
+  "term": "Sewing",
+  "definition": "Stitching cut fabric and other pieces together.",
+  "example": "We pass cut lots on to sewing.",
+  "category": "Sewing & Materials Basics",
+  "aliases": [
+   "Sewing work"
+  ]
+ },
+ {
+  "id": "fashion-015",
+  "term": "Circular knit",
+  "definition": "A term for knit fabric made by circular knitting, or garments made from it.",
+  "example": "We check the stretch of the circular-knit fabric.",
+  "note": "The material describes a shirt made from circular-knit fabric. Check the specific material composition separately.",
+  "category": "Sewing & Materials Basics",
+  "aliases": [
+   "Circular-knit fabric"
+  ]
+ },
+ {
+  "id": "fashion-016",
+  "term": "Woven",
+  "definition": "Fabric made by interlacing yarns lengthwise and crosswise, or garments made from it.",
+  "example": "This shirt is a woven material.",
+  "category": "Sewing & Materials Basics",
+  "aliases": [
+   "Woven fabric",
+   "woven"
+  ]
+ },
+ {
+  "id": "fashion-017",
+  "term": "Coverstitch",
+  "definition": "A sewing method for finishing hems or seam allowances on knits and the like.",
+  "example": "We finish the T-shirt hem with a coverstitch.",
+  "category": "Sewing & Materials Basics"
+ },
+ {
+  "id": "fashion-018",
+  "term": "Overlock edging",
+  "definition": "A term for sewing work that finishes fabric edges.",
+  "example": "We finish the scarf edge with overlock edging.",
+  "note": "This entry is a field term for edge-finishing stitching. Distinguish its context from interlock, which refers to a knit structure or fabric.",
+  "category": "Sewing & Materials Basics",
+  "aliases": [
+   "Interlock",
+   "Intalock"
+  ]
+ },
+ {
+  "id": "fashion-019",
+  "term": "Silhouette",
+  "definition": "The overall outline revealed when a garment is worn.",
+  "example": "This coat has a relaxed silhouette.",
+  "category": "Sewing & Materials Basics",
+  "aliases": [
+   "silhouette"
+  ]
+ },
+ {
+  "id": "fashion-020",
+  "term": "Swatch",
+  "definition": "A small sample for checking color, texture, and the like.",
+  "example": "We attach fabric swatches to the mood board.",
+  "category": "Sewing & Materials Basics",
+  "aliases": [
+   "Fabric sample",
+   "Swatch book"
+  ]
+ },
+ {
+  "id": "film-001",
+  "term": "High angle",
+  "definition": "A shot composition looking down from a position higher than the subject.",
+  "example": "I'll shoot the table scene from a high angle.",
+  "note": "The high angle is organized here alongside the Korean cinematography term. Distinguish it from the top shot, a directly overhead vertical composition.",
+  "category": "Angles & Composition",
+  "aliases": [
+   "High angle"
+  ]
+ },
+ {
+  "id": "film-002",
+  "term": "Low angle",
+  "definition": "A shot composition looking up from a position lower than the subject.",
+  "example": "Please frame the subject from a low angle.",
+  "note": "Organized as the Korean cinematography term corresponding to the low angle.",
+  "category": "Angles & Composition",
+  "aliases": [
+   "Low angle"
+  ]
+ },
+ {
+  "id": "film-003",
+  "term": "Eye level",
+  "definition": "A camera composition aligned with the subject's eye level.",
+  "example": "We shoot interviews at eye level.",
+  "category": "Angles & Composition",
+  "aliases": [
+   "Eye-level shot",
+   "Eye level"
+  ]
+ },
+ {
+  "id": "film-004",
+  "term": "Dutch angle",
+  "definition": "A camera composition that tilts the horizon.",
+  "example": "We convey an uneasy mood with a Dutch angle.",
+  "category": "Angles & Composition",
+  "aliases": [
+   "Dutch angle",
+   "Dutch tilt"
+  ]
+ },
+ {
+  "id": "film-005",
+  "term": "POV",
+  "definition": "A shot that shows what a character is looking at, as if through their eyes.",
+  "example": "We add a POV after the shot of the door opening.",
+  "category": "Angles & Composition",
+  "aliases": [
+   "POV",
+   "Point-of-view shot"
+  ]
+ },
+ {
+  "id": "film-006",
+  "term": "OTS",
+  "definition": "A shot that shows the other person over one character's shoulder.",
+  "example": "I'll continue the conversation scene with an OTS.",
+  "category": "Angles & Composition",
+  "aliases": [
+   "Over the shoulder",
+   "Over-the-shoulder shot"
+  ]
+ },
+ {
+  "id": "film-007",
+  "term": "Tracking",
+  "definition": "Shooting while the camera moves to follow the subject.",
+  "example": "We follow the walking subject with a tracking shot.",
+  "category": "Camera Movement",
+  "aliases": [
+   "Tracking shot",
+   "Moving shot"
+  ]
+ },
+ {
+  "id": "film-008",
+  "term": "Close-up",
+  "definition": "A shot that frames a face or object closely to show detail.",
+  "example": "Please capture the expression in close-up.",
+  "category": "Shot Sizes",
+  "aliases": [
+   "Close up",
+   "CU"
+  ]
+ },
+ {
+  "id": "film-009",
+  "term": "Extreme close-up",
+  "definition": "A shot that shows a very small part, such as an eye or hand, large.",
+  "example": "We shoot just the pupil in extreme close-up.",
+  "category": "Shot Sizes",
+  "aliases": [
+   "ECU",
+   "Extreme close-up"
+  ]
+ },
+ {
+  "id": "film-010",
+  "term": "Medium shot",
+  "definition": "A shot that frames a subject's upper body to show expression and surroundings together.",
+  "example": "We'll go with a medium shot for the explanation scene.",
+  "category": "Shot Sizes",
+  "aliases": [
+   "Medium shot",
+   "MS"
+  ]
+ },
+ {
+  "id": "film-011",
+  "term": "Long shot",
+  "definition": "A shot that frames the whole figure and surrounding space widely.",
+  "example": "We need a long shot to show the space.",
+  "category": "Shot Sizes",
+  "aliases": [
+   "Long shot",
+   "LS",
+   "Wide shot"
+  ]
+ },
+ {
+  "id": "film-012",
+  "term": "Extreme long shot",
+  "definition": "A shot that frames a wide background and a small subject together from afar.",
+  "example": "We open the city skyline with an extreme long shot.",
+  "category": "Shot Sizes",
+  "aliases": [
+   "ELS",
+   "Extreme long shot"
+  ]
+ },
+ {
+  "id": "film-013",
+  "term": "Top shot",
+  "definition": "A shot looking straight down from directly above the subject.",
+  "example": "We capture the cooking process with a top shot.",
+  "category": "Angles & Composition",
+  "aliases": [
+   "Top view",
+   "Overhead",
+   "Top shot"
+  ]
+ },
+ {
+  "id": "common-001",
+  "term": "Fake",
+  "definition": "A slang expression for something that is not genuine or has no substance.",
+  "example": "I was criticized for writing down figures as fakes without actually checking them.",
+  "note": "Even with the same Korean spelling, the meaning differs by field. Distinguish the general-work sense of 'fake' from the fashion sense of 'pattern'.",
+  "category": "Field Expressions",
+  "aliases": [
+   "Fake",
+   "False",
+   "Bogus"
+  ]
+ },
+ {
+  "id": "common-002",
+  "term": "Temporary",
+  "definition": "An expression for something done or borrowed temporarily.",
+  "example": "Let's first check whether it was left as a placeholder.",
+  "note": "An expression confirmed in past language-refinement materials. Its current range of use may vary by site.",
+  "category": "Field Expressions",
+  "aliases": [
+   "Temporary"
+  ]
+ },
+ {
+  "id": "dev-024",
+  "term": "API",
+  "definition": "An agreed way for programs to exchange functions or data with each other.",
+  "example": "We receive weather data through the provider's API.",
+  "category": "Web & Programming",
+  "aliases": [
+   "API"
+  ]
+ },
+ {
+  "id": "dev-025",
+  "term": "HTML",
+  "definition": "A language that marks up the structure and meaning of web documents.",
+  "example": "We write the title and body structure in HTML.",
+  "category": "Web & Programming",
+  "aliases": [
+   "HTML"
+  ]
+ },
+ {
+  "id": "dev-026",
+  "term": "CSS",
+  "definition": "A language that specifies the presentation of a web document, such as color, font, and layout.",
+  "example": "We adjust screen spacing with CSS.",
+  "category": "Web & Programming",
+  "aliases": [
+   "CSS"
+  ]
+ },
+ {
+  "id": "dev-027",
+  "term": "JavaScript",
+  "definition": "A programming language that implements behavior such as interactivity on the web.",
+  "example": "We connect button behavior with JavaScript.",
+  "category": "Web & Programming",
+  "aliases": [
+   "JS",
+   "JavaScript"
+  ]
+ },
+ {
+  "id": "dev-028",
+  "term": "HTTP",
+  "definition": "A communication protocol for exchanging requests and responses on the web.",
+  "example": "The browser sends an HTTP request to the server.",
+  "category": "Web & Programming",
+  "aliases": [
+   "HTTP"
+  ]
+ },
+ {
+  "id": "dev-029",
+  "term": "DOM",
+  "definition": "A structure that represents a document as a tree of objects so code can manipulate it.",
+  "example": "We find the title element in the DOM and change its content.",
+  "category": "Web & Programming",
+  "aliases": [
+   "DOM",
+   "Document Object Model"
+  ]
+ },
+ {
+  "id": "dev-030",
+  "term": "JSON",
+  "definition": "A data-exchange format that expresses keys and values as text.",
+  "example": "We organize the word data as JSON.",
+  "category": "Web & Programming",
+  "aliases": [
+   "JSON"
+  ]
+ },
+ {
+  "id": "dev-031",
+  "term": "Cache",
+  "definition": "A method of storing data for reuse to speed up the next access.",
+  "example": "An old cache was showing a previous image.",
+  "category": "Web & Programming",
+  "aliases": [
+   "cache",
+   "Temporary storage"
+  ]
+ },
+ {
+  "id": "dev-032",
+  "term": "Reference",
+  "definition": "A reference that points to a particular object.",
+  "example": "We check whether they are references pointing to the same object.",
+  "category": "Web & Programming",
+  "aliases": [
+   "Reference",
+   "reference",
+   "Object reference"
+  ]
+ },
+ {
+  "id": "film-014",
+  "term": "Angle",
+  "definition": "The height and direction from which the camera views the subject.",
+  "example": "I'll lower the angle.",
+  "category": "Angles & Composition",
+  "aliases": [
+   "Camera angle",
+   "Camera angle (direction)"
+  ]
+ },
+ {
+  "id": "film-015",
+  "term": "Bust shot",
+  "definition": "A framing of a figure from roughly the chest up to the head.",
+  "example": "I'll go with a bust shot for the interview.",
+  "note": "Shot boundaries vary by field convention. Agree specifically on how far down the chest to include.",
+  "category": "Shot Sizes",
+  "aliases": [
+   "Bust",
+   "BS",
+   "Chest shot"
+  ]
+ },
+ {
+  "id": "film-016",
+  "term": "Waist shot",
+  "definition": "A framing of a figure from around the waist up to the head.",
+  "example": "We capture hand gestures with a waist shot.",
+  "note": "Depending on the document, WS can also stand for Wide Shot. Don't rely on the abbreviation alone—check the framing.",
+  "category": "Shot Sizes",
+  "aliases": [
+   "Waist shot",
+   "WS",
+   "West shot"
+  ]
+ },
+ {
+  "id": "film-017",
+  "term": "Full shot",
+  "definition": "A composition that frames the entire figure from head to toe.",
+  "example": "Please include the shoes in the full shot.",
+  "category": "Shot Sizes",
+  "aliases": [
+   "Full shot",
+   "FS",
+   "Full figure"
+  ]
+ },
+ {
+  "id": "film-018",
+  "term": "Knee shot",
+  "definition": "A composition framing from around the knees up to the head.",
+  "example": "Show the movement with a knee shot.",
+  "category": "Shot Sizes",
+  "aliases": [
+   "Knee shot",
+   "KS"
+  ]
+ },
+ {
+  "id": "film-019",
+  "term": "One shot",
+  "definition": "A shot centered on a single person.",
+  "example": "Let's also shoot each person's one shot.",
+  "category": "Shot Sizes",
+  "aliases": [
+   "One shot",
+   "Single shot"
+  ]
+ },
+ {
+  "id": "film-020",
+  "term": "Two shot",
+  "definition": "A shot that frames two people together.",
+  "example": "We start the conversation with a two shot.",
+  "category": "Shot Sizes",
+  "aliases": [
+   "Two shot",
+   "2 shot"
+  ]
+ },
+ {
+  "id": "film-021",
+  "term": "Group shot",
+  "definition": "A shot that frames several people in one frame.",
+  "example": "The last one is a group shot.",
+  "category": "Shot Sizes",
+  "aliases": [
+   "Group shot",
+   "Ensemble shot"
+  ]
+ },
+ {
+  "id": "film-022",
+  "term": "Shot",
+  "definition": "The basic unit of footage captured in a single composition.",
+  "example": "We add a reaction after this shot.",
+  "note": "Shot and its transliterations all render the same English word 'shot'. They are linked to one entry rather than inflated into separate words.",
+  "category": "Film Units",
+  "aliases": [
+   "Shot",
+   "shot"
+  ]
+ },
+ {
+  "id": "film-023",
+  "term": "Scene",
+  "definition": "A story unit that generally continues in the same time and place.",
+  "example": "This scene takes place in a cafe.",
+  "category": "Film Units",
+  "aliases": [
+   "Scene",
+   "Scene (unit)"
+  ]
+ },
+ {
+  "id": "film-024",
+  "term": "Sequence",
+  "definition": "A grouping of related scenes that together form a story unit.",
+  "example": "The chase sequence is over.",
+  "note": "Here it means a story unit. In editing software it can also refer to a timeline work unit where multiple clips are arranged.",
+  "category": "Film Units",
+  "aliases": [
+   "sequence"
+  ]
+ },
+ {
+  "id": "film-025",
+  "term": "Long take",
+  "definition": "A shot filmed continuously over a long stretch without cutting.",
+  "example": "We capture from the entrance in one long take.",
+  "category": "Film Units",
+  "aliases": [
+   "Long take",
+   "Extended take"
+  ]
+ },
+ {
+  "id": "film-026",
+  "term": "Headroom",
+  "definition": "The empty space between the top of the head and the top of the frame.",
+  "example": "Reduce the headroom a little.",
+  "category": "Angles & Composition",
+  "aliases": [
+   "Headroom"
+  ]
+ },
+ {
+  "id": "film-027",
+  "term": "Eye room",
+  "definition": "The empty space placed in the direction of a figure's gaze.",
+  "example": "Please give eye room on the right.",
+  "category": "Angles & Composition",
+  "aliases": [
+   "Eye room",
+   "Looking room",
+   "Nose room"
+  ]
+ },
+ {
+  "id": "film-028",
+  "term": "Lead room",
+  "definition": "The empty space in the direction a figure or object is moving.",
+  "example": "Leave lead room in front of the runner.",
+  "category": "Angles & Composition",
+  "aliases": [
+   "Lead room"
+  ]
+ },
+ {
+  "id": "film-029",
+  "term": "Follow",
+  "definition": "A shooting instruction to follow a moving subject within the frame.",
+  "example": "Follow the actor walking toward us.",
+  "note": "It refers to the goal of following the subject. You can follow by panning in place or by moving the camera. It differs from the follow focus, a focus-control device.",
+  "category": "On-Set Workflow",
+  "aliases": [
+   "Follow",
+   "Follow shot"
+  ]
+ },
+ {
+  "id": "film-030",
+  "term": "Take",
+  "definition": "Each individual attempt at filming the same shot.",
+  "example": "Let's check with the third take.",
+  "category": "On-Set Workflow",
+  "aliases": [
+   "Take",
+   "take"
+  ]
+ },
+ {
+  "id": "film-031",
+  "term": "OK take",
+  "definition": "The footage selected as usable.",
+  "example": "This take is the OK take.",
+  "category": "On-Set Workflow",
+  "aliases": [
+   "OK cut",
+   "OK"
+  ]
+ },
+ {
+  "id": "film-032",
+  "term": "Keep",
+  "definition": "Footage kept as a candidate rather than discarded right away.",
+  "example": "Let's keep this version too.",
+  "category": "On-Set Workflow",
+  "aliases": [
+   "keep",
+   "Keep take"
+  ]
+ },
+ {
+  "id": "film-033",
+  "term": "Insert",
+  "definition": "A shot that separately emphasizes an important object or action in a scene.",
+  "example": "We need an insert of the hand signing.",
+  "category": "Frame Composition",
+  "aliases": [
+   "Insert shot",
+   "Cut-in"
+  ]
+ },
+ {
+  "id": "film-034",
+  "term": "B-roll",
+  "definition": "Supplementary footage added to the main footage to show context and mood.",
+  "example": "Please also shoot B-roll of the workshop.",
+  "category": "Frame Composition",
+  "aliases": [
+   "B-roll",
+   "B roll",
+   "Supplementary footage"
+  ]
+ },
+ {
+  "id": "film-035",
+  "term": "Wrap",
+  "definition": "An expression meaning to finish and wrap up the work at hand.",
+  "example": "Let's wrap today's shoot here.",
+  "note": "A common expression for finishing work across many job sites. The example for this film entry is written to fit a shooting context. You can replace it with 'end of shoot' or 'wrap-up'.",
+  "category": "On-Set Workflow",
+  "aliases": [
+   "Wrap up",
+   "wrap",
+   "End of shoot"
+  ]
+ },
+ {
+  "id": "common-003",
+  "term": "Wrap",
+  "definition": "An expression for finishing and ending the work.",
+  "example": "Let's wrap this task here.",
+  "note": "A common expression for finishing work across many job sites. The example for the film entry is written to fit a shooting context. You can replace it with 'end of shoot' or 'wrap-up'.",
+  "category": "Field Expressions",
+  "aliases": [
+   "Wrap up",
+   "Wrap"
+  ]
+ },
+ {
+  "id": "film-036",
+  "term": "Pan",
+  "definition": "Turning the camera left or right while keeping its position.",
+  "example": "Pan toward the entrance.",
+  "category": "Camera Movement",
+  "aliases": [
+   "Panning",
+   "Pan left",
+   "Pan right"
+  ]
+ },
+ {
+  "id": "film-037",
+  "term": "Tilt",
+  "definition": "Turning the camera up or down while keeping its position.",
+  "example": "Tilt up from the feet to the face.",
+  "category": "Camera Movement",
+  "aliases": [
+   "Tilting",
+   "Tilt up",
+   "Tilt down"
+  ]
+ }
+]

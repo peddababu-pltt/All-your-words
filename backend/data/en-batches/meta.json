@@ -1,0 +1,11 @@
+{
+  "fields": {
+    "marketing": "마케팅·광고",
+    "dev": "개발·IT",
+    "fashion": "패션·섬유",
+    "film": "영상·촬영",
+    "design": "디자인",
+    "hrfinance": "인사·재무",
+    "common": "업무 공통"
+  }
+}

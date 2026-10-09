@@ -1,0 +1,33 @@
+/* Dark theme for the legacy app. The shell sets data-color-mode on <html>,
+ * so overriding the legacy CSS variables here covers most of the UI; a few
+ * hardcoded surfaces are restyled below. */
+:root[data-color-mode="dark"] {
+  --paper: #17181a;
+  --white: #202226;
+  --ink: #e9eae6;
+  --muted: #9a9c95;
+  --line: #313338;
+  --accent: #e56b52;
+  --accent-soft: #3a241f;
+  --sage: #22252a;
+}
+
+/* hardcoded surfaces in the legacy stylesheets */
+:root[data-color-mode="dark"] body { background: var(--paper); }
+:root[data-color-mode="dark"] .mobile-nav { background: #1b1d20f2 !important; }
+:root[data-color-mode="dark"] .daily-card,
+:root[data-color-mode="dark"] .discovery-card,
+:root[data-color-mode="dark"] .saved-card,
+:root[data-color-mode="dark"] .flashcard,
+:root[data-color-mode="dark"] .welcome-field,
+:root[data-color-mode="dark"] .industry,
+:root[data-color-mode="dark"] .detail-main,
+:root[data-color-mode="dark"] .search-box,
+:root[data-color-mode="dark"] .collection-note,
+:root[data-color-mode="dark"] .example {
+  background: var(--white) !important;
+  border-color: var(--line) !important;
+}
+:root[data-color-mode="dark"] .daily-card { background: #241f1d !important; }
+:root[data-color-mode="dark"] img,
+:root[data-color-mode="dark"] .word-art { opacity: 0.92; }

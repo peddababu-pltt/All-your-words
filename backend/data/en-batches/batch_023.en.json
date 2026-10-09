@@ -1,0 +1,1577 @@
+[
+ {
+  "id": "film-397",
+  "term": "Kickoff",
+  "definition": "The first meeting to align the goals, roles, and schedule of the work to begin.",
+  "example": "At the video production kickoff, decide the directing direction, shooting schedule, and post-production roles.",
+  "category": "Video Production Collaboration & Meetings",
+  "aliases": [
+   "Kickoff meeting",
+   "Kick-off",
+   "Kick-off",
+   "Kick off",
+   "Kickoff meeting",
+   "Launch meeting",
+   "Commencement meeting"
+  ]
+ },
+ {
+  "id": "design-036",
+  "term": "Kickoff",
+  "definition": "The first meeting to align the goals, roles, and schedule of the work to begin.",
+  "example": "At the design kickoff, align the brand direction, delivery specs, and review schedule.",
+  "category": "Design Collaboration & Meetings",
+  "aliases": [
+   "Kickoff meeting",
+   "Kick-off",
+   "Kick-off",
+   "Kick off",
+   "Kickoff meeting",
+   "Launch meeting",
+   "Commencement meeting"
+  ]
+ },
+ {
+  "id": "hrfinance-504",
+  "term": "Kickoff",
+  "definition": "The first meeting to align the goals, roles, and schedule of the work to begin.",
+  "example": "At the kickoff for the evaluation-system overhaul, define the HR and finance review scope and schedule.",
+  "category": "HR & Finance Collaboration & Meetings",
+  "aliases": [
+   "Kickoff meeting",
+   "Kick-off",
+   "Kick-off",
+   "Kick off",
+   "Kickoff meeting",
+   "Launch meeting",
+   "Commencement meeting"
+  ]
+ },
+ {
+  "id": "marketing-023",
+  "term": "Confirm",
+  "definition": "Verifying the content or approving the progress.",
+  "example": "After getting the client's confirmation on the copy, produce the creative for each medium.",
+  "note": "Whether it is a simple check or a final approval differs by team. Confirm the approval target and the person in charge together.",
+  "category": "Advertising Collaboration & Meetings",
+  "aliases": [
+   "Confirm",
+   "confirm",
+   "Check and approve",
+   "To confirm",
+   "Receive confirmation",
+   "Receive approval"
+  ]
+ },
+ {
+  "id": "dev-053",
+  "term": "Confirm",
+  "definition": "Verifying the content or approving the progress.",
+  "example": "After getting the security team's confirmation, apply the production access permissions.",
+  "note": "Whether it is a simple check or a final approval differs by team. Confirm the approval target and the person in charge together.",
+  "category": "Development Collaboration & Meetings",
+  "aliases": [
+   "Confirm",
+   "confirm",
+   "Check and approve",
+   "To confirm",
+   "Receive confirmation",
+   "Receive approval"
+  ]
+ },
+ {
+  "id": "fashion-022",
+  "term": "Confirm",
+  "definition": "Verifying the content or approving the progress.",
+  "example": "After getting fit and fabric confirmation, order the main production.",
+  "note": "Whether it is a simple check or a final approval differs by team. Confirm the approval target and the person in charge together.",
+  "category": "Fashion Collaboration & Meetings",
+  "aliases": [
+   "Confirm",
+   "confirm",
+   "Check and approve",
+   "To confirm",
+   "Receive confirmation",
+   "Receive approval"
+  ]
+ },
+ {
+  "id": "film-404",
+  "term": "Confirm",
+  "definition": "Verifying the content or approving the progress.",
+  "example": "After getting confirmation on the final storyboard, finalize the shooting preparations.",
+  "note": "Whether it is a simple check or a final approval differs by team. Confirm the approval target and the person in charge together.",
+  "category": "Video Production Collaboration & Meetings",
+  "aliases": [
+   "Confirm",
+   "confirm",
+   "Check and approve",
+   "To confirm",
+   "Receive confirmation",
+   "Receive approval"
+  ]
+ },
+ {
+  "id": "design-026",
+  "term": "Confirm",
+  "definition": "Verifying the content or approving the progress.",
+  "example": "After the logo draft is confirmed, proceed with the applied designs.",
+  "note": "Whether it is a simple check or a final approval differs by team. Confirm the approval target and the person in charge together.",
+  "category": "Design Collaboration & Meetings",
+  "aliases": [
+   "Confirm",
+   "confirm",
+   "Check and approve",
+   "To confirm",
+   "Receive confirmation",
+   "Receive approval"
+  ]
+ },
+ {
+  "id": "hrfinance-505",
+  "term": "Confirm",
+  "definition": "Verifying the content or approving the progress.",
+  "example": "Prepare the labor-cost budget with the headcount plan confirmed by the department head.",
+  "note": "Whether it is a simple check or a final approval differs by team. Confirm the approval target and the person in charge together.",
+  "category": "HR & Finance Collaboration & Meetings",
+  "aliases": [
+   "Confirm",
+   "confirm",
+   "Check and approve",
+   "To confirm",
+   "Receive confirmation",
+   "Receive approval"
+  ]
+ },
+ {
+  "id": "marketing-073",
+  "term": "Develop",
+  "definition": "Developing an idea or proposal into something more concrete.",
+  "example": "Develop the selected campaign idea into videos and banners.",
+  "category": "Advertising Collaboration & Meetings",
+  "aliases": [
+   "Develop",
+   "Flesh out",
+   "To develop",
+   "To flesh out",
+   "Develop",
+   "To develop",
+   "Develop",
+   "Develop"
+  ]
+ },
+ {
+  "id": "dev-103",
+  "term": "Develop",
+  "definition": "Developing an idea or proposal into something more concrete.",
+  "example": "When developing the prototype, build the validated requirements first.",
+  "category": "Development Collaboration & Meetings",
+  "aliases": [
+   "Develop",
+   "Flesh out",
+   "To develop",
+   "To flesh out",
+   "Develop",
+   "To develop",
+   "Develop",
+   "Develop"
+  ]
+ },
+ {
+  "id": "fashion-122",
+  "term": "Develop",
+  "definition": "Developing an idea or proposal into something more concrete.",
+  "example": "Develop the design chosen at the review, considering wearability and cost.",
+  "category": "Fashion Collaboration & Meetings",
+  "aliases": [
+   "Develop",
+   "Flesh out",
+   "To develop",
+   "To flesh out",
+   "Develop",
+   "To develop",
+   "Develop",
+   "Develop"
+  ]
+ },
+ {
+  "id": "film-406",
+  "term": "Develop",
+  "definition": "Developing an idea or proposal into something more concrete.",
+  "example": "Develop the directing ideas into a shootable storyboard.",
+  "category": "Video Production Collaboration & Meetings",
+  "aliases": [
+   "Develop",
+   "Flesh out",
+   "To develop",
+   "To flesh out",
+   "Develop",
+   "To develop",
+   "Develop",
+   "Develop"
+  ]
+ },
+ {
+  "id": "design-068",
+  "term": "Develop",
+  "definition": "Developing an idea or proposal into something more concrete.",
+  "example": "Develop the chosen logo direction down to its usability at small sizes.",
+  "category": "Design Collaboration & Meetings",
+  "aliases": [
+   "Develop",
+   "Flesh out",
+   "To develop",
+   "To flesh out",
+   "Develop",
+   "To develop",
+   "Develop",
+   "Develop"
+  ]
+ },
+ {
+  "id": "hrfinance-506",
+  "term": "Develop",
+  "definition": "Developing an idea or proposal into something more concrete.",
+  "example": "Develop the draft evaluation system by reflecting feedback from the field.",
+  "category": "HR & Finance Collaboration & Meetings",
+  "aliases": [
+   "Develop",
+   "Flesh out",
+   "To develop",
+   "To flesh out",
+   "Develop",
+   "To develop",
+   "Develop",
+   "Develop"
+  ]
+ },
+ {
+  "id": "marketing-075",
+  "term": "Feedback",
+  "definition": "An opinion given after reviewing work.",
+  "example": "Sort the client's feedback into message changes and expression changes.",
+  "category": "Advertising Collaboration & Meetings",
+  "aliases": [
+   "F/B",
+   "FB",
+   "Feed back"
+  ]
+ },
+ {
+  "id": "dev-105",
+  "term": "Feedback",
+  "definition": "An opinion given after reviewing work.",
+  "example": "Among the code review feedback, apply the items required before deployment first.",
+  "category": "Development Collaboration & Meetings",
+  "aliases": [
+   "F/B",
+   "FB",
+   "Feed back"
+  ]
+ },
+ {
+  "id": "fashion-124",
+  "term": "Feedback",
+  "definition": "An opinion given after reviewing work.",
+  "example": "Record the fitting feedback as measurement changes by body part.",
+  "category": "Fashion Collaboration & Meetings",
+  "aliases": [
+   "F/B",
+   "FB",
+   "Feed back"
+  ]
+ },
+ {
+  "id": "film-408",
+  "term": "Feedback",
+  "definition": "An opinion given after reviewing work.",
+  "example": "Attach the relevant timecode to the screening feedback and pass it to the editing team.",
+  "category": "Video Production Collaboration & Meetings",
+  "aliases": [
+   "F/B",
+   "FB",
+   "Feed back"
+  ]
+ },
+ {
+  "id": "design-070",
+  "term": "Feedback",
+  "definition": "An opinion given after reviewing work.",
+  "example": "In the draft feedback, write the problem and the expected change concretely.",
+  "category": "Design Collaboration & Meetings",
+  "aliases": [
+   "F/B",
+   "FB",
+   "Feed back"
+  ]
+ },
+ {
+  "id": "hrfinance-507",
+  "term": "Feedback",
+  "definition": "An opinion given after reviewing work.",
+  "example": "Deliver the evaluation feedback together with concrete work examples.",
+  "category": "HR & Finance Collaboration & Meetings",
+  "aliases": [
+   "F/B",
+   "FB",
+   "Feed back"
+  ]
+ },
+ {
+  "id": "marketing-076",
+  "term": "Deadline",
+  "definition": "The due date by which work must be finished.",
+  "example": "Finish the client's approval before the media-asset submission deadline.",
+  "category": "Advertising Collaboration & Meetings",
+  "aliases": [
+   "Due",
+   "Due date",
+   "Due date",
+   "due date",
+   "Due date",
+   "DL"
+  ]
+ },
+ {
+  "id": "dev-106",
+  "term": "Deadline",
+  "definition": "The due date by which work must be finished.",
+  "example": "Secure time for regression testing before the deployment deadline.",
+  "category": "Development Collaboration & Meetings",
+  "aliases": [
+   "Due",
+   "Due date",
+   "Due date",
+   "due date",
+   "Due date",
+   "DL"
+  ]
+ },
+ {
+  "id": "fashion-125",
+  "term": "Deadline",
+  "definition": "The due date by which work must be finished.",
+  "example": "Work backward from the delivery deadline to set the sewing and inspection schedule.",
+  "category": "Fashion Collaboration & Meetings",
+  "aliases": [
+   "Due",
+   "Due date",
+   "Due date",
+   "due date",
+   "Due date",
+   "DL"
+  ]
+ },
+ {
+  "id": "film-409",
+  "term": "Deadline",
+  "definition": "The due date by which work must be finished.",
+  "example": "Work backward from the broadcast delivery deadline to allocate time for color grading and mixing.",
+  "category": "Video Production Collaboration & Meetings",
+  "aliases": [
+   "Due",
+   "Due date",
+   "Due date",
+   "due date",
+   "Due date",
+   "DL"
+  ]
+ },
+ {
+  "id": "design-071",
+  "term": "Deadline",
+  "definition": "The due date by which work must be finished.",
+  "example": "Finish the final proofing before the print-order deadline.",
+  "category": "Design Collaboration & Meetings",
+  "aliases": [
+   "Due",
+   "Due date",
+   "Due date",
+   "due date",
+   "Due date",
+   "DL"
+  ]
+ },
+ {
+  "id": "hrfinance-508",
+  "term": "Deadline",
+  "definition": "The due date by which work must be finished.",
+  "example": "Inform each department of the deadline for payroll change data.",
+  "category": "HR & Finance Collaboration & Meetings",
+  "aliases": [
+   "Due",
+   "Due date",
+   "Due date",
+   "due date",
+   "Due date",
+   "DL"
+  ]
+ },
+ {
+  "id": "marketing-036",
+  "term": "Agenda",
+  "definition": "The topics and their order to be discussed in a meeting.",
+  "example": "Set the campaign meeting agenda in the order of target, message, and budget.",
+  "category": "Advertising Collaboration & Meetings",
+  "aliases": [
+   "Agenda",
+   "Meeting items",
+   "Agenda item",
+   "Agenda",
+   "Agenda"
+  ]
+ },
+ {
+  "id": "dev-057",
+  "term": "Agenda",
+  "definition": "The topics and their order to be discussed in a meeting.",
+  "example": "Include data integrity and incident response in the design meeting agenda.",
+  "category": "Development Collaboration & Meetings",
+  "aliases": [
+   "Agenda",
+   "Meeting items",
+   "Agenda item",
+   "Agenda",
+   "Agenda"
+  ]
+ },
+ {
+  "id": "fashion-031",
+  "term": "Agenda",
+  "definition": "The topics and their order to be discussed in a meeting.",
+  "example": "Include materials, fit, and target cost in the review meeting agenda.",
+  "category": "Fashion Collaboration & Meetings",
+  "aliases": [
+   "Agenda",
+   "Meeting items",
+   "Agenda item",
+   "Agenda",
+   "Agenda"
+  ]
+ },
+ {
+  "id": "film-398",
+  "term": "Agenda",
+  "definition": "The topics and their order to be discussed in a meeting.",
+  "example": "Include locations and shooting flow in the production meeting agenda.",
+  "category": "Video Production Collaboration & Meetings",
+  "aliases": [
+   "Agenda",
+   "Meeting items",
+   "Agenda item",
+   "Agenda",
+   "Agenda"
+  ]
+ },
+ {
+  "id": "design-037",
+  "term": "Agenda",
+  "definition": "The topics and their order to be discussed in a meeting.",
+  "example": "Divide the design review agenda into information structure and visual expression.",
+  "category": "Design Collaboration & Meetings",
+  "aliases": [
+   "Agenda",
+   "Meeting items",
+   "Agenda item",
+   "Agenda",
+   "Agenda"
+  ]
+ },
+ {
+  "id": "hrfinance-509",
+  "term": "Agenda",
+  "definition": "The topics and their order to be discussed in a meeting.",
+  "example": "Include budget-vs-actual variance and cash outlook in the management meeting agenda.",
+  "category": "HR & Finance Collaboration & Meetings",
+  "aliases": [
+   "Agenda",
+   "Meeting items",
+   "Agenda item",
+   "Agenda",
+   "Agenda"
+  ]
+ },
+ {
+  "id": "marketing-037",
+  "term": "Action Item",
+  "definition": "A specific task that an owner must carry out after discussion.",
+  "example": "Leave the media-proposal revision as an action item with an owner and a due date.",
+  "category": "Advertising Collaboration & Meetings",
+  "aliases": [
+   "Action item",
+   "Follow-up task",
+   "Follow-up action",
+   "Action summary",
+   "Action Item"
+  ]
+ },
+ {
+  "id": "dev-058",
+  "term": "Action Item",
+  "definition": "A specific task that an owner must carry out after discussion.",
+  "example": "Register the incident retrospective's action items as issues and assign owners.",
+  "category": "Development Collaboration & Meetings",
+  "aliases": [
+   "Action item",
+   "Follow-up task",
+   "Follow-up action",
+   "Action summary",
+   "Action Item"
+  ]
+ },
+ {
+  "id": "fashion-032",
+  "term": "Action Item",
+  "definition": "A specific task that an owner must carry out after discussion.",
+  "example": "For each sample-revision action item, note the responsible factory and the check date.",
+  "category": "Fashion Collaboration & Meetings",
+  "aliases": [
+   "Action item",
+   "Follow-up task",
+   "Follow-up action",
+   "Action summary",
+   "Action Item"
+  ]
+ },
+ {
+  "id": "film-399",
+  "term": "Action Item",
+  "definition": "A specific task that an owner must carry out after discussion.",
+  "example": "Distribute the action items decided in the production meeting to the camera and art teams.",
+  "category": "Video Production Collaboration & Meetings",
+  "aliases": [
+   "Action item",
+   "Follow-up task",
+   "Follow-up action",
+   "Action summary",
+   "Action Item"
+  ]
+ },
+ {
+  "id": "design-038",
+  "term": "Action Item",
+  "definition": "A specific task that an owner must carry out after discussion.",
+  "example": "Reflect only the action items agreed in the review into the next draft.",
+  "category": "Design Collaboration & Meetings",
+  "aliases": [
+   "Action item",
+   "Follow-up task",
+   "Follow-up action",
+   "Action summary",
+   "Action Item"
+  ]
+ },
+ {
+  "id": "hrfinance-510",
+  "term": "Action Item",
+  "definition": "A specific task that an owner must carry out after discussion.",
+  "example": "Divide the closing-variance checks into action items by account.",
+  "category": "HR & Finance Collaboration & Meetings",
+  "aliases": [
+   "Action item",
+   "Follow-up task",
+   "Follow-up action",
+   "Action summary",
+   "Action Item"
+  ]
+ },
+ {
+  "id": "marketing-038",
+  "term": "Scope",
+  "definition": "The range of work and results to be included in this effort.",
+  "example": "Check whether additional short-form production is included in this campaign's scope.",
+  "category": "Advertising Collaboration & Meetings",
+  "aliases": [
+   "Work scope",
+   "Task scope"
+  ]
+ },
+ {
+  "id": "dev-059",
+  "term": "Scope",
+  "definition": "The range of work and results to be included in this effort.",
+  "example": "We decided to exclude the payment overhaul from this release's scope.",
+  "category": "Development Collaboration & Meetings",
+  "aliases": [
+   "Work scope",
+   "Task scope"
+  ]
+ },
+ {
+  "id": "fashion-033",
+  "term": "Scope",
+  "definition": "The range of work and results to be included in this effort.",
+  "example": "Include trial production and colorfastness testing in the fabric-development scope.",
+  "category": "Fashion Collaboration & Meetings",
+  "aliases": [
+   "Work scope",
+   "Task scope"
+  ]
+ },
+ {
+  "id": "film-400",
+  "term": "Scope",
+  "definition": "The range of work and results to be included in this effort.",
+  "example": "Check the contract for whether still photography and making-of are included in the shooting scope.",
+  "category": "Video Production Collaboration & Meetings",
+  "aliases": [
+   "Work scope",
+   "Task scope"
+  ]
+ },
+ {
+  "id": "design-039",
+  "term": "Scope",
+  "definition": "The range of work and results to be included in this effort.",
+  "example": "Specify source-file delivery and the number of revisions in the design scope.",
+  "category": "Design Collaboration & Meetings",
+  "aliases": [
+   "Work scope",
+   "Task scope"
+  ]
+ },
+ {
+  "id": "hrfinance-511",
+  "term": "Scope",
+  "definition": "The range of work and results to be included in this effort.",
+  "example": "Include historical-data migration in the scope of the payroll system transition.",
+  "category": "HR & Finance Collaboration & Meetings",
+  "aliases": [
+   "Work scope",
+   "Task scope"
+  ]
+ },
+ {
+  "id": "marketing-039",
+  "term": "Milestone",
+  "definition": "An important completion point by which progress is judged.",
+  "example": "Set the client pitch and the on-air date as campaign milestones.",
+  "category": "Advertising Collaboration & Meetings",
+  "aliases": [
+   "Key date",
+   "Interim milestone"
+  ]
+ },
+ {
+  "id": "dev-060",
+  "term": "Milestone",
+  "definition": "An important completion point by which progress is judged.",
+  "example": "Manage API finalization, integration testing, and deployment as development milestones.",
+  "category": "Development Collaboration & Meetings",
+  "aliases": [
+   "Key date",
+   "Interim milestone"
+  ]
+ },
+ {
+  "id": "fashion-034",
+  "term": "Milestone",
+  "definition": "An important completion point by which progress is judged.",
+  "example": "Set sample approval and fabric arrival as production milestones.",
+  "category": "Fashion Collaboration & Meetings",
+  "aliases": [
+   "Key date",
+   "Interim milestone"
+  ]
+ },
+ {
+  "id": "film-401",
+  "term": "Milestone",
+  "definition": "An important completion point by which progress is judged.",
+  "example": "Set storyboard finalization, shooting, and picture lock as production milestones.",
+  "category": "Video Production Collaboration & Meetings",
+  "aliases": [
+   "Key date",
+   "Interim milestone"
+  ]
+ },
+ {
+  "id": "design-040",
+  "term": "Milestone",
+  "definition": "An important completion point by which progress is judged.",
+  "example": "Share concept approval and final delivery as design milestones.",
+  "category": "Design Collaboration & Meetings",
+  "aliases": [
+   "Key date",
+   "Interim milestone"
+  ]
+ },
+ {
+  "id": "hrfinance-512",
+  "term": "Milestone",
+  "definition": "An important completion point by which progress is judged.",
+  "example": "Reflect the external-audit document submission date in the closing milestones.",
+  "category": "HR & Finance Collaboration & Meetings",
+  "aliases": [
+   "Key date",
+   "Interim milestone"
+  ]
+ },
+ {
+  "id": "marketing-041",
+  "term": "Resource",
+  "definition": "Resources such as people, time, and budget to be put into the work.",
+  "example": "Plan the media budget and production staff together as campaign resources.",
+  "category": "Advertising Collaboration & Meetings",
+  "aliases": [
+   "People and resources",
+   "Available resources"
+  ]
+ },
+ {
+  "id": "dev-062",
+  "term": "Resource",
+  "definition": "Resources such as people, time, and budget to be put into the work.",
+  "example": "Check the development and QA resources available in this sprint.",
+  "category": "Development Collaboration & Meetings",
+  "aliases": [
+   "People and resources",
+   "Available resources"
+  ]
+ },
+ {
+  "id": "fashion-036",
+  "term": "Resource",
+  "definition": "Resources such as people, time, and budget to be put into the work.",
+  "example": "Set the production schedule based on the resources of the sample room and sewing line.",
+  "category": "Fashion Collaboration & Meetings",
+  "aliases": [
+   "People and resources",
+   "Available resources"
+  ]
+ },
+ {
+  "id": "film-403",
+  "term": "Resource",
+  "definition": "Resources such as people, time, and budget to be put into the work.",
+  "example": "Allocate the shooting equipment and crew resources by location.",
+  "category": "Video Production Collaboration & Meetings",
+  "aliases": [
+   "People and resources",
+   "Available resources"
+  ]
+ },
+ {
+  "id": "design-042",
+  "term": "Resource",
+  "definition": "Resources such as people, time, and budget to be put into the work.",
+  "example": "Set the revision schedule considering the designer and retoucher resources.",
+  "category": "Design Collaboration & Meetings",
+  "aliases": [
+   "People and resources",
+   "Available resources"
+  ]
+ },
+ {
+  "id": "hrfinance-513",
+  "term": "Resource",
+  "definition": "Resources such as people, time, and budget to be put into the work.",
+  "example": "Secure the HR operations resources needed during the year-end tax settlement period.",
+  "category": "HR & Finance Collaboration & Meetings",
+  "aliases": [
+   "People and resources",
+   "Available resources"
+  ]
+ },
+ {
+  "id": "marketing-086",
+  "term": "Align",
+  "definition": "The work of matching the goals or direction of the people involved.",
+  "example": "Align the campaign's key message with the client.",
+  "category": "Advertising Collaboration & Meetings",
+  "aliases": [
+   "Alignment",
+   "To align",
+   "Align",
+   "To align",
+   "Direction matching",
+   "Align",
+   "Alignment"
+  ]
+ },
+ {
+  "id": "dev-121",
+  "term": "Align",
+  "definition": "The work of matching the goals or direction of the people involved.",
+  "example": "Planning, development, and QA align on the release scope and the definition of done.",
+  "category": "Development Collaboration & Meetings",
+  "aliases": [
+   "Alignment",
+   "To align",
+   "Align",
+   "To align",
+   "Direction matching",
+   "Align",
+   "Alignment"
+  ]
+ },
+ {
+  "id": "fashion-135",
+  "term": "Align",
+  "definition": "The work of matching the goals or direction of the people involved.",
+  "example": "The MD and designer align on the season's price range and product mix.",
+  "category": "Fashion Collaboration & Meetings",
+  "aliases": [
+   "Alignment",
+   "To align",
+   "Align",
+   "To align",
+   "Direction matching",
+   "Align",
+   "Alignment"
+  ]
+ },
+ {
+  "id": "film-395",
+  "term": "Align",
+  "definition": "The work of matching the goals or direction of the people involved.",
+  "example": "The director and the cinematographer align on the scene's tone and camera movement.",
+  "category": "Video Production Collaboration & Meetings",
+  "aliases": [
+   "Alignment",
+   "To align",
+   "Align",
+   "To align",
+   "Direction matching",
+   "Align",
+   "Alignment"
+  ]
+ },
+ {
+  "id": "design-084",
+  "term": "Align",
+  "definition": "The work of matching the goals or direction of the people involved.",
+  "example": "The brand team and the designer align on the logo usage principles.",
+  "category": "Design Collaboration & Meetings",
+  "aliases": [
+   "Alignment",
+   "To align",
+   "Align",
+   "To align",
+   "Direction matching",
+   "Align",
+   "Alignment"
+  ]
+ },
+ {
+  "id": "hrfinance-514",
+  "term": "Align",
+  "definition": "The work of matching the goals or direction of the people involved.",
+  "example": "HR and finance align on the headcount basis of the labor-cost plan.",
+  "category": "HR & Finance Collaboration & Meetings",
+  "aliases": [
+   "Alignment",
+   "To align",
+   "Align",
+   "To align",
+   "Direction matching",
+   "Align",
+   "Alignment"
+  ]
+ },
+ {
+  "id": "marketing-087",
+  "term": "Follow-up",
+  "definition": "The work of keeping track of progress and taking follow-up actions.",
+  "example": "Follow up on the review results of the revised draft sent to the client.",
+  "category": "Advertising Collaboration & Meetings",
+  "aliases": [
+   "Follow-up",
+   "F/up",
+   "follow up",
+   "Follow up",
+   "Follow-up",
+   "Follow-up",
+   "F/up",
+   "F/U"
+  ]
+ },
+ {
+  "id": "dev-122",
+  "term": "Follow-up",
+  "definition": "The work of keeping track of progress and taking follow-up actions.",
+  "example": "Follow up on the resolution schedule for the external API outage inquiry.",
+  "category": "Development Collaboration & Meetings",
+  "aliases": [
+   "Follow-up",
+   "F/up",
+   "follow up",
+   "Follow up",
+   "Follow-up",
+   "Follow-up",
+   "F/up",
+   "F/U"
+  ]
+ },
+ {
+  "id": "fashion-136",
+  "term": "Follow-up",
+  "definition": "The work of keeping track of progress and taking follow-up actions.",
+  "example": "Follow up on the fabric supplier's delivery-date reply.",
+  "category": "Fashion Collaboration & Meetings",
+  "aliases": [
+   "Follow-up",
+   "F/up",
+   "follow up",
+   "Follow up",
+   "Follow-up",
+   "Follow-up",
+   "F/up",
+   "F/U"
+  ]
+ },
+ {
+  "id": "film-396",
+  "term": "Follow-up",
+  "definition": "The work of keeping track of progress and taking follow-up actions.",
+  "example": "The production team follows up on the progress of the location permits.",
+  "category": "Video Production Collaboration & Meetings",
+  "aliases": [
+   "Follow-up",
+   "F/up",
+   "follow up",
+   "Follow up",
+   "Follow-up",
+   "Follow-up",
+   "F/up",
+   "F/U"
+  ]
+ },
+ {
+  "id": "design-085",
+  "term": "Follow-up",
+  "definition": "The work of keeping track of progress and taking follow-up actions.",
+  "example": "Follow up on the color-correction results of the print shop's proof.",
+  "category": "Design Collaboration & Meetings",
+  "aliases": [
+   "Follow-up",
+   "F/up",
+   "follow up",
+   "Follow up",
+   "Follow-up",
+   "Follow-up",
+   "F/up",
+   "F/U"
+  ]
+ },
+ {
+  "id": "hrfinance-515",
+  "term": "Follow-up",
+  "definition": "The work of keeping track of progress and taking follow-up actions.",
+  "example": "Follow up with each department on unsubmitted closing documentation.",
+  "category": "HR & Finance Collaboration & Meetings",
+  "aliases": [
+   "Follow-up",
+   "F/up",
+   "follow up",
+   "Follow up",
+   "Follow-up",
+   "Follow-up",
+   "F/up",
+   "F/U"
+  ]
+ },
+ {
+  "id": "marketing-090",
+  "term": "R&R",
+  "definition": "The roles and scope of responsibility of each person in charge.",
+  "example": "Define the campaign R&R of the AE, copywriter, and art lead.",
+  "category": "Advertising Collaboration & Meetings",
+  "aliases": [
+   "R and R",
+   "R and R",
+   "R n R",
+   "Roles and Responsibilities"
+  ]
+ },
+ {
+  "id": "dev-123",
+  "term": "R&R",
+  "definition": "The roles and scope of responsibility of each person in charge.",
+  "example": "Document the development and operations R&R for each service.",
+  "category": "Development Collaboration & Meetings",
+  "aliases": [
+   "R and R",
+   "R and R",
+   "R n R",
+   "Roles and Responsibilities"
+  ]
+ },
+ {
+  "id": "fashion-137",
+  "term": "R&R",
+  "definition": "The roles and scope of responsibility of each person in charge.",
+  "example": "Align the R&R of merchandising, materials, and production management before the season starts.",
+  "category": "Fashion Collaboration & Meetings",
+  "aliases": [
+   "R and R",
+   "R and R",
+   "R n R",
+   "Roles and Responsibilities"
+  ]
+ },
+ {
+  "id": "film-387",
+  "term": "R&R",
+  "definition": "The roles and scope of responsibility of each person in charge.",
+  "example": "Check the R&R and handover points of the camera, lighting, and art teams.",
+  "category": "Video Production Collaboration & Meetings",
+  "aliases": [
+   "R and R",
+   "R and R",
+   "R n R",
+   "Roles and Responsibilities"
+  ]
+ },
+ {
+  "id": "design-086",
+  "term": "R&R",
+  "definition": "The roles and scope of responsibility of each person in charge.",
+  "example": "Separate the R&R of UX research and UI production.",
+  "category": "Design Collaboration & Meetings",
+  "aliases": [
+   "R and R",
+   "R and R",
+   "R n R",
+   "Roles and Responsibilities"
+  ]
+ },
+ {
+  "id": "hrfinance-516",
+  "term": "R&R",
+  "definition": "The roles and scope of responsibility of each person in charge.",
+  "example": "Separate the R&R of payroll calculation, review, and transfer.",
+  "category": "HR & Finance Collaboration & Meetings",
+  "aliases": [
+   "R and R",
+   "R and R",
+   "R n R",
+   "Roles and Responsibilities"
+  ]
+ },
+ {
+  "id": "marketing-040",
+  "term": "Deliverables",
+  "definition": "The results that are to be made and delivered through the work.",
+  "example": "Write the video length and banner specs for each medium in the campaign deliverables.",
+  "category": "Advertising Collaboration & Meetings",
+  "aliases": [
+   "Deliverable",
+   "Output",
+   "Delivered goods",
+   "Deliverables",
+   "Delivered item",
+   "Final submission"
+  ]
+ },
+ {
+  "id": "dev-061",
+  "term": "Deliverables",
+  "definition": "The results that are to be made and delivered through the work.",
+  "example": "Include source code, operations documentation, and test results in the development deliverables.",
+  "category": "Development Collaboration & Meetings",
+  "aliases": [
+   "Deliverable",
+   "Output",
+   "Delivered goods",
+   "Deliverables",
+   "Delivered item",
+   "Final submission"
+  ]
+ },
+ {
+  "id": "fashion-035",
+  "term": "Deliverables",
+  "definition": "The results that are to be made and delivered through the work.",
+  "example": "Manage the tech pack and approved sample as the product-development deliverables.",
+  "category": "Fashion Collaboration & Meetings",
+  "aliases": [
+   "Deliverable",
+   "Output",
+   "Delivered goods",
+   "Deliverables",
+   "Delivered item",
+   "Final submission"
+  ]
+ },
+ {
+  "id": "film-402",
+  "term": "Deliverables",
+  "definition": "The results that are to be made and delivered through the work.",
+  "example": "Check the resolution, codec, and audio track configuration of the video deliverables.",
+  "category": "Video Production Collaboration & Meetings",
+  "aliases": [
+   "Deliverable",
+   "Output",
+   "Delivered goods",
+   "Deliverables",
+   "Delivered item",
+   "Final submission"
+  ]
+ },
+ {
+  "id": "design-041",
+  "term": "Deliverables",
+  "definition": "The results that are to be made and delivered through the work.",
+  "example": "Deliver the design deliverables' source files together with the usage guide.",
+  "category": "Design Collaboration & Meetings",
+  "aliases": [
+   "Deliverable",
+   "Output",
+   "Delivered goods",
+   "Deliverables",
+   "Delivered item",
+   "Final submission"
+  ]
+ },
+ {
+  "id": "hrfinance-517",
+  "term": "Deliverables",
+  "definition": "The results that are to be made and delivered through the work.",
+  "example": "Exclude personally identifiable information from the HR diagnostic deliverables.",
+  "category": "HR & Finance Collaboration & Meetings",
+  "aliases": [
+   "Deliverable",
+   "Output",
+   "Delivered goods",
+   "Deliverables",
+   "Delivered item",
+   "Final submission"
+  ]
+ },
+ {
+  "id": "marketing-324",
+  "term": "Review",
+  "definition": "The work of examining results or plans and identifying problems and improvements.",
+  "example": "In the weekly performance review, check conversions and costs by medium.",
+  "category": "Advertising Collaboration & Meetings",
+  "aliases": [
+   "Review",
+   "To review"
+  ]
+ },
+ {
+  "id": "dev-237",
+  "term": "Review",
+  "definition": "The work of examining results or plans and identifying problems and improvements.",
+  "example": "In the code review, check exception handling and missing tests.",
+  "category": "Development Collaboration & Meetings",
+  "aliases": [
+   "Review",
+   "To review"
+  ]
+ },
+ {
+  "id": "fashion-301",
+  "term": "Review",
+  "definition": "The work of examining results or plans and identifying problems and improvements.",
+  "example": "Reflect the season sales review into the next season's order plan.",
+  "category": "Fashion Collaboration & Meetings",
+  "aliases": [
+   "Review",
+   "To review"
+  ]
+ },
+ {
+  "id": "film-347",
+  "term": "Review",
+  "definition": "The work of examining results or plans and identifying problems and improvements.",
+  "example": "For the edit review, leave the timecodes together with the intent of each change.",
+  "category": "Video Production Collaboration & Meetings",
+  "aliases": [
+   "Review",
+   "To review"
+  ]
+ },
+ {
+  "id": "design-247",
+  "term": "Review",
+  "definition": "The work of examining results or plans and identifying problems and improvements.",
+  "example": "In the design review, discuss based on user tasks rather than personal taste.",
+  "category": "Design Collaboration & Meetings",
+  "aliases": [
+   "Review",
+   "To review"
+  ]
+ },
+ {
+  "id": "hrfinance-518",
+  "term": "Review",
+  "definition": "The work of examining results or plans and identifying problems and improvements.",
+  "example": "In the monthly P&L review, explain the causes of budget variances.",
+  "category": "HR & Finance Collaboration & Meetings",
+  "aliases": [
+   "Review",
+   "To review"
+  ]
+ },
+ {
+  "id": "marketing-291",
+  "term": "Requirements",
+  "definition": "The functions, conditions, and constraints that a deliverable or service must satisfy.",
+  "example": "From the client's requirements, organize the messages that must be delivered and the expressions to exclude.",
+  "category": "Advertising Collaboration & Meetings",
+  "aliases": [
+   "Requirement",
+   "Requirements"
+  ]
+ },
+ {
+  "id": "dev-204",
+  "term": "Requirements",
+  "definition": "The functions, conditions, and constraints that a deliverable or service must satisfy.",
+  "example": "Link acceptance criteria to each requirement to confirm the implementation scope.",
+  "category": "Development Collaboration & Meetings",
+  "aliases": [
+   "Requirement",
+   "Requirements"
+  ]
+ },
+ {
+  "id": "fashion-268",
+  "term": "Requirements",
+  "definition": "The functions, conditions, and constraints that a deliverable or service must satisfy.",
+  "example": "Reflect the buyer's requirements into the material, measurement, and label specs.",
+  "category": "Fashion Collaboration & Meetings",
+  "aliases": [
+   "Requirement",
+   "Requirements"
+  ]
+ },
+ {
+  "id": "film-314",
+  "term": "Requirements",
+  "definition": "The functions, conditions, and constraints that a deliverable or service must satisfy.",
+  "example": "Before shooting, check the aspect ratio and subtitle presence in the delivery requirements.",
+  "category": "Video Production Collaboration & Meetings",
+  "aliases": [
+   "Requirement",
+   "Requirements"
+  ]
+ },
+ {
+  "id": "design-214",
+  "term": "Requirements",
+  "definition": "The functions, conditions, and constraints that a deliverable or service must satisfy.",
+  "example": "Write the usage environment and accessibility conditions in the design requirements.",
+  "category": "Design Collaboration & Meetings",
+  "aliases": [
+   "Requirement",
+   "Requirements"
+  ]
+ },
+ {
+  "id": "hrfinance-519",
+  "term": "Requirements",
+  "definition": "The functions, conditions, and constraints that a deliverable or service must satisfy.",
+  "example": "Include approval authority and record-retention criteria in the HR system requirements.",
+  "category": "HR & Finance Collaboration & Meetings",
+  "aliases": [
+   "Requirement",
+   "Requirements"
+  ]
+ },
+ {
+  "id": "marketing-661",
+  "term": "Stakeholder",
+  "definition": "A person or organization that influences, or is affected by the results of, a task or decision.",
+  "example": "Define the approval scope for each stakeholder among the client, media company, and production company.",
+  "category": "Advertising Collaboration & Meetings",
+  "aliases": [
+   "Interested party",
+   "Stake holder"
+  ]
+ },
+ {
+  "id": "dev-482",
+  "term": "Stakeholder",
+  "definition": "A person or organization that influences, or is affected by the results of, a task or decision.",
+  "example": "Check the operations and security stakeholders affected by the development change.",
+  "category": "Development Collaboration & Meetings",
+  "aliases": [
+   "Interested party",
+   "Stake holder"
+  ]
+ },
+ {
+  "id": "fashion-622",
+  "term": "Stakeholder",
+  "definition": "A person or organization that influences, or is affected by the results of, a task or decision.",
+  "example": "Share the schedule with the MD, sales, and production teams, who are the stakeholders of the season change.",
+  "category": "Fashion Collaboration & Meetings",
+  "aliases": [
+   "Interested party",
+   "Stake holder"
+  ]
+ },
+ {
+  "id": "film-530",
+  "term": "Stakeholder",
+  "definition": "A person or organization that influences, or is affected by the results of, a task or decision.",
+  "example": "Gather the screening opinions of the directing, production, and client stakeholders.",
+  "category": "Video Production Collaboration & Meetings",
+  "aliases": [
+   "Interested party",
+   "Stake holder"
+  ]
+ },
+ {
+  "id": "design-493",
+  "term": "Stakeholder",
+  "definition": "A person or organization that influences, or is affected by the results of, a task or decision.",
+  "example": "Interview the usage environments of the rebranding stakeholders.",
+  "category": "Design Collaboration & Meetings",
+  "aliases": [
+   "Interested party",
+   "Stake holder"
+  ]
+ },
+ {
+  "id": "hrfinance-520",
+  "term": "Stakeholder",
+  "definition": "A person or organization that influences, or is affected by the results of, a task or decision.",
+  "example": "Share the review materials with the stakeholders of the compensation-system change.",
+  "category": "HR & Finance Collaboration & Meetings",
+  "aliases": [
+   "Interested party",
+   "Stake holder"
+  ]
+ },
+ {
+  "id": "marketing-662",
+  "term": "Sign-off",
+  "definition": "A procedure where a responsible person checks the result or the conditions for proceeding and approves moving to the next step.",
+  "example": "Deliver to the media only the creative that has received the client's sign-off.",
+  "category": "Advertising Collaboration & Meetings",
+  "aliases": [
+   "Sign off",
+   "Final approval",
+   "Sign-off",
+   "Sign-off"
+  ]
+ },
+ {
+  "id": "dev-483",
+  "term": "Sign-off",
+  "definition": "A procedure where a responsible person checks the result or the conditions for proceeding and approves moving to the next step.",
+  "example": "Before the QA sign-off, check the remaining release-blocking issues.",
+  "category": "Development Collaboration & Meetings",
+  "aliases": [
+   "Sign off",
+   "Final approval",
+   "Sign-off",
+   "Sign-off"
+  ]
+ },
+ {
+  "id": "fashion-623",
+  "term": "Sign-off",
+  "definition": "A procedure where a responsible person checks the result or the conditions for proceeding and approves moving to the next step.",
+  "example": "Pass the sign-off record of the production-approved sample to the factory.",
+  "category": "Fashion Collaboration & Meetings",
+  "aliases": [
+   "Sign off",
+   "Final approval",
+   "Sign-off",
+   "Sign-off"
+  ]
+ },
+ {
+  "id": "film-531",
+  "term": "Sign-off",
+  "definition": "A procedure where a responsible person checks the result or the conditions for proceeding and approves moving to the next step.",
+  "example": "After the final video sign-off, output the delivery master.",
+  "category": "Video Production Collaboration & Meetings",
+  "aliases": [
+   "Sign off",
+   "Final approval",
+   "Sign-off",
+   "Sign-off"
+  ]
+ },
+ {
+  "id": "design-494",
+  "term": "Sign-off",
+  "definition": "A procedure where a responsible person checks the result or the conditions for proceeding and approves moving to the next step.",
+  "example": "Keep the signed-off version of the print data separately.",
+  "category": "Design Collaboration & Meetings",
+  "aliases": [
+   "Sign off",
+   "Final approval",
+   "Sign-off",
+   "Sign-off"
+  ]
+ },
+ {
+  "id": "hrfinance-521",
+  "term": "Sign-off",
+  "definition": "A procedure where a responsible person checks the result or the conditions for proceeding and approves moving to the next step.",
+  "example": "Transfer the payroll payment file only after the reviewer's sign-off.",
+  "category": "HR & Finance Collaboration & Meetings",
+  "aliases": [
+   "Sign off",
+   "Final approval",
+   "Sign-off",
+   "Sign-off"
+  ]
+ },
+ {
+  "id": "marketing-663",
+  "term": "Change Request",
+  "definition": "A formal or managed request to change the agreed scope, requirements, schedule, and so on.",
+  "example": "Check the production cost and schedule of the change request arising from the added medium.",
+  "category": "Advertising Collaboration & Meetings",
+  "aliases": [
+   "CR",
+   "Change request"
+  ]
+ },
+ {
+  "id": "dev-484",
+  "term": "Change Request",
+  "definition": "A formal or managed request to change the agreed scope, requirements, schedule, and so on.",
+  "example": "Get approval for the deployment-scope change request after impact analysis.",
+  "category": "Development Collaboration & Meetings",
+  "aliases": [
+   "CR",
+   "Change request"
+  ]
+ },
+ {
+  "id": "fashion-624",
+  "term": "Change Request",
+  "definition": "A formal or managed request to change the agreed scope, requirements, schedule, and so on.",
+  "example": "For a spec change request during mass production, first check the impact on inventory and processes.",
+  "category": "Fashion Collaboration & Meetings",
+  "aliases": [
+   "CR",
+   "Change request"
+  ]
+ },
+ {
+  "id": "film-532",
+  "term": "Change Request",
+  "definition": "A formal or managed request to change the agreed scope, requirements, schedule, and so on.",
+  "example": "For a storyboard change request after shooting, explain whether a reshoot is needed.",
+  "category": "Video Production Collaboration & Meetings",
+  "aliases": [
+   "CR",
+   "Change request"
+  ]
+ },
+ {
+  "id": "design-495",
+  "term": "Change Request",
+  "definition": "A formal or managed request to change the agreed scope, requirements, schedule, and so on.",
+  "example": "Manage the change request for an approved draft as a new revision.",
+  "category": "Design Collaboration & Meetings",
+  "aliases": [
+   "CR",
+   "Change request"
+  ]
+ },
+ {
+  "id": "hrfinance-522",
+  "term": "Change Request",
+  "definition": "A formal or managed request to change the agreed scope, requirements, schedule, and so on.",
+  "example": "For a change request after the payroll close, record the approval history and the settlement method.",
+  "category": "HR & Finance Collaboration & Meetings",
+  "aliases": [
+   "CR",
+   "Change request"
+  ]
+ },
+ {
+  "id": "marketing-664",
+  "term": "Handling",
+  "definition": "An expression meaning to take charge of a task or stakeholder and manage and coordinate its progress.",
+  "example": "The AE gathers the client's feedback and handles it with the production team.",
+  "category": "Advertising Collaboration & Meetings",
+  "aliases": [
+   "Handle"
+  ]
+ },
+ {
+  "id": "dev-485",
+  "term": "Handling",
+  "definition": "An expression meaning to take charge of a task or stakeholder and manage and coordinate its progress.",
+  "example": "The on-call person prioritizes and handles operational issues.",
+  "category": "Development Collaboration & Meetings",
+  "aliases": [
+   "Handle"
+  ]
+ },
+ {
+  "id": "fashion-625",
+  "term": "Handling",
+  "definition": "An expression meaning to take charge of a task or stakeholder and manage and coordinate its progress.",
+  "example": "The production manager handles delivery-date issues at each factory.",
+  "category": "Fashion Collaboration & Meetings",
+  "aliases": [
+   "Handle"
+  ]
+ },
+ {
+  "id": "film-533",
+  "term": "Handling",
+  "definition": "An expression meaning to take charge of a task or stakeholder and manage and coordinate its progress.",
+  "example": "The production team handles the on-site schedule with the location manager.",
+  "category": "Video Production Collaboration & Meetings",
+  "aliases": [
+   "Handle"
+  ]
+ },
+ {
+  "id": "design-496",
+  "term": "Handling",
+  "definition": "An expression meaning to take charge of a task or stakeholder and manage and coordinate its progress.",
+  "example": "The design lead handles the revision requests from each department.",
+  "category": "Design Collaboration & Meetings",
+  "aliases": [
+   "Handle"
+  ]
+ },
+ {
+  "id": "hrfinance-523",
+  "term": "Handling",
+  "definition": "An expression meaning to take charge of a task or stakeholder and manage and coordinate its progress.",
+  "example": "The HR operations person handles inquiries about onboarding documents.",
+  "category": "HR & Finance Collaboration & Meetings",
+  "aliases": [
+   "Handle"
+  ]
+ },
+ {
+  "id": "marketing-665",
+  "term": "Overhaul",
+  "definition": "An informal expression meaning to largely scrap an existing proposal or work and rebuild it from the direction and structure up.",
+  "example": "The campaign message changed, so we ended up overhauling the existing proposal.",
+  "category": "Advertising Collaboration & Meetings",
+  "aliases": [
+   "Scrap and rebuild",
+   "Complete rework"
+  ]
+ },
+ {
+  "id": "fashion-626",
+  "term": "Overhaul",
+  "definition": "An informal expression meaning to largely scrap an existing proposal or work and rebuild it from the direction and structure up.",
+  "example": "Before overhauling the collection lineup based on review feedback, check the delivery dates.",
+  "category": "Fashion Collaboration & Meetings",
+  "aliases": [
+   "Scrap and rebuild",
+   "Complete rework"
+  ]
+ },
+ {
+  "id": "film-534",
+  "term": "Overhaul",
+  "definition": "An informal expression meaning to largely scrap an existing proposal or work and rebuild it from the direction and structure up.",
+  "example": "If you overhaul the storyboard, first check the impact on shooting preparations.",
+  "category": "Video Production Collaboration & Meetings",
+  "aliases": [
+   "Scrap and rebuild",
+   "Complete rework"
+  ]
+ }
+]

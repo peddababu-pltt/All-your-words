@@ -1,0 +1,1246 @@
+[
+ {
+  "id": "hrfinance-166",
+  "term": "CFO",
+  "definition": "The executive responsible for overseeing the company's overall financial strategy and financial management.",
+  "example": "Large investment proposals go to the management meeting after CFO review.",
+  "category": "Finance Organization & Basics",
+  "aliases": [
+   "Chief Financial Officer"
+  ]
+ },
+ {
+  "id": "hrfinance-167",
+  "term": "FP&A",
+  "definition": "Finance work that supports management decision-making by analyzing budgets, actuals, and forecasts.",
+  "example": "FP&A calculated the profit-and-loss impact of the revised revenue forecast.",
+  "category": "Finance Organization & Basics",
+  "aliases": [
+   "Financial Planning & Analysis",
+   "FPA"
+  ]
+ },
+ {
+  "id": "hrfinance-168",
+  "term": "Management Accounting",
+  "definition": "The area of accounting that produces information such as costs, budgets, and profitability for internal decision-making and performance management.",
+  "example": "Let's review profitability by business unit on a management accounting basis.",
+  "category": "Finance Organization & Basics",
+  "aliases": [
+   "Management Accounting"
+  ]
+ },
+ {
+  "id": "hrfinance-169",
+  "term": "Financial Accounting",
+  "definition": "The area of accounting that records transactions and prepares financial statements to report financial position and performance to external stakeholders.",
+  "example": "I checked the difference between the management aggregation and the financial accounting books.",
+  "category": "Finance Organization & Basics",
+  "aliases": [
+   "Financial Accounting"
+  ]
+ },
+ {
+  "id": "hrfinance-170",
+  "term": "Accounting Policy",
+  "definition": "The accounting standards and specific treatment principles a company applies when preparing financial statements.",
+  "example": "Revenue recognition for this contract is reviewed in line with the company's accounting policy.",
+  "category": "Finance Organization & Basics",
+  "aliases": [
+   "Accounting Policy"
+  ]
+ },
+ {
+  "id": "hrfinance-171",
+  "term": "Accounting Period",
+  "definition": "The period over which a company separates and reports its financial performance and transactions. The annual reporting period is called the fiscal year.",
+  "example": "Please first confirm whether the expense belongs to this accounting period.",
+  "category": "Finance Organization & Basics",
+  "aliases": [
+   "Fiscal Year"
+  ]
+ },
+ {
+  "id": "hrfinance-172",
+  "term": "Account Title",
+  "definition": "The classification item under which a transaction is recorded in the books according to its nature.",
+  "example": "I asked which account title to use for the training expense.",
+  "category": "Finance Organization & Basics",
+  "aliases": [
+   "Account Code"
+  ]
+ },
+ {
+  "id": "hrfinance-173",
+  "term": "Debit",
+  "definition": "The left side of a journal entry or account in double-entry bookkeeping. It records increases in assets, occurrence of expenses, and the like, with usage varying by the nature of the account.",
+  "example": "When an advance payment is made, it is recorded on the debit side of an asset account.",
+  "category": "Finance Organization & Basics",
+  "aliases": [
+   "Debit",
+   "Debit and Credit"
+  ]
+ },
+ {
+  "id": "hrfinance-174",
+  "term": "Credit",
+  "definition": "The right side of a journal entry or account in double-entry bookkeeping. It records increases in liabilities and equity, occurrence of revenue, and the like, with usage varying by the nature of the account.",
+  "example": "Revenue was earned, so it was recorded on the credit side of a revenue account.",
+  "category": "Finance Organization & Basics",
+  "aliases": [
+   "Credit"
+  ]
+ },
+ {
+  "id": "hrfinance-175",
+  "term": "Journal Entry",
+  "definition": "The accounting treatment of recording a transaction in the books by splitting it into debit and credit account titles and amounts.",
+  "example": "A fee was missing, so I added a journal entry for the difference in the deposited amount.",
+  "category": "Finance Organization & Basics",
+  "aliases": [
+   "Journal Entry"
+  ]
+ },
+ {
+  "id": "hrfinance-176",
+  "term": "Voucher",
+  "definition": "A document or system record capturing the accounting details of a transaction, such as account, amount, and counterparty.",
+  "example": "Please attach the supporting documents and then request voucher approval.",
+  "category": "Finance Organization & Basics",
+  "aliases": [
+   "Accounting Voucher"
+  ]
+ },
+ {
+  "id": "hrfinance-177",
+  "term": "General Ledger",
+  "definition": "The book that gathers and records all accounting transactions by account title.",
+  "example": "I checked the accumulated amount of this expense in the general ledger.",
+  "category": "Finance Organization & Basics",
+  "aliases": [
+   "General Ledger",
+   "GL"
+  ]
+ },
+ {
+  "id": "hrfinance-178",
+  "term": "Subsidiary Ledger",
+  "definition": "A ledger that breaks down general ledger amounts into detailed items such as counterparties and assets for management.",
+  "example": "Let's reconcile whether the receivables subsidiary ledger total matches the general ledger.",
+  "category": "Finance Organization & Basics",
+  "aliases": [
+   "Subledger"
+  ]
+ },
+ {
+  "id": "hrfinance-179",
+  "term": "Trial Balance",
+  "definition": "A table that gathers the balances or totals of each account to confirm that debits and credits are in balance.",
+  "example": "I reviewed the balances using a trial balance reflecting the closing entries.",
+  "category": "Finance Organization & Basics",
+  "aliases": [
+   "Trial Balance",
+   "TB"
+  ]
+ },
+ {
+  "id": "hrfinance-180",
+  "term": "Supporting Document",
+  "definition": "Material such as contracts and receipts that substantiates the fact, amount, and content of a transaction.",
+  "example": "Please attach the transportation receipt to the travel expense voucher.",
+  "category": "Finance Organization & Basics",
+  "aliases": [
+   "Supporting Documents"
+  ]
+ },
+ {
+  "id": "hrfinance-181",
+  "term": "Financial Statements",
+  "definition": "A set of reports that present a company's financial position, operating performance, cash flows, and the like in a defined format.",
+  "example": "I included the latest financial statements in the investment review materials.",
+  "category": "Financial Statements & Accounts",
+  "aliases": [
+   "Financial Statements"
+  ]
+ },
+ {
+  "id": "hrfinance-182",
+  "term": "Statement of Financial Position",
+  "definition": "A financial statement that shows assets, liabilities, and equity at a specific point in time.",
+  "example": "Please check the borrowings and cash balance together in the statement of financial position.",
+  "category": "Financial Statements & Accounts",
+  "aliases": [
+   "Balance Sheet",
+   "BS"
+  ]
+ },
+ {
+  "id": "hrfinance-183",
+  "term": "Income Statement",
+  "definition": "A report that shows a company's profit or loss through revenue and expenses over a period.",
+  "example": "I checked the cause of the increase in outsourcing costs in this month's income statement.",
+  "category": "Financial Statements & Accounts",
+  "aliases": [
+   "P&L",
+   "Profit and Loss Statement",
+   "Income Statement"
+  ]
+ },
+ {
+  "id": "hrfinance-184",
+  "term": "Cash Flow Statement",
+  "definition": "A financial statement that shows changes in cash and cash equivalents over a period, divided into operating, investing, and financing activities.",
+  "example": "Although profit was earned, I used the cash flow statement to find why cash decreased.",
+  "category": "Financial Statements & Accounts",
+  "aliases": [
+   "Cash Flow Statement",
+   "CFS",
+   "Statement of Cash Flows"
+  ]
+ },
+ {
+  "id": "hrfinance-185",
+  "term": "Statement of Changes in Equity",
+  "definition": "A financial statement that shows how the components of equity changed over a period.",
+  "example": "I reflected the dividend and paid-in capital increase in the statement of changes in equity.",
+  "category": "Financial Statements & Accounts",
+  "aliases": [
+   "Statement of Changes in Equity"
+  ]
+ },
+ {
+  "id": "hrfinance-186",
+  "term": "Notes",
+  "definition": "Material containing additional explanations of the figures and accounting policies in the financial statements.",
+  "example": "Details of the provisions can be found in the notes.",
+  "category": "Financial Statements & Accounts",
+  "aliases": [
+   "Notes to the Financial Statements"
+  ]
+ },
+ {
+  "id": "hrfinance-187",
+  "term": "Assets",
+  "definition": "Resources controlled by a company as a result of past events and expected to bring economic benefits.",
+  "example": "Please review whether to register the newly purchased equipment as an asset.",
+  "category": "Financial Statements & Accounts",
+  "aliases": [
+   "Assets"
+  ]
+ },
+ {
+  "id": "hrfinance-188",
+  "term": "Liabilities",
+  "definition": "A present obligation of a company to transfer resources arising from past events.",
+  "example": "Transaction amounts not yet paid remain as liabilities.",
+  "category": "Financial Statements & Accounts",
+  "aliases": [
+   "Liabilities"
+  ]
+ },
+ {
+  "id": "hrfinance-189",
+  "term": "Equity",
+  "definition": "The residual interest in a company's assets after deducting liabilities.",
+  "example": "I checked the impact of this period's loss on equity.",
+  "category": "Financial Statements & Accounts",
+  "aliases": [
+   "Equity"
+  ]
+ },
+ {
+  "id": "hrfinance-190",
+  "term": "Current Assets",
+  "definition": "Assets classified on a liquidity basis, such as those expected to be realized, consumed, or collected within the normal operating cycle.",
+  "example": "Inventory and trade receivables make up a large share of current assets.",
+  "category": "Financial Statements & Accounts",
+  "aliases": [
+   "Current Assets"
+  ]
+ },
+ {
+  "id": "hrfinance-191",
+  "term": "Current Liabilities",
+  "definition": "Liabilities classified on a liquidity basis, such as obligations to be settled or repaid within the normal operating cycle.",
+  "example": "Borrowings maturing soon were classified as current liabilities.",
+  "category": "Financial Statements & Accounts",
+  "aliases": [
+   "Current Liabilities"
+  ]
+ },
+ {
+  "id": "hrfinance-192",
+  "term": "Property, Plant and Equipment",
+  "definition": "Physical assets such as land, buildings, and machinery held for use in production or service provision.",
+  "example": "I checked the carrying amount of the aging machinery under property, plant and equipment.",
+  "category": "Financial Statements & Accounts",
+  "aliases": [
+   "PP&E",
+   "Tangible Fixed Assets"
+  ]
+ },
+ {
+  "id": "hrfinance-193",
+  "term": "Intangible Assets",
+  "definition": "Identifiable non-monetary assets without physical substance. These may include software, patents, and the like.",
+  "example": "We review the recognition criteria for capitalizing software development costs as intangible assets.",
+  "category": "Financial Statements & Accounts",
+  "aliases": [
+   "Intangible Assets"
+  ]
+ },
+ {
+  "id": "hrfinance-194",
+  "term": "Inventory",
+  "definition": "Assets such as merchandise and products held for sale, or work-in-process and raw materials in production.",
+  "example": "I reconciled the physical count quantity in the warehouse with the inventory book quantity.",
+  "category": "Financial Statements & Accounts",
+  "aliases": [
+   "Inventory"
+  ]
+ },
+ {
+  "id": "hrfinance-195",
+  "term": "Advance Payment",
+  "definition": "An amount paid in advance to a supplier before goods or services are received.",
+  "example": "The down payment will be treated as an advance payment and settled upon delivery.",
+  "category": "Financial Statements & Accounts",
+  "aliases": [
+   "Advance Payment"
+  ]
+ },
+ {
+  "id": "hrfinance-196",
+  "term": "Advance Received",
+  "definition": "An amount received in advance from a customer before goods or services are provided.",
+  "example": "Payments for orders not yet delivered are managed as advances received.",
+  "category": "Financial Statements & Accounts",
+  "aliases": [
+   "Advance Received"
+  ]
+ },
+ {
+  "id": "hrfinance-197",
+  "term": "Prepaid Expense",
+  "definition": "An amount recorded as an asset for expenses already paid but attributable to future periods.",
+  "example": "Of a year's insurance premium, the portion for next month onward is kept as a prepaid expense.",
+  "category": "Financial Statements & Accounts",
+  "aliases": [
+   "Prepaid Expense"
+  ]
+ },
+ {
+  "id": "hrfinance-198",
+  "term": "Accrued Expense",
+  "definition": "A liability for expenses already incurred but not yet paid.",
+  "example": "Please reflect the interest incurred this month as an accrued expense.",
+  "category": "Financial Statements & Accounts",
+  "aliases": [
+   "Accrued Expense"
+  ]
+ },
+ {
+  "id": "hrfinance-199",
+  "term": "Provision",
+  "definition": "A liability recorded by estimating a present obligation that meets the recognition criteria, although the timing or amount of the outflow is uncertain.",
+  "example": "I reviewed the expected outflow for the warranty obligation as a provision.",
+  "category": "Financial Statements & Accounts",
+  "aliases": [
+   "Provision"
+  ]
+ },
+ {
+  "id": "hrfinance-200",
+  "term": "Retained Earnings",
+  "definition": "The portion of accumulated profits retained within the company rather than distributed through dividends or other means.",
+  "example": "I checked the change in retained earnings to review the dividend proposal.",
+  "category": "Financial Statements & Accounts",
+  "aliases": [
+   "Retained Earnings"
+  ]
+ },
+ {
+  "id": "hrfinance-201",
+  "term": "Trade Receivables",
+  "definition": "The right to amounts not yet received from selling goods or services in the ordinary course of business.",
+  "example": "I shared the trade receivables balance by customer with the sales team.",
+  "category": "Sales, Purchases & Receivables",
+  "aliases": [
+   "AR",
+   "Accounts Receivable"
+  ]
+ },
+ {
+  "id": "hrfinance-202",
+  "term": "Trade Payables",
+  "definition": "The obligation for amounts not yet paid from purchasing goods or services in the ordinary course of business.",
+  "example": "Please organize the trade payables due for payment this week.",
+  "category": "Sales, Purchases & Receivables",
+  "aliases": [
+   "AP",
+   "Accounts Payable"
+  ]
+ },
+ {
+  "id": "hrfinance-203",
+  "term": "Trade Accounts Receivable",
+  "definition": "Receivables from sales in the ordinary course of business that have not yet been collected and have not been converted into notes or the like.",
+  "example": "The accounts receivable from last month's delivery is still outstanding.",
+  "category": "Sales, Purchases & Receivables",
+  "aliases": [
+   "Trade Accounts Receivable"
+  ]
+ },
+ {
+  "id": "hrfinance-204",
+  "term": "Trade Accounts Payable",
+  "definition": "Payables from purchases in the ordinary course of business that have not yet been paid and have not been converted into notes or the like.",
+  "example": "I added the raw material supplier's accounts payable to the payment schedule.",
+  "category": "Sales, Purchases & Receivables",
+  "aliases": [
+   "Trade Accounts Payable"
+  ]
+ },
+ {
+  "id": "hrfinance-205",
+  "term": "Other Receivables",
+  "definition": "An account for amounts not yet received arising from transactions other than the main operating transactions.",
+  "example": "Please check the other receivable for the proceeds from selling the used equipment.",
+  "category": "Sales, Purchases & Receivables",
+  "aliases": [
+   "Other Receivables"
+  ]
+ },
+ {
+  "id": "hrfinance-206",
+  "term": "Other Payables",
+  "definition": "An account for amounts not yet paid arising from transactions distinct from trade payables and the like.",
+  "example": "I recorded the payment for office supplies as other payables.",
+  "category": "Sales, Purchases & Receivables",
+  "aliases": [
+   "Other Payables"
+  ]
+ },
+ {
+  "id": "hrfinance-207",
+  "term": "Receivables Aging Analysis",
+  "definition": "An analysis that divides receivables by period elapsed since origination or by how long they are past due and reviews their collection status.",
+  "example": "In the receivables aging analysis, I first picked out the long-outstanding items.",
+  "category": "Sales, Purchases & Receivables",
+  "aliases": [
+   "Aging"
+  ]
+ },
+ {
+  "id": "hrfinance-208",
+  "term": "Bad Debt",
+  "definition": "A loss from being unable to collect receivables due to a counterparty's insolvency or the like.",
+  "example": "We review the collectability and bad debt treatment criteria for this receivable.",
+  "category": "Sales, Purchases & Receivables",
+  "aliases": [
+   "Bad Debt"
+  ]
+ },
+ {
+  "id": "hrfinance-209",
+  "term": "Allowance for Doubtful Accounts",
+  "definition": "An amount recorded in the books by estimating expected collection losses on receivables.",
+  "example": "I reviewed the allowance for doubtful accounts on receivables whose collection outlook has worsened.",
+  "category": "Sales, Purchases & Receivables",
+  "aliases": [
+   "Allowance for Doubtful Accounts"
+  ]
+ },
+ {
+  "id": "hrfinance-210",
+  "term": "Bad Debt Write-off",
+  "definition": "Removing an uncollectible receivable from the books or treating it as a loss.",
+  "example": "I reflected the bad debt write-off entry for the approved long-term receivable.",
+  "category": "Sales, Purchases & Receivables",
+  "aliases": [
+   "Bad Debt Write-off"
+  ]
+ },
+ {
+  "id": "hrfinance-211",
+  "term": "Collection",
+  "definition": "The act of actually receiving amounts due from customers or counterparties.",
+  "example": "Please reflect this week's expected collections in the cash plan.",
+  "category": "Sales, Purchases & Receivables",
+  "aliases": [
+   "Collection"
+  ]
+ },
+ {
+  "id": "hrfinance-212",
+  "term": "Payment Matching",
+  "definition": "The task of linking received payments to the relevant counterparty, invoice, or receivable.",
+  "example": "The depositor name differed, so I matched the payment after confirming with the counterparty.",
+  "category": "Sales, Purchases & Receivables",
+  "aliases": [
+   "Payment Reconciliation"
+  ]
+ },
+ {
+  "id": "hrfinance-213",
+  "term": "Offsetting",
+  "definition": "The treatment of eliminating mutual receivables and payables by an equal amount in accordance with the requirements and the parties' agreement.",
+  "example": "After confirming whether offsetting was possible with the counterparty, I settled the balance.",
+  "category": "Sales, Purchases & Receivables",
+  "aliases": [
+   "Offsetting"
+  ]
+ },
+ {
+  "id": "hrfinance-214",
+  "term": "Revenue Recognition",
+  "definition": "Recording revenue from providing goods or services in the books in accordance with the applicable accounting standards.",
+  "example": "The deposit date and the revenue recognition date are not always the same.",
+  "category": "Sales, Purchases & Receivables",
+  "aliases": [
+   "Revenue Recognition"
+  ]
+ },
+ {
+  "id": "hrfinance-215",
+  "term": "Sales Deduction",
+  "definition": "The treatment of reducing the original sales amount for returns, discounts, and the like.",
+  "example": "I added the confirmed return amount to this month's sales deductions.",
+  "category": "Sales, Purchases & Receivables",
+  "aliases": [
+   "Sales Allowance"
+  ]
+ },
+ {
+  "id": "hrfinance-216",
+  "term": "Gross Profit",
+  "definition": "The amount of sales less cost of sales.",
+  "example": "Rising raw material costs reduced gross profit more than expected.",
+  "category": "Sales, Purchases & Receivables",
+  "aliases": [
+   "Gross Profit",
+   "GP"
+  ]
+ },
+ {
+  "id": "hrfinance-217",
+  "term": "Cost of Goods Sold",
+  "definition": "The cost corresponding to the goods sold or services provided during the period.",
+  "example": "Please check the difference between shipments and the amount recognized in cost of goods sold.",
+  "category": "Sales, Purchases & Receivables",
+  "aliases": [
+   "COGS"
+  ]
+ },
+ {
+  "id": "hrfinance-218",
+  "term": "Selling, General and Administrative Expenses",
+  "definition": "A category grouping expenses incurred in sales activities and in the company's administration and operations.",
+  "example": "I organized the breakdown of the increase in SG&A by department.",
+  "category": "Sales, Purchases & Receivables",
+  "aliases": [
+   "SG&A"
+  ]
+ },
+ {
+  "id": "hrfinance-219",
+  "term": "Operating Profit",
+  "definition": "The profit or loss from operating activities, calculated by deducting related operating expenses from operating revenue such as sales.",
+  "example": "Sales rose, but SG&A increased, so operating profit fell.",
+  "category": "Sales, Purchases & Receivables",
+  "aliases": [
+   "Operating Profit",
+   "OP"
+  ]
+ },
+ {
+  "id": "hrfinance-220",
+  "term": "Net Income",
+  "definition": "The final profit or loss for the accounting period, reflecting revenue, expenses, income tax expense, and the like.",
+  "example": "Please explain the main cause of the difference between operating profit and net income.",
+  "category": "Sales, Purchases & Receivables",
+  "aliases": [
+   "Net Income",
+   "NI",
+   "Net Profit"
+  ]
+ },
+ {
+  "id": "hrfinance-221",
+  "term": "Closing",
+  "definition": "The process of finalizing and adjusting the period's transactions to determine financial position and profit or loss.",
+  "example": "Before closing, please submit all missing expense documentation.",
+  "category": "Closing & Accounting Treatment",
+  "aliases": [
+   "Closing"
+  ]
+ },
+ {
+  "id": "hrfinance-222",
+  "term": "Monthly Closing",
+  "definition": "The task of completing transaction entry and review on a monthly basis and organizing the books and results.",
+  "example": "Please process the unapproved vouchers in time for the monthly closing schedule.",
+  "category": "Closing & Accounting Treatment",
+  "aliases": [
+   "Monthly Close",
+   "Month-end Close"
+  ]
+ },
+ {
+  "id": "hrfinance-223",
+  "term": "Closing Adjustments",
+  "definition": "Accounting treatments added or corrected at closing to align period attribution, valuation, and the like.",
+  "example": "I reflected depreciation and accrued expenses in the closing adjustments.",
+  "category": "Closing & Accounting Treatment",
+  "aliases": [
+   "Closing Entries"
+  ]
+ },
+ {
+  "id": "hrfinance-224",
+  "term": "Accrual Basis",
+  "definition": "A method of recognizing revenue, expenses, and the like in the period when a transaction or economic event occurs, rather than when cash is received or paid.",
+  "example": "Service fees not yet paid are also reviewed on an accrual basis.",
+  "category": "Closing & Accounting Treatment",
+  "aliases": [
+   "Accrual Basis"
+  ]
+ },
+ {
+  "id": "hrfinance-225",
+  "term": "Cash Basis",
+  "definition": "A method of recording revenue, expenses, and the like based on when cash is actually received or paid.",
+  "example": "I explained the difference between the cash-basis aggregation and the accrual-basis profit or loss.",
+  "category": "Closing & Accounting Treatment",
+  "aliases": [
+   "Cash Basis"
+  ]
+ },
+ {
+  "id": "hrfinance-226",
+  "term": "Period Attribution",
+  "definition": "Determining which accounting period a transaction's revenue or expense belongs to.",
+  "example": "Even if the invoice arrives next month, we confirm period attribution based on the service period.",
+  "category": "Closing & Accounting Treatment",
+  "aliases": [
+   "Period Attribution"
+  ]
+ },
+ {
+  "id": "hrfinance-227",
+  "term": "Cut-off",
+  "definition": "The closing standard or procedure for distinguishing and confirming whether transactions are recorded in the correct accounting period.",
+  "example": "Please recheck the sales cut-off for end-of-month shipments.",
+  "category": "Closing & Accounting Treatment",
+  "aliases": [
+   "Cut-off",
+   "Cutoff"
+  ]
+ },
+ {
+  "id": "hrfinance-228",
+  "term": "Depreciation",
+  "definition": "Systematically allocating the depreciable amount of a tangible asset as an expense over its period of use.",
+  "example": "I calculated depreciation based on the new equipment's in-service date.",
+  "category": "Closing & Accounting Treatment",
+  "aliases": [
+   "Depreciation"
+  ]
+ },
+ {
+  "id": "hrfinance-229",
+  "term": "Amortization",
+  "definition": "Allocating the amortizable amount of an intangible asset with a finite useful life over its period of use.",
+  "example": "Please check the amortization period for the software intangible asset.",
+  "category": "Closing & Accounting Treatment",
+  "aliases": [
+   "Amortisation",
+   "Amortization"
+  ]
+ },
+ {
+  "id": "hrfinance-230",
+  "term": "Useful Life",
+  "definition": "The period over which an asset is expected to be used, or its usable range such as production volume.",
+  "example": "The machine replacement plan changed, so I reviewed the useful life estimate.",
+  "category": "Closing & Accounting Treatment",
+  "aliases": [
+   "Useful Life"
+  ]
+ },
+ {
+  "id": "hrfinance-231",
+  "term": "Residual Value",
+  "definition": "The estimated amount expected to be recovered from disposal at the end of an asset's use, less disposal costs.",
+  "example": "I rechecked the residual value applied in the depreciation calculation.",
+  "category": "Closing & Accounting Treatment",
+  "aliases": [
+   "Residual Value"
+  ]
+ },
+ {
+  "id": "hrfinance-232",
+  "term": "Impairment Loss",
+  "definition": "A loss recognized when an asset's carrying amount exceeds its recoverable amount and its value is written down.",
+  "example": "We review whether an impairment loss applies to the underperforming business's assets.",
+  "category": "Closing & Accounting Treatment",
+  "aliases": [
+   "Impairment Loss"
+  ]
+ },
+ {
+  "id": "hrfinance-233",
+  "term": "Carrying Amount",
+  "definition": "The amount of an asset or liability recognized in the accounting books.",
+  "example": "I calculated the difference between the sale price and the carrying amount.",
+  "category": "Closing & Accounting Treatment",
+  "aliases": [
+   "Book Value",
+   "Carrying Amount"
+  ]
+ },
+ {
+  "id": "hrfinance-234",
+  "term": "Physical Inventory Count",
+  "definition": "The task of verifying the quantity and condition of inventory actually held and comparing it with the books.",
+  "example": "For items with a physical count discrepancy, please check the shipment records first.",
+  "category": "Closing & Accounting Treatment",
+  "aliases": [
+   "Stocktaking"
+  ]
+ },
+ {
+  "id": "hrfinance-235",
+  "term": "Reconciliation",
+  "definition": "The task of comparing amounts or details across different books and records to identify and resolve differences.",
+  "example": "I reconciled the bank transaction details with the cash account balance.",
+  "category": "Closing & Accounting Treatment",
+  "aliases": [
+   "Reconciliation",
+   "Recon",
+   "To Reconcile"
+  ]
+ },
+ {
+  "id": "hrfinance-236",
+  "term": "Bank Reconciliation",
+  "definition": "The procedure of explaining and adjusting the balance difference between the bank statement and the company's books using unprocessed transactions and the like.",
+  "example": "I found the unreflected fee and added it to the bank reconciliation statement.",
+  "category": "Closing & Accounting Treatment",
+  "aliases": [
+   "Bank Reconciliation"
+  ]
+ },
+ {
+  "id": "hrfinance-237",
+  "term": "Translation",
+  "definition": "Converting foreign-currency transactions or balances into the reporting currency amount at the applicable exchange rate.",
+  "example": "Please check the translation details of the foreign-currency balances at the closing date.",
+  "category": "Closing & Accounting Treatment",
+  "aliases": [
+   "Foreign Currency Translation"
+  ]
+ },
+ {
+  "id": "hrfinance-238",
+  "term": "Foreign Exchange Gain or Loss",
+  "definition": "Gains or losses arising from exchange rate changes in settling foreign-currency transactions or valuing balances.",
+  "example": "I separated out the foreign exchange gain or loss arising from the dollar payment.",
+  "category": "Closing & Accounting Treatment",
+  "aliases": [
+   "FX Gain or Loss",
+   "Exchange Rate Difference"
+  ]
+ },
+ {
+  "id": "hrfinance-239",
+  "term": "Consolidation Closing",
+  "definition": "The task of closing by treating the parent and subsidiaries as a single economic entity and adjusting intercompany transactions and the like.",
+  "example": "I received subsidiary data and am performing the consolidation closing adjustments.",
+  "category": "Closing & Accounting Treatment",
+  "aliases": [
+   "Consolidation",
+   "Consolidation Close"
+  ]
+ },
+ {
+  "id": "hrfinance-240",
+  "term": "Elimination of Intercompany Transactions",
+  "definition": "Adjustments that remove intra-group transactions and balances in the consolidated financial statements so they are not double-counted.",
+  "example": "We check whether intercompany sales and receivables between affiliates are subject to elimination.",
+  "category": "Closing & Accounting Treatment",
+  "aliases": [
+   "Consolidation Elimination"
+  ]
+ },
+ {
+  "id": "hrfinance-241",
+  "term": "Cost",
+  "definition": "The amount of resources invested to acquire or produce goods or services, or to perform a specific activity.",
+  "example": "When calculating cost per product, please align on whether packaging cost is included.",
+  "category": "Costing & Budgeting",
+  "aliases": [
+   "Cost"
+  ]
+ },
+ {
+  "id": "hrfinance-242",
+  "term": "Direct Cost",
+  "definition": "A cost that can be directly linked to and identified with a specific product, project, or the like.",
+  "example": "Outsourcing costs dedicated to that project were aggregated as direct costs.",
+  "category": "Costing & Budgeting",
+  "aliases": [
+   "Direct Cost"
+  ]
+ },
+ {
+  "id": "hrfinance-243",
+  "term": "Indirect Cost",
+  "definition": "A cost commonly incurred across multiple products, departments, or the like that is difficult to link directly to a specific object.",
+  "example": "Please review the allocation basis for the indirect cost of shared facilities.",
+  "category": "Costing & Budgeting",
+  "aliases": [
+   "Indirect Cost"
+  ]
+ },
+ {
+  "id": "hrfinance-244",
+  "term": "Fixed Cost",
+  "definition": "A cost whose total remains largely constant regardless of changes in production or sales volume within a given activity range.",
+  "example": "Even if sales volume falls, fixed costs such as rent continue to be incurred.",
+  "category": "Costing & Budgeting",
+  "aliases": [
+   "Fixed Cost"
+  ]
+ },
+ {
+  "id": "hrfinance-245",
+  "term": "Variable Cost",
+  "definition": "A cost whose total changes according to the level of activity, such as production or sales volume.",
+  "example": "The sales volume assumption changed, so I revised the variable cost budget.",
+  "category": "Costing & Budgeting",
+  "aliases": [
+   "Variable Cost"
+  ]
+ },
+ {
+  "id": "hrfinance-246",
+  "term": "Cost Allocation",
+  "definition": "Distributing commonly incurred costs to departments, products, and the like according to a set basis.",
+  "example": "I set the cost allocation basis for the shared warehouse cost as floor area.",
+  "category": "Costing & Budgeting",
+  "aliases": [
+   "Cost Allocation"
+  ]
+ },
+ {
+  "id": "hrfinance-247",
+  "term": "Allocation Basis",
+  "definition": "The basis used to distribute common costs, such as headcount, floor area, or working hours.",
+  "example": "Department headcount changed, so I updated the allocation basis.",
+  "category": "Costing & Budgeting",
+  "aliases": [
+   "Allocation Basis"
+  ]
+ },
+ {
+  "id": "hrfinance-248",
+  "term": "Standard Cost",
+  "definition": "The baseline cost of a product or operation set in advance assuming normal operating conditions and the like.",
+  "example": "I compared the actual input quantity with the assumptions in the standard cost calculation.",
+  "category": "Costing & Budgeting",
+  "aliases": [
+   "Standard Cost"
+  ]
+ },
+ {
+  "id": "hrfinance-249",
+  "term": "Actual Cost",
+  "definition": "Cost calculated based on the resources actually consumed and the amounts actually incurred.",
+  "example": "After the monthly close, we analyze the difference between actual cost and planned cost.",
+  "category": "Costing & Budgeting",
+  "aliases": [
+   "Actual Cost"
+  ]
+ },
+ {
+  "id": "hrfinance-250",
+  "term": "Cost Variance",
+  "definition": "The difference between standard or budgeted cost and actual cost.",
+  "example": "I split the cost variance into purchase price and usage quantity factors.",
+  "category": "Costing & Budgeting",
+  "aliases": [
+   "Cost Variance"
+  ]
+ },
+ {
+  "id": "hrfinance-251",
+  "term": "Contribution Margin",
+  "definition": "The amount of sales less variable costs. It shows the degree of contribution to recovering fixed costs and to profit.",
+  "example": "Please calculate whether a contribution margin remains even after applying the discount proposal.",
+  "category": "Costing & Budgeting",
+  "aliases": [
+   "Contribution Margin"
+  ]
+ },
+ {
+  "id": "hrfinance-252",
+  "term": "Break-even Point",
+  "definition": "The level of sales or activity at which total revenue equals total cost, so that neither profit nor loss arises.",
+  "example": "I reviewed the break-even sales for the new store.",
+  "category": "Costing & Budgeting",
+  "aliases": [
+   "BEP",
+   "Break-even Point"
+  ]
+ },
+ {
+  "id": "hrfinance-253",
+  "term": "Budget",
+  "definition": "Amounts planned in advance for income, expenditure, resource use, and the like over a period.",
+  "example": "I'll compile the departmental budget proposals by next week.",
+  "category": "Costing & Budgeting",
+  "aliases": [
+   "Budget",
+   "BGT"
+  ]
+ },
+ {
+  "id": "hrfinance-254",
+  "term": "Budgeting",
+  "definition": "The process of establishing and adjusting budgets by department and item in line with the business plan.",
+  "example": "Reflecting the hiring plan, I started budgeting for labor costs.",
+  "category": "Costing & Budgeting",
+  "aliases": [
+   "Budgeting"
+  ]
+ },
+ {
+  "id": "hrfinance-255",
+  "term": "Budget Execution",
+  "definition": "Carrying out expenditure or resource use within the approved budget.",
+  "example": "Is this equipment purchase an approved budget execution item?",
+  "category": "Costing & Budgeting",
+  "aliases": [
+   "Budget Execution"
+  ]
+ },
+ {
+  "id": "hrfinance-256",
+  "term": "Budget Reallocation",
+  "definition": "Moving budget to use for another item, department, or purpose in accordance with the defined approval procedure.",
+  "example": "To use the remaining training budget for another purpose, budget reallocation approval is required.",
+  "category": "Costing & Budgeting",
+  "aliases": [
+   "Budget Transfer"
+  ]
+ },
+ {
+  "id": "hrfinance-257",
+  "term": "Supplementary Budget",
+  "definition": "A budget re-prepared when there is a need to change or add to the existing budget.",
+  "example": "A new business was confirmed, so I'm preparing the supplementary budget proposal.",
+  "category": "Costing & Budgeting",
+  "aliases": [
+   "Supplementary Budget"
+  ]
+ },
+ {
+  "id": "hrfinance-258",
+  "term": "Budget vs Actual",
+  "definition": "An analysis comparing the budget with actual execution and results to identify differences and their causes.",
+  "example": "In the budget-vs-actual table, please also note the reasons for execution delays.",
+  "category": "Costing & Budgeting",
+  "aliases": [
+   "Budget vs Actual",
+   "BvA",
+   "Variance Analysis"
+  ]
+ },
+ {
+  "id": "hrfinance-259",
+  "term": "Rolling Forecast",
+  "definition": "A method that continually updates the forecast period by reflecting new actuals and information.",
+  "example": "Each month we update future funding needs with a rolling forecast.",
+  "category": "Costing & Budgeting",
+  "aliases": [
+   "Rolling Forecast",
+   "Revised Forecast"
+  ]
+ },
+ {
+  "id": "hrfinance-260",
+  "term": "Cost Center",
+  "definition": "A department or management unit separated to aggregate costs and manage responsibility.",
+  "example": "Please first create the cost center for the new organization.",
+  "category": "Costing & Budgeting",
+  "aliases": [
+   "Cost Center"
+  ]
+ },
+ {
+  "id": "hrfinance-261",
+  "term": "Cash Budget",
+  "definition": "A statement organizing expected or actual cash inflows and outflows over a period.",
+  "example": "I first checked the cash budget for the week when payments are concentrated.",
+  "category": "Treasury & Financial Analysis",
+  "aliases": [
+   "Cash Budget"
+  ]
+ },
+ {
+  "id": "hrfinance-262",
+  "term": "Liquidity",
+  "definition": "The ability to secure funds to meet payment obligations when needed.",
+  "example": "Please check short-term liquidity before the large payment.",
+  "category": "Treasury & Financial Analysis",
+  "aliases": [
+   "Liquidity"
+  ]
+ },
+ {
+  "id": "hrfinance-263",
+  "term": "Working Capital",
+  "definition": "A concept for viewing the level of funds needed to run operations. Net working capital is usually current assets less current liabilities.",
+  "example": "With inventory and receivables rising, the working capital burden grew.",
+  "category": "Treasury & Financial Analysis",
+  "aliases": [
+   "Working Capital"
+  ]
+ },
+ {
+  "id": "hrfinance-264",
+  "term": "Cash Equivalents",
+  "definition": "Short-term, highly liquid investments that are readily convertible into a set amount of cash and carry little risk of value change.",
+  "example": "We review whether this short-term financial instrument meets the criteria for cash equivalents.",
+  "category": "Treasury & Financial Analysis",
+  "aliases": [
+   "Cash Equivalents"
+  ]
+ },
+ {
+  "id": "hrfinance-265",
+  "term": "Operating Cash Flow",
+  "definition": "Cash flows arising from operating activities, such as a company's main revenue-generating activities.",
+  "example": "Delayed collection of receivables reduced operating cash flow.",
+  "category": "Treasury & Financial Analysis",
+  "aliases": [
+   "Operating Cash Flow",
+   "OCF",
+   "Cash Flow from Operations"
+  ]
+ },
+ {
+  "id": "hrfinance-266",
+  "term": "Investing Cash Flow",
+  "definition": "Cash flows arising from investing activities such as the acquisition and disposal of long-term assets.",
+  "example": "The purchase of factory equipment was recorded as an outflow in investing cash flow.",
+  "category": "Treasury & Financial Analysis",
+  "aliases": [
+   "Investing Cash Flow",
+   "CFI",
+   "Cash Flow from Investing Activities"
+  ]
+ },
+ {
+  "id": "hrfinance-267",
+  "term": "Financing Cash Flow",
+  "definition": "Cash flows arising from financing activities that change the size and composition of equity and borrowings.",
+  "example": "Repayment of borrowings was classified under financing cash flow.",
+  "category": "Treasury & Financial Analysis",
+  "aliases": [
+   "Financing Cash Flow",
+   "CFF",
+   "Cash Flow from Financing Activities"
+  ]
+ },
+ {
+  "id": "hrfinance-268",
+  "term": "Borrowings",
+  "definition": "Funds borrowed from external sources with an obligation to repay.",
+  "example": "Please organize next quarter's borrowing maturity schedule.",
+  "category": "Treasury & Financial Analysis",
+  "aliases": [
+   "Borrowings"
+  ]
+ },
+ {
+  "id": "hrfinance-269",
+  "term": "Borrowing Limit",
+  "definition": "The ceiling on the amount that can be borrowed under the terms agreed with a financial institution.",
+  "example": "I checked the remaining borrowing limit before the additional loan.",
+  "category": "Treasury & Financial Analysis",
+  "aliases": [
+   "Credit Limit"
+  ]
+ },
+ {
+  "id": "hrfinance-270",
+  "term": "Agreement",
+  "definition": "The contractual terms agreed between parties for a funding transaction, such as amount, period, interest rate, and compliance conditions.",
+  "example": "Please review whether the new loan agreement has financial ratio maintenance conditions.",
+  "category": "Treasury & Financial Analysis",
+  "aliases": [
+   "Financing Agreement"
+  ]
+ },
+ {
+  "id": "hrfinance-271",
+  "term": "Maturity",
+  "definition": "The point at which a defined obligation falls due, such as debt repayment or the end of a financial instrument contract.",
+  "example": "I adjusted the funding schedule so maturities are not concentrated in the same month.",
+  "category": "Treasury & Financial Analysis",
+  "aliases": [
+   "Maturity"
+  ]
+ },
+ {
+  "id": "hrfinance-272",
+  "term": "Refinancing",
+  "definition": "Raising funds through new borrowing or bond issuance to repay existing borrowings.",
+  "example": "We are negotiating the refinancing terms for the maturing borrowings with the financial institution.",
+  "category": "Treasury & Financial Analysis",
+  "aliases": [
+   "Refinancing"
+  ]
+ },
+ {
+  "id": "hrfinance-273",
+  "term": "Capital Expenditure",
+  "definition": "Expenditure recognized as an asset for the acquisition or improvement of assets to be used over a long period.",
+  "example": "The purchase of new production equipment was included in the CAPEX plan.",
+  "category": "Treasury & Financial Analysis",
+  "aliases": [
+   "CAPEX",
+   "Capital Expenditure"
+  ]
+ },
+ {
+  "id": "hrfinance-274",
+  "term": "Operating Expense",
+  "definition": "A managerial term for the costs incurred in the day-to-day operation of a business.",
+  "example": "Please compare the system implementation cost and the subsequent monthly operating expense separately.",
+  "category": "Treasury & Financial Analysis",
+  "aliases": [
+   "OPEX",
+   "Operating Expense"
+  ]
+ },
+ {
+  "id": "hrfinance-275",
+  "term": "EBITDA",
+  "definition": "An indicator that views earnings before the effects of interest, taxes, depreciation, and amortization. The calculation basis should be confirmed for each source.",
+  "example": "Before comparing EBITDA across companies, let's align the adjustment items.",
+  "note": "EBITDA is pronounced as a single word. It is not the same as actual cash flow, and it should be viewed together with working capital, investment spending, and the like.",
+  "category": "Treasury & Financial Analysis",
+  "aliases": [
+   "Earnings Before Interest, Taxes, Depreciation and Amortization"
+  ]
+ },
+ {
+  "id": "hrfinance-276",
+  "term": "Debt-to-Equity Ratio",
+  "definition": "A ratio that views capital structure by comparing liabilities with equity.",
+  "example": "I calculated how the debt-to-equity ratio changes after reflecting the borrowing plan.",
+  "category": "Treasury & Financial Analysis",
+  "aliases": [
+   "Debt-to-equity Ratio"
+  ]
+ },
+ {
+  "id": "hrfinance-277",
+  "term": "Current Ratio",
+  "definition": "A ratio that examines short-term solvency by comparing current assets with current liabilities.",
+  "example": "Along with the current ratio, please also check how readily inventory can be converted to cash.",
+  "category": "Treasury & Financial Analysis",
+  "aliases": [
+   "Current Ratio"
+  ]
+ },
+ {
+  "id": "hrfinance-278",
+  "term": "Days Sales Outstanding",
+  "definition": "An indicator estimating the average period it takes to collect trade receivables in cash.",
+  "example": "Payment delays by a large customer increased DSO.",
+  "category": "Treasury & Financial Analysis",
+  "aliases": [
+   "DSO"
+  ]
+ },
+ {
+  "id": "hrfinance-279",
+  "term": "Net Debt",
+  "definition": "The net borrowing burden viewed by deducting cash and cash equivalents from borrowings. The items included vary by calculation basis.",
+  "example": "Please indicate which financial assets were deducted in the net debt calculation.",
+  "category": "Treasury & Financial Analysis",
+  "aliases": [
+   "Net Debt"
+  ]
+ },
+ {
+  "id": "hrfinance-280",
+  "term": "Free Cash Flow",
+  "definition": "An indicator of surplus funds viewed by deducting capital expenditure and the like from cash generated by operations. The calculation method varies by analytical purpose.",
+  "example": "I reviewed the impact of increased capital expenditure on free cash flow.",
+  "category": "Treasury & Financial Analysis",
+  "aliases": [
+   "FCF",
+   "Free Cash Flow"
+  ]
+ },
+ {
+  "id": "hrfinance-281",
+  "term": "Tax Adjustment",
+  "definition": "The task of adjusting the difference between accounting profit and the taxable income calculation under tax law.",
+  "example": "After closing, we perform the tax adjustment for the corporate tax return.",
+  "note": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time.",
+  "category": "Tax & Filing",
+  "aliases": [
+   "Tax Adjustment"
+  ]
+ },
+ {
+  "id": "hrfinance-282",
+  "term": "Deductible Expense",
+  "definition": "An expense or loss item deducted in calculating taxable income under tax law.",
+  "example": "Even if it is an accounting expense, whether it is deductible under tax law is confirmed separately.",
+  "note": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time.",
+  "category": "Tax & Filing",
+  "aliases": [
+   "Tax-deductible Expense"
+  ]
+ },
+ {
+  "id": "hrfinance-283",
+  "term": "Non-deductible Expense",
+  "definition": "An adjustment whereby an accounting expense is not deducted in calculating taxable income under tax law.",
+  "example": "Please review whether expenses that fail to meet documentation requirements are non-deductible.",
+  "note": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time.",
+  "category": "Tax & Filing",
+  "aliases": [
+   "Disallowed Deduction"
+  ]
+ },
+ {
+  "id": "hrfinance-284",
+  "term": "Taxable Revenue",
+  "definition": "Revenue and similar items included in calculating taxable income under tax law.",
+  "example": "Apart from the accounting treatment, I checked whether it constitutes taxable revenue.",
+  "note": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time.",
+  "category": "Tax & Filing",
+  "aliases": [
+   "Taxable Revenue"
+  ]
+ },
+ {
+  "id": "hrfinance-285",
+  "term": "Exclusion from Taxable Income",
+  "definition": "An adjustment whereby accounting revenue is not included in calculating taxable income under tax law.",
+  "example": "I confirmed the requirements for excluding this revenue from taxable income with the tax team.",
+  "note": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time.",
+  "category": "Tax & Filing",
+  "aliases": [
+   "Exclusion from Taxable Income"
+  ]
+ }
+]

@@ -1,0 +1,1377 @@
+[
+ {
+  "id": "fashion-443",
+  "term": "Pleats",
+  "definition": "Folds made by folding fabric into a set shape, or the process of making them.",
+  "example": "We check that the pleat spacing is even.",
+  "category": "Sampling & Sewing Process",
+  "aliases": [
+   "pleat folds",
+   "pleating"
+  ]
+ },
+ {
+  "id": "fashion-444",
+  "term": "Piping",
+  "definition": "A detail in which a thin strip or cord is inserted into a seam or edge to emphasize or finish the line.",
+  "example": "We add contrast piping along the collar edge.",
+  "category": "Sampling & Sewing Process",
+  "aliases": [
+   "piping finish"
+  ]
+ },
+ {
+  "id": "fashion-445",
+  "term": "Rib",
+  "definition": "A knit structure in which ridges form from an arrangement of knit and purl stitches, producing elasticity.",
+  "example": "We check the recovery of the rib at the cuff.",
+  "category": "Sampling & Sewing Process",
+  "aliases": [
+   "rib knit",
+   "rib structure",
+   "ribbing",
+   "rib fabric",
+   "rib fabric",
+   "rib-trim fabric"
+  ]
+ },
+ {
+  "id": "fashion-446",
+  "term": "GSM",
+  "definition": "A unit expressing the weight of one square meter of fabric in grams.",
+  "example": "We compare the GSM of the sample and the bulk-production fabric.",
+  "category": "Material & Fabric Process",
+  "aliases": [
+   "grams per square meter"
+  ]
+ },
+ {
+  "id": "marketing-389",
+  "term": "Shoot",
+  "definition": "An on-set expression for filming or starting to film.",
+  "example": "If the rehearsal checks out, we'll shoot the next take.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "going for the shoot",
+   "rolling",
+   "shooting"
+  ]
+ },
+ {
+  "id": "film-351",
+  "term": "Shoot",
+  "definition": "An on-set expression for filming or starting to film.",
+  "example": "If the rehearsal checks out, we'll shoot the next take.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "going for the shoot",
+   "rolling",
+   "shooting"
+  ]
+ },
+ {
+  "id": "marketing-390",
+  "term": "Going",
+  "definition": "An on-set expression for proceeding in an agreed direction or in a prepared state.",
+  "example": "Once the revised version is confirmed, we'll go in this direction.",
+  "note": "A colloquial term used to mean proceeding; usage frequency varies by organization.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "to go ahead",
+   "proceed / go"
+  ]
+ },
+ {
+  "id": "film-352",
+  "term": "Going",
+  "definition": "An on-set expression for proceeding in an agreed direction or in a prepared state.",
+  "example": "Once the revised version is confirmed, we'll go in this direction.",
+  "note": "A colloquial term used to mean proceeding; usage frequency varies by organization.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "to go ahead",
+   "proceed / go"
+  ]
+ },
+ {
+  "id": "marketing-391",
+  "term": "Standby",
+  "definition": "A state or instruction of being ready and waiting so that something can proceed shortly.",
+  "example": "Please have the next cast member and the camera crew on standby.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "to stand by",
+   "wait"
+  ]
+ },
+ {
+  "id": "film-353",
+  "term": "Standby",
+  "definition": "A state or instruction of being ready and waiting so that something can proceed shortly.",
+  "example": "Please have the next cast member and the camera crew on standby.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "to stand by",
+   "wait"
+  ]
+ },
+ {
+  "id": "marketing-392",
+  "term": "Cue",
+  "definition": "A signal to begin a set action or proceeding, such as an appearance, performance, or sound.",
+  "example": "Lift the product on the director's cue.",
+  "note": "A start signal in the context of commercial shoots and event hosting.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "cue signal",
+   "give me a cue"
+  ]
+ },
+ {
+  "id": "film-354",
+  "term": "Cue",
+  "definition": "A signal to begin a set action or proceeding, such as an appearance, performance, or sound.",
+  "example": "Lift the product on the director's cue.",
+  "note": "A start signal on film and broadcast sets. It differs from the IT term Queue.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "cue signal",
+   "give me a cue"
+  ]
+ },
+ {
+  "id": "marketing-393",
+  "term": "Pickup Shot",
+  "definition": "A short scene or cut filmed additionally to supplement existing footage.",
+  "example": "We just supplement the hand details with a pickup shot.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "pickup filming",
+   "additional cut"
+  ]
+ },
+ {
+  "id": "film-355",
+  "term": "Pickup Shot",
+  "definition": "A short scene or cut filmed additionally to supplement existing footage.",
+  "example": "We just supplement the hand details with a pickup shot.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "pickup filming",
+   "additional cut",
+   "pickup shot",
+   "pickup shot"
+  ]
+ },
+ {
+  "id": "marketing-394",
+  "term": "Retake",
+  "definition": "Filming the same scene again to fix a problem or try a different expression.",
+  "example": "We'll retake it with a changed line-delivery timing.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "refilming",
+   "reshooting"
+  ]
+ },
+ {
+  "id": "film-356",
+  "term": "Retake",
+  "definition": "Filming the same scene again to fix a problem or try a different expression.",
+  "example": "We'll retake it with a changed line-delivery timing.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "refilming",
+   "reshooting"
+  ]
+ },
+ {
+  "id": "marketing-395",
+  "term": "One Take",
+  "definition": "A method of capturing a scene or action in a single continuous shot without stopping midway.",
+  "example": "We film from the entrance to being seated in one take.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "one take",
+   "one-take filming"
+  ]
+ },
+ {
+  "id": "film-357",
+  "term": "One Take",
+  "definition": "A method of capturing a scene or action in a single continuous shot without stopping midway.",
+  "example": "We film from the entrance to being seated in one take.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "one take",
+   "one-take filming"
+  ]
+ },
+ {
+  "id": "marketing-396",
+  "term": "Backup Shot",
+  "definition": "Additional footage secured as an editing alternative or as a safeguard against problems.",
+  "example": "Even though we got an OK, we do one more backup shot to be safe.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "safety cut",
+   "safety take"
+  ]
+ },
+ {
+  "id": "film-358",
+  "term": "Backup Shot",
+  "definition": "Additional footage secured as an editing alternative or as a safeguard against problems.",
+  "example": "Even though we got an OK, we do one more backup shot to be safe.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "safety cut",
+   "safety take",
+   "Safety take",
+   "safety take",
+   "safety cut"
+  ]
+ },
+ {
+  "id": "marketing-397",
+  "term": "Continuity",
+  "definition": "The relationship and management that keep action, wardrobe, props, lighting, and so on flowing naturally between consecutive scenes.",
+  "example": "We check continuity to make sure the cup position matches the previous cut.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "continuity",
+   "conti"
+  ]
+ },
+ {
+  "id": "film-359",
+  "term": "Continuity",
+  "definition": "The relationship and management that keep action, wardrobe, props, lighting, and so on flowing naturally between consecutive scenes.",
+  "example": "We check continuity to make sure the cup position matches the previous cut.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "continuity",
+   "conti"
+  ]
+ },
+ {
+  "id": "common-130",
+  "term": "Staff (Associate)",
+  "definition": "A title used for the entry stage of working-level staff in many companies' rank systems.",
+  "example": "We brief a newly joined staff member on their assigned duties.",
+  "note": "The order of ranks, job authority, and English notation differ by company. A given rank is not equated with a specific tenure or legal status.",
+  "category": "Titles & Roles",
+  "aliases": [
+   "staff level"
+  ]
+ },
+ {
+  "id": "common-131",
+  "term": "Senior Staff",
+  "definition": "A working-level rank title used at some companies for the stage after staff.",
+  "example": "We review the operational tasks handled by the senior staff together.",
+  "note": "The order of ranks, job authority, and English notation differ by company. A given rank is not equated with a specific tenure or legal status.",
+  "category": "Titles & Roles",
+  "aliases": [
+   "senior-staff level"
+  ]
+ },
+ {
+  "id": "common-132",
+  "term": "Assistant Manager",
+  "definition": "A rank title used at many companies for members with a certain amount of working experience.",
+  "example": "We organize this proposal material together with the assistant manager.",
+  "note": "The order of ranks, job authority, and English notation differ by company. A given rank is not equated with a specific tenure or legal status.",
+  "category": "Titles & Roles",
+  "aliases": [
+   "assistant-manager level"
+  ]
+ },
+ {
+  "id": "common-133",
+  "term": "Manager",
+  "definition": "A title used for the mid-level working and management stage in many companies' rank systems.",
+  "example": "We share the partner company's progress with the manager.",
+  "note": "The order of ranks, job authority, and English notation differ by company. A given rank is not equated with a specific tenure or legal status.",
+  "category": "Titles & Roles",
+  "aliases": [
+   "manager level"
+  ]
+ },
+ {
+  "id": "common-134",
+  "term": "Deputy General Manager",
+  "definition": "A rank title used at some companies for the stage between manager and general manager.",
+  "example": "We discuss the project operation plan with the deputy general manager.",
+  "note": "The order of ranks, job authority, and English notation differ by company. A given rank is not equated with a specific tenure or legal status.",
+  "category": "Titles & Roles",
+  "aliases": [
+   "deputy-general-manager level"
+  ]
+ },
+ {
+  "id": "common-135",
+  "term": "General Manager",
+  "definition": "A rank or department-head title used at many companies for the senior working and management stage.",
+  "example": "We report next quarter's plan to the general manager.",
+  "note": "The order of ranks, job authority, and English notation differ by company. A given rank is not equated with a specific tenure or legal status.",
+  "category": "Titles & Roles",
+  "aliases": [
+   "general-manager level"
+  ]
+ },
+ {
+  "id": "common-136",
+  "term": "Director",
+  "definition": "A title referring to a company's executive rank or a member of the board of directors. The organizational title and the legal status are confirmed separately.",
+  "example": "We share key business progress with the director.",
+  "note": "The order of ranks, job authority, and English notation differ by company. A given rank is not equated with a specific tenure or legal status.",
+  "category": "Titles & Roles",
+  "aliases": [
+   "director level",
+   "executive director"
+  ]
+ },
+ {
+  "id": "common-137",
+  "term": "Managing Director",
+  "definition": "A rank title used in many companies' executive structures.",
+  "example": "The managing director shares the goals of their business area.",
+  "note": "The order of ranks, job authority, and English notation differ by company. A given rank is not equated with a specific tenure or legal status.",
+  "category": "Titles & Roles",
+  "aliases": [
+   "managing-director level"
+  ]
+ },
+ {
+  "id": "common-138",
+  "term": "Senior Managing Director",
+  "definition": "A senior rank title used in many companies' executive structures.",
+  "example": "We discuss priorities by division with the senior managing director.",
+  "note": "The order of ranks, job authority, and English notation differ by company. A given rank is not equated with a specific tenure or legal status.",
+  "category": "Titles & Roles",
+  "aliases": [
+   "senior-managing-director level"
+  ]
+ },
+ {
+  "id": "common-139",
+  "term": "Executive",
+  "definition": "A collective term for the senior leaders who head a company's main management and business functions.",
+  "example": "Executive reports summarize the key decision items.",
+  "note": "The order of ranks, job authority, and English notation differ by company. A given rank is not equated with a specific tenure or legal status.",
+  "category": "Titles & Roles",
+  "aliases": [
+   "management",
+   "executive team"
+  ]
+ },
+ {
+  "id": "marketing-530",
+  "term": "SA",
+  "definition": "Advertising placed in search-result areas and the like, related to a user's search query.",
+  "example": "In SA, we review search terms with high purchase intent.",
+  "note": "The abbreviation varies by context. We list Search advertising (ads) and Solution architect (IT) separately.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "search advertising",
+   "search ad",
+   "search ad"
+  ]
+ },
+ {
+  "id": "fashion-526",
+  "term": "SA",
+  "definition": "Advertising placed in search-result areas and the like, related to a user's search query.",
+  "example": "We check the purchase conversion of SA search terms related to linen shirts.",
+  "note": "The abbreviation varies by context. We list Search advertising (ads) and Solution architect (IT) separately.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "search advertising",
+   "search ad",
+   "search ad"
+  ]
+ },
+ {
+  "id": "marketing-531",
+  "term": "DA",
+  "definition": "Advertising shown with visual materials such as images and video in ad slots on websites, apps, and the like.",
+  "example": "We check the DA creative's dimensions and landing link.",
+  "note": "This is the Display advertising context. In IT roles it is also used for other meanings such as Data analyst.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "display advertising",
+   "banner advertising",
+   "banner ad"
+  ]
+ },
+ {
+  "id": "fashion-527",
+  "term": "DA",
+  "definition": "Advertising shown with visual materials such as images and video in ad slots on websites, apps, and the like.",
+  "example": "We check whether DA creatives made from seasonal outfit images lead to the apparel promotion.",
+  "note": "This is the Display advertising context. In IT roles it is also used for other meanings such as Data analyst.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "display advertising",
+   "banner advertising",
+   "banner ad"
+  ]
+ },
+ {
+  "id": "marketing-532",
+  "term": "Execution",
+  "definition": "Actually running an ad or activity according to a plan of set budget, schedule, media, and creative.",
+  "example": "Before execution, we check the creatives and tracking links.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "ad execution",
+   "to execute"
+  ]
+ },
+ {
+  "id": "fashion-528",
+  "term": "Execution",
+  "definition": "Actually running an ad or activity according to a plan of set budget, schedule, media, and creative.",
+  "example": "Before executing the coat promotion ad, we check inventory and size options.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "ad execution",
+   "to execute"
+  ]
+ },
+ {
+  "id": "marketing-533",
+  "term": "On Air",
+  "definition": "A term for the state in which an ad or broadcast is actually being transmitted or placed.",
+  "example": "After going on air, we check the actual displayed screen.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "on air",
+   "to go on air"
+  ]
+ },
+ {
+  "id": "fashion-529",
+  "term": "On Air",
+  "definition": "A term for the state in which an ad or broadcast is actually being transmitted or placed.",
+  "example": "After the collection ad goes on air, we check how the garment colors look on the actual media.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "on air",
+   "to go on air"
+  ]
+ },
+ {
+  "id": "marketing-534",
+  "term": "Off Air",
+  "definition": "A term for the state in which an ad or broadcast's transmission has ended or is not being transmitted.",
+  "example": "After the event ends, we take the ad off air.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "off air"
+  ]
+ },
+ {
+  "id": "fashion-530",
+  "term": "Off Air",
+  "definition": "A term for the state in which an ad or broadcast's transmission has ended or is not being transmitted.",
+  "example": "When the end-of-season event is over, we take the discount ad off air.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "off air"
+  ]
+ },
+ {
+  "id": "marketing-535",
+  "term": "Creative Swap",
+  "definition": "The task of replacing a running ad's image, video, or copy with a different version.",
+  "example": "We start the creative swap with the lowest-performing ads first.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "swapping creative",
+   "replacing creative"
+  ]
+ },
+ {
+  "id": "fashion-531",
+  "term": "Creative Swap",
+  "definition": "The task of replacing a running ad's image, video, or copy with a different version.",
+  "example": "We start the creative swap with the jacket ad whose main sizes are sold out.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "swapping creative",
+   "replacing creative"
+  ]
+ },
+ {
+  "id": "marketing-536",
+  "term": "Ad Group",
+  "definition": "A unit that bundles related ads with settings such as targeting and bidding for management.",
+  "example": "We separate ad groups by product line.",
+  "note": "The names and setting units such as campaign, ad group, and ad set differ by platform.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "ad group",
+   "ad group"
+  ]
+ },
+ {
+  "id": "fashion-532",
+  "term": "Ad Group",
+  "definition": "A unit that bundles related ads with settings such as targeting and bidding for management.",
+  "example": "We split ad groups into outerwear, tops, and bottoms to check performance.",
+  "note": "The names and setting units such as campaign, ad group, and ad set differ by platform.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "ad group",
+   "ad group"
+  ]
+ },
+ {
+  "id": "marketing-537",
+  "term": "Bidding",
+  "definition": "The process of offering a price or target condition to win an ad-impression opportunity.",
+  "example": "We adjust the bidding strategy while watching performance and budget.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "bidding",
+   "ad bidding"
+  ]
+ },
+ {
+  "id": "fashion-533",
+  "term": "Bidding",
+  "definition": "The process of offering a price or target condition to win an ad-impression opportunity.",
+  "example": "We adjust bids while watching the purchase conversion of new-product search ads.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "bidding",
+   "ad bidding"
+  ]
+ },
+ {
+  "id": "marketing-538",
+  "term": "Landing",
+  "definition": "A term for the screen a user arrives at after clicking an ad or link, or the act of moving there.",
+  "example": "We check that the ad message matches the landing content.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "landing link",
+   "landing URL"
+  ]
+ },
+ {
+  "id": "fashion-534",
+  "term": "Landing",
+  "definition": "A term for the screen a user arrives at after clicking an ad or link, or the act of moving there.",
+  "example": "We check that the knitwear ad's landing leads to that knitwear's detail page.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "landing link",
+   "landing URL"
+  ]
+ },
+ {
+  "id": "marketing-539",
+  "term": "Frequency",
+  "definition": "The number, or average number, of times an ad was shown to a specific audience over a set period.",
+  "example": "As frequency rises, we watch fatigue and performance together.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "impression frequency",
+   "frequency"
+  ]
+ },
+ {
+  "id": "fashion-535",
+  "term": "Frequency",
+  "definition": "The number, or average number, of times an ad was shown to a specific audience over a set period.",
+  "example": "We check the impression frequency of the same outfit ad together with customer response.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "impression frequency",
+   "frequency"
+  ]
+ },
+ {
+  "id": "marketing-540",
+  "term": "Frequency Cap",
+  "definition": "A setting that limits the number of times an ad is shown to the same audience to a certain standard.",
+  "example": "We review a frequency cap to prevent excessive exposure in a short period.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "frequency cap",
+   "frequency cap"
+  ]
+ },
+ {
+  "id": "fashion-536",
+  "term": "Frequency Cap",
+  "definition": "A setting that limits the number of times an ad is shown to the same audience to a certain standard.",
+  "example": "We review a frequency cap so the launch-reveal ad is not shown excessively to the same customer.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "frequency cap",
+   "frequency cap"
+  ]
+ },
+ {
+  "id": "marketing-541",
+  "term": "Attribution",
+  "definition": "A method of allocating and judging, by a set standard, which touchpoint or channel contributed to a result such as a conversion.",
+  "example": "Channel performance can change depending on the attribution criteria.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "contribution analysis",
+   "conversion contribution"
+  ]
+ },
+ {
+  "id": "fashion-537",
+  "term": "Attribution",
+  "definition": "A method of allocating and judging, by a set standard, which touchpoint or channel contributed to a result such as a conversion.",
+  "example": "We compare how much the lookbook ad and the search ad contributed to purchases using attribution criteria.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "contribution analysis",
+   "conversion contribution"
+  ]
+ },
+ {
+  "id": "marketing-542",
+  "term": "Conversion Tracking",
+  "definition": "Recording target actions such as purchases or sign-ups after an ad or inflow to gauge performance.",
+  "example": "Before execution, we check that conversion tracking is not duplicated.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "conversion tracking",
+   "conversion measurement"
+  ]
+ },
+ {
+  "id": "fashion-538",
+  "term": "Conversion Tracking",
+  "definition": "Recording target actions such as purchases or sign-ups after an ad or inflow to gauge performance.",
+  "example": "We check that a single order on our own mall is not recorded twice in conversion tracking.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "conversion tracking",
+   "conversion measurement"
+  ]
+ },
+ {
+  "id": "marketing-543",
+  "term": "Event Tagging",
+  "definition": "The task of adding identifying information and recording settings so user actions such as clicks and purchases can be measured.",
+  "example": "We add event tagging to the cart click.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "placing events",
+   "tagging",
+   "placing tags"
+  ]
+ },
+ {
+  "id": "fashion-539",
+  "term": "Event Tagging",
+  "definition": "The task of adding identifying information and recording settings so user actions such as clicks and purchases can be measured.",
+  "example": "We add event tagging to size selection and add-to-cart on our own mall.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "placing events",
+   "tagging",
+   "placing tags"
+  ]
+ },
+ {
+  "id": "dev-373",
+  "term": "DAU",
+  "definition": "The number of unique users who met a set activity standard during a single day.",
+  "example": "In the DAU aggregation query, we remove duplicate events from the same user.",
+  "category": "Product & Customer Metrics",
+  "aliases": [
+   "daily active users"
+  ]
+ },
+ {
+  "id": "marketing-544",
+  "term": "DAU",
+  "definition": "The number of unique users who met a set activity standard during a single day.",
+  "example": "The team first aligns on the DAU activity standard.",
+  "category": "Product & Customer Metrics",
+  "aliases": [
+   "daily active users"
+  ]
+ },
+ {
+  "id": "dev-374",
+  "term": "MAU",
+  "definition": "The number of unique users who met a set activity standard during a month.",
+  "example": "We reflect the time zone and user-identification standard of MAU aggregation in the data pipeline.",
+  "category": "Product & Customer Metrics",
+  "aliases": [
+   "monthly active users"
+  ]
+ },
+ {
+  "id": "marketing-545",
+  "term": "MAU",
+  "definition": "The number of unique users who met a set activity standard during a month.",
+  "example": "We compare the MAU trend with last month.",
+  "category": "Product & Customer Metrics",
+  "aliases": [
+   "monthly active users"
+  ]
+ },
+ {
+  "id": "dev-375",
+  "term": "Retention",
+  "definition": "The degree to which users who first came in or became active return or keep using the service after a set period.",
+  "example": "We calculate the number of users who revisited after 7 days by sign-up-date cohort and compare retention.",
+  "category": "Product & Customer Metrics",
+  "aliases": [
+   "return retention",
+   "retention rate"
+  ]
+ },
+ {
+  "id": "marketing-546",
+  "term": "Retention",
+  "definition": "The degree to which users who first came in or became active return or keep using the service after a set period.",
+  "example": "We check the segment where first-week retention drops.",
+  "category": "Product & Customer Metrics",
+  "aliases": [
+   "return retention",
+   "retention rate"
+  ]
+ },
+ {
+  "id": "fashion-542",
+  "term": "Retention",
+  "definition": "The degree to which customers who first purchased or came in purchase or visit again afterward. You set which behavior to look at, repurchase or revisit, and over what period, before measuring.",
+  "example": "We look at retention to see whether customers who first bought spring new arrivals also purchased in the next season.",
+  "category": "Own-Mall & Customer Metrics",
+  "aliases": [
+   "customer retention",
+   "retention rate"
+  ]
+ },
+ {
+  "id": "dev-376",
+  "term": "Churn Rate",
+  "definition": "The proportion of customers who stopped using or subscribing within a set period and standard.",
+  "example": "We check that a subscription-cancellation event is counted only once in the customer churn rate.",
+  "note": "Here this explains Churn, where a customer stops using. Do not conflate it with the web-analytics Bounce rate; confirm the standard.",
+  "category": "Product & Customer Metrics",
+  "aliases": [
+   "customer churn",
+   "subscription churn"
+  ]
+ },
+ {
+  "id": "marketing-547",
+  "term": "Churn Rate",
+  "definition": "The proportion of customers who stopped using or subscribing within a set period and standard.",
+  "example": "We compare subscriber churn rate by sign-up period.",
+  "note": "Here this explains Churn, where a customer stops using. Do not conflate it with the web-analytics Bounce rate; confirm the standard.",
+  "category": "Product & Customer Metrics",
+  "aliases": [
+   "customer churn",
+   "subscription churn"
+  ]
+ },
+ {
+  "id": "fashion-543",
+  "term": "Churn Rate",
+  "definition": "The proportion of existing customers classified as churned because they did not perform a standard activity such as repurchase within a set period. You first set the product purchase cycle and the customer group before calculating.",
+  "example": "We define this analysis's churn rate as the proportion of existing buyers with no repurchase in the last 6 months.",
+  "note": "The period is set according to the company's analysis purpose. It is a different metric from a web page's bounce rate or checkout-step drop-off.",
+  "category": "Own-Mall & Customer Metrics",
+  "aliases": [
+   "customer churn",
+   "customer churn rate"
+  ]
+ },
+ {
+  "id": "dev-377",
+  "term": "Cohort",
+  "definition": "A group of users bundled by common traits such as sign-up timing or behavior to compare change over time.",
+  "example": "We split into cohorts by sign-up week and query the change in feature usage.",
+  "category": "Product & Customer Metrics",
+  "aliases": [
+   "cohort analysis",
+   "homogeneous group"
+  ]
+ },
+ {
+  "id": "marketing-548",
+  "term": "Cohort",
+  "definition": "A group of users bundled by common traits such as sign-up timing or behavior to compare change over time.",
+  "example": "We compare repurchase across cohorts by first-purchase month.",
+  "category": "Product & Customer Metrics",
+  "aliases": [
+   "cohort analysis",
+   "homogeneous group"
+  ]
+ },
+ {
+  "id": "fashion-544",
+  "term": "Cohort",
+  "definition": "A group of users bundled by common traits such as sign-up timing or behavior to compare change over time.",
+  "example": "We compare the next-season repurchase rate across cohorts by first-purchase month of the spring collection.",
+  "category": "Own-Mall & Customer Metrics",
+  "aliases": [
+   "cohort analysis",
+   "homogeneous group"
+  ]
+ },
+ {
+  "id": "dev-378",
+  "term": "MVP",
+  "definition": "A product built with the minimum scope needed to validate and learn from a core hypothesis.",
+  "example": "In the MVP, we implement only sign-up and the core search feature to validate the hypothesis.",
+  "category": "Product & Customer Metrics",
+  "aliases": [
+   "minimum viable product",
+   "minimum viable product"
+  ]
+ },
+ {
+  "id": "dev-379",
+  "term": "POC",
+  "definition": "A small-scope validation to confirm whether an idea or technology is actually feasible and produces the needed effect.",
+  "example": "We run a POC with sample data to see whether the new search engine delivers the required response speed.",
+  "category": "Product & Customer Metrics",
+  "aliases": [
+   "PoC",
+   "proof of concept",
+   "POC",
+   "technical validation"
+  ]
+ },
+ {
+  "id": "dev-380",
+  "term": "SA",
+  "definition": "A role that designs and coordinates technical components and their integration and deployment to meet requirements.",
+  "example": "We review the integration structure with the customer's system together with the SA.",
+  "note": "The abbreviation varies by context. We list Search advertising (ads) and Solution architect (IT) separately.",
+  "category": "IT Company & Roles",
+  "aliases": [
+   "solution architect"
+  ]
+ },
+ {
+  "id": "marketing-398",
+  "term": "Angle",
+  "definition": "The camera's height and direction in viewing the subject.",
+  "example": "Let me lower the angle.",
+  "category": "Angle & Composition",
+  "aliases": [
+   "camera angle",
+   "camera angle"
+  ]
+ },
+ {
+  "id": "marketing-399",
+  "term": "High Angle",
+  "definition": "A shooting composition looking down from a position higher than the subject.",
+  "example": "Let me shoot the table scene from a high angle.",
+  "note": "We group the high angle together as a Korean shooting term. Distinguish it from the top shot, a directly overhead vertical composition.",
+  "category": "Ad Storyboard & Shot Composition",
+  "aliases": [
+   "high angle",
+   "high angle"
+  ]
+ },
+ {
+  "id": "marketing-400",
+  "term": "Low Angle",
+  "definition": "A shooting composition looking up from a position lower than the subject.",
+  "example": "Please frame the person from a low angle.",
+  "note": "Organized as the Korean shooting term corresponding to the low angle.",
+  "category": "Ad Storyboard & Shot Composition",
+  "aliases": [
+   "low angle",
+   "low angle",
+   "low angle"
+  ]
+ },
+ {
+  "id": "marketing-401",
+  "term": "Eye Level",
+  "definition": "A camera composition set at the subject's eye level.",
+  "example": "We film interviews at eye level.",
+  "category": "Ad Storyboard & Shot Composition",
+  "aliases": [
+   "eye-level shot",
+   "eye level"
+  ]
+ },
+ {
+  "id": "marketing-402",
+  "term": "Dutch Angle",
+  "definition": "A camera composition that tilts the horizon.",
+  "example": "We express an uneasy mood with a Dutch angle.",
+  "category": "Ad Storyboard & Shot Composition",
+  "aliases": [
+   "Dutch angle",
+   "Dutch tilt"
+  ]
+ },
+ {
+  "id": "marketing-403",
+  "term": "POV",
+  "definition": "A shot shown as if it were the view a character sees.",
+  "example": "We attach a POV after the scene of opening the door.",
+  "category": "Ad Storyboard & Shot Composition",
+  "aliases": [
+   "POV",
+   "point-of-view shot"
+  ]
+ },
+ {
+  "id": "marketing-404",
+  "term": "OTS",
+  "definition": "A shot showing the other person over one character's shoulder.",
+  "example": "We'll continue the conversation scene with OTS.",
+  "category": "Ad Storyboard & Shot Composition",
+  "aliases": [
+   "over the shoulder",
+   "over-the-shoulder shot"
+  ]
+ },
+ {
+  "id": "marketing-405",
+  "term": "Close-Up",
+  "definition": "A shot that frames a face or subject closely to show detail.",
+  "example": "Please capture the expression in a close-up.",
+  "category": "Ad Storyboard & Shot Composition",
+  "aliases": [
+   "close up",
+   "CU",
+   "CU"
+  ]
+ },
+ {
+  "id": "marketing-406",
+  "term": "Extreme Close-Up",
+  "definition": "A shot that shows a very small part such as an eye or a hand enlarged.",
+  "example": "We film just the pupil in an extreme close-up.",
+  "category": "Ad Storyboard & Shot Composition",
+  "aliases": [
+   "ECU",
+   "extreme close-up"
+  ]
+ },
+ {
+  "id": "marketing-407",
+  "term": "Medium Shot",
+  "definition": "A shot that frames a person's upper body to show expression and surroundings together.",
+  "example": "We'll go with a medium shot for the explanation scene.",
+  "category": "Ad Storyboard & Shot Composition",
+  "aliases": [
+   "medium shot",
+   "MS"
+  ]
+ },
+ {
+  "id": "marketing-408",
+  "term": "Long Shot",
+  "definition": "A shot that frames the whole person and surrounding space widely.",
+  "example": "We need a long shot to show the space.",
+  "category": "Ad Storyboard & Shot Composition",
+  "aliases": [
+   "long shot",
+   "LS",
+   "wide shot"
+  ]
+ },
+ {
+  "id": "marketing-409",
+  "term": "Extreme Long Shot",
+  "definition": "A shot that captures a wide background and a small subject together from far away.",
+  "example": "We open the city view with an extreme long shot.",
+  "category": "Ad Storyboard & Shot Composition",
+  "aliases": [
+   "ELS",
+   "extreme long view"
+  ]
+ },
+ {
+  "id": "marketing-410",
+  "term": "Top Shot",
+  "definition": "A shot looking straight down from directly above the subject.",
+  "example": "We capture the cooking process with a top shot.",
+  "category": "Ad Storyboard & Shot Composition",
+  "aliases": [
+   "top view",
+   "top view",
+   "overhead"
+  ]
+ },
+ {
+  "id": "marketing-411",
+  "term": "Bust Shot",
+  "definition": "A person composition framing roughly from above the chest to the head.",
+  "example": "We'll go with a bust shot for the interview.",
+  "note": "Shot boundaries vary by on-set convention. Agree specifically on where on the chest to frame.",
+  "category": "Shot Size",
+  "aliases": [
+   "bust",
+   "bust shot",
+   "BS",
+   "chest shot"
+  ]
+ },
+ {
+  "id": "marketing-412",
+  "term": "Waist Shot",
+  "definition": "A person composition framing from around the waist to the head.",
+  "example": "We capture the hand gestures with a waist shot.",
+  "note": "WS is, in some documents, also the abbreviation for Wide Shot. Don't rely on the abbreviation alone; confirm the framing.",
+  "category": "Shot Size",
+  "aliases": [
+   "waist shot",
+   "waist shot",
+   "WS"
+  ]
+ },
+ {
+  "id": "marketing-413",
+  "term": "Full Shot",
+  "definition": "A composition framing the whole person from head to toe.",
+  "example": "Please include the shoes in the full shot.",
+  "category": "Shot Size",
+  "aliases": [
+   "full shot",
+   "full-body shot",
+   "FS",
+   "full figure"
+  ]
+ },
+ {
+  "id": "marketing-414",
+  "term": "Knee Shot",
+  "definition": "A composition framing from around the knees to the head.",
+  "example": "We show the movement with a knee shot.",
+  "category": "Shot Size",
+  "aliases": [
+   "knee shot",
+   "knee shot",
+   "KS"
+  ]
+ },
+ {
+  "id": "marketing-415",
+  "term": "One Shot",
+  "definition": "A shot framed around a single person.",
+  "example": "We also film each person's one shot.",
+  "category": "Shot Size",
+  "aliases": [
+   "one shot",
+   "single shot",
+   "single shot"
+  ]
+ },
+ {
+  "id": "marketing-416",
+  "term": "Two Shot",
+  "definition": "A shot framing two people together.",
+  "example": "We start the conversation with a two shot.",
+  "category": "Shot Size",
+  "aliases": [
+   "two shot",
+   "2 shot"
+  ]
+ },
+ {
+  "id": "marketing-417",
+  "term": "Group Shot",
+  "definition": "A shot framing several people in one frame.",
+  "example": "The last one is a group shot.",
+  "category": "Shot Size",
+  "aliases": [
+   "group shot",
+   "group shot"
+  ]
+ },
+ {
+  "id": "marketing-418",
+  "term": "Shot",
+  "definition": "The basic unit of footage captured in a single composition.",
+  "example": "We attach a reaction after this shot.",
+  "note": "The same English word shot is written with several Korean spellings. We linked them to one entry rather than inflating the count with different word forms.",
+  "category": "Footage Units",
+  "aliases": [
+   "shot",
+   "shot",
+   "shot"
+  ]
+ },
+ {
+  "id": "marketing-419",
+  "term": "Scene",
+  "definition": "A story unit that continues in roughly the same time and place.",
+  "example": "This scene takes place in a cafe.",
+  "category": "Footage Units",
+  "aliases": [
+   "scene",
+   "scene"
+  ]
+ },
+ {
+  "id": "marketing-420",
+  "term": "Sequence",
+  "definition": "A bundle of related scenes that together form a part of the story.",
+  "example": "The chase sequence is done.",
+  "note": "Here it means a story unit. In editing software it can also refer to a timeline working unit where multiple clips are arranged.",
+  "category": "Footage Units",
+  "aliases": [
+   "sequence"
+  ]
+ },
+ {
+  "id": "marketing-421",
+  "term": "Long Take",
+  "definition": "A shot filmed in one long stretch without cutting midway.",
+  "example": "We capture from the entrance in a long take.",
+  "category": "Footage Units",
+  "aliases": [
+   "long take",
+   "long take"
+  ]
+ },
+ {
+  "id": "marketing-422",
+  "term": "Head Room",
+  "definition": "The empty space between the top of the head and the top of the frame.",
+  "example": "Reduce the head room a little.",
+  "category": "Angle & Composition",
+  "aliases": [
+   "headroom"
+  ]
+ },
+ {
+  "id": "marketing-423",
+  "term": "Eye Room",
+  "definition": "The empty space placed in the direction of the subject's gaze.",
+  "example": "Please give eye room on the right.",
+  "category": "Angle & Composition",
+  "aliases": [
+   "eye room",
+   "looking room",
+   "nose room"
+  ]
+ },
+ {
+  "id": "marketing-424",
+  "term": "Lead Room",
+  "definition": "The empty space in the direction a person or object is moving.",
+  "example": "We leave lead room in front of the runner.",
+  "category": "Angle & Composition",
+  "aliases": [
+   "lead room"
+  ]
+ },
+ {
+  "id": "marketing-425",
+  "term": "Follow",
+  "definition": "A filming instruction to track a moving subject within the frame.",
+  "example": "Follow the actor as they walk up.",
+  "note": "It refers to the aim of tracking a subject. It can be done by panning in place or by moving the camera. It differs from the follow focus, a focus-control device.",
+  "category": "On-Set Operations",
+  "aliases": [
+   "follow",
+   "follow shot",
+   "follow shot"
+  ]
+ },
+ {
+  "id": "marketing-426",
+  "term": "Take",
+  "definition": "Each individual attempt at filming the same shot.",
+  "example": "Let's check with the third take.",
+  "category": "On-Set Operations",
+  "aliases": [
+   "take",
+   "take"
+  ]
+ },
+ {
+  "id": "marketing-427",
+  "term": "OK Cut",
+  "definition": "Footage selected as usable.",
+  "example": "This take is an OK cut.",
+  "category": "On-Set Operations",
+  "aliases": [
+   "OK cut",
+   "OK cut",
+   "OK"
+  ]
+ },
+ {
+  "id": "marketing-428",
+  "term": "Keep",
+  "definition": "Footage kept as a candidate rather than discarded right away.",
+  "example": "Let's keep this version too.",
+  "category": "On-Set Operations",
+  "aliases": [
+   "keep",
+   "keep cut"
+  ]
+ },
+ {
+  "id": "marketing-429",
+  "term": "Insert",
+  "definition": "A shot that separately emphasizes an important object or action in a scene.",
+  "example": "We need an insert of the signing hand.",
+  "category": "Frame Composition",
+  "aliases": [
+   "insert shot",
+   "insert cut"
+  ]
+ },
+ {
+  "id": "marketing-430",
+  "term": "B-Roll",
+  "definition": "Supplementary footage added to the main footage to show the situation and mood.",
+  "example": "Please also shoot B-roll of the workshop.",
+  "category": "Frame Composition",
+  "aliases": [
+   "B-roll",
+   "B roll",
+   "supplementary footage"
+  ]
+ },
+ {
+  "id": "marketing-431",
+  "term": "Wrap",
+  "definition": "A term for finishing and wrapping up the work in hand.",
+  "example": "Let's wrap today's shoot here.",
+  "note": "A common expression for wrapping up work across many worksites. The example for the video entry is written to fit the shooting situation. It can be rephrased as 'end of shoot' or 'wrap-up'.",
+  "category": "On-Set Operations",
+  "aliases": [
+   "to wrap up",
+   "to wrap"
+  ]
+ },
+ {
+  "id": "marketing-432",
+  "term": "Pan",
+  "definition": "An action of turning the camera's direction left and right while keeping its position.",
+  "example": "Pan toward the entrance.",
+  "category": "Camera Movement",
+  "aliases": [
+   "panning",
+   "panning",
+   "pan left",
+   "pan right"
+  ]
+ },
+ {
+  "id": "marketing-433",
+  "term": "Tilt",
+  "definition": "An action of turning the camera's direction up and down while keeping its position.",
+  "example": "Tilt up from the feet to the face.",
+  "category": "Camera Movement",
+  "aliases": [
+   "tilting",
+   "tilting",
+   "tilt up",
+   "tilt down"
+  ]
+ },
+ {
+  "id": "marketing-434",
+  "term": "Whip Pan",
+  "definition": "A pan fast enough to blur the frame as it turns left and right.",
+  "example": "We reveal the next person with a whip pan.",
+  "category": "Camera Movement",
+  "aliases": [
+   "swish pan",
+   "swing pan"
+  ]
+ },
+ {
+  "id": "marketing-435",
+  "term": "Dolly In",
+  "definition": "A move in which the camera itself gets closer to the subject.",
+  "example": "We dolly in to match the expression.",
+  "category": "Camera Movement",
+  "aliases": [
+   "push in",
+   "push in",
+   "dolly in"
+  ]
+ },
+ {
+  "id": "marketing-436",
+  "term": "Dolly Out",
+  "definition": "A move in which the camera itself moves away from the subject.",
+  "example": "We dolly out so the space becomes visible.",
+  "category": "Camera Movement",
+  "aliases": [
+   "pull out",
+   "pull out",
+   "dolly out"
+  ]
+ },
+ {
+  "id": "marketing-437",
+  "term": "Zoom In",
+  "definition": "Increasing the focal length to make the subject appear larger in the frame.",
+  "example": "Zoom in on the sign.",
+  "category": "Camera Movement",
+  "aliases": [
+   "zoom in"
+  ]
+ },
+ {
+  "id": "marketing-438",
+  "term": "Zoom Out",
+  "definition": "Decreasing the focal length to fit a wider range into the frame.",
+  "example": "Zoom out so the surroundings are visible.",
+  "category": "Camera Movement",
+  "aliases": [
+   "zoom out"
+  ]
+ },
+ {
+  "id": "marketing-439",
+  "term": "Dolly Zoom",
+  "definition": "A technique that combines camera movement with a zoom in the opposite direction to change the sense of perspective.",
+  "example": "We use a dolly zoom at the tense moment.",
+  "category": "Camera Movement",
+  "aliases": [
+   "dolly zoom",
+   "vertigo effect",
+   "zolly"
+  ]
+ },
+ {
+  "id": "marketing-440",
+  "term": "Handheld",
+  "definition": "A method of filming while supporting the camera with the hands or shoulder.",
+  "example": "We'll go handheld for the moving scene.",
+  "note": "Demochi is an on-set term found in 1985 language-refinement materials.",
+  "category": "Equipment & Rigs",
+  "aliases": [
+   "handheld",
+   "handheld shot",
+   "demochi",
+   "demochi"
+  ]
+ },
+ {
+  "id": "marketing-441",
+  "term": "Gimbal",
+  "definition": "A stabilizing device that controls rotation axes to reduce camera shake.",
+  "example": "Balance the gimbal first.",
+  "category": "Equipment & Rigs",
+  "aliases": [
+   "gimbal",
+   "camera gimbal"
+  ]
+ }
+]

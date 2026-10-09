@@ -1,0 +1,1346 @@
+[
+ {
+  "id": "marketing-596",
+  "term": "DSP",
+  "definition": "A platform where ad buyers purchase ad inventory across multiple media and manage bidding, targeting, and performance.",
+  "example": "In the DSP, I set the campaign's bid cap and exposure conditions.",
+  "category": "Media & Buying",
+  "aliases": [
+   "DSP",
+   "demand-side platform"
+  ]
+ },
+ {
+  "id": "marketing-597",
+  "term": "SSP",
+  "definition": "A platform where media offer their ad inventory to multiple demand sources and manage sales conditions and revenue.",
+  "example": "In the SSP, I manage the inventory to sell and the price conditions.",
+  "category": "Media & Buying",
+  "aliases": [
+   "SSP",
+   "supply-side platform"
+  ]
+ },
+ {
+  "id": "marketing-598",
+  "term": "Ad exchange",
+  "definition": "A digital marketplace that connects transactions between buyers and sellers of ad inventory.",
+  "example": "I check the transaction conditions of the ad exchange.",
+  "category": "Media & Buying",
+  "aliases": [
+   "ad exchange",
+   "ad exchange"
+  ]
+ },
+ {
+  "id": "marketing-599",
+  "term": "Native advertising",
+  "definition": "Advertising composed so its format and usage flow fit with a medium's ordinary content.",
+  "example": "I mark native advertising so it can still be recognized as an ad.",
+  "category": "Media & Buying",
+  "aliases": [
+   "native ad"
+  ]
+ },
+ {
+  "id": "marketing-600",
+  "term": "Billing",
+  "definition": "The scale of ad transactions an agency handled over a defined period. It is distinguished from commission revenue or net profit.",
+  "example": "I report billing separately from agency revenue.",
+  "category": "Media & Buying",
+  "aliases": [
+   "ad billings",
+   "billings"
+  ]
+ },
+ {
+  "id": "marketing-601",
+  "term": "Digital signage",
+  "definition": "A medium or system that displays guidance, information, and advertising content on electronic displays.",
+  "example": "I set the playback schedule for the store's digital signage.",
+  "category": "Media & Buying",
+  "aliases": [
+   "digital sign"
+  ]
+ },
+ {
+  "id": "marketing-602",
+  "term": "Wrap advertising",
+  "definition": "A method of wrapping the surface of a vehicle or facility with advertising graphics and the like for exposure.",
+  "example": "I check the actual application area of the bus wrap advertising.",
+  "category": "Media & Buying",
+  "aliases": [
+   "wrap advertising",
+   "vehicle wrap"
+  ]
+ },
+ {
+  "id": "dev-406",
+  "term": "JWT",
+  "definition": "A token format that conveys claims, which are information about a subject, in a compact JSON-based form. Signing and encryption must be distinguished.",
+  "example": "Before trusting the values in a JWT, I check the verification procedure.",
+  "note": "Base64url encoding is not encryption. The contents of a signed JWT do not automatically become secret.",
+  "category": "Authentication & Security",
+  "aliases": [
+   "JWT"
+  ]
+ },
+ {
+  "id": "dev-407",
+  "term": "OAuth 2.0",
+  "definition": "An authorization framework that lets an application receive limited access to resources on behalf of a user.",
+  "example": "I limit the access scope requested in OAuth to the necessary level.",
+  "note": "OAuth itself handles authorization. A separate authentication layer such as OpenID Connect may be used to verify user identity.",
+  "category": "Authentication & Security",
+  "aliases": [
+   "OAuth",
+   "OAuth",
+   "OAuth"
+  ]
+ },
+ {
+  "id": "dev-408",
+  "term": "NoSQL",
+  "definition": "A family of databases centered on data models other than relational tables, such as document, key-value, and graph.",
+  "example": "I review a NoSQL model that fits the data access patterns.",
+  "note": "It does not mean there is no schema at all. Structure, validation, and transaction features differ by product and data model.",
+  "category": "Data & Infrastructure",
+  "aliases": [
+   "NoSQL",
+   "non-relational database"
+  ]
+ },
+ {
+  "id": "dev-409",
+  "term": "Connection pool",
+  "definition": "A structure that gathers and manages connections so multiple tasks can reuse them.",
+  "example": "I check the connection pool's wait time and the number of connections in use.",
+  "category": "Data & Infrastructure",
+  "aliases": [
+   "connection pool",
+   "DB connection pool"
+  ]
+ },
+ {
+  "id": "dev-410",
+  "term": "VPC",
+  "definition": "A logically isolated network space in the cloud and its configuration.",
+  "example": "I design the VPC's subnets and access paths.",
+  "category": "Data & Infrastructure",
+  "aliases": [
+   "virtual private cloud"
+  ]
+ },
+ {
+  "id": "dev-411",
+  "term": "Autoscaling",
+  "definition": "A feature that automatically increases or decreases the number or size of computing resources according to load or defined conditions.",
+  "example": "I set the autoscaling minimum and maximum capacity.",
+  "category": "Data & Infrastructure",
+  "aliases": [
+   "auto scaling",
+   "automatic scaling"
+  ]
+ },
+ {
+  "id": "dev-412",
+  "term": "Port forwarding",
+  "definition": "A setting that forwards communication arriving at a specific address and port to another address and port.",
+  "example": "I check the destination address and port of the port forwarding.",
+  "category": "Data & Infrastructure",
+  "aliases": [
+   "port forwarding"
+  ]
+ },
+ {
+  "id": "dev-413",
+  "term": "State management",
+  "definition": "The work of managing how the state used by screens and features is stored, changed, and shared.",
+  "example": "When multiple screens use the same value, I define the state-management scope.",
+  "category": "Web & App Implementation",
+  "aliases": [
+   "state management"
+  ]
+ },
+ {
+  "id": "dev-414",
+  "term": "SSR",
+  "definition": "A rendering method that generates the screen's HTML on the server and sends it to the client.",
+  "example": "In SSR, I check the initial response time and the caching strategy.",
+  "category": "Web & App Implementation",
+  "aliases": [
+   "server-side rendering",
+   "server rendering"
+  ]
+ },
+ {
+  "id": "dev-415",
+  "term": "CSR",
+  "definition": "A rendering method that runs code on the client, such as the browser, to compose the screen.",
+  "example": "In CSR, I prepare the initial loading and error states.",
+  "category": "Web & App Implementation",
+  "aliases": [
+   "client-side rendering",
+   "client rendering"
+  ]
+ },
+ {
+  "id": "dev-416",
+  "term": "WebView",
+  "definition": "A browser component that displays and runs web content inside an app.",
+  "example": "I check the navigation and back behavior between the WebView and the app.",
+  "category": "Web & App Implementation",
+  "aliases": [
+   "web view"
+  ]
+ },
+ {
+  "id": "dev-417",
+  "term": "Native app",
+  "definition": "An application built on the features and runtime environment of a specific operating system.",
+  "example": "In the native app, I check the platform's accessibility features.",
+  "category": "Web & App Implementation",
+  "aliases": [
+   "native application"
+  ]
+ },
+ {
+  "id": "dev-418",
+  "term": "Cross-platform",
+  "definition": "An approach that uses shared code and technology so it runs on multiple operating systems or platforms.",
+  "example": "Even when built cross-platform, I verify the behavior on each platform.",
+  "category": "Web & App Implementation",
+  "aliases": [
+   "cross platform"
+  ]
+ },
+ {
+  "id": "dev-419",
+  "term": "Lazy loading",
+  "definition": "A method of loading resources or features when needed rather than all at once from the start.",
+  "example": "I apply lazy loading to images below the fold.",
+  "category": "Web & App Implementation",
+  "aliases": [
+   "lazy loading",
+   "lazy loading"
+  ]
+ },
+ {
+  "id": "dev-420",
+  "term": "Zero-day vulnerability",
+  "definition": "A vulnerability revealed while the provider is unaware of it or has not had enough time to respond.",
+  "example": "I check the impact scope and response guidance in the zero-day vulnerability notice.",
+  "note": "Distinguish the vulnerability, the attack that exploits it, and the disclosure timing of the fix patch. Not every unpatched old vulnerability is called a zero-day.",
+  "category": "Verification & Release",
+  "aliases": [
+   "zero day",
+   "zero-day"
+  ]
+ },
+ {
+  "id": "dev-421",
+  "term": "Stress test",
+  "definition": "A test that checks a system's limits, failure, and recovery characteristics under load or constraint conditions beyond the expected range.",
+  "example": "In the stress test, I also check whether it recovers after failure.",
+  "category": "Verification & Release",
+  "aliases": [
+   "extreme-load test"
+  ]
+ },
+ {
+  "id": "dev-422",
+  "term": "Zero-downtime deployment",
+  "definition": "A deployment method that applies a new version while avoiding interruption to users' service.",
+  "example": "For zero-downtime deployment, I check compatibility of existing requests and data.",
+  "category": "Verification & Release",
+  "aliases": [
+   "zero-downtime deployment"
+  ]
+ },
+ {
+  "id": "dev-423",
+  "term": "App review",
+  "definition": "A procedure in which an app or update is reviewed for whether it meets the distribution platform's requirements.",
+  "example": "I prepare the description and test account needed for app review.",
+  "category": "Verification & Release",
+  "aliases": [
+   "app store review",
+   "store review"
+  ]
+ },
+ {
+  "id": "dev-424",
+  "term": "Rejection",
+  "definition": "A field expression for a submitted deliverable not being approved but turned back in app review and the like.",
+  "example": "I read the rejection reasons and prepare the needed fixes and explanations.",
+  "category": "Verification & Release",
+  "aliases": [
+   "app rejection",
+   "Apple rejection",
+   "review rejection"
+  ]
+ },
+ {
+  "id": "common-149",
+  "term": "SSOT",
+  "definition": "The source of information designated as the reference when many people consult it. It does not necessarily mean putting all data in one file.",
+  "example": "I define the SSOT for pricing information to reduce discrepancies across duplicate documents.",
+  "category": "Project & Collaboration",
+  "aliases": [
+   "single source of truth",
+   "single reference of truth"
+  ]
+ },
+ {
+  "id": "common-150",
+  "term": "TBD",
+  "definition": "A marker indicating that something is not yet decided and must be decided later.",
+  "example": "I mark items whose schedule is not finalized as TBD.",
+  "category": "Project & Collaboration",
+  "aliases": [
+   "to be decided",
+   "undecided"
+  ]
+ },
+ {
+  "id": "common-151",
+  "term": "TBA",
+  "definition": "A marker indicating that content will be announced or notified later.",
+  "example": "I announce the event location as TBA.",
+  "category": "Project & Collaboration",
+  "aliases": [
+   "to be announced",
+   "to be notified"
+  ]
+ },
+ {
+  "id": "common-152",
+  "term": "Scope creep",
+  "definition": "A phenomenon in which the scope of work gradually grows without adjusting schedule, cost, or resources, or without change management.",
+  "example": "To prevent scope creep, I check the impact of additional requests.",
+  "category": "Project & Collaboration",
+  "aliases": [
+   "scope expansion",
+   "scope creep"
+  ]
+ },
+ {
+  "id": "common-153",
+  "term": "Man-month",
+  "definition": "An effort unit based on the amount of work one person performs in one month.",
+  "example": "I distinguish the man-month estimate from the actual calendar duration.",
+  "note": "It is a unit of work. It does not mean that doubling the number of people necessarily halves the duration.",
+  "category": "Project & Collaboration",
+  "aliases": [
+   "MM",
+   "man-month",
+   "person-month"
+  ]
+ },
+ {
+  "id": "common-154",
+  "term": "Wrap-up",
+  "definition": "The process of organizing and concluding a meeting's or project's results, decisions, and remaining tasks.",
+  "example": "In the wrap-up, I check the follow-up actions per owner.",
+  "category": "Project & Collaboration",
+  "aliases": [
+   "wrap up",
+   "closing summary",
+   "meeting wrap-up",
+   "meeting summary"
+  ]
+ },
+ {
+  "id": "common-155",
+  "term": "Coffee chat",
+  "definition": "A casual, informal conversation or meeting to exchange information about work, career, and the like.",
+  "example": "Before the coffee chat, I organize the work questions I'm curious about.",
+  "category": "Project & Collaboration",
+  "aliases": [
+   "coffee chat"
+  ]
+ },
+ {
+  "id": "fashion-547",
+  "term": "Mercerization",
+  "definition": "A finishing process, mainly on cotton, that treats the fiber with alkali to change properties such as luster and dyeability.",
+  "example": "I compare the luster and hand before and after mercerization.",
+  "category": "Materials & Finishing",
+  "aliases": [
+   "mercerizing",
+   "mercerization",
+   "mercerization"
+  ]
+ },
+ {
+  "id": "fashion-548",
+  "term": "DTG",
+  "definition": "A method of printing an image directly onto a garment's surface by inkjet.",
+  "example": "I check the color and post-wash condition of the DTG sample.",
+  "category": "Printing & Dyeing",
+  "aliases": [
+   "DTG",
+   "direct-to-garment printing"
+  ]
+ },
+ {
+  "id": "fashion-549",
+  "term": "Dye sublimation",
+  "definition": "A printing method that uses heat to transfer sublimating dyes onto suitable materials such as polyester to produce color.",
+  "example": "I first check whether the blend ratio is suitable for dye sublimation.",
+  "note": "Dye sublimation requires suitable dyes and materials. It is not the same process as all heat transfer or pigment printing.",
+  "category": "Printing & Dyeing",
+  "aliases": [
+   "dye sublimation",
+   "sublimation"
+  ]
+ },
+ {
+  "id": "fashion-550",
+  "term": "Anti-shrink finishing",
+  "definition": "A finishing process that stabilizes fabric in advance to reduce shrinkage during washing or use.",
+  "example": "Even after anti-shrink finishing, I test against the target shrinkage rate.",
+  "note": "Sanforizing is one anti-shrink method that uses compressive shrinkage. Do not treat it as synonymous with all anti-shrink finishing.",
+  "category": "Materials & Finishing",
+  "aliases": [
+   "anti-shrink",
+   "anti-shrink finishing"
+  ]
+ },
+ {
+  "id": "fashion-551",
+  "term": "Water repellency",
+  "definition": "A property that keeps water from spreading or soaking in easily on a surface, instead beading up and rolling off.",
+  "example": "I compare the water-repellency performance before and after washing.",
+  "note": "Water repellency alone does not guarantee waterproofing against water pressure.",
+  "category": "Materials & Finishing",
+  "aliases": [
+   "water-repellent finishing",
+   "water repellent"
+  ]
+ },
+ {
+  "id": "fashion-552",
+  "term": "Waterproofing",
+  "definition": "The performance of preventing water from penetrating into a material or product under defined use and test conditions.",
+  "example": "I check not only the waterproof fabric but also the seam treatment.",
+  "note": "It does not mean completely blocking water under any pressure or duration. Distinguish the test conditions for the material and the finished product.",
+  "category": "Materials & Finishing",
+  "aliases": [
+   "waterproof finishing",
+   "waterproof"
+  ]
+ },
+ {
+  "id": "fashion-554",
+  "term": "Garment washing",
+  "definition": "A process that washes and treats a garment in its sewn state to adjust its hand, appearance, dimensions, and more.",
+  "example": "I check the finished dimensions after garment washing.",
+  "category": "Materials & Finishing",
+  "aliases": [
+   "garment wash",
+   "product washing"
+  ]
+ },
+ {
+  "id": "fashion-555",
+  "term": "Denier",
+  "definition": "A linear-density unit that expresses the mass in grams of 9,000 meters of yarn.",
+  "example": "Under the same material conditions, I compare the denier and the fabric construction together.",
+  "note": "It is a mass-per-length unit. Do not conclude fiber quality or fabric thickness from the number alone.",
+  "category": "Materials & Finishing",
+  "aliases": [
+   "denier",
+   "D",
+   "DEN"
+  ]
+ },
+ {
+  "id": "fashion-553",
+  "term": "Pigment dyeing",
+  "definition": "A finishing process that fixes pigment onto the fiber surface with a binder and the like to produce color.",
+  "example": "I check the rub fastness of pigment-dyed products.",
+  "category": "Materials & Finishing",
+  "aliases": [
+   "pigment",
+   "pigment coloring"
+  ]
+ },
+ {
+  "id": "fashion-556",
+  "term": "Screen printing",
+  "definition": "A method of printing by passing ink through a mesh screen that has a pattern formed in it.",
+  "example": "I check the per-color registration of the screen printing.",
+  "category": "Printing & Dyeing",
+  "aliases": [
+   "silkscreen",
+   "screen printing"
+  ]
+ },
+ {
+  "id": "fashion-557",
+  "term": "Discharge printing",
+  "definition": "A printing method that expresses a pattern by removing the ground color in the pattern areas. It sometimes also renders other colors.",
+  "example": "I use a sample to check whether the dye and fabric allow discharge printing.",
+  "note": "It is a process that removes the existing ground color. Distinguish it from high-density printing that builds up thick ink or rubber printing.",
+  "category": "Printing & Dyeing",
+  "aliases": [
+   "discharge print",
+   "discharge print"
+  ]
+ },
+ {
+  "id": "fashion-558",
+  "term": "Eyelet",
+  "definition": "A ring-shaped trim that reinforces or decorates the edge of a lace hole, ventilation hole, and the like.",
+  "example": "I check whether the eyelet's inner diameter matches the lace thickness.",
+  "category": "Trims & Quality",
+  "aliases": [
+   "metal eyelet",
+   "lace-hole ring"
+  ]
+ },
+ {
+  "id": "fashion-559",
+  "term": "Snap fastener",
+  "definition": "A fastening trim that locks by pressing two interlocking parts together and opens by pulling them apart.",
+  "example": "I check the snap fastener's holding force and any fabric damage.",
+  "category": "Trims & Quality",
+  "aliases": [
+   "snap",
+   "press stud",
+   "snap button"
+  ]
+ },
+ {
+  "id": "fashion-560",
+  "term": "Rivet",
+  "definition": "A metal trim that joins two parts or reinforces and decorates a stress point.",
+  "example": "I check the rivet positions on the jeans pockets.",
+  "category": "Trims & Quality",
+  "aliases": [
+   "garment rivet"
+  ]
+ },
+ {
+  "id": "fashion-561",
+  "term": "Shade band",
+  "definition": "A set of color samples organized to compare color differences in production fabric and the like and judge the tolerance range.",
+  "example": "I match the color of the cutting bundles against the shade band.",
+  "category": "Trims & Quality",
+  "aliases": [
+   "shade band",
+   "color tolerance range"
+  ]
+ },
+ {
+  "id": "fashion-562",
+  "term": "Bursting strength",
+  "definition": "The degree to which fabric withstands bulging or pressing in multiple directions before it bursts.",
+  "example": "I compare fabrics by matching the bursting-strength test conditions.",
+  "category": "Trims & Quality",
+  "aliases": [
+   "bursting strength"
+  ]
+ },
+ {
+  "id": "fashion-563",
+  "term": "Tear strength",
+  "definition": "The force needed for an already started tear to progress further in the fabric.",
+  "example": "For tear strength, I check the results by fabric direction.",
+  "category": "Trims & Quality",
+  "aliases": [
+   "tear strength",
+   "tear strength"
+  ]
+ },
+ {
+  "id": "design-424",
+  "term": "Rich black",
+  "definition": "A print color build that adds other inks to black K ink to express a deep black.",
+  "example": "I check the ink mix for rich black against the output conditions.",
+  "note": "There is no fixed all-purpose CMYK mix. Check the paper, print method, and total ink coverage. The claim that 100% K is always a bad black is also incorrect.",
+  "category": "Color & Print",
+  "aliases": [
+   "rich black"
+  ]
+ },
+ {
+  "id": "design-425",
+  "term": "ICC profile",
+  "definition": "Data that describes the color characteristics of a device or color space and is used to interpret and convert color in the color-management process.",
+  "example": "I check the ICC profile the print shop requested.",
+  "note": "Attaching a profile alone does not make color exactly the same on every device. Device condition and output conditions also have an effect.",
+  "category": "Color & Print",
+  "aliases": [
+   "color profile",
+   "color profile"
+  ]
+ },
+ {
+  "id": "design-426",
+  "term": "Calibration",
+  "definition": "The process of measuring and adjusting a device's output or display state to match a set standard.",
+  "example": "I set the target brightness and white point for the monitor calibration.",
+  "category": "Color & Print",
+  "aliases": [
+   "color calibration",
+   "color calibration"
+  ]
+ },
+ {
+  "id": "design-427",
+  "term": "Gamut",
+  "definition": "The range of colors a device or color space can express or contain.",
+  "example": "I check how colors outside the print gamut are converted.",
+  "category": "Color & Print",
+  "aliases": [
+   "gamut",
+   "gamut",
+   "gamut"
+  ]
+ },
+ {
+  "id": "design-428",
+  "term": "Delta E",
+  "definition": "A metric that expresses the difference between two colors numerically. You must check the formula used and the measurement conditions together.",
+  "example": "I compare the Delta E result together with the actual sample.",
+  "category": "Color & Print",
+  "aliases": [
+   "ΔE",
+   "color difference",
+   "Delta E"
+  ]
+ },
+ {
+  "id": "design-429",
+  "term": "Baseline grid",
+  "definition": "A repeating reference line used so that the text baselines across multiple lines and columns align consistently.",
+  "example": "I align the body text in both columns to the baseline grid.",
+  "category": "Type & Layout",
+  "aliases": [
+   "body baseline grid"
+  ]
+ },
+ {
+  "id": "design-430",
+  "term": "Ligature",
+  "definition": "A form that combines two or more characters into a single glyph.",
+  "example": "When I turn on ligatures, I check the letter connection and legibility.",
+  "category": "Type & Layout",
+  "aliases": [
+   "ligature",
+   "ligature"
+  ]
+ },
+ {
+  "id": "design-431",
+  "term": "Display typeface",
+  "definition": "A typeface whose expression and proportions are designed for use at large sizes, such as titles.",
+  "example": "I check whether a display typeface still reads well in body text.",
+  "category": "Type & Layout",
+  "aliases": [
+   "title typeface",
+   "display font"
+  ]
+ },
+ {
+  "id": "design-432",
+  "term": "x-height",
+  "definition": "The height of the body based on the lowercase x. It can differ by typeface even at the same font size.",
+  "example": "I match the sizes of two typefaces, accounting for the x-height difference.",
+  "category": "Type & Layout",
+  "aliases": [
+   "x height",
+   "x-height"
+  ]
+ },
+ {
+  "id": "design-433",
+  "term": "Wayfinding",
+  "definition": "Information and environment design that helps people understand their current location and destination in a space and find their way.",
+  "example": "In wayfinding, I first inspect the guidance at decision points.",
+  "category": "Spatial & Information Design",
+  "aliases": [
+   "wayfinding design",
+   "signage system"
+  ]
+ },
+ {
+  "id": "design-434",
+  "term": "FF&E",
+  "definition": "A category that groups furniture, fixtures, equipment, and the like handled in a space project.",
+  "example": "In the FF&E list, I note the quantity and lead time per item.",
+  "note": "The included scope differs by contract and project. It is not a list that automatically includes all architectural finishes or decorative items.",
+  "category": "Spatial & Information Design",
+  "aliases": [
+   "FF&E",
+   "furniture, fixtures, and equipment"
+  ]
+ },
+ {
+  "id": "design-435",
+  "term": "SVG",
+  "definition": "A graphic format that describes vector shapes and the like in XML. It can also contain text or raster images.",
+  "example": "I check the SVG's zoomed state and font rendering.",
+  "category": "Files & Output",
+  "aliases": [
+   "SVG"
+  ]
+ },
+ {
+  "id": "design-436",
+  "term": "TIFF",
+  "definition": "An image file format for storing raster image data. It can use no compression or several compression methods.",
+  "example": "When delivering a TIFF, I check the color space and compression settings.",
+  "category": "Files & Output",
+  "aliases": [
+   "TIFF",
+   "TIF"
+  ]
+ },
+ {
+  "id": "design-437",
+  "term": "Infinite scroll",
+  "definition": "An interface method that keeps loading the next content as scrolling progresses.",
+  "example": "Even with infinite scroll, I make it easy to find the previous position.",
+  "category": "User Experience Design",
+  "aliases": [
+   "infinite scroll"
+  ]
+ },
+ {
+  "id": "design-438",
+  "term": "Dark pattern",
+  "definition": "An interface design that misleads users into choices other than what they intend, or makes choices difficult.",
+  "example": "I review for dark patterns that hide the cancel button.",
+  "category": "User Experience Design",
+  "aliases": [
+   "deceptive design",
+   "dark pattern"
+  ]
+ },
+ {
+  "id": "film-444",
+  "term": "ProRes",
+  "definition": "Apple's codec family used in video editing and post-production. It includes several compression formats that differ in image quality and data volume.",
+  "example": "For ProRes delivery, I check the codec type and whether an alpha channel is needed.",
+  "note": "We corrected the original description that it is an uncompressed codec. Not the entire ProRes family supports an alpha channel.",
+  "category": "Codecs & Output",
+  "aliases": [
+   "ProRes",
+   "ProRes 422",
+   "ProRes 4444"
+  ]
+ },
+ {
+  "id": "film-445",
+  "term": "Matte box",
+  "definition": "Equipment that blocks unwanted light in front of the lens and lets you mount filters and the like.",
+  "example": "I check that the matte box does not block the edges of the frame.",
+  "category": "Equipment & On-set",
+  "aliases": [
+   "matte box"
+  ]
+ },
+ {
+  "id": "film-446",
+  "term": "Motion control",
+  "definition": "A system that programs and precisely repeats the movement of a camera and the like.",
+  "example": "For compositing, I repeat the same motion-control move.",
+  "category": "Equipment & On-set",
+  "aliases": [
+   "motion control",
+   "MCR",
+   "motion control rig"
+  ]
+ },
+ {
+  "id": "film-447",
+  "term": "Generator truck",
+  "definition": "A vehicle carrying power-generation equipment that supplies the electricity needed for shooting and the like.",
+  "example": "I check the generator-truck position and power plan with the person in charge.",
+  "category": "Equipment & On-set",
+  "aliases": [
+   "generator vehicle"
+  ]
+ },
+ {
+  "id": "film-448",
+  "term": "Dead cat",
+  "definition": "A furry windscreen cover put over a microphone to reduce the effect of wind.",
+  "example": "Before outdoor recording, I fit the dead cat and check the sound.",
+  "note": "It is an accessory that reduces wind effects, not a device that removes all noise.",
+  "category": "Equipment & On-set",
+  "aliases": [
+   "deadcat",
+   "dead cat",
+   "fur windshield"
+  ]
+ },
+ {
+  "id": "film-449",
+  "term": "C-stand",
+  "definition": "A shooting stand used to support lighting, flags, reflectors, and the like.",
+  "example": "I inspect the C-stand setup and load with the person in charge.",
+  "category": "Equipment & On-set",
+  "aliases": [
+   "C-stand",
+   "century stand",
+   "century stand"
+  ]
+ },
+ {
+  "id": "film-450",
+  "term": "Sandbag",
+  "definition": "An auxiliary counterweight that adds weight to equipment supports and the like to improve stability.",
+  "example": "I check the sandbag positions to match the setup conditions.",
+  "category": "Equipment & On-set",
+  "aliases": [
+   "sandbag",
+   "sand bag"
+  ]
+ },
+ {
+  "id": "film-451",
+  "term": "Cucoloris",
+  "definition": "A board or tool that partially blocks light to create patterned shadows such as leaves or windows.",
+  "example": "I create a shadow pattern on the wall with a cucoloris.",
+  "category": "Equipment & On-set",
+  "aliases": [
+   "cookie",
+   "cucoloris"
+  ]
+ },
+ {
+  "id": "film-452",
+  "term": "Softbox",
+  "definition": "A lighting accessory that passes light through a diffusion surface to make it broad and soft.",
+  "example": "I adjust the softbox size and distance and examine the shadows.",
+  "category": "Equipment & On-set",
+  "aliases": [
+   "soft box"
+  ]
+ },
+ {
+  "id": "film-453",
+  "term": "Snoot",
+  "definition": "A tube-shaped lighting accessory and the like that narrows the spread of light.",
+  "example": "With a snoot, I concentrate light on a small part of the background.",
+  "category": "Equipment & On-set",
+  "aliases": [
+   "snoot"
+  ]
+ },
+ {
+  "id": "film-454",
+  "term": "Picture lock",
+  "definition": "The stage of finalizing the picture edit so it can serve as the basis for subsequent color, sound, and compositing.",
+  "example": "After picture lock, I also inform the post team of changes along with their impact.",
+  "note": "It does not mean later changes are physically impossible. If changes are made, re-coordinate the schedule, cost, and versions of the related post work.",
+  "category": "Editing & Compositing",
+  "aliases": [
+   "picture lock",
+   "picture-edit lock",
+   "picture lock",
+   "picture lock"
+  ]
+ },
+ {
+  "id": "film-455",
+  "term": "Handles",
+  "definition": "Extra frames left before and after the used section for transitions or length adjustment.",
+  "example": "I deliver each cut to the compositing team with handles included.",
+  "category": "Editing & Compositing",
+  "aliases": [
+   "handle frames",
+   "spare frames"
+  ]
+ },
+ {
+  "id": "film-456",
+  "term": "Multicam editing",
+  "definition": "An editing method that synchronizes source from multiple cameras shooting the same scene and the like and switches between them.",
+  "example": "Before multicam editing, I check the sync of each camera.",
+  "category": "Editing & Compositing",
+  "aliases": [
+   "multicamera editing",
+   "multicam"
+  ]
+ },
+ {
+  "id": "film-457",
+  "term": "Clean plate",
+  "definition": "Footage or an image securing a background without the target person or object, for use as a reference in compositing or removal work.",
+  "example": "I shoot the clean plate with the actor out of frame.",
+  "category": "Editing & Compositing",
+  "aliases": [
+   "clean plate"
+  ]
+ },
+ {
+  "id": "film-458",
+  "term": "Render pass",
+  "definition": "Data output by separating render-result elements such as lighting, reflection, shadow, and depth.",
+  "example": "I separate the render passes to adjust them in compositing.",
+  "category": "Editing & Compositing",
+  "aliases": [
+   "render pass",
+   "render element"
+  ]
+ },
+ {
+  "id": "film-459",
+  "term": "Z-depth",
+  "definition": "Data containing distance and depth information between the camera and scene elements.",
+  "example": "I use Z-depth to control fog and depth-of-field effects in compositing.",
+  "category": "Editing & Compositing",
+  "aliases": [
+   "Z depth",
+   "depth map",
+   "depth pass"
+  ]
+ },
+ {
+  "id": "film-460",
+  "term": "Spill",
+  "definition": "A phenomenon where the color of the background or surroundings reflects onto and tints the subject.",
+  "example": "After keying, I check the green spill around the hair.",
+  "category": "Editing & Compositing",
+  "aliases": [
+   "chroma spill",
+   "color spill"
+  ]
+ },
+ {
+  "id": "film-461",
+  "term": "De-esser",
+  "definition": "An audio processing tool that selectively reduces the frequency components where sibilance stands out.",
+  "example": "While applying the de-esser, I listen to make sure the pronunciation does not become muddy.",
+  "category": "Sound & Mixing",
+  "aliases": [
+   "de-esser",
+   "sibilance reduction"
+  ]
+ },
+ {
+  "id": "film-462",
+  "term": "DAW",
+  "definition": "A digital work environment for recording and editing audio and placing and mixing music and sound effects.",
+  "example": "I match the DAW session's sample rate to the project standard.",
+  "category": "Sound & Mixing",
+  "aliases": [
+   "digital audio workstation",
+   "DAW"
+  ]
+ },
+ {
+  "id": "film-463",
+  "term": "Stem",
+  "definition": "A submix output by defined audio group, such as dialogue, music, and sound effects.",
+  "example": "Along with the full mix, I deliver the dialogue, music, and effects stems.",
+  "category": "Sound & Mixing",
+  "aliases": [
+   "audio stem",
+   "stem export",
+   "stem export"
+  ]
+ },
+ {
+  "id": "film-464",
+  "term": "Noise gate",
+  "definition": "Audio processing that attenuates the signal when it is below a set level to reduce sound.",
+  "example": "I check that the noise gate does not cut off the ends of words.",
+  "category": "Sound & Mixing",
+  "aliases": [
+   "gate",
+   "noise gate"
+  ]
+ },
+ {
+  "id": "film-465",
+  "term": "Limiter",
+  "definition": "A dynamics tool that strongly suppresses signals exceeding a set threshold level.",
+  "example": "I check the limiter's output ceiling and any distortion together.",
+  "note": "The threshold is not necessarily 0 dB. The behavior and result vary by measurement basis, settings, and processing method.",
+  "category": "Sound & Mixing",
+  "aliases": [
+   "audio limiter"
+  ]
+ },
+ {
+  "id": "film-466",
+  "term": "Audio clipping",
+  "definition": "A phenomenon where the signal exceeds the processable range and the waveform is cut off and distorted.",
+  "example": "I monitor for audio clipping during recording.",
+  "category": "Sound & Mixing",
+  "aliases": [
+   "sound breakup",
+   "audio distortion",
+   "audio clip"
+  ]
+ },
+ {
+  "id": "film-467",
+  "term": "EQ",
+  "definition": "A tool that adjusts the signal level per frequency band to change the balance of the sound.",
+  "example": "With EQ, I adjust the bands where the dialogue and music overlap.",
+  "category": "Sound & Mixing",
+  "aliases": [
+   "EQ",
+   "equalizer"
+  ]
+ },
+ {
+  "id": "film-468",
+  "term": "Compressor",
+  "definition": "A tool that reduces the level of signals exceeding a set threshold according to ratio and time conditions to control the dynamic range.",
+  "example": "I compare the sound before and after applying the compressor.",
+  "note": "Automatically boosting quiet sounds is not an essential behavior. Distinguish separate settings such as output make-up gain.",
+  "category": "Sound & Mixing",
+  "aliases": [
+   "audio compressor",
+   "compressor plugin"
+  ]
+ },
+ {
+  "id": "film-469",
+  "term": "False color",
+  "definition": "A feature that displays brightness or exposure ranges in different colors to help judge exposure.",
+  "example": "I check the false-color reference chart and inspect the exposure.",
+  "note": "The exposure range each color represents varies by equipment, mode, and settings.",
+  "category": "Exposure & Color",
+  "aliases": [
+   "false color",
+   "false-color exposure display"
+  ]
+ },
+ {
+  "id": "film-470",
+  "term": "Bitrate",
+  "definition": "The number of bits processed or stored per unit of time. In video, it usually indicates the data volume per second.",
+  "example": "I check the expected file size from the video length and bitrate.",
+  "category": "Codecs & Output",
+  "aliases": [
+   "bit rate",
+   "bit rate"
+  ]
+ },
+ {
+  "id": "film-471",
+  "term": "VBR",
+  "definition": "A method that allocates bitrate differently depending on the section, content, and the like.",
+  "example": "I check the VBR target and maximum bitrate settings.",
+  "category": "Codecs & Output",
+  "aliases": [
+   "variable bitrate"
+  ]
+ },
+ {
+  "id": "film-472",
+  "term": "CBR",
+  "definition": "A method that allocates data to keep a set bitrate level constant.",
+  "example": "I check the CBR settings to match the broadcast specs.",
+  "note": "It does not mean every frame has exactly the same file size.",
+  "category": "Codecs & Output",
+  "aliases": [
+   "constant bitrate"
+  ]
+ },
+ {
+  "id": "film-473",
+  "term": "Media container",
+  "definition": "A format that holds streams and information such as video, audio, and subtitles in a single file structure.",
+  "example": "I check the media container together with the internal codec.",
+  "note": "MP4, MOV, and MXF are examples of containers. You cannot tell the codec or quality from the extension alone.",
+  "category": "Codecs & Output",
+  "aliases": [
+   "container format",
+   "MP4",
+   "MOV",
+   "MXF"
+  ]
+ },
+ {
+  "id": "marketing-603",
+  "term": "GA4",
+  "definition": "A Google Analytics property type that measures and analyzes website and app usage behavior centered on events.",
+  "example": "In GA4, I check the purchase events and traffic sources together.",
+  "category": "Measurement & Analytics",
+  "aliases": [
+   "Google Analytics 4",
+   "GA4"
+  ]
+ },
+ {
+  "id": "marketing-604",
+  "term": "GFA",
+  "definition": "An abbreviation for Naver's performance-based display advertising.",
+  "example": "I check the goals and performance metrics of the GFA campaign.",
+  "note": "We linked the Korean official name and its abbreviation. Do not guess the English expansion of the abbreviation without separate evidence.",
+  "category": "Ad Operations",
+  "aliases": [
+   "Naver performance display advertising",
+   "performance display advertising",
+   "GFA"
+  ]
+ },
+ {
+  "id": "marketing-605",
+  "term": "RTB",
+  "definition": "A method in which, when an ad-impression opportunity arises, buyers bid in real time to determine the transaction conditions.",
+  "example": "I look at the RTB bidding results together with the actual conversion performance.",
+  "category": "Media & Buying",
+  "aliases": [
+   "real-time bidding",
+   "real-time auction"
+  ]
+ },
+ {
+  "id": "marketing-606",
+  "term": "Advertorial",
+  "definition": "Advertising that uses an editorial format such as an article or contributed piece to deliver a product or brand message.",
+  "example": "I check the ad labeling and the content to convey in the advertorial.",
+  "category": "Media & Buying",
+  "aliases": [
+   "article-style ad",
+   "advertorial ad"
+  ]
+ },
+ {
+  "id": "marketing-607",
+  "term": "Inbound marketing",
+  "definition": "A marketing approach that provides the content and search information customers need so that customers come on their own.",
+  "example": "In inbound marketing, I prepare content that matches the customer's search intent.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "inbound"
+  ]
+ },
+ {
+  "id": "marketing-608",
+  "term": "Outbound marketing",
+  "definition": "A marketing approach in which a company proactively delivers a message to target customers through advertising, outreach, and the like.",
+  "example": "I decide the targets and contact methods for outbound marketing.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "outbound"
+  ]
+ },
+ {
+  "id": "marketing-609",
+  "term": "Pitching",
+  "definition": "A presentation and persuasion process that proposes strategy, ideas, and capabilities to an advertiser and the like to win adoption or the contract.",
+  "example": "In the pitch, I clearly convey the problem definition and the rationale for the proposal.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "pitch",
+   "pitch"
+  ]
+ },
+ {
+  "id": "marketing-610",
+  "term": "Soft launch",
+  "definition": "A method of releasing first on a limited audience, region, or scale and checking the operation and response.",
+  "example": "Based on the soft-launch results, I adjust the scope of the full release.",
+  "category": "Campaign Planning & Execution",
+  "aliases": [
+   "soft launch",
+   "soft launch",
+   "limited release"
+  ]
+ },
+ {
+  "id": "common-156",
+  "term": "Deck",
+  "definition": "Slide material assembled for a presentation, proposal, explanation, and the like.",
+  "example": "Before the meeting, I check the deck's key message and order.",
+  "category": "Business Documents & Progress",
+  "aliases": [
+   "slide deck",
+   "pitch deck",
+   "presentation deck"
+  ]
+ },
+ {
+  "id": "common-157",
+  "term": "Approach",
+  "definition": "The perspective, method, or way of tackling a problem or goal.",
+  "example": "For the same goal, I compare two approaches.",
+  "category": "Business Documents & Progress",
+  "aliases": [
+   "approach",
+   "to take an approach"
+  ]
+ },
+ {
+  "id": "dev-425",
+  "term": "Hydration",
+  "definition": "The process of connecting the client's component state and behavior to HTML generated on the server or at build time to make it interactive.",
+  "example": "During hydration, I check that the server and client initial screens match.",
+  "category": "Web & App Implementation",
+  "aliases": [
+   "hydrate",
+   "hydrate"
+  ]
+ },
+ {
+  "id": "dev-426",
+  "term": "Serverless",
+  "definition": "A model of entrusting server-infrastructure operation to a provider and using a managed runtime environment or services.",
+  "example": "Even in serverless, I check the permissions, cost, and execution limits.",
+  "note": "It does not mean there are no servers. Nor does it mean the developer no longer manages the application's permissions, configuration, and execution characteristics.",
+  "category": "Data & Infrastructure",
+  "aliases": [
+   "serverless computing"
+  ]
+ },
+ {
+  "id": "dev-427",
+  "term": "Default branch",
+  "definition": "The branch designated as the default baseline in a repository. Names such as main or master are used, but the name and operating rules differ by project.",
+  "example": "Before merging into the default branch, I check the team's verification procedure.",
+  "note": "The name main or master does not guarantee a deployable or stable state.",
+  "category": "Development Collaboration",
+  "aliases": [
+   "default branch",
+   "main",
+   "master",
+   "main branch"
+  ]
+ },
+ {
+  "id": "dev-428",
+  "term": "Git",
+  "definition": "A distributed version-control system that records file change history and manages work with branches, merges, and the like.",
+  "example": "With Git, I record the reason for changes and the work history.",
+  "category": "Code & Implementation",
+  "aliases": [
+   "Git",
+   "distributed version control"
+  ]
+ },
+ {
+  "id": "dev-429",
+  "term": "GitHub",
+  "definition": "A platform that hosts Git repositories and provides development-collaboration features such as code review and issues.",
+  "example": "I review the changes in a GitHub pull request.",
+  "category": "Code & Implementation",
+  "aliases": [
+   "GitHub"
+  ]
+ },
+ {
+  "id": "dev-430",
+  "term": "SDK",
+  "definition": "A bundle of libraries, tools, documentation, examples, and more provided to develop for or integrate with a specific platform or feature.",
+  "example": "I check the SDK's supported environments and usage examples.",
+  "category": "Code & Implementation",
+  "aliases": [
+   "software development kit",
+   "SDK"
+  ]
+ },
+ {
+  "id": "dev-431",
+  "term": "Polling",
+  "definition": "A method of repeatedly checking at regular intervals and the like whether there is a state change or new data.",
+  "example": "I adjust the polling interval together with responsiveness and server load.",
+  "category": "Code & Implementation",
+  "aliases": [
+   "periodic checking",
+   "poll"
+  ]
+ },
+ {
+  "id": "dev-432",
+  "term": "Stack trace",
+  "definition": "A record showing the function call path at a specific moment. It is used to trace the location and circumstances of an error.",
+  "example": "In the stack trace, I check the call flow just before the error.",
+  "category": "Code & Implementation",
+  "aliases": [
+   "stack trace",
+   "call stack record"
+  ]
+ },
+ {
+  "id": "dev-433",
+  "term": "OOM",
+  "definition": "A state or error in which available memory is insufficient and the required memory cannot be secured.",
+  "example": "When OOM occurs, I check the memory limit and usage pattern.",
+  "note": "It means a state of insufficient memory, and the result is not always a forced process termination.",
+  "category": "Code & Implementation",
+  "aliases": [
+   "out of memory",
+   "out of memory"
+  ]
+ },
+ {
+  "id": "dev-434",
+  "term": "Dummy data",
+  "definition": "Fictional data prepared for use in development, testing, screen checks, and the like.",
+  "example": "I include empty values and long names in the dummy data to check the screen.",
+  "note": "Distinguish it from a dummy object, a test double that only fills a slot and is not used.",
+  "category": "Quality & Testing",
+  "aliases": [
+   "sample data",
+   "test fixture data"
+  ]
+ },
+ {
+  "id": "design-439",
+  "term": "UX writing",
+  "definition": "The work of designing wording such as buttons, guidance, and error messages so users can understand the product and act.",
+  "example": "In UX writing, I briefly explain the cause of the error and the next action.",
+  "category": "User Experience Design",
+  "aliases": [
+   "UX writing",
+   "UX copy"
+  ]
+ },
+ {
+  "id": "design-440",
+  "term": "Information depth",
+  "definition": "The depth of the hierarchy descending from upper items to lower items in a menu or information structure.",
+  "example": "I check that the depth of frequently sought information is not too deep.",
+  "category": "User Experience Design",
+  "aliases": [
+   "depth",
+   "menu depth",
+   "depth"
+  ]
+ },
+ {
+  "id": "design-441",
+  "term": "Splash screen",
+  "definition": "A screen shown briefly while an app or program prepares its initial screen at startup.",
+  "example": "I make the splash screen transition naturally into the main screen.",
+  "category": "User Experience Design",
+  "aliases": [
+   "splash",
+   "splash screen"
+  ]
+ },
+ {
+  "id": "design-442",
+  "term": "Look and feel",
+  "definition": "The overall impression and usage sensation of a product or interface felt through its color, typeface, layout, and motion.",
+  "example": "I check whether the new screen's look and feel is consistent with the existing product.",
+  "category": "User Experience Design",
+  "aliases": [
+   "look and feel",
+   "look & feel"
+  ]
+ },
+ {
+  "id": "design-443",
+  "term": "Favicon",
+  "definition": "A small icon displayed to identify a website in browser tabs, bookmarks, and the like.",
+  "example": "I check that the favicon is distinguishable even at a small size.",
+  "note": "The display position and size differ by browser. It is not an element fixed to the right side of the tab.",
+  "category": "Web & App Implementation",
+  "aliases": [
+   "site icon"
+  ]
+ }
+]

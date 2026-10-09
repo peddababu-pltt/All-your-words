@@ -1,0 +1,1366 @@
+[
+ {
+  "id": "fashion-110",
+  "term": "Conversion",
+  "definition": "Completing a predefined target action such as a purchase or sign-up.",
+  "example": "For this campaign we define the first purchase as the conversion.",
+  "category": "Fashion Brand & Ad Performance",
+  "aliases": [
+   "Conversion",
+   "conversion"
+  ]
+ },
+ {
+  "id": "fashion-111",
+  "term": "CTA",
+  "definition": "Copy, a button, or a link that guides or drives the next action.",
+  "example": "We make the new-product purchase CTA stand out.",
+  "category": "Fashion Brand & Ad Performance",
+  "aliases": [
+   "C.T.A.",
+   "Call to action",
+   "Action prompt"
+  ]
+ },
+ {
+  "id": "fashion-112",
+  "term": "A/B test",
+  "definition": "An experiment comparing the performance of different versions.",
+  "example": "We A/B test the button on the detail page.",
+  "category": "Fashion Brand & Ad Performance",
+  "aliases": [
+   "AB test",
+   "A/B testing",
+   "Split test"
+  ]
+ },
+ {
+  "id": "marketing-064",
+  "term": "Cutout",
+  "definition": "The task of separating a desired subject from the background in an image.",
+  "example": "We cut out the product photo and place it on the banner.",
+  "category": "Brand Production",
+  "aliases": [
+   "Cutting out",
+   "To cut out",
+   "Background removal"
+  ]
+ },
+ {
+  "id": "fashion-113",
+  "term": "Cutout",
+  "definition": "The task of separating a desired subject from the background in an image.",
+  "example": "Please cut out the white shirt without letting its edges disappear.",
+  "category": "Fashion Brand & Visual Production",
+  "aliases": [
+   "Cutting out",
+   "To cut out",
+   "Background removal"
+  ]
+ },
+ {
+  "id": "marketing-065",
+  "term": "Mood board",
+  "definition": "A board that gathers images, colors, textures, and so on to show a creative direction.",
+  "example": "We share the mood board for the new season's campaign.",
+  "category": "Brand Production",
+  "aliases": [
+   "Moodboard"
+  ]
+ },
+ {
+  "id": "fashion-114",
+  "term": "Mood board",
+  "definition": "A board that gathers images, colors, textures, and so on to show a creative direction.",
+  "example": "We gather the fall collection's silhouettes, colors, and fabric textures into a mood board.",
+  "category": "Fashion Brand & Visual Production",
+  "aliases": [
+   "Moodboard"
+  ]
+ },
+ {
+  "id": "marketing-066",
+  "term": "Reference",
+  "definition": "Images or examples referred to when deciding a creative direction.",
+  "example": "We gather campaign references to align on direction.",
+  "category": "Brand Production",
+  "aliases": [
+   "Reference material",
+   "Ref",
+   "reference"
+  ]
+ },
+ {
+  "id": "fashion-115",
+  "term": "Reference",
+  "definition": "Images or examples referred to when deciding a creative direction.",
+  "example": "We look at the pocket detail of a vintage jacket as a reference and review the new design.",
+  "category": "Fashion Brand & Visual Production",
+  "aliases": [
+   "Reference material",
+   "Ref",
+   "reference"
+  ]
+ },
+ {
+  "id": "marketing-067",
+  "term": "Mockup",
+  "definition": "A model or draft that previews how a design will look when applied.",
+  "example": "We show how it looks applied using a package mockup.",
+  "category": "Brand Production",
+  "aliases": [
+   "Mockup image",
+   "mock-up"
+  ]
+ },
+ {
+  "id": "fashion-116",
+  "term": "Mockup",
+  "definition": "A model or draft that previews how a design will look when applied.",
+  "example": "We check the logo size and handle position with a shopping-bag mockup.",
+  "category": "Fashion Brand & Visual Production",
+  "aliases": [
+   "Mockup image",
+   "mock-up"
+  ]
+ },
+ {
+  "id": "marketing-068",
+  "term": "Copy",
+  "definition": "Wording that expresses an ad's message and persuasive content in language. Its form varies by medium and purpose, such as headlines, body copy, and narration.",
+  "example": "Rather than listing the product's advantages, we refine the copy so the benefit to the customer is clear.",
+  "category": "Ad Copy & Messaging",
+  "aliases": [
+   "Ad copy",
+   "Advertising copy",
+   "copy"
+  ]
+ },
+ {
+  "id": "fashion-117",
+  "term": "Copy",
+  "definition": "Wording used in brand campaigns, detail pages, in-store signage, and so on. It conveys a garment's features and the brand message to customers.",
+  "example": "In the trench coat detail-page copy, we describe the material and fit accurately.",
+  "note": "This means brand-marketing wording. Distinguish it from \"copy\" in the sense of imitating another design.",
+  "category": "Fashion Brand & Content",
+  "aliases": [
+   "Copywriting",
+   "Product copy",
+   "Advertising copy"
+  ]
+ },
+ {
+  "id": "dev-094",
+  "term": "Wireframe",
+  "definition": "A screen design that shows structure and layout before detailed visual expression.",
+  "example": "We first check the screen composition in the wireframe.",
+  "category": "UI Implementation & Design Collaboration",
+  "aliases": [
+   "Wire frame",
+   "Screen skeleton"
+  ]
+ },
+ {
+  "id": "dev-095",
+  "term": "Prototype",
+  "definition": "A model for testing ideas and usage flows.",
+  "example": "We validate the flow with a prototype and then implement.",
+  "category": "UI Implementation & Design Collaboration",
+  "aliases": [
+   "Prototyping",
+   "Working model"
+  ]
+ },
+ {
+  "id": "dev-096",
+  "term": "Accessibility",
+  "definition": "The degree to which people of varying abilities and conditions can use a product.",
+  "example": "We review accessibility so it can be used with a keyboard too.",
+  "category": "UI Implementation & Design Collaboration",
+  "aliases": [
+   "Accessible design",
+   "A11y"
+  ]
+ },
+ {
+  "id": "dev-097",
+  "term": "Alt text",
+  "definition": "Text information that describes what an image conveys.",
+  "example": "We add alt text to the product images.",
+  "category": "UI Implementation & Design Collaboration",
+  "aliases": [
+   "alt text",
+   "Alternative text"
+  ]
+ },
+ {
+  "id": "design-062",
+  "term": "CTA",
+  "definition": "Copy, a button, or a link that guides or drives the next action.",
+  "example": "We adjust the CTA's contrast and spacing so the next action is easy to find.",
+  "category": "Screen & Performance",
+  "aliases": [
+   "C.T.A.",
+   "Call to action",
+   "Action prompt"
+  ]
+ },
+ {
+  "id": "dev-098",
+  "term": "CTA",
+  "definition": "Copy, a button, or a link that guides or drives the next action.",
+  "example": "We check that the form validation and request run properly when the sign-up CTA is clicked.",
+  "category": "Screen & Performance",
+  "aliases": [
+   "C.T.A.",
+   "Call to action",
+   "Action prompt"
+  ]
+ },
+ {
+  "id": "design-063",
+  "term": "Landing page",
+  "definition": "A page people arrive at by clicking an ad, email, and so on, designed to drive a specific action.",
+  "example": "On the landing page, we design the reading order of the headline, product description, and sign-up button.",
+  "category": "Screen & Performance",
+  "aliases": [
+   "Landing",
+   "Landingpage"
+  ]
+ },
+ {
+  "id": "dev-099",
+  "term": "Landing page",
+  "definition": "A page people arrive at by clicking an ad, email, and so on, designed to drive a specific action.",
+  "example": "We reduce the image size on the landing page to improve initial load.",
+  "category": "Screen & Performance",
+  "aliases": [
+   "Landing",
+   "Landingpage"
+  ]
+ },
+ {
+  "id": "design-064",
+  "term": "A/B test",
+  "definition": "An experiment comparing the performance of different versions.",
+  "example": "We create two screens with different button positions and hand them off for an A/B test.",
+  "category": "Screen & Performance",
+  "aliases": [
+   "AB test",
+   "A/B testing",
+   "Split test"
+  ]
+ },
+ {
+  "id": "dev-100",
+  "term": "A/B test",
+  "definition": "An experiment comparing the performance of different versions.",
+  "example": "We implement the A/B test logic so the experiment-group assignment doesn't change on each visit.",
+  "category": "Screen & Performance",
+  "aliases": [
+   "AB test",
+   "A/B testing",
+   "Split test"
+  ]
+ },
+ {
+  "id": "fashion-118",
+  "term": "Promotion",
+  "definition": "Activities carried out to drive purchases or participation.",
+  "example": "We prepare a promotion for the new-product launch.",
+  "category": "Sales & Operations",
+  "aliases": [
+   "Sales promotion",
+   "Promotion planning"
+  ]
+ },
+ {
+  "id": "fashion-119",
+  "term": "PR",
+  "definition": "Activities of building relationships and communicating with the public, the press, and so on.",
+  "example": "We review the press release with the brand PR lead.",
+  "category": "Sales & Operations",
+  "aliases": [
+   "P.R.",
+   "Publicity",
+   "Public Relations"
+  ]
+ },
+ {
+  "id": "marketing-069",
+  "term": "Lookbook",
+  "definition": "Image material that shows a product's styling and a collection's mood.",
+  "example": "We decide the image composition of the campaign lookbook.",
+  "category": "Brand Production",
+  "aliases": [
+   "Look book",
+   "Style book"
+  ]
+ },
+ {
+  "id": "design-065",
+  "term": "Lookbook",
+  "definition": "Image material that shows a product's styling and a collection's mood.",
+  "example": "On the lookbook cover and inner pages, we balance the hierarchy of photos and product information.",
+  "category": "Brand Production",
+  "aliases": [
+   "Look book",
+   "Style book"
+  ]
+ },
+ {
+  "id": "marketing-070",
+  "term": "Pop-up store",
+  "definition": "A temporary store that operates only for a set period.",
+  "example": "We plan a brand pop-up store.",
+  "category": "Brand Production",
+  "aliases": [
+   "Pop-up",
+   "Popup store"
+  ]
+ },
+ {
+  "id": "design-066",
+  "term": "Pop-up store",
+  "definition": "A temporary store that operates only for a set period.",
+  "example": "We design the pop-up store's wayfinding signage and display graphics together.",
+  "category": "Brand Production",
+  "aliases": [
+   "Pop-up",
+   "Popup store"
+  ]
+ },
+ {
+  "id": "marketing-071",
+  "term": "Goods",
+  "definition": "Related merchandise made based on a brand or content.",
+  "example": "We plan campaign goods.",
+  "category": "Brand Production",
+  "aliases": [
+   "Brand goods",
+   "Merchandise"
+  ]
+ },
+ {
+  "id": "fashion-120",
+  "term": "Goods",
+  "definition": "Related merchandise made based on a brand or content.",
+  "example": "We plan brand goods to hand out at the new collection's pop-up.",
+  "category": "Fashion Brand & Visual Production",
+  "aliases": [
+   "Brand goods",
+   "Merchandise"
+  ]
+ },
+ {
+  "id": "dev-101",
+  "term": "Draft design",
+  "definition": "A design draft made first to review a direction.",
+  "example": "We first check the draft of the screen to be implemented.",
+  "note": "It is a draft for review, distinct from the approved final deliverable file.",
+  "category": "UI Implementation & Design Collaboration",
+  "aliases": [
+   "Design draft",
+   "Draft",
+   "Draft work"
+  ]
+ },
+ {
+  "id": "common-023",
+  "term": "ASAP",
+  "definition": "A phrase asking that something be handled as soon as possible.",
+  "example": "After checking my schedule, I'll reply ASAP.",
+  "category": "Collaboration & Communication",
+  "aliases": [
+   "ASAP",
+   "A.S.A.P.",
+   "As soon as possible"
+  ]
+ },
+ {
+  "id": "common-024",
+  "term": "Ping",
+  "definition": "A phrase for reaching out lightly or requesting a check via messenger and so on.",
+  "example": "Please ping me once the draft is ready.",
+  "note": "This is the meaning in work messengers. The context differs from the ping command used to check network connectivity.",
+  "category": "Collaboration & Communication",
+  "aliases": [
+   "To ping",
+   "Give me a ping",
+   "Message ping"
+  ]
+ },
+ {
+  "id": "common-025",
+  "term": "C-level",
+  "definition": "Top-executive-tier leaders of a company, such as the CEO and CTO.",
+  "example": "I've prepared a summary for C-level reporting.",
+  "category": "Organization & Ways of Working",
+  "aliases": [
+   "C-suite",
+   "C level",
+   "Top executives"
+  ]
+ },
+ {
+  "id": "common-026",
+  "term": "Lean",
+  "definition": "An approach of reducing waste and focusing on what's necessary.",
+  "example": "We start this experiment lean.",
+  "category": "Organization & Ways of Working",
+  "aliases": [
+   "Leanly"
+  ]
+ },
+ {
+  "id": "common-027",
+  "term": "Align",
+  "definition": "Getting stakeholders' goals or directions in sync.",
+  "example": "Let's align on the launch schedule first.",
+  "category": "Collaboration & Communication",
+  "aliases": [
+   "Alignment",
+   "To align",
+   "Align",
+   "To align",
+   "Getting on the same page",
+   "Align",
+   "Alignment"
+  ]
+ },
+ {
+  "id": "common-028",
+  "term": "Follow-up",
+  "definition": "Keeping track of progress and taking follow-up actions.",
+  "example": "I'll follow up on yesterday's request.",
+  "category": "Collaboration & Communication",
+  "aliases": [
+   "Follow up",
+   "F/up",
+   "follow up",
+   "Follow up",
+   "Follow-up",
+   "Follow-up",
+   "F-up",
+   "F/U"
+  ]
+ },
+ {
+  "id": "common-029",
+  "term": "Growth",
+  "definition": "A term referring to the growth of a service or business.",
+  "example": "We set the growth direction by watching the conversion rate.",
+  "category": "Planning & Execution",
+  "aliases": [
+   "Growth"
+  ]
+ },
+ {
+  "id": "common-030",
+  "term": "Action plan",
+  "definition": "A concrete execution plan made to achieve a goal.",
+  "example": "I've organized next month's action plan.",
+  "category": "Planning & Execution",
+  "aliases": [
+   "Execution plan"
+  ]
+ },
+ {
+  "id": "common-031",
+  "term": "R&R",
+  "definition": "The scope of each person's roles and responsibilities.",
+  "example": "Please also note the inspection owner in the R&R.",
+  "category": "Collaboration & Communication",
+  "aliases": [
+   "R and R",
+   "R and R",
+   "R&R",
+   "Roles and Responsibilities"
+  ]
+ },
+ {
+  "id": "common-032",
+  "term": "Tapping",
+  "definition": "A phrase for lightly checking possibility or willingness before a formal proposal.",
+  "example": "We first tap to gauge whether collaboration is possible.",
+  "note": "This is an expression based on practitioners' usage. The scope of inquiry or pre-coordination varies by organization.",
+  "category": "Planning & Coordination",
+  "aliases": [
+   "Tapping",
+   "To tap"
+  ]
+ },
+ {
+  "id": "common-033",
+  "term": "Osamari",
+  "definition": "A field expression meaning to organize or wrap up a complicated matter.",
+  "example": "Let's osamari the remaining issues in the meeting.",
+  "note": "This is an informal expression used in some organizations. In documents, concrete words like \"organize\" or \"wrap up\" are clearer.",
+  "category": "Planning & Coordination",
+  "aliases": [
+   "To osamari"
+  ]
+ },
+ {
+  "id": "common-034",
+  "term": "Break down",
+  "definition": "Dividing work or a budget into smaller items.",
+  "example": "We break down the estimate by item.",
+  "category": "Planning & Coordination",
+  "aliases": [
+   "Breakdown"
+  ]
+ },
+ {
+  "id": "common-035",
+  "term": "Arrange",
+  "definition": "Organizing and coordinating schedules, materials, and stakeholders.",
+  "example": "Please arrange the interview schedule.",
+  "category": "Planning & Coordination",
+  "aliases": [
+   "To arrange"
+  ]
+ },
+ {
+  "id": "common-036",
+  "term": "Stance",
+  "definition": "A position or response attitude on a particular matter.",
+  "example": "Let's decide the team's stance on this proposal.",
+  "category": "Planning & Coordination",
+  "aliases": [
+   "Position"
+  ]
+ },
+ {
+  "id": "common-037",
+  "term": "Assign",
+  "definition": "Allocating work or a role to a responsible person.",
+  "example": "I assigned handling of new inquiries to the operations lead.",
+  "note": "Here it means assigning work. Some organizations extend it to include starting the work.",
+  "category": "Collaboration & Communication",
+  "aliases": [
+   "Assign",
+   "Allocation"
+  ]
+ },
+ {
+  "id": "common-038",
+  "term": "Concern",
+  "definition": "A worry or concern to raise before proceeding.",
+  "example": "I have a concern about the schedule.",
+  "category": "Collaboration & Communication",
+  "aliases": [
+   "Concern",
+   "Point of concern",
+   "Concerns"
+  ]
+ },
+ {
+  "id": "marketing-100",
+  "term": "T&D",
+  "definition": "The title and description text of a search ad.",
+  "example": "Please review the T&D for the new season.",
+  "category": "Ad Operations",
+  "aliases": [
+   "T and D",
+   "TD"
+  ]
+ },
+ {
+  "id": "fashion-138",
+  "term": "T&D",
+  "definition": "The title and description text of a search ad.",
+  "example": "We put the outerwear promotion's dates and benefits in the search ad's T&D.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "T and D",
+   "TD"
+  ]
+ },
+ {
+  "id": "marketing-101",
+  "term": "Live",
+  "definition": "The state in which a prepared ad has started actually being shown.",
+  "example": "We go live tomorrow with the approved creative.",
+  "note": "This is the ad-delivery context. Distinguish it from usages referring to a live broadcast or a production server.",
+  "category": "Ad Operations",
+  "aliases": [
+   "On air",
+   "on air",
+   "on-air"
+  ]
+ },
+ {
+  "id": "fashion-139",
+  "term": "Live",
+  "definition": "The state in which a prepared ad has started actually being shown.",
+  "example": "We check the new product's stock and detail page, then take the coat ad live.",
+  "note": "This is the ad-delivery context. Distinguish it from usages referring to a live broadcast or a production server. It is the ad-delivery context of a fashion company's marketing team, distinct from live-commerce broadcasting.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "On air",
+   "on air",
+   "on-air"
+  ]
+ },
+ {
+  "id": "marketing-102",
+  "term": "Ad slot",
+  "definition": "The placement or sales unit on a medium where an ad is shown.",
+  "example": "Please check the new product's ad slot.",
+  "note": "The placement, period, and sales unit differ by medium.",
+  "category": "Ad Operations",
+  "aliases": [
+   "Ad slot",
+   "Advertising slot"
+  ]
+ },
+ {
+  "id": "fashion-140",
+  "term": "Ad slot",
+  "definition": "The placement or sales unit on a medium where an ad is shown.",
+  "example": "We check the new-product promotion ad slot on the shopping platform.",
+  "note": "The placement, period, and sales unit differ by medium.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "Ad slot",
+   "Advertising slot"
+  ]
+ },
+ {
+  "id": "marketing-103",
+  "term": "Charging",
+  "definition": "Billing the cost of using advertising.",
+  "example": "We check the charging basis for this product.",
+  "category": "Ad Operations",
+  "aliases": [
+   "Ad charging"
+  ]
+ },
+ {
+  "id": "fashion-141",
+  "term": "Charging",
+  "definition": "Billing the cost of using advertising.",
+  "example": "We check whether the fashion platform's banner product is charged by period or by impressions.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "Ad charging"
+  ]
+ },
+ {
+  "id": "marketing-104",
+  "term": "Deduction",
+  "definition": "Subtracting ad spend and the like from the available budget.",
+  "example": "We check the amount deducted from the balance.",
+  "category": "Ad Operations",
+  "aliases": [
+   "Budget deduction"
+  ]
+ },
+ {
+  "id": "fashion-142",
+  "term": "Deduction",
+  "definition": "Subtracting ad spend and the like from the available budget.",
+  "example": "We check how much the promotion's ad spend was deducted from the deposit.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "Budget deduction"
+  ]
+ },
+ {
+  "id": "marketing-105",
+  "term": "Daily budget",
+  "definition": "The budget set for a day of ad operations.",
+  "example": "I'll adjust the daily budget and watch the trend.",
+  "note": "Depending on the product, the actual daily spend and how the budget is applied differ. It is not always the same as a fixed daily billing cap.",
+  "category": "Ad Operations",
+  "aliases": [
+   "Day budget",
+   "Daily budget"
+  ]
+ },
+ {
+  "id": "fashion-143",
+  "term": "Daily budget",
+  "definition": "The budget set for a day of ad operations.",
+  "example": "As many sizes sell out, we adjust that product's daily ad budget.",
+  "note": "Depending on the product, the actual daily spend and how the budget is applied differ. It is not always the same as a fixed daily billing cap.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "Day budget",
+   "Daily budget"
+  ]
+ },
+ {
+  "id": "marketing-106",
+  "term": "STP",
+  "definition": "The strategic framework of market segmentation, targeting, and positioning.",
+  "example": "I've organized the STP for the new line.",
+  "category": "Strategy & Customer Understanding",
+  "aliases": [
+   "S.T.P."
+  ]
+ },
+ {
+  "id": "fashion-144",
+  "term": "STP",
+  "definition": "The strategic framework of market segmentation, targeting, and positioning.",
+  "example": "We set the STP for the new golfwear line and align the customer and price range.",
+  "category": "Fashion Brand Strategy",
+  "aliases": [
+   "S.T.P."
+  ]
+ },
+ {
+  "id": "marketing-107",
+  "term": "SWOT",
+  "definition": "An analysis that examines strengths, weaknesses, opportunities, and threats.",
+  "example": "We pick the key opportunities from the SWOT.",
+  "category": "Strategy & Customer Understanding",
+  "aliases": [
+   "S.W.O.T.",
+   "Swot"
+  ]
+ },
+ {
+  "id": "fashion-145",
+  "term": "SWOT",
+  "definition": "An analysis that examines strengths, weaknesses, opportunities, and threats.",
+  "example": "We organize the strength of in-house sewing and the risk of fabric supply into a SWOT.",
+  "category": "Fashion Brand Strategy",
+  "aliases": [
+   "S.W.O.T.",
+   "Swot"
+  ]
+ },
+ {
+  "id": "marketing-108",
+  "term": "Marketing mix",
+  "definition": "A marketing strategy that combines product, price, place, and promotion.",
+  "example": "We review the marketing mix including distribution.",
+  "category": "Strategy & Customer Understanding",
+  "aliases": [
+   "4P",
+   "Four Ps"
+  ]
+ },
+ {
+  "id": "fashion-146",
+  "term": "Marketing mix",
+  "definition": "A marketing strategy that combines product, price, place, and promotion.",
+  "example": "We review the new apparel line's price, distribution channels, and promotion as a marketing mix.",
+  "category": "Fashion Brand Strategy",
+  "aliases": [
+   "4P",
+   "Four Ps"
+  ]
+ },
+ {
+  "id": "marketing-109",
+  "term": "Funnel",
+  "definition": "A model showing the stages a customer passes through from awareness to conversion.",
+  "example": "We look at the funnel stage with the largest drop-off.",
+  "category": "Strategy & Customer Understanding",
+  "aliases": [
+   "Marketing funnel",
+   "Funnel"
+  ]
+ },
+ {
+  "id": "fashion-147",
+  "term": "Funnel",
+  "definition": "A model showing the stages a customer passes through from awareness to conversion.",
+  "example": "We analyze the funnel from product view to size selection and checkout on our own store.",
+  "category": "Fashion Brand Strategy",
+  "aliases": [
+   "Marketing funnel",
+   "Funnel"
+  ]
+ },
+ {
+  "id": "marketing-110",
+  "term": "LTV",
+  "definition": "The cumulative value expected over the duration of the relationship with a customer.",
+  "example": "We estimate the LTV of new customers.",
+  "note": "Check your company's calculation standard, including whether it is revenue-based or profit-based and over what observation period.",
+  "category": "Strategy & Customer Understanding",
+  "aliases": [
+   "Customer Lifetime Value",
+   "CLV"
+  ]
+ },
+ {
+  "id": "fashion-148",
+  "term": "LTV",
+  "definition": "The cumulative value expected over the duration of the relationship with a customer.",
+  "example": "We estimate customer LTV including apparel repurchases after the first purchase.",
+  "note": "Check your company's calculation standard, including whether it is revenue-based or profit-based and over what observation period.",
+  "category": "Fashion Brand Strategy",
+  "aliases": [
+   "Customer Lifetime Value",
+   "CLV"
+  ]
+ },
+ {
+  "id": "marketing-111",
+  "term": "OKR",
+  "definition": "A framework of objectives and the key results for judging their achievement.",
+  "example": "We review the quarterly OKRs together.",
+  "category": "Strategy & Performance",
+  "aliases": [
+   "O.K.R.",
+   "Objectives and Key Results"
+  ]
+ },
+ {
+  "id": "marketing-112",
+  "term": "AARRR",
+  "definition": "A growth-metrics framework that examines acquisition, activation, retention, revenue, and referral.",
+  "example": "We found improvement points with AARRR.",
+  "category": "Strategy & Performance",
+  "aliases": [
+   "Pirate metrics"
+  ]
+ },
+ {
+  "id": "marketing-113",
+  "term": "CX",
+  "definition": "The overall experience a customer feels in encountering a brand.",
+  "example": "We also look at the CX after purchase.",
+  "category": "Strategy & Performance",
+  "aliases": [
+   "Customer experience"
+  ]
+ },
+ {
+  "id": "fashion-149",
+  "term": "Jangkki",
+  "definition": "A transaction statement recording the items, quantities, amounts, and so on of a wholesale deal.",
+  "example": "We cross-check the jangkki against the received quantity.",
+  "note": "It means a wholesale-market transaction record and is not the same as a tax invoice.",
+  "category": "Dongdaemun & Sourcing",
+  "aliases": [
+   "Jangki",
+   "Transaction statement"
+  ]
+ },
+ {
+  "id": "fashion-150",
+  "term": "Misong",
+  "definition": "A sourcing deal in which payment is made first and the goods are received later.",
+  "example": "We check the shipout date of the misong goods.",
+  "category": "Dongdaemun & Sourcing",
+  "aliases": [
+   "Misong transaction"
+  ]
+ },
+ {
+  "id": "fashion-151",
+  "term": "Misong jangkki",
+  "definition": "A jangkki recording prepaid, not-yet-shipped goods.",
+  "example": "We cross-check the misong jangkki against the received goods.",
+  "category": "Dongdaemun & Sourcing",
+  "aliases": [
+   "Misong jangki"
+  ]
+ },
+ {
+  "id": "fashion-152",
+  "term": "Sample jangkki",
+  "definition": "A jangkki recording goods borrowed for shoots and their return details.",
+  "example": "I noted the return date on the sample jangkki.",
+  "note": "Here \"sample\" refers not to a production prototype but to goods borrowed for shoots and the like.",
+  "category": "Dongdaemun & Sourcing",
+  "aliases": [
+   "Sample jangki"
+  ]
+ },
+ {
+  "id": "fashion-153",
+  "term": "Credit jangkki",
+  "definition": "A jangkki that credits returns and the like toward the next transaction's amount instead of cash.",
+  "example": "We use the credit jangkki on the next order.",
+  "note": "You must check the usage conditions recognized by that wholesale vendor.",
+  "category": "Dongdaemun & Sourcing",
+  "aliases": [
+   "Credit jangki"
+  ]
+ },
+ {
+  "id": "fashion-154",
+  "term": "Kkal",
+  "definition": "A term for a product's color in wholesale trading.",
+  "example": "Which kkal of this shirt is left?",
+  "note": "This is a usage example from 2020 Dongdaemun market reporting. Expressions may differ by vendor.",
+  "category": "Dongdaemun & Sourcing",
+  "aliases": [
+   "Color",
+   "Shade"
+  ]
+ },
+ {
+  "id": "fashion-155",
+  "term": "Tang",
+  "definition": "A field term referring to the color of dyed fabric.",
+  "example": "We compare the tang of the additional fabric with the existing one.",
+  "note": "This is a usage example from 2020 Dongdaemun market reporting. Expressions may differ by vendor.",
+  "category": "Dongdaemun & Sourcing",
+  "aliases": [
+   "Fabric tang"
+  ]
+ },
+ {
+  "id": "fashion-156",
+  "term": "Gumi",
+  "definition": "A way of sourcing by bundling colors or sizes together.",
+  "example": "We first check the composition to order as a gumi.",
+  "note": "The bundle's color, size, and quantity composition may differ by vendor. This is a usage example from 2020 Dongdaemun market reporting. Expressions may differ by vendor.",
+  "category": "Dongdaemun & Sourcing",
+  "aliases": [
+   "Gumi purchase"
+  ]
+ },
+ {
+  "id": "fashion-157",
+  "term": "Sourcing agent",
+  "definition": "A sourcing staffer who handles wholesale-market buying, pickup, and the like on someone's behalf.",
+  "example": "I passed the pickup list to the sourcing agent.",
+  "note": "It is a conventional job title and does not imply the person's gender or any kinship. This is a usage example from 2020 Dongdaemun market reporting. Expressions may differ by vendor.",
+  "category": "Dongdaemun & Sourcing",
+  "aliases": [
+   "Sourcing uncle",
+   "Sourcing proxy"
+  ]
+ },
+ {
+  "id": "fashion-158",
+  "term": "Proxy payment",
+  "definition": "A sourcing agent or the like paying on behalf of the orderer.",
+  "example": "We settle the proxy-paid amount together with the jangkki.",
+  "note": "This is a usage example from 2020 Dongdaemun market reporting. Expressions may differ by vendor.",
+  "category": "Dongdaemun & Sourcing",
+  "aliases": [
+   "Sourcing proxy payment"
+  ]
+ },
+ {
+  "id": "fashion-159",
+  "term": "Unit price",
+  "definition": "The price of a reference unit such as one item.",
+  "example": "We check whether the unit price is the same across colors.",
+  "note": "This is a usage example from 2020 Dongdaemun market reporting. Expressions may differ by vendor.",
+  "category": "Dongdaemun & Sourcing",
+  "aliases": [
+   "Price per item"
+  ]
+ },
+ {
+  "id": "fashion-160",
+  "term": "Naoshi",
+  "definition": "The work of fixing or correcting a flawed part of a garment.",
+  "example": "The sleeve length needs naoshi.",
+  "note": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory.",
+  "category": "Sewing & Production Floor",
+  "aliases": [
+   "Mending",
+   "Corrective sewing"
+  ]
+ },
+ {
+  "id": "fashion-161",
+  "term": "Rappa",
+  "definition": "An auxiliary attachment that helps sew while folding the fabric in.",
+  "example": "We use a rappa that matches the tape width.",
+  "note": "Fold-and-stitch and edge-finishing work done using the attachment is also called rappa work. This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory.",
+  "category": "Sewing & Production Floor",
+  "aliases": [
+   "Rapa",
+   "Binder attachment"
+  ]
+ },
+ {
+  "id": "fashion-162",
+  "term": "Kandome",
+  "definition": "Dense reinforcing stitching on a stress-bearing area.",
+  "example": "We add kandome at the pocket opening.",
+  "note": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory.",
+  "category": "Sewing & Production Floor",
+  "aliases": [
+   "Kandomae",
+   "Bar tack",
+   "Bartacking"
+  ]
+ },
+ {
+  "id": "fashion-163",
+  "term": "Nanainchi",
+  "definition": "A straight-shaped buttonhole.",
+  "example": "We make nanainchi buttonholes on the shirt front placket.",
+  "note": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory.",
+  "category": "Sewing & Production Floor",
+  "aliases": [
+   "Nanaichi",
+   "Nanainchi",
+   "Straight buttonhole"
+  ]
+ },
+ {
+  "id": "fashion-164",
+  "term": "Narashi",
+  "definition": "The work of evenly spreading fabric in multiple layers for cutting.",
+  "example": "We check the fabric before narashi.",
+  "note": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory.",
+  "category": "Sewing & Production Floor",
+  "aliases": [
+   "Spreading"
+  ]
+ },
+ {
+  "id": "fashion-165",
+  "term": "Notchi",
+  "definition": "A mark or small snip referenced when matching pieces for sewing.",
+  "example": "We align and stitch the sleeve notchi.",
+  "note": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory.",
+  "category": "Sewing & Production Floor",
+  "aliases": [
+   "Nachi",
+   "Notch",
+   "Matching mark"
+  ]
+ },
+ {
+  "id": "fashion-166",
+  "term": "Danjak",
+  "definition": "A placket added to finish a garment's opening.",
+  "example": "We check the width of the front danjak.",
+  "note": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory.",
+  "category": "Sewing & Production Floor",
+  "aliases": [
+   "Placket"
+  ]
+ },
+ {
+  "id": "fashion-167",
+  "term": "Mikashi",
+  "definition": "Fabric that finishes the inner edge of a neckline, front closure, and the like.",
+  "example": "We make sure the mikashi isn't visible from the outside.",
+  "note": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory.",
+  "category": "Sewing & Production Floor",
+  "aliases": [
+   "Mikaeshi",
+   "Facing"
+  ]
+ },
+ {
+  "id": "fashion-168",
+  "term": "Mimi",
+  "definition": "The woven edge on both ends of a fabric that keeps it from fraying.",
+  "example": "We check the grain based on the mimi.",
+  "note": "Distinguish the selvage (the fabric edge) from the selvage direction (the direction parallel to that edge). This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory.",
+  "category": "Sewing & Production Floor",
+  "aliases": [
+   "Mimiji",
+   "Selvage"
+  ]
+ },
+ {
+  "id": "fashion-169",
+  "term": "Obi",
+  "definition": "A waistband attached around the waist of pants or a skirt.",
+  "example": "We reduce the obi width slightly.",
+  "note": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory.",
+  "category": "Sewing & Production Floor",
+  "aliases": [
+   "Waistband",
+   "Waist band"
+  ]
+ },
+ {
+  "id": "fashion-170",
+  "term": "Ura",
+  "definition": "Fabric added to the inside of a garment.",
+  "example": "We match the ura color to the outer fabric.",
+  "note": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory.",
+  "category": "Sewing & Production Floor",
+  "aliases": [
+   "Uraji",
+   "Lining"
+  ]
+ },
+ {
+  "id": "fashion-171",
+  "term": "Omote",
+  "definition": "The side of the fabric meant to be exposed on the outside.",
+  "example": "We stitch with the omote sides facing each other.",
+  "note": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory.",
+  "category": "Sewing & Production Floor",
+  "aliases": [
+   "Omote",
+   "Right side"
+  ]
+ },
+ {
+  "id": "fashion-172",
+  "term": "Yoko",
+  "definition": "The direction that runs across the width of the fabric.",
+  "example": "We mark the yoko direction.",
+  "note": "This entry means the fabric direction. Distinguish it from other usages referring to a knit-knitting method or equipment. This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory.",
+  "category": "Sewing & Production Floor",
+  "aliases": [
+   "Crosswise direction",
+   "Weft direction"
+  ]
+ },
+ {
+  "id": "fashion-173",
+  "term": "Tate",
+  "definition": "The direction that runs along the length of the fabric.",
+  "example": "We lay the pattern in the tate direction.",
+  "note": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory.",
+  "category": "Sewing & Production Floor",
+  "aliases": [
+   "Dade",
+   "Tate",
+   "Lengthwise direction"
+  ]
+ },
+ {
+  "id": "fashion-174",
+  "term": "Deki pattern",
+  "definition": "A garment pattern based on the finished line, without seam allowance included.",
+  "example": "We add seam allowance to the deki pattern.",
+  "note": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory.",
+  "category": "Sewing & Production Floor",
+  "aliases": [
+   "Deki pattern",
+   "Net pattern",
+   "Finished-line pattern"
+  ]
+ },
+ {
+  "id": "design-091",
+  "term": "Harikomi",
+  "definition": "The work of arranging pages or designs on a single printing plate.",
+  "example": "We do harikomi to reduce paper waste.",
+  "category": "Printing & Packaging Floor",
+  "aliases": [
+   "Harikomi",
+   "Imposition"
+  ]
+ },
+ {
+  "id": "design-092",
+  "term": "Shikkiri",
+  "definition": "A divider that separates or holds products inside a box.",
+  "example": "We insert a shikkiri so the bottles don't rattle.",
+  "category": "Printing & Packaging Floor",
+  "aliases": [
+   "Box divider"
+  ]
+ },
+ {
+  "id": "design-093",
+  "term": "Guai",
+  "definition": "The margin left so the printing press can grip the paper.",
+  "example": "Please check the guai space.",
+  "category": "Printing & Packaging Floor",
+  "aliases": [
+   "Gripper margin"
+  ]
+ },
+ {
+  "id": "design-094",
+  "term": "Beda",
+  "definition": "A print expression that fully fills a large area with a single color.",
+  "example": "The back goes with a navy beda.",
+  "category": "Printing & Packaging Floor",
+  "aliases": [
+   "Bbeda",
+   "Solid fill print"
+  ]
+ },
+ {
+  "id": "design-095",
+  "term": "Loss",
+  "definition": "The loss of paper and the like that becomes unusable during cutting and printing.",
+  "example": "We prepare paper accounting for loss.",
+  "category": "Printing & Packaging Floor",
+  "aliases": [
+   "Print loss",
+   "Waste allowance"
+  ]
+ },
+ {
+  "id": "design-096",
+  "term": "Cutting die",
+  "definition": "A form with blades arranged to cut into a desired shape.",
+  "example": "We finalize the artwork before making the cutting die.",
+  "category": "Printing & Packaging Floor",
+  "aliases": [
+   "Die-cut form"
+  ]
+ },
+ {
+  "id": "design-097",
+  "term": "Die-cutting",
+  "definition": "Processing that cuts paper and the like into a set shape with a cutting die.",
+  "example": "We make the tag's outline with die-cutting.",
+  "category": "Printing & Packaging Floor",
+  "aliases": [
+   "Die cutting",
+   "Die cut",
+   "Thomson processing"
+  ]
+ },
+ {
+  "id": "marketing-114",
+  "term": "Die-cutting",
+  "definition": "Processing that cuts paper and the like into a set shape with a cutting die.",
+  "example": "We make the tag's outline with die-cutting.",
+  "category": "Printing & Packaging Floor",
+  "aliases": [
+   "Die cutting",
+   "Die cut",
+   "Thomson processing"
+  ]
+ },
+ {
+  "id": "fashion-175",
+  "term": "Die-cutting",
+  "definition": "Processing that cuts paper and the like into a set shape with a cutting die.",
+  "example": "We check the die-cut lines to make the apparel hangtag in the desired shape.",
+  "note": "This means the sense used in making printed items such as tags and boxes, not garment pattern cutting.",
+  "category": "Printing & Packaging Floor",
+  "aliases": [
+   "Die cutting",
+   "Die cut",
+   "Thomson processing"
+  ]
+ },
+ {
+  "id": "design-098",
+  "term": "Foil stamping",
+  "definition": "Processing that decorates by transferring film with heat and pressure.",
+  "example": "We add silver foil to the package logo.",
+  "category": "Printing & Finishing",
+  "aliases": [
+   "Foiling",
+   "Hot foil stamping"
+  ]
+ },
+ {
+  "id": "marketing-115",
+  "term": "Foil stamping",
+  "definition": "Processing that decorates by transferring film with heat and pressure.",
+  "example": "We add silver foil to the package logo.",
+  "category": "Printing & Finishing",
+  "aliases": [
+   "Foiling",
+   "Hot foil stamping"
+  ]
+ },
+ {
+  "id": "fashion-176",
+  "term": "Foil stamping",
+  "definition": "Processing that decorates by transferring film with heat and pressure.",
+  "example": "We add silver foil to the logo on the premium-line shopping bag.",
+  "note": "This means the sense used in package and print-material production.",
+  "category": "Printing & Finishing",
+  "aliases": [
+   "Foiling",
+   "Hot foil stamping"
+  ]
+ },
+ {
+  "id": "design-099",
+  "term": "Embossing/debossing",
+  "definition": "Processing that presses paper with a die to create raised or recessed relief.",
+  "example": "We render the logo with embossing.",
+  "category": "Printing & Finishing",
+  "aliases": [
+   "Press forming"
+  ]
+ },
+ {
+  "id": "marketing-116",
+  "term": "Embossing/debossing",
+  "definition": "Processing that presses paper with a die to create raised or recessed relief.",
+  "example": "We render the logo with embossing.",
+  "category": "Printing & Finishing",
+  "aliases": [
+   "Press forming"
+  ]
+ },
+ {
+  "id": "fashion-177",
+  "term": "Embossing/debossing",
+  "definition": "Processing that presses paper with a die to create raised or recessed relief.",
+  "example": "We render the brand logo on the apparel gift box with embossing.",
+  "note": "This means the sense used in package and print-material production.",
+  "category": "Printing & Finishing",
+  "aliases": [
+   "Press forming"
+  ]
+ },
+ {
+  "id": "design-100",
+  "term": "Finishing",
+  "definition": "Work that adds finishing or decorative effects after printing.",
+  "example": "We compare samples for each finishing option.",
+  "category": "Printing & Finishing",
+  "aliases": [
+   "Post-press finishing"
+  ]
+ },
+ {
+  "id": "design-101",
+  "term": "Laminating",
+  "definition": "A finish that applies a thin film over the printed surface.",
+  "example": "We go with a matte lamination for the cover.",
+  "category": "Printing & Finishing",
+  "aliases": [
+   "Film coating"
+  ]
+ },
+ {
+  "id": "design-102",
+  "term": "Emboss (raised)",
+  "definition": "A form that rises prominently from the surface.",
+  "example": "We raise the logo with embossing.",
+  "category": "Printing & Finishing",
+  "aliases": [
+   "Embossing"
+  ]
+ },
+ {
+  "id": "design-103",
+  "term": "Deboss (recessed)",
+  "definition": "A form pressed inward into the surface.",
+  "example": "We press the brand name in with debossing.",
+  "category": "Printing & Finishing",
+  "aliases": [
+   "Debossing"
+  ]
+ },
+ {
+  "id": "design-104",
+  "term": "UV coating",
+  "definition": "A finish using a coating agent cured by ultraviolet light.",
+  "example": "We UV-coat only the illustration area.",
+  "category": "Printing & Finishing",
+  "aliases": [
+   "UV coating",
+   "Spot UV"
+  ]
+ },
+ {
+  "id": "design-105",
+  "term": "Kiss cut",
+  "definition": "Processing that cuts only the top layer of a sticker while leaving the backing paper.",
+  "example": "We order kiss cut to deliver it by the full sheet.",
+  "category": "Sticker & Goods Production",
+  "aliases": [
+   "Kiss-cut"
+  ]
+ }
+]

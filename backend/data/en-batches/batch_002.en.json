@@ -1,0 +1,1385 @@
+[
+ {
+  "id": "design-023",
+  "term": "Prototype",
+  "definition": "A model built to test ideas and user flows.",
+  "example": "We verify navigation with a prototype.",
+  "category": "Product Design",
+  "aliases": [
+   "Prototyping",
+   "Working prototype"
+  ]
+ },
+ {
+  "id": "design-024",
+  "term": "Wireframe",
+  "definition": "A screen layout that shows structure and arrangement before detailed visual design.",
+  "example": "We decide the flow in the wireframe.",
+  "category": "Product Design",
+  "aliases": [
+   "Wire frame",
+   "Screen skeleton"
+  ]
+ },
+ {
+  "id": "marketing-016",
+  "term": "A/B test",
+  "definition": "An experiment that compares the performance of different versions.",
+  "example": "We A/B test two headlines.",
+  "category": "Experimentation & Conversion",
+  "aliases": [
+   "AB test",
+   "A/B test",
+   "Split test"
+  ]
+ },
+ {
+  "id": "marketing-017",
+  "term": "Landing page",
+  "definition": "A page that visitors reach by clicking an ad or email and that drives a specific action.",
+  "example": "We align the ad and the landing page message.",
+  "category": "Experimentation & Conversion",
+  "aliases": [
+   "Landing",
+   "Landing page"
+  ]
+ },
+ {
+  "id": "marketing-018",
+  "term": "Conversion",
+  "definition": "Completing a predefined goal action such as a purchase or sign-up.",
+  "example": "We count a completed application as a conversion.",
+  "category": "Experimentation & Conversion",
+  "aliases": [
+   "Conversion",
+   "Conversion"
+  ]
+ },
+ {
+  "id": "marketing-019",
+  "term": "Lead",
+  "definition": "Someone who has shown interest and may become a future customer.",
+  "example": "We collect leads through a sign-up form.",
+  "note": "The specific criteria for qualifying a lead vary by organization and campaign.",
+  "category": "Experimentation & Conversion",
+  "aliases": [
+   "Prospective customer",
+   "Prospect"
+  ]
+ },
+ {
+  "id": "marketing-020",
+  "term": "Lead capture",
+  "definition": "Collecting a prospect's contact information and other details for follow-up communication.",
+  "example": "We shorten the lead capture form.",
+  "category": "Experimentation & Conversion",
+  "aliases": [
+   "Lead collection"
+  ]
+ },
+ {
+  "id": "marketing-021",
+  "term": "CTA",
+  "definition": "A phrase, button, or link that guides or prompts the next action.",
+  "example": "We change the CTA to \"Apply now.\"",
+  "category": "Experimentation & Conversion",
+  "aliases": [
+   "CTA",
+   "Call to action",
+   "Call to action"
+  ]
+ },
+ {
+  "id": "dev-033",
+  "term": "DNS",
+  "definition": "A naming system that maps domain names to IP addresses and other related information.",
+  "example": "We check the DNS settings.",
+  "category": "Web & Programming",
+  "aliases": [
+   "DNS"
+  ]
+ },
+ {
+  "id": "dev-034",
+  "term": "URL",
+  "definition": "An address that indicates the location of and access method for an internet resource.",
+  "example": "Please share the URL.",
+  "category": "Web & Programming",
+  "aliases": [
+   "URL",
+   "Web address"
+  ]
+ },
+ {
+  "id": "dev-035",
+  "term": "HTTPS",
+  "definition": "HTTP communication that uses a connection secured with TLS.",
+  "example": "The login page uses HTTPS.",
+  "category": "Web & Programming",
+  "aliases": [
+   "HTTPS"
+  ]
+ },
+ {
+  "id": "dev-036",
+  "term": "REST",
+  "definition": "A software architectural style built on principles such as resources, representations, and a uniform interface.",
+  "example": "We review the API against REST principles.",
+  "category": "Web & Programming",
+  "aliases": [
+   "REST",
+   "REST API",
+   "RESTful API"
+  ]
+ },
+ {
+  "id": "dev-037",
+  "term": "CRUD",
+  "definition": "A collective term for creating, reading, updating, and deleting data.",
+  "example": "We implement CRUD for posts.",
+  "category": "Web & Programming",
+  "aliases": [
+   "CRUD"
+  ]
+ },
+ {
+  "id": "dev-038",
+  "term": "CORS",
+  "definition": "A mechanism by which a server signals that it allows browser access from another origin.",
+  "example": "We check the CORS response headers.",
+  "category": "Web & Programming",
+  "aliases": [
+   "CORS",
+   "Cross-origin resource sharing",
+   "CORS error",
+   "CORS error"
+  ]
+ },
+ {
+  "id": "dev-039",
+  "term": "Cookie",
+  "definition": "A small piece of data that a site stores in the browser and can send along with requests.",
+  "example": "We check the session cookie.",
+  "category": "Web & Programming",
+  "aliases": [
+   "HTTP cookie",
+   "Cookie"
+  ]
+ },
+ {
+  "id": "dev-040",
+  "term": "Authentication",
+  "definition": "The process of verifying a claimed identity, such as a user's.",
+  "example": "We open the account screen after authentication.",
+  "note": "Authentication, which verifies identity, is distinct from authorization, which determines what resources can be accessed.",
+  "category": "Web & Programming",
+  "aliases": [
+   "Authentication",
+   "Login authentication"
+  ]
+ },
+ {
+  "id": "dev-041",
+  "term": "Asynchronous",
+  "definition": "An approach that lets other processing continue while waiting for a task to finish.",
+  "example": "We read the file asynchronously.",
+  "category": "Web & Programming",
+  "aliases": [
+   "Async",
+   "Async"
+  ]
+ },
+ {
+  "id": "dev-042",
+  "term": "Callback",
+  "definition": "A function passed to another function and invoked at a designated time.",
+  "example": "We register a completion callback.",
+  "category": "Web & Programming",
+  "aliases": [
+   "Callback function",
+   "Callback"
+  ]
+ },
+ {
+  "id": "dev-043",
+  "term": "Promise",
+  "definition": "An object that represents the eventual completion or failure of an asynchronous operation and its result.",
+  "example": "We handle promise rejection.",
+  "category": "Web & Programming",
+  "aliases": [
+   "Promise",
+   "Promise"
+  ]
+ },
+ {
+  "id": "dev-044",
+  "term": "Array",
+  "definition": "A data structure that holds multiple values in order.",
+  "example": "We store the search results in an array.",
+  "category": "Web & Programming",
+  "aliases": [
+   "Array",
+   "Array"
+  ]
+ },
+ {
+  "id": "dev-045",
+  "term": "Boolean",
+  "definition": "A logical data type that represents true or false.",
+  "example": "Whether it is saved is a boolean.",
+  "category": "Web & Programming",
+  "aliases": [
+   "Boolean",
+   "True/false",
+   "bool"
+  ]
+ },
+ {
+  "id": "dev-046",
+  "term": "Function",
+  "definition": "A unit of code grouped to perform a specific task and called when needed.",
+  "example": "We group the search logic into a function.",
+  "category": "Web & Programming",
+  "aliases": [
+   "Function",
+   "Function"
+  ]
+ },
+ {
+  "id": "dev-047",
+  "term": "Variable",
+  "definition": "A named entity used to store or reference a value.",
+  "example": "We store the input value in a variable.",
+  "category": "Web & Programming",
+  "aliases": [
+   "Variable"
+  ]
+ },
+ {
+  "id": "dev-048",
+  "term": "null",
+  "definition": "A value that intentionally represents the absence of a value or object.",
+  "example": "We leave it as null when there is no selection.",
+  "category": "Web & Programming",
+  "aliases": [
+   "Null",
+   "Null value"
+  ]
+ },
+ {
+  "id": "dev-049",
+  "term": "undefined",
+  "definition": "A primitive value in JavaScript that represents a variable whose value has not been assigned.",
+  "example": "We check whether the return value is undefined.",
+  "category": "Web & Programming",
+  "aliases": [
+   "Undefined"
+  ]
+ },
+ {
+  "id": "dev-050",
+  "term": "Algorithm",
+  "definition": "A sequence of steps for solving a problem or producing a result.",
+  "example": "We compare search algorithms.",
+  "category": "Web & Programming",
+  "aliases": [
+   "Algorithm"
+  ]
+ },
+ {
+  "id": "dev-051",
+  "term": "SPA",
+  "definition": "A web app approach that updates the screen content without reloading the entire document each time.",
+  "example": "This dictionary runs as an SPA.",
+  "category": "Web & Programming",
+  "aliases": [
+   "Single-page app",
+   "Single-page app"
+  ]
+ },
+ {
+  "id": "marketing-022",
+  "term": "PT",
+  "definition": "A presentation that proposes and explains campaign strategy, ideas, and draft creative to an advertiser. In a competitive pitch, proposals are compared and evaluated to select an agency.",
+  "example": "We present the campaign strategy and draft creative at the client pitch.",
+  "note": "This refers to the pitching work of an advertising agency. A general internal presentation is covered under the common business sense of PT.",
+  "category": "Agency Pitching",
+  "aliases": [
+   "Pitch",
+   "Presentation",
+   "Presentation"
+  ]
+ },
+ {
+  "id": "common-008",
+  "term": "PT",
+  "definition": "A presentation that explains a plan or proposal.",
+  "example": "I'll explain the intent of the plan at tomorrow's presentation.",
+  "note": "It means a business presentation. Depending on context, the presentation deck itself is sometimes called a PT.",
+  "category": "Proposals & Collaboration",
+  "aliases": [
+   "Pitch",
+   "Presentation",
+   "Presentation"
+  ]
+ },
+ {
+  "id": "common-009",
+  "term": "Confirmation",
+  "definition": "Reviewing content or approving that work may proceed.",
+  "example": "We get the manager's sign-off before production.",
+  "note": "Whether it is a simple check or final approval varies by team. Confirm both what is being approved and who approves it.",
+  "category": "Proposals & Collaboration",
+  "aliases": [
+   "Confirm",
+   "confirm",
+   "Review and approval",
+   "To confirm",
+   "To get sign-off",
+   "To get approval"
+  ]
+ },
+ {
+  "id": "marketing-024",
+  "term": "Competitive pitch",
+  "definition": "A review in which multiple companies present proposals to win a contract.",
+  "example": "We review the strategy to submit for the competitive pitch.",
+  "category": "Agency Pitching",
+  "aliases": [
+   "Competitive pitch",
+   "Competitive presentation",
+   "Bidding pitch"
+  ]
+ },
+ {
+  "id": "marketing-025",
+  "term": "Winning a contract",
+  "definition": "Securing a client's work through a contract.",
+  "example": "We won the contract for this brand campaign.",
+  "category": "Agency Pitching",
+  "aliases": [
+   "Winning a project"
+  ]
+ },
+ {
+  "id": "marketing-028",
+  "term": "Draft design",
+  "definition": "An initial design proposal created to review the direction.",
+  "example": "We send the client two banner design drafts.",
+  "note": "It is a draft for review and is distinct from the approved final deliverable file.",
+  "category": "Brand Production",
+  "aliases": [
+   "Design draft",
+   "Draft",
+   "Draft work"
+  ]
+ },
+ {
+  "id": "fashion-023",
+  "term": "Draft design",
+  "definition": "An initial design proposal created to review the direction.",
+  "example": "We review the draft of the new product detail page.",
+  "note": "It is a draft for review and is distinct from the approved final deliverable file.",
+  "category": "Fashion Brand & Visual Production",
+  "aliases": [
+   "Design draft",
+   "Draft",
+   "Draft work"
+  ]
+ },
+ {
+  "id": "design-029",
+  "term": "Draft design",
+  "definition": "An initial design proposal created to review the direction.",
+  "example": "We compare two brand logo drafts.",
+  "note": "It is a draft for review and is distinct from the approved final deliverable file.",
+  "category": "Brand Production",
+  "aliases": [
+   "Design draft",
+   "Draft",
+   "Draft work",
+   "Draft review",
+   "Draft review"
+  ]
+ },
+ {
+  "id": "marketing-029",
+  "term": "Key visual",
+  "definition": "The central visual image that represents a campaign or brand.",
+  "example": "We extend the campaign key visual into creative for each medium.",
+  "category": "Brand Production",
+  "aliases": [
+   "Key visual",
+   "KV",
+   "Key visual",
+   "Key visual",
+   "KV",
+   "KV",
+   "KV"
+  ]
+ },
+ {
+  "id": "fashion-024",
+  "term": "Key visual",
+  "definition": "The central visual image that represents a campaign or brand.",
+  "example": "We apply the fall collection key visual to our online store and physical stores.",
+  "category": "Fashion Brand & Visual Production",
+  "aliases": [
+   "Key visual",
+   "KV",
+   "Key visual",
+   "Key visual"
+  ]
+ },
+ {
+  "id": "design-030",
+  "term": "Key visual",
+  "definition": "The central visual image that represents a campaign or brand.",
+  "example": "We design the poster based on the key visual.",
+  "category": "Brand Production",
+  "aliases": [
+   "Key visual",
+   "KV",
+   "Key visual",
+   "Key visual"
+  ]
+ },
+ {
+  "id": "marketing-030",
+  "term": "Brand guide",
+  "definition": "A document that sets out the rules for using the logo, colors, fonts, and more.",
+  "example": "We keep the logo's clear space in line with the brand guide.",
+  "category": "Brand Production",
+  "aliases": [
+   "Brand guidelines",
+   "Brand guidebook"
+  ]
+ },
+ {
+  "id": "fashion-025",
+  "term": "Brand guide",
+  "definition": "A document that sets out the rules for using the logo, colors, fonts, and more.",
+  "example": "We match the logo size on garment labels and shopping bags to the brand guide.",
+  "category": "Fashion Brand & Visual Production",
+  "aliases": [
+   "Brand guidelines",
+   "Brand guidebook"
+  ]
+ },
+ {
+  "id": "design-031",
+  "term": "Brand guide",
+  "definition": "A document that sets out the rules for using the logo, colors, fonts, and more.",
+  "example": "We place the logo according to the minimum size and clear space specified in the brand guide.",
+  "category": "Brand Production",
+  "aliases": [
+   "Brand guidelines",
+   "Brand guidebook"
+  ]
+ },
+ {
+  "id": "marketing-031",
+  "term": "Naming",
+  "definition": "The work of developing a name for a brand or product.",
+  "example": "We review candidate names for the new product.",
+  "category": "Brand Production",
+  "aliases": [
+   "Brand naming",
+   "Product name development"
+  ]
+ },
+ {
+  "id": "fashion-026",
+  "term": "Naming",
+  "definition": "The work of developing a name for a brand or product.",
+  "example": "We check that the naming of the new denim line is not confused with existing product names.",
+  "category": "Fashion Brand & Visual Production",
+  "aliases": [
+   "Brand naming",
+   "Product name development"
+  ]
+ },
+ {
+  "id": "design-032",
+  "term": "Naming",
+  "definition": "The work of developing a name for a brand or product.",
+  "example": "We design the wordmark while comparing the letterforms of the finalized name.",
+  "category": "Brand Production",
+  "aliases": [
+   "Brand naming",
+   "Product name development"
+  ]
+ },
+ {
+  "id": "marketing-032",
+  "term": "Package design",
+  "definition": "The work of designing the form and visual expression needed for product packaging.",
+  "example": "We incorporate the product name into the package design.",
+  "category": "Brand Production",
+  "aliases": [
+   "Package",
+   "Packaging design"
+  ]
+ },
+ {
+  "id": "fashion-027",
+  "term": "Package design",
+  "definition": "The work of designing the form and visual expression needed for product packaging.",
+  "example": "We add storage instructions and the brand name to the package design of the knitwear box.",
+  "category": "Fashion Brand & Visual Production",
+  "aliases": [
+   "Package",
+   "Packaging design"
+  ]
+ },
+ {
+  "id": "design-033",
+  "term": "Package design",
+  "definition": "The work of designing the form and visual expression needed for product packaging.",
+  "example": "In package design, we check the dieline and the actual assembled form together.",
+  "category": "Brand Production",
+  "aliases": [
+   "Package",
+   "Packaging design"
+  ]
+ },
+ {
+  "id": "marketing-033",
+  "term": "Brief",
+  "definition": "A document that summarizes the production goals, audience, and key requirements.",
+  "example": "We set the direction for the drafts based on the brief.",
+  "category": "Brand Production",
+  "aliases": [
+   "Briefing document",
+   "Creative brief",
+   "Creative brief",
+   "Production brief"
+  ]
+ },
+ {
+  "id": "fashion-028",
+  "term": "Brief",
+  "definition": "A document that summarizes the production goals, audience, and key requirements.",
+  "example": "In the lookbook shoot brief, we note the season concept and the outfits that must be shown.",
+  "category": "Fashion Brand & Visual Production",
+  "aliases": [
+   "Briefing document",
+   "Creative brief"
+  ]
+ },
+ {
+  "id": "design-034",
+  "term": "Brief",
+  "definition": "A document that summarizes the production goals, audience, and key requirements.",
+  "example": "We create the poster draft after checking the audience and production specs in the brief.",
+  "category": "Brand Production",
+  "aliases": [
+   "Briefing document",
+   "Creative brief"
+  ]
+ },
+ {
+  "id": "marketing-034",
+  "term": "Key message",
+  "definition": "The core content you most want to convey to the audience first.",
+  "example": "We distill the key message into a single sentence.",
+  "category": "Advertising Copy & Messaging",
+  "aliases": [
+   "Core message",
+   "Key message"
+  ]
+ },
+ {
+  "id": "fashion-029",
+  "term": "Key message",
+  "definition": "The core content you most want to convey to the audience first.",
+  "example": "We frame the key message of this outerwear campaign around lightness and warmth.",
+  "category": "Fashion Brand & Visual Production",
+  "aliases": [
+   "Core message",
+   "Key message"
+  ]
+ },
+ {
+  "id": "design-035",
+  "term": "Key message",
+  "definition": "The core content you most want to convey to the audience first.",
+  "example": "We set the layout's visual hierarchy so the key message is read first.",
+  "category": "Brand Production",
+  "aliases": [
+   "Core message",
+   "Key message"
+  ]
+ },
+ {
+  "id": "common-010",
+  "term": "Kickoff",
+  "definition": "The first meeting to align on the goals, roles, and schedule of work about to begin.",
+  "example": "We define each team's role at the kickoff.",
+  "category": "Meetings & Collaboration",
+  "aliases": [
+   "Kickoff meeting",
+   "Kick off",
+   "Kick-off",
+   "Kick off",
+   "Kickoff meeting",
+   "Kickoff meeting",
+   "Kickoff meeting"
+  ]
+ },
+ {
+  "id": "common-011",
+  "term": "Agenda",
+  "definition": "The topics to discuss at a meeting and their order.",
+  "example": "We share the agenda before the meeting.",
+  "category": "Meetings & Collaboration",
+  "aliases": [
+   "Agenda",
+   "Meeting agenda",
+   "Agenda item",
+   "Agenda",
+   "Agenda"
+  ]
+ },
+ {
+  "id": "common-012",
+  "term": "Action item",
+  "definition": "A specific task that an assignee must carry out after a discussion.",
+  "example": "We note an owner for each action item.",
+  "category": "Meetings & Collaboration",
+  "aliases": [
+   "Action item",
+   "Follow-up task",
+   "Follow-up action",
+   "Action summary",
+   "Action Item"
+  ]
+ },
+ {
+  "id": "common-013",
+  "term": "Scope",
+  "definition": "The range of work and outcomes to be included in this task.",
+  "example": "We check whether the additional request falls within the existing scope.",
+  "category": "Schedule & Scope",
+  "aliases": [
+   "Work scope",
+   "Task scope"
+  ]
+ },
+ {
+  "id": "common-014",
+  "term": "Milestone",
+  "definition": "A key completion point used to gauge progress.",
+  "example": "We set the interim approval date as a milestone.",
+  "category": "Schedule & Scope",
+  "aliases": [
+   "Key date",
+   "Interim milestone"
+  ]
+ },
+ {
+  "id": "common-015",
+  "term": "Deliverable",
+  "definition": "The output that work is meant to produce and hand over.",
+  "example": "We agree on the list of final deliverables first.",
+  "category": "Schedule & Scope",
+  "aliases": [
+   "Deliverable",
+   "Output",
+   "Deliverable",
+   "Deliverables",
+   "Deliverable",
+   "Final submission"
+  ]
+ },
+ {
+  "id": "common-016",
+  "term": "Resources",
+  "definition": "The people, time, budget, and other resources to be put into the work.",
+  "example": "We check the resources available this week.",
+  "category": "Schedule & Scope",
+  "aliases": [
+   "People and resources",
+   "Available resources"
+  ]
+ },
+ {
+  "id": "marketing-042",
+  "term": "AE",
+  "definition": "The person who communicates with the advertiser and coordinates the campaign's progress.",
+  "example": "The AE relays the client's requests to the production team.",
+  "category": "Agency Roles",
+  "aliases": [
+   "AE",
+   "Advertising planner",
+   "Account executive"
+  ]
+ },
+ {
+  "id": "marketing-043",
+  "term": "AP",
+  "definition": "The role that builds brand strategy through consumer and market research.",
+  "example": "The AP found the strategic direction from consumer research.",
+  "category": "Agency Roles",
+  "aliases": [
+   "Account planner",
+   "Strategic planner"
+  ]
+ },
+ {
+  "id": "marketing-044",
+  "term": "Media planning",
+  "definition": "The work of planning media and ad budget to fit the objectives.",
+  "example": "We decide the media mix during the media planning stage.",
+  "category": "Agency Roles",
+  "aliases": [
+   "Media planning",
+   "Media planning",
+   "Media plan"
+  ]
+ },
+ {
+  "id": "marketing-045",
+  "term": "Media buying",
+  "definition": "The work of purchasing ad space, time, and impressions.",
+  "example": "The media buyer negotiates the placement terms.",
+  "category": "Agency Roles",
+  "aliases": [
+   "Media buying",
+   "Media buying"
+  ]
+ },
+ {
+  "id": "marketing-046",
+  "term": "Promotion",
+  "definition": "Activities carried out to encourage purchase or participation.",
+  "example": "We prepare a promotion for the trial event.",
+  "category": "Agency Roles",
+  "aliases": [
+   "Sales promotion",
+   "Promotion planning"
+  ]
+ },
+ {
+  "id": "marketing-047",
+  "term": "PR",
+  "definition": "Activities that build and maintain relationships and communication with the public, the press, and others.",
+  "example": "We include media outreach in the brand PR plan.",
+  "category": "Agency Roles",
+  "aliases": [
+   "PR",
+   "Public relations",
+   "Public relations"
+  ]
+ },
+ {
+  "id": "marketing-048",
+  "term": "Art director",
+  "definition": "The role that leads the direction of a project's visual expression.",
+  "example": "We align on the image direction with the art director.",
+  "category": "Creative Roles",
+  "aliases": [
+   "AD",
+   "Art director",
+   "AD"
+  ]
+ },
+ {
+  "id": "design-043",
+  "term": "Art director",
+  "definition": "The role that leads the direction of a project's visual expression.",
+  "example": "We review the visual direction of photography, typography, and color with the art director.",
+  "category": "Creative Roles",
+  "aliases": [
+   "AD",
+   "Art director"
+  ]
+ },
+ {
+  "id": "marketing-049",
+  "term": "Copywriter",
+  "definition": "The role that crafts advertising and brand messages into words.",
+  "example": "The copywriter proposes the headline.",
+  "category": "Creative Roles",
+  "aliases": [
+   "CW",
+   "Copywriter",
+   "CW",
+   "Copy lead"
+  ]
+ },
+ {
+  "id": "design-044",
+  "term": "Copywriter",
+  "definition": "The role that crafts advertising and brand messages into words.",
+  "example": "We align with the copywriter on the length of the headline that goes into the layout.",
+  "category": "Creative Roles",
+  "aliases": [
+   "CW",
+   "Copywriter"
+  ]
+ },
+ {
+  "id": "marketing-050",
+  "term": "Ad creative",
+  "definition": "The images, copy, video, and other assets used in advertising.",
+  "example": "We compare ad creative by product.",
+  "category": "Ad Operations",
+  "aliases": [
+   "Creative",
+   "Creative asset",
+   "Creative"
+  ]
+ },
+ {
+  "id": "fashion-037",
+  "term": "Ad creative",
+  "definition": "The images, copy, video, and other assets used in advertising.",
+  "example": "We compare ad creative that shows the full coat styling and the fabric detail.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "Creative",
+   "Creative asset"
+  ]
+ },
+ {
+  "id": "marketing-051",
+  "term": "Display advertising",
+  "definition": "Advertising shown as visual creative in placements on the web, in apps, and elsewhere.",
+  "example": "We produce images for display ads.",
+  "category": "Ad Operations",
+  "aliases": [
+   "DA",
+   "Display ad",
+   "Banner ad"
+  ]
+ },
+ {
+  "id": "fashion-038",
+  "term": "Display advertising",
+  "definition": "Advertising shown as visual creative in placements on the web, in apps, and elsewhere.",
+  "example": "We prepare display ads using styled images of the new collection.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "DA",
+   "Display ad",
+   "Banner ad"
+  ]
+ },
+ {
+  "id": "marketing-052",
+  "term": "Branding",
+  "definition": "The activity of building a brand's identity and perception.",
+  "example": "We shape the product experience in line with the branding direction.",
+  "category": "Brand Strategy",
+  "aliases": [
+   "Brand building"
+  ]
+ },
+ {
+  "id": "fashion-039",
+  "term": "Branding",
+  "definition": "The activity of building a brand's identity and perception.",
+  "example": "We align the branding direction so everything from the garment silhouette to in-store service gives the same impression.",
+  "category": "Fashion Brand Strategy",
+  "aliases": [
+   "Brand building"
+  ]
+ },
+ {
+  "id": "marketing-053",
+  "term": "Positioning",
+  "definition": "Defining the perception and position a brand will hold amid competition.",
+  "example": "We position it as premium everyday wear.",
+  "category": "Brand Strategy",
+  "aliases": [
+   "Brand positioning"
+  ]
+ },
+ {
+  "id": "fashion-040",
+  "term": "Positioning",
+  "definition": "Defining the perception and position a brand will hold amid competition.",
+  "example": "We position it as premium everyday wear.",
+  "category": "Fashion Brand Strategy",
+  "aliases": [
+   "Brand positioning"
+  ]
+ },
+ {
+  "id": "marketing-054",
+  "term": "USP",
+  "definition": "A distinctive strength that gives customers a reason to choose you.",
+  "example": "We feature this product's USP in the ad.",
+  "category": "Brand Strategy",
+  "aliases": [
+   "USP",
+   "Unique selling proposition"
+  ]
+ },
+ {
+  "id": "fashion-041",
+  "term": "USP",
+  "definition": "A distinctive strength that gives customers a reason to choose you.",
+  "example": "We show this jacket's USP, its detachable lining, in the styling video.",
+  "category": "Fashion Brand Strategy",
+  "aliases": [
+   "USP",
+   "Unique selling proposition"
+  ]
+ },
+ {
+  "id": "marketing-055",
+  "term": "Brand identity",
+  "definition": "The distinctive character and system of expression through which a brand presents itself.",
+  "example": "We maintain the brand identity into the new season.",
+  "category": "Brand Strategy",
+  "aliases": [
+   "Brand identity",
+   "BI"
+  ]
+ },
+ {
+  "id": "fashion-042",
+  "term": "Brand identity",
+  "definition": "The distinctive character and system of expression through which a brand presents itself.",
+  "example": "We maintain the brand identity into the new season.",
+  "category": "Fashion Brand Strategy",
+  "aliases": [
+   "Brand identity",
+   "BI"
+  ]
+ },
+ {
+  "id": "marketing-056",
+  "term": "Persona",
+  "definition": "A concrete profile of a person that organizes researched customer traits.",
+  "example": "We examine the purchasing concerns of the core persona.",
+  "category": "Customer Understanding",
+  "aliases": [
+   "Customer persona",
+   "Target persona"
+  ]
+ },
+ {
+  "id": "fashion-043",
+  "term": "Persona",
+  "definition": "A concrete profile of a person that organizes researched customer traits.",
+  "example": "We set as the core persona a customer looking for clothes to wear both for commuting and on weekends.",
+  "category": "Customer Understanding",
+  "aliases": [
+   "Customer persona",
+   "Target persona"
+  ]
+ },
+ {
+  "id": "marketing-057",
+  "term": "Market research",
+  "definition": "Research that gathers market and customer information for use in decision-making.",
+  "example": "We conduct market research before planning a new product.",
+  "category": "Customer Understanding",
+  "aliases": [
+   "Market research",
+   "Market research"
+  ]
+ },
+ {
+  "id": "fashion-044",
+  "term": "Market research",
+  "definition": "Research that gathers market and customer information for use in decision-making.",
+  "example": "Before planning a new knitwear line, we research competitors' prices and fiber blends.",
+  "category": "Customer Understanding",
+  "aliases": [
+   "Market research",
+   "Market research"
+  ]
+ },
+ {
+  "id": "marketing-058",
+  "term": "Insight",
+  "definition": "A meaningful understanding, or the reason behind behavior, found in the data.",
+  "example": "We found an improvement insight in the return reasons.",
+  "category": "Customer Understanding",
+  "aliases": [
+   "Consumer insight",
+   "Customer insight"
+  ]
+ },
+ {
+  "id": "fashion-045",
+  "term": "Insight",
+  "definition": "A meaningful understanding, or the reason behind behavior, found in the data.",
+  "example": "From the reasons for returning pants, we found an insight to improve the waist-size guidance.",
+  "category": "Customer Understanding",
+  "aliases": [
+   "Consumer insight",
+   "Customer insight"
+  ]
+ },
+ {
+  "id": "marketing-059",
+  "term": "Owned media",
+  "definition": "Content channels that a brand runs and manages directly.",
+  "example": "We run our own blog as owned media.",
+  "category": "Media Strategy",
+  "aliases": [
+   "Owned media",
+   "Owned channel"
+  ]
+ },
+ {
+  "id": "fashion-046",
+  "term": "Owned media",
+  "definition": "Content channels that a brand runs and manages directly.",
+  "example": "We run styling content on our brand's online store as owned media.",
+  "category": "Fashion Brand & Media",
+  "aliases": [
+   "Owned media",
+   "Owned channel"
+  ]
+ },
+ {
+  "id": "marketing-060",
+  "term": "Paid media",
+  "definition": "Media activity that secures exposure by paying for it.",
+  "example": "We put paid banners into the paid media budget.",
+  "category": "Media Strategy",
+  "aliases": [
+   "Paid media",
+   "Paid media"
+  ]
+ },
+ {
+  "id": "fashion-047",
+  "term": "Paid media",
+  "definition": "Media activity that secures exposure by paying for it.",
+  "example": "We put the spend for the new product styling banner into the paid media budget.",
+  "category": "Fashion Brand & Media",
+  "aliases": [
+   "Paid media",
+   "Paid media"
+  ]
+ },
+ {
+  "id": "marketing-061",
+  "term": "Earned media",
+  "definition": "Exposure gained through voluntary sharing, press coverage, reviews, and the like.",
+  "example": "Customers' voluntary reviews spread as earned media.",
+  "category": "Media Strategy",
+  "aliases": [
+   "Earned media",
+   "Earned media"
+  ]
+ },
+ {
+  "id": "fashion-048",
+  "term": "Earned media",
+  "definition": "Exposure gained through voluntary sharing, press coverage, reviews, and the like.",
+  "example": "Styling reviews that customers posted on their own are spreading as earned media.",
+  "category": "Fashion Brand & Media",
+  "aliases": [
+   "Earned media",
+   "Earned media"
+  ]
+ },
+ {
+  "id": "marketing-062",
+  "term": "Tone and manner",
+  "definition": "The voice and mood kept consistent across a brand's expression.",
+  "example": "We align the tone and manner of the detail page and the banner.",
+  "category": "Brand Production",
+  "aliases": [
+   "Tone and manner",
+   "T&M",
+   "Tone and manner guide"
+  ]
+ },
+ {
+  "id": "fashion-049",
+  "term": "Tone and manner",
+  "definition": "The voice and mood kept consistent across a brand's expression.",
+  "example": "We align the tone and manner of the lookbook photos and the in-store posters.",
+  "category": "Fashion Brand & Visual Production",
+  "aliases": [
+   "Tone and manner",
+   "T&M",
+   "Tone and manner guide"
+  ]
+ },
+ {
+  "id": "design-045",
+  "term": "Tone and manner",
+  "definition": "The voice and mood kept consistent across a brand's expression.",
+  "example": "We bring the color and typography of the poster, packaging, and web screens into the same tone and manner.",
+  "category": "Brand Production",
+  "aliases": [
+   "Tone and manner",
+   "T&M",
+   "Tone and manner guide"
+  ]
+ },
+ {
+  "id": "marketing-063",
+  "term": "Touchpoint",
+  "definition": "A point where a customer meets and experiences the brand.",
+  "example": "We look at the store and app touchpoints together.",
+  "category": "Brand Production",
+  "aliases": [
+   "Touchpoint",
+   "Customer touchpoint"
+  ]
+ },
+ {
+  "id": "fashion-050",
+  "term": "Touchpoint",
+  "definition": "A point where a customer meets and experiences the brand.",
+  "example": "We examine touchpoints that influence purchase, such as the fitting room and online size guidance.",
+  "category": "Fashion Brand & Visual Production",
+  "aliases": [
+   "Touchpoint",
+   "Customer touchpoint"
+  ]
+ },
+ {
+  "id": "design-046",
+  "term": "Touchpoint",
+  "definition": "A point where a customer meets and experiences the brand.",
+  "example": "We design the touchpoints where the brand shows up, such as business cards, packaging, and in-store signage.",
+  "category": "Brand Production",
+  "aliases": [
+   "Touchpoint",
+   "Customer touchpoint"
+  ]
+ },
+ {
+  "id": "fashion-051",
+  "term": "MD",
+  "definition": "The person who plans product assortment and operations with sales in mind.",
+  "example": "We decide the mix of new products with the MD.",
+  "note": "The scope of responsibility varies by organization, covering product planning, buying, online sales operations, and more.",
+  "category": "Merchandising & Roles",
+  "aliases": [
+   "MD",
+   "Merchandiser"
+  ]
+ },
+ {
+  "id": "fashion-052",
+  "term": "Merchandise planning",
+  "definition": "The work of planning product assortment to fit customer and sales goals.",
+  "example": "We set the price range during the merchandise planning stage.",
+  "category": "Merchandising & Roles",
+  "aliases": [
+   "Planning MD",
+   "Merchandise planning"
+  ]
+ },
+ {
+  "id": "fashion-053",
+  "term": "Buyer",
+  "definition": "The person who selects products to sell and negotiates purchasing terms.",
+  "example": "We introduce the new collection to the buyer.",
+  "category": "Merchandising & Roles",
+  "aliases": [
+   "Buying lead",
+   "Buying"
+  ]
+ },
+ {
+  "id": "fashion-054",
+  "term": "VMD",
+  "definition": "The work of staging the retail space so the brand and products stand out.",
+  "example": "We decide the shop window layout with the VMD team.",
+  "category": "Merchandising & Roles",
+  "aliases": [
+   "VMD",
+   "Visual merchandising",
+   "VM",
+   "Visual merchandiser"
+  ]
+ },
+ {
+  "id": "fashion-055",
+  "term": "SKU",
+  "definition": "An individual stock-keeping unit distinguished by color, size, and the like.",
+  "example": "Even for the same shirt, we split SKUs by color and size.",
+  "category": "Ordering & Distribution",
+  "aliases": [
+   "SKU",
+   "Stock-keeping unit"
+  ]
+ },
+ {
+  "id": "fashion-056",
+  "term": "MOQ",
+  "definition": "The minimum order quantity a supplier will accept.",
+  "example": "We check the MOQ for this fabric.",
+  "category": "Ordering & Distribution",
+  "aliases": [
+   "Minimum order quantity",
+   "Minimum",
+   "MOQ",
+   "Minimum order quantity"
+  ]
+ },
+ {
+  "id": "fashion-057",
+  "term": "PO",
+  "definition": "An order document that a buyer sends listing items, quantities, and terms.",
+  "example": "After confirming quantities, we send the PO to the supplier.",
+  "note": "The purchase order in fashion and distribution and the product owner on development and product teams are different meanings.",
+  "category": "Ordering & Distribution",
+  "aliases": [
+   "PO",
+   "Purchase order",
+   "Purchase order",
+   "Purchase order"
+  ]
+ },
+ {
+  "id": "fashion-058",
+  "term": "Lead time",
+  "definition": "The period from an agreed starting point, such as an order, to completion.",
+  "example": "The lead time from order to stock-in is four weeks.",
+  "note": "You need to agree on whether the start is the order or the start of production, and whether the end is shipment or stock-in.",
+  "category": "Ordering & Distribution",
+  "aliases": [
+   "Lead time",
+   "Delivery lead time"
+  ]
+ },
+ {
+  "id": "fashion-059",
+  "term": "Assortment",
+  "definition": "The combination of items, colors, sizes, and the like to be sold.",
+  "example": "We increase the share of outerwear in the assortment.",
+  "category": "Ordering & Distribution",
+  "aliases": [
+   "Assortment",
+   "Product assortment"
+  ]
+ },
+ {
+  "id": "fashion-060",
+  "term": "Collection",
+  "definition": "A group of products brought together under one theme or season.",
+  "example": "We introduce the theme of the fall collection.",
+  "category": "Ordering & Distribution",
+  "aliases": [
+   "Collection",
+   "Seasonal collection"
+  ]
+ },
+ {
+  "id": "fashion-061",
+  "term": "Consignment sales",
+  "definition": "A model in which products are entrusted to a retailer and settled based on what sells.",
+  "example": "We check the consignment terms and the return scope.",
+  "category": "Ordering & Distribution",
+  "aliases": [
+   "Consignment",
+   "Consignment sales"
+  ]
+ },
+ {
+  "id": "fashion-062",
+  "term": "D2C",
+  "definition": "A model in which a brand sells directly to consumers.",
+  "example": "We grow our online store, a D2C channel.",
+  "category": "Ordering & Distribution",
+  "aliases": [
+   "DTC",
+   "Direct-to-consumer sales"
+  ]
+ },
+ {
+  "id": "fashion-063",
+  "term": "Vendor",
+  "definition": "A business partner that supplies products or materials.",
+  "example": "We check the production schedule with the vendor.",
+  "category": "Ordering & Distribution",
+  "aliases": [
+   "Supplier",
+   "Supply partner"
+  ]
+ },
+ {
+  "id": "fashion-064",
+  "term": "Backorder",
+  "definition": "An order not yet shipped due to insufficient stock or similar reasons.",
+  "example": "For sold-out sizes, we provide the backorder schedule.",
+  "category": "Ordering & Distribution",
+  "aliases": [
+   "Back order",
+   "Unshipped order"
+  ]
+ },
+ {
+  "id": "fashion-065",
+  "term": "Line sheet",
+  "definition": "A document that organizes product and trade information so buyers can place orders.",
+  "example": "We put the style number and wholesale price on the line sheet.",
+  "category": "Product Presentation",
+  "aliases": [
+   "Line sheet",
+   "Product line sheet"
+  ]
+ },
+ {
+  "id": "fashion-066",
+  "term": "Lookbook",
+  "definition": "An image collection that shows product styling and the mood of the collection.",
+  "example": "We create a lookbook by combining the new products.",
+  "category": "Product Presentation",
+  "aliases": [
+   "Look book",
+   "Style book"
+  ]
+ },
+ {
+  "id": "fashion-067",
+  "term": "Style number",
+  "definition": "A management number assigned to identify a product style.",
+  "example": "Please include the style number when you inquire.",
+  "category": "Product Presentation",
+  "aliases": [
+   "Style number",
+   "Style number",
+   "Style code",
+   "Item number",
+   "Item number"
+  ]
+ },
+ {
+  "id": "fashion-068",
+  "term": "POS",
+  "definition": "A system that processes payments and sales records.",
+  "example": "We check sales records by store in the POS.",
+  "category": "Retail & Distribution",
+  "aliases": [
+   "POS",
+   "Point-of-sale system"
+  ]
+ },
+ {
+  "id": "fashion-069",
+  "term": "Omnichannel",
+  "definition": "An operating model that connects the experience across multiple sales channels.",
+  "example": "We launch an omnichannel service that lets customers pick up online orders in store.",
+  "category": "Retail & Distribution",
+  "aliases": [
+   "Omnichannel"
+  ]
+ },
+ {
+  "id": "fashion-070",
+  "term": "Upselling",
+  "definition": "A sales approach that proposes a higher-value or higher-priced product.",
+  "example": "We upsell to premium materials instead of the basic version.",
+  "category": "Retail & Distribution",
+  "aliases": [
+   "Upsell",
+   "Higher-tier product offer"
+  ]
+ }
+]

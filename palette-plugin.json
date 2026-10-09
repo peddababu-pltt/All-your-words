@@ -1,0 +1,35 @@
+{
+  "manifest_version": "1",
+  "data_scope": "organization",
+  "id": "allyourwords",
+  "name": "다, 너의 단어 (All your Words)",
+  "version": "1.1.0",
+  "category": "Productivity",
+  "tagline": "일하는 사람을 위한 실무 용어 사전",
+  "description": "다, 너의 단어 (All your Words) — 일하는 사람을 위한 7개 분야 실무 용어 사전. 2,882개 뜻.",
+  "icon": "BookOpen",
+  "sdk": {
+    "frontend": "^0.1.34",
+    "backend": "^0.1.8"
+  },
+  "capabilities": {
+    "frontend": true,
+    "backend": true,
+    "database": false,
+    "webhooks": false,
+    "scheduled_jobs": false,
+    "file_uploads": false,
+    "external_network": []
+  },
+  "frontend": {
+    "entry": "./frontend/src/index.tsx",
+    "sandbox": true
+  },
+  "backend": {
+    "entry": "./backend/api/main.py"
+  },
+  "permissions": [
+    "data_rooms:read",
+    "data_rooms:write"
+  ]
+}

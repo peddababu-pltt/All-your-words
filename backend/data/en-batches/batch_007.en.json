@@ -1,0 +1,1408 @@
+[
+ {
+  "id": "fashion-226",
+  "term": "Set",
+  "definition": "A space or stage built to suit the shooting purpose.",
+  "example": "We decide the shooting set color so that bright clothing doesn't blend into the background.",
+  "category": "Fashion Shoot & Styling",
+  "aliases": [
+   "shooting set",
+   "set stage"
+  ]
+ },
+ {
+  "id": "marketing-206",
+  "term": "Stylist",
+  "definition": "A person who composes wardrobe, accessories, and outfit combinations to match the plan.",
+  "example": "We ask the stylist for outfits that don't overlap with the background color.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "styling lead"
+  ]
+ },
+ {
+  "id": "film-229",
+  "term": "Stylist",
+  "definition": "A person who composes wardrobe, accessories, and outfit combinations to match the plan.",
+  "example": "We ask the stylist for outfits that don't overlap with the background color.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "styling lead"
+  ]
+ },
+ {
+  "id": "fashion-227",
+  "term": "Stylist",
+  "definition": "A person who composes wardrobe, accessories, and outfit combinations to match the plan.",
+  "example": "We align the full outfit, including shoes and bags, with the stylist.",
+  "category": "Fashion Shoot & Styling",
+  "aliases": [
+   "styling lead"
+  ]
+ },
+ {
+  "id": "marketing-207",
+  "term": "Making-of",
+  "definition": "Photos or video recording the production process and on-site scenes.",
+  "example": "We plan the making-of path so it doesn't interfere with the main shoot.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "making-of video",
+   "behind the scenes",
+   "BTS"
+  ]
+ },
+ {
+  "id": "film-230",
+  "term": "Making-of",
+  "definition": "Photos or video recording the production process and on-site scenes.",
+  "example": "We plan the making-of path so it doesn't interfere with the main shoot.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "making-of video",
+   "behind the scenes",
+   "BTS"
+  ]
+ },
+ {
+  "id": "fashion-228",
+  "term": "Making-of",
+  "definition": "Photos or video recording the production process and on-site scenes.",
+  "example": "We capture the fitting and outfit-prep process in the lookbook making-of.",
+  "category": "Fashion Shoot & Styling",
+  "aliases": [
+   "making-of video",
+   "behind the scenes",
+   "BTS"
+  ]
+ },
+ {
+  "id": "marketing-208",
+  "term": "Still",
+  "definition": "A still photo, as distinct from video. On set, it refers to promotional or documentary photos.",
+  "example": "Separately from the video, we also shoot stills for the poster.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "still cut",
+   "still photo"
+  ]
+ },
+ {
+  "id": "film-231",
+  "term": "Still",
+  "definition": "A still photo, as distinct from video. On set, it refers to promotional or documentary photos.",
+  "example": "Separately from the video, we also shoot stills for the poster.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "still cut",
+   "still photo"
+  ]
+ },
+ {
+  "id": "fashion-229",
+  "term": "Still",
+  "definition": "A still photo, as distinct from video. On set, it refers to promotional or documentary photos.",
+  "example": "Along with the collection video, we also shoot stills for the online lookbook.",
+  "category": "Fashion Shoot & Styling",
+  "aliases": [
+   "still cut",
+   "still photo"
+  ]
+ },
+ {
+  "id": "marketing-209",
+  "term": "Product shot",
+  "definition": "An image or video shot or created so the product's form, features, and packaging are clearly visible.",
+  "example": "In the ending product shot, we check that the logo is clearly visible.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "product shot",
+   "pack shot",
+   "package shot"
+  ]
+ },
+ {
+  "id": "film-232",
+  "term": "Product shot",
+  "definition": "An image or video shot or created so the product's form, features, and packaging are clearly visible.",
+  "example": "In the ending product shot, we check that the logo is clearly visible.",
+  "category": "Shoot Prep & On-Set",
+  "aliases": [
+   "product shot",
+   "pack shot",
+   "package shot",
+   "packshot",
+   "pack-shot",
+   "package shot",
+   "package-shot"
+  ]
+ },
+ {
+  "id": "fashion-230",
+  "term": "Product shot",
+  "definition": "An image or video shot or created so the product's form, features, and packaging are clearly visible.",
+  "example": "In the jacket product shots, we include the front, back, lining, and button details.",
+  "category": "Fashion Shoot & Styling",
+  "aliases": [
+   "product shot",
+   "pack shot",
+   "package shot"
+  ]
+ },
+ {
+  "id": "marketing-210",
+  "term": "Duration",
+  "definition": "The length of time a video, scene, or effect lasts.",
+  "example": "Please extend this shot's duration by just half a second.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "duration",
+   "running time",
+   "running time",
+   "video length"
+  ]
+ },
+ {
+  "id": "film-233",
+  "term": "Duration",
+  "definition": "The length of time a video, scene, or effect lasts.",
+  "example": "Please extend this shot's duration by just half a second.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "duration",
+   "running time",
+   "running time",
+   "video length",
+   "running time",
+   "RT",
+   "total play time"
+  ]
+ },
+ {
+  "id": "design-143",
+  "term": "Duration",
+  "definition": "The length of time a video, scene, or effect lasts.",
+  "example": "We adjust the duration of the button-transition motion so the response doesn't feel slow.",
+  "category": "Motion & Video Design",
+  "aliases": [
+   "duration",
+   "running time",
+   "running time",
+   "video length"
+  ]
+ },
+ {
+  "id": "marketing-211",
+  "term": "Cutdown",
+  "definition": "A version that shortens a long original ad or video into a shorter length.",
+  "example": "We make a 15-second cutdown from the 30-second main version.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "cut down",
+   "shortened version"
+  ]
+ },
+ {
+  "id": "film-234",
+  "term": "Cutdown",
+  "definition": "A version that shortens a long original ad or video into a shorter length.",
+  "example": "We make a 15-second cutdown from the 30-second main version.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "cut down",
+   "shortened version"
+  ]
+ },
+ {
+  "id": "design-144",
+  "term": "Cutdown",
+  "definition": "A version that shortens a long original ad or video into a shorter length.",
+  "example": "We recut the 30-second brand motion into a 6-second cutdown for media.",
+  "category": "Motion & Video Design",
+  "aliases": [
+   "cut down",
+   "shortened version"
+  ]
+ },
+ {
+  "id": "marketing-212",
+  "term": "Resizing",
+  "definition": "The work of changing the size or aspect ratio of an image or video to fit the placement spec.",
+  "example": "While resizing a horizontal video to vertical, we also adjust the subtitle position.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "resize",
+   "size conversion"
+  ]
+ },
+ {
+  "id": "film-235",
+  "term": "Resizing",
+  "definition": "The work of changing the size or aspect ratio of an image or video to fit the placement spec.",
+  "example": "While resizing a horizontal video to vertical, we also adjust the subtitle position.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "resize",
+   "size conversion"
+  ]
+ },
+ {
+  "id": "design-145",
+  "term": "Resizing",
+  "definition": "The work of changing the size or aspect ratio of an image or video to fit the placement spec.",
+  "example": "While resizing a poster into a banner, we re-fit the title's size and placement.",
+  "category": "Motion & Video Design",
+  "aliases": [
+   "resize",
+   "size conversion"
+  ]
+ },
+ {
+  "id": "marketing-213",
+  "term": "Motion graphics",
+  "definition": "An expression that adds movement to graphic elements such as text, shapes, and images.",
+  "example": "Please show the numeric changes with motion graphics.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "motion graphics",
+   "motion work"
+  ]
+ },
+ {
+  "id": "film-236",
+  "term": "Motion graphics",
+  "definition": "An expression that adds movement to graphic elements such as text, shapes, and images.",
+  "example": "Please show the numeric changes with motion graphics.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "motion graphics",
+   "motion work"
+  ]
+ },
+ {
+  "id": "design-146",
+  "term": "Motion graphics",
+  "definition": "An expression that adds movement to graphic elements such as text, shapes, and images.",
+  "example": "We add movement to a static infographic and explain it as motion graphics.",
+  "category": "Motion & Video Design",
+  "aliases": [
+   "motion graphics",
+   "motion work"
+  ]
+ },
+ {
+  "id": "marketing-214",
+  "term": "Animatic",
+  "definition": "A video that arranges storyboard images in time order and adds temporary sound to check length and flow.",
+  "example": "Before shooting, we use an animatic to see if it fits within 30 seconds.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "animatic",
+   "boardomatic"
+  ]
+ },
+ {
+  "id": "film-237",
+  "term": "Animatic",
+  "definition": "A video that arranges storyboard images in time order and adds temporary sound to check length and flow.",
+  "example": "Before shooting, we use an animatic to see if it fits within 30 seconds.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "animatic",
+   "boardomatic"
+  ]
+ },
+ {
+  "id": "design-147",
+  "term": "Animatic",
+  "definition": "A video that arranges storyboard images in time order and adds temporary sound to check length and flow.",
+  "example": "With the title sequence's animatic, we check the time for the text to be read.",
+  "category": "Motion & Video Design",
+  "aliases": [
+   "animatic",
+   "boardomatic"
+  ]
+ },
+ {
+  "id": "marketing-215",
+  "term": "Treatment",
+  "definition": "A document in which the director organizes and proposes the interpretation, mood, shooting, art, and editing direction of a video.",
+  "example": "In the treatment, we check the camera movement and color direction.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "director's treatment",
+   "directing proposal"
+  ]
+ },
+ {
+  "id": "film-238",
+  "term": "Treatment",
+  "definition": "A document in which the director organizes and proposes the interpretation, mood, shooting, art, and editing direction of a video.",
+  "example": "In the treatment, we check the camera movement and color direction.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "director's treatment",
+   "directing proposal"
+  ]
+ },
+ {
+  "id": "design-148",
+  "term": "Treatment",
+  "definition": "A document in which the director organizes and proposes the interpretation, mood, shooting, art, and editing direction of a video.",
+  "example": "We read the director's treatment and propose the graphic style to use in the video.",
+  "category": "Motion & Video Design",
+  "aliases": [
+   "director's treatment",
+   "directing proposal"
+  ]
+ },
+ {
+  "id": "marketing-216",
+  "term": "Caption",
+  "definition": "Text placed on screen, such as explanations, dialogue, and information. On an ad set, 'super' can also refer to text laid over the image.",
+  "example": "Please enlarge the key captions so they're readable on mobile too.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "caption",
+   "super",
+   "super",
+   "superimpose"
+  ]
+ },
+ {
+  "id": "film-239",
+  "term": "Caption",
+  "definition": "Text placed on screen, such as explanations, dialogue, and information. On an ad set, 'super' can also refer to text laid over the image.",
+  "example": "Please enlarge the key captions so they're readable on mobile too.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "caption",
+   "super",
+   "super",
+   "superimpose"
+  ]
+ },
+ {
+  "id": "design-149",
+  "term": "Caption",
+  "definition": "Text placed on screen, such as explanations, dialogue, and information. On an ad set, 'super' can also refer to text laid over the image.",
+  "example": "We set the caption's size, line spacing, and background contrast and apply them to the motion template.",
+  "category": "Motion & Video Design",
+  "aliases": [
+   "caption",
+   "super",
+   "super",
+   "superimpose"
+  ]
+ },
+ {
+  "id": "marketing-217",
+  "term": "Title",
+  "definition": "A text or graphic screen that shows a video's title or section name.",
+  "example": "Please show the opening title within the first 2 seconds.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "title graphic",
+   "title card"
+  ]
+ },
+ {
+  "id": "film-240",
+  "term": "Title",
+  "definition": "A text or graphic screen that shows a video's title or section name.",
+  "example": "Please show the opening title within the first 2 seconds.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "title graphic",
+   "title card"
+  ]
+ },
+ {
+  "id": "design-150",
+  "term": "Title",
+  "definition": "A text or graphic screen that shows a video's title or section name.",
+  "example": "We design the opening title's typeface and entrance motion together.",
+  "category": "Motion & Video Design",
+  "aliases": [
+   "title graphic",
+   "title card"
+  ]
+ },
+ {
+  "id": "marketing-218",
+  "term": "End card",
+  "definition": "A screen at the end of a video that presents the logo, product, slogan, call to action, and so on.",
+  "example": "We hold the logo for about 2 seconds on the end card.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "ending card",
+   "end card"
+  ]
+ },
+ {
+  "id": "film-241",
+  "term": "End card",
+  "definition": "A screen at the end of a video that presents the logo, product, slogan, call to action, and so on.",
+  "example": "We hold the logo for about 2 seconds on the end card.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "ending card",
+   "end card"
+  ]
+ },
+ {
+  "id": "design-151",
+  "term": "End card",
+  "definition": "A screen at the end of a video that presents the logo, product, slogan, call to action, and so on.",
+  "example": "We organize the hierarchy of the logo, copy, and CTA on the end card.",
+  "category": "Motion & Video Design",
+  "aliases": [
+   "ending card",
+   "end card"
+  ]
+ },
+ {
+  "id": "marketing-219",
+  "term": "Master",
+  "definition": "The approved final deliverable that serves as the basis for delivery and for creating derivative versions.",
+  "example": "We deliver both the master with subtitles and the one without.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "master version",
+   "final master",
+   "master cut",
+   "master cut"
+  ]
+ },
+ {
+  "id": "film-242",
+  "term": "Master",
+  "definition": "The approved final deliverable that serves as the basis for delivery and for creating derivative versions.",
+  "example": "We check the presence of subtitles and the audio channel configuration, then output the final master.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "master version",
+   "final master",
+   "master cut",
+   "master cut"
+  ]
+ },
+ {
+  "id": "design-152",
+  "term": "Master",
+  "definition": "The approved final deliverable that serves as the basis for delivery and for creating derivative versions.",
+  "example": "We keep the approved design master and create derivative files per medium.",
+  "category": "Motion & Video Design",
+  "aliases": [
+   "master version",
+   "final master"
+  ]
+ },
+ {
+  "id": "marketing-220",
+  "term": "Clean version",
+  "definition": "A video version with specified elements such as subtitles and logos removed. What to exclude is set by the delivery terms.",
+  "example": "Please also provide a clean version for overseas subtitling.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "clean version",
+   "clean-version video"
+  ]
+ },
+ {
+  "id": "film-243",
+  "term": "Clean version",
+  "definition": "A video version with specified elements such as subtitles and logos removed. What to exclude is set by the delivery terms.",
+  "example": "Please also provide a clean version for overseas subtitling.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "clean version",
+   "clean-version video",
+   "clean version"
+  ]
+ },
+ {
+  "id": "design-153",
+  "term": "Clean version",
+  "definition": "A video version with specified elements such as subtitles and logos removed. What to exclude is set by the delivery terms.",
+  "example": "We also prepare a clean version so subtitles can be swapped in the motion template.",
+  "category": "Motion & Video Design",
+  "aliases": [
+   "clean version",
+   "clean-version video"
+  ]
+ },
+ {
+  "id": "marketing-221",
+  "term": "Offline editing",
+  "definition": "An editing stage that decides cut selection and story flow first, ahead of finalizing image quality and effects.",
+  "example": "In offline editing, we lock the structure first, then hand it to post-production.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "offline",
+   "rough-cut stage"
+  ]
+ },
+ {
+  "id": "film-244",
+  "term": "Offline editing",
+  "definition": "An editing stage that decides cut selection and story flow first, ahead of finalizing image quality and effects.",
+  "example": "In offline editing, we lock the structure first, then hand it to post-production.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "offline",
+   "rough-cut stage",
+   "rough cut",
+   "rough editing",
+   "rough cut edit"
+  ]
+ },
+ {
+  "id": "marketing-222",
+  "term": "Online editing",
+  "definition": "A post stage that links the locked edit to high-quality originals and finalizes the final image and technical specs.",
+  "example": "In online editing, we check the original linking and the final image state.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "online",
+   "online finishing"
+  ]
+ },
+ {
+  "id": "film-245",
+  "term": "Online editing",
+  "definition": "A post stage that links the locked edit to high-quality originals and finalizes the final image and technical specs.",
+  "example": "In online editing, we check the original linking and the final image state.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "online",
+   "online finishing"
+  ]
+ },
+ {
+  "id": "marketing-223",
+  "term": "Conform",
+  "definition": "The work of re-matching the high-resolution originals to the cuts and timing based on the locked edit information.",
+  "example": "Before DI, we conform and check for missing originals.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "conforming"
+  ]
+ },
+ {
+  "id": "film-246",
+  "term": "Conform",
+  "definition": "The work of re-matching the high-resolution originals to the cuts and timing based on the locked edit information.",
+  "example": "Before DI, we conform and check for missing originals.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "conforming"
+  ]
+ },
+ {
+  "id": "marketing-224",
+  "term": "Proxy",
+  "definition": "Lightweight substitute media used for editing in place of heavy originals.",
+  "example": "Please first make proxies for laptop editing.",
+  "note": "It is substitute media in video editing. It differs in meaning from a relay-server proxy in IT.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "proxy file",
+   "surrogate media"
+  ]
+ },
+ {
+  "id": "film-247",
+  "term": "Proxy",
+  "definition": "Lightweight substitute media used for editing in place of heavy originals.",
+  "example": "Please first make proxies for laptop editing.",
+  "note": "It is substitute media in video editing. It differs in meaning from a relay-server proxy in IT.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "proxy file",
+   "surrogate media"
+  ]
+ },
+ {
+  "id": "design-157",
+  "term": "Proxy",
+  "definition": "Lightweight substitute media used for editing in place of heavy originals.",
+  "example": "When compositing high-resolution live action and graphics, we keep the preview light with a proxy.",
+  "note": "It is substitute media in video editing. It differs in meaning from a relay-server proxy in IT.",
+  "category": "Motion & Video Design",
+  "aliases": [
+   "proxy file",
+   "surrogate media"
+  ]
+ },
+ {
+  "id": "marketing-225",
+  "term": "Transition",
+  "definition": "The way or effect by which one scene moves to another.",
+  "example": "Here, a natural connection is better than a flashy transition.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "transition effect",
+   "scene change"
+  ]
+ },
+ {
+  "id": "film-248",
+  "term": "Transition",
+  "definition": "The way or effect by which one scene moves to another.",
+  "example": "Here, a natural connection is better than a flashy transition.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "transition effect",
+   "scene change"
+  ]
+ },
+ {
+  "id": "design-158",
+  "term": "Transition",
+  "definition": "The way or effect by which one scene moves to another.",
+  "example": "We create a transition where the shape on the motion screen continues into the next scene.",
+  "category": "Motion & Video Design",
+  "aliases": [
+   "transition effect",
+   "scene change"
+  ]
+ },
+ {
+  "id": "marketing-226",
+  "term": "Dissolve",
+  "definition": "A transition in which the next image overlaps and appears while the previous image fades away.",
+  "example": "We add a short dissolve for a sense of time passing.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "cross dissolve",
+   "dissolve transition"
+  ]
+ },
+ {
+  "id": "film-249",
+  "term": "Dissolve",
+  "definition": "A transition in which the next image overlaps and appears while the previous image fades away.",
+  "example": "We add a short dissolve for a sense of time passing.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "cross dissolve",
+   "dissolve transition"
+  ]
+ },
+ {
+  "id": "design-159",
+  "term": "Dissolve",
+  "definition": "A transition in which the next image overlaps and appears while the previous image fades away.",
+  "example": "We check that the text doesn't blur in the dissolve section where two images overlap.",
+  "category": "Motion & Video Design",
+  "aliases": [
+   "cross dissolve",
+   "dissolve transition"
+  ]
+ },
+ {
+  "id": "marketing-227",
+  "term": "Fade",
+  "definition": "A treatment that gradually brings in or takes out an image or sound.",
+  "example": "Don't cut the final music abruptly; fade it out.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "fade in",
+   "fade out"
+  ]
+ },
+ {
+  "id": "film-250",
+  "term": "Fade",
+  "definition": "A treatment that gradually brings in or takes out an image or sound.",
+  "example": "Don't cut the final music abruptly; fade it out.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "fade in",
+   "fade out"
+  ]
+ },
+ {
+  "id": "design-160",
+  "term": "Fade",
+  "definition": "A treatment that gradually brings in or takes out an image or sound.",
+  "example": "We adjust the motion so the explanatory copy slowly fades out after it's been read.",
+  "category": "Motion & Video Design",
+  "aliases": [
+   "fade in",
+   "fade out"
+  ]
+ },
+ {
+  "id": "marketing-228",
+  "term": "Timeline",
+  "definition": "The work area where video, sound, and effects are arranged and adjusted in time order.",
+  "example": "On the timeline, we pull the subtitle start point two frames earlier.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "editing timeline"
+  ]
+ },
+ {
+  "id": "film-251",
+  "term": "Timeline",
+  "definition": "The work area where video, sound, and effects are arranged and adjusted in time order.",
+  "example": "On the timeline, we pull the subtitle start point two frames earlier.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "editing timeline"
+  ]
+ },
+ {
+  "id": "design-161",
+  "term": "Timeline",
+  "definition": "The work area where video, sound, and effects are arranged and adjusted in time order.",
+  "example": "On the motion timeline, we align the title's entrance with the icon's movement.",
+  "category": "Motion & Video Design",
+  "aliases": [
+   "editing timeline"
+  ]
+ },
+ {
+  "id": "marketing-229",
+  "term": "Source",
+  "definition": "The source material, such as original video, images, and audio, used for editing, compositing, and design.",
+  "example": "Please send the logo source as a large, high-resolution file.",
+  "note": "It means design and video production material. Source code in IT is the content of a written program.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "source file",
+   "original source"
+  ]
+ },
+ {
+  "id": "film-252",
+  "term": "Source",
+  "definition": "The source material, such as original video, images, and audio, used for editing, compositing, and design.",
+  "example": "We organize the original sources by shoot date and camera and hand them to the editing team.",
+  "note": "It means design and video production material. Source code in IT is the content of a written program.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "source file",
+   "original source"
+  ]
+ },
+ {
+  "id": "design-162",
+  "term": "Source",
+  "definition": "The source material, such as original video, images, and audio, used for editing, compositing, and design.",
+  "example": "We receive the vector logo and high-resolution photo sources needed to produce the print banner.",
+  "note": "It means design and video production material. Source code in IT is the content of a written program.",
+  "category": "Motion & Video Design",
+  "aliases": [
+   "source file",
+   "original source"
+  ]
+ },
+ {
+  "id": "marketing-230",
+  "term": "Output",
+  "definition": "Rendering work results into a usable file or deliverable, or that process.",
+  "example": "We check the resolution and sound state of the final output.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "deliverable",
+   "export",
+   "export"
+  ]
+ },
+ {
+  "id": "film-253",
+  "term": "Output",
+  "definition": "Rendering work results into a usable file or deliverable, or that process.",
+  "example": "We check the resolution and sound state of the final output.",
+  "category": "Video Post-Production",
+  "aliases": [
+   "deliverable",
+   "export",
+   "export"
+  ]
+ },
+ {
+  "id": "design-163",
+  "term": "Output",
+  "definition": "Rendering work results into a usable file or deliverable, or that process.",
+  "example": "In the motion output, we check at final size that the lines don't break up.",
+  "category": "Motion & Video Design",
+  "aliases": [
+   "deliverable",
+   "export",
+   "export"
+  ]
+ },
+ {
+  "id": "marketing-231",
+  "term": "Scratch recording",
+  "definition": "A temporary recording made before the main recording to check content, length, and tone.",
+  "example": "We check the duration with a scratch recording, then book the voice actor's main recording.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "scratch take",
+   "temp recording",
+   "guide recording"
+  ]
+ },
+ {
+  "id": "film-254",
+  "term": "Scratch recording",
+  "definition": "A temporary recording made before the main recording to check content, length, and tone.",
+  "example": "We check the duration with a scratch recording, then book the voice actor's main recording.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "scratch take",
+   "temp recording",
+   "guide recording"
+  ]
+ },
+ {
+  "id": "marketing-232",
+  "term": "ADR",
+  "definition": "The work of re-recording dialogue while watching the footage after the shoot, to match the mouth movements and the scene.",
+  "example": "The on-site noise was loud, so this line needs ADR.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "post-sync",
+   "dialogue re-recording"
+  ]
+ },
+ {
+  "id": "film-255",
+  "term": "ADR",
+  "definition": "The work of re-recording dialogue while watching the footage after the shoot, to match the mouth movements and the scene.",
+  "example": "The on-site noise was loud, so this line needs ADR.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "post-sync",
+   "dialogue re-recording",
+   "post recording",
+   "post-sync recording"
+  ]
+ },
+ {
+  "id": "marketing-233",
+  "term": "Dubbing",
+  "definition": "The work of recording and inserting dialogue or voice to match the video. Also used for replacing dialogue in another language.",
+  "example": "The overseas version adds local-language dubbing.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "dubbing recording"
+  ]
+ },
+ {
+  "id": "film-256",
+  "term": "Dubbing",
+  "definition": "The work of recording and inserting dialogue or voice to match the video. Also used for replacing dialogue in another language.",
+  "example": "The overseas version adds local-language dubbing.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "dubbing recording"
+  ]
+ },
+ {
+  "id": "marketing-234",
+  "term": "BGM",
+  "definition": "Background music that supports a scene's mood and flow.",
+  "example": "When dialogue comes in, please lower the BGM a bit.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "background music",
+   "BGM"
+  ]
+ },
+ {
+  "id": "film-257",
+  "term": "BGM",
+  "definition": "Background music that supports a scene's mood and flow.",
+  "example": "When dialogue comes in, please lower the BGM a bit.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "background music",
+   "BGM"
+  ]
+ },
+ {
+  "id": "marketing-235",
+  "term": "Sound effect",
+  "definition": "Sound added or created to convey actions, environments, or emphasis.",
+  "example": "We add a short sound effect at the moment the product closes.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "SFX",
+   "sound effect",
+   "effect sound",
+   "SE",
+   "sound effect"
+  ]
+ },
+ {
+  "id": "film-258",
+  "term": "Sound effect",
+  "definition": "Sound added or created to convey actions, environments, or emphasis.",
+  "example": "We add a short sound effect at the moment the product closes.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "SFX",
+   "sound effect",
+   "effect sound",
+   "SE",
+   "sound effect"
+  ]
+ },
+ {
+  "id": "marketing-236",
+  "term": "Jingle",
+  "definition": "Advertising music that conveys a brand's or product's message as a song.",
+  "example": "We compose the jingle's chorus so the brand name is memorable.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "CM song",
+   "CM song",
+   "ad song"
+  ]
+ },
+ {
+  "id": "film-259",
+  "term": "Jingle",
+  "definition": "Advertising music that conveys a brand's or product's message as a song.",
+  "example": "We compose the jingle's chorus so the brand name is memorable.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "CM song",
+   "CM song",
+   "ad song"
+  ]
+ },
+ {
+  "id": "marketing-237",
+  "term": "Sound design",
+  "definition": "The work of designing and combining dialogue, sound effects, ambience, and so on to create a scene's sonic expression.",
+  "example": "We bring out the futuristic product feel through sound design.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "sound design",
+   "audio design"
+  ]
+ },
+ {
+  "id": "film-260",
+  "term": "Sound design",
+  "definition": "The work of designing and combining dialogue, sound effects, ambience, and so on to create a scene's sonic expression.",
+  "example": "We bring out the futuristic product feel through sound design.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "sound design",
+   "audio design"
+  ]
+ },
+ {
+  "id": "marketing-238",
+  "term": "Mixing",
+  "definition": "The work of adjusting the level, position, frequency, and spatial feel of multiple audio sources so they sound good together.",
+  "example": "In mixing, we keep the narration from being buried under the music.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "mix",
+   "sound mixing",
+   "audio mixing"
+  ]
+ },
+ {
+  "id": "film-261",
+  "term": "Mixing",
+  "definition": "The work of adjusting the level, position, frequency, and spatial feel of multiple audio sources so they sound good together.",
+  "example": "In mixing, we keep the narration from being buried under the music.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "mix",
+   "sound mixing",
+   "audio mixing"
+  ]
+ },
+ {
+  "id": "marketing-239",
+  "term": "Mastering",
+  "definition": "The finishing work of refining mixed sound into a final track and matching it to playback and delivery specs.",
+  "example": "We do the audio mastering to the platform's delivery standards.",
+  "note": "Here it is the finishing work on sound. In some contexts, the final finishing of an entire video delivery is also called mastering.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "audio mastering"
+  ]
+ },
+ {
+  "id": "film-262",
+  "term": "Mastering",
+  "definition": "The finishing work of refining mixed sound into a final track and matching it to playback and delivery specs.",
+  "example": "We do the audio mastering to the platform's delivery standards.",
+  "note": "Here it is the finishing work on sound. In some contexts, the final finishing of an entire video delivery is also called mastering.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "audio mastering"
+  ]
+ },
+ {
+  "id": "marketing-240",
+  "term": "Music director",
+  "definition": "The lead who sets the direction of the music used in a video and coordinates composition, selection, and production.",
+  "example": "We first align the brand's music tone with the music director.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "music director"
+  ]
+ },
+ {
+  "id": "film-263",
+  "term": "Music director",
+  "definition": "The lead who sets the direction of the music used in a video and coordinates composition, selection, and production.",
+  "example": "We first align the brand's music tone with the music director.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "music director"
+  ]
+ },
+ {
+  "id": "marketing-241",
+  "term": "To chop up",
+  "definition": "In an editing context, dividing or cutting a video into several short cuts to assemble it.",
+  "example": "Please chop the long interview up by topic to make a short version.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "to chop",
+   "to chop cuts",
+   "cut chopping",
+   "video chopping"
+  ]
+ },
+ {
+  "id": "film-264",
+  "term": "To chop up",
+  "definition": "In an editing context, dividing or cutting a video into several short cuts to assemble it.",
+  "example": "Please chop the long interview up by topic to make a short version.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "to chop",
+   "to chop cuts",
+   "cut chopping",
+   "video chopping"
+  ]
+ },
+ {
+  "id": "design-164",
+  "term": "To chop up",
+  "definition": "In an editing context, dividing or cutting a video into several short cuts to assemble it.",
+  "example": "We chop a long brand video into short pieces to use as the background of a motion poster.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "to chop",
+   "to chop cuts",
+   "cut chopping",
+   "video chopping"
+  ]
+ },
+ {
+  "id": "marketing-242",
+  "term": "To chop in",
+  "definition": "A colloquial expression for cutting short the needed parts of the original footage and placing them within the editing flow.",
+  "example": "Please chop in product inserts between the explanations.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "to chop in",
+   "chop in",
+   "chopping in"
+  ]
+ },
+ {
+  "id": "film-265",
+  "term": "To chop in",
+  "definition": "A colloquial expression for cutting short the needed parts of the original footage and placing them within the editing flow.",
+  "example": "Please chop in product inserts between the explanations.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "to chop in",
+   "chop in",
+   "chopping in"
+  ]
+ },
+ {
+  "id": "design-165",
+  "term": "To chop in",
+  "definition": "A colloquial expression for cutting short the needed parts of the original footage and placing them within the editing flow.",
+  "example": "We chop in product close-ups to create flow between the motion-type sections.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "to chop in",
+   "chop in",
+   "chopping in"
+  ]
+ },
+ {
+  "id": "marketing-243",
+  "term": "To join",
+  "definition": "In editing, connecting or adding video, sound, and graphics in order.",
+  "example": "Please join the usage footage after the interview.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "cut joining",
+   "to splice together"
+  ]
+ },
+ {
+  "id": "film-266",
+  "term": "To join",
+  "definition": "In editing, connecting or adding video, sound, and graphics in order.",
+  "example": "Please join the usage footage after the interview.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "cut joining",
+   "to splice together"
+  ]
+ },
+ {
+  "id": "design-166",
+  "term": "To join",
+  "definition": "In editing, connecting or adding video, sound, and graphics in order.",
+  "example": "Please join the CTA screen after the motion logo.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "cut joining",
+   "to splice together"
+  ]
+ },
+ {
+  "id": "marketing-244",
+  "term": "To pull earlier",
+  "definition": "Moving the start point of video, sound, or subtitles to a time earlier than the current one.",
+  "example": "Please pull the logo's timing half a second earlier.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "to move up",
+   "pulling timing earlier"
+  ]
+ },
+ {
+  "id": "film-267",
+  "term": "To pull earlier",
+  "definition": "Moving the start point of video, sound, or subtitles to a time earlier than the current one.",
+  "example": "Please pull the logo's timing half a second earlier.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "to move up",
+   "pulling timing earlier"
+  ]
+ },
+ {
+  "id": "design-167",
+  "term": "To pull earlier",
+  "definition": "Moving the start point of video, sound, or subtitles to a time earlier than the current one.",
+  "example": "Please pull the start of the title motion two frames earlier.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "to move up",
+   "pulling timing earlier"
+  ]
+ },
+ {
+  "id": "marketing-245",
+  "term": "To push later",
+  "definition": "Moving an editing element's start point back so it appears later.",
+  "example": "Please push the narration a bit later to match it to the product shot.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "to push back",
+   "pushing timing later"
+  ]
+ },
+ {
+  "id": "film-268",
+  "term": "To push later",
+  "definition": "Moving an editing element's start point back so it appears later.",
+  "example": "Please push the narration a bit later to match it to the product shot.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "to push back",
+   "pushing timing later"
+  ]
+ },
+ {
+  "id": "design-168",
+  "term": "To push later",
+  "definition": "Moving an editing element's start point back so it appears later.",
+  "example": "We push back the entrance of the explanatory graphic so the product image is seen first.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "to push back",
+   "pushing timing later"
+  ]
+ },
+ {
+  "id": "marketing-246",
+  "term": "Pacing",
+  "definition": "The temporal rhythm of a video created by cut length, transitions, and pauses.",
+  "example": "Give the final cut a longer pacing so the emotion shows.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "editing pace",
+   "cut pacing"
+  ]
+ },
+ {
+  "id": "film-269",
+  "term": "Pacing",
+  "definition": "The temporal rhythm of a video created by cut length, transitions, and pauses.",
+  "example": "Give the final cut a longer pacing so the emotion shows.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "editing pace",
+   "cut pacing"
+  ]
+ },
+ {
+  "id": "design-169",
+  "term": "Pacing",
+  "definition": "The temporal rhythm of a video created by cut length, transitions, and pauses.",
+  "example": "We extend the pacing so the last sentence of the motion type can be read.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "editing pace",
+   "cut pacing"
+  ]
+ },
+ {
+  "id": "marketing-247",
+  "term": "Look",
+  "definition": "A field term that collectively refers to the visual impression of an image, such as its color, texture, and light.",
+  "example": "Reference the look of the reference, but keep the product color.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "video look",
+   "screen look"
+  ]
+ },
+ {
+  "id": "film-270",
+  "term": "Look",
+  "definition": "A field term that collectively refers to the visual impression of an image, such as its color, texture, and light.",
+  "example": "Reference the look of the reference, but keep the product color.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "video look",
+   "screen look"
+  ]
+ },
+ {
+  "id": "design-170",
+  "term": "Look",
+  "definition": "A field term that collectively refers to the visual impression of an image, such as its color, texture, and light.",
+  "example": "We check on the printout the look created by the poster's paper texture and color.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "video look",
+   "screen look"
+  ]
+ },
+ {
+  "id": "marketing-248",
+  "term": "To lay under",
+  "definition": "Placing background video, color, music, and so on beneath or behind other elements.",
+  "example": "Please lay some soft music under the dialogue.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "to lay down",
+   "laying in music",
+   "laying in a background"
+  ]
+ },
+ {
+  "id": "film-271",
+  "term": "To lay under",
+  "definition": "Placing background video, color, music, and so on beneath or behind other elements.",
+  "example": "Please lay some soft music under the dialogue.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "to lay down",
+   "laying in music",
+   "laying in a background"
+  ]
+ },
+ {
+  "id": "design-171",
+  "term": "To lay under",
+  "definition": "Placing background video, color, music, and so on beneath or behind other elements.",
+  "example": "We lay a low-brightness panel behind the title to improve legibility.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "to lay down",
+   "laying in music",
+   "laying in a background"
+  ]
+ },
+ {
+  "id": "marketing-249",
+  "term": "To output",
+  "definition": "Making work results into a checkable form such as a file, printout, or draft.",
+  "example": "Please output a low-size file for review first.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "file output",
+   "render output",
+   "print output"
+  ]
+ },
+ {
+  "id": "film-272",
+  "term": "To output",
+  "definition": "Making work results into a checkable form such as a file, printout, or draft.",
+  "example": "Please output a low-size file for review first.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "file output",
+   "render output",
+   "print output"
+  ]
+ },
+ {
+  "id": "design-172",
+  "term": "To output",
+  "definition": "Making work results into a checkable form such as a file, printout, or draft.",
+  "example": "We output the poster at actual size to check the text size and color.",
+  "note": "It is a work expression used by context rather than a formal process name. This entry explains the video and image production context; stating the target and desired result reduces misunderstanding.",
+  "category": "Work Instructions & On-Set Expressions",
+  "aliases": [
+   "file output",
+   "render output",
+   "print output"
+  ]
+ }
+]

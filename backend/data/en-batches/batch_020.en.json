@@ -1,0 +1,1230 @@
+[
+ {
+  "id": "hrfinance-286",
+  "term": "Tax Base",
+  "definition": "The amount or quantity that serves as the basis for calculating tax by applying the tax rate.",
+  "example": "Please review the tax base after reflecting deductions and adjustments.",
+  "note": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time.",
+  "category": "Tax & Filing",
+  "aliases": [
+   "Tax Base"
+  ]
+ },
+ {
+  "id": "hrfinance-287",
+  "term": "Value-Added Tax",
+  "definition": "A tax levied on the value added in the supply of goods and services.",
+  "example": "Please first confirm whether the quoted amount includes VAT.",
+  "note": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time.",
+  "category": "Tax & Filing",
+  "aliases": [
+   "VAT"
+  ]
+ },
+ {
+  "id": "hrfinance-288",
+  "term": "Output VAT",
+  "definition": "The value-added tax calculated on taxable sales and the like.",
+  "example": "I checked whether the output VAT total for this filing period matches the books.",
+  "note": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time.",
+  "category": "Tax & Filing",
+  "aliases": [
+   "Output VAT"
+  ]
+ },
+ {
+  "id": "hrfinance-289",
+  "term": "Input VAT",
+  "definition": "The value-added tax a business bears in the course of purchases. Whether it is deductible varies by transaction and requirements.",
+  "example": "Please distinguish whether input VAT on corporate card spending is deductible.",
+  "note": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time.",
+  "category": "Tax & Filing",
+  "aliases": [
+   "Input VAT"
+  ]
+ },
+ {
+  "id": "hrfinance-290",
+  "term": "Non-deductible Input VAT",
+  "definition": "Treating input VAT as not deductible in calculating value-added tax.",
+  "example": "Please keep a record of the basis for classifying this expense as non-deductible.",
+  "note": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time.",
+  "category": "Tax & Filing",
+  "aliases": [
+   "Non-deductible Input VAT"
+  ]
+ },
+ {
+  "id": "hrfinance-291",
+  "term": "Tax Invoice",
+  "definition": "A tax document recording the supplier, recipient, supply value, tax amount, and the like of a taxable transaction.",
+  "example": "Does the contracting company name match the recipient on the tax invoice?",
+  "note": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time.",
+  "category": "Tax & Filing",
+  "aliases": [
+   "Tax Invoice"
+  ]
+ },
+ {
+  "id": "hrfinance-292",
+  "term": "Amended Tax Invoice",
+  "definition": "A document that amends an existing tax invoice for reasons such as changes to the transaction or entry errors.",
+  "example": "The return was confirmed, so I requested issuance of an amended tax invoice.",
+  "note": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time.",
+  "category": "Tax & Filing",
+  "aliases": [
+   "Amended Tax Invoice"
+  ]
+ },
+ {
+  "id": "hrfinance-293",
+  "term": "Invoice",
+  "definition": "A tax document issued for tax-exempt transactions and the like, recording the supply value and the transacting parties.",
+  "example": "As it was a tax-exempt transaction, I received an invoice rather than a tax invoice.",
+  "note": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time.",
+  "category": "Tax & Filing",
+  "aliases": [
+   "Tax-exempt Invoice"
+  ]
+ },
+ {
+  "id": "hrfinance-294",
+  "term": "Withholding Tax",
+  "definition": "A system whereby the payer of income withholds and remits tax in advance at the time of payment.",
+  "example": "Before paying the service fee, please confirm whether withholding tax applies to the income.",
+  "note": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time.",
+  "category": "Tax & Filing",
+  "aliases": [
+   "Withholding Tax"
+  ]
+ },
+ {
+  "id": "hrfinance-295",
+  "term": "Withholding Agent",
+  "definition": "A party obligated to withhold and remit tax when paying the relevant income.",
+  "example": "I confirmed who the withholding agent is for this payment.",
+  "note": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time.",
+  "category": "Tax & Filing",
+  "aliases": [
+   "Withholding Agent"
+  ]
+ },
+ {
+  "id": "hrfinance-296",
+  "term": "Withholding Tax Receipt",
+  "definition": "A document confirming details such as the income paid and the tax withheld.",
+  "example": "Please check the previous employer's withholding tax receipt for the new hire.",
+  "note": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time.",
+  "category": "Tax & Filing",
+  "aliases": [
+   "Withholding Tax Receipt"
+  ]
+ },
+ {
+  "id": "hrfinance-297",
+  "term": "Statement of Payment",
+  "definition": "A document that an income payer submits to the tax authorities detailing the payees and income amounts.",
+  "example": "Before submitting the statement of payment, I reconciled the payee information with the amounts paid.",
+  "note": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time.",
+  "category": "Tax & Filing",
+  "aliases": [
+   "Statement of Payment"
+  ]
+ },
+ {
+  "id": "hrfinance-298",
+  "term": "Year-end Tax Settlement",
+  "definition": "The procedure of calculating the annual tax on employment income and the like and reconciling the difference with the tax already withheld.",
+  "example": "Please check the items submitted in duplicate among the year-end tax settlement materials.",
+  "note": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time.",
+  "category": "Tax & Filing",
+  "aliases": [
+   "Year-end Tax Settlement"
+  ]
+ },
+ {
+  "id": "hrfinance-299",
+  "term": "Corporate Income Tax",
+  "definition": "A tax levied on a corporation's income and the like.",
+  "example": "Based on the closing results and tax adjustments, we prepare the corporate tax return materials.",
+  "note": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time.",
+  "category": "Tax & Filing",
+  "aliases": [
+   "Corporate Income Tax"
+  ]
+ },
+ {
+  "id": "hrfinance-300",
+  "term": "Deferred Tax",
+  "definition": "An item reflecting in accounting the future tax effects arising from differences between the accounting and tax amounts of assets and liabilities.",
+  "example": "I reviewed the reversal timing of the temporary differences and calculated the deferred tax.",
+  "note": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time.",
+  "category": "Tax & Filing",
+  "aliases": [
+   "Deferred Tax"
+  ]
+ },
+ {
+  "id": "hrfinance-301",
+  "term": "Booking",
+  "definition": "The task of entering transaction details as an accounting voucher or recording them in the books.",
+  "example": "Once the account titles are confirmed, please book it by the end of today.",
+  "category": "HR & Finance Field Expressions",
+  "aliases": [
+   "Posting a Voucher",
+   "Entering a Voucher",
+   "Recording a Journal Entry",
+   "Booking"
+  ]
+ },
+ {
+  "id": "hrfinance-302",
+  "term": "Reversing Entry",
+  "definition": "A journal entry that flips the debit and credit to cancel the effect of an existing entry in the opposite direction.",
+  "example": "I reversed the incorrectly entered voucher and then re-processed it correctly.",
+  "category": "HR & Finance Field Expressions",
+  "aliases": [
+   "Reversing Entry",
+   "Reversal"
+  ]
+ },
+ {
+  "id": "hrfinance-303",
+  "term": "Provisional Closing",
+  "definition": "A closing that tentatively aggregates profit or loss and financial position using data before final confirmation.",
+  "example": "As not all expenses had come in yet, I reported using provisional closing figures.",
+  "category": "HR & Finance Field Expressions",
+  "aliases": [
+   "Preliminary Closing"
+  ]
+ },
+ {
+  "id": "hrfinance-304",
+  "term": "Suspense Receipts",
+  "definition": "An amount temporarily recorded because, although a receipt is confirmed, the transaction details or final account cannot be determined.",
+  "example": "I recorded it as a suspense receipt until the depositor could be confirmed.",
+  "category": "HR & Finance Field Expressions",
+  "aliases": [
+   "Suspense Receipts"
+  ]
+ },
+ {
+  "id": "hrfinance-305",
+  "term": "Temporary Payments",
+  "definition": "An amount temporarily recorded because, although money was paid, the usage details or final account have not been determined.",
+  "example": "After the business trip, please submit the documentation and settle the temporary payment.",
+  "category": "HR & Finance Field Expressions",
+  "aliases": [
+   "Temporary Payments"
+  ]
+ },
+ {
+  "id": "hrfinance-306",
+  "term": "Withheld Amounts",
+  "definition": "An amount held temporarily that does not belong to the company but is intended to be passed on to another person or institution.",
+  "example": "I recorded the tax deducted from payroll as withheld amounts.",
+  "category": "HR & Finance Field Expressions",
+  "aliases": [
+   "Withheld Amounts"
+  ]
+ },
+ {
+  "id": "hrfinance-307",
+  "term": "Open Item",
+  "definition": "A state or item for which a transaction's matching, settlement, or processing is not yet complete.",
+  "example": "Please check the owner and processing plan for the open items remaining by month-end.",
+  "category": "HR & Finance Field Expressions",
+  "aliases": [
+   "Open Items"
+  ]
+ },
+ {
+  "id": "hrfinance-308",
+  "term": "Clearing",
+  "definition": "The treatment of linking matching receipt/payment, receivable, and payable items to clear outstanding balances.",
+  "example": "After payment matching, I cleared the relevant receivable.",
+  "category": "HR & Finance Field Expressions",
+  "aliases": [
+   "Clearing"
+  ]
+ },
+ {
+  "id": "hrfinance-309",
+  "term": "Tying Out the Numbers",
+  "definition": "A practical expression for the reconciliation work of finding the cause of amount differences across books, statements, and reports and making them agree.",
+  "example": "Before reporting, please tie out the ledger and summary-table numbers first.",
+  "category": "HR & Finance Field Expressions",
+  "aliases": [
+   "To Tie Out the Numbers"
+  ]
+ },
+ {
+  "id": "hrfinance-310",
+  "term": "Lock the Close",
+  "definition": "Closing entry for the relevant accounting period or restricting additional entry in the system.",
+  "example": "After confirming there are no unapproved vouchers, I'll lock the close.",
+  "category": "HR & Finance Field Expressions",
+  "aliases": [
+   "To Lock the Period"
+  ]
+ },
+ {
+  "id": "hrfinance-311",
+  "term": "Unlock the Close",
+  "definition": "Temporarily lifting the entry restriction through an approval procedure because corrections are needed in a closed accounting period.",
+  "example": "To reflect the correcting voucher, unlock-the-close approval is required.",
+  "category": "HR & Finance Field Expressions",
+  "aliases": [
+   "To Unlock the Period"
+  ]
+ },
+ {
+  "id": "hrfinance-312",
+  "term": "Charge an Expense",
+  "definition": "A practical expression for reflecting a specific expenditure as an expense or attributing it to a specific department or project budget.",
+  "example": "Which department's budget should this training expense be charged to?",
+  "category": "HR & Finance Field Expressions",
+  "aliases": [
+   "To Charge an Expense"
+  ]
+ },
+ {
+  "id": "hrfinance-313",
+  "term": "Book an Expense",
+  "definition": "An expression for reflecting an incurred expenditure or obligation as an expense of the relevant period in the accounts.",
+  "example": "The service is finished, so please book the expense this month even before billing.",
+  "category": "HR & Finance Field Expressions",
+  "aliases": [
+   "To Book an Expense"
+  ]
+ },
+ {
+  "id": "hrfinance-314",
+  "term": "Build a Provision",
+  "definition": "A practical expression for reflecting an estimated amount set aside against expected losses and the like as a provision.",
+  "example": "After reviewing collectability, I will build the necessary allowance for doubtful accounts.",
+  "category": "HR & Finance Field Expressions",
+  "aliases": [
+   "To Build a Provision"
+  ]
+ },
+ {
+  "id": "hrfinance-315",
+  "term": "Budget Hold",
+  "definition": "An expression for allocating a budget or temporarily suspending its execution. The two meanings must be distinguished by context.",
+  "example": "Please hold that budget until the contract terms are confirmed.",
+  "category": "HR & Finance Field Expressions",
+  "aliases": [
+   "Budget Hold"
+  ]
+ },
+ {
+  "id": "hrfinance-316",
+  "term": "Hiring Freeze",
+  "definition": "A measure that halts or restricts new hiring at a company or specific organization for a period.",
+  "example": "Please confirm whether approved replacement hiring proceeds even during the hiring freeze.",
+  "category": "HR & Finance Field Expressions",
+  "aliases": [
+   "Hiring Freeze"
+  ]
+ },
+ {
+  "id": "hrfinance-317",
+  "term": "TO",
+  "definition": "A practical expression for an approved staffing position or the number of people that can be filled in an organization.",
+  "example": "Before posting the new job opening, please check the remaining open headcount.",
+  "category": "HR & Finance Field Expressions",
+  "aliases": [
+   "Headcount Slot",
+   "Open Position"
+  ]
+ },
+ {
+  "id": "hrfinance-318",
+  "term": "Retention",
+  "definition": "In HR, managing the work experience, compensation, and the like so that members stay with the organization.",
+  "example": "I reviewed retention measures for key talent in terms of compensation and career.",
+  "category": "HR & Finance Field Expressions",
+  "aliases": [
+   "Retention",
+   "Talent Retention"
+  ]
+ },
+ {
+  "id": "hrfinance-319",
+  "term": "Fit",
+  "definition": "In hiring, how well an applicant's working style, values, and the like match the role or the organizational environment.",
+  "example": "Instead of a vague impression, please assess fit using specific examples of collaboration.",
+  "category": "HR & Finance Field Expressions",
+  "aliases": [
+   "Culture Fit"
+  ]
+ },
+ {
+  "id": "hrfinance-320",
+  "term": "Payroll",
+  "definition": "The workflow of calculating pay by reflecting attendance and compensation criteria and processing deductions, payments, and related filing materials.",
+  "example": "I passed this month's assignment and leave changes to the payroll administrator.",
+  "category": "HR & Finance Field Expressions",
+  "aliases": [
+   "Payroll"
+  ]
+ },
+ {
+  "id": "common-158",
+  "term": "RFP",
+  "definition": "A document that informs vendors of the required tasks and proposal conditions.",
+  "example": "In the RFP, we first check the delivery scope and the proposal deadline.",
+  "category": "Business Documents & Progress",
+  "aliases": [
+   "Request for Proposal"
+  ]
+ },
+ {
+  "id": "common-159",
+  "term": "Proposal",
+  "definition": "A document that presents the method of solving a problem and the plan for carrying it out.",
+  "example": "In the proposal, we state the solution along with cost and schedule.",
+  "category": "Business Documents & Progress",
+  "aliases": [
+   "Proposal"
+  ]
+ },
+ {
+  "id": "common-160",
+  "term": "Feasibility",
+  "definition": "The degree to which something can be carried out in terms of budget, time, and technology.",
+  "example": "We set the schedule after confirming feasibility.",
+  "category": "Schedule & Scope",
+  "aliases": [
+   "Feasibility"
+  ]
+ },
+ {
+  "id": "common-161",
+  "term": "Consensus",
+  "definition": "A common opinion or agreement reached among stakeholders.",
+  "example": "We aligned on a consensus regarding the scope of change.",
+  "category": "Collaboration & Communication",
+  "aliases": [
+   "Consensus",
+   "Reaching Consensus"
+  ]
+ },
+ {
+  "id": "common-162",
+  "term": "Spec Out",
+  "definition": "An expression for removing a planned feature or item from the current scope of work.",
+  "example": "We spec'd out the add-on items from this delivery scope.",
+  "note": "Here it means exclusion from the project scope. Distinguish it from the manufacturing or inspection sense of being out of specification.",
+  "category": "Schedule & Scope",
+  "aliases": [
+   "Spec Out"
+  ]
+ },
+ {
+  "id": "common-163",
+  "term": "Alternative",
+  "definition": "A backup option prepared to replace the original plan.",
+  "example": "We also prepare an alternative to use when the existing schedule is difficult.",
+  "category": "Planning & Coordination",
+  "aliases": [
+   "Alternative",
+   "Plan B"
+  ]
+ },
+ {
+  "id": "common-164",
+  "term": "Value for Money",
+  "definition": "An abbreviation indicating the level of performance or utility relative to price.",
+  "example": "We choose equipment with good value for money by comparing the needed performance and the price.",
+  "category": "Value & Choice",
+  "aliases": [
+   "Price-to-Performance Ratio",
+   "Cost-Effectiveness"
+  ]
+ },
+ {
+  "id": "common-165",
+  "term": "Emotional Value for Money",
+  "definition": "An abbreviation for the psychological satisfaction gained relative to price. It emphasizes taste and emotional satisfaction beyond function.",
+  "example": "Even if the price is a bit high, the satisfaction from the design makes it feel worth it.",
+  "category": "Value & Choice",
+  "aliases": [
+   "Psychological Value for Money",
+   "Satisfaction for Money"
+  ]
+ },
+ {
+  "id": "common-166",
+  "term": "Insta",
+  "definition": "A shortened name for Instagram. One of the social media channels for running brand content and ads.",
+  "example": "We post event announcements on the official Instagram account.",
+  "category": "Platforms & Abbreviations",
+  "aliases": [
+   "Instagram"
+  ]
+ },
+ {
+  "id": "common-167",
+  "term": "FB",
+  "definition": "A shortened name for Facebook. A channel name used in work with pages, posts, ads, and the like.",
+  "example": "We check the company's public news on the Facebook page.",
+  "category": "Platforms & Abbreviations",
+  "aliases": [
+   "Facebook"
+  ]
+ },
+ {
+  "id": "hrfinance-321",
+  "term": "YoY",
+  "definition": "A basis for comparing results with the same period of the previous year. The comparison period and aggregation scope, whether monthly, quarterly, or annual, are kept aligned.",
+  "example": "September sales rose YoY, but we also check last year's one-off sales.",
+  "category": "Performance Comparison & Reporting Metrics",
+  "aliases": [
+   "Y/Y",
+   "Year-over-Year",
+   "Same Period Last Year"
+  ]
+ },
+ {
+  "id": "hrfinance-322",
+  "term": "MoM",
+  "definition": "A basis for comparing this month's figure with the immediately preceding month. Avoid mixing a month-to-date total with a full prior month's result.",
+  "example": "We split the MoM increase in labor costs into new hires and bonus payments.",
+  "category": "Performance Comparison & Reporting Metrics",
+  "aliases": [
+   "M/M",
+   "Month-over-Month"
+  ]
+ },
+ {
+  "id": "hrfinance-323",
+  "term": "QoQ",
+  "definition": "A basis for comparing this quarter's results with the immediately preceding quarter.",
+  "example": "We analyze whether the QoQ decline in operating profit is due to seasonality or cost increases.",
+  "category": "Performance Comparison & Reporting Metrics",
+  "aliases": [
+   "Q/Q",
+   "Quarter-over-Quarter"
+  ]
+ },
+ {
+  "id": "hrfinance-324",
+  "term": "WoW",
+  "definition": "A basis for comparing this week's figure with the immediately preceding week. The week start date and the number of days aggregated are kept aligned.",
+  "example": "When comparing applicant counts WoW, we also check the number of days the posting ran.",
+  "category": "Performance Comparison & Reporting Metrics",
+  "aliases": [
+   "W/W",
+   "Week-over-Week"
+  ]
+ },
+ {
+  "id": "hrfinance-325",
+  "term": "YTD",
+  "definition": "Results accumulated from the start of the fiscal year to the reference date. If the fiscal year differs from the calendar year, the start month also differs.",
+  "example": "We compare September YTD expenses with the budget cumulative for the same period.",
+  "category": "Performance Comparison & Reporting Metrics",
+  "aliases": [
+   "Year-to-Date"
+  ]
+ },
+ {
+  "id": "hrfinance-326",
+  "term": "MTD",
+  "definition": "Results accumulated from the first day of the month to the reference date.",
+  "example": "We report MTD sales as of the 15th separately from the full-month target.",
+  "category": "Performance Comparison & Reporting Metrics",
+  "aliases": [
+   "Month-to-Date"
+  ]
+ },
+ {
+  "id": "hrfinance-327",
+  "term": "QTD",
+  "definition": "Results accumulated from the first day of the quarter to the reference date.",
+  "example": "We bring Q2 QTD cash inflows to the weekly treasury meeting.",
+  "category": "Performance Comparison & Reporting Metrics",
+  "aliases": [
+   "Quarter-to-Date"
+  ]
+ },
+ {
+  "id": "hrfinance-328",
+  "term": "FY",
+  "definition": "The one-year period that serves as the basis for financial reporting and budgeting. Depending on the company, it may differ from January to December on the calendar.",
+  "example": "We align the start and end months of the FY27 budget with the overseas subsidiary.",
+  "category": "Performance Comparison & Reporting Metrics",
+  "aliases": [
+   "Fiscal Year"
+  ]
+ },
+ {
+  "id": "hrfinance-329",
+  "term": "CY",
+  "definition": "The calendar-based year from January 1 to December 31.",
+  "example": "We distinguish CY-based statistics from sales on the company's fiscal-year basis.",
+  "category": "Performance Comparison & Reporting Metrics",
+  "aliases": [
+   "Calendar Year"
+  ]
+ },
+ {
+  "id": "hrfinance-330",
+  "term": "TTM",
+  "definition": "A method of viewing the combined results of the most recent 12 months counting back from a specific reference date.",
+  "example": "We compare recent business scale using TTM sales as of quarter-end.",
+  "category": "Performance Comparison & Reporting Metrics",
+  "aliases": [
+   "LTM",
+   "Last Twelve Months",
+   "Trailing Twelve Months"
+  ]
+ },
+ {
+  "id": "hrfinance-331",
+  "term": "CAGR",
+  "definition": "The growth between a start value and an end value expressed as a constant annual compound growth rate. It differs from a simple average of year-by-year growth rates.",
+  "example": "When calculating 3-year sales CAGR, we align the start and end years and the number of periods.",
+  "category": "Performance Comparison & Reporting Metrics",
+  "aliases": [
+   "Compound Annual Growth Rate"
+  ]
+ },
+ {
+  "id": "hrfinance-332",
+  "term": "Percentage Point",
+  "definition": "A unit expressing the difference between two ratios. A change from 10% to 12% is a rise of 2 percentage points.",
+  "example": "We write that the operating margin improved by 2%p and distinguish it from a 2% increase.",
+  "category": "Performance Comparison & Reporting Metrics",
+  "aliases": [
+   "%p",
+   "pp",
+   "Percentage Point"
+  ]
+ },
+ {
+  "id": "hrfinance-333",
+  "term": "bp",
+  "definition": "A unit expressing differences in interest rates, yields, and the like; 1 bp is 0.01 percentage point.",
+  "example": "We calculate how much interest expense rises if the borrowing rate goes up 25 bp.",
+  "category": "Performance Comparison & Reporting Metrics",
+  "aliases": [
+   "bps",
+   "Basis Point"
+  ]
+ },
+ {
+  "id": "hrfinance-334",
+  "term": "Base Effect",
+  "definition": "A phenomenon where the figure in the comparison base period is unusually high or low, making the growth rate appear greatly different.",
+  "example": "We exclude the base effect of last year's expense reversal and explain this year's expense trend.",
+  "category": "Performance Comparison & Reporting Metrics"
+ },
+ {
+  "id": "hrfinance-335",
+  "term": "Seasonality",
+  "definition": "The characteristic of results fluctuating repeatedly in particular seasons or periods.",
+  "example": "We compare monthly labor costs taking into account the seasonality of bonus payment timing.",
+  "category": "Performance Comparison & Reporting Metrics"
+ },
+ {
+  "id": "hrfinance-336",
+  "term": "Run Rate",
+  "definition": "A figure converted to an annual or set-period scale assuming the recent performance trend continues.",
+  "example": "We show the recent monthly sales run rate separately from the confirmed forecast that reflects seasonality.",
+  "category": "Performance Comparison & Reporting Metrics",
+  "aliases": [
+   "Run Rate",
+   "Annualized"
+  ]
+ },
+ {
+  "id": "hrfinance-337",
+  "term": "Actuals",
+  "definition": "Actual incurred or aggregated figures as opposed to plan or forecast. We distinguish provisional results before closing from confirmed results.",
+  "example": "We reflect confirmed closing actuals rather than the forecast in the budget file.",
+  "category": "Performance Comparison & Reporting Metrics",
+  "aliases": [
+   "Actuals",
+   "ACT"
+  ]
+ },
+ {
+  "id": "hrfinance-338",
+  "term": "Forecast",
+  "definition": "Estimating future sales, costs, profit, and the like based on current information and assumptions.",
+  "example": "As the order schedule slipped, we lowered next quarter's sales forecast.",
+  "category": "Performance Comparison & Reporting Metrics",
+  "aliases": [
+   "FCST",
+   "FCT",
+   "Forecast",
+   "Forecasting"
+  ]
+ },
+ {
+  "id": "hrfinance-339",
+  "term": "Variance Analysis",
+  "definition": "An analysis that explains, by cause, the differences between actuals and budget, forecast, or past results.",
+  "example": "We split the labor cost variance analysis into headcount and average salary changes.",
+  "category": "Performance Comparison & Reporting Metrics",
+  "aliases": [
+   "Variance Analysis",
+   "Variance"
+  ]
+ },
+ {
+  "id": "hrfinance-340",
+  "term": "Bridge Analysis",
+  "definition": "An analysis that connects the process of change from a starting figure to a final figure through increases and decreases by factor such as price, volume, and cost.",
+  "example": "We show the change from last year's operating profit to this year's as a bridge.",
+  "category": "Performance Comparison & Reporting Metrics",
+  "aliases": [
+   "Waterfall Analysis",
+   "Profit Bridge"
+  ]
+ },
+ {
+  "id": "hrfinance-341",
+  "term": "CF",
+  "definition": "The flow of cash into or out of a company. Accounting profit and actual cash inflows and outflows can differ in timing and amount.",
+  "example": "Even if the P&L is in the black, CF can fall short if collections are late.",
+  "category": "Financial Performance & Investment Metrics",
+  "aliases": [
+   "C/F",
+   "Cash Flow"
+  ]
+ },
+ {
+  "id": "hrfinance-342",
+  "term": "EBIT",
+  "definition": "An earnings indicator before deducting interest and corporate taxes. It is not always the same value as accounting operating profit.",
+  "example": "We separately disclose the adjustment items of the EBIT used in comparing investment proposals.",
+  "category": "Financial Performance & Investment Metrics",
+  "aliases": [
+   "Earnings Before Interest and Taxes"
+  ]
+ },
+ {
+  "id": "hrfinance-343",
+  "term": "Adjusted EBITDA",
+  "definition": "An indicator presented by adding or subtracting specific company-defined items from EBITDA. The adjustment basis and its link to the original figure should be confirmed.",
+  "example": "We report adjusted EBITDA excluding one-off costs together with the excluded items.",
+  "category": "Financial Performance & Investment Metrics",
+  "aliases": [
+   "Adjusted EBITDA"
+  ]
+ },
+ {
+  "id": "hrfinance-344",
+  "term": "Gross Profit Margin",
+  "definition": "The ratio of gross profit (sales less cost of sales) to sales.",
+  "example": "We compare gross profit margin by product to check the impact of cost increases.",
+  "category": "Financial Performance & Investment Metrics",
+  "aliases": [
+   "GPM",
+   "Gross Profit Margin"
+  ]
+ },
+ {
+  "id": "hrfinance-345",
+  "term": "Operating Profit Margin",
+  "definition": "The ratio of operating profit to sales.",
+  "example": "We explain how much the operating margin fell due to the increase in outsourcing costs.",
+  "category": "Financial Performance & Investment Metrics",
+  "aliases": [
+   "OPM",
+   "Operating Margin"
+  ]
+ },
+ {
+  "id": "hrfinance-346",
+  "term": "Net Profit Margin",
+  "definition": "The ratio of net income to sales.",
+  "example": "We split the difference between operating margin and net margin into financial costs and corporate tax.",
+  "category": "Financial Performance & Investment Metrics",
+  "aliases": [
+   "NPM",
+   "Net Income Margin"
+  ]
+ },
+ {
+  "id": "hrfinance-347",
+  "term": "ROE",
+  "definition": "The ratio of net income to shareholders' equity. It usually uses average equity as the denominator; the period and calculation basis should be confirmed.",
+  "example": "We examine whether the ROE change is due to higher profit or lower equity.",
+  "category": "Financial Performance & Investment Metrics",
+  "aliases": [
+   "Return on Equity"
+  ]
+ },
+ {
+  "id": "hrfinance-348",
+  "term": "ROA",
+  "definition": "A ratio showing how much profit was earned using total assets. The scope of the profit and average assets is specified.",
+  "example": "We review why ROA fell after the new facility investment.",
+  "category": "Financial Performance & Investment Metrics",
+  "aliases": [
+   "Return on Assets"
+  ]
+ },
+ {
+  "id": "hrfinance-349",
+  "term": "ROIC",
+  "definition": "An indicator of profitability such as after-tax operating profit relative to the capital invested in operations. The calculation scope of invested capital is applied consistently.",
+  "example": "We compare business-unit ROIC with the cost of capital to review investment efficiency.",
+  "category": "Financial Performance & Investment Metrics",
+  "aliases": [
+   "Return on Invested Capital"
+  ]
+ },
+ {
+  "id": "hrfinance-350",
+  "term": "EPS",
+  "definition": "The profit attributable to one common share. Basic EPS is calculated based on profit attributable to common shares and the weighted-average number of shares outstanding.",
+  "example": "We check the EPS in the results materials together with changes in profit and share count.",
+  "category": "Financial Performance & Investment Metrics",
+  "aliases": [
+   "Earnings Per Share"
+  ]
+ },
+ {
+  "id": "hrfinance-351",
+  "term": "Diluted EPS",
+  "definition": "Earnings per share reflecting the dilutive effect of securities and the like that could be converted into shares.",
+  "example": "We compare diluted EPS, which includes the effect of stock options, with basic EPS.",
+  "category": "Financial Performance & Investment Metrics",
+  "aliases": [
+   "Diluted EPS",
+   "Diluted Earnings Per Share"
+  ]
+ },
+ {
+  "id": "hrfinance-352",
+  "term": "DPS",
+  "definition": "The dividend paid per share.",
+  "example": "We check the total payout by reconciling the DPS in the dividend plan with the number of shares issued.",
+  "category": "Financial Performance & Investment Metrics",
+  "aliases": [
+   "Dividend Per Share"
+  ]
+ },
+ {
+  "id": "hrfinance-353",
+  "term": "Dividend Payout Ratio",
+  "definition": "The ratio of profit paid out as dividends. It is calculated by aligning the scope of the profit and dividends used.",
+  "example": "We compare the payout ratio after confirming whether it is on a consolidated or separate net income basis.",
+  "category": "Financial Performance & Investment Metrics"
+ },
+ {
+  "id": "hrfinance-354",
+  "term": "EV",
+  "definition": "A value used to assess the entire business value of a company. For listed companies, it may be calculated by adjusting market capitalization for net debt and the like.",
+  "example": "We align the treatment of cash and debt when converting EV to equity value.",
+  "category": "Financial Performance & Investment Metrics",
+  "aliases": [
+   "Enterprise Value"
+  ]
+ },
+ {
+  "id": "hrfinance-355",
+  "term": "DCF",
+  "definition": "A method of estimating the value of a business or asset by converting future cash flows to present value at an appropriate discount rate.",
+  "example": "In the DCF model, we check the change in value while varying the growth rate and discount rate.",
+  "category": "Financial Performance & Investment Metrics",
+  "aliases": [
+   "Discounted Cash Flow"
+  ]
+ },
+ {
+  "id": "hrfinance-356",
+  "term": "NPV",
+  "definition": "The sum of the present values of expected cash inflows and outflows.",
+  "example": "We reflect both the initial investment and maintenance costs in the NPV of the facility investment proposal.",
+  "category": "Financial Performance & Investment Metrics",
+  "aliases": [
+   "Net Present Value"
+  ]
+ },
+ {
+  "id": "hrfinance-357",
+  "term": "IRR",
+  "definition": "The discount rate that makes the net present value of an investment's cash flows zero. Depending on the cash flow pattern, there may be multiple solutions or none.",
+  "example": "We report not only the IRR but also the investment size and recovery timing.",
+  "category": "Financial Performance & Investment Metrics",
+  "aliases": [
+   "Internal Rate of Return"
+  ]
+ },
+ {
+  "id": "hrfinance-358",
+  "term": "WACC",
+  "definition": "The cost of capital calculated by weighting the costs of equity and debt according to the capital structure.",
+  "example": "We align the cash flow basis of the valuation model with the WACC basis.",
+  "category": "Financial Performance & Investment Metrics",
+  "aliases": [
+   "Weighted Average Cost of Capital"
+  ]
+ },
+ {
+  "id": "hrfinance-359",
+  "term": "Payback Period",
+  "definition": "The period it takes to recover invested funds through subsequent cash inflows.",
+  "example": "We check whether an investment with a short payback period also has high subsequent maintenance costs.",
+  "category": "Financial Performance & Investment Metrics",
+  "aliases": [
+   "Investment Payback Period"
+  ]
+ },
+ {
+  "id": "hrfinance-360",
+  "term": "Sensitivity Analysis",
+  "definition": "An analysis that checks how much the result changes when key assumptions are varied.",
+  "example": "We prepare a sensitivity analysis of profit to the exchange rate and the sales growth rate.",
+  "category": "Financial Performance & Investment Metrics"
+ },
+ {
+  "id": "hrfinance-361",
+  "term": "Days Payable Outstanding",
+  "definition": "An indicator expressing in days the average period it takes to pay trade payables. The calculation basis, such as the purchase amount, should be confirmed.",
+  "example": "We check whether a falling DPO increased the working capital burden.",
+  "category": "Treasury & Receivables Operations",
+  "aliases": [
+   "DPO"
+  ]
+ },
+ {
+  "id": "hrfinance-362",
+  "term": "Days Inventory Outstanding",
+  "definition": "An indicator showing the average period inventory stays before being sold or used.",
+  "example": "For items with a longer DIO, we set up a separate inventory clearance plan.",
+  "category": "Treasury & Receivables Operations",
+  "aliases": [
+   "DIO",
+   "DIH",
+   "Days Inventory Held"
+  ]
+ },
+ {
+  "id": "hrfinance-363",
+  "term": "Cash Conversion Cycle",
+  "definition": "A working capital turnover indicator that subtracts the payable deferral period from the period during which funds are tied up in inventory and receivables.",
+  "example": "We check the CCC trend by adding DIO and DSO and subtracting DPO.",
+  "category": "Treasury & Receivables Operations",
+  "aliases": [
+   "CCC"
+  ]
+ },
+ {
+  "id": "hrfinance-364",
+  "term": "Net Working Capital",
+  "definition": "Current assets less current liabilities. In enterprise value analysis, operating net working capital excluding cash, debt, and the like is sometimes used.",
+  "example": "We first agree on the accounts subject to NWC adjustment in the contract.",
+  "category": "Treasury & Receivables Operations",
+  "aliases": [
+   "NWC"
+  ]
+ },
+ {
+  "id": "hrfinance-365",
+  "term": "Cash Balance",
+  "definition": "The balance of cash, deposits, and the like held at a reference point. Whether restricted funds are included is distinguished.",
+  "example": "We report the cash balance and the available balance separately before reflecting scheduled payments.",
+  "category": "Treasury & Receivables Operations",
+  "aliases": [
+   "Cash Balance"
+  ]
+ },
+ {
+  "id": "hrfinance-366",
+  "term": "Daily Cash Report",
+  "definition": "A report organizing the day's cash and deposit balances, receipts and payments, and the funding plan.",
+  "example": "We reconcile the closing balance in the daily cash report with the bank transaction details.",
+  "category": "Treasury & Receivables Operations",
+  "aliases": [
+   "Daily Cash Report"
+  ]
+ },
+ {
+  "id": "hrfinance-367",
+  "term": "Cash Plan",
+  "definition": "A plan that forecasts funding shortfalls or surpluses by reflecting expected receipt and payment timing.",
+  "example": "We reflect tax and payroll payment dates in the weekly cash plan.",
+  "category": "Treasury & Receivables Operations",
+  "aliases": [
+   "Cash Flow Forecast",
+   "Cash Forecast"
+  ]
+ },
+ {
+  "id": "hrfinance-368",
+  "term": "Payment Terms",
+  "definition": "Transaction terms specifying the timing, method, and installment status of payment.",
+  "example": "We check whether each supplier's payment terms are accurately entered in the cash plan.",
+  "category": "Treasury & Receivables Operations",
+  "aliases": [
+   "Settlement Terms"
+  ]
+ },
+ {
+  "id": "hrfinance-369",
+  "term": "Net 30",
+  "definition": "A notation for terms requiring full payment within 30 days from an agreed reference date such as the invoice issue date.",
+  "example": "We confirm in the contract whether the Net 30 start date is the acceptance date or the invoice date.",
+  "category": "Treasury & Receivables Operations",
+  "aliases": [
+   "Net 30"
+  ]
+ },
+ {
+  "id": "hrfinance-370",
+  "term": "Payment Run",
+  "definition": "A processing unit that gathers payables due for payment, reviews and approves them, and then transfers them in a batch.",
+  "example": "Before finalizing the payment run, we check for duplicate invoices and account changes.",
+  "category": "Treasury & Receivables Operations",
+  "aliases": [
+   "Payment Run"
+  ]
+ },
+ {
+  "id": "hrfinance-371",
+  "term": "Funds Transfer",
+  "definition": "The work of moving funds between accounts.",
+  "example": "For large funds transfers, we reconcile the approval details with the recipient account.",
+  "category": "Treasury & Receivables Operations",
+  "aliases": [
+   "Remittance",
+   "Transfer"
+  ]
+ },
+ {
+  "id": "hrfinance-372",
+  "term": "Automatic Debit",
+  "definition": "A method whereby payments are automatically withdrawn from an account according to a set consent and conditions.",
+  "example": "We share the automatic debit date and the withdrawal limit with the treasury team.",
+  "category": "Treasury & Receivables Operations",
+  "aliases": [
+   "Direct Debit"
+  ]
+ },
+ {
+  "id": "hrfinance-373",
+  "term": "Receivables Factoring",
+  "definition": "A transaction that transfers trade receivables to a financial company and the like to raise funds or outsource collection management.",
+  "example": "We review the accounting treatment by confirming whether the factoring contract is with recourse.",
+  "category": "Treasury & Receivables Operations",
+  "aliases": [
+   "Factoring"
+  ]
+ },
+ {
+  "id": "hrfinance-374",
+  "term": "Cash Pooling",
+  "definition": "A method of managing funds by concentrating or linking the balances of multiple accounts or affiliates.",
+  "example": "We organize the accounts that will participate in the overseas subsidiary's cash pooling.",
+  "category": "Treasury & Receivables Operations",
+  "aliases": [
+   "Cash Pooling"
+  ]
+ },
+ {
+  "id": "hrfinance-375",
+  "term": "Revolving Credit Facility",
+  "definition": "A credit facility that allows repeated borrowing, repayment, and re-borrowing within the agreed period and limit.",
+  "example": "We report the unused limit and maturity schedule of the RCF at the month-end treasury meeting.",
+  "category": "Treasury & Receivables Operations",
+  "aliases": [
+   "RCF",
+   "Revolving Credit Facility"
+  ]
+ },
+ {
+  "id": "hrfinance-376",
+  "term": "Collateral",
+  "definition": "Property or rights provided to secure the performance of an obligation.",
+  "example": "We reconcile the scope of the collateral set under the borrowing agreement with the asset register.",
+  "category": "Treasury & Receivables Operations"
+ },
+ {
+  "id": "hrfinance-377",
+  "term": "Covenant",
+  "definition": "Conditions agreed to be observed in a borrowing contract and the like, such as financial ratios and restrictions on actions.",
+  "example": "We confirm the EBITDA definition to apply in the quarter-end covenant calculation in the agreement.",
+  "category": "Treasury & Receivables Operations",
+  "aliases": [
+   "Financial Covenant",
+   "Covenant"
+  ]
+ },
+ {
+  "id": "hrfinance-378",
+  "term": "Interest Coverage Ratio",
+  "definition": "A ratio showing how well earnings can cover interest expense. It generally compares operating profit and the like with interest expense.",
+  "example": "We align the numerator basis of the interest coverage ratio with the loan agreement.",
+  "category": "Treasury & Receivables Operations",
+  "aliases": [
+   "ICR",
+   "Interest Coverage"
+  ]
+ },
+ {
+  "id": "hrfinance-379",
+  "term": "DSCR",
+  "definition": "A ratio comparing cash flow available for repayment and the like with the principal and interest repayments for the period.",
+  "example": "When calculating DSCR, we confirm the scope of available cash flow per the agreement.",
+  "category": "Treasury & Receivables Operations",
+  "aliases": [
+   "Debt Service Coverage Ratio"
+  ]
+ },
+ {
+  "id": "hrfinance-380",
+  "term": "Burn Rate",
+  "definition": "The speed at which a business consumes cash in its operations. The gross-spending basis and the net basis (after cash inflows) are distinguished.",
+  "example": "We split the cause of the rising monthly net burn rate into hiring and capital spending.",
+  "category": "Treasury & Receivables Operations",
+  "aliases": [
+   "Cash Burn Rate"
+  ]
+ },
+ {
+  "id": "hrfinance-381",
+  "term": "Runway",
+  "definition": "An estimate of the period a business can operate based on currently available cash and the expected cash burn rate.",
+  "example": "We separately calculate runway excluding new investment inflows.",
+  "category": "Treasury & Receivables Operations",
+  "aliases": [
+   "Cash Runway"
+  ]
+ },
+ {
+  "id": "hrfinance-382",
+  "term": "External Audit",
+  "definition": "A procedure performed by an independent auditor to express an opinion on whether the financial statements are prepared in accordance with the applicable accounting standards.",
+  "example": "We manage the owners and submission dates of the audit request materials.",
+  "category": "Closing, ERP & Internal Control",
+  "aliases": [
+   "External Audit"
+  ]
+ },
+ {
+  "id": "hrfinance-383",
+  "term": "Internal Audit",
+  "definition": "An activity that independently inspects the organization's risk management, controls, and operations from an internal perspective.",
+  "example": "In the internal audit, we check how the payment approval procedure actually operates.",
+  "category": "Closing, ERP & Internal Control"
+ },
+ {
+  "id": "hrfinance-384",
+  "term": "Internal Control",
+  "definition": "Procedures and activities the organization designs and operates to ensure reliable reporting, effective operations, legal compliance, and the like.",
+  "example": "We separate account changes and payment approval to strengthen internal control.",
+  "category": "Closing, ERP & Internal Control"
+ },
+ {
+  "id": "hrfinance-385",
+  "term": "Internal Control over Financial Reporting",
+  "definition": "An internal control system designed and operated to ensure the reliability of accounting information.",
+  "example": "We ask the internal control staff to submit evidence of control performance.",
+  "category": "Closing, ERP & Internal Control",
+  "aliases": [
+   "ICFR"
+  ]
+ },
+ {
+  "id": "hrfinance-386",
+  "term": "Segregation of Duties",
+  "definition": "Dividing the tasks and authorities that must check one another to reduce errors or fraud.",
+  "example": "We inspect the segregation of duties for vendor registration and payment authority.",
+  "category": "Closing, ERP & Internal Control",
+  "aliases": [
+   "SoD"
+  ]
+ },
+ {
+  "id": "hrfinance-387",
+  "term": "RCM",
+  "definition": "A table linking business risks with the control activities, owners, and evidence that address them.",
+  "example": "We write the control performance frequency and review evidence in the RCM.",
+  "category": "Closing, ERP & Internal Control",
+  "aliases": [
+   "Risk Control Matrix"
+  ]
+ },
+ {
+  "id": "hrfinance-388",
+  "term": "Walkthrough",
+  "definition": "An inspection that follows the flow of a single transaction to understand and confirm the procedure and control design.",
+  "example": "We confirm the approval points from purchase to payment via a walkthrough.",
+  "category": "Closing, ERP & Internal Control",
+  "aliases": [
+   "Control Walkthrough"
+  ]
+ },
+ {
+  "id": "hrfinance-389",
+  "term": "Audit Trail",
+  "definition": "A record that allows tracing who created, changed, or approved which transaction or information, and when.",
+  "example": "We check in the system whether an audit trail remains for voucher edits.",
+  "category": "Closing, ERP & Internal Control",
+  "aliases": [
+   "Audit Trail",
+   "Change History"
+  ]
+ },
+ {
+  "id": "hrfinance-390",
+  "term": "PBC",
+  "definition": "A practical notation for the materials a company prepares for the auditor's review, or the list of such requests.",
+  "example": "We update the outstanding items and owners on the PBC list daily.",
+  "category": "Closing, ERP & Internal Control",
+  "aliases": [
+   "Prepared by Client",
+   "PBC List"
+  ]
+ },
+ {
+  "id": "hrfinance-391",
+  "term": "Confirmation Letter",
+  "definition": "A document to have a counterparty, financial institution, and the like confirm balances and transaction facts.",
+  "example": "We explain the discrepancies in the trade receivables confirmation replies using the transaction details.",
+  "category": "Closing, ERP & Internal Control",
+  "aliases": [
+   "Receivables and Payables Confirmation",
+   "Balance Confirmation"
+  ]
+ },
+ {
+  "id": "hrfinance-392",
+  "term": "Goods in Transit",
+  "definition": "Purchased goods in transit. Whether to recognize them as assets is judged based on conditions such as the transfer of ownership or control.",
+  "example": "We confirm goods in transit at the closing date using the delivery terms and shipping documents.",
+  "category": "Closing, ERP & Internal Control"
+ },
+ {
+  "id": "hrfinance-393",
+  "term": "Unbilled Revenue",
+  "definition": "A practical expression for amounts for which revenue has been recognized but an invoice has not yet been issued.",
+  "example": "We check the scheduled billing date of unbilled revenue by project.",
+  "category": "Closing, ERP & Internal Control",
+  "aliases": [
+   "Unbilled Revenue"
+  ]
+ },
+ {
+  "id": "hrfinance-394",
+  "term": "Contract Asset",
+  "definition": "An asset where the right to consideration for recognized revenue depends on conditions other than merely the passage of time.",
+  "example": "For consideration with an outstanding acceptance condition, we review the distinction between contract asset and receivable.",
+  "category": "Closing, ERP & Internal Control"
+ },
+ {
+  "id": "hrfinance-395",
+  "term": "Contract Liability",
+  "definition": "An obligation to provide goods or services for which consideration has been received from the customer or has become billable.",
+  "example": "We review the contract liability corresponding to advance payments to match the service provision timing.",
+  "category": "Closing, ERP & Internal Control"
+ }
+]

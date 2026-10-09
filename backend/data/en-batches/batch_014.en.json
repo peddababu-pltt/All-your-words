@@ -1,0 +1,1390 @@
+[
+ {
+  "id": "marketing-511",
+  "term": "Mask",
+  "definition": "A method that controls which areas are shown or hidden without erasing the original.",
+  "example": "I adjust how much of the image is visible with a mask.",
+  "category": "Visual Design & Production",
+  "aliases": [
+   "layer mask",
+   "masking"
+  ]
+ },
+ {
+  "id": "marketing-512",
+  "term": "Outline",
+  "definition": "The outer line of an element. In print file work, it can also mean converting text from editable characters into shape outlines.",
+  "example": "In the print copy, I outline the text.",
+  "category": "Visual Design & Production",
+  "aliases": [
+   "outline",
+   "text outline conversion"
+  ]
+ },
+ {
+  "id": "common-128",
+  "term": "Project manager",
+  "definition": "The role that manages a project's scope, schedule, cost, and progress, along with collaboration among stakeholders.",
+  "example": "The project manager coordinates the predecessor tasks and the schedule.",
+  "category": "Schedule & Scope",
+  "aliases": [
+   "project PM",
+   "project manager"
+  ]
+ },
+ {
+  "id": "marketing-514",
+  "term": "Data analyst",
+  "definition": "The role that analyzes data to explain phenomena and produce the evidence needed for business decisions.",
+  "example": "The data analyst checks the drop-off points.",
+  "category": "Customer & Operations",
+  "aliases": [
+   "DA",
+   "data analyst"
+  ]
+ },
+ {
+  "id": "fashion-505",
+  "term": "Data analyst",
+  "definition": "The role that analyzes data to explain phenomena and produce the evidence needed for business decisions.",
+  "example": "I analyze return and repurchase rates by size together with the data analyst.",
+  "category": "Owned Store & Customer Operations",
+  "aliases": [
+   "DA",
+   "data analyst"
+  ]
+ },
+ {
+  "id": "design-388",
+  "term": "QC",
+  "definition": "The activity of inspecting and managing whether products and the production process meet set quality standards.",
+  "example": "In print QC, I check the trim position and color bleeding.",
+  "note": "This is the quality-management context when producing design deliverables such as packaging, printed matter, and physical products.",
+  "category": "Product Production & Quality",
+  "aliases": [
+   "quality control",
+   "quality inspection",
+   "QC"
+  ]
+ },
+ {
+  "id": "design-392",
+  "term": "OEM",
+  "definition": "A method of manufacturing and supplying products to match the ordering company's requirements and brand.",
+  "example": "I hand the designed goods to the OEM vendor and align the drawings and finish samples.",
+  "note": "This is the context of commissioning an external manufacturer to produce designed physical products and goods.",
+  "category": "Product Production & Quality",
+  "aliases": [
+   "original equipment manufacturing"
+  ]
+ },
+ {
+  "id": "design-393",
+  "term": "ODM",
+  "definition": "A method in which the manufacturer handles both product development and design and production, supplying it under the ordering company's brand.",
+  "example": "I discuss the exterior design and color to match the ODM vendor's product structure.",
+  "note": "This is the context of developing and manufacturing physical products together with an external manufacturer.",
+  "category": "Product Production & Quality",
+  "aliases": [
+   "original design manufacturing"
+  ]
+ },
+ {
+  "id": "common-129",
+  "term": "FYI",
+  "definition": "An abbreviation meaning \"for your information.\"",
+  "example": "FYI: I recorded the related decision in the document.",
+  "category": "Collaboration & Communication",
+  "aliases": [
+   "FYI",
+   "for your information"
+  ]
+ },
+ {
+  "id": "film-422",
+  "term": "On air",
+  "definition": "A term for the state in which an ad or broadcast is actually being transmitted or placed.",
+  "example": "After delivering the final master, I check the picture and sound of the on-air video.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "on air",
+   "to go on air"
+  ]
+ },
+ {
+  "id": "film-423",
+  "term": "Off air",
+  "definition": "A term for ending transmission of an ad or broadcast, or the state of not being transmitted.",
+  "example": "I check the schedule for swapping the broadcast creative in time for the off-air date.",
+  "category": "Ad Operations & Performance",
+  "aliases": [
+   "off air"
+  ]
+ },
+ {
+  "id": "marketing-551",
+  "term": "Embargo",
+  "definition": "Delivering material in advance while requesting or agreeing that it not be reported or made public before a set time.",
+  "example": "Please distribute the new-product material after confirming the embargo time.",
+  "note": "This is the press-release timing context. Distinguish it from the economic and trade meaning of an import-export ban. The date, time zone, and scope must be communicated clearly.",
+  "category": "Media Relations",
+  "aliases": [
+   "news embargo",
+   "reporting restriction"
+  ]
+ },
+ {
+  "id": "marketing-552",
+  "term": "PPL",
+  "definition": "An advertising method that places a product or brand within a broadcast or video content to expose it.",
+  "example": "I review a PPL arrangement where the product appears in line with the scene flow.",
+  "note": "This entry is product placement. It is not merged with the meaning of pay per lead.",
+  "category": "Ad Operations",
+  "aliases": [
+   "product placement",
+   "product placement",
+   "PPL"
+  ]
+ },
+ {
+  "id": "marketing-553",
+  "term": "RFM",
+  "definition": "A method of segmenting customers and analyzing their characteristics based on recency, frequency, and monetary value of purchases.",
+  "example": "I use RFM to find the customer segment whose recent purchases have declined.",
+  "note": "In purchase analysis, it uses recency, frequency, and monetary value. Distinguish it from simple visit metrics and define the analysis criteria.",
+  "category": "Customer & Operations",
+  "aliases": [
+   "RFM analysis",
+   "RFM"
+  ]
+ },
+ {
+  "id": "marketing-554",
+  "term": "Retainer",
+  "definition": "A contract model in which an agreed scope of work is carried out continuously over a period for a regular fee.",
+  "example": "I separate the work included in the monthly retainer from additional production.",
+  "category": "Agency Proposals",
+  "aliases": [
+   "retainer contract",
+   "ongoing retainer contract"
+  ]
+ },
+ {
+  "id": "marketing-555",
+  "term": "Debrief",
+  "definition": "The process of revisiting content after a briefing or activity and organizing the interpretation, results, and follow-up actions. In advertising, it is also used when a team re-organizes a received brief.",
+  "example": "After the client meeting, I gather the questions to confirm in the debrief.",
+  "category": "Agency Proposals",
+  "aliases": [
+   "debriefing",
+   "debriefing"
+  ]
+ },
+ {
+  "id": "marketing-556",
+  "term": "Concept",
+  "definition": "The central idea that ties a campaign's message and expression into one direction.",
+  "example": "I check whether this concept is conveyed consistently in the video and in stores.",
+  "category": "Brand Strategy",
+  "aliases": [
+   "concept",
+   "concept",
+   "campaign concept"
+  ]
+ },
+ {
+  "id": "marketing-557",
+  "term": "Customer journey",
+  "definition": "The actions and experiences a customer goes through as they recognize a need and move through exploration, purchase, use, and repurchase.",
+  "example": "In the customer journey, I find the friction just before purchase.",
+  "category": "Brand Strategy",
+  "aliases": [
+   "customer journey",
+   "customer journey"
+  ]
+ },
+ {
+  "id": "marketing-558",
+  "term": "Brand awareness",
+  "definition": "The degree to which consumers can recognize or recall a brand.",
+  "example": "Brand awareness is compared by aligning the survey method and question conditions.",
+  "category": "Brand Strategy",
+  "aliases": [
+   "brand awareness",
+   "awareness"
+  ]
+ },
+ {
+  "id": "marketing-559",
+  "term": "Top of mind awareness",
+  "definition": "The brand consumers recall first when given a product category, or the proportion that does so.",
+  "example": "I survey the top-of-mind awareness in the beverage category.",
+  "category": "Brand Strategy",
+  "aliases": [
+   "TOM",
+   "top of mind",
+   "first recall"
+  ]
+ },
+ {
+  "id": "marketing-560",
+  "term": "Brand equity",
+  "definition": "The value that awareness, associations, trust, loyalty, and more about a brand add to a product or business.",
+  "example": "I also review the impact a discount campaign will have on brand equity.",
+  "category": "Brand Strategy",
+  "aliases": [
+   "brand equity",
+   "brand equity"
+  ]
+ },
+ {
+  "id": "marketing-561",
+  "term": "GTM",
+  "definition": "A go-to-market execution strategy that defines to whom and with what value, price, channel, and sales method a product will be offered.",
+  "example": "In the GTM, I first decide the initial customers and sales channels.",
+  "category": "Brand Strategy",
+  "aliases": [
+   "go-to-market strategy",
+   "go-to-market"
+  ]
+ },
+ {
+  "id": "marketing-562",
+  "term": "Co-branding",
+  "definition": "A collaboration method in which two or more brands use their names and assets together to create a product or campaign.",
+  "example": "In co-branding, I set the rules for using the two brands' logos.",
+  "category": "Brand Strategy",
+  "aliases": [
+   "co-branding",
+   "co-branding"
+  ]
+ },
+ {
+  "id": "marketing-563",
+  "term": "CPI",
+  "definition": "A metric that divides ad spend by the measured number of app installs, or a pricing model based on installs.",
+  "example": "I look at CPI together with the actual usage rate after installation.",
+  "category": "Marketing & Performance",
+  "aliases": [
+   "cost per install",
+   "app install cost"
+  ]
+ },
+ {
+  "id": "marketing-564",
+  "term": "CAC",
+  "definition": "A metric that divides the cost spent on acquiring customers over a defined period and scope by the number of newly acquired customers.",
+  "example": "Before comparing CAC, I align which sales and marketing costs to include.",
+  "category": "Marketing & Performance",
+  "aliases": [
+   "customer acquisition cost",
+   "new customer acquisition cost"
+  ]
+ },
+ {
+  "id": "marketing-565",
+  "term": "Pixel",
+  "definition": "A small image or tracking code placed on a web page or message to measure actions such as visits, views, and conversions.",
+  "example": "I check that the checkout-complete event is not double-counted by the pixel.",
+  "note": "This is the ad-measurement context. Distinguish it from the pixel that makes up an image.",
+  "category": "Marketing & Performance",
+  "aliases": [
+   "ad pixel",
+   "tracking pixel",
+   "tracking pixel"
+  ]
+ },
+ {
+  "id": "marketing-566",
+  "term": "Engagement rate",
+  "definition": "The ratio of engagement counts such as likes, comments, shares, and saves against a chosen base such as reach, impressions, or followers.",
+  "example": "When comparing engagement rate, I check whether the denominator is reach or followers.",
+  "note": "Because the denominator and the scope of engagement actions differ by platform and report, verify that the formula is the same.",
+  "category": "Marketing & Performance",
+  "aliases": [
+   "engagement rate",
+   "engagement rate"
+  ]
+ },
+ {
+  "id": "marketing-567",
+  "term": "UGC",
+  "definition": "Content such as reviews, photos, videos, and posts created by users themselves.",
+  "example": "I use UGC with permission in the campaign.",
+  "category": "Content & Customer Operations",
+  "aliases": [
+   "user-generated content",
+   "user-generated content"
+  ]
+ },
+ {
+  "id": "marketing-568",
+  "term": "Short-form",
+  "definition": "A content format that delivers the key content or scenes in a short length. The exact length criterion varies by platform and context.",
+  "example": "I restructure the key content of the interview into short-form.",
+  "category": "Content & Customer Operations",
+  "aliases": [
+   "short form",
+   "short-form content",
+   "short video"
+  ]
+ },
+ {
+  "id": "marketing-569",
+  "term": "Dormant customer",
+  "definition": "A customer with no qualifying activity, such as a purchase or use, over a defined period.",
+  "example": "I set the dormant-customer criterion as the most recent purchase date.",
+  "category": "Content & Customer Operations",
+  "aliases": [
+   "dormant user",
+   "dormant user"
+  ]
+ },
+ {
+  "id": "marketing-570",
+  "term": "VOC",
+  "definition": "The opinions and requests customers convey, such as inquiries, complaints, suggestions, and reviews.",
+  "example": "I group recurring VOC and define improvement tasks.",
+  "category": "Content & Customer Operations",
+  "aliases": [
+   "voice of the customer",
+   "customer feedback"
+  ]
+ },
+ {
+  "id": "marketing-571",
+  "term": "NPS",
+  "definition": "A metric from a recommendation-intent survey that subtracts the proportion of detractors from the proportion of promoters.",
+  "example": "I analyze the NPS figure together with the reasons for not recommending.",
+  "note": "In a typical 0-10 survey, 9-10 are promoters and 0-6 are detractors. It is not the same metric as satisfaction itself.",
+  "category": "Content & Customer Operations",
+  "aliases": [
+   "net promoter score",
+   "net promoter score"
+  ]
+ },
+ {
+  "id": "marketing-572",
+  "term": "Crisis communication",
+  "definition": "Communication activity that, in a crisis such as controversy or an incident, coordinates fact-checking, the message, the audience, and the timing of announcements.",
+  "example": "In crisis communication, I separate confirmed facts from unconfirmed information.",
+  "category": "Content & Customer Operations",
+  "aliases": [
+   "crisis response communication",
+   "crisis PR"
+  ]
+ },
+ {
+  "id": "common-140",
+  "term": "NDA",
+  "definition": "A contract that sets the scope and obligations for keeping shared information confidential.",
+  "example": "Before delivering the material, I check the information covered by the NDA.",
+  "category": "Business Documents & Progress",
+  "aliases": [
+   "non-disclosure agreement",
+   "non-disclosure agreement"
+  ]
+ },
+ {
+  "id": "common-141",
+  "term": "Revision",
+  "definition": "The work of reflecting review feedback or changes, or the resulting version.",
+  "example": "Please mark the changed items in this revision separately.",
+  "category": "Business Documents & Progress",
+  "aliases": [
+   "revised version",
+   "revision work",
+   "revision",
+   "rev",
+   "REV",
+   "revision"
+  ]
+ },
+ {
+  "id": "common-142",
+  "term": "Sign-off",
+  "definition": "A procedure in which the person in charge confirms the result or conditions and approves moving to the next stage.",
+  "example": "I proceed with production based on the signed-off file.",
+  "category": "Business Documents & Progress",
+  "aliases": [
+   "sign-off",
+   "final approval",
+   "sign-off",
+   "sign-off"
+  ]
+ },
+ {
+  "id": "common-143",
+  "term": "Brainstorming",
+  "definition": "An activity of freely proposing and developing many ideas to broaden the direction of a solution.",
+  "example": "In brainstorming, we first gather a variety of ideas.",
+  "category": "Business Documents & Progress",
+  "aliases": [
+   "brainstorming",
+   "idea generation"
+  ]
+ },
+ {
+  "id": "common-144",
+  "term": "Documentation",
+  "definition": "Recording work methods, structure, decisions, and usage so that others can understand and build on them.",
+  "example": "Please document the reason for the change along with how to use it.",
+  "category": "Business Documents & Progress",
+  "aliases": [
+   "documentation",
+   "document organization"
+  ]
+ },
+ {
+  "id": "common-145",
+  "term": "ROI",
+  "definition": "A metric that views net profit as a ratio of the cost invested. It is calculated by aligning the scope and period of cost and profit.",
+  "example": "To compare ROI, you first need to check which costs are included.",
+  "category": "Business Documents & Progress",
+  "aliases": [
+   "return on investment",
+   "return on investment"
+  ]
+ },
+ {
+  "id": "common-146",
+  "term": "Build-up",
+  "definition": "Progressively accumulating the evidence, context, and preparation needed to reach a conclusion or result.",
+  "example": "Please build up logically from the proposal's background to the solution.",
+  "category": "Collaboration & Communication",
+  "aliases": [
+   "build up",
+   "building a case",
+   "to build up",
+   "to build up",
+   "building up evidence"
+  ]
+ },
+ {
+  "id": "common-147",
+  "term": "Ping-pong",
+  "definition": "A term for a situation of exchanging questions, opinions, or work back and forth. It is also used when responsibility or requests are repeatedly passed along.",
+  "example": "To reduce the ping-pong, I decide with the owner which items to settle.",
+  "category": "Collaboration & Communication",
+  "aliases": [
+   "work ping-pong",
+   "to ping-pong"
+  ]
+ },
+ {
+  "id": "common-148",
+  "term": "Getting shot down",
+  "definition": "An informal expression for a proposal or deliverable being rejected or criticized.",
+  "example": "The draft got shot down, so I first organized the reasons for the objection.",
+  "note": "This is an informal expression. In official documents, it is clearer to describe the actual situation specifically, such as a rejection, refusal, or revision request.",
+  "category": "Collaboration & Communication",
+  "aliases": [
+   "got shot down",
+   "the proposal getting shot down"
+  ]
+ },
+ {
+  "id": "dev-381",
+  "term": "TDD",
+  "definition": "A development method that repeats a cycle of first writing a test for a small feature, then writing code that passes it, and then improving the structure.",
+  "example": "With TDD, I test boundary conditions first and then proceed with the implementation.",
+  "category": "Quality & Testing",
+  "aliases": [
+   "test-driven development",
+   "test-based development"
+  ]
+ },
+ {
+  "id": "dev-382",
+  "term": "MSA",
+  "definition": "A structure that divides an application into relatively independently developable and deployable services connected by communication.",
+  "example": "Before splitting into MSA, I define the data ownership and service boundaries.",
+  "category": "Design & Data",
+  "aliases": [
+   "microservices",
+   "microservices architecture"
+  ]
+ },
+ {
+  "id": "dev-383",
+  "term": "Monolith",
+  "definition": "A structure that composes multiple features into a single application deployment unit.",
+  "example": "We start as a monolith early on and manage it by splitting the internal modules.",
+  "note": "It means a single deployment unit; it does not necessarily mean the structure is bad or lacks internal module separation.",
+  "category": "Design & Data",
+  "aliases": [
+   "monolithic",
+   "monolithic architecture"
+  ]
+ },
+ {
+  "id": "dev-384",
+  "term": "Environment variable",
+  "definition": "A name-and-value setting passed in from the environment in which a program runs. It is used for various settings such as paths, run modes, and connection information.",
+  "example": "I use environment variables to separate the test and production connection addresses.",
+  "note": ".env is one file format used to define environment variables. An environment variable does not mean only secret information, nor does it automatically encrypt its value.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "environment variable",
+   "env"
+  ]
+ },
+ {
+  "id": "dev-385",
+  "term": "Deprecation",
+  "definition": "Marking a feature or API as no longer recommended for use. It may keep working for compatibility.",
+  "example": "In the deprecation notice, I check the replacement API and the migration method.",
+  "note": "Being deprecated differs from being already removed and non-functional. Check the provider's guidance for the removal schedule.",
+  "category": "Code & Maintenance",
+  "aliases": [
+   "deprecate",
+   "deprecated",
+   "not recommended for use"
+  ]
+ },
+ {
+  "id": "dev-386",
+  "term": "Waterfall",
+  "definition": "A development method that proceeds sequentially through stages such as requirements, design, implementation, and verification.",
+  "example": "In a waterfall project, I define the approval criteria for each stage.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "waterfall model",
+   "waterfall model"
+  ]
+ },
+ {
+  "id": "dev-387",
+  "term": "CI/CD",
+  "definition": "A development process that connects integrating and verifying changes with delivering and deploying software. CD means continuous delivery or continuous deployment.",
+  "example": "In CI/CD, I stop the pipeline from proceeding to the next stage when a test fails.",
+  "note": "Continuous delivery is an approach that keeps the software in a deployable state, while continuous deployment is an approach that automates even reflecting verified changes into production.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "CI/CD",
+   "CI CD"
+  ]
+ },
+ {
+  "id": "dev-388",
+  "term": "Downtime",
+  "definition": "The time during which a service or system cannot be used.",
+  "example": "I announce the downtime needed for maintenance in advance.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "service outage time"
+  ]
+ },
+ {
+  "id": "dev-389",
+  "term": "Traffic",
+  "definition": "The flow and volume of data and requests going to and from a network or service. Depending on measurement, it means transfer volume or request count.",
+  "example": "I distinguish whether a traffic increase is in request count or transfer volume.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "network traffic",
+   "request traffic"
+  ]
+ },
+ {
+  "id": "dev-390",
+  "term": "Latency",
+  "definition": "The delay until a result appears in a specific segment of a request, processing, or communication.",
+  "example": "I check the latency of slow requests, not just the average.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "latency",
+   "response delay"
+  ]
+ },
+ {
+  "id": "dev-391",
+  "term": "Cloud",
+  "definition": "A model of receiving and using computing, storage, and other resources on demand over a network.",
+  "example": "In the cloud, I manage the required resources and their usage.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "cloud computing"
+  ]
+ },
+ {
+  "id": "dev-392",
+  "term": "Middleware",
+  "definition": "Software that connects systems or components, or performs common functions in the middle of the request-processing flow.",
+  "example": "In the authentication middleware, I check the request's permissions.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "intermediate processing layer"
+  ]
+ },
+ {
+  "id": "dev-393",
+  "term": "Pair programming",
+  "definition": "A development method in which two people look at the same work together and collaborate on implementation and review.",
+  "example": "I handle complex changes with pair programming.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "pair programming",
+   "pair programming"
+  ]
+ },
+ {
+  "id": "dev-394",
+  "term": "Hackathon",
+  "definition": "A collaborative event in which teams refine ideas and build a working deliverable within a set period.",
+  "example": "In a hackathon, I decide the scope that will demonstrate the core hypothesis.",
+  "category": "Development & Operations Process",
+  "aliases": [
+   "hackathon event"
+  ]
+ },
+ {
+  "id": "dev-395",
+  "term": "Spaghetti code",
+  "definition": "A metaphor for code whose control flow or dependencies are so tangled that it is hard to understand and modify.",
+  "example": "I organize the spaghetti code by splitting it into small units of responsibility.",
+  "note": "\"Crap code\" is slang that disparages code quality. In code review, it is better to explain the structural and maintainability problems specifically.",
+  "category": "Code & Implementation",
+  "aliases": [
+   "spaghetti code",
+   "crap code"
+  ]
+ },
+ {
+  "id": "dev-396",
+  "term": "Patch-up fix",
+  "definition": "Blocking the immediate problem with a limited fix before resolving the root cause.",
+  "example": "After recovering with a patch-up fix, I also plan a root-cause fix.",
+  "category": "Code & Implementation",
+  "aliases": [
+   "quick patch",
+   "temporary patch",
+   "quick-patch code",
+   "patch-up code"
+  ]
+ },
+ {
+  "id": "dev-397",
+  "term": "Side effect",
+  "definition": "An action that affects the outside of a function, such as changing external state, writing files, or I/O, beyond the return value. In the field, it also refers to the unexpected impact of a change.",
+  "example": "I separate out this function's side effects to make it easier to test.",
+  "note": "A side effect is not necessarily a bug. Distinguish external state changes from unexpected regression errors.",
+  "category": "Code & Implementation",
+  "aliases": [
+   "side effect",
+   "side effect"
+  ]
+ },
+ {
+  "id": "dev-398",
+  "term": "SQL injection",
+  "definition": "A vulnerability or attack in which input values are misinterpreted as part of a query, allowing unintended database commands to run.",
+  "example": "I check whether SQL injection prevention is applied in the user-input handling.",
+  "category": "Design & Data",
+  "aliases": [
+   "SQL injection",
+   "SQL injection"
+  ]
+ },
+ {
+  "id": "dev-399",
+  "term": "Use case",
+  "definition": "The situation and flow in which a user or external actor interacts with a system to achieve a goal.",
+  "example": "I organize the exception conditions of the order-cancellation use case.",
+  "category": "Design & Data",
+  "aliases": [
+   "use case",
+   "use case"
+  ]
+ },
+ {
+  "id": "dev-400",
+  "term": "Feature",
+  "definition": "An individual function or characteristic a product or software provides.",
+  "example": "I define the scope of the features to include in this release.",
+  "category": "Design & Data",
+  "aliases": [
+   "function",
+   "service feature"
+  ]
+ },
+ {
+  "id": "dev-401",
+  "term": "Screen specification",
+  "definition": "A document that explains screen composition, navigation, behavior, data, exception conditions, and more to set the implementation baseline.",
+  "example": "Please include the empty state and error state in the screen specification too.",
+  "note": "This is the SB in the service-planning context. Its purpose and composition differ from a scene-by-scene storyboard for video.",
+  "category": "Design & Data",
+  "aliases": [
+   "screen specification",
+   "SB",
+   "service storyboard"
+  ]
+ },
+ {
+  "id": "dev-402",
+  "term": "Back office",
+  "definition": "An admin system where operators handle internal service tasks such as members, orders, and content.",
+  "example": "In the back office, I check the order change history.",
+  "category": "Design & Data",
+  "aliases": [
+   "admin system",
+   "admin",
+   "admin"
+  ]
+ },
+ {
+  "id": "dev-403",
+  "term": "GUI",
+  "definition": "An interface for operating a system through visual elements such as windows, icons, menus, and buttons.",
+  "example": "I connect the GUI's save button to the actual file-save action.",
+  "category": "User Experience Design",
+  "aliases": [
+   "graphical user interface",
+   "GUI"
+  ]
+ },
+ {
+  "id": "design-414",
+  "term": "GUI",
+  "definition": "An interface for operating a system through visual elements such as windows, icons, menus, and buttons.",
+  "example": "In the GUI, I arrange frequently used functions so they are easy to find.",
+  "category": "User Experience Design",
+  "aliases": [
+   "graphical user interface",
+   "GUI"
+  ]
+ },
+ {
+  "id": "dev-404",
+  "term": "Microinteraction",
+  "definition": "An interaction designed for a small unit of user action and system response, such as a state change or feedback.",
+  "example": "I implement the loading-complete microinteraction so it also works with reduced-motion settings.",
+  "category": "User Experience Design",
+  "aliases": [
+   "microinteraction",
+   "micro-interaction"
+  ]
+ },
+ {
+  "id": "design-415",
+  "term": "Microinteraction",
+  "definition": "An interaction designed for a small unit of user action and system response, such as a state change or feedback.",
+  "example": "I signal that the save state has changed with a microinteraction.",
+  "category": "User Experience Design",
+  "aliases": [
+   "microinteraction",
+   "micro-interaction"
+  ]
+ },
+ {
+  "id": "dev-405",
+  "term": "Pivot",
+  "definition": "Changing the core hypothesis and direction of a product, customer, or revenue model based on what has been learned.",
+  "example": "Based on the validation results, I review a pivot that changes the customer segment.",
+  "category": "Product & Customer Metrics",
+  "aliases": [
+   "pivot",
+   "business direction change"
+  ]
+ },
+ {
+  "id": "design-416",
+  "term": "DPI",
+  "definition": "A unit indicating the number of dots an output device and the like render over a length of one inch.",
+  "example": "I check the output device's DPI and the image's PPI separately.",
+  "note": "It is a different concept from PPI, the pixel density of an image. The value needed varies by output method, size, viewing distance, and more.",
+  "category": "Printing & Delivery Process",
+  "aliases": [
+   "DPI",
+   "dots per inch"
+  ]
+ },
+ {
+  "id": "design-417",
+  "term": "Carton structure",
+  "definition": "A structure that designs the shape, folds, locking, and assembly method of paper packaging.",
+  "example": "With a carton-structure sample, I check how the product is held and how it opens.",
+  "note": "This is the structural design of packaging. The cut lines that mark the cutting and folding positions are drawing elements that convey that structure to production.",
+  "category": "Printing & Delivery Process",
+  "aliases": [
+   "carton structure",
+   "paper package structure"
+  ]
+ },
+ {
+  "id": "design-418",
+  "term": "Caption",
+  "definition": "A short text attached to a photo or illustration to explain its content, situation, or information.",
+  "example": "Please briefly note the place and shooting situation in the caption.",
+  "category": "Visual Design & Production",
+  "aliases": [
+   "photo caption",
+   "image caption"
+  ]
+ },
+ {
+  "id": "design-419",
+  "term": "Modeling",
+  "definition": "The work of digitally creating the form and structure of an object in three-dimensional space.",
+  "example": "In the modeling stage, I first get the product's proportions right.",
+  "category": "Visual Design & Production",
+  "aliases": [
+   "3D modeling",
+   "three-dimensional modeling"
+  ]
+ },
+ {
+  "id": "design-420",
+  "term": "Polygon",
+  "definition": "The polygonal faces that make up the surface of a 3D model.",
+  "example": "I adjust the polygon layout to refine the shape of the curved surface.",
+  "category": "Visual Design & Production",
+  "aliases": [
+   "polygon face",
+   "polygon face"
+  ]
+ },
+ {
+  "id": "design-421",
+  "term": "Texturing",
+  "definition": "The work of applying color, pattern, and detail to a model's surface to compose the appearance of its material.",
+  "example": "In texturing, I match the scale of the fabric pattern.",
+  "category": "Visual Design & Production",
+  "aliases": [
+   "texture work",
+   "texturing"
+  ]
+ },
+ {
+  "id": "design-422",
+  "term": "CAD",
+  "definition": "A method of designing drawings or the form and dimensions of products and spaces with computer tools.",
+  "example": "In the CAD drawing, I check the dimensions between parts.",
+  "category": "Visual Design & Production",
+  "aliases": [
+   "CAD",
+   "computer-aided design"
+  ]
+ },
+ {
+  "id": "design-423",
+  "term": "Ergonomics",
+  "definition": "A field that studies and designs products, environments, and tasks to suit human physical and cognitive characteristics.",
+  "example": "From an ergonomics standpoint, I review the handle size and the effort it takes to operate.",
+  "category": "Visual Design & Production",
+  "aliases": [
+   "ergonomics"
+  ]
+ },
+ {
+  "id": "film-424",
+  "term": "180-degree rule",
+  "definition": "A compositional principle of shooting from one side of an imaginary axis connecting people or actions to keep the left-right relationship and gaze direction on screen consistent.",
+  "example": "In a dialogue scene, I set the camera positions based on the 180-degree rule.",
+  "note": "It is a compositional principle for conveying spatial relationships. Deliberately crossing the axis is also possible, and it is not an absolute prohibition.",
+  "category": "Angle & Composition",
+  "aliases": [
+   "180-degree rule",
+   "180-degree line",
+   "imaginary line",
+   "action axis"
+  ]
+ },
+ {
+  "id": "film-425",
+  "term": "Establishing shot",
+  "definition": "A shot that presents a scene's location, spatial relationship, and situation so the audience understands it.",
+  "example": "Before the indoor dialogue, I show the building's exterior as an establishing shot.",
+  "category": "Shot Composition",
+  "aliases": [
+   "establishing shot",
+   "establishing shot",
+   "establishing shot",
+   "establishing shot",
+   "establishing shot",
+   "establishing shot",
+   "establishing shot",
+   "establishing shot",
+   "establishing shot",
+   "establishing shot",
+   "establishing shot"
+  ]
+ },
+ {
+  "id": "film-426",
+  "term": "Reaction shot",
+  "definition": "A shot that shows a person's expression or movement as they react to a line or event.",
+  "example": "I cut in a reaction shot of the person who heard the explanation.",
+  "category": "Shot Composition",
+  "aliases": [
+   "reaction shot",
+   "reaction shot",
+   "reaction shot",
+   "reaction shot",
+   "reaction shot",
+   "reaction shot",
+   "reaction shot",
+   "reaction shot"
+  ]
+ },
+ {
+  "id": "film-427",
+  "term": "Reverse shot",
+  "definition": "A shot that turns the viewpoint toward the other party or the opposite subject that was being looked at in the preceding shot. It is used to alternate between two people in a dialogue scene.",
+  "example": "In the reverse shot too, I keep the two people's gaze directions consistent.",
+  "note": "It does not mean the camera is necessarily turned exactly 180 degrees. Consider the person's gaze and the spatial relationship.",
+  "category": "Angle & Composition",
+  "aliases": [
+   "reverse angle",
+   "reverse shot",
+   "shot reverse shot",
+   "reverse shot",
+   "reverse shot",
+   "reverse shot",
+   "reverse shot",
+   "shot reverse shot",
+   "shot reverse shot"
+  ]
+ },
+ {
+  "id": "film-428",
+  "term": "ND filter",
+  "definition": "A filter that reduces the amount of light entering the lens so you can use a desired aperture or shutter setting even in bright conditions.",
+  "example": "Outdoors, I use an ND filter to open up the aperture.",
+  "category": "Exposure & Color",
+  "aliases": [
+   "ND",
+   "ND filter",
+   "ND filter"
+  ]
+ },
+ {
+  "id": "film-429",
+  "term": "Cue sheet",
+  "definition": "A table that organizes the running order and timing of a broadcast or event, along with cues for video, audio, and talent.",
+  "example": "In the cue sheet, I check the next video and the mic-switch timing.",
+  "note": "It is a table centered on running cues. Distinguish it from a call sheet, which organizes the staff assembly, location, and shooting schedule.",
+  "category": "Production & Planning",
+  "aliases": [
+   "cue sheet",
+   "rundown"
+  ]
+ },
+ {
+  "id": "film-430",
+  "term": "Grip",
+  "definition": "The staff or department that sets up and operates camera-support and movement equipment and shooting support rigs. Depending on the country and set, they also handle light-shaping equipment.",
+  "example": "I check the camera movement path and equipment setup with the grip team.",
+  "category": "Production & Planning",
+  "aliases": [
+   "grip team",
+   "key grip"
+  ]
+ },
+ {
+  "id": "film-431",
+  "term": "Stand-in",
+  "definition": "A person who stands in the designated position in place of an actor while lighting, composition, and focus are being prepared.",
+  "example": "Before the actor's rehearsal, I check the light and composition with a stand-in.",
+  "note": "It is a role that helps with setup. Distinguish it from a double, who performs actual acting, dangerous actions, or stands in for a body part on camera.",
+  "category": "Production & Planning",
+  "aliases": [
+   "stand-in",
+   "lighting double"
+  ]
+ },
+ {
+  "id": "film-432",
+  "term": "A-roll",
+  "definition": "The main footage that delivers the central story content, such as interviews or key actions. It is composed together with B-roll, the supplementary footage.",
+  "example": "I first build the story with A-roll and supplement it with B-roll.",
+  "category": "Editing",
+  "aliases": [
+   "A-roll footage",
+   "A-roll",
+   "A-Roll",
+   "A roll",
+   "A roll"
+  ]
+ },
+ {
+  "id": "film-433",
+  "term": "VFX",
+  "definition": "The work of creating a screen's visual effects using live-action footage, digital imagery, compositing, and more.",
+  "example": "Before shooting, I check the elements needed for VFX compositing.",
+  "category": "Editing",
+  "aliases": [
+   "visual effects",
+   "visual effects",
+   "visual effects"
+  ]
+ },
+ {
+  "id": "film-434",
+  "term": "Cut entirely",
+  "definition": "A term for a shot scene or a particular person's footage being removed wholesale during editing.",
+  "example": "The redundant explanation section was cut entirely for the sake of flow.",
+  "category": "Editing",
+  "aliases": [
+   "fully cut",
+   "to be cut entirely"
+  ]
+ },
+ {
+  "id": "film-435",
+  "term": "VO",
+  "definition": "A voice heard over a scene while the speaker is not shown on screen. It is used for narration, monologue, and more.",
+  "example": "I lay the protagonist's VO over the scene to convey their thoughts.",
+  "category": "Recording & Sound",
+  "aliases": [
+   "voice-over",
+   "voice-over"
+  ]
+ },
+ {
+  "id": "film-436",
+  "term": "NG",
+  "definition": "A term for a take that failed to achieve the intended result due to problems such as acting, sound, or focus, or that state.",
+  "example": "A focus problem caused an NG, so we shoot it once more.",
+  "category": "On-set Operations",
+  "aliases": [
+   "NG",
+   "NG take",
+   "NG take"
+  ]
+ },
+ {
+  "id": "film-437",
+  "term": "Coverage",
+  "definition": "The shooting footage and arrangement of various compositions, sizes, and reactions secured so a scene can be edited.",
+  "example": "For the dialogue scene, I secure coverage of the whole and both reactions.",
+  "category": "On-set Operations",
+  "aliases": [
+   "shooting coverage",
+   "scene coverage"
+  ]
+ },
+ {
+  "id": "film-438",
+  "term": "Color temperature",
+  "definition": "A value that expresses the color character of light in kelvin. It is used to compare the light source and camera settings when judging color balance.",
+  "example": "I check the color-temperature difference between the window light and the indoor lighting.",
+  "category": "Exposure & Color",
+  "aliases": [
+   "color temperature",
+   "color temperature"
+  ]
+ },
+ {
+  "id": "film-439",
+  "term": "White balance",
+  "definition": "A setting that corrects the color influence of the light source so white and other colors are recorded to the intended reference.",
+  "example": "When the location changes, I check the white balance again.",
+  "category": "Exposure & Color",
+  "aliases": [
+   "white balance",
+   "WB",
+   "WB"
+  ]
+ },
+ {
+  "id": "film-440",
+  "term": "Magic hour",
+  "definition": "A term for the short time around sunrise and sunset that is good for using the light and sky color. Conditions and duration vary by location, season, and weather.",
+  "example": "I prepare the magic-hour scenes to match the on-site daylight conditions.",
+  "note": "Golden hour and magic hour are sometimes used interchangeably, but the range they refer to varies by set. Do not assume a fixed 20-30 minutes.",
+  "category": "Exposure & Color",
+  "aliases": [
+   "magic hour",
+   "golden hour"
+  ]
+ },
+ {
+  "id": "film-441",
+  "term": "Rule of thirds",
+  "definition": "A compositional method of dividing the frame into three parts horizontally and vertically and placing key elements near the lines or their intersections.",
+  "example": "I use the rule of thirds as a reference to balance the subject and background.",
+  "category": "Angle & Composition",
+  "aliases": [
+   "rule of thirds",
+   "thirds",
+   "rule of thirds"
+  ]
+ },
+ {
+  "id": "film-442",
+  "term": "Symmetrical composition",
+  "definition": "A composition arranged so that the shape or placement corresponds left-right or top-bottom around an axis.",
+  "example": "I emphasize the order of the space with the hallway's symmetrical composition.",
+  "category": "Angle & Composition",
+  "aliases": [
+   "symmetrical composition",
+   "symmetrical framing"
+  ]
+ },
+ {
+  "id": "film-443",
+  "term": "Center composition",
+  "definition": "A composition that places the main subject in the center of the frame to draw the eye.",
+  "example": "Please show the product neatly with a center composition.",
+  "category": "Angle & Composition",
+  "aliases": [
+   "center composition",
+   "center framing"
+  ]
+ },
+ {
+  "id": "marketing-573",
+  "term": "Google Tag Manager",
+  "definition": "A tool that manages measurement and advertising tags and their firing conditions on websites and the like.",
+  "example": "In Google Tag Manager, I verify that the purchase event fires only once.",
+  "note": "It shares the abbreviation GTM with go-to-market strategy but has a different meaning. Initial setup and data-layer design may require development work.",
+  "category": "Measurement & Analytics",
+  "aliases": [
+   "GTM",
+   "Tag Manager"
+  ]
+ },
+ {
+  "id": "marketing-574",
+  "term": "Bounce rate",
+  "definition": "In GA4, the proportion of sessions that do not qualify as engaged sessions. The definition differs by analytics tool and version.",
+  "example": "Before comparing bounce rate, I check GA4's engaged-session criterion.",
+  "note": "Do not judge a GA4 bounce by a single-page visit alone. Also distinguish it from user and subscription churn.",
+  "category": "Measurement & Analytics",
+  "aliases": [
+   "bounce rate",
+   "GA4 bounce rate"
+  ]
+ },
+ {
+  "id": "marketing-575",
+  "term": "Dimension",
+  "definition": "An attribute that segments data, such as traffic source, device, or region.",
+  "example": "I compare purchase conversion by device dimension.",
+  "category": "Measurement & Analytics",
+  "aliases": [
+   "dimension",
+   "analysis dimension"
+  ]
+ },
+ {
+  "id": "marketing-576",
+  "term": "Metric",
+  "definition": "A value that represents a measured quantity or ratio, such as view count, revenue, or conversion count.",
+  "example": "Please align the aggregation basis of the dimensions and metrics.",
+  "category": "Measurement & Analytics",
+  "aliases": [
+   "metric",
+   "metric"
+  ]
+ },
+ {
+  "id": "marketing-577",
+  "term": "Heatmap",
+  "definition": "A visualization that represents the magnitude or distribution of values with color. In web analytics, it is used to examine distributions such as clicks and scrolling.",
+  "example": "I use a heatmap to check the click distribution around the purchase button.",
+  "category": "Measurement & Analytics",
+  "aliases": [
+   "heat map",
+   "click heatmap"
+  ]
+ },
+ {
+  "id": "marketing-578",
+  "term": "Attribution window",
+  "definition": "The period during which conversions after a touchpoint, such as an ad click or view, are credited to that touchpoint's performance.",
+  "example": "I do not directly compare conversion counts from reports with different attribution windows.",
+  "category": "Measurement & Analytics",
+  "aliases": [
+   "conversion attribution window",
+   "attribution window"
+  ]
+ },
+ {
+  "id": "marketing-579",
+  "term": "UVP",
+  "definition": "A promise that organizes the distinctive value that becomes the reason a customer chooses this product or service.",
+  "example": "I check whether the UVP connects to an actual customer problem.",
+  "category": "Brand Strategy",
+  "aliases": [
+   "unique value proposition",
+   "unique value proposition"
+  ]
+ },
+ {
+  "id": "marketing-580",
+  "term": "Sub-brand",
+  "definition": "A brand that keeps a relationship with the parent brand while having a separate identity for a specific customer or product group.",
+  "example": "I define the sub-brand's role and its relationship with the parent brand.",
+  "category": "Brand Strategy",
+  "aliases": [
+   "sub-brand",
+   "sub-brand"
+  ]
+ },
+ {
+  "id": "marketing-581",
+  "term": "Brand architecture",
+  "definition": "A structure that organizes the relationships, hierarchy, and naming conventions among multiple brands and product groups.",
+  "example": "I name the new line in line with the brand architecture.",
+  "category": "Brand Strategy",
+  "aliases": [
+   "brand structure",
+   "brand system"
+  ]
+ },
+ {
+  "id": "marketing-582",
+  "term": "Brand loyalty",
+  "definition": "A customer's tendency to continuously prefer and choose a particular brand.",
+  "example": "I survey the reasons for repurchase to examine brand loyalty.",
+  "category": "Brand Strategy",
+  "aliases": [
+   "brand loyalty"
+  ]
+ },
+ {
+  "id": "marketing-583",
+  "term": "Win-back",
+  "definition": "Activity that re-encourages use or purchase from customers who have churned or become less active.",
+  "example": "Before sending win-back messages, I segment the reasons for churn.",
+  "category": "Brand Strategy",
+  "aliases": [
+   "win-back campaign",
+   "customer reactivation"
+  ]
+ },
+ {
+  "id": "marketing-584",
+  "term": "GMV",
+  "definition": "A metric indicating the total amount of goods and services transacted on a platform and the like over a defined period.",
+  "example": "In the GMV report, I also note the basis for reflecting cancellations and returns.",
+  "category": "Commerce & Promotion",
+  "aliases": [
+   "gross merchandise value",
+   "gross merchandise value"
+  ]
+ },
+ {
+  "id": "marketing-585",
+  "term": "AOV",
+  "definition": "The average order value, calculated by dividing the revenue over a defined period by the number of orders.",
+  "example": "When looking at AOV, I check the order count and the basis for reflecting returns.",
+  "category": "Commerce & Promotion",
+  "aliases": [
+   "average order value",
+   "revenue per order"
+  ]
+ },
+ {
+  "id": "marketing-586",
+  "term": "Dropshipping",
+  "definition": "A distribution method in which the seller does not directly hold or ship inventory; when they pass on the order information, the supplier sends it to the customer.",
+  "example": "In the dropshipping contract, I define who handles shipping and returns.",
+  "category": "Commerce & Promotion",
+  "aliases": [
+   "dropshipping",
+   "dropshipping"
+  ]
+ },
+ {
+  "id": "marketing-587",
+  "term": "Reverse direct purchase",
+  "definition": "A term, from a domestic seller's perspective, for a transaction in which an overseas consumer buys directly from a domestic online store.",
+  "example": "I check the shipping country and return instructions for reverse-direct-purchase orders.",
+  "category": "Commerce & Promotion",
+  "aliases": [
+   "overseas direct selling"
+  ]
+ },
+ {
+  "id": "marketing-588",
+  "term": "Gamification",
+  "definition": "A method of applying game elements such as points, missions, progress, and rewards to other activities.",
+  "example": "I apply gamification to increase learning engagement.",
+  "category": "Commerce & Promotion",
+  "aliases": [
+   "gamification"
+  ]
+ },
+ {
+  "id": "marketing-589",
+  "term": "Raffle",
+  "definition": "A method of granting a purchase opportunity and the like to applicants by random draw.",
+  "example": "I announce the raffle entry period and the purchase deadline after winning.",
+  "note": "This entry is the purchase-opportunity draw context. Do not merge the whole of a giveaway with a raffle or draw-based sale.",
+  "category": "Commerce & Promotion",
+  "aliases": [
+   "draw-based sale",
+   "raffle sale"
+  ]
+ },
+ {
+  "id": "marketing-590",
+  "term": "Affiliate marketing",
+  "definition": "A marketing method that pays compensation based on defined performance generated through an affiliate's referrals, links, and the like.",
+  "example": "I align the performance-recognition conditions of affiliate marketing.",
+  "category": "Commerce & Promotion",
+  "aliases": [
+   "affiliate marketing",
+   "affiliate"
+  ]
+ },
+ {
+  "id": "marketing-591",
+  "term": "Referral program",
+  "definition": "A program that drives new customers' sign-ups and purchases through referrals from existing customers and the like.",
+  "example": "I announce the participation conditions and benefits of the referral program.",
+  "category": "Commerce & Promotion",
+  "aliases": [
+   "referral program",
+   "friend referral"
+  ]
+ },
+ {
+  "id": "marketing-592",
+  "term": "GRP",
+  "definition": "The sum of the ratings of individual ad exposures. Because it includes repeated exposure, it differs from net reach.",
+  "example": "I check repeated exposure by looking at GRP and reach together.",
+  "category": "Media & Buying",
+  "aliases": [
+   "gross rating points",
+   "GRP"
+  ]
+ },
+ {
+  "id": "marketing-593",
+  "term": "CPR",
+  "definition": "A media-efficiency metric that divides ad spend by the rating points secured.",
+  "example": "I compare CPR using the same target and survey basis.",
+  "category": "Media & Buying",
+  "aliases": [
+   "cost per rating point"
+  ]
+ },
+ {
+  "id": "marketing-594",
+  "term": "SOV",
+  "definition": "The share a particular brand occupies in a defined market or medium against total ad spend, impressions, mentions, and the like.",
+  "example": "I state that the SOV was calculated on an ad-spend basis.",
+  "category": "Media & Buying",
+  "aliases": [
+   "share of voice",
+   "share of voice"
+  ]
+ },
+ {
+  "id": "marketing-595",
+  "term": "Programmatic advertising",
+  "definition": "A method of handling the buying, selling, and execution of ad inventory through automated systems.",
+  "example": "In programmatic advertising, I check the media quality and targeting conditions.",
+  "note": "Real-time bidding (RTB) is one of the transaction methods, and not all programmatic transactions are open auctions.",
+  "category": "Media & Buying",
+  "aliases": [
+   "programmatic",
+   "programmatic"
+  ]
+ }
+]

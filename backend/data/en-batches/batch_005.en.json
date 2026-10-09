@@ -1,0 +1,1390 @@
+[
+ {
+  "id": "marketing-117",
+  "term": "Kiss cut",
+  "definition": "A finishing cut that cuts only the top layer while leaving the sticker's backing paper intact.",
+  "example": "I'm ordering kiss cut so they can be delivered as full sheets.",
+  "category": "Sticker & Merchandise Production",
+  "aliases": [
+   "kiss cut"
+  ]
+ },
+ {
+  "id": "design-106",
+  "term": "Die cut",
+  "definition": "A finishing cut that cuts all the way through both the sticker and its backing paper.",
+  "example": "It's for individual distribution, so we go with die cut.",
+  "category": "Sticker & Merchandise Production",
+  "aliases": [
+   "complete cut"
+  ]
+ },
+ {
+  "id": "marketing-118",
+  "term": "Die cut",
+  "definition": "A finishing cut that cuts all the way through both the sticker and its backing paper.",
+  "example": "It's for individual distribution, so we go with die cut.",
+  "category": "Sticker & Merchandise Production",
+  "aliases": [
+   "complete cut"
+  ]
+ },
+ {
+  "id": "design-107",
+  "term": "Sheet sticker",
+  "definition": "A product with multiple stickers arranged on a single sheet.",
+  "example": "We bundled the characters into a sheet sticker.",
+  "category": "Sticker & Merchandise Production",
+  "aliases": [
+   "sheet sticker"
+  ]
+ },
+ {
+  "id": "marketing-119",
+  "term": "Sheet sticker",
+  "definition": "A product with multiple stickers arranged on a single sheet.",
+  "example": "We bundled the characters into a sheet sticker.",
+  "category": "Sticker & Merchandise Production",
+  "aliases": [
+   "sheet sticker"
+  ]
+ },
+ {
+  "id": "design-108",
+  "term": "Cut-out sticker",
+  "definition": "Stickers fully separated by shape and delivered as individual pieces.",
+  "example": "We hand out cut-out stickers at events.",
+  "category": "Sticker & Merchandise Production",
+  "aliases": [
+   "individual sticker"
+  ]
+ },
+ {
+  "id": "marketing-120",
+  "term": "Cut-out sticker",
+  "definition": "Stickers fully separated by shape and delivered as individual pieces.",
+  "example": "We hand out cut-out stickers at events.",
+  "category": "Sticker & Merchandise Production",
+  "aliases": [
+   "individual sticker"
+  ]
+ },
+ {
+  "id": "film-145",
+  "term": "Yama",
+  "definition": "The core point or angle that a broadcast segment or piece of writing aims to convey.",
+  "example": "Let's decide the yama of this interview first.",
+  "note": "Based on documented usage by broadcast writers in 2009. The scope of use varies by program and team.",
+  "category": "Broadcasting & Program Structure",
+  "aliases": [
+   "main point"
+  ]
+ },
+ {
+  "id": "film-146",
+  "term": "Shibai",
+  "definition": "Artificial, staged acting put on for the camera.",
+  "example": "We distinguish between natural reactions and shibai.",
+  "note": "It means staged acting. It is different from 'shimai,' which means wrapping up a shoot. Based on documented usage by broadcast writers in 2009. The scope of use varies by program and team.",
+  "category": "Broadcasting & Program Structure",
+  "aliases": [
+   "artificial acting"
+  ]
+ },
+ {
+  "id": "film-147",
+  "term": "Ipbong",
+  "definition": "Taking charge of one's first project or assigned segment.",
+  "example": "I made my debut with this segment.",
+  "note": "Based on documented usage by broadcast writers in 2009. The scope of use varies by program and team.",
+  "category": "Broadcasting & Program Structure",
+  "aliases": [
+   "first directing credit",
+   "debut"
+  ]
+ },
+ {
+  "id": "film-148",
+  "term": "Kudari",
+  "definition": "A passage that forms one flow in a script or story.",
+  "example": "Let's trim this kudari down.",
+  "note": "Based on documented usage by broadcast writers in 2009. The scope of use varies by program and team.",
+  "category": "Broadcasting & Program Structure",
+  "aliases": [
+   "passage"
+  ]
+ },
+ {
+  "id": "film-149",
+  "term": "Midashi",
+  "definition": "A field term for the title of an article or piece of writing.",
+  "example": "Please capture the key point in the midashi.",
+  "note": "Based on documented usage by broadcast writers in 2009. The scope of use varies by program and team.",
+  "category": "Broadcasting & Program Structure",
+  "aliases": [
+   "headline"
+  ]
+ },
+ {
+  "id": "film-150",
+  "term": "Urakkai",
+  "definition": "Slang for the act of partially altering and copying someone else's writing.",
+  "example": "We write by reporting firsthand, without urakkai.",
+  "note": "This expression carries a negative nuance, pointing to copying. Based on documented usage by broadcast writers in 2009. The scope of use varies by program and team.",
+  "category": "Broadcasting & Program Structure",
+  "aliases": [
+   "urakai"
+  ]
+ },
+ {
+  "id": "film-151",
+  "term": "Kataki",
+  "definition": "A field term that was used for the villain role in a drama.",
+  "example": "I checked the kataki in the casting notes.",
+  "note": "An expression recorded in 1985 language-refinement materials. It does not mean the term is in common use on all film sets today.",
+  "category": "Legacy Filming & Production Terms",
+  "aliases": [
+   "villain"
+  ]
+ },
+ {
+  "id": "film-152",
+  "term": "Kadwari",
+  "definition": "A term that was used for dividing a scene into the shots to be filmed.",
+  "example": "The old production sheet says 'kadwari.'",
+  "note": "An expression recorded in 1985 language-refinement materials. It does not mean the term is in common use on all film sets today.",
+  "category": "Legacy Filming & Production Terms",
+  "aliases": [
+   "shot breakdown"
+  ]
+ },
+ {
+  "id": "film-153",
+  "term": "Dedashi",
+  "definition": "A term that was used for the beginning part of a work or scene.",
+  "example": "Let's check the opening section that corresponds to the dedashi.",
+  "note": "An expression recorded in 1985 language-refinement materials. It does not mean the term is in common use on all film sets today.",
+  "category": "Legacy Filming & Production Terms",
+  "aliases": [
+   "opening"
+  ]
+ },
+ {
+  "id": "film-154",
+  "term": "Denkkang",
+  "definition": "A term that was used for changing a film set to suit a different scene.",
+  "example": "We change the set after the denkkang instruction.",
+  "note": "An expression recorded in 1985 language-refinement materials. It does not mean the term is in common use on all film sets today.",
+  "category": "Legacy Filming & Production Terms",
+  "aliases": [
+   "set change"
+  ]
+ },
+ {
+  "id": "film-155",
+  "term": "Torinaoshi",
+  "definition": "Filming again content that has already been shot.",
+  "example": "I marked the shots for torinaoshi separately.",
+  "note": "An expression recorded in 1985 language-refinement materials. It does not mean the term is in common use on all film sets today.",
+  "category": "Legacy Filming & Production Terms",
+  "aliases": [
+   "reshoot"
+  ]
+ },
+ {
+  "id": "film-156",
+  "term": "Baras",
+  "definition": "A term that referred to dismantling a set or installation.",
+  "example": "We carry out the baras work after shooting.",
+  "note": "An expression recorded in 1985 language-refinement materials. It does not mean the term is in common use on all film sets today.",
+  "category": "Legacy Filming & Production Terms",
+  "aliases": [
+   "set teardown"
+  ]
+ },
+ {
+  "id": "film-157",
+  "term": "Sorabaek",
+  "definition": "A backdrop used to look like the sky.",
+  "example": "We shoot the scene in front of the sorabaek.",
+  "note": "An expression recorded in 1985 language-refinement materials. It does not mean the term is in common use on all film sets today.",
+  "category": "Legacy Filming & Production Terms",
+  "aliases": [
+   "sky backdrop"
+  ]
+ },
+ {
+  "id": "film-158",
+  "term": "Sinwari",
+  "definition": "The work of dividing a story into scene units.",
+  "example": "We review the sinwari of the script.",
+  "note": "An expression recorded in 1985 language-refinement materials. It does not mean the term is in common use on all film sets today.",
+  "category": "Legacy Filming & Production Terms",
+  "aliases": [
+   "scene breakdown"
+  ]
+ },
+ {
+  "id": "film-159",
+  "term": "Kommadori",
+  "definition": "A method of shooting one frame at a time.",
+  "example": "We move the model and shoot it frame by frame with kommadori.",
+  "note": "An expression recorded in 1985 language-refinement materials. It does not mean the term is in common use on all film sets today.",
+  "category": "Legacy Filming & Production Terms",
+  "aliases": [
+   "frame-by-frame shooting"
+  ]
+ },
+ {
+  "id": "film-160",
+  "term": "Reflector",
+  "definition": "A board that reflects light and sends it onto the subject.",
+  "example": "We use a reflector to brighten the shadows on the face.",
+  "note": "An expression recorded in 1985 language-refinement materials. It does not mean the term is in common use on all film sets today.",
+  "category": "Legacy Filming & Production Terms",
+  "aliases": [
+   "reflector board",
+   "ref board"
+  ]
+ },
+ {
+  "id": "dev-129",
+  "term": "LGTM",
+  "definition": "An abbreviation a reviewer uses to signal approval of a code change.",
+  "example": "I checked the fix. LGTM.",
+  "note": "It indicates review approval, but whether a comment alone triggers an automatic merge depends on the tool and team settings.",
+  "category": "Code Review & Collaboration",
+  "aliases": [
+   "looks good to me"
+  ]
+ },
+ {
+  "id": "dev-130",
+  "term": "CL",
+  "definition": "A single bundle of changes submitted for review or version control.",
+  "example": "This CL contains only bug fixes.",
+  "note": "A term found in Google's engineering documentation. Depending on the team, it may be called a change request, patch, or PR.",
+  "category": "Code Review & Collaboration",
+  "aliases": [
+   "changelist",
+   "change bundle"
+  ]
+ },
+ {
+  "id": "dev-131",
+  "term": "Nit",
+  "definition": "A note marking a minor, polishing suggestion in a review.",
+  "example": "Nit: this name could be a little shorter.",
+  "note": "It is usually a small, non-mandatory suggestion. Check your team's review rules for whether a change is required.",
+  "category": "Code Review & Collaboration",
+  "aliases": [
+   "nitpick",
+   "nit:"
+  ]
+ },
+ {
+  "id": "dev-133",
+  "term": "Draft",
+  "definition": "A change request marked as not yet ready to merge.",
+  "example": "We share the first version as a draft.",
+  "note": "It is a feature for marking merge-readiness. You can ask colleagues to review the draft.",
+  "category": "Code Review & Collaboration",
+  "aliases": [
+   "draft",
+   "Draft MR",
+   "Draft PR"
+  ]
+ },
+ {
+  "id": "dev-134",
+  "term": "WIP",
+  "definition": "An abbreviation indicating that something is still in progress and not yet finished.",
+  "example": "The login improvements are still WIP.",
+  "category": "Development Progress",
+  "aliases": [
+   "work in progress",
+   "in progress"
+  ]
+ },
+ {
+  "id": "dev-135",
+  "term": "Feature flag",
+  "definition": "A control switch that turns a feature's visibility or behavior on and off.",
+  "example": "We turned on the new screen with a feature flag.",
+  "category": "Development Progress",
+  "aliases": [
+   "feature flag",
+   "feature toggle",
+   "feature toggle"
+  ]
+ },
+ {
+  "id": "dev-136",
+  "term": "WIP limit",
+  "definition": "A cap on things such as the number of tasks in progress at the same time.",
+  "example": "We finish work before exceeding the WIP limit.",
+  "category": "Development Progress",
+  "aliases": [
+   "WIP limit",
+   "work-in-progress limit"
+  ]
+ },
+ {
+  "id": "dev-137",
+  "term": "Kanban",
+  "definition": "A method for visualizing work status and managing flow.",
+  "example": "We check the work in progress on the Kanban board.",
+  "category": "Development Progress",
+  "aliases": [
+   "Kanban board"
+  ]
+ },
+ {
+  "id": "dev-138",
+  "term": "Sapjil",
+  "definition": "A self-deprecating term for the trial-and-error grind of tracking down a cause or getting an implementation to work.",
+  "example": "I documented the sapjil I went through over the connection error.",
+  "category": "Development Experience",
+  "aliases": [
+   "to grind away"
+  ]
+ },
+ {
+  "id": "dev-139",
+  "term": "Legacy",
+  "definition": "Code or systems carried over from before that are still maintained and operated today.",
+  "example": "We check the behavior of the legacy and fix it.",
+  "note": "Being old alone does not mean the code is wrong.",
+  "category": "Code & Maintenance",
+  "aliases": [
+   "legacy code",
+   "legacy system",
+   "legacy"
+  ]
+ },
+ {
+  "id": "dev-140",
+  "term": "Hardcoding",
+  "definition": "Embedding values or conditions directly and fixedly into the code.",
+  "example": "We moved the hardcoded text into a resource file.",
+  "category": "Code & Implementation",
+  "aliases": [
+   "hard coding",
+   "hardcode"
+  ]
+ },
+ {
+  "id": "dev-141",
+  "term": "Test double",
+  "definition": "A stand-in used in place of a real component during testing.",
+  "example": "We swapped the external payment with a test double.",
+  "category": "Test Doubles",
+  "aliases": [
+   "test stand-in"
+  ]
+ },
+ {
+  "id": "dev-142",
+  "term": "Dummy",
+  "definition": "An object that fills slots such as argument positions in a test without actually being used.",
+  "example": "We fill unneeded arguments with a dummy.",
+  "category": "Test Doubles",
+  "aliases": [
+   "dummy object"
+  ]
+ },
+ {
+  "id": "dev-143",
+  "term": "Fake",
+  "definition": "A test double that works like the real thing through a simple implementation.",
+  "example": "We replaced the repository with an in-memory fake.",
+  "category": "Test Doubles",
+  "aliases": [
+   "fake object"
+  ]
+ },
+ {
+  "id": "dev-144",
+  "term": "Stub",
+  "definition": "A double that returns predetermined responses to test calls.",
+  "example": "We make the stub return an out-of-stock response.",
+  "category": "Test Doubles",
+  "aliases": [
+   "stub object"
+  ]
+ },
+ {
+  "id": "dev-145",
+  "term": "Spy",
+  "definition": "A test double that records how it was called.",
+  "example": "We use a spy to check the number of dispatches.",
+  "category": "Test Doubles",
+  "aliases": [
+   "test spy"
+  ]
+ },
+ {
+  "id": "dev-146",
+  "term": "Mock",
+  "definition": "A test double set up to verify interactions, such as expected calls.",
+  "example": "We use a mock to verify the payment request arguments.",
+  "note": "The specific names of test doubles can differ by library. This entry follows the classification introduced by Fowler.",
+  "category": "Test Doubles",
+  "aliases": [
+   "mock",
+   "mock object",
+   "mocking"
+  ]
+ },
+ {
+  "id": "dev-147",
+  "term": "RFC",
+  "definition": "A document or process for proposing a significant change and gathering feedback.",
+  "example": "We share an RFC before changing the architecture.",
+  "note": "Here it refers to a design-proposal process in a software project. Distinguish it from the internet-standards RFC series.",
+  "category": "Design & Consensus",
+  "aliases": [
+   "RFC",
+   "design proposal"
+  ]
+ },
+ {
+  "id": "dev-148",
+  "term": "On-call",
+  "definition": "A role or shift on standby to receive and respond to incident calls.",
+  "example": "Let's check who is on-call this week.",
+  "category": "Service Operations",
+  "aliases": [
+   "on call",
+   "operations duty"
+  ]
+ },
+ {
+  "id": "marketing-121",
+  "term": "OT",
+  "definition": "A briefing session before production to share goals, direction, schedule, and more.",
+  "example": "We confirm the target audience at the campaign OT.",
+  "note": "It refers to an orientation in advertising and production work. Distinguish it from 'overtime.'",
+  "category": "Advertising Production & Collaboration",
+  "aliases": [
+   "OT",
+   "orientation"
+  ]
+ },
+ {
+  "id": "design-109",
+  "term": "OT",
+  "definition": "A briefing session before production to share goals, direction, schedule, and more.",
+  "example": "At the brand-redesign OT, we confirm the needed design deliverables and production specs.",
+  "note": "It refers to an orientation in advertising and production work. Distinguish it from 'overtime.'",
+  "category": "Advertising Production & Collaboration",
+  "aliases": [
+   "OT",
+   "orientation"
+  ]
+ },
+ {
+  "id": "film-161",
+  "term": "OT",
+  "definition": "A briefing session before production to share goals, direction, schedule, and more.",
+  "example": "At the shoot-production OT, we confirm the storyboard, budget, and delivery schedule.",
+  "note": "It refers to an orientation in advertising and production work. Distinguish it from 'overtime.'",
+  "category": "Advertising Production & Collaboration",
+  "aliases": [
+   "OT",
+   "orientation"
+  ]
+ },
+ {
+  "id": "fashion-178",
+  "term": "OT",
+  "definition": "A briefing session before production to share goals, direction, schedule, and more.",
+  "example": "At the season campaign OT, we share the key outfits and the target customers.",
+  "note": "It refers to an orientation in advertising and production work. Distinguish it from 'overtime.'",
+  "category": "Fashion Brand & Production Collaboration",
+  "aliases": [
+   "OT",
+   "orientation"
+  ]
+ },
+ {
+  "id": "marketing-122",
+  "term": "PPM",
+  "definition": "A meeting before the shoot to align production details such as the model, wardrobe, and composition.",
+  "example": "At the PPM, we finalize the wardrobe and music.",
+  "note": "It means a pre-production meeting for advertising shoots. It differs from ppm as a unit of concentration.",
+  "category": "Advertising Production & Collaboration",
+  "aliases": [
+   "PPM",
+   "pre-production meeting"
+  ]
+ },
+ {
+  "id": "design-110",
+  "term": "PPM",
+  "definition": "A meeting before the shoot to align production details such as the model, wardrobe, and composition.",
+  "example": "At the brand-video PPM, we review the prepared graphic drafts and the compositing areas.",
+  "note": "It means a pre-production meeting for advertising shoots. It differs from ppm as a unit of concentration.",
+  "category": "Advertising Production & Collaboration",
+  "aliases": [
+   "PPM",
+   "pre-production meeting"
+  ]
+ },
+ {
+  "id": "film-162",
+  "term": "PPM",
+  "definition": "A meeting before the shoot to align production details such as the model, wardrobe, and composition.",
+  "example": "At the PPM, we align the actors' blocking, art, wardrobe, and shooting order.",
+  "note": "It means a pre-production meeting for advertising shoots. It differs from ppm as a unit of concentration.",
+  "category": "Advertising Production & Collaboration",
+  "aliases": [
+   "PPM",
+   "pre-production meeting"
+  ]
+ },
+ {
+  "id": "fashion-179",
+  "term": "PPM",
+  "definition": "A meeting before the shoot to align production details such as the model, wardrobe, and composition.",
+  "example": "At the lookbook-video PPM, we align the models' outfit order and the wardrobe-change timing.",
+  "note": "It means a pre-production meeting for advertising shoots. It differs from ppm as a unit of concentration.",
+  "category": "Fashion Brand & Production Collaboration",
+  "aliases": [
+   "PPM",
+   "pre-production meeting"
+  ]
+ },
+ {
+  "id": "marketing-123",
+  "term": "Creative Director",
+  "definition": "The person responsible for leading the creative direction of advertising production.",
+  "example": "We review the concept with the Creative Director.",
+  "note": "It is a role in advertising production. Distinguish it from CD as 'continuous delivery/deployment' in software development.",
+  "category": "Creative Roles",
+  "aliases": [
+   "CD",
+   "CD",
+   "CD"
+  ]
+ },
+ {
+  "id": "design-111",
+  "term": "Creative Director",
+  "definition": "The person responsible for leading the creative direction of advertising production.",
+  "example": "We review the central idea of the poster draft with the Creative Director.",
+  "note": "It is a role in advertising production. Distinguish it from CD as 'continuous delivery/deployment' in software development.",
+  "category": "Creative Roles",
+  "aliases": [
+   "CD",
+   "CD"
+  ]
+ },
+ {
+  "id": "film-163",
+  "term": "Creative Director",
+  "definition": "The person responsible for leading the creative direction of advertising production.",
+  "example": "The agency's Creative Director and the director align on the core expression of the video.",
+  "note": "It is a role in advertising production. Distinguish it from CD as 'continuous delivery/deployment' in software development.",
+  "category": "Advertising Video & Creative Collaboration",
+  "aliases": [
+   "CD",
+   "CD"
+  ]
+ },
+ {
+  "id": "marketing-124",
+  "term": "Screening",
+  "definition": "Previewing a video to check its quality or points needing revision.",
+  "example": "We prepare a revised cut before the client screening.",
+  "category": "Advertising Production & Collaboration",
+  "aliases": [
+   "preview review"
+  ]
+ },
+ {
+  "id": "film-164",
+  "term": "Screening",
+  "definition": "Previewing a video to check its quality or points needing revision.",
+  "example": "We prepare a revised cut before the client screening.",
+  "category": "Advertising Production & Collaboration",
+  "aliases": [
+   "preview review"
+  ]
+ },
+ {
+  "id": "marketing-125",
+  "term": "Seeding",
+  "definition": "The practice of providing products in advance in hopes of reviews and word of mouth.",
+  "example": "We organize the recipient list for new-product seeding.",
+  "note": "It means providing products and does not guarantee that posts will be published. The arrangement varies with paid contracts and provision terms.",
+  "category": "Influencer & Word-of-Mouth",
+  "aliases": [
+   "influencer seeding",
+   "product seeding"
+  ]
+ },
+ {
+  "id": "fashion-180",
+  "term": "Seeding",
+  "definition": "The practice of providing products in advance in hopes of reviews and word of mouth.",
+  "example": "We organize the seeding recipients for the new jacket and the sizes we can provide.",
+  "note": "It means providing products and does not guarantee that posts will be published. The arrangement varies with paid contracts and provision terms.",
+  "category": "Fashion Brand & Sponsorship",
+  "aliases": [
+   "influencer seeding",
+   "product seeding"
+  ]
+ },
+ {
+  "id": "marketing-126",
+  "term": "Micro-influencer",
+  "definition": "A creator who communicates closely with a relatively small number of followers.",
+  "example": "We look for micro-influencers whose tastes match ours.",
+  "note": "The criteria for follower counts differ by agency and platform.",
+  "category": "Influencer & Word-of-Mouth",
+  "aliases": [
+   "micro-influencer"
+  ]
+ },
+ {
+  "id": "fashion-181",
+  "term": "Micro-influencer",
+  "definition": "A creator who communicates closely with a relatively small number of followers.",
+  "example": "We look for micro-influencers who suit the brand's minimal styling.",
+  "note": "The criteria for follower counts differ by agency and platform.",
+  "category": "Fashion Brand & Sponsorship",
+  "aliases": [
+   "micro-influencer"
+  ]
+ },
+ {
+  "id": "marketing-127",
+  "term": "Viral marketing",
+  "definition": "Marketing that drives the spread of a message through people's sharing and word of mouth.",
+  "example": "We plan viral marketing with content people will want to share.",
+  "category": "Influencer & Word-of-Mouth",
+  "aliases": [
+   "viral",
+   "word-of-mouth marketing"
+  ]
+ },
+ {
+  "id": "fashion-182",
+  "term": "Viral marketing",
+  "definition": "Marketing that drives the spread of a message through people's sharing and word of mouth.",
+  "example": "We plan viral marketing where customers share their various knit styling.",
+  "category": "Fashion Brand & Sponsorship",
+  "aliases": [
+   "viral",
+   "word-of-mouth marketing"
+  ]
+ },
+ {
+  "id": "marketing-128",
+  "term": "Partnership ad",
+  "definition": "An ad a brand runs in connection with a partner such as a creator.",
+  "example": "We run a post agreed on with the creator as a partnership ad.",
+  "category": "Influencer & Word-of-Mouth",
+  "aliases": [
+   "partnership advertising"
+  ]
+ },
+ {
+  "id": "fashion-183",
+  "term": "Partnership ad",
+  "definition": "An ad a brand runs in connection with a partner such as a creator.",
+  "example": "We run a partnership ad using the creator's denim-outfit post, with the usage scope agreed upon.",
+  "category": "Fashion Brand & Sponsorship",
+  "aliases": [
+   "partnership advertising"
+  ]
+ },
+ {
+  "id": "marketing-129",
+  "term": "Variation",
+  "definition": "A version that changes the size, layout, copy, and so on based on a base asset.",
+  "example": "Please prepare variations for each placement.",
+  "category": "Ad Creative Production",
+  "aliases": [
+   "variation",
+   "variation",
+   "variant"
+  ]
+ },
+ {
+  "id": "design-112",
+  "term": "Variation",
+  "definition": "A version that changes the size, layout, copy, and so on based on a base asset.",
+  "example": "We expand the square key visual into horizontal banner and poster variations.",
+  "category": "Ad Creative Production",
+  "aliases": [
+   "variation",
+   "variation",
+   "variant"
+  ]
+ },
+ {
+  "id": "fashion-184",
+  "term": "Variation",
+  "definition": "A version that changes the size, layout, copy, and so on based on a base asset.",
+  "example": "We create variations of the same collection visual for the owned-mall banner and vertical ads.",
+  "category": "Fashion Brand & Content",
+  "aliases": [
+   "variation",
+   "variation",
+   "variant"
+  ]
+ },
+ {
+  "id": "marketing-130",
+  "term": "Hooking",
+  "definition": "A device that grabs attention from the start or draws interest.",
+  "example": "We strengthen the hooking of the opening shot.",
+  "note": "It means drawing interest in advertising and video. Distinguish it from function hooking in software development.",
+  "category": "Ad Creative Production",
+  "aliases": [
+   "hook",
+   "hook",
+   "hook point",
+   "hook point"
+  ]
+ },
+ {
+  "id": "design-113",
+  "term": "Hooking",
+  "definition": "A device that grabs attention from the start or draws interest.",
+  "example": "We create hooking with the first typographic movement of the motion poster.",
+  "note": "It means drawing interest in advertising and video. Distinguish it from function hooking in software development.",
+  "category": "Ad Creative Production",
+  "aliases": [
+   "hook",
+   "hook",
+   "hook point"
+  ]
+ },
+ {
+  "id": "fashion-185",
+  "term": "Hooking",
+  "definition": "A device that grabs attention from the start or draws interest.",
+  "example": "We create hooking by showing reversible wear in the first shot of the outerwear ad.",
+  "note": "It means drawing interest in advertising and video. Distinguish it from function hooking in software development.",
+  "category": "Fashion Brand & Content",
+  "aliases": [
+   "hook",
+   "hook",
+   "hook point"
+  ]
+ },
+ {
+  "id": "film-165",
+  "term": "Hooking",
+  "definition": "A device that grabs attention from the start or draws interest.",
+  "example": "We create hooking by placing the key remark in the first shot of the interview.",
+  "note": "It means drawing interest in advertising and video. Distinguish it from function hooking in software development.",
+  "category": "Ad Creative Production",
+  "aliases": [
+   "hook",
+   "hook",
+   "hook point"
+  ]
+ },
+ {
+  "id": "marketing-131",
+  "term": "Winning creative",
+  "definition": "An ad creative that performs relatively well on the target metric in testing.",
+  "example": "We base the next test on the winning creative.",
+  "note": "It depends on the target metric, comparison period, and run conditions, and does not guarantee future performance.",
+  "category": "Ad Creative & Performance",
+  "aliases": [
+   "winning creative",
+   "winning asset"
+  ]
+ },
+ {
+  "id": "fashion-186",
+  "term": "Winning creative",
+  "definition": "An ad creative that performs relatively well on the target metric in testing.",
+  "example": "We identify the winning creative with better purchase conversion between the outfit video and the detail photos.",
+  "note": "It depends on the target metric, comparison period, and run conditions, and does not guarantee future performance.",
+  "category": "Fashion Brand & Content",
+  "aliases": [
+   "winning creative",
+   "winning asset"
+  ]
+ },
+ {
+  "id": "marketing-132",
+  "term": "Media mix",
+  "definition": "Combining advertising channels and budget allocation to fit the objective.",
+  "example": "We review the media mix for this launch.",
+  "category": "Media Strategy",
+  "aliases": [
+   "media mix",
+   "channel mix"
+  ]
+ },
+ {
+  "id": "fashion-187",
+  "term": "Media mix",
+  "definition": "Combining advertising channels and budget allocation to fit the objective.",
+  "example": "We build the media mix considering the new brand's owned-mall traffic and store visits.",
+  "category": "Fashion Brand & Media",
+  "aliases": [
+   "media mix",
+   "channel mix"
+  ]
+ },
+ {
+  "id": "dev-165",
+  "term": "Regex",
+  "definition": "A short way of saying 'regular expression.' It expresses a set pattern of characters, used to search or validate strings.",
+  "example": "We validate the format of the entered code with a regex.",
+  "category": "Web & Programming",
+  "aliases": [
+   "regular expression",
+   "regular expression",
+   "regex",
+   "regexp"
+  ]
+ },
+ {
+  "id": "common-048",
+  "term": "Working from home",
+  "definition": "A short way of saying working from home in a work schedule. Working at home instead of commuting to the office.",
+  "example": "I'm working from home tomorrow, so I'll join the meeting online.",
+  "category": "Organization & Ways of Working",
+  "aliases": [
+   "telecommuting",
+   "work from home",
+   "WFH"
+  ]
+ },
+ {
+  "id": "common-049",
+  "term": "Job seeker",
+  "definition": "Short for 'job-seeking student.' A person preparing for hiring processes or the skills needed to land a job.",
+  "example": "We're preparing a job session for job seekers.",
+  "category": "Career & Hiring",
+  "aliases": [
+   "job-seeking student",
+   "job applicant"
+  ]
+ },
+ {
+  "id": "common-050",
+  "term": "Resignation preparer",
+  "definition": "Short for 'resignation-preparing student.' An informal expression for someone who, while still employed, prepares for their career or life after leaving the company.",
+  "example": "In the interview with a resignation preparer, we asked what made them decide to change jobs.",
+  "category": "Career & Hiring",
+  "aliases": [
+   "employee preparing to resign",
+   "resignation preparer"
+  ]
+ },
+ {
+  "id": "marketing-133",
+  "term": "Brand search ad",
+  "definition": "Short for 'brand search advertising.' An ad that shows a brand introduction and links to people who searched the brand name and related terms.",
+  "example": "Please change the brand search ad creative to the summer collection image.",
+  "category": "Ad Operations",
+  "aliases": [
+   "brand search advertising",
+   "brand search advertising",
+   "brand search"
+  ]
+ },
+ {
+  "id": "fashion-188",
+  "term": "Brand search ad",
+  "definition": "Short for 'brand search advertising.' An ad that shows a brand introduction and links to people who searched the brand name and related terms.",
+  "example": "Please change the brand search ad creative to the summer collection image.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "brand search advertising",
+   "brand search advertising",
+   "brand search"
+  ]
+ },
+ {
+  "id": "marketing-134",
+  "term": "Shopping search ad",
+  "definition": "Short for 'shopping search advertising.' An ad that shows product information and images in ad placements such as search results.",
+  "example": "We check the product names and out-of-stock status linked to the shopping search ad.",
+  "category": "Ad Operations",
+  "aliases": [
+   "shopping search advertising",
+   "shopping search advertising",
+   "shopping search"
+  ]
+ },
+ {
+  "id": "fashion-189",
+  "term": "Shopping search ad",
+  "definition": "Short for 'shopping search advertising.' An ad that shows product information and images in ad placements such as search results.",
+  "example": "We check the product names and out-of-stock status linked to the shopping search ad.",
+  "category": "Fashion Brand & Ad Operations",
+  "aliases": [
+   "shopping search advertising",
+   "shopping search advertising",
+   "shopping search"
+  ]
+ },
+ {
+  "id": "marketing-135",
+  "term": "Product page",
+  "definition": "Short for 'product detail page.' A sales page that explains a product's features, contents, and usage information.",
+  "example": "Please make the material and fit clearly visible in the first view of the product page.",
+  "category": "Product Introduction",
+  "aliases": [
+   "detail page",
+   "product detail page",
+   "item detail page"
+  ]
+ },
+ {
+  "id": "fashion-190",
+  "term": "Product page",
+  "definition": "Short for 'product detail page.' A sales page that explains a product's features, contents, and usage information.",
+  "example": "Please make the material and fit clearly visible in the first view of the product page.",
+  "category": "Product Introduction",
+  "aliases": [
+   "detail page",
+   "product detail page",
+   "item detail page"
+  ]
+ },
+ {
+  "id": "design-114",
+  "term": "Product page",
+  "definition": "Short for 'product detail page.' A sales page that explains a product's features, contents, and usage information.",
+  "example": "On the product page, we design the reading order of the product information and images.",
+  "category": "Product Introduction",
+  "aliases": [
+   "detail page",
+   "product detail page",
+   "item detail page"
+  ]
+ },
+ {
+  "id": "marketing-138",
+  "term": "Group buy",
+  "definition": "Short for 'group purchase.' A method of gathering participants to sell and buy products together under set conditions or within a set period.",
+  "example": "Let's first confirm the quantity and delivery schedule for this group buy.",
+  "category": "Sales & Operations",
+  "aliases": [
+   "group purchase",
+   "joint purchase",
+   "group-buy marketing"
+  ]
+ },
+ {
+  "id": "fashion-193",
+  "term": "Group buy",
+  "definition": "Short for 'group purchase.' A method of gathering participants to sell and buy products together under set conditions or within a set period.",
+  "example": "Let's first confirm the quantity and delivery schedule for this group buy.",
+  "category": "Sales & Operations",
+  "aliases": [
+   "group purchase",
+   "joint purchase",
+   "group-buy marketing"
+  ]
+ },
+ {
+  "id": "marketing-139",
+  "term": "Live stream",
+  "definition": "Short for 'live broadcast.' In sales work, it can also refer to live commerce, where products are introduced and orders are taken via a real-time broadcast.",
+  "example": "We check stock by size before the live stream.",
+  "note": "It is short for 'live broadcast,' and whether the broadcast includes a sales function depends on context.",
+  "category": "Sales & Operations",
+  "aliases": [
+   "live broadcast",
+   "live stream",
+   "live commerce",
+   "live-commerce"
+  ]
+ },
+ {
+  "id": "fashion-194",
+  "term": "Live stream",
+  "definition": "Short for 'live broadcast.' In sales work, it can also refer to live commerce, where products are introduced and orders are taken via a real-time broadcast.",
+  "example": "We check stock by size before the live stream.",
+  "note": "It is short for 'live broadcast,' and whether the broadcast includes a sales function depends on context.",
+  "category": "Sales & Operations",
+  "aliases": [
+   "live broadcast",
+   "live stream",
+   "live commerce",
+   "live-commerce"
+  ]
+ },
+ {
+  "id": "film-168",
+  "term": "Live stream",
+  "definition": "Short for 'live broadcast.' It refers to an online broadcast where filming and transmission happen in real time.",
+  "example": "Today's live stream runs as a real-time Q&A with the guests.",
+  "note": "It is short for 'live broadcast,' and whether the broadcast includes a sales function depends on context.",
+  "category": "Broadcasting & Program Structure",
+  "aliases": [
+   "live broadcast",
+   "live stream"
+  ]
+ },
+ {
+  "id": "marketing-140",
+  "term": "SmartStore",
+  "definition": "A seller's shorthand for SmartStore. It refers to Naver's online storefront service.",
+  "example": "Please match the SmartStore product options to our owned mall.",
+  "category": "Sales & Operations",
+  "aliases": [
+   "SmartStore",
+   "Smart Store",
+   "Naver SmartStore"
+  ]
+ },
+ {
+  "id": "fashion-195",
+  "term": "SmartStore",
+  "definition": "A seller's shorthand for SmartStore. It refers to Naver's online storefront service.",
+  "example": "Please match the SmartStore product options to our owned mall.",
+  "category": "Sales & Operations",
+  "aliases": [
+   "SmartStore",
+   "Smart Store",
+   "Naver SmartStore"
+  ]
+ },
+ {
+  "id": "marketing-141",
+  "term": "Owned mall",
+  "definition": "A short way of referring to an online shopping mall a company runs directly.",
+  "example": "We share the schedule for revamping the owned mall's product pages.",
+  "category": "Sales & Operations",
+  "aliases": [
+   "own shopping mall",
+   "owned shopping mall",
+   "in-house mall"
+  ]
+ },
+ {
+  "id": "fashion-196",
+  "term": "Owned mall",
+  "definition": "A short way of referring to an online shopping mall a company runs directly.",
+  "example": "We share the schedule for revamping the owned mall's product pages.",
+  "category": "Sales & Operations",
+  "aliases": [
+   "own shopping mall",
+   "owned shopping mall",
+   "in-house mall"
+  ]
+ },
+ {
+  "id": "marketing-142",
+  "term": "Free shipping",
+  "definition": "Short for 'free delivery.' A condition where the buyer does not pay a separate shipping fee.",
+  "example": "Please note the free-shipping threshold amount on the banner as well.",
+  "category": "Sales & Operations",
+  "aliases": [
+   "free delivery",
+   "free shipping"
+  ]
+ },
+ {
+  "id": "fashion-197",
+  "term": "Free shipping",
+  "definition": "Short for 'free delivery.' A condition where the buyer does not pay a separate shipping fee.",
+  "example": "Please note the free-shipping threshold amount on the banner as well.",
+  "category": "Sales & Operations",
+  "aliases": [
+   "free delivery",
+   "free shipping"
+  ]
+ },
+ {
+  "id": "fashion-198",
+  "term": "Poly",
+  "definition": "A short way of saying polyester in apparel fabric work.",
+  "example": "This fabric has a high poly content.",
+  "category": "Sewing & Production Floor",
+  "aliases": [
+   "polyester",
+   "polyester",
+   "polyester"
+  ]
+ },
+ {
+  "id": "fashion-199",
+  "term": "Span",
+  "definition": "A short way of saying spandex. It refers to the elastic fiber that gives fabric stretch, and is sometimes used broadly for stretchy fabric.",
+  "example": "Please check the span content and the direction of stretch.",
+  "note": "Confirm the exact material type and blend ratio on the label or spec sheet. The word 'span' alone does not mean all elastic materials are the same component.",
+  "category": "Sewing & Production Floor",
+  "aliases": [
+   "spandex",
+   "polyurethane elastic fiber",
+   "elastane"
+  ]
+ },
+ {
+  "id": "fashion-200",
+  "term": "Total length",
+  "definition": "A measurement notation for the overall length of a garment. The start and end points are set by item and measurement standard.",
+  "example": "Please measure the sample's total length from the side-neck point to the hem.",
+  "category": "Sampling & Fitting",
+  "aliases": [
+   "overall length",
+   "full length",
+   "garment overall length"
+  ]
+ },
+ {
+  "id": "fashion-201",
+  "term": "Product name",
+  "definition": "A short way of referring to the name of an item. Unlike an item number, which identifies by number, it shows the product's name.",
+  "example": "Please note both the product name and the item number on the purchase order.",
+  "category": "Merchandising & Roles",
+  "aliases": [
+   "item name",
+   "product name",
+   "goods name"
+  ]
+ },
+ {
+  "id": "fashion-202",
+  "term": "Coat no matter the cold",
+  "definition": "An abbreviation meaning one insists on a coat even when it's cold. A consumer coinage expressing style preference.",
+  "example": "We used the phrase 'coat no matter the cold' in the coat content title.",
+  "category": "Customer Understanding",
+  "aliases": [
+   "a coat even if I freeze to death"
+  ]
+ },
+ {
+  "id": "fashion-203",
+  "term": "Crop no matter the cold",
+  "definition": "An abbreviation meaning one enjoys short, cropped styles even when it's cold.",
+  "example": "We reference 'crop no matter the cold' style images when planning cropped tops.",
+  "note": "A consumer expression recorded in 2024 fashion articles. It does not mean it is an official work term at every fashion company.",
+  "category": "Customer Understanding",
+  "aliases": [
+   "a crop even if I freeze to death"
+  ]
+ },
+ {
+  "id": "fashion-204",
+  "term": "Aspired aesthetic",
+  "definition": "A blended expression referring to the beauty one pursues or the style one wants to resemble.",
+  "example": "We organize the target customers' aspired aesthetic into a mood board.",
+  "note": "It is a blended expression rather than a pure acronym, used as an item for understanding consumers and style.",
+  "category": "Customer Understanding",
+  "aliases": [
+   "beauty one aspires to",
+   "image one aims for"
+  ]
+ },
+ {
+  "id": "marketing-145",
+  "term": "Aspired aesthetic",
+  "definition": "A blended expression referring to the beauty one pursues or the style one wants to resemble.",
+  "example": "We organize the target customers' aspired aesthetic into a mood board.",
+  "note": "It is a blended expression rather than a pure acronym, used as an item for understanding consumers and style.",
+  "category": "Customer Understanding",
+  "aliases": [
+   "beauty one aspires to",
+   "image one aims for"
+  ]
+ },
+ {
+  "id": "film-169",
+  "term": "Hair and makeup",
+  "definition": "A short way of referring to hair and makeup together. It refers to the shoot-prep work or the team in charge of it.",
+  "example": "We start hair and makeup an hour before the first shot.",
+  "category": "Production & Planning",
+  "aliases": [
+   "hair makeup",
+   "hair and makeup",
+   "hair & makeup",
+   "hair and makeup team"
+  ]
+ },
+ {
+  "id": "marketing-146",
+  "term": "Hair and makeup",
+  "definition": "A short way of referring to hair and makeup together. It refers to the shoot-prep work or the team in charge of it.",
+  "example": "We start hair and makeup an hour before the first shot.",
+  "category": "Production & Planning",
+  "aliases": [
+   "hair makeup",
+   "hair and makeup",
+   "hair & makeup",
+   "hair and makeup team"
+  ]
+ },
+ {
+  "id": "fashion-205",
+  "term": "Hair and makeup",
+  "definition": "A short way of referring to hair and makeup together. It refers to the shoot-prep work or the team in charge of it.",
+  "example": "We prepare hair and makeup for the first outfit of the lookbook and also check the garments for stains.",
+  "category": "Fashion Shoot & Styling",
+  "aliases": [
+   "hair makeup",
+   "hair and makeup",
+   "hair & makeup",
+   "hair and makeup team"
+  ]
+ },
+ {
+  "id": "film-170",
+  "term": "Director of photography",
+  "definition": "Short for 'cinematographer.' The person responsible for the technical and visual realization of the image, such as the camera and shooting methods.",
+  "example": "We discuss the product close-up composition with the DP.",
+  "category": "Production & Planning",
+  "aliases": [
+   "cinematographer",
+   "director of photography",
+   "DP",
+   "DOP"
+  ]
+ },
+ {
+  "id": "marketing-147",
+  "term": "Director of photography",
+  "definition": "Short for 'cinematographer.' The person responsible for the technical and visual realization of the image, such as the camera and shooting methods.",
+  "example": "We discuss the product close-up composition with the DP.",
+  "category": "Production & Planning",
+  "aliases": [
+   "cinematographer",
+   "director of photography",
+   "DP",
+   "DOP"
+  ]
+ },
+ {
+  "id": "fashion-206",
+  "term": "Director of photography",
+  "definition": "Short for 'cinematographer.' The person responsible for the technical and visual realization of the image, such as the camera and shooting methods.",
+  "example": "For the lookbook video, we align the composition with the DP so the skirt's movement is visible.",
+  "category": "Fashion Shoot & Styling",
+  "aliases": [
+   "cinematographer",
+   "director of photography",
+   "DP",
+   "DOP"
+  ]
+ },
+ {
+  "id": "film-171",
+  "term": "Final online edit",
+  "definition": "Short for 'comprehensive editing.' The work of finishing a video into deliverable form by applying subtitles, graphics, sound, and more.",
+  "example": "Please deliver the final-edit version with the subtitle revisions applied.",
+  "note": "Here it means comprehensive editing. When referring to broadcast media, distinguish it from a general-programming cable channel. The scope of work can differ by production house.",
+  "category": "Editing",
+  "aliases": [
+   "comprehensive editing",
+   "final editing"
+  ]
+ },
+ {
+  "id": "marketing-148",
+  "term": "Final online edit",
+  "definition": "Short for 'comprehensive editing.' The work of finishing a video into deliverable form by applying subtitles, graphics, sound, and more.",
+  "example": "Please deliver the final-edit version with the subtitle revisions applied.",
+  "note": "Here it means comprehensive editing. When referring to broadcast media, distinguish it from a general-programming cable channel. The scope of work can differ by production house.",
+  "category": "Editing",
+  "aliases": [
+   "comprehensive editing",
+   "final editing"
+  ]
+ },
+ {
+  "id": "design-118",
+  "term": "Final online edit",
+  "definition": "Short for 'comprehensive editing.' The work of finishing a video into deliverable form by applying subtitles, graphics, sound, and more.",
+  "example": "When handing motion graphics to the final edit, we check the transparency and screen specs.",
+  "note": "Here it means comprehensive editing. When referring to broadcast media, distinguish it from a general-programming cable channel. The scope of work can differ by production house.",
+  "category": "Motion & Video Editing",
+  "aliases": [
+   "comprehensive editing",
+   "final editing"
+  ]
+ },
+ {
+  "id": "film-172",
+  "term": "Cut editing",
+  "definition": "Short for 'cut editing.' The work of selecting, trimming, and joining the scenes to use to create the video's flow.",
+  "example": "We lock the cut edit first, then add subtitles.",
+  "category": "Editing",
+  "aliases": [
+   "cut editing",
+   "cut edit"
+  ]
+ },
+ {
+  "id": "marketing-149",
+  "term": "Cut editing",
+  "definition": "Short for 'cut editing.' The work of selecting, trimming, and joining the scenes to use to create the video's flow.",
+  "example": "We lock the cut edit first, then add subtitles.",
+  "category": "Editing",
+  "aliases": [
+   "cut editing",
+   "cut edit"
+  ]
+ },
+ {
+  "id": "design-119",
+  "term": "Cut editing",
+  "definition": "Short for 'cut editing.' The work of selecting, trimming, and joining the scenes to use to create the video's flow.",
+  "example": "We set the sections where graphics appear to match the timing of the brand video's cut edit.",
+  "category": "Motion & Video Editing",
+  "aliases": [
+   "cut editing",
+   "cut edit"
+  ]
+ },
+ {
+  "id": "film-173",
+  "term": "Pre-recording",
+  "definition": "Short for 'advance recording.' Recording a scene or performance ahead of the actual broadcast time.",
+  "example": "We check the performers' blocking before the pre-recording starts.",
+  "category": "Broadcasting & Program Structure",
+  "aliases": [
+   "advance recording",
+   "pre-recording"
+  ]
+ },
+ {
+  "id": "film-174",
+  "term": "Original broadcast",
+  "definition": "Short for 'original broadcast.' The first airing of a scheduled episode, as distinguished from a rerun.",
+  "example": "We deliver the final cut based on the original-broadcast air time.",
+  "note": "An original broadcast is not necessarily live. The first airing of pre-produced footage is also an original broadcast.",
+  "category": "Broadcasting & Program Structure",
+  "aliases": [
+   "original broadcast",
+   "main broadcast"
+  ]
+ },
+ {
+  "id": "film-175",
+  "term": "Open broadcast",
+  "definition": "Short for 'open broadcast.' A broadcast held open to the public so that an audience can attend in person.",
+  "example": "We separate the open-broadcast audience entry from the camera paths.",
+  "note": "This is the meaning in broadcast work. Distinguish it from a 'workshop,' a workspace where things are made.",
+  "category": "Broadcasting & Program Structure",
+  "aliases": [
+   "open broadcast",
+   "public broadcast"
+  ]
+ },
+ {
+  "id": "film-176",
+  "term": "Live broadcast",
+  "definition": "Short for 'live broadcast.' A broadcast that transmits on-site video or audio almost simultaneously with the proceedings.",
+  "example": "We check the transmission status before the live broadcast starts.",
+  "category": "Broadcasting & Program Structure",
+  "aliases": [
+   "live broadcast",
+   "live on air"
+  ]
+ }
+]
