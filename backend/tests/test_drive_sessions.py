@@ -19,7 +19,7 @@ from palette_sdk.data_rooms import DataRoomsClient
 from palette_sdk.testing import route_permission_issues
 
 from api import drive_store
-from api.drive_store import ROOM_NAME, ROOT_FOLDER, DriveSessionError, DriveSessions
+from api.drive_store import ROOM_NAME, DriveSessionError, DriveSessions
 from api.main import router
 
 
@@ -124,12 +124,13 @@ BACKUP_OUTPUTS = [
 class DriveStoreTest(unittest.IsolatedAsyncioTestCase):
     async def test_session_has_separate_input_and_output_folders(self):
         fake, drive = store()
-        res = await drive.create_session("backup", BACKUP_INPUTS, BACKUP_OUTPUTS)
+        res = await drive.create_session("backup", BACKUP_INPUTS, BACKUP_OUTPUTS, label="백업 2026-10-12")
 
-        self.assertRegex(res["session"], drive_store.SESSION_RE)
-        self.assertEqual(res["path"], f"{ROOT_FOLDER}/{res['session']}")
-        self.assertEqual(fake.path_of(res["folders"]["input"]), f"{ROOT_FOLDER}/{res['session']}/input")
-        self.assertEqual(fake.path_of(res["folders"]["output"]), f"{ROOT_FOLDER}/{res['session']}/output")
+        # session folder sits directly in the drive root, named after the input
+        self.assertEqual(res["session"], "백업 2026-10-12")
+        self.assertEqual(res["path"], "백업 2026-10-12")
+        self.assertEqual(fake.path_of(res["folders"]["input"]), "백업 2026-10-12/input")
+        self.assertEqual(fake.path_of(res["folders"]["output"]), "백업 2026-10-12/output")
         self.assertEqual([r["name"] for r in fake.rooms.values()], [ROOM_NAME])
 
         files = await drive.session_files(res["session"])
@@ -158,9 +159,8 @@ class DriveStoreTest(unittest.IsolatedAsyncioTestCase):
         self.assertTrue(set(files_a["output"]).isdisjoint(files_b["output"]))
         # every uploaded file sits inside exactly its own session folder
         for f in fake.files.values():
-            session = fake.path_of(f["folder_id"]).split("/")[1]
+            session = fake.path_of(f["folder_id"]).split("/")[0]
             self.assertIn(session, (a["session"], b["session"]))
-        self.assertEqual(sorted(await drive.list_sessions(), reverse=True), await drive.list_sessions())
         self.assertEqual(set(await drive.list_sessions()), {a["session"], b["session"]})
 
     async def test_upload_then_retrieve_returns_identical_bytes(self):
@@ -183,20 +183,27 @@ class DriveStoreTest(unittest.IsolatedAsyncioTestCase):
         self.assertIsNone(await drive.read_file(s, "output", "raw.bin"))
         self.assertIsNone(await drive.read_file(s, "input", "merge-result.json"))
 
-    async def test_list_sessions_newest_first(self):
+    async def test_same_input_name_gets_numbered_folder(self):
         _, drive = store()
-        names = iter(["20261009-100000-backup-aaaaaa", "20261009-120000-document-bbbbbb", "20261009-110000-import-cccccc"])
-        original = drive_store.new_session_name
-        drive_store.new_session_name = lambda kind, now=None: next(names)
-        try:
-            for kind in ("backup", "document", "import"):
-                await drive.create_session(kind, [{"name": "in.txt", "content": "x"}])
-        finally:
-            drive_store.new_session_name = original
-        self.assertEqual(
-            await drive.list_sessions(),
-            ["20261009-120000-document-bbbbbb", "20261009-110000-import-cccccc", "20261009-100000-backup-aaaaaa"],
-        )
+        await drive.init_room()
+        a = await drive.create_session("word", [{"name": "word.json", "content": "1"}], label="CPC")
+        b = await drive.create_session("word", [{"name": "word.json", "content": "2"}], label="CPC")
+        c = await drive.create_session("word", [{"name": "word.json", "content": "3"}], label="CPC")
+        self.assertEqual([a["session"], b["session"], c["session"]], ["CPC", "CPC (2)", "CPC (3)"])
+        self.assertEqual(await drive.read_file("CPC (2)", "input", "word.json"), b"2")
+        # State/ is not a session; a label that collides with it is numbered
+        s = await drive.create_session("import", [{"name": "x.json", "content": "x"}], label="State")
+        self.assertEqual(s["session"], "State (2)")
+        self.assertEqual(await drive.list_sessions(), ["CPC", "CPC (2)", "CPC (3)", "State (2)"])
+
+    async def test_label_is_cleaned_and_unlabelled_sessions_fall_back(self):
+        _, drive = store()
+        res = await drive.create_session("document", [{"name": "d.txt", "content": "x"}], label="  a/b\\c\n line  " + "x" * 200)
+        self.assertNotIn("/", res["session"])
+        self.assertNotIn("\n", res["session"])
+        self.assertLessEqual(len(res["session"]), 80)
+        fallback = await drive.create_session("backup", BACKUP_INPUTS)
+        self.assertRegex(fallback["session"], r"^\d{8}-\d{6}-backup-[0-9a-f]{6}$")
 
     async def test_saved_word_session(self):
         _, drive = store()
@@ -204,18 +211,19 @@ class DriveStoreTest(unittest.IsolatedAsyncioTestCase):
             "word",
             [{"name": "word.json", "content": '{"id":"dev-001","term":"커밋","action":"saved"}'}],
             [{"name": "my-words.csv", "content": "단어,분야\n커밋,개발·IT\n", "content_type": "text/csv"}],
+            label="커밋",
         )
-        self.assertRegex(res["session"], r"-word-")
+        self.assertEqual(res["session"], "커밋")
         files = await drive.session_files(res["session"])
         self.assertEqual(files, {"session": res["session"], "input": ["word.json"], "output": ["my-words.csv"]})
         self.assertIn(res["session"], await drive.list_sessions())
 
-    async def test_init_room_creates_room_with_state_and_sessions_folders(self):
+    async def test_init_room_creates_room_with_state_folder(self):
         fake, drive = store()
         res = await drive.init_room()
         self.assertEqual([r["name"] for r in fake.rooms.values()], [ROOM_NAME])
         self.assertEqual(fake.path_of(res["state_folder"]), "State")
-        self.assertEqual(fake.path_of(res["sessions_folder"]), ROOT_FOLDER)
+        self.assertNotIn("sessions_folder", res)
         again = await drive.init_room()  # idempotent
         self.assertEqual(again["room_id"], res["room_id"])
         self.assertEqual(len(fake.rooms), 1)
@@ -260,7 +268,7 @@ class DriveStoreTest(unittest.IsolatedAsyncioTestCase):
         res = await drive.create_session("document", [{"name": "../../evil.txt", "content": "x"}])
         (stored,) = fake.files.values()
         self.assertNotIn("/", stored["name"])
-        self.assertEqual(fake.path_of(stored["folder_id"]), f"{ROOT_FOLDER}/{res['session']}/input")
+        self.assertEqual(fake.path_of(stored["folder_id"]), f"{res['session']}/input")
 
     async def test_unavailable_drive_service_raises_runtime_error(self):
         drive = DriveSessions(DataRoomsClient(None))
@@ -316,7 +324,7 @@ class DriveRoutesTest(unittest.TestCase):
         http = client(FakeDataRoomService())
         self.assertEqual(http.post("/drive/sessions", json={"kind": "backup", "inputs": []}).status_code, 422)
         self.assertEqual(http.post("/drive/sessions", json={"kind": "x", "inputs": BACKUP_INPUTS}).status_code, 422)
-        self.assertEqual(http.get("/drive/sessions/not-a-session").status_code, 400)
+        self.assertEqual(http.get("/drive/sessions/State").status_code, 400)
 
     def test_init_and_state_routes(self):
         http = client(FakeDataRoomService())

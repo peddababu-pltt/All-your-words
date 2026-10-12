@@ -1,5 +1,6 @@
 // Save every input and its generated output to the Palette Drive (Data Room),
-// one session folder per submission (Sessions/<session>/input + /output).
+// one folder per submission in the drive root, named after the input
+// (<word | document start | file name | backup date>/input + /output).
 //
 // Hooks the legacy UI without editing app.js, via capture-phase listeners:
 //   - "Back up my data"      -> session "backup"   (records.json -> backup JSON + CSV)
@@ -8,7 +9,7 @@
 // Uploads go through the backend into the platform Drive (ctx.data_rooms).
 // When the Drive is not available, backup falls back to a file download.
 import { isPaletteApiError } from "@palettelab/sdk"
-import { IS_LOCAL } from "./env"
+import { readLang } from "./lang"
 import { LEGACY_HOST } from "./dom-setup"
 import type { ApiFetch } from "./runtime"
 
@@ -29,15 +30,7 @@ type Workspace = {
 }
 
 const g = window as unknown as { WORD_DATA: Dataset; WorkspaceCore: Workspace }
-const isEn = () => {
-  if (!IS_LOCAL) return false // English is localhost-only
-  try {
-    return localStorage.getItem("daneo-lang") === "en"
-  } catch {
-    return false
-  }
-}
-export const msg = (en: string, ko: string) => (isEn() ? en : ko)
+export const msg = (en: string, ko: string, ja: string) => ({ en, ko, ja })[readLang()]
 
 // The OS may render the plugin inside an isolated root (iframe body / shadow
 // DOM). Look elements up inside the app's own host first, then the document,
@@ -91,11 +84,17 @@ const reason = (r: { status: number; body: any }) =>
   `${r.status || "network"}${r.body?.detail ? ` · ${typeof r.body.detail === "string" ? r.body.detail : JSON.stringify(r.body.detail)}` : ""}`
 
 let lastFailure = ""
-async function saveSession(kind: "backup" | "document" | "import" | "word", inputs: DriveFile[], outputs: DriveFile[]) {
+// label = Drive folder name for this session, taken from its input
+async function saveSession(
+  kind: "backup" | "document" | "import" | "word",
+  label: string,
+  inputs: DriveFile[],
+  outputs: DriveFile[],
+) {
   const r = await api(SESSIONS_PATH, {
     method: "POST",
     headers: { "content-type": "application/json" },
-    body: JSON.stringify({ kind, inputs, outputs }),
+    body: JSON.stringify({ kind, label, inputs, outputs }),
   })
   if (!r.ok) {
     lastFailure = reason(r)
@@ -132,19 +131,27 @@ async function backupToDrive() {
   const saved = (state.saved || []).map(word).filter(Boolean) as Entry[]
   const csv = g.WorkspaceCore.csv(saved, state.notes || {}, g.WORD_DATA.fields)
   try {
+    const today = new Date().toISOString().slice(0, 10)
     const res = await saveSession(
       "backup",
+      msg(`Backup ${today}`, `백업 ${today}`, `バックアップ ${today}`),
       [{ name: "records.json", content: JSON.stringify(state), content_type: "application/json" }],
       [
         { name: "all-your-words-backup.json", content: backup, content_type: "application/json" },
         { name: "my-words.csv", content: csv, content_type: "text/csv" },
       ],
     )
-    toast(msg(`Saved to Drive · ${res.path}`, `Drive에 저장했어요 · ${res.path}`))
+    toast(msg(`Saved to Drive · ${res.path}`, `Drive에 저장했어요 · ${res.path}`, `Driveに保存しました · ${res.path}`))
   } catch (err) {
     download(backup, BACKUP_NAME, "application/json")
     const why = String((err as Error)?.message || err)
-    toast(msg(`Drive save failed (${why}) — downloaded the backup instead.`, `Drive 저장 실패 (${why}) — 백업 파일로 내려받았어요.`))
+    toast(
+      msg(
+        `Drive save failed (${why}) — downloaded the backup instead.`,
+        `Drive 저장 실패 (${why}) — 백업 파일로 내려받았어요.`,
+        `Driveへの保存に失敗しました (${why}) — 代わりにバックアップファイルをダウンロードしました。`,
+      ),
+    )
   }
 }
 
@@ -175,13 +182,20 @@ async function documentToDrive(text: string, scopeId: string) {
   try {
     const res = await saveSession(
       "document",
+      text.trim().split("\n")[0].slice(0, 40),
       [{ name: "document.txt", content: text, content_type: "text/plain" }],
       [
         { name: "terms.json", content: JSON.stringify({ scope: scopeId, count: terms.length, terms }, null, 2), content_type: "application/json" },
-        { name: "terms.csv", content: rows.join("\n") + "\n", content_type: "text/csv" },
+        { name: "terms.csv", content: "\ufeff" + rows.join("\r\n") + "\r\n", content_type: "text/csv" },
       ],
     )
-    toast(msg(`${terms.length} terms saved to Drive · ${res.path}`, `용어 ${terms.length}개를 Drive에 저장했어요 · ${res.path}`))
+    toast(
+      msg(
+        `${terms.length} terms saved to Drive · ${res.path}`,
+        `용어 ${terms.length}개를 Drive에 저장했어요 · ${res.path}`,
+        `用語${terms.length}件をDriveに保存しました · ${res.path}`,
+      ),
+    )
   } catch {
     /* Drive unavailable: the on-screen result still works; stay quiet */
   }
@@ -204,10 +218,11 @@ async function importToDrive(file: File) {
   try {
     const res = await saveSession(
       "import",
+      file.name || "import",
       [{ name: file.name || "import.json", content, content_type: file.type || "application/json" }],
       [{ name: "merge-result.json", content: JSON.stringify(result, null, 2), content_type: "application/json" }],
     )
-    setTimeout(() => toast(msg(`Import saved to Drive · ${res.path}`, `가져온 파일을 Drive에 저장했어요 · ${res.path}`)), 2700)
+    setTimeout(() => toast(msg(`Import saved to Drive · ${res.path}`, `가져온 파일을 Drive에 저장했어요 · ${res.path}`, `読み込んだファイルをDriveに保存しました · ${res.path}`)), 2700)
   } catch {
     /* Drive unavailable: import itself already happened locally */
   }
@@ -278,11 +293,12 @@ async function wordToDrive(id: string, action: "saved" | "memo", state: Record<s
   try {
     const res = await saveSession(
       "word",
+      e.term,
       [{ name: "word.json", content: JSON.stringify(item, null, 2), content_type: "application/json" }],
       [{ name: "my-words.csv", content: csv, content_type: "text/csv" }],
     )
     // after app.js's own "내 단어장에 담았어요" toast
-    setTimeout(() => toast(msg(`"${e.term}" saved to Drive · ${res.path}`, `"${e.term}" Drive에 저장했어요 · ${res.path}`)), 2700)
+    setTimeout(() => toast(msg(`"${e.term}" saved to Drive · ${res.path}`, `"${e.term}" Drive에 저장했어요 · ${res.path}`, `「${e.term}」をDriveに保存しました · ${res.path}`)), 2700)
   } catch {
     /* reason is shown in the Drive panel (last save failed …) */
   }

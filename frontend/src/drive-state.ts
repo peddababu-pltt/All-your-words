@@ -81,7 +81,13 @@ function schedulePut(state: Record<string, unknown>) {
     try {
       await putState(snapshot)
     } catch (err) {
-      toast(msg(`Drive save failed (${(err as Error).message})`, `Drive 저장 실패 (${(err as Error).message})`))
+      toast(
+        msg(
+          `Drive save failed (${(err as Error).message})`,
+          `Drive 저장 실패 (${(err as Error).message})`,
+          `Driveへの保存に失敗しました (${(err as Error).message})`,
+        ),
+      )
     }
   }, SAVE_DEBOUNCE_MS)
 }
@@ -135,7 +141,7 @@ function showOverlay() {
   const el = document.createElement("div")
   el.className = "drive-loading"
   el.setAttribute("role", "status")
-  el.textContent = msg("Loading from Drive…", "Drive에서 불러오는 중…")
+  el.textContent = msg("Loading from Drive…", "Drive에서 불러오는 중…", "Driveから読み込み中…")
   LEGACY_HOST.appendChild(el)
 }
 function hideOverlay() {
@@ -170,6 +176,7 @@ export async function bootFromDrive(fetcher: ApiFetch) {
       msg(
         `Could not connect to Drive — changes will not be saved (${(err as Error).message})`,
         `Drive에 연결하지 못했어요 — 이번 변경은 저장되지 않아요 (${(err as Error).message})`,
+        `Driveに接続できませんでした — 変更は保存されません (${(err as Error).message})`,
       ),
     )
   } finally {

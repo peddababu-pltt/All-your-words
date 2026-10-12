@@ -1,0 +1,4564 @@
+[
+{
+"id": "design-034",
+"field": "design",
+"term_ko": "브리프",
+"term_en": "Brief",
+"english": "Creative brief",
+"aliases_ko": [
+"브리핑 문서",
+"크리에이티브 브리프"
+],
+"definition_ko": "제작 목표·대상·핵심 요구를 요약한 문서.",
+"definition_en": "A document that summarizes the production goals, audience, and key requirements.",
+"example_ko": "브리프의 대상과 제작 규격을 확인한 뒤 포스터 시안을 만들어요.",
+"example_en": "We create the poster draft after checking the audience and production specs in the brief."
+},
+{
+"id": "marketing-034",
+"field": "marketing",
+"term_ko": "키메시지",
+"term_en": "Key message",
+"english": "Key message",
+"aliases_ko": [
+"핵심 메시지",
+"키 메시지"
+],
+"definition_ko": "대상에게 가장 먼저 전달하려는 핵심 내용.",
+"definition_en": "The core content you most want to convey to the audience first.",
+"example_ko": "키메시지는 한 문장으로 정리해요.",
+"example_en": "We distill the key message into a single sentence."
+},
+{
+"id": "fashion-029",
+"field": "fashion",
+"term_ko": "키메시지",
+"term_en": "Key message",
+"english": "Key message",
+"aliases_ko": [
+"핵심 메시지",
+"키 메시지"
+],
+"definition_ko": "대상에게 가장 먼저 전달하려는 핵심 내용.",
+"definition_en": "The core content you most want to convey to the audience first.",
+"example_ko": "이번 아우터 캠페인의 키메시지는 가벼움과 보온성으로 정리해요.",
+"example_en": "We frame the key message of this outerwear campaign around lightness and warmth."
+},
+{
+"id": "design-035",
+"field": "design",
+"term_ko": "키메시지",
+"term_en": "Key message",
+"english": "Key message",
+"aliases_ko": [
+"핵심 메시지",
+"키 메시지"
+],
+"definition_ko": "대상에게 가장 먼저 전달하려는 핵심 내용.",
+"definition_en": "The core content you most want to convey to the audience first.",
+"example_ko": "키메시지가 먼저 읽히도록 지면의 시각적 위계를 잡아요.",
+"example_en": "We set the layout's visual hierarchy so the key message is read first."
+},
+{
+"id": "common-010",
+"field": "common",
+"term_ko": "킥오프",
+"term_en": "Kickoff",
+"english": "Kickoff",
+"aliases_ko": [
+"킥오프 미팅",
+"킥 오프",
+"Kick-off",
+"Kick off",
+"킥오프미팅",
+"착수회의",
+"착수 회의"
+],
+"definition_ko": "시작할 일의 목표·역할·일정을 맞추는 첫 회의.",
+"definition_en": "The first meeting to align on the goals, roles, and schedule of work about to begin.",
+"example_ko": "킥오프에서 각 팀 역할을 정해요.",
+"example_en": "We define each team's role at the kickoff."
+},
+{
+"id": "common-011",
+"field": "common",
+"term_ko": "어젠다",
+"term_en": "Agenda",
+"english": "Agenda",
+"aliases_ko": [
+"아젠다",
+"회의 안건",
+"의제",
+"아젠더",
+"Agenda"
+],
+"definition_ko": "회의에서 논의할 주제와 순서.",
+"definition_en": "The topics to discuss at a meeting and their order.",
+"example_ko": "회의 전에 어젠다를 공유해요.",
+"example_en": "We share the agenda before the meeting."
+},
+{
+"id": "common-012",
+"field": "common",
+"term_ko": "액션 아이템",
+"term_en": "Action item",
+"english": "Action item",
+"aliases_ko": [
+"액션아이템",
+"후속 할 일",
+"후속 조치",
+"액션 정리",
+"Action Item"
+],
+"definition_ko": "논의 후 담당자가 실행해야 할 구체적인 일.",
+"definition_en": "A specific task that an assignee must carry out after a discussion.",
+"example_ko": "액션 아이템마다 담당자를 적어요.",
+"example_en": "We note an owner for each action item."
+},
+{
+"id": "common-013",
+"field": "common",
+"term_ko": "스코프",
+"term_en": "Scope",
+"english": "Project scope",
+"aliases_ko": [
+"업무 범위",
+"과업 범위"
+],
+"definition_ko": "이번 일에 포함할 작업과 결과의 범위.",
+"definition_en": "The range of work and outcomes to be included in this task.",
+"example_ko": "추가 요청은 기존 스코프에 포함되는지 확인해요.",
+"example_en": "We check whether the additional request falls within the existing scope."
+},
+{
+"id": "common-014",
+"field": "common",
+"term_ko": "마일스톤",
+"term_en": "Milestone",
+"english": "Milestone",
+"aliases_ko": [
+"주요 일정",
+"중간 이정표"
+],
+"definition_ko": "진행 상태를 판단하는 중요한 완료 지점.",
+"definition_en": "A key completion point used to gauge progress.",
+"example_ko": "중간 승인일을 마일스톤으로 잡아요.",
+"example_en": "We set the interim approval date as a milestone."
+},
+{
+"id": "common-015",
+"field": "common",
+"term_ko": "산출물",
+"term_en": "Deliverable",
+"english": "Deliverable",
+"aliases_ko": [
+"딜리버러블",
+"결과물",
+"납품물",
+"Deliverables",
+"인도물",
+"최종 제출물"
+],
+"definition_ko": "업무를 통해 만들어 전달하기로 한 결과물.",
+"definition_en": "The output that work is meant to produce and hand over.",
+"example_ko": "최종 산출물 목록을 먼저 합의해요.",
+"example_en": "We agree on the list of final deliverables first."
+},
+{
+"id": "common-016",
+"field": "common",
+"term_ko": "리소스",
+"term_en": "Resources",
+"english": "Resource",
+"aliases_ko": [
+"인력과 자원",
+"가용 자원"
+],
+"definition_ko": "일에 투입할 사람·시간·예산 등의 자원.",
+"definition_en": "The people, time, budget, and other resources to be put into the work.",
+"example_ko": "이번 주에 쓸 수 있는 리소스를 확인해요.",
+"example_en": "We check the resources available this week."
+},
+{
+"id": "marketing-042",
+"field": "marketing",
+"term_ko": "AE",
+"term_en": "AE",
+"english": "Account executive",
+"aliases_ko": [
+"에이이",
+"광고기획자",
+"어카운트 이그제큐티브"
+],
+"definition_ko": "광고주와 소통하며 캠페인 진행을 조율하는 담당자.",
+"definition_en": "The person who communicates with the advertiser and coordinates the campaign's progress.",
+"example_ko": "AE가 광고주 요청을 제작팀에 전달해요.",
+"example_en": "The AE relays the client's requests to the production team."
+},
+{
+"id": "marketing-043",
+"field": "marketing",
+"term_ko": "AP",
+"term_en": "AP",
+"english": "Account planner",
+"aliases_ko": [
+"어카운트 플래너",
+"전략 플래너"
+],
+"definition_ko": "소비자·시장 조사로 브랜드 전략을 세우는 역할.",
+"definition_en": "The role that builds brand strategy through consumer and market research.",
+"example_ko": "AP가 소비자 조사에서 전략 방향을 찾았어요.",
+"example_en": "The AP found the strategic direction from consumer research."
+},
+{
+"id": "marketing-044",
+"field": "marketing",
+"term_ko": "미디어 플래닝",
+"term_en": "Media planning",
+"english": "Media planning",
+"aliases_ko": [
+"매체 기획",
+"미디어플래닝",
+"매체 플랜"
+],
+"definition_ko": "목표에 맞춰 매체와 광고 예산을 계획하는 일.",
+"definition_en": "The work of planning media and ad budget to fit the objectives.",
+"example_ko": "미디어 플래닝 단계에서 매체 비중을 정해요.",
+"example_en": "We decide the media mix during the media planning stage."
+},
+{
+"id": "marketing-045",
+"field": "marketing",
+"term_ko": "미디어 바잉",
+"term_en": "Media buying",
+"english": "Media buying",
+"aliases_ko": [
+"매체 구매",
+"미디어바잉"
+],
+"definition_ko": "광고 지면·시간·노출을 구매하는 일.",
+"definition_en": "The work of purchasing ad space, time, and impressions.",
+"example_ko": "미디어 바잉 담당자가 집행 조건을 협의해요.",
+"example_en": "The media buyer negotiates the placement terms."
+},
+{
+"id": "marketing-046",
+"field": "marketing",
+"term_ko": "프로모션",
+"term_en": "Promotion",
+"english": "Promotion",
+"aliases_ko": [
+"판촉",
+"프로모션 기획"
+],
+"definition_ko": "구매나 참여를 촉진하기 위해 벌이는 활동.",
+"definition_en": "Activities carried out to encourage purchase or participation.",
+"example_ko": "체험 행사 프로모션을 준비해요.",
+"example_en": "We prepare a promotion for the trial event."
+},
+{
+"id": "marketing-047",
+"field": "marketing",
+"term_ko": "PR",
+"term_en": "PR",
+"english": "Public relations",
+"aliases_ko": [
+"피알",
+"홍보",
+"퍼블릭 릴레이션스"
+],
+"definition_ko": "대중·언론 등과 관계를 만들고 소통하는 활동.",
+"definition_en": "Activities that build and maintain relationships and communication with the public, the press, and others.",
+"example_ko": "브랜드 PR 계획에 언론 소통을 넣어요.",
+"example_en": "We include media outreach in the brand PR plan."
+},
+{
+"id": "marketing-048",
+"field": "marketing",
+"term_ko": "아트 디렉터",
+"term_en": "Art director",
+"english": "Art director",
+"aliases_ko": [
+"AD",
+"아트디렉터",
+"에이디"
+],
+"definition_ko": "프로젝트의 시각 표현 방향을 이끄는 역할.",
+"definition_en": "The role that leads the direction of a project's visual expression.",
+"example_ko": "아트 디렉터와 이미지 방향을 맞춰요.",
+"example_en": "We align on the image direction with the art director."
+},
+{
+"id": "design-043",
+"field": "design",
+"term_ko": "아트 디렉터",
+"term_en": "Art director",
+"english": "Art director",
+"aliases_ko": [
+"AD",
+"아트디렉터"
+],
+"definition_ko": "프로젝트의 시각 표현 방향을 이끄는 역할.",
+"definition_en": "The role that leads the direction of a project's visual expression.",
+"example_ko": "아트 디렉터와 사진·서체·색의 시각적 방향을 검토해요.",
+"example_en": "We review the visual direction of photography, typography, and color with the art director."
+},
+{
+"id": "marketing-049",
+"field": "marketing",
+"term_ko": "카피라이터",
+"term_en": "Copywriter",
+"english": "Copywriter",
+"aliases_ko": [
+"CW",
+"카피 라이터",
+"씨더블유",
+"카피 담당"
+],
+"definition_ko": "광고·브랜드 메시지를 문장으로 만드는 역할.",
+"definition_en": "The role that crafts advertising and brand messages into words.",
+"example_ko": "카피라이터가 헤드라인을 제안해요.",
+"example_en": "The copywriter proposes the headline."
+},
+{
+"id": "design-044",
+"field": "design",
+"term_ko": "카피라이터",
+"term_en": "Copywriter",
+"english": "Copywriter",
+"aliases_ko": [
+"CW",
+"카피 라이터"
+],
+"definition_ko": "광고·브랜드 메시지를 문장으로 만드는 역할.",
+"definition_en": "The role that crafts advertising and brand messages into words.",
+"example_ko": "레이아웃에 들어갈 헤드라인 길이를 카피라이터와 맞춰요.",
+"example_en": "We align with the copywriter on the length of the headline that goes into the layout."
+},
+{
+"id": "marketing-050",
+"field": "marketing",
+"term_ko": "광고 소재",
+"term_en": "Ad creative",
+"english": "Ad creative",
+"aliases_ko": [
+"소재",
+"크리에이티브 소재",
+"크리"
+],
+"definition_ko": "광고에 쓰는 이미지·문구·영상 등의 표현물.",
+"definition_en": "The images, copy, video, and other assets used in advertising.",
+"example_ko": "상품별 광고 소재를 비교해요.",
+"example_en": "We compare ad creative by product."
+},
+{
+"id": "fashion-037",
+"field": "fashion",
+"term_ko": "광고 소재",
+"term_en": "Ad creative",
+"english": "Ad creative",
+"aliases_ko": [
+"소재",
+"크리에이티브 소재"
+],
+"definition_ko": "광고에 쓰는 이미지·문구·영상 등의 표현물.",
+"definition_en": "The images, copy, video, and other assets used in advertising.",
+"example_ko": "코트의 전신 착장과 원단 디테일을 보여주는 광고 소재를 비교해요.",
+"example_en": "We compare ad creative that shows the full coat styling and the fabric detail."
+},
+{
+"id": "marketing-051",
+"field": "marketing",
+"term_ko": "디스플레이 광고",
+"term_en": "Display advertising",
+"english": "Display advertising",
+"aliases_ko": [
+"DA",
+"디스플레이 애드",
+"배너 광고"
+],
+"definition_ko": "웹·앱 등의 지면에 시각 소재로 노출하는 광고.",
+"definition_en": "Advertising shown as visual creative in placements on the web, in apps, and elsewhere.",
+"example_ko": "디스플레이 광고용 이미지를 제작해요.",
+"example_en": "We produce images for display ads."
+},
+{
+"id": "fashion-038",
+"field": "fashion",
+"term_ko": "디스플레이 광고",
+"term_en": "Display advertising",
+"english": "Display advertising",
+"aliases_ko": [
+"DA",
+"디스플레이 애드",
+"배너 광고"
+],
+"definition_ko": "웹·앱 등의 지면에 시각 소재로 노출하는 광고.",
+"definition_en": "Advertising shown as visual creative in placements on the web, in apps, and elsewhere.",
+"example_ko": "신규 컬렉션의 착장 이미지로 디스플레이 광고를 준비해요.",
+"example_en": "We prepare display ads using styled images of the new collection."
+},
+{
+"id": "marketing-052",
+"field": "marketing",
+"term_ko": "브랜딩",
+"term_en": "Branding",
+"english": "Branding",
+"aliases_ko": [
+"브랜드 구축"
+],
+"definition_ko": "브랜드의 정체성과 인식을 만들어 가는 활동.",
+"definition_en": "The activity of building a brand's identity and perception.",
+"example_ko": "브랜딩 방향에 맞춰 제품 경험을 정해요.",
+"example_en": "We shape the product experience in line with the branding direction."
+},
+{
+"id": "fashion-039",
+"field": "fashion",
+"term_ko": "브랜딩",
+"term_en": "Branding",
+"english": "Branding",
+"aliases_ko": [
+"브랜드 구축"
+],
+"definition_ko": "브랜드의 정체성과 인식을 만들어 가는 활동.",
+"definition_en": "The activity of building a brand's identity and perception.",
+"example_ko": "옷의 실루엣부터 매장 응대까지 같은 인상을 주도록 브랜딩 방향을 맞춰요.",
+"example_en": "We align the branding direction so everything from the garment silhouette to in-store service gives the same impression."
+},
+{
+"id": "marketing-053",
+"field": "marketing",
+"term_ko": "포지셔닝",
+"term_en": "Positioning",
+"english": "Brand positioning",
+"aliases_ko": [
+"브랜드 포지셔닝"
+],
+"definition_ko": "경쟁 속에서 브랜드가 차지할 인식과 위치를 정하는 것.",
+"definition_en": "Defining the perception and position a brand will hold amid competition.",
+"example_ko": "프리미엄 일상복으로 포지셔닝해요.",
+"example_en": "We position it as premium everyday wear."
+},
+{
+"id": "fashion-040",
+"field": "fashion",
+"term_ko": "포지셔닝",
+"term_en": "Positioning",
+"english": "Brand positioning",
+"aliases_ko": [
+"브랜드 포지셔닝"
+],
+"definition_ko": "경쟁 속에서 브랜드가 차지할 인식과 위치를 정하는 것.",
+"definition_en": "Defining the perception and position a brand will hold amid competition.",
+"example_ko": "프리미엄 일상복으로 포지셔닝해요.",
+"example_en": "We position it as premium everyday wear."
+},
+{
+"id": "marketing-054",
+"field": "marketing",
+"term_ko": "USP",
+"term_en": "USP",
+"english": "Unique selling proposition",
+"aliases_ko": [
+"유에스피",
+"차별적 판매 제안"
+],
+"definition_ko": "고객이 선택할 이유가 되는 차별적 강점.",
+"definition_en": "A distinctive strength that gives customers a reason to choose you.",
+"example_ko": "이 제품의 USP를 광고에 담아요.",
+"example_en": "We feature this product's USP in the ad."
+},
+{
+"id": "fashion-041",
+"field": "fashion",
+"term_ko": "USP",
+"term_en": "USP",
+"english": "Unique selling proposition",
+"aliases_ko": [
+"유에스피",
+"차별적 판매 제안"
+],
+"definition_ko": "고객이 선택할 이유가 되는 차별적 강점.",
+"definition_en": "A distinctive strength that gives customers a reason to choose you.",
+"example_ko": "이 재킷의 USP인 탈부착 안감을 착장 영상에서 보여줘요.",
+"example_en": "We show this jacket's USP, its detachable lining, in the styling video."
+},
+{
+"id": "marketing-055",
+"field": "marketing",
+"term_ko": "브랜드 아이덴티티",
+"term_en": "Brand identity",
+"english": "Brand identity",
+"aliases_ko": [
+"브랜드 정체성",
+"BI"
+],
+"definition_ko": "브랜드가 자신을 드러내는 고유한 성격과 표현 체계.",
+"definition_en": "The distinctive character and system of expression through which a brand presents itself.",
+"example_ko": "브랜드 아이덴티티를 새 시즌에도 유지해요.",
+"example_en": "We maintain the brand identity into the new season."
+},
+{
+"id": "fashion-042",
+"field": "fashion",
+"term_ko": "브랜드 아이덴티티",
+"term_en": "Brand identity",
+"english": "Brand identity",
+"aliases_ko": [
+"브랜드 정체성",
+"BI"
+],
+"definition_ko": "브랜드가 자신을 드러내는 고유한 성격과 표현 체계.",
+"definition_en": "The distinctive character and system of expression through which a brand presents itself.",
+"example_ko": "브랜드 아이덴티티를 새 시즌에도 유지해요.",
+"example_en": "We maintain the brand identity into the new season."
+},
+{
+"id": "marketing-056",
+"field": "marketing",
+"term_ko": "페르소나",
+"term_en": "Persona",
+"english": "Customer persona",
+"aliases_ko": [
+"고객 페르소나",
+"타깃 페르소나"
+],
+"definition_ko": "조사한 고객 특성을 구체적인 인물상으로 정리한 것.",
+"definition_en": "A concrete profile of a person that organizes researched customer traits.",
+"example_ko": "핵심 페르소나의 구매 고민을 살펴요.",
+"example_en": "We examine the purchasing concerns of the core persona."
+},
+{
+"id": "fashion-043",
+"field": "fashion",
+"term_ko": "페르소나",
+"term_en": "Persona",
+"english": "Customer persona",
+"aliases_ko": [
+"고객 페르소나",
+"타깃 페르소나"
+],
+"definition_ko": "조사한 고객 특성을 구체적인 인물상으로 정리한 것.",
+"definition_en": "A concrete profile of a person that organizes researched customer traits.",
+"example_ko": "출퇴근과 주말에 함께 입을 옷을 찾는 고객을 핵심 페르소나로 잡아요.",
+"example_en": "We set as the core persona a customer looking for clothes to wear both for commuting and on weekends."
+},
+{
+"id": "marketing-057",
+"field": "marketing",
+"term_ko": "시장조사",
+"term_en": "Market research",
+"english": "Market research",
+"aliases_ko": [
+"마켓 리서치",
+"시장 조사"
+],
+"definition_ko": "시장과 고객 정보를 모아 의사결정에 쓰는 조사.",
+"definition_en": "Research that gathers market and customer information for use in decision-making.",
+"example_ko": "신상품 기획 전에 시장조사를 진행해요.",
+"example_en": "We conduct market research before planning a new product."
+},
+{
+"id": "fashion-044",
+"field": "fashion",
+"term_ko": "시장조사",
+"term_en": "Market research",
+"english": "Market research",
+"aliases_ko": [
+"마켓 리서치",
+"시장 조사"
+],
+"definition_ko": "시장과 고객 정보를 모아 의사결정에 쓰는 조사.",
+"definition_en": "Research that gathers market and customer information for use in decision-making.",
+"example_ko": "새 니트 라인 기획 전에 경쟁 브랜드의 가격과 혼용률을 시장조사해요.",
+"example_en": "Before planning a new knitwear line, we research competitors' prices and fiber blends."
+},
+{
+"id": "marketing-058",
+"field": "marketing",
+"term_ko": "인사이트",
+"term_en": "Insight",
+"english": "Insight",
+"aliases_ko": [
+"소비자 인사이트",
+"고객 통찰"
+],
+"definition_ko": "자료에서 찾아낸 행동의 이유나 유의미한 이해.",
+"definition_en": "A meaningful understanding, or the reason behind behavior, found in the data.",
+"example_ko": "반품 사유에서 개선 인사이트를 찾았어요.",
+"example_en": "We found an improvement insight in the return reasons."
+},
+{
+"id": "fashion-045",
+"field": "fashion",
+"term_ko": "인사이트",
+"term_en": "Insight",
+"english": "Insight",
+"aliases_ko": [
+"소비자 인사이트",
+"고객 통찰"
+],
+"definition_ko": "자료에서 찾아낸 행동의 이유나 유의미한 이해.",
+"definition_en": "A meaningful understanding, or the reason behind behavior, found in the data.",
+"example_ko": "바지 반품 사유에서 허리 사이즈 안내를 개선할 인사이트를 찾았어요.",
+"example_en": "From the reasons for returning pants, we found an insight to improve the waist-size guidance."
+},
+{
+"id": "marketing-059",
+"field": "marketing",
+"term_ko": "온드 미디어",
+"term_en": "Owned media",
+"english": "Owned media",
+"aliases_ko": [
+"온드미디어",
+"자사 채널"
+],
+"definition_ko": "브랜드가 직접 운영·관리하는 콘텐츠 채널.",
+"definition_en": "Content channels that a brand runs and manages directly.",
+"example_ko": "자사 블로그를 온드 미디어로 운영해요.",
+"example_en": "We run our own blog as owned media."
+},
+{
+"id": "fashion-046",
+"field": "fashion",
+"term_ko": "온드 미디어",
+"term_en": "Owned media",
+"english": "Owned media",
+"aliases_ko": [
+"온드미디어",
+"자사 채널"
+],
+"definition_ko": "브랜드가 직접 운영·관리하는 콘텐츠 채널.",
+"definition_en": "Content channels that a brand runs and manages directly.",
+"example_ko": "브랜드 자사몰에서 스타일링 콘텐츠를 온드 미디어로 운영해요.",
+"example_en": "We run styling content on our brand's online store as owned media."
+},
+{
+"id": "marketing-060",
+"field": "marketing",
+"term_ko": "페이드 미디어",
+"term_en": "Paid media",
+"english": "Paid media",
+"aliases_ko": [
+"페이드미디어",
+"유료 매체"
+],
+"definition_ko": "비용을 내고 노출을 확보하는 매체 활동.",
+"definition_en": "Media activity that secures exposure by paying for it.",
+"example_ko": "유료 배너는 페이드 미디어 예산에 넣어요.",
+"example_en": "We put paid banners into the paid media budget."
+},
+{
+"id": "fashion-047",
+"field": "fashion",
+"term_ko": "페이드 미디어",
+"term_en": "Paid media",
+"english": "Paid media",
+"aliases_ko": [
+"페이드미디어",
+"유료 매체"
+],
+"definition_ko": "비용을 내고 노출을 확보하는 매체 활동.",
+"definition_en": "Media activity that secures exposure by paying for it.",
+"example_ko": "신상품 착장 배너의 집행비를 페이드 미디어 예산에 넣어요.",
+"example_en": "We put the spend for the new product styling banner into the paid media budget."
+},
+{
+"id": "marketing-061",
+"field": "marketing",
+"term_ko": "언드 미디어",
+"term_en": "Earned media",
+"english": "Earned media",
+"aliases_ko": [
+"언드미디어",
+"획득 미디어"
+],
+"definition_ko": "자발적 공유·보도·후기 등으로 얻는 노출.",
+"definition_en": "Exposure gained through voluntary sharing, press coverage, reviews, and the like.",
+"example_ko": "고객의 자발적 후기가 언드 미디어로 확산돼요.",
+"example_en": "Customers' voluntary reviews spread as earned media."
+},
+{
+"id": "fashion-048",
+"field": "fashion",
+"term_ko": "언드 미디어",
+"term_en": "Earned media",
+"english": "Earned media",
+"aliases_ko": [
+"언드미디어",
+"획득 미디어"
+],
+"definition_ko": "자발적 공유·보도·후기 등으로 얻는 노출.",
+"definition_en": "Exposure gained through voluntary sharing, press coverage, reviews, and the like.",
+"example_ko": "고객이 자발적으로 올린 착장 후기가 언드 미디어로 퍼지고 있어요.",
+"example_en": "Styling reviews that customers posted on their own are spreading as earned media."
+},
+{
+"id": "marketing-062",
+"field": "marketing",
+"term_ko": "톤앤매너",
+"term_en": "Tone and manner",
+"english": "Tone and manner",
+"aliases_ko": [
+"톤 앤 매너",
+"T&M",
+"톤앤매너 가이드"
+],
+"definition_ko": "브랜드 표현에 일관되게 유지하는 말투와 분위기.",
+"definition_en": "The voice and mood kept consistent across a brand's expression.",
+"example_ko": "상세페이지와 배너의 톤앤매너를 맞춰요.",
+"example_en": "We align the tone and manner of the detail page and the banner."
+},
+{
+"id": "fashion-049",
+"field": "fashion",
+"term_ko": "톤앤매너",
+"term_en": "Tone and manner",
+"english": "Tone and manner",
+"aliases_ko": [
+"톤 앤 매너",
+"T&M",
+"톤앤매너 가이드"
+],
+"definition_ko": "브랜드 표현에 일관되게 유지하는 말투와 분위기.",
+"definition_en": "The voice and mood kept consistent across a brand's expression.",
+"example_ko": "룩북 사진과 매장 포스터의 톤앤매너를 맞춰요.",
+"example_en": "We align the tone and manner of the lookbook photos and the in-store posters."
+},
+{
+"id": "design-045",
+"field": "design",
+"term_ko": "톤앤매너",
+"term_en": "Tone and manner",
+"english": "Tone and manner",
+"aliases_ko": [
+"톤 앤 매너",
+"T&M",
+"톤앤매너 가이드"
+],
+"definition_ko": "브랜드 표현에 일관되게 유지하는 말투와 분위기.",
+"definition_en": "The voice and mood kept consistent across a brand's expression.",
+"example_ko": "포스터·패키지·웹 화면의 색과 서체를 같은 톤앤매너로 정리해요.",
+"example_en": "We bring the color and typography of the poster, packaging, and web screens into the same tone and manner."
+},
+{
+"id": "marketing-063",
+"field": "marketing",
+"term_ko": "터치포인트",
+"term_en": "Touchpoint",
+"english": "Touchpoint",
+"aliases_ko": [
+"터치 포인트",
+"고객 접점"
+],
+"definition_ko": "고객이 브랜드와 만나 경험하는 지점.",
+"definition_en": "A point where a customer meets and experiences the brand.",
+"example_ko": "매장과 앱의 터치포인트를 함께 살펴요.",
+"example_en": "We look at the store and app touchpoints together."
+},
+{
+"id": "fashion-050",
+"field": "fashion",
+"term_ko": "터치포인트",
+"term_en": "Touchpoint",
+"english": "Touchpoint",
+"aliases_ko": [
+"터치 포인트",
+"고객 접점"
+],
+"definition_ko": "고객이 브랜드와 만나 경험하는 지점.",
+"definition_en": "A point where a customer meets and experiences the brand.",
+"example_ko": "피팅룸과 온라인 사이즈 안내처럼 구매에 영향을 주는 터치포인트를 살펴요.",
+"example_en": "We examine touchpoints that influence purchase, such as the fitting room and online size guidance."
+},
+{
+"id": "design-046",
+"field": "design",
+"term_ko": "터치포인트",
+"term_en": "Touchpoint",
+"english": "Touchpoint",
+"aliases_ko": [
+"터치 포인트",
+"고객 접점"
+],
+"definition_ko": "고객이 브랜드와 만나 경험하는 지점.",
+"definition_en": "A point where a customer meets and experiences the brand.",
+"example_ko": "명함·포장·매장 안내처럼 브랜드가 보이는 터치포인트를 디자인해요.",
+"example_en": "We design the touchpoints where the brand shows up, such as business cards, packaging, and in-store signage."
+},
+{
+"id": "fashion-051",
+"field": "fashion",
+"term_ko": "MD",
+"term_en": "MD",
+"english": "Merchandiser",
+"aliases_ko": [
+"엠디",
+"머천다이저"
+],
+"definition_ko": "판매를 고려해 상품 구성과 운영을 기획하는 담당자.",
+"definition_en": "The person who plans product assortment and operations with sales in mind.",
+"example_ko": "MD와 신상품 구성 비중을 정해요.",
+"example_en": "We decide the mix of new products with the MD.",
+"note_ko": "조직에 따라 상품기획·바잉·온라인 판매 운영 등 담당 범위가 다릅니다.",
+"note_en": "The scope of responsibility varies by organization, covering product planning, buying, online sales operations, and more."
+},
+{
+"id": "fashion-052",
+"field": "fashion",
+"term_ko": "상품기획",
+"term_en": "Merchandise planning",
+"english": "Merchandise planning",
+"aliases_ko": [
+"기획MD",
+"상품 기획"
+],
+"definition_ko": "고객·판매 목표에 맞춰 상품 구성을 계획하는 일.",
+"definition_en": "The work of planning product assortment to fit customer and sales goals.",
+"example_ko": "상품기획 단계에서 가격대를 정해요.",
+"example_en": "We set the price range during the merchandise planning stage."
+},
+{
+"id": "fashion-053",
+"field": "fashion",
+"term_ko": "바이어",
+"term_en": "Buyer",
+"english": "Buyer",
+"aliases_ko": [
+"바잉 담당",
+"바잉"
+],
+"definition_ko": "판매할 상품을 선정하고 구매 조건을 협의하는 담당자.",
+"definition_en": "The person who selects products to sell and negotiates purchasing terms.",
+"example_ko": "바이어에게 새 컬렉션을 소개해요.",
+"example_en": "We introduce the new collection to the buyer."
+},
+{
+"id": "fashion-054",
+"field": "fashion",
+"term_ko": "VMD",
+"term_en": "VMD",
+"english": "Visual merchandising",
+"aliases_ko": [
+"브이엠디",
+"비주얼 머천다이징",
+"VM",
+"비주얼 머천다이저"
+],
+"definition_ko": "브랜드와 상품이 잘 드러나도록 판매 공간을 연출하는 일.",
+"definition_en": "The work of staging the retail space so the brand and products stand out.",
+"example_ko": "VMD 팀과 쇼윈도 구성을 정해요.",
+"example_en": "We decide the shop window layout with the VMD team."
+},
+{
+"id": "fashion-055",
+"field": "fashion",
+"term_ko": "SKU",
+"term_en": "SKU",
+"english": "Stock keeping unit",
+"aliases_ko": [
+"에스케이유",
+"재고 관리 단위"
+],
+"definition_ko": "색·크기 등으로 구분한 개별 재고 관리 단위.",
+"definition_en": "An individual stock-keeping unit distinguished by color, size, and the like.",
+"example_ko": "같은 셔츠도 색과 사이즈별 SKU를 나눠요.",
+"example_en": "Even for the same shirt, we split SKUs by color and size."
+},
+{
+"id": "fashion-056",
+"field": "fashion",
+"term_ko": "MOQ",
+"term_en": "MOQ",
+"english": "Minimum order quantity",
+"aliases_ko": [
+"최소 주문 수량",
+"미니멈",
+"엠오큐",
+"최소 오더 수량"
+],
+"definition_ko": "거래처가 받는 최소 주문 수량.",
+"definition_en": "The minimum order quantity a supplier will accept.",
+"example_ko": "이 원단의 MOQ를 확인해요.",
+"example_en": "We check the MOQ for this fabric."
+},
+{
+"id": "fashion-057",
+"field": "fashion",
+"term_ko": "PO",
+"term_en": "PO",
+"english": "Purchase order",
+"aliases_ko": [
+"피오",
+"발주서",
+"구매 주문서",
+"퍼체이스 오더"
+],
+"definition_ko": "구매자가 품목·수량·조건을 적어 보내는 주문 문서.",
+"definition_en": "An order document that a buyer sends listing items, quantities, and terms.",
+"example_ko": "수량 확정 후 거래처에 PO를 보내요.",
+"example_en": "After confirming quantities, we send the PO to the supplier.",
+"note_ko": "패션·유통의 구매 주문서와 개발·제품팀의 프로덕트 오너는 서로 다른 뜻입니다.",
+"note_en": "The purchase order in fashion and distribution and the product owner on development and product teams are different meanings."
+},
+{
+"id": "fashion-058",
+"field": "fashion",
+"term_ko": "리드타임",
+"term_en": "Lead time",
+"english": "Lead time",
+"aliases_ko": [
+"리드 타임",
+"납기 소요 기간"
+],
+"definition_ko": "주문 등 합의한 시작점부터 완료까지 걸리는 기간.",
+"definition_en": "The period from an agreed starting point, such as an order, to completion.",
+"example_ko": "발주부터 입고까지 리드타임은 4주예요.",
+"example_en": "The lead time from order to stock-in is four weeks.",
+"note_ko": "시작점이 발주인지 생산 착수인지, 끝이 출고인지 입고인지 함께 정해야 합니다.",
+"note_en": "You need to agree on whether the start is the order or the start of production, and whether the end is shipment or stock-in."
+},
+{
+"id": "fashion-059",
+"field": "fashion",
+"term_ko": "어소트먼트",
+"term_en": "Assortment",
+"english": "Assortment",
+"aliases_ko": [
+"어소트",
+"상품 구성"
+],
+"definition_ko": "판매할 품목·색·사이즈 등을 조합한 구성.",
+"definition_en": "The combination of items, colors, sizes, and the like to be sold.",
+"example_ko": "어소트먼트에서 아우터 비중을 늘려요.",
+"example_en": "We increase the share of outerwear in the assortment."
+},
+{
+"id": "fashion-060",
+"field": "fashion",
+"term_ko": "컬렉션",
+"term_en": "Collection",
+"english": "Collection",
+"aliases_ko": [
+"콜렉션",
+"시즌 컬렉션"
+],
+"definition_ko": "하나의 주제나 시즌으로 묶은 상품군.",
+"definition_en": "A group of products brought together under one theme or season.",
+"example_ko": "가을 컬렉션의 주제를 소개해요.",
+"example_en": "We introduce the theme of the fall collection."
+},
+{
+"id": "fashion-061",
+"field": "fashion",
+"term_ko": "위탁판매",
+"term_en": "Consignment sales",
+"english": "Consignment",
+"aliases_ko": [
+"위탁",
+"위탁 판매"
+],
+"definition_ko": "판매처에 상품을 맡기고 판매분을 정산하는 방식.",
+"definition_en": "A model in which products are entrusted to a retailer and settled based on what sells.",
+"example_ko": "위탁판매 조건과 반품 범위를 확인해요.",
+"example_en": "We check the consignment terms and the return scope."
+},
+{
+"id": "fashion-062",
+"field": "fashion",
+"term_ko": "D2C",
+"term_en": "D2C",
+"english": "Direct to consumer",
+"aliases_ko": [
+"DTC",
+"소비자 직접 판매"
+],
+"definition_ko": "브랜드가 소비자에게 직접 판매하는 방식.",
+"definition_en": "A model in which a brand sells directly to consumers.",
+"example_ko": "D2C 채널인 자사몰을 키워요.",
+"example_en": "We grow our online store, a D2C channel."
+},
+{
+"id": "fashion-063",
+"field": "fashion",
+"term_ko": "벤더",
+"term_en": "Vendor",
+"english": "Vendor",
+"aliases_ko": [
+"공급업체",
+"거래 공급사"
+],
+"definition_ko": "제품이나 자재를 공급하는 거래 업체.",
+"definition_en": "A business partner that supplies products or materials.",
+"example_ko": "벤더와 생산 일정을 확인해요.",
+"example_en": "We check the production schedule with the vendor."
+},
+{
+"id": "fashion-064",
+"field": "fashion",
+"term_ko": "백오더",
+"term_en": "Backorder",
+"english": "Backorder",
+"aliases_ko": [
+"백 오더",
+"미출고 주문"
+],
+"definition_ko": "재고 부족 등으로 아직 출고하지 못한 주문.",
+"definition_en": "An order not yet shipped due to insufficient stock or similar reasons.",
+"example_ko": "품절 사이즈는 백오더 일정을 안내해요.",
+"example_en": "For sold-out sizes, we provide the backorder schedule."
+},
+{
+"id": "fashion-065",
+"field": "fashion",
+"term_ko": "라인시트",
+"term_en": "Line sheet",
+"english": "Line sheet",
+"aliases_ko": [
+"라인 시트",
+"상품 라인시트"
+],
+"definition_ko": "바이어가 주문할 수 있도록 제품과 거래 정보를 정리한 자료.",
+"definition_en": "A document that organizes product and trade information so buyers can place orders.",
+"example_ko": "라인시트에 품번과 도매가를 넣어요.",
+"example_en": "We put the style number and wholesale price on the line sheet."
+},
+{
+"id": "fashion-066",
+"field": "fashion",
+"term_ko": "룩북",
+"term_en": "Lookbook",
+"english": "Lookbook",
+"aliases_ko": [
+"룩 북",
+"스타일북"
+],
+"definition_ko": "제품의 스타일링과 컬렉션 분위기를 보여주는 이미지 자료.",
+"definition_en": "An image collection that shows product styling and the mood of the collection.",
+"example_ko": "신상품을 조합해 룩북을 만들어요.",
+"example_en": "We create a lookbook by combining the new products."
+},
+{
+"id": "fashion-067",
+"field": "fashion",
+"term_ko": "품번",
+"term_en": "Style number",
+"english": "Style number",
+"aliases_ko": [
+"스타일 넘버",
+"스타일 번호",
+"스타일코드",
+"품목 번호",
+"품목번호"
+],
+"definition_ko": "상품 스타일을 식별하기 위해 붙인 관리 번호.",
+"definition_en": "A management number assigned to identify a product style.",
+"example_ko": "문의할 때 품번도 함께 보내주세요.",
+"example_en": "Please include the style number when you inquire."
+},
+{
+"id": "fashion-068",
+"field": "fashion",
+"term_ko": "POS",
+"term_en": "POS",
+"english": "Point of sale",
+"aliases_ko": [
+"포스",
+"판매 시점 시스템"
+],
+"definition_ko": "결제와 판매 기록을 처리하는 시스템.",
+"definition_en": "A system that processes payments and sales records.",
+"example_ko": "POS에서 매장별 판매 내역을 확인해요.",
+"example_en": "We check sales records by store in the POS."
+},
+{
+"id": "fashion-069",
+"field": "fashion",
+"term_ko": "옴니채널",
+"term_en": "Omnichannel",
+"english": "Omnichannel",
+"aliases_ko": [
+"옴니 채널"
+],
+"definition_ko": "여러 판매 채널의 경험을 연결하는 운영 방식.",
+"definition_en": "An operating model that connects the experience across multiple sales channels.",
+"example_ko": "온라인 주문을 매장에서 받는 옴니채널 서비스를 열어요.",
+"example_en": "We launch an omnichannel service that lets customers pick up online orders in store."
+},
+{
+"id": "fashion-070",
+"field": "fashion",
+"term_ko": "업셀링",
+"term_en": "Upselling",
+"english": "Upselling",
+"aliases_ko": [
+"업셀",
+"상위 상품 제안"
+],
+"definition_ko": "더 높은 가치나 가격의 상품을 제안하는 판매 방식.",
+"definition_en": "A sales approach that proposes a higher-value or higher-priced product.",
+"example_ko": "기본형 대신 프리미엄 소재로 업셀링해요.",
+"example_en": "We upsell to premium materials instead of the basic version."
+},
+{
+"id": "fashion-071",
+"field": "fashion",
+"term_ko": "크로스셀링",
+"term_en": "Cross-selling",
+"english": "Cross-selling",
+"aliases_ko": [
+"교차 판매",
+"크로스 셀링"
+],
+"definition_ko": "선택한 상품과 함께 쓸 다른 상품을 제안하는 것.",
+"definition_en": "Recommending additional products to use together with a chosen item.",
+"example_ko": "재킷과 어울리는 벨트를 크로스셀링해요.",
+"example_en": "We cross-sell a belt that goes with the jacket."
+},
+{
+"id": "fashion-072",
+"field": "fashion",
+"term_ko": "객단가",
+"term_en": "Average Transaction Value",
+"english": "Average transaction value",
+"aliases_ko": [
+"ATV",
+"평균 구매 금액"
+],
+"definition_ko": "한 거래당 평균 구매 금액.",
+"definition_en": "The average purchase amount per transaction.",
+"example_ko": "매장 객단가를 거래 건수 기준으로 봐요.",
+"example_en": "We look at the store's average transaction value on a per-transaction basis.",
+"note_ko": "여기서는 거래당 평균입니다. 고객당 평균으로 집계하는 경우에는 분모가 달라집니다.",
+"note_en": "Here it is the average per transaction. When tallied as the average per customer, the denominator is different."
+},
+{
+"id": "fashion-073",
+"field": "fashion",
+"term_ko": "팝업 스토어",
+"term_en": "Pop-up store",
+"english": "Pop-up store",
+"aliases_ko": [
+"팝업",
+"팝업스토어"
+],
+"definition_ko": "정해진 기간에만 운영하는 임시 매장.",
+"definition_en": "A temporary store that operates only for a set period.",
+"example_ko": "신상품을 알리는 팝업 스토어를 열어요.",
+"example_en": "We open a pop-up store to introduce new products."
+},
+{
+"id": "fashion-074",
+"field": "fashion",
+"term_ko": "데드스톡",
+"term_en": "Deadstock",
+"english": "Dead stock",
+"aliases_ko": [
+"악성 재고",
+"데드 스톡"
+],
+"definition_ko": "장기간 팔리지 않고 남아 있는 재고.",
+"definition_en": "Inventory that remains unsold over a long period.",
+"example_ko": "데드스톡의 처리 방안을 정해요.",
+"example_en": "We decide how to deal with the deadstock."
+},
+{
+"id": "fashion-075",
+"field": "fashion",
+"term_ko": "OTB",
+"term_en": "OTB",
+"english": "Open to buy",
+"aliases_ko": [
+"오픈투바이",
+"오픈 투 바이"
+],
+"definition_ko": "판매·재고 계획상 추가 구매에 쓸 수 있는 예산.",
+"definition_en": "The budget available for additional purchases under the sales and inventory plan.",
+"example_ko": "추가 바잉 전에 OTB를 확인해요.",
+"example_en": "We check the OTB before placing additional buys."
+},
+{
+"id": "fashion-076",
+"field": "fashion",
+"term_ko": "마크다운",
+"term_en": "Markdown",
+"english": "Markdown",
+"aliases_ko": [
+"가격 인하",
+"마크 다운"
+],
+"definition_ko": "기존 판매 가격을 낮추는 것.",
+"definition_en": "Lowering the current selling price.",
+"example_ko": "시즌 말 마크다운 폭을 정해요.",
+"example_en": "We decide the end-of-season markdown range."
+},
+{
+"id": "fashion-077",
+"field": "fashion",
+"term_ko": "판매율",
+"term_en": "Sell-through rate",
+"english": "Sell-through rate",
+"aliases_ko": [
+"셀스루",
+"셀 스루",
+"소진율",
+"셀스루율",
+"판매 소진율",
+"Sell Through"
+],
+"definition_ko": "정해진 기간의 입고 수량 대비 판매 수량 비율.",
+"definition_en": "The ratio of quantity sold to quantity received within a set period.",
+"example_ko": "입고 100장 중 60장이 팔려 판매율은 60%예요.",
+"example_en": "Of 100 units received, 60 sold, so the sell-through rate is 60%.",
+"note_ko": "여기서는 판매 수량 ÷ 입고 수량 × 100입니다. 회사별 기간·반품·추가입고 반영 기준을 확인하세요.",
+"note_en": "Here it is quantity sold ÷ quantity received × 100. Check each company's standard for period, returns, and additional inbound stock."
+},
+{
+"id": "fashion-078",
+"field": "fashion",
+"term_ko": "매장 전환율",
+"term_en": "Store conversion rate",
+"english": "Store conversion rate",
+"aliases_ko": [
+"구매 전환율",
+"매장 구매율"
+],
+"definition_ko": "매장 방문 중 구매로 이어진 비율.",
+"definition_en": "The share of store visits that resulted in a purchase.",
+"example_ko": "방문객 수와 구매 건수를 함께 보며 매장 전환율을 확인해요.",
+"example_en": "We check the store conversion rate by looking at visitor count alongside transaction count."
+},
+{
+"id": "fashion-079",
+"field": "fashion",
+"term_ko": "리오더",
+"term_en": "Reorder",
+"english": "Reorder",
+"aliases_ko": [
+"재주문",
+"추가 발주"
+],
+"definition_ko": "이미 주문한 상품을 추가로 주문하는 것.",
+"definition_en": "Placing an additional order for a product already ordered.",
+"example_ko": "잘 팔리는 색상은 리오더해요.",
+"example_en": "We reorder colors that sell well."
+},
+{
+"id": "fashion-080",
+"field": "fashion",
+"term_ko": "재주문점",
+"term_en": "Reorder point",
+"english": "Reorder point",
+"aliases_ko": [
+"ROP",
+"발주점"
+],
+"definition_ko": "재고가 이 수준에 도달하면 추가 발주하는 기준 수량.",
+"definition_en": "The reference quantity at which an additional order is placed once inventory reaches that level.",
+"example_ko": "납기를 고려해 재주문점을 정해요.",
+"example_en": "We set the reorder point taking lead time into account."
+},
+{
+"id": "fashion-081",
+"field": "fashion",
+"term_ko": "안전재고",
+"term_en": "Safety stock",
+"english": "Safety stock",
+"aliases_ko": [
+"버퍼 재고",
+"안전 재고"
+],
+"definition_ko": "수요 증가나 입고 지연에 대비해 더 확보한 재고.",
+"definition_en": "Extra inventory held to prepare for demand increases or delayed inbound stock.",
+"example_ko": "배송 지연에 대비해 안전재고를 둬요.",
+"example_en": "We keep safety stock in case of shipping delays."
+},
+{
+"id": "fashion-082",
+"field": "fashion",
+"term_ko": "테크팩",
+"term_en": "Tech pack",
+"english": "Tech pack",
+"aliases_ko": [
+"테크 팩",
+"작업지시서",
+"생산 작업지시서",
+"작지"
+],
+"definition_ko": "치수·소재·구조 등 제품 제작 정보를 묶은 문서.",
+"definition_en": "A document bundling production information such as measurements, materials, and construction.",
+"example_ko": "공장에 최신 테크팩을 전달해요.",
+"example_en": "We hand the latest tech pack to the factory."
+},
+{
+"id": "fashion-083",
+"field": "fashion",
+"term_ko": "도식화",
+"term_en": "Flat sketch",
+"english": "Technical flat",
+"aliases_ko": [
+"플랫",
+"플랫 스케치",
+"테크니컬 플랫"
+],
+"definition_ko": "옷의 형태와 봉제 구조를 평면으로 표현한 그림.",
+"definition_en": "A drawing that represents a garment's shape and sewing construction in a flat view.",
+"example_ko": "도식화에 뒤판 절개선도 표시해요.",
+"example_en": "We also mark the back-panel seam lines on the flat sketch."
+},
+{
+"id": "fashion-084",
+"field": "fashion",
+"term_ko": "BOM",
+"term_en": "BOM",
+"english": "Bill of materials",
+"aliases_ko": [
+"자재 명세서",
+"비오엠"
+],
+"definition_ko": "제품 제작에 필요한 자재와 수량 목록.",
+"definition_en": "A list of the materials and quantities needed to make a product.",
+"example_ko": "BOM에 지퍼와 라벨도 넣어요.",
+"example_en": "We also include the zipper and labels in the BOM."
+},
+{
+"id": "fashion-085",
+"field": "fashion",
+"term_ko": "스펙시트",
+"term_en": "Spec sheet",
+"english": "Specification sheet",
+"aliases_ko": [
+"스펙 시트",
+"치수표",
+"사이즈 스펙"
+],
+"definition_ko": "제품의 측정 부위와 규격을 정리한 표.",
+"definition_en": "A table organizing a product's measurement points and specifications.",
+"example_ko": "스펙시트의 소매 길이를 수정해요.",
+"example_en": "We revise the sleeve length on the spec sheet."
+},
+{
+"id": "fashion-086",
+"field": "fashion",
+"term_ko": "POM",
+"term_en": "POM",
+"english": "Point of measure",
+"aliases_ko": [
+"피오엠",
+"측정 부위"
+],
+"definition_ko": "치수를 재기로 정한 위치와 기준.",
+"definition_en": "The defined location and reference for taking a measurement.",
+"example_ko": "가슴둘레 POM을 도식화에 표시해요.",
+"example_en": "We mark the chest-circumference POM on the flat sketch."
+},
+{
+"id": "fashion-087",
+"field": "fashion",
+"term_ko": "부자재",
+"term_en": "Trims",
+"english": "Trims",
+"aliases_ko": [
+"트림",
+"트림스"
+],
+"definition_ko": "단추·지퍼·라벨처럼 주원단 외에 쓰는 자재.",
+"definition_en": "Materials used besides the main fabric, such as buttons, zippers, and labels.",
+"example_ko": "부자재 색상을 원단과 맞춰요.",
+"example_en": "We match the trim colors to the fabric."
+},
+{
+"id": "fashion-088",
+"field": "fashion",
+"term_ko": "허용오차",
+"term_en": "Tolerance",
+"english": "Tolerance",
+"aliases_ko": [
+"톨러런스",
+"치수 허용오차"
+],
+"definition_ko": "규격에서 벗어나도 허용하기로 한 차이의 범위.",
+"definition_en": "The allowed range of deviation from the specification.",
+"example_ko": "총장 허용오차를 0.5cm로 정해요.",
+"example_en": "We set the overall-length tolerance at 0.5 cm."
+},
+{
+"id": "fashion-089",
+"field": "fashion",
+"term_ko": "시접",
+"term_en": "Seam allowance",
+"english": "Seam allowance",
+"aliases_ko": [
+"솔기 여유",
+"누이시로"
+],
+"definition_ko": "봉제를 위해 재단선과 봉제선 사이에 남긴 폭.",
+"definition_en": "The margin left between the cutting line and the stitching line for sewing.",
+"example_ko": "도식화에 시접 폭을 적어요.",
+"example_en": "We note the seam allowance width on the flat sketch.",
+"note_ko": "누이시로는 과거 봉제 용어 자료에서 확인되는 호칭입니다.",
+"note_en": "\"Nuishiro\" is a term found in older sewing terminology references."
+},
+{
+"id": "fashion-090",
+"field": "fashion",
+"term_ko": "피팅",
+"term_en": "Fitting",
+"english": "Fitting",
+"aliases_ko": [
+"핏 확인",
+"착장 점검"
+],
+"definition_ko": "옷을 입혀 착용감·치수·실루엣을 확인하는 작업.",
+"definition_en": "The task of putting a garment on to check fit, measurements, and silhouette.",
+"example_ko": "샘플 피팅 후 어깨 폭을 조정해요.",
+"example_en": "After the sample fitting, we adjust the shoulder width."
+},
+{
+"id": "fashion-091",
+"field": "fashion",
+"term_ko": "핏 샘플",
+"term_en": "Fit sample",
+"english": "Fit sample",
+"aliases_ko": [
+"피팅 샘플",
+"핏샘플"
+],
+"definition_ko": "착용 상태와 치수를 확인하기 위한 시험 제품.",
+"definition_en": "A test product used to check the worn state and measurements.",
+"example_ko": "핏 샘플로 소매 움직임을 점검해요.",
+"example_en": "We check the sleeve movement with the fit sample."
+},
+{
+"id": "fashion-092",
+"field": "fashion",
+"term_ko": "핏 코멘트",
+"term_en": "Fit comment",
+"english": "Fit comments",
+"aliases_ko": [
+"피팅 코멘트",
+"샘플 코멘트"
+],
+"definition_ko": "피팅 후 수정할 위치와 내용을 적은 의견.",
+"definition_en": "Notes written after a fitting on what to fix and where.",
+"example_ko": "핏 코멘트를 사진과 함께 전달해요.",
+"example_en": "We send the fit comments along with photos."
+},
+{
+"id": "fashion-093",
+"field": "fashion",
+"term_ko": "핏 승인",
+"term_en": "Fit approval",
+"english": "Fit sign-off",
+"aliases_ko": [
+"핏 컨펌",
+"피팅 승인"
+],
+"definition_ko": "맞음새 검토를 끝내고 기준을 승인하는 것.",
+"definition_en": "Approving the standard after finishing the fit review.",
+"example_ko": "핏 승인 후 다음 생산 단계로 넘겨요.",
+"example_en": "After fit approval, we move to the next production stage."
+},
+{
+"id": "fashion-094",
+"field": "fashion",
+"term_ko": "컬러웨이",
+"term_en": "Colorway",
+"english": "Colorway",
+"aliases_ko": [
+"컬러 웨이",
+"컬러 옵션"
+],
+"definition_ko": "같은 디자인에서 제공하는 색상 또는 배색 구성.",
+"definition_en": "The color or color-combination options offered for the same design.",
+"example_ko": "이번 스타일은 컬러웨이 세 가지예요.",
+"example_en": "This style comes in three colorways."
+},
+{
+"id": "fashion-095",
+"field": "fashion",
+"term_ko": "사이즈런",
+"term_en": "Size run",
+"english": "Size run",
+"aliases_ko": [
+"사이즈 런",
+"사이즈 범위"
+],
+"definition_ko": "상품이 제공되는 전체 사이즈 구성.",
+"definition_en": "The full set of sizes in which a product is offered.",
+"example_ko": "XS부터 XL까지 사이즈런을 잡아요.",
+"example_en": "We set the size run from XS to XL."
+},
+{
+"id": "fashion-096",
+"field": "fashion",
+"term_ko": "그레이딩",
+"term_en": "Grading",
+"english": "Pattern grading",
+"aliases_ko": [
+"패턴 그레이딩",
+"사이즈 전개"
+],
+"definition_ko": "기준 패턴을 규칙에 따라 다른 사이즈로 전개하는 작업.",
+"definition_en": "The task of developing a base pattern into other sizes according to set rules.",
+"example_ko": "기준 M 사이즈에서 그레이딩해요.",
+"example_en": "We grade from the base M size."
+},
+{
+"id": "dev-063",
+"field": "dev",
+"term_ko": "에픽",
+"term_en": "Epic",
+"english": "Epic",
+"aliases_ko": [
+"에픽 이슈"
+],
+"definition_ko": "여러 작은 작업이나 스토리로 나눌 수 있는 큰 업무 묶음.",
+"definition_en": "A large bundle of work that can be broken into several smaller tasks or stories.",
+"example_ko": "회원 가입 개선을 에픽으로 묶어요.",
+"example_en": "We group the sign-up improvements into an epic."
+},
+{
+"id": "dev-064",
+"field": "dev",
+"term_ko": "유저 스토리",
+"term_en": "User story",
+"english": "User story",
+"aliases_ko": [
+"사용자 스토리",
+"유저스토리"
+],
+"definition_ko": "사용자 입장에서 원하는 기능과 이유를 적은 설명.",
+"definition_en": "A description of a desired feature and its reason from the user's perspective.",
+"example_ko": "사용자가 왜 필요한지 유저 스토리에 적어요.",
+"example_en": "We write down why the user needs it in the user story."
+},
+{
+"id": "dev-065",
+"field": "dev",
+"term_ko": "이니셔티브",
+"term_en": "Initiative",
+"english": "Initiative",
+"aliases_ko": [
+"전략 과제"
+],
+"definition_ko": "여러 에픽을 공통 목표 아래 묶은 상위 과제.",
+"definition_en": "A higher-level undertaking that groups several epics under a common goal.",
+"example_ko": "검색 경험 개선 이니셔티브를 추진해요.",
+"example_en": "We drive an initiative to improve the search experience."
+},
+{
+"id": "dev-066",
+"field": "dev",
+"term_ko": "DoD",
+"term_en": "DoD",
+"english": "Definition of done",
+"aliases_ko": [
+"완료 정의",
+"디피니션 오브 던"
+],
+"definition_ko": "팀이 일을 완료로 인정할 공통 기준.",
+"definition_en": "The shared criteria by which a team recognizes work as done.",
+"example_ko": "테스트와 문서 갱신을 DoD에 넣어요.",
+"example_en": "We include testing and documentation updates in the DoD."
+},
+{
+"id": "dev-067",
+"field": "dev",
+"term_ko": "인수 조건",
+"term_en": "Acceptance criteria",
+"english": "Acceptance criteria",
+"aliases_ko": [
+"AC",
+"수용 기준",
+"승인 기준",
+"완료 조건",
+"어셉턴스 크라이테리아"
+],
+"definition_ko": "특정 요구사항을 충족했다고 판단할 조건.",
+"definition_en": "The conditions for judging that a particular requirement has been met.",
+"example_ko": "빈 입력 처리도 인수 조건에 적어요.",
+"example_en": "We also note handling of empty input in the acceptance criteria."
+},
+{
+"id": "dev-068",
+"field": "dev",
+"term_ko": "기술 부채",
+"term_en": "Technical debt",
+"english": "Technical debt",
+"aliases_ko": [
+"테크 데트",
+"테크니컬 데트"
+],
+"definition_ko": "구조나 구현의 선택 때문에 추후 개선에 드는 부담.",
+"definition_en": "The future burden on improvements caused by choices in structure or implementation.",
+"example_ko": "중복 로직이 쌓인 기술 부채를 정리해요.",
+"example_en": "We clean up the technical debt from accumulated duplicate logic."
+},
+{
+"id": "dev-069",
+"field": "dev",
+"term_ko": "리팩터링",
+"term_en": "Refactoring",
+"english": "Refactoring",
+"aliases_ko": [
+"리팩토링",
+"코드 구조 개선",
+"리팩",
+"리팩하다"
+],
+"definition_ko": "외부 동작을 유지하며 코드 구조를 개선하는 작업.",
+"definition_en": "The work of improving code structure while keeping external behavior unchanged.",
+"example_ko": "기능은 그대로 두고 리팩터링해요.",
+"example_en": "We refactor while leaving the functionality as is."
+},
+{
+"id": "dev-070",
+"field": "dev",
+"term_ko": "PO",
+"term_en": "PO",
+"english": "Product owner",
+"aliases_ko": [
+"피오",
+"프로덕트 오너",
+"제품 책임자"
+],
+"definition_ko": "제품 가치를 위해 백로그와 우선순위를 관리하는 역할.",
+"definition_en": "The role that manages the backlog and priorities to maximize product value.",
+"example_ko": "PO와 다음 스프린트 우선순위를 정해요.",
+"example_en": "We set the next sprint's priorities with the PO.",
+"note_ko": "패션·유통의 구매 주문서와 개발·제품팀의 프로덕트 오너는 서로 다른 뜻입니다.",
+"note_en": "The purchase order in fashion and retail and the Product Owner in development and product teams have different meanings."
+},
+{
+"id": "dev-071",
+"field": "dev",
+"term_ko": "스크럼 마스터",
+"term_en": "Scrum Master",
+"english": "Scrum master",
+"aliases_ko": [
+"SM",
+"스크럼마스터"
+],
+"definition_ko": "팀이 스크럼을 이해하고 효과적으로 일하도록 돕는 역할.",
+"definition_en": "The role that helps the team understand Scrum and work effectively.",
+"example_ko": "스크럼 마스터가 협업 장애 해결을 도와요.",
+"example_en": "The Scrum Master helps resolve collaboration blockers."
+},
+{
+"id": "dev-072",
+"field": "dev",
+"term_ko": "CI",
+"term_en": "CI",
+"english": "Continuous integration",
+"aliases_ko": [
+"지속적 통합",
+"씨아이"
+],
+"definition_ko": "변경 코드를 자주 합치고 자동 빌드·검증하는 방식.",
+"definition_en": "A practice of frequently merging changed code and automatically building and verifying it.",
+"example_ko": "PR마다 CI 테스트를 돌려요.",
+"example_en": "We run CI tests on every PR."
+},
+{
+"id": "dev-073",
+"field": "dev",
+"term_ko": "빌드",
+"term_en": "Build",
+"english": "Build",
+"aliases_ko": [
+"빌드 작업"
+],
+"definition_ko": "소스에서 실행·배포할 결과물을 만드는 과정.",
+"definition_en": "The process of producing a runnable or deployable artifact from source.",
+"example_ko": "빌드가 실패한 원인을 확인해요.",
+"example_en": "We check why the build failed."
+},
+{
+"id": "dev-074",
+"field": "dev",
+"term_ko": "코드 리뷰",
+"term_en": "Code review",
+"english": "Code review",
+"aliases_ko": [
+"코드리뷰",
+"리뷰어 검토"
+],
+"definition_ko": "다른 개발자가 변경 코드를 읽고 검토하는 과정.",
+"definition_en": "The process in which another developer reads and reviews the changed code.",
+"example_ko": "머지 전에 코드 리뷰를 받아요.",
+"example_en": "We get a code review before merging."
+},
+{
+"id": "dev-075",
+"field": "dev",
+"term_ko": "지속적 제공",
+"term_en": "Continuous Delivery",
+"english": "Continuous delivery",
+"aliases_ko": [
+"CD",
+"컨티뉴어스 딜리버리"
+],
+"definition_ko": "검증한 변경을 언제든 배포할 수 있게 준비하는 방식.",
+"definition_en": "A practice of keeping verified changes ready to be deployed at any time.",
+"example_ko": "지속적 제공 파이프라인에 승인 단계를 둬요.",
+"example_en": "We put an approval step in the continuous delivery pipeline.",
+"note_ko": "CD는 지속적 제공과 지속적 배포 양쪽의 약자로 쓰이므로 자동 운영 반영 여부를 확인하세요.",
+"note_en": "CD stands for both Continuous Delivery and Continuous Deployment, so check whether it includes automatic reflection to production."
+},
+{
+"id": "dev-076",
+"field": "dev",
+"term_ko": "지속적 배포",
+"term_en": "Continuous Deployment",
+"english": "Continuous deployment",
+"aliases_ko": [
+"CD",
+"컨티뉴어스 디플로이먼트"
+],
+"definition_ko": "검증을 통과한 변경을 운영 환경까지 자동 반영하는 방식.",
+"definition_en": "A practice of automatically reflecting verified changes all the way to the production environment.",
+"example_ko": "모든 검증을 통과하면 지속적 배포로 반영해요.",
+"example_en": "Once all checks pass, we reflect changes via continuous deployment.",
+"note_ko": "배포와 사용자에게 기능을 공개하는 시점은 기능 플래그 등으로 달라질 수 있습니다.",
+"note_en": "The timing of deployment and of releasing a feature to users can differ through mechanisms such as feature flags."
+},
+{
+"id": "dev-077",
+"field": "dev",
+"term_ko": "배포",
+"term_en": "Deployment",
+"english": "Deployment",
+"aliases_ko": [
+"디플로이",
+"deploy",
+"디플로이먼트",
+"디플로이하다",
+"Deploy"
+],
+"definition_ko": "변경된 소프트웨어를 실행 환경에 반영하는 작업.",
+"definition_en": "The task of reflecting changed software into a running environment.",
+"example_ko": "오늘 수정 사항을 운영 환경에 배포해요.",
+"example_en": "We deploy today's fixes to the production environment."
+},
+{
+"id": "dev-078",
+"field": "dev",
+"term_ko": "운영 환경",
+"term_en": "Production environment",
+"english": "Production environment",
+"aliases_ko": [
+"프로덕션",
+"프로덕션 환경",
+"프로덕션 서버",
+"prod",
+"프로드",
+"production"
+],
+"definition_ko": "실제 사용자에게 서비스를 제공하는 실행 환경.",
+"definition_en": "The running environment that serves actual users.",
+"example_ko": "운영 환경 반영 전에 검증해요.",
+"example_en": "We verify before reflecting changes to the production environment."
+},
+{
+"id": "dev-079",
+"field": "dev",
+"term_ko": "핫픽스",
+"term_en": "Hotfix",
+"english": "Hotfix",
+"aliases_ko": [
+"핫 픽스",
+"긴급 패치",
+"긴급패치",
+"핫픽",
+"핫픽스하다"
+],
+"definition_ko": "운영 중인 버전의 급한 문제를 해결하는 수정.",
+"definition_en": "A fix that resolves an urgent problem in a version currently in operation.",
+"example_ko": "로그인 장애는 핫픽스로 처리해요.",
+"example_en": "We handle the login failure with a hotfix."
+},
+{
+"id": "dev-080",
+"field": "dev",
+"term_ko": "릴리스",
+"term_en": "Release",
+"english": "Release",
+"aliases_ko": [
+"릴리즈",
+"버전 출시"
+],
+"definition_ko": "사용할 수 있도록 소프트웨어 버전을 내놓는 것.",
+"definition_en": "Putting out a software version so it can be used.",
+"example_ko": "이번 릴리스에 개선 기능을 포함해요.",
+"example_en": "We include the improved features in this release."
+},
+{
+"id": "dev-081",
+"field": "dev",
+"term_ko": "E2E 테스트",
+"term_en": "E2E test",
+"english": "End-to-end testing",
+"aliases_ko": [
+"이투이",
+"엔드투엔드",
+"종단간 테스트"
+],
+"definition_ko": "사용자의 전체 흐름을 연결해서 확인하는 테스트.",
+"definition_en": "A test that connects and verifies the user's entire flow.",
+"example_ko": "로그인부터 주문까지 E2E 테스트를 해요.",
+"example_en": "We run an E2E test from login through ordering."
+},
+{
+"id": "dev-082",
+"field": "dev",
+"term_ko": "스모크 테스트",
+"term_en": "Smoke test",
+"english": "Smoke testing",
+"aliases_ko": [
+"스모크테스트",
+"기본 동작 검사"
+],
+"definition_ko": "핵심 기능이 기본적으로 작동하는지 빠르게 확인하는 테스트.",
+"definition_en": "A test that quickly checks whether core features basically work.",
+"example_ko": "배포 후 스모크 테스트부터 해요.",
+"example_en": "We start with a smoke test after deployment."
+},
+{
+"id": "dev-083",
+"field": "dev",
+"term_ko": "인수 테스트",
+"term_en": "Acceptance test",
+"english": "Acceptance testing",
+"aliases_ko": [
+"인수테스트",
+"수용 테스트",
+"Acceptance test"
+],
+"definition_ko": "제품이 업무 요구를 만족하는지 확인하는 테스트.",
+"definition_en": "A test that checks whether the product satisfies business requirements.",
+"example_ko": "담당자가 실제 업무로 인수 테스트를 해요.",
+"example_en": "The responsible person runs an acceptance test using real work scenarios."
+},
+{
+"id": "dev-084",
+"field": "dev",
+"term_ko": "성능 테스트",
+"term_en": "Performance test",
+"english": "Performance testing",
+"aliases_ko": [
+"퍼포먼스 테스트",
+"성능시험"
+],
+"definition_ko": "속도·안정성 등 시스템 성능을 확인하는 테스트.",
+"definition_en": "A test that checks system performance such as speed and stability.",
+"example_ko": "접속자가 많을 때 성능 테스트를 해요.",
+"example_en": "We run a performance test for times with many concurrent users."
+},
+{
+"id": "dev-085",
+"field": "dev",
+"term_ko": "수동 테스트",
+"term_en": "Manual test",
+"english": "Manual testing",
+"aliases_ko": [
+"매뉴얼 테스트"
+],
+"definition_ko": "사람이 직접 조작하고 결과를 확인하는 테스트.",
+"definition_en": "A test in which a person operates it directly and checks the results.",
+"example_ko": "화면 흐름은 수동 테스트로도 살펴요.",
+"example_en": "We also review the screen flow with manual testing."
+},
+{
+"id": "dev-086",
+"field": "dev",
+"term_ko": "자동화 테스트",
+"term_en": "Automated test",
+"english": "Automated testing",
+"aliases_ko": [
+"테스트 자동화"
+],
+"definition_ko": "스크립트나 도구로 검증 과정을 실행하는 테스트.",
+"definition_en": "A test that runs the verification process via scripts or tools.",
+"example_ko": "반복 검사는 자동화 테스트로 돌려요.",
+"example_en": "We run repetitive checks as automated tests."
+},
+{
+"id": "dev-087",
+"field": "dev",
+"term_ko": "컴포넌트",
+"term_en": "Component",
+"english": "Component",
+"aliases_ko": [
+"컴포넌트 UI",
+"UI 컴포넌트",
+"재사용 컴포넌트"
+],
+"definition_ko": "독립적인 역할을 맡도록 나눈 소프트웨어 구성 단위. 프론트엔드에서는 화면 구조와 동작을 묶어 여러 곳에서 재사용하는 UI 구현 단위를 주로 뜻한다.",
+"definition_en": "A unit of software divided to take on an independent role. In front-end work it mainly means a reusable UI implementation unit that bundles screen structure and behavior.",
+"example_ko": "버튼 컴포넌트가 전달받은 속성에 따라 비활성 상태로 렌더링되게 해요.",
+"example_en": "We make the button component render in a disabled state based on the properties it receives.",
+"note_ko": "UI 컴포넌트 중심의 설명입니다. 디자인 도구의 재사용 원본과 실제 구현 코드는 구분합니다.",
+"note_en": "This explanation centers on UI components. The reusable source in a design tool and the actual implementation code are distinguished."
+},
+{
+"id": "design-047",
+"field": "design",
+"term_ko": "컴포넌트",
+"term_en": "Component",
+"english": "UI component",
+"aliases_ko": [
+"컴포넌트 UI",
+"UI 컴포넌트",
+"컴포",
+"컴포넌트화"
+],
+"definition_ko": "버튼·입력창처럼 반복 사용하도록 만든 UI 디자인의 원본 단위. 인스턴스와 변형을 통해 여러 화면의 표현을 일관되게 관리한다.",
+"definition_en": "A master unit of UI design made for repeated use, such as buttons and input fields. Its presentation is managed consistently across screens through instances and variants.",
+"example_ko": "버튼 원본 컴포넌트를 수정한 뒤 연결된 인스턴스도 확인해요.",
+"example_en": "After editing the master button component, we also check the linked instances.",
+"note_ko": "디자인 도구의 컴포넌트 문맥입니다. 구현 코드의 컴포넌트와 대응 관계를 정해 개발팀에 전달합니다.",
+"note_en": "This is the design-tool context of a component. We define its correspondence with the component in implementation code and hand it to the development team."
+},
+{
+"id": "dev-088",
+"field": "dev",
+"term_ko": "배리언트",
+"term_en": "Variant",
+"english": "Variant",
+"aliases_ko": [
+"베리언트",
+"배리언츠",
+"베리언츠"
+],
+"definition_ko": "같은 컴포넌트의 크기·상태 등 변형.",
+"definition_en": "Variations of the same component such as size and state.",
+"example_ko": "디자인의 비활성 배리언트를 disabled 속성과 스타일에 대응시켜요.",
+"example_en": "We map the design's disabled variant to the disabled property and style.",
+"note_ko": "여기서는 UI 컴포넌트의 변형을 뜻합니다.",
+"note_en": "Here it means a variation of a UI component."
+},
+{
+"id": "design-048",
+"field": "design",
+"term_ko": "배리언트",
+"term_en": "Variant",
+"english": "Variant",
+"aliases_ko": [
+"베리언트",
+"배리언츠",
+"베리언츠"
+],
+"definition_ko": "같은 컴포넌트의 크기·상태 등 변형.",
+"definition_en": "Variations of the same component such as size and state.",
+"example_ko": "버튼의 비활성 배리언트를 추가해요.",
+"example_en": "We add a disabled variant of the button.",
+"note_ko": "여기서는 UI 컴포넌트의 변형을 뜻합니다.",
+"note_en": "Here it means a variation of a UI component."
+},
+{
+"id": "dev-089",
+"field": "dev",
+"term_ko": "컴포넌트 세트",
+"term_en": "Component set",
+"english": "Component set",
+"aliases_ko": [
+"컴포넌트셋"
+],
+"definition_ko": "관련 배리언트를 함께 묶은 집합.",
+"definition_en": "A collection that bundles related variants together.",
+"example_ko": "전달받은 컴포넌트 세트를 보며 버튼의 크기·상태 조합을 구현해요.",
+"example_en": "Looking at the component set we received, we implement the button's size and state combinations."
+},
+{
+"id": "design-049",
+"field": "design",
+"term_ko": "컴포넌트 세트",
+"term_en": "Component set",
+"english": "Component set",
+"aliases_ko": [
+"컴포넌트셋"
+],
+"definition_ko": "관련 배리언트를 함께 묶은 집합.",
+"definition_en": "A collection that bundles related variants together.",
+"example_ko": "버튼 배리언트를 컴포넌트 세트로 묶어요.",
+"example_en": "We bundle the button variants into a component set."
+},
+{
+"id": "dev-090",
+"field": "dev",
+"term_ko": "디자인 토큰",
+"term_en": "Design token",
+"english": "Design token",
+"aliases_ko": [
+"디자인토큰",
+"토큰"
+],
+"definition_ko": "색·간격 등의 디자인 값에 이름을 붙인 공통 단위.",
+"definition_en": "A shared, named unit for design values such as color and spacing.",
+"example_ko": "색상 디자인 토큰을 CSS 변수로 연결해 테마 변경에 반영해요.",
+"example_en": "We link color design tokens to CSS variables to reflect theme changes."
+},
+{
+"id": "design-050",
+"field": "design",
+"term_ko": "디자인 토큰",
+"term_en": "Design token",
+"english": "Design token",
+"aliases_ko": [
+"디자인토큰",
+"토큰"
+],
+"definition_ko": "색·간격 등의 디자인 값에 이름을 붙인 공통 단위.",
+"definition_en": "A shared, named unit for design values such as color and spacing.",
+"example_ko": "강조색을 디자인 토큰으로 관리해요.",
+"example_en": "We manage the accent color as a design token."
+},
+{
+"id": "dev-091",
+"field": "dev",
+"term_ko": "테마",
+"term_en": "Theme",
+"english": "Theme",
+"aliases_ko": [
+"UI 테마",
+"화면 테마"
+],
+"definition_ko": "같은 UI에 적용하는 색·스타일 등의 표현 체계.",
+"definition_en": "A presentation system of colors, styles, and so on applied to the same UI.",
+"example_ko": "사용자의 테마 설정을 저장하고 다음 접속에도 적용해요.",
+"example_en": "We save the user's theme setting and apply it on their next visit as well."
+},
+{
+"id": "design-051",
+"field": "design",
+"term_ko": "테마",
+"term_en": "Theme",
+"english": "Theme",
+"aliases_ko": [
+"UI 테마",
+"화면 테마"
+],
+"definition_ko": "같은 UI에 적용하는 색·스타일 등의 표현 체계.",
+"definition_en": "A presentation system of colors, styles, and so on applied to the same UI.",
+"example_ko": "밝은 테마와 어두운 테마를 준비해요.",
+"example_en": "We prepare a light theme and a dark theme."
+},
+{
+"id": "dev-092",
+"field": "dev",
+"term_ko": "핸드오프",
+"term_en": "Handoff",
+"english": "Design handoff",
+"aliases_ko": [
+"핸드 오프",
+"개발 전달"
+],
+"definition_ko": "구현에 필요한 디자인 정보와 의도를 개발팀에 전달하는 과정.",
+"definition_en": "The process of passing the design information and intent needed for implementation to the development team.",
+"example_ko": "핸드오프에서 로딩·실패 상태와 키보드 동작을 확인한 뒤 구현해요.",
+"example_en": "At handoff we check the loading and error states and keyboard behavior before implementing.",
+"note_ko": "파일만 전달하는 것뿐 아니라 상태·동작·예외 조건을 함께 설명하는 과정을 포함합니다.",
+"note_en": "It includes not only passing files but also explaining states, behaviors, and edge conditions."
+},
+{
+"id": "design-052",
+"field": "design",
+"term_ko": "핸드오프",
+"term_en": "Handoff",
+"english": "Design handoff",
+"aliases_ko": [
+"핸드 오프",
+"개발 전달"
+],
+"definition_ko": "구현에 필요한 디자인 정보와 의도를 개발팀에 전달하는 과정.",
+"definition_en": "The process of passing the design information and intent needed for implementation to the development team.",
+"example_ko": "핸드오프 때 상태별 동작도 설명해요.",
+"example_en": "At handoff we also explain the behavior for each state.",
+"note_ko": "파일만 전달하는 것뿐 아니라 상태·동작·예외 조건을 함께 설명하는 과정을 포함합니다.",
+"note_en": "It includes not only passing files but also explaining states, behaviors, and edge conditions."
+},
+{
+"id": "dev-093",
+"field": "dev",
+"term_ko": "디자인 시스템",
+"term_en": "Design system",
+"english": "Design system",
+"aliases_ko": [
+"디자인시스템",
+"DS"
+],
+"definition_ko": "일관된 제품을 만들기 위한 공통 규칙과 재사용 요소 체계.",
+"definition_en": "A system of shared rules and reusable elements for building a consistent product.",
+"example_ko": "디자인 시스템의 버튼 컴포넌트를 가져와 결제 화면에 연결해요.",
+"example_en": "We pull the button component from the design system and wire it into the checkout screen."
+},
+{
+"id": "design-053",
+"field": "design",
+"term_ko": "디자인 시스템",
+"term_en": "Design system",
+"english": "Design system",
+"aliases_ko": [
+"디자인시스템",
+"DS"
+],
+"definition_ko": "일관된 제품을 만들기 위한 공통 규칙과 재사용 요소 체계.",
+"definition_en": "A system of shared rules and reusable elements for building a consistent product.",
+"example_ko": "새 화면도 디자인 시스템을 따라 만들어요.",
+"example_en": "We build new screens following the design system too."
+},
+{
+"id": "design-054",
+"field": "design",
+"term_ko": "도련",
+"term_en": "Bleed",
+"english": "Bleed",
+"aliases_ko": [
+"재단 여분",
+"블리드",
+"bleed"
+],
+"definition_ko": "재단 오차에 대비해 완성선 밖으로 늘린 이미지 영역.",
+"definition_en": "The image area extended beyond the finished line to allow for cutting error.",
+"example_ko": "배경색을 도련까지 채워 주세요.",
+"example_en": "Please fill the background color all the way to the bleed."
+},
+{
+"id": "design-055",
+"field": "design",
+"term_ko": "재단선",
+"term_en": "Trim marks",
+"english": "Trim marks",
+"aliases_ko": [
+"트림 마크",
+"크롭 마크",
+"재단 표시"
+],
+"definition_ko": "인쇄물을 자를 위치를 알려 주는 표시.",
+"definition_en": "Marks that indicate where to cut printed material.",
+"example_ko": "출력 파일에 재단선을 넣어요.",
+"example_en": "We add trim marks to the output file."
+},
+{
+"id": "design-056",
+"field": "design",
+"term_ko": "맞춤표",
+"term_en": "Registration marks",
+"english": "Registration marks",
+"aliases_ko": [
+"레지스트레이션 마크",
+"핀 맞춤표",
+"돈보"
+],
+"definition_ko": "색판들이 같은 위치에 인쇄되도록 맞추는 표시.",
+"definition_en": "Marks for aligning the color plates so they print in the same position.",
+"example_ko": "맞춤표로 색판 어긋남을 확인해요.",
+"example_en": "We use the registration marks to check for plate misalignment.",
+"note_ko": "인쇄 현장에서 돈보라고도 부릅니다.",
+"note_en": "On the print floor they are also called \"donbo.\""
+},
+{
+"id": "design-057",
+"field": "design",
+"term_ko": "컬러바",
+"term_en": "Color bar",
+"english": "Color bars",
+"aliases_ko": [
+"컬러 바",
+"색상 막대"
+],
+"definition_ko": "인쇄 색과 농도 점검에 쓰는 색상 패치 배열.",
+"definition_en": "An arrangement of color patches used to check print color and density.",
+"example_ko": "컬러바를 보고 인쇄 상태를 확인해요.",
+"example_en": "We check the print quality by looking at the color bar."
+},
+{
+"id": "design-058",
+"field": "design",
+"term_ko": "별색",
+"term_en": "Spot color",
+"english": "Spot color",
+"aliases_ko": [
+"스폿 컬러",
+"스팟 컬러"
+],
+"definition_ko": "지정한 색을 별도 잉크로 인쇄하는 방식이나 그 색.",
+"definition_en": "A method of printing a specified color with a separate ink, or that color itself.",
+"example_ko": "브랜드 색은 별색 인쇄로 협의해요.",
+"example_en": "We discuss printing the brand color as a spot color."
+},
+{
+"id": "design-059",
+"field": "design",
+"term_ko": "팬톤",
+"term_en": "Pantone",
+"english": "Pantone",
+"aliases_ko": [
+"판톤",
+"팬톤 컬러",
+"PANTONE"
+],
+"definition_ko": "색을 번호 등으로 지정하고 소통하는 색상 체계.",
+"definition_en": "A color system for specifying and communicating colors by number and so on.",
+"example_ko": "팬톤 번호와 실물 칩을 함께 확인해요.",
+"example_en": "We check the Pantone number together with the physical chip.",
+"note_ko": "소재·인쇄 방식과 코팅 유무에 따라 같은 번호도 보이는 색이 달라질 수 있습니다.",
+"note_en": "Depending on the material, printing method, and whether it is coated, the same number can appear as a different color."
+},
+{
+"id": "design-060",
+"field": "design",
+"term_ko": "인쇄 감리",
+"term_en": "Press check",
+"english": "Print supervision",
+"aliases_ko": [
+"인쇄감리",
+"인쇄 현장 확인"
+],
+"definition_ko": "인쇄 현장에서 색과 제작 품질을 확인하는 일.",
+"definition_en": "Checking color and production quality at the printing site.",
+"example_ko": "첫 인쇄 때 인쇄 감리를 진행해요.",
+"example_en": "We do a press check during the first print run."
+},
+{
+"id": "design-061",
+"field": "design",
+"term_ko": "굿즈",
+"term_en": "Goods",
+"english": "Merchandise",
+"aliases_ko": [
+"브랜드 굿즈",
+"머천다이즈"
+],
+"definition_ko": "브랜드나 콘텐츠를 바탕으로 만든 관련 상품.",
+"definition_en": "Related merchandise made based on a brand or content.",
+"example_ko": "앨범 콘셉트로 굿즈를 디자인해요.",
+"example_en": "We design goods based on the album concept."
+},
+{
+"id": "common-017",
+"field": "common",
+"term_ko": "픽스",
+"term_en": "Fix (finalize)",
+"english": "Fix (confirm)",
+"aliases_ko": [
+"확정",
+"일정 픽스"
+],
+"definition_ko": "협의한 내용을 확정하는 것.",
+"definition_en": "Confirming something that has been discussed.",
+"example_ko": "회의 날짜를 금요일로 픽스해요.",
+"example_en": "We fix the meeting date for Friday.",
+"note_ko": "여기서는 일정·안의 확정입니다. 개발에서 버그를 fix한다고 하면 오류를 수정한다는 뜻도 됩니다.",
+"note_en": "Here it means finalizing a schedule or plan. In development, fixing a bug means correcting an error."
+},
+{
+"id": "common-018",
+"field": "common",
+"term_ko": "디벨롭",
+"term_en": "Develop",
+"english": "Develop",
+"aliases_ko": [
+"디벨로프",
+"구체화",
+"디벨롭하다",
+"구체화하다",
+"디벨럽",
+"디벨럽하다",
+"디밸롭",
+"Develop"
+],
+"definition_ko": "아이디어나 안을 더 구체적으로 발전시키는 것.",
+"definition_en": "Developing an idea or plan into something more concrete.",
+"example_ko": "선택한 방향을 조금 더 디벨롭해요.",
+"example_en": "We develop the chosen direction a bit further."
+},
+{
+"id": "common-019",
+"field": "common",
+"term_ko": "러프",
+"term_en": "Rough",
+"english": "Rough",
+"aliases_ko": [
+"러프하게",
+"러프안",
+"개략안"
+],
+"definition_ko": "세부를 다듬기 전 대략적인 상태.",
+"definition_en": "A roughly outlined state before the details are refined.",
+"example_ko": "먼저 러프한 방향부터 공유해요.",
+"example_en": "Let's first share a rough direction.",
+"note_ko": "완성도가 낮다는 평가보다, 초기에 세부를 생략한 상태를 설명하는 표현으로 정리했습니다.",
+"note_en": "This is framed as describing an early state with details omitted, rather than a judgment of low quality."
+},
+{
+"id": "common-020",
+"field": "common",
+"term_ko": "피드백",
+"term_en": "Feedback",
+"english": "Feedback",
+"aliases_ko": [
+"F/B",
+"FB",
+"피드 백"
+],
+"definition_ko": "작업을 검토하고 전달하는 의견.",
+"definition_en": "An opinion delivered after reviewing work.",
+"example_ko": "피드백을 모아서 한 번에 전달해요.",
+"example_en": "We gather the feedback and deliver it all at once."
+},
+{
+"id": "common-021",
+"field": "common",
+"term_ko": "데드라인",
+"term_en": "Deadline",
+"english": "Deadline",
+"aliases_ko": [
+"마감",
+"마감일",
+"듀데이트",
+"due date",
+"듀데잇",
+"DL"
+],
+"definition_ko": "일을 마쳐야 하는 기한.",
+"definition_en": "The due date by which work must be finished.",
+"example_ko": "이번 작업 데드라인은 목요일이에요.",
+"example_en": "The deadline for this task is Thursday."
+},
+{
+"id": "common-022",
+"field": "common",
+"term_ko": "KPI",
+"term_en": "KPI",
+"english": "Key performance indicator",
+"aliases_ko": [
+"케이피아이",
+"핵심 성과 지표"
+],
+"definition_ko": "목표 달성 정도를 판단할 핵심 측정 지표.",
+"definition_en": "The key measurement metric for judging the degree of goal achievement.",
+"example_ko": "팀 목표에 맞춰 KPI를 합의해요.",
+"example_en": "We agree on KPIs aligned with the team's goals.",
+"note_ko": "지표 이름뿐 아니라 계산식·기간·데이터 출처·목표값을 함께 정해야 비교할 수 있습니다.",
+"note_en": "To compare, you must define not only the metric name but also the formula, period, data source, and target value."
+},
+{
+"id": "design-073",
+"field": "design",
+"term_ko": "RGB",
+"term_en": "RGB",
+"english": "Red green blue",
+"aliases_ko": [
+"알지비",
+"빛의 삼원색"
+],
+"definition_ko": "빨강·초록·파랑 빛으로 색을 표현하는 방식.",
+"definition_en": "A method of representing color with red, green, and blue light.",
+"example_ko": "화면용 이미지는 RGB 기준으로 확인해요.",
+"example_en": "We check images for screen use against the RGB standard."
+},
+{
+"id": "marketing-078",
+"field": "marketing",
+"term_ko": "RGB",
+"term_en": "RGB",
+"english": "Red green blue",
+"aliases_ko": [
+"알지비",
+"빛의 삼원색"
+],
+"definition_ko": "빨강·초록·파랑 빛으로 색을 표현하는 방식.",
+"definition_en": "A method of representing color with red, green, and blue light.",
+"example_ko": "화면용 이미지는 RGB 기준으로 확인해요.",
+"example_en": "We check images for screen use against the RGB standard."
+},
+{
+"id": "fashion-127",
+"field": "fashion",
+"term_ko": "RGB",
+"term_en": "RGB",
+"english": "Red green blue",
+"aliases_ko": [
+"알지비",
+"빛의 삼원색"
+],
+"definition_ko": "빨강·초록·파랑 빛으로 색을 표현하는 방식.",
+"definition_en": "A method of representing color with red, green, and blue light.",
+"example_ko": "자사몰에 올릴 제품 사진은 RGB 화면에서 색을 확인해요.",
+"example_en": "We check the color of product photos for our own online store on an RGB screen."
+},
+{
+"id": "design-074",
+"field": "design",
+"term_ko": "CMYK",
+"term_en": "CMYK",
+"english": "Cyan magenta yellow key",
+"aliases_ko": [
+"씨엠와이케이",
+"4도 컬러"
+],
+"definition_ko": "청록·자홍·노랑·검정 잉크로 색을 표현하는 방식.",
+"definition_en": "A method of representing color with cyan, magenta, yellow, and black inks.",
+"example_ko": "인쇄용 파일은 CMYK 변환 결과를 확인해요.",
+"example_en": "For print files we check the result of the CMYK conversion."
+},
+{
+"id": "marketing-079",
+"field": "marketing",
+"term_ko": "CMYK",
+"term_en": "CMYK",
+"english": "Cyan magenta yellow key",
+"aliases_ko": [
+"씨엠와이케이",
+"4도 컬러"
+],
+"definition_ko": "청록·자홍·노랑·검정 잉크로 색을 표현하는 방식.",
+"definition_en": "A method of representing color with cyan, magenta, yellow, and black inks.",
+"example_ko": "인쇄용 파일은 CMYK 변환 결과를 확인해요.",
+"example_en": "For print files we check the result of the CMYK conversion."
+},
+{
+"id": "fashion-128",
+"field": "fashion",
+"term_ko": "CMYK",
+"term_en": "CMYK",
+"english": "Cyan magenta yellow key",
+"aliases_ko": [
+"씨엠와이케이",
+"4도 컬러"
+],
+"definition_ko": "청록·자홍·노랑·검정 잉크로 색을 표현하는 방식.",
+"definition_en": "A method of representing color with cyan, magenta, yellow, and black inks.",
+"example_ko": "룩북 인쇄 전에 CMYK 변환으로 의류 색이 달라지는지 확인해요.",
+"example_en": "Before printing the lookbook, we check with a CMYK conversion whether the garment colors shift."
+},
+{
+"id": "design-075",
+"field": "design",
+"term_ko": "오버프린트",
+"term_en": "Overprint",
+"english": "Overprint",
+"aliases_ko": [
+"오버프린팅",
+"중복 인쇄"
+],
+"definition_ko": "아래 색판을 비우지 않고 위에 겹쳐 인쇄하는 설정.",
+"definition_en": "A setting that prints over the top without knocking out the color plate beneath.",
+"example_ko": "검정 글자의 오버프린트를 확인해요.",
+"example_en": "We check the overprint on the black text."
+},
+{
+"id": "design-076",
+"field": "design",
+"term_ko": "녹아웃",
+"term_en": "Knockout",
+"english": "Knockout",
+"aliases_ko": [
+"넉아웃",
+"knockout"
+],
+"definition_ko": "위 개체가 인쇄될 부분의 아래 색을 비우는 처리.",
+"definition_en": "A treatment that removes the underlying color where the top object will print.",
+"example_ko": "겹친 영역의 녹아웃 여부를 확인해요.",
+"example_en": "We check whether the overlapping area is set to knockout."
+},
+{
+"id": "design-077",
+"field": "design",
+"term_ko": "오토 레이아웃",
+"term_en": "Auto Layout",
+"english": "Auto layout",
+"aliases_ko": [
+"오토레이아웃",
+"자동 레이아웃",
+"오토레",
+"Auto Layout"
+],
+"definition_ko": "내용과 규칙에 맞춰 요소 배치와 크기를 조정하는 기능.",
+"definition_en": "A feature that adjusts the arrangement and size of elements according to content and rules.",
+"example_ko": "문구가 늘어나도 오토 레이아웃으로 간격을 유지해요.",
+"example_en": "Even as the text grows, Auto Layout keeps the spacing."
+},
+{
+"id": "dev-108",
+"field": "dev",
+"term_ko": "오토 레이아웃",
+"term_en": "Auto Layout",
+"english": "Auto layout",
+"aliases_ko": [
+"오토레이아웃",
+"자동 레이아웃"
+],
+"definition_ko": "내용과 규칙에 맞춰 요소 배치와 크기를 조정하는 기능.",
+"definition_en": "A feature that adjusts the arrangement and size of elements according to content and rules.",
+"example_ko": "시안의 오토 레이아웃 간격과 줄바꿈 규칙을 확인해 CSS로 구현해요.",
+"example_en": "We check the mockup's Auto Layout spacing and line-break rules and implement them in CSS.",
+"note_ko": "Figma 설계값을 전달받아 구현하는 협업 문맥입니다. 웹에서는 CSS 등 해당 환경의 배치 규칙으로 구현합니다.",
+"note_en": "This is a collaboration context of receiving Figma design values and implementing them. On the web, it is implemented with that environment's layout rules such as CSS."
+},
+{
+"id": "design-078",
+"field": "design",
+"term_ko": "패딩",
+"term_en": "Padding",
+"english": "Padding",
+"aliases_ko": [
+"안쪽 여백",
+"내부 여백"
+],
+"definition_ko": "컨테이너 경계와 내부 내용 사이의 여백.",
+"definition_en": "The margin between a container's edge and the content inside it.",
+"example_ko": "버튼 좌우 패딩을 늘려요.",
+"example_en": "We increase the left and right padding of the button."
+},
+{
+"id": "dev-109",
+"field": "dev",
+"term_ko": "패딩",
+"term_en": "Padding",
+"english": "Padding",
+"aliases_ko": [
+"안쪽 여백",
+"내부 여백",
+"padding"
+],
+"definition_ko": "CSS 박스에서 내용 영역과 테두리 사이에 두는 안쪽 여백.",
+"definition_en": "In the CSS box model, the inner spacing placed between the content area and the border.",
+"example_ko": "버튼에 좌우 패딩을 주고 긴 문구에서도 내용이 잘리지 않는지 확인해요.",
+"example_en": "We add left and right padding to the button and check that the content isn't cut off even with long text."
+},
+{
+"id": "design-079",
+"field": "design",
+"term_ko": "갭",
+"term_en": "Gap",
+"english": "Gap",
+"aliases_ko": [
+"요소 간격",
+"아이템 간격"
+],
+"definition_ko": "나란히 배치한 요소 사이의 간격.",
+"definition_en": "The spacing between elements placed side by side.",
+"example_ko": "카드 사이 갭을 통일해요.",
+"example_en": "We unify the gap between cards."
+},
+{
+"id": "dev-110",
+"field": "dev",
+"term_ko": "갭",
+"term_en": "Gap",
+"english": "Gap",
+"aliases_ko": [
+"요소 간격",
+"아이템 간격",
+"gap"
+],
+"definition_ko": "CSS Grid·Flexbox 등에서 행이나 열 사이에 두는 간격. 컨테이너 바깥 여백이나 각 항목의 안쪽 여백과 구분한다.",
+"definition_en": "The spacing placed between rows or columns in CSS Grid, Flexbox, and the like. It is distinct from the container's outer margin and each item's inner padding.",
+"example_ko": "카드 목록의 gap을 16px로 지정하고 줄바꿈 뒤 세로 간격도 확인해요.",
+"example_en": "We set the card list's gap to 16px and also check the vertical spacing after wrapping."
+},
+{
+"id": "design-080",
+"field": "design",
+"term_ko": "허그",
+"term_en": "Hug",
+"english": "Hug contents",
+"aliases_ko": [
+"허그 콘텐츠",
+"내용에 맞춤"
+],
+"definition_ko": "내부 콘텐츠를 감싸도록 크기를 정하는 설정.",
+"definition_en": "A setting that sizes an element to wrap its inner content.",
+"example_ko": "라벨 프레임은 허그로 설정해요.",
+"example_en": "We set the label frame to hug.",
+"note_ko": "Figma 오토 레이아웃의 크기 설정을 설명하는 표현입니다.",
+"note_en": "This describes a sizing setting in Figma's Auto Layout."
+},
+{
+"id": "dev-111",
+"field": "dev",
+"term_ko": "허그",
+"term_en": "Hug",
+"english": "Hug contents",
+"aliases_ko": [
+"허그 콘텐츠",
+"내용에 맞춤"
+],
+"definition_ko": "내부 콘텐츠를 감싸도록 크기를 정하는 설정.",
+"definition_en": "A setting that sizes an element to wrap its inner content.",
+"example_ko": "시안에서 허그로 지정된 라벨이 코드에서도 문구 길이에 맞춰 늘어나게 해요.",
+"example_en": "We make a label set to hug in the mockup grow with the text length in code too.",
+"note_ko": "Figma의 내용에 맞춘 크기 설정입니다. CSS 속성 이름이 아니므로 내용·최소 크기·줄바꿈 조건을 함께 확인해 구현합니다.",
+"note_en": "This is Figma's fit-to-content sizing setting. Since it is not a CSS property name, we implement it while also checking the content, minimum size, and wrapping conditions."
+},
+{
+"id": "design-081",
+"field": "design",
+"term_ko": "필 컨테이너",
+"term_en": "Fill container",
+"english": "Fill container",
+"aliases_ko": [
+"필컨테이너",
+"컨테이너 채우기"
+],
+"definition_ko": "부모 컨테이너의 사용 가능한 공간을 채우는 설정.",
+"definition_en": "A setting that fills the available space of the parent container.",
+"example_ko": "입력창 너비를 필 컨테이너로 맞춰요.",
+"example_en": "We set the input field's width to fill container.",
+"note_ko": "Figma 오토 레이아웃의 크기 설정입니다. 부모 프레임의 설정에 따라 적용 범위가 달라집니다.",
+"note_en": "This is a sizing setting in Figma's Auto Layout. Its scope depends on the parent frame's settings."
+},
+{
+"id": "dev-112",
+"field": "dev",
+"term_ko": "필 컨테이너",
+"term_en": "Fill container",
+"english": "Fill container",
+"aliases_ko": [
+"필컨테이너",
+"컨테이너 채우기"
+],
+"definition_ko": "부모 컨테이너의 사용 가능한 공간을 채우는 설정.",
+"definition_en": "A setting that fills the available space of the parent container.",
+"example_ko": "필 컨테이너로 지정된 입력창이 부모 영역의 남은 너비를 채우도록 구현해요.",
+"example_en": "We implement an input field set to fill container so it fills the remaining width of the parent area.",
+"note_ko": "Figma의 부모 영역을 채우는 크기 설정입니다. 부모 크기·여백을 확인하고 웹 레이아웃 제약으로 옮깁니다.",
+"note_en": "This is Figma's fill-the-parent sizing setting. We check the parent's size and margins and translate it into web layout constraints."
+},
+{
+"id": "marketing-080",
+"field": "marketing",
+"term_ko": "CRM",
+"term_en": "CRM",
+"english": "Customer relationship management",
+"aliases_ko": [
+"씨알엠",
+"고객 관계 관리"
+],
+"definition_ko": "고객 정보와 접촉 이력을 활용해 관계를 관리하는 활동과 체계.",
+"definition_en": "The activities and systems for managing relationships using customer information and contact history.",
+"example_ko": "구매 이력을 CRM에 연결해요.",
+"example_en": "We link purchase history to the CRM."
+},
+{
+"id": "fashion-129",
+"field": "fashion",
+"term_ko": "CRM",
+"term_en": "CRM",
+"english": "Customer relationship management",
+"aliases_ko": [
+"씨알엠",
+"고객 관계 관리"
+],
+"definition_ko": "고객 정보와 접촉 이력을 활용해 관계를 관리하는 활동과 체계.",
+"definition_en": "The activities and systems for managing relationships using customer information and contact history.",
+"example_ko": "구매한 의류 품목과 사이즈 이력을 활용해 CRM 메시지 대상을 나눠요.",
+"example_en": "We segment CRM message targets using purchased apparel items and size history."
+},
+{
+"id": "dev-113",
+"field": "dev",
+"term_ko": "CRM",
+"term_en": "CRM",
+"english": "Customer relationship management",
+"aliases_ko": [
+"씨알엠",
+"고객 관계 관리"
+],
+"definition_ko": "고객 정보와 접촉 이력을 활용해 관계를 관리하는 활동과 체계.",
+"definition_en": "The activities and systems for managing relationships using customer information and contact history.",
+"example_ko": "주문 완료 이벤트와 고객 식별자를 CRM 연동 API에 전달해요.",
+"example_en": "We pass the order-completed event and customer identifier to the CRM integration API."
+},
+{
+"id": "marketing-081",
+"field": "marketing",
+"term_ko": "SEO",
+"term_en": "SEO",
+"english": "Search engine optimization",
+"aliases_ko": [
+"에스이오",
+"검색 엔진 최적화"
+],
+"definition_ko": "검색엔진이 콘텐츠를 이해하고 찾도록 사이트를 개선하는 일.",
+"definition_en": "Improving a site so that search engines understand and find its content.",
+"example_ko": "상품 설명과 제목의 SEO를 점검해요.",
+"example_en": "We review the SEO of product descriptions and titles."
+},
+{
+"id": "fashion-130",
+"field": "fashion",
+"term_ko": "SEO",
+"term_en": "SEO",
+"english": "Search engine optimization",
+"aliases_ko": [
+"에스이오",
+"검색 엔진 최적화"
+],
+"definition_ko": "검색엔진이 콘텐츠를 이해하고 찾도록 사이트를 개선하는 일.",
+"definition_en": "Improving a site so that search engines understand and find its content.",
+"example_ko": "자사몰 코트 상품의 제목과 설명을 SEO 관점에서 점검해요.",
+"example_en": "We review the title and description of a coat product on our own store from an SEO perspective."
+},
+{
+"id": "dev-114",
+"field": "dev",
+"term_ko": "SEO",
+"term_en": "SEO",
+"english": "Search engine optimization",
+"aliases_ko": [
+"에스이오",
+"검색 엔진 최적화"
+],
+"definition_ko": "검색엔진이 콘텐츠를 이해하고 찾도록 사이트를 개선하는 일.",
+"definition_en": "Improving a site so that search engines understand and find its content.",
+"example_ko": "검색엔진이 콘텐츠를 읽도록 HTML과 메타 정보를 SEO 기준에 맞춰 점검해요.",
+"example_en": "We review the HTML and meta information against SEO standards so search engines can read the content."
+},
+{
+"id": "marketing-082",
+"field": "marketing",
+"term_ko": "오가닉 트래픽",
+"term_en": "Organic traffic",
+"english": "Organic traffic",
+"aliases_ko": [
+"자연 검색 유입",
+"오가닉 유입"
+],
+"definition_ko": "유료 검색 광고가 아닌 자연 검색에서 들어온 방문.",
+"definition_en": "Visits that come from natural search rather than paid search ads.",
+"example_ko": "오가닉 트래픽의 변화도 함께 봐요.",
+"example_en": "We also watch changes in organic traffic.",
+"note_ko": "여기서는 자연 검색 유입입니다. 일부 팀은 유료 집행 없이 얻은 유입 전반을 오가닉이라고도 부릅니다.",
+"note_en": "Here it means natural search traffic. Some teams also call all traffic obtained without paid spend \"organic.\""
+},
+{
+"id": "fashion-131",
+"field": "fashion",
+"term_ko": "오가닉 트래픽",
+"term_en": "Organic traffic",
+"english": "Organic traffic",
+"aliases_ko": [
+"자연 검색 유입",
+"오가닉 유입"
+],
+"definition_ko": "유료 검색 광고가 아닌 자연 검색에서 들어온 방문.",
+"definition_en": "Visits that come from natural search rather than paid search ads.",
+"example_ko": "린넨 셔츠 관련 자연 검색으로 들어온 자사몰 오가닉 트래픽을 봐요.",
+"example_en": "We look at the organic traffic to our store from natural searches related to linen shirts.",
+"note_ko": "여기서는 자연 검색 유입입니다. 일부 팀은 유료 집행 없이 얻은 유입 전반을 오가닉이라고도 부릅니다.",
+"note_en": "Here it means natural search traffic. Some teams also call all traffic obtained without paid spend \"organic.\""
+},
+{
+"id": "marketing-083",
+"field": "marketing",
+"term_ko": "UTM",
+"term_en": "UTM",
+"english": "UTM parameters",
+"aliases_ko": [
+"유티엠",
+"캠페인 매개변수",
+"UTM 태그"
+],
+"definition_ko": "유입 출처와 캠페인을 구분하려고 URL에 붙이는 값.",
+"definition_en": "Values appended to a URL to distinguish traffic source and campaign.",
+"example_ko": "배너 링크마다 UTM을 구분해요.",
+"example_en": "We distinguish the UTM for each banner link.",
+"note_ko": "Google 문서에서는 source·medium·campaign 등을 구분합니다. 개인 식별 정보는 URL 값에 넣지 않습니다.",
+"note_en": "In Google's documentation it distinguishes source, medium, campaign, and so on. Do not put personally identifiable information in the URL values."
+},
+{
+"id": "fashion-132",
+"field": "fashion",
+"term_ko": "UTM",
+"term_en": "UTM",
+"english": "UTM parameters",
+"aliases_ko": [
+"유티엠",
+"캠페인 매개변수",
+"UTM 태그"
+],
+"definition_ko": "유입 출처와 캠페인을 구분하려고 URL에 붙이는 값.",
+"definition_en": "Values appended to a URL to distinguish traffic source and campaign.",
+"example_ko": "룩북 링크와 인플루언서 착장 링크의 UTM을 나눠 유입을 비교해요.",
+"example_en": "We split the UTM of the lookbook link and the influencer styling link to compare traffic.",
+"note_ko": "Google 문서에서는 source·medium·campaign 등을 구분합니다. 개인 식별 정보는 URL 값에 넣지 않습니다.",
+"note_en": "In Google's documentation it distinguishes source, medium, campaign, and so on. Do not put personally identifiable information in the URL values."
+},
+{
+"id": "dev-116",
+"field": "dev",
+"term_ko": "UTM",
+"term_en": "UTM",
+"english": "UTM parameters",
+"aliases_ko": [
+"유티엠",
+"캠페인 매개변수",
+"UTM 태그"
+],
+"definition_ko": "유입 출처와 캠페인을 구분하려고 URL에 붙이는 값.",
+"definition_en": "Values appended to a URL to distinguish traffic source and campaign.",
+"example_ko": "리디렉션 뒤에도 UTM 파라미터가 유지되는지 테스트해요.",
+"example_en": "We test whether the UTM parameters are preserved even after a redirect.",
+"note_ko": "Google 문서에서는 source·medium·campaign 등을 구분합니다. 개인 식별 정보는 URL 값에 넣지 않습니다.",
+"note_en": "In Google's documentation it distinguishes source, medium, campaign, and so on. Do not put personally identifiable information in the URL values."
+},
+{
+"id": "fashion-097",
+"field": "fashion",
+"term_ko": "CPC",
+"term_en": "CPC",
+"english": "Cost per click",
+"aliases_ko": [
+"클릭당 비용",
+"씨피씨"
+],
+"definition_ko": "광고 클릭 한 번에 드는 비용.",
+"definition_en": "The cost of one ad click.",
+"example_ko": "신상품 광고의 CPC를 확인해요.",
+"example_en": "We check the CPC of the new-product ad."
+},
+{
+"id": "fashion-098",
+"field": "fashion",
+"term_ko": "CPM",
+"term_en": "CPM",
+"english": "Cost per mille",
+"aliases_ko": [
+"천 회 노출당 비용",
+"씨피엠"
+],
+"definition_ko": "광고가 1,000회 노출되는 데 드는 비용.",
+"definition_en": "The cost of showing an ad 1,000 times.",
+"example_ko": "컬렉션 광고의 CPM을 비교해요.",
+"example_en": "We compare the CPM of the collection ads."
+},
+{
+"id": "fashion-099",
+"field": "fashion",
+"term_ko": "CTR",
+"term_en": "CTR",
+"english": "Click-through rate",
+"aliases_ko": [
+"클릭률",
+"씨티알"
+],
+"definition_ko": "광고 노출 횟수 대비 클릭 횟수의 비율.",
+"definition_en": "The ratio of clicks to ad impressions.",
+"example_ko": "상품 이미지별 CTR을 비교해요.",
+"example_en": "We compare the CTR by product image.",
+"note_ko": "클릭 수 ÷ 노출수 × 100으로 계산합니다. 사람 수를 분모로 쓰는 지표와 구분하세요.",
+"note_en": "It is calculated as clicks ÷ impressions × 100. Distinguish it from metrics that use the number of people as the denominator."
+},
+{
+"id": "fashion-100",
+"field": "fashion",
+"term_ko": "ROAS",
+"term_en": "ROAS",
+"english": "Return on advertising spend",
+"aliases_ko": [
+"광고비 대비 매출",
+"로아스"
+],
+"definition_ko": "광고비에 비해 발생한 매출의 비율.",
+"definition_en": "The ratio of revenue generated relative to ad spend.",
+"example_ko": "자사몰 신상품 광고의 ROAS를 확인해요.",
+"example_en": "We check the ROAS of the new-product ad on our own store.",
+"note_ko": "매출 기준 지표입니다. 이익률이나 순이익을 직접 뜻하지는 않습니다.",
+"note_en": "It is a revenue-based metric. It does not directly mean profit margin or net profit."
+},
+{
+"id": "fashion-101",
+"field": "fashion",
+"term_ko": "CVR",
+"term_en": "CVR",
+"english": "Conversion rate",
+"aliases_ko": [
+"전환율",
+"씨브이알"
+],
+"definition_ko": "방문이나 클릭 중 목표 행동으로 이어진 비율.",
+"definition_en": "The ratio of visits or clicks that led to a target action.",
+"example_ko": "상세페이지 개선 후 CVR을 살펴요.",
+"example_en": "We review the CVR after improving the detail page.",
+"note_ko": "분모가 클릭인지 방문인지, 어떤 행동을 전환으로 정했는지 함께 확인해야 합니다.",
+"note_en": "You must also check whether the denominator is clicks or visits and which action is defined as a conversion."
+},
+{
+"id": "fashion-102",
+"field": "fashion",
+"term_ko": "CPA",
+"term_en": "CPA",
+"english": "Cost per action",
+"aliases_ko": [
+"행동당 비용",
+"씨피에이"
+],
+"definition_ko": "구매·가입 등 목표 행동 한 건당 드는 비용.",
+"definition_en": "The cost per one target action such as a purchase or sign-up.",
+"example_ko": "첫 구매 CPA를 기준으로 예산을 조정해요.",
+"example_en": "We adjust the budget based on the first-purchase CPA."
+},
+{
+"id": "fashion-103",
+"field": "fashion",
+"term_ko": "노출수",
+"term_en": "Impressions",
+"english": "Impressions",
+"aliases_ko": [
+"임프레션",
+"노출"
+],
+"definition_ko": "광고가 표시된 총횟수.",
+"definition_en": "The total number of times an ad was displayed.",
+"example_ko": "시즌 캠페인의 노출수를 확인해요.",
+"example_en": "We check the impressions of the seasonal campaign."
+},
+{
+"id": "fashion-104",
+"field": "fashion",
+"term_ko": "도달수",
+"term_en": "Reach",
+"english": "Reach",
+"aliases_ko": [
+"도달",
+"리치"
+],
+"definition_ko": "광고에 도달한 중복을 제외한 사람 수.",
+"definition_en": "The number of people reached by an ad, excluding duplicates.",
+"example_ko": "컬렉션 광고의 도달수를 확인해요.",
+"example_en": "We check the reach of the collection ad."
+},
+{
+"id": "fashion-105",
+"field": "fashion",
+"term_ko": "타겟팅",
+"term_en": "Targeting",
+"english": "Targeting",
+"aliases_ko": [
+"타기팅"
+],
+"definition_ko": "광고를 보여줄 대상을 정하는 일.",
+"definition_en": "Deciding the audience to whom an ad will be shown.",
+"example_ko": "신규 고객에게 맞게 타겟팅해요.",
+"example_en": "We target it to fit new customers."
+},
+{
+"id": "fashion-106",
+"field": "fashion",
+"term_ko": "오디언스",
+"term_en": "Audience",
+"english": "Audience",
+"aliases_ko": [
+"잠재고객",
+"타깃 고객"
+],
+"definition_ko": "광고나 콘텐츠의 대상이 되는 사람들.",
+"definition_en": "The people an ad or content is aimed at.",
+"example_ko": "최근 구매한 고객 오디언스를 나눠요.",
+"example_en": "We split out the audience of recently purchasing customers."
+},
+{
+"id": "fashion-107",
+"field": "fashion",
+"term_ko": "세그먼트",
+"term_en": "Segment",
+"english": "Segment",
+"aliases_ko": [
+"고객군",
+"고객 세분화"
+],
+"definition_ko": "공통 특성으로 나눈 고객 집단.",
+"definition_en": "A group of customers divided by shared characteristics.",
+"example_ko": "구매 주기별 세그먼트를 만들어요.",
+"example_en": "We create segments by purchase cycle."
+},
+{
+"id": "fashion-108",
+"field": "fashion",
+"term_ko": "리타겟팅",
+"term_en": "Retargeting",
+"english": "Retargeting",
+"aliases_ko": [
+"리타기팅",
+"리마케팅"
+],
+"definition_ko": "방문 등 접점이 있었던 대상에게 다시 광고하는 방식.",
+"definition_en": "A method of advertising again to people who had prior contact, such as a visit.",
+"example_ko": "장바구니 이탈 고객에게 리타겟팅해요.",
+"example_en": "We retarget customers who abandoned their cart."
+},
+{
+"id": "fashion-109",
+"field": "fashion",
+"term_ko": "랜딩 페이지",
+"term_en": "Landing page",
+"english": "Landing page",
+"aliases_ko": [
+"랜딩",
+"랜딩페이지"
+],
+"definition_ko": "광고·이메일 등을 눌러 도착하며 특정 행동을 유도하는 페이지.",
+"definition_en": "A page people arrive at by clicking an ad, email, and so on, designed to drive a specific action.",
+"example_ko": "시즌 기획전 랜딩 페이지를 만들어요.",
+"example_en": "We build a landing page for the seasonal promotion."
+},
+{
+"id": "fashion-110",
+"field": "fashion",
+"term_ko": "전환",
+"term_en": "Conversion",
+"english": "Conversion",
+"aliases_ko": [
+"컨버전",
+"conversion"
+],
+"definition_ko": "구매·가입 등 미리 정한 목표 행동을 완료하는 것.",
+"definition_en": "Completing a predefined target action such as a purchase or sign-up.",
+"example_ko": "이번 캠페인은 첫 구매를 전환으로 정해요.",
+"example_en": "For this campaign we define the first purchase as the conversion."
+},
+{
+"id": "fashion-111",
+"field": "fashion",
+"term_ko": "CTA",
+"term_en": "CTA",
+"english": "Call to action",
+"aliases_ko": [
+"씨티에이",
+"콜 투 액션",
+"행동 유도"
+],
+"definition_ko": "다음 행동을 안내하거나 유도하는 문구·버튼·링크.",
+"definition_en": "Copy, a button, or a link that guides or drives the next action.",
+"example_ko": "신상품 구매 CTA를 눈에 잘 보이게 해요.",
+"example_en": "We make the new-product purchase CTA stand out."
+},
+{
+"id": "fashion-112",
+"field": "fashion",
+"term_ko": "A/B 테스트",
+"term_en": "A/B test",
+"english": "A/B test",
+"aliases_ko": [
+"AB 테스트",
+"에이비 테스트",
+"분할 테스트"
+],
+"definition_ko": "서로 다른 버전의 성과를 비교하는 실험.",
+"definition_en": "An experiment comparing the performance of different versions.",
+"example_ko": "상세페이지 버튼을 A/B 테스트해요.",
+"example_en": "We A/B test the button on the detail page."
+},
+{
+"id": "marketing-064",
+"field": "marketing",
+"term_ko": "누끼",
+"term_en": "Cutout",
+"english": "Background removal",
+"aliases_ko": [
+"누끼따기",
+"누끼 따다",
+"배경 제거"
+],
+"definition_ko": "이미지에서 원하는 피사체를 배경과 분리하는 작업.",
+"definition_en": "The task of separating a desired subject from the background in an image.",
+"example_ko": "상품 사진 누끼를 따서 배너에 넣어요.",
+"example_en": "We cut out the product photo and place it on the banner."
+},
+{
+"id": "fashion-113",
+"field": "fashion",
+"term_ko": "누끼",
+"term_en": "Cutout",
+"english": "Background removal",
+"aliases_ko": [
+"누끼따기",
+"누끼 따다",
+"배경 제거"
+],
+"definition_ko": "이미지에서 원하는 피사체를 배경과 분리하는 작업.",
+"definition_en": "The task of separating a desired subject from the background in an image.",
+"example_ko": "흰 셔츠의 가장자리가 사라지지 않게 누끼를 따 주세요.",
+"example_en": "Please cut out the white shirt without letting its edges disappear."
+},
+{
+"id": "marketing-065",
+"field": "marketing",
+"term_ko": "무드보드",
+"term_en": "Mood board",
+"english": "Moodboard",
+"aliases_ko": [
+"무드 보드"
+],
+"definition_ko": "이미지·색·질감 등을 모아 표현 방향을 보여주는 판.",
+"definition_en": "A board that gathers images, colors, textures, and so on to show a creative direction.",
+"example_ko": "새 시즌 캠페인 무드보드를 공유해요.",
+"example_en": "We share the mood board for the new season's campaign."
+},
+{
+"id": "fashion-114",
+"field": "fashion",
+"term_ko": "무드보드",
+"term_en": "Mood board",
+"english": "Moodboard",
+"aliases_ko": [
+"무드 보드"
+],
+"definition_ko": "이미지·색·질감 등을 모아 표현 방향을 보여주는 판.",
+"definition_en": "A board that gathers images, colors, textures, and so on to show a creative direction.",
+"example_ko": "가을 컬렉션의 실루엣·컬러·원단 질감을 무드보드로 모아요.",
+"example_en": "We gather the fall collection's silhouettes, colors, and fabric textures into a mood board."
+},
+{
+"id": "marketing-066",
+"field": "marketing",
+"term_ko": "레퍼런스",
+"term_en": "Reference",
+"english": "Reference",
+"aliases_ko": [
+"참고 자료",
+"레퍼",
+"reference"
+],
+"definition_ko": "표현 방향을 정할 때 참고하는 이미지나 사례.",
+"definition_en": "Images or examples referred to when deciding a creative direction.",
+"example_ko": "캠페인 레퍼런스를 모아 방향을 맞춰요.",
+"example_en": "We gather campaign references to align on direction."
+},
+{
+"id": "fashion-115",
+"field": "fashion",
+"term_ko": "레퍼런스",
+"term_en": "Reference",
+"english": "Reference",
+"aliases_ko": [
+"참고 자료",
+"레퍼",
+"reference"
+],
+"definition_ko": "표현 방향을 정할 때 참고하는 이미지나 사례.",
+"definition_en": "Images or examples referred to when deciding a creative direction.",
+"example_ko": "빈티지 재킷의 포켓 디테일을 레퍼런스로 보고 새 디자인을 검토해요.",
+"example_en": "We look at the pocket detail of a vintage jacket as a reference and review the new design."
+},
+{
+"id": "marketing-067",
+"field": "marketing",
+"term_ko": "목업",
+"term_en": "Mockup",
+"english": "Mockup",
+"aliases_ko": [
+"목업 이미지",
+"mock-up"
+],
+"definition_ko": "디자인이 적용된 모습을 미리 보여주는 모형이나 시안.",
+"definition_en": "A model or draft that previews how a design will look when applied.",
+"example_ko": "패키지 목업으로 적용 모습을 보여줘요.",
+"example_en": "We show how it looks applied using a package mockup."
+},
+{
+"id": "fashion-116",
+"field": "fashion",
+"term_ko": "목업",
+"term_en": "Mockup",
+"english": "Mockup",
+"aliases_ko": [
+"목업 이미지",
+"mock-up"
+],
+"definition_ko": "디자인이 적용된 모습을 미리 보여주는 모형이나 시안.",
+"definition_en": "A model or draft that previews how a design will look when applied.",
+"example_ko": "쇼핑백 목업으로 로고 크기와 손잡이 위치를 확인해요.",
+"example_en": "We check the logo size and handle position with a shopping-bag mockup."
+},
+{
+"id": "marketing-068",
+"field": "marketing",
+"term_ko": "카피",
+"term_en": "Copy",
+"english": "Advertising copy",
+"aliases_ko": [
+"광고 카피",
+"광고 문구",
+"copy"
+],
+"definition_ko": "광고의 메시지와 설득 내용을 언어로 표현한 문구. 헤드라인·본문·내레이션 등 매체와 목적에 따라 형태가 달라진다.",
+"definition_en": "Wording that expresses an ad's message and persuasive content in language. Its form varies by medium and purpose, such as headlines, body copy, and narration.",
+"example_ko": "제품의 장점을 나열하기보다 고객이 얻는 이점이 보이도록 카피를 다듬어요.",
+"example_en": "Rather than listing the product's advantages, we refine the copy so the benefit to the customer is clear."
+},
+{
+"id": "fashion-117",
+"field": "fashion",
+"term_ko": "카피",
+"term_en": "Copy",
+"english": "Brand copy",
+"aliases_ko": [
+"카피 문구",
+"상품 카피",
+"광고 문구"
+],
+"definition_ko": "브랜드 캠페인·상세페이지·매장 안내 등에 쓰는 문구. 의류의 특징과 브랜드 메시지를 고객에게 전달한다.",
+"definition_en": "Wording used in brand campaigns, detail pages, in-store signage, and so on. It conveys a garment's features and the brand message to customers.",
+"example_ko": "트렌치코트 상세페이지 카피에 소재와 착용감을 정확하게 설명해요.",
+"example_en": "In the trench coat detail-page copy, we describe the material and fit accurately.",
+"note_ko": "브랜드 마케팅의 문구를 뜻합니다. 다른 디자인을 모방한다는 뜻의 카피와 구분합니다.",
+"note_en": "This means brand-marketing wording. Distinguish it from \"copy\" in the sense of imitating another design."
+},
+{
+"id": "dev-094",
+"field": "dev",
+"term_ko": "와이어프레임",
+"term_en": "Wireframe",
+"english": "Wireframe",
+"aliases_ko": [
+"와이어 프레임",
+"화면 뼈대"
+],
+"definition_ko": "세부 시각 표현 전 구조·배치를 나타내는 화면 설계.",
+"definition_en": "A screen design that shows structure and layout before detailed visual expression.",
+"example_ko": "와이어프레임에서 화면 구성을 먼저 확인해요.",
+"example_en": "We first check the screen composition in the wireframe."
+},
+{
+"id": "dev-095",
+"field": "dev",
+"term_ko": "프로토타입",
+"term_en": "Prototype",
+"english": "Prototype",
+"aliases_ko": [
+"프로토타이핑",
+"시제품"
+],
+"definition_ko": "아이디어와 사용 흐름을 시험하기 위한 모형.",
+"definition_en": "A model for testing ideas and usage flows.",
+"example_ko": "프로토타입으로 흐름을 검증하고 구현해요.",
+"example_en": "We validate the flow with a prototype and then implement."
+},
+{
+"id": "dev-096",
+"field": "dev",
+"term_ko": "접근성",
+"term_en": "Accessibility",
+"english": "Accessibility",
+"aliases_ko": [
+"접근 가능한 디자인",
+"A11y"
+],
+"definition_ko": "다양한 능력과 환경의 사람이 제품을 이용할 수 있는 정도.",
+"definition_en": "The degree to which people of varying abilities and conditions can use a product.",
+"example_ko": "키보드로도 쓸 수 있게 접근성을 점검해요.",
+"example_en": "We review accessibility so it can be used with a keyboard too."
+},
+{
+"id": "dev-097",
+"field": "dev",
+"term_ko": "대체 텍스트",
+"term_en": "Alt text",
+"english": "Alternative text",
+"aliases_ko": [
+"alt text",
+"알트 텍스트"
+],
+"definition_ko": "이미지가 전달하는 내용을 글로 설명하는 정보.",
+"definition_en": "Text information that describes what an image conveys.",
+"example_ko": "상품 이미지에 대체 텍스트를 넣어요.",
+"example_en": "We add alt text to the product images."
+},
+{
+"id": "design-062",
+"field": "design",
+"term_ko": "CTA",
+"term_en": "CTA",
+"english": "Call to action",
+"aliases_ko": [
+"씨티에이",
+"콜 투 액션",
+"행동 유도"
+],
+"definition_ko": "다음 행동을 안내하거나 유도하는 문구·버튼·링크.",
+"definition_en": "Copy, a button, or a link that guides or drives the next action.",
+"example_ko": "CTA의 대비와 여백을 조정해 다음 행동을 찾기 쉽게 디자인해요.",
+"example_en": "We adjust the CTA's contrast and spacing so the next action is easy to find."
+},
+{
+"id": "dev-098",
+"field": "dev",
+"term_ko": "CTA",
+"term_en": "CTA",
+"english": "Call to action",
+"aliases_ko": [
+"씨티에이",
+"콜 투 액션",
+"행동 유도"
+],
+"definition_ko": "다음 행동을 안내하거나 유도하는 문구·버튼·링크.",
+"definition_en": "Copy, a button, or a link that guides or drives the next action.",
+"example_ko": "가입 CTA를 눌렀을 때 폼 검증과 요청이 정상 실행되는지 확인해요.",
+"example_en": "We check that the form validation and request run properly when the sign-up CTA is clicked."
+},
+{
+"id": "design-063",
+"field": "design",
+"term_ko": "랜딩 페이지",
+"term_en": "Landing page",
+"english": "Landing page",
+"aliases_ko": [
+"랜딩",
+"랜딩페이지"
+],
+"definition_ko": "광고·이메일 등을 눌러 도착하며 특정 행동을 유도하는 페이지.",
+"definition_en": "A page people arrive at by clicking an ad, email, and so on, designed to drive a specific action.",
+"example_ko": "랜딩 페이지에서 제목·제품 설명·신청 버튼의 읽는 순서를 설계해요.",
+"example_en": "On the landing page, we design the reading order of the headline, product description, and sign-up button."
+},
+{
+"id": "dev-099",
+"field": "dev",
+"term_ko": "랜딩 페이지",
+"term_en": "Landing page",
+"english": "Landing page",
+"aliases_ko": [
+"랜딩",
+"랜딩페이지"
+],
+"definition_ko": "광고·이메일 등을 눌러 도착하며 특정 행동을 유도하는 페이지.",
+"definition_en": "A page people arrive at by clicking an ad, email, and so on, designed to drive a specific action.",
+"example_ko": "랜딩 페이지의 이미지 용량을 줄여 초기 로딩을 개선해요.",
+"example_en": "We reduce the image size on the landing page to improve initial load."
+},
+{
+"id": "design-064",
+"field": "design",
+"term_ko": "A/B 테스트",
+"term_en": "A/B test",
+"english": "A/B test",
+"aliases_ko": [
+"AB 테스트",
+"에이비 테스트",
+"분할 테스트"
+],
+"definition_ko": "서로 다른 버전의 성과를 비교하는 실험.",
+"definition_en": "An experiment comparing the performance of different versions.",
+"example_ko": "버튼 위치가 다른 두 화면을 만들어 A/B 테스트에 전달해요.",
+"example_en": "We create two screens with different button positions and hand them off for an A/B test."
+},
+{
+"id": "dev-100",
+"field": "dev",
+"term_ko": "A/B 테스트",
+"term_en": "A/B test",
+"english": "A/B test",
+"aliases_ko": [
+"AB 테스트",
+"에이비 테스트",
+"분할 테스트"
+],
+"definition_ko": "서로 다른 버전의 성과를 비교하는 실험.",
+"definition_en": "An experiment comparing the performance of different versions.",
+"example_ko": "실험군 배정이 방문마다 바뀌지 않도록 A/B 테스트 로직을 구현해요.",
+"example_en": "We implement the A/B test logic so the experiment-group assignment doesn't change on each visit."
+},
+{
+"id": "fashion-118",
+"field": "fashion",
+"term_ko": "프로모션",
+"term_en": "Promotion",
+"english": "Promotion",
+"aliases_ko": [
+"판촉",
+"프로모션 기획"
+],
+"definition_ko": "구매나 참여를 촉진하기 위해 벌이는 활동.",
+"definition_en": "Activities carried out to drive purchases or participation.",
+"example_ko": "신상품 출시 프로모션을 준비해요.",
+"example_en": "We prepare a promotion for the new-product launch."
+},
+{
+"id": "fashion-119",
+"field": "fashion",
+"term_ko": "PR",
+"term_en": "PR",
+"english": "Public relations",
+"aliases_ko": [
+"피알",
+"홍보",
+"퍼블릭 릴레이션스"
+],
+"definition_ko": "대중·언론 등과 관계를 만들고 소통하는 활동.",
+"definition_en": "Activities of building relationships and communicating with the public, the press, and so on.",
+"example_ko": "브랜드 PR 담당자와 보도자료를 확인해요.",
+"example_en": "We review the press release with the brand PR lead."
+},
+{
+"id": "marketing-069",
+"field": "marketing",
+"term_ko": "룩북",
+"term_en": "Lookbook",
+"english": "Lookbook",
+"aliases_ko": [
+"룩 북",
+"스타일북"
+],
+"definition_ko": "제품의 스타일링과 컬렉션 분위기를 보여주는 이미지 자료.",
+"definition_en": "Image material that shows a product's styling and a collection's mood.",
+"example_ko": "캠페인 룩북의 이미지 구성을 정해요.",
+"example_en": "We decide the image composition of the campaign lookbook."
+},
+{
+"id": "design-065",
+"field": "design",
+"term_ko": "룩북",
+"term_en": "Lookbook",
+"english": "Lookbook",
+"aliases_ko": [
+"룩 북",
+"스타일북"
+],
+"definition_ko": "제품의 스타일링과 컬렉션 분위기를 보여주는 이미지 자료.",
+"definition_en": "Image material that shows a product's styling and a collection's mood.",
+"example_ko": "룩북의 표지와 내지에서 사진과 제품 정보의 위계를 맞춰요.",
+"example_en": "On the lookbook cover and inner pages, we balance the hierarchy of photos and product information."
+},
+{
+"id": "marketing-070",
+"field": "marketing",
+"term_ko": "팝업 스토어",
+"term_en": "Pop-up store",
+"english": "Pop-up store",
+"aliases_ko": [
+"팝업",
+"팝업스토어"
+],
+"definition_ko": "정해진 기간에만 운영하는 임시 매장.",
+"definition_en": "A temporary store that operates only for a set period.",
+"example_ko": "브랜드 팝업 스토어를 기획해요.",
+"example_en": "We plan a brand pop-up store."
+},
+{
+"id": "design-066",
+"field": "design",
+"term_ko": "팝업 스토어",
+"term_en": "Pop-up store",
+"english": "Pop-up store",
+"aliases_ko": [
+"팝업",
+"팝업스토어"
+],
+"definition_ko": "정해진 기간에만 운영하는 임시 매장.",
+"definition_en": "A temporary store that operates only for a set period.",
+"example_ko": "팝업 스토어의 안내 사인과 진열 그래픽을 함께 디자인해요.",
+"example_en": "We design the pop-up store's wayfinding signage and display graphics together."
+},
+{
+"id": "marketing-071",
+"field": "marketing",
+"term_ko": "굿즈",
+"term_en": "Goods",
+"english": "Merchandise",
+"aliases_ko": [
+"브랜드 굿즈",
+"머천다이즈"
+],
+"definition_ko": "브랜드나 콘텐츠를 바탕으로 만든 관련 상품.",
+"definition_en": "Related merchandise made based on a brand or content.",
+"example_ko": "캠페인 굿즈를 기획해요.",
+"example_en": "We plan campaign goods."
+},
+{
+"id": "fashion-120",
+"field": "fashion",
+"term_ko": "굿즈",
+"term_en": "Goods",
+"english": "Merchandise",
+"aliases_ko": [
+"브랜드 굿즈",
+"머천다이즈"
+],
+"definition_ko": "브랜드나 콘텐츠를 바탕으로 만든 관련 상품.",
+"definition_en": "Related merchandise made based on a brand or content.",
+"example_ko": "신규 컬렉션 팝업에서 배포할 브랜드 굿즈를 기획해요.",
+"example_en": "We plan brand goods to hand out at the new collection's pop-up."
+},
+{
+"id": "dev-101",
+"field": "dev",
+"term_ko": "시안",
+"term_en": "Draft design",
+"english": "Design draft",
+"aliases_ko": [
+"디자인 시안",
+"초안",
+"시안 작업"
+],
+"definition_ko": "방향을 검토하기 위해 먼저 만든 디자인 안.",
+"definition_en": "A design draft made first to review a direction.",
+"example_ko": "구현할 화면 시안을 먼저 확인해요.",
+"example_en": "We first check the draft of the screen to be implemented.",
+"note_ko": "검토용 안으로, 승인된 최종 납품 파일과는 구별합니다.",
+"note_en": "It is a draft for review, distinct from the approved final deliverable file."
+},
+{
+"id": "common-023",
+"field": "common",
+"term_ko": "아삽",
+"term_en": "ASAP",
+"english": "As soon as possible",
+"aliases_ko": [
+"ASAP",
+"에이셉",
+"아셉"
+],
+"definition_ko": "가능한 한 빨리 처리해 달라는 말.",
+"definition_en": "A phrase asking that something be handled as soon as possible.",
+"example_ko": "일정 확인 후 아삽으로 회신할게요.",
+"example_en": "After checking my schedule, I'll reply ASAP."
+},
+{
+"id": "common-024",
+"field": "common",
+"term_ko": "핑",
+"term_en": "Ping",
+"english": "Ping",
+"aliases_ko": [
+"핑하다",
+"핑 주세요",
+"메시지 핑"
+],
+"definition_ko": "메신저 등으로 가볍게 연락하거나 확인을 요청하는 말.",
+"definition_en": "A phrase for reaching out lightly or requesting a check via messenger and so on.",
+"example_ko": "초안 준비되면 저한테 핑 주세요.",
+"example_en": "Please ping me once the draft is ready.",
+"note_ko": "업무 메신저에서의 뜻입니다. 네트워크 연결을 확인하는 ping 명령과는 문맥이 다릅니다.",
+"note_en": "This is the meaning in work messengers. The context differs from the ping command used to check network connectivity."
+},
+{
+"id": "common-025",
+"field": "common",
+"term_ko": "씨레벨",
+"term_en": "C-level",
+"english": "C-level",
+"aliases_ko": [
+"C레벨",
+"C 레벨",
+"최고 경영진"
+],
+"definition_ko": "CEO·CTO 등 기업의 최고 책임자급 경영진.",
+"definition_en": "Top-executive-tier leaders of a company, such as the CEO and CTO.",
+"example_ko": "씨레벨 보고용 요약을 준비했어요.",
+"example_en": "I've prepared a summary for C-level reporting."
+},
+{
+"id": "common-026",
+"field": "common",
+"term_ko": "린",
+"term_en": "Lean",
+"english": "Lean",
+"aliases_ko": [
+"린하게"
+],
+"definition_ko": "낭비를 줄이고 필요한 일에 집중하는 방식.",
+"definition_en": "An approach of reducing waste and focusing on what's necessary.",
+"example_ko": "이번 실험은 린하게 시작해요.",
+"example_en": "We start this experiment lean."
+},
+{
+"id": "common-027",
+"field": "common",
+"term_ko": "얼라인",
+"term_en": "Align",
+"english": "Align",
+"aliases_ko": [
+"얼라인먼트",
+"얼라인하다",
+"어라인",
+"어라인하다",
+"방향 맞추기",
+"Align",
+"Alignment"
+],
+"definition_ko": "관계자들의 목표나 방향을 맞추는 일.",
+"definition_en": "Getting stakeholders' goals or directions in sync.",
+"example_ko": "출시 일정부터 얼라인할게요.",
+"example_en": "Let's align on the launch schedule first."
+},
+{
+"id": "common-028",
+"field": "common",
+"term_ko": "팔로업",
+"term_en": "Follow-up",
+"english": "Follow-up",
+"aliases_ko": [
+"팔로우업",
+"F/up",
+"follow up",
+"팔로우 업",
+"폴로업",
+"Follow-up",
+"팔롭",
+"F/U"
+],
+"definition_ko": "진행 상황을 챙기고 후속 조치를 하는 일.",
+"definition_en": "Keeping track of progress and taking follow-up actions.",
+"example_ko": "어제 요청은 제가 팔로업할게요.",
+"example_en": "I'll follow up on yesterday's request."
+},
+{
+"id": "common-029",
+"field": "common",
+"term_ko": "그로스",
+"term_en": "Growth",
+"english": "Growth",
+"aliases_ko": [
+"그로쓰"
+],
+"definition_ko": "서비스나 사업의 성장을 가리키는 말.",
+"definition_en": "A term referring to the growth of a service or business.",
+"example_ko": "전환율을 보며 그로스 방향을 잡아요.",
+"example_en": "We set the growth direction by watching the conversion rate."
+},
+{
+"id": "common-030",
+"field": "common",
+"term_ko": "액션 플랜",
+"term_en": "Action plan",
+"english": "Action plan",
+"aliases_ko": [
+"실행 계획"
+],
+"definition_ko": "목표를 이루기 위해 세운 구체적인 실행 계획.",
+"definition_en": "A concrete execution plan made to achieve a goal.",
+"example_ko": "다음 달 액션 플랜을 정리했어요.",
+"example_en": "I've organized next month's action plan."
+},
+{
+"id": "common-031",
+"field": "common",
+"term_ko": "R&R",
+"term_en": "R&R",
+"english": "Roles and responsibilities",
+"aliases_ko": [
+"알앤알",
+"R and R",
+"알엔알",
+"Roles and Responsibilities"
+],
+"definition_ko": "담당자별 역할과 책임 범위.",
+"definition_en": "The scope of each person's roles and responsibilities.",
+"example_ko": "R&R에 검수 담당도 적어주세요.",
+"example_en": "Please also note the inspection owner in the R&R."
+},
+{
+"id": "common-032",
+"field": "common",
+"term_ko": "탭핑",
+"term_en": "Tapping",
+"english": "Tapping",
+"aliases_ko": [
+"태핑",
+"태핑하다"
+],
+"definition_ko": "본격 제안 전에 가능성이나 의향을 가볍게 확인하는 말.",
+"definition_en": "A phrase for lightly checking possibility or willingness before a formal proposal.",
+"example_ko": "협업 가능 여부를 먼저 탭핑해요.",
+"example_en": "We first tap to gauge whether collaboration is possible.",
+"note_ko": "실무자 사용 사례에 근거한 표현입니다. 조직에 따라 문의·사전 조율의 범위가 다릅니다.",
+"note_en": "This is an expression based on practitioners' usage. The scope of inquiry or pre-coordination varies by organization."
+},
+{
+"id": "common-033",
+"field": "common",
+"term_ko": "오사마리",
+"term_en": "Osamari",
+"english": "",
+"aliases_ko": [
+"오사마리하다"
+],
+"definition_ko": "복잡한 일을 정리하거나 마무리한다는 현장 표현.",
+"definition_en": "A field expression meaning to organize or wrap up a complicated matter.",
+"example_ko": "남은 쟁점은 회의에서 오사마리해요.",
+"example_en": "Let's osamari the remaining issues in the meeting.",
+"note_ko": "일부 조직의 비공식 표현입니다. 문서에서는 정리·마무리처럼 구체적인 말이 명확합니다.",
+"note_en": "This is an informal expression used in some organizations. In documents, concrete words like \"organize\" or \"wrap up\" are clearer."
+},
+{
+"id": "common-034",
+"field": "common",
+"term_ko": "브레이크 다운",
+"term_en": "Break down",
+"english": "Breakdown",
+"aliases_ko": [
+"브레이크다운"
+],
+"definition_ko": "업무나 예산을 작은 항목으로 나누는 일.",
+"definition_en": "Dividing work or a budget into smaller items.",
+"example_ko": "견적을 항목별로 브레이크 다운해요.",
+"example_en": "We break down the estimate by item."
+},
+{
+"id": "common-035",
+"field": "common",
+"term_ko": "어레인지",
+"term_en": "Arrange",
+"english": "Arrange",
+"aliases_ko": [
+"어레인지하다"
+],
+"definition_ko": "일정·자료·관계자를 정리하고 조율하는 일.",
+"definition_en": "Organizing and coordinating schedules, materials, and stakeholders.",
+"example_ko": "인터뷰 일정을 어레인지해 주세요.",
+"example_en": "Please arrange the interview schedule."
+},
+{
+"id": "common-036",
+"field": "common",
+"term_ko": "스탠스",
+"term_en": "Stance",
+"english": "Stance",
+"aliases_ko": [
+"입장"
+],
+"definition_ko": "특정 사안에 대한 입장이나 대응 태도.",
+"definition_en": "A position or response attitude on a particular matter.",
+"example_ko": "이 제안에 대한 팀의 스탠스를 정해요.",
+"example_en": "Let's decide the team's stance on this proposal."
+},
+{
+"id": "common-037",
+"field": "common",
+"term_ko": "어사인",
+"term_en": "Assign",
+"english": "Assign",
+"aliases_ko": [
+"어싸인",
+"할당"
+],
+"definition_ko": "담당자에게 업무나 역할을 배정하는 일.",
+"definition_en": "Allocating work or a role to a responsible person.",
+"example_ko": "신규 문의 처리를 운영 담당자에게 어사인했어요.",
+"example_en": "I assigned handling of new inquiries to the operations lead.",
+"note_ko": "여기서는 업무 배정이라는 뜻입니다. 일부 조직은 업무 착수까지 넓혀 부르기도 합니다.",
+"note_en": "Here it means assigning work. Some organizations extend it to include starting the work."
+},
+{
+"id": "common-038",
+"field": "common",
+"term_ko": "컨선",
+"term_en": "Concern",
+"english": "Concern",
+"aliases_ko": [
+"컨썬",
+"우려 사항",
+"우려사항"
+],
+"definition_ko": "진행 전에 짚어야 할 걱정이나 우려.",
+"definition_en": "A worry or concern to raise before proceeding.",
+"example_ko": "일정에 대한 컨선이 있어요.",
+"example_en": "I have a concern about the schedule."
+},
+{
+"id": "marketing-100",
+"field": "marketing",
+"term_ko": "T&D",
+"term_en": "T&D",
+"english": "Title and description",
+"aliases_ko": [
+"티앤디",
+"TD"
+],
+"definition_ko": "검색 광고의 제목과 설명 문구.",
+"definition_en": "The title and description text of a search ad.",
+"example_ko": "새 시즌용 T&D를 검토해 주세요.",
+"example_en": "Please review the T&D for the new season."
+},
+{
+"id": "fashion-138",
+"field": "fashion",
+"term_ko": "T&D",
+"term_en": "T&D",
+"english": "Title and description",
+"aliases_ko": [
+"티앤디",
+"TD"
+],
+"definition_ko": "검색 광고의 제목과 설명 문구.",
+"definition_en": "The title and description text of a search ad.",
+"example_ko": "검색 광고 T&D에 아우터 기획전의 기간과 혜택을 넣어요.",
+"example_en": "We put the outerwear promotion's dates and benefits in the search ad's T&D."
+},
+{
+"id": "marketing-101",
+"field": "marketing",
+"term_ko": "라이브",
+"term_en": "Live",
+"english": "Live",
+"aliases_ko": [
+"온에어",
+"on air",
+"on-air"
+],
+"definition_ko": "준비한 광고를 실제 노출하기 시작한 상태.",
+"definition_en": "The state in which a prepared ad has started actually being shown.",
+"example_ko": "승인된 소재로 내일 라이브해요.",
+"example_en": "We go live tomorrow with the approved creative.",
+"note_ko": "광고 집행 맥락입니다. 생방송이나 운영 서버를 가리키는 용법과 구별하세요.",
+"note_en": "This is the ad-delivery context. Distinguish it from usages referring to a live broadcast or a production server."
+},
+{
+"id": "fashion-139",
+"field": "fashion",
+"term_ko": "라이브",
+"term_en": "Live",
+"english": "Live",
+"aliases_ko": [
+"온에어",
+"on air",
+"on-air"
+],
+"definition_ko": "준비한 광고를 실제 노출하기 시작한 상태.",
+"definition_en": "The state in which a prepared ad has started actually being shown.",
+"example_ko": "신상품 재고와 상세페이지를 확인하고 코트 광고를 라이브해요.",
+"example_en": "We check the new product's stock and detail page, then take the coat ad live.",
+"note_ko": "광고 집행 맥락입니다. 생방송이나 운영 서버를 가리키는 용법과 구별하세요. 패션 회사 마케팅팀의 광고 집행 맥락이며, 라이브 커머스 방송과는 구별합니다.",
+"note_en": "This is the ad-delivery context. Distinguish it from usages referring to a live broadcast or a production server. It is the ad-delivery context of a fashion company's marketing team, distinct from live-commerce broadcasting."
+},
+{
+"id": "marketing-102",
+"field": "marketing",
+"term_ko": "구좌",
+"term_en": "Ad slot",
+"english": "Ad placement",
+"aliases_ko": [
+"광고 구좌",
+"광고 슬롯"
+],
+"definition_ko": "매체에서 광고를 노출하는 자리나 판매 단위.",
+"definition_en": "The placement or sales unit on a medium where an ad is shown.",
+"example_ko": "신상품 광고 구좌를 확인해 주세요.",
+"example_en": "Please check the new product's ad slot.",
+"note_ko": "매체별로 위치·기간·판매 단위가 다릅니다.",
+"note_en": "The placement, period, and sales unit differ by medium."
+},
+{
+"id": "fashion-140",
+"field": "fashion",
+"term_ko": "구좌",
+"term_en": "Ad slot",
+"english": "Ad placement",
+"aliases_ko": [
+"광고 구좌",
+"광고 슬롯"
+],
+"definition_ko": "매체에서 광고를 노출하는 자리나 판매 단위.",
+"definition_en": "The placement or sales unit on a medium where an ad is shown.",
+"example_ko": "쇼핑 플랫폼의 신상품 기획전 광고 구좌를 확인해요.",
+"example_en": "We check the new-product promotion ad slot on the shopping platform.",
+"note_ko": "매체별로 위치·기간·판매 단위가 다릅니다.",
+"note_en": "The placement, period, and sales unit differ by medium."
+},
+{
+"id": "marketing-103",
+"field": "marketing",
+"term_ko": "과금",
+"term_en": "Charging",
+"english": "Billing",
+"aliases_ko": [
+"광고 과금"
+],
+"definition_ko": "광고 이용에 따른 비용을 청구하는 것.",
+"definition_en": "Billing the cost of using advertising.",
+"example_ko": "이 상품의 과금 기준을 확인해요.",
+"example_en": "We check the charging basis for this product."
+},
+{
+"id": "fashion-141",
+"field": "fashion",
+"term_ko": "과금",
+"term_en": "Charging",
+"english": "Billing",
+"aliases_ko": [
+"광고 과금"
+],
+"definition_ko": "광고 이용에 따른 비용을 청구하는 것.",
+"definition_en": "Billing the cost of using advertising.",
+"example_ko": "패션 플랫폼 배너 상품의 과금 기준이 기간인지 노출인지 확인해요.",
+"example_en": "We check whether the fashion platform's banner product is charged by period or by impressions."
+},
+{
+"id": "marketing-104",
+"field": "marketing",
+"term_ko": "차감",
+"term_en": "Deduction",
+"english": "Deduction",
+"aliases_ko": [
+"예산 차감"
+],
+"definition_ko": "광고 집행액 등을 보유 예산에서 빼는 것.",
+"definition_en": "Subtracting ad spend and the like from the available budget.",
+"example_ko": "잔액에서 차감된 금액을 확인해요.",
+"example_en": "We check the amount deducted from the balance."
+},
+{
+"id": "fashion-142",
+"field": "fashion",
+"term_ko": "차감",
+"term_en": "Deduction",
+"english": "Deduction",
+"aliases_ko": [
+"예산 차감"
+],
+"definition_ko": "광고 집행액 등을 보유 예산에서 빼는 것.",
+"definition_en": "Subtracting ad spend and the like from the available budget.",
+"example_ko": "기획전 광고비가 예치금에서 얼마나 차감됐는지 확인해요.",
+"example_en": "We check how much the promotion's ad spend was deducted from the deposit."
+},
+{
+"id": "marketing-105",
+"field": "marketing",
+"term_ko": "하루 예산",
+"term_en": "Daily budget",
+"english": "Daily budget",
+"aliases_ko": [
+"일 예산",
+"일일 예산"
+],
+"definition_ko": "하루 광고 운영을 위해 설정하는 예산.",
+"definition_en": "The budget set for a day of ad operations.",
+"example_ko": "하루 예산을 조정하고 추이를 볼게요.",
+"example_en": "I'll adjust the daily budget and watch the trend.",
+"note_ko": "상품에 따라 일별 실제 집행액과 예산 적용 방식이 다릅니다. 고정된 일일 청구 한도와 항상 같지는 않습니다.",
+"note_en": "Depending on the product, the actual daily spend and how the budget is applied differ. It is not always the same as a fixed daily billing cap."
+},
+{
+"id": "fashion-143",
+"field": "fashion",
+"term_ko": "하루 예산",
+"term_en": "Daily budget",
+"english": "Daily budget",
+"aliases_ko": [
+"일 예산",
+"일일 예산"
+],
+"definition_ko": "하루 광고 운영을 위해 설정하는 예산.",
+"definition_en": "The budget set for a day of ad operations.",
+"example_ko": "품절된 사이즈가 많아져 해당 상품 광고의 하루 예산을 조정해요.",
+"example_en": "As many sizes sell out, we adjust that product's daily ad budget.",
+"note_ko": "상품에 따라 일별 실제 집행액과 예산 적용 방식이 다릅니다. 고정된 일일 청구 한도와 항상 같지는 않습니다.",
+"note_en": "Depending on the product, the actual daily spend and how the budget is applied differ. It is not always the same as a fixed daily billing cap."
+},
+{
+"id": "marketing-106",
+"field": "marketing",
+"term_ko": "STP",
+"term_en": "STP",
+"english": "Segmentation targeting positioning",
+"aliases_ko": [
+"에스티피"
+],
+"definition_ko": "시장 세분화·타깃 선정·포지셔닝의 전략 틀.",
+"definition_en": "The strategic framework of market segmentation, targeting, and positioning.",
+"example_ko": "신규 라인의 STP를 정리했어요.",
+"example_en": "I've organized the STP for the new line."
+},
+{
+"id": "fashion-144",
+"field": "fashion",
+"term_ko": "STP",
+"term_en": "STP",
+"english": "Segmentation targeting positioning",
+"aliases_ko": [
+"에스티피"
+],
+"definition_ko": "시장 세분화·타깃 선정·포지셔닝의 전략 틀.",
+"definition_en": "The strategic framework of market segmentation, targeting, and positioning.",
+"example_ko": "신규 골프웨어 라인의 STP를 정하고 고객과 가격대를 맞춰요.",
+"example_en": "We set the STP for the new golfwear line and align the customer and price range."
+},
+{
+"id": "marketing-107",
+"field": "marketing",
+"term_ko": "SWOT",
+"term_en": "SWOT",
+"english": "Strengths weaknesses opportunities threats",
+"aliases_ko": [
+"스왓",
+"스와트"
+],
+"definition_ko": "강점·약점·기회·위협을 살피는 분석.",
+"definition_en": "An analysis that examines strengths, weaknesses, opportunities, and threats.",
+"example_ko": "SWOT에서 핵심 기회를 골라요.",
+"example_en": "We pick the key opportunities from the SWOT."
+},
+{
+"id": "fashion-145",
+"field": "fashion",
+"term_ko": "SWOT",
+"term_en": "SWOT",
+"english": "Strengths weaknesses opportunities threats",
+"aliases_ko": [
+"스왓",
+"스와트"
+],
+"definition_ko": "강점·약점·기회·위협을 살피는 분석.",
+"definition_en": "An analysis that examines strengths, weaknesses, opportunities, and threats.",
+"example_ko": "자체 봉제 생산의 강점과 원단 수급의 위험을 SWOT에 정리해요.",
+"example_en": "We organize the strength of in-house sewing and the risk of fabric supply into a SWOT."
+},
+{
+"id": "marketing-108",
+"field": "marketing",
+"term_ko": "마케팅 믹스",
+"term_en": "Marketing mix",
+"english": "Marketing mix",
+"aliases_ko": [
+"4P",
+"포피"
+],
+"definition_ko": "제품·가격·유통·촉진을 조합하는 마케팅 전략.",
+"definition_en": "A marketing strategy that combines product, price, place, and promotion.",
+"example_ko": "유통까지 포함해 마케팅 믹스를 검토해요.",
+"example_en": "We review the marketing mix including distribution."
+},
+{
+"id": "fashion-146",
+"field": "fashion",
+"term_ko": "마케팅 믹스",
+"term_en": "Marketing mix",
+"english": "Marketing mix",
+"aliases_ko": [
+"4P",
+"포피"
+],
+"definition_ko": "제품·가격·유통·촉진을 조합하는 마케팅 전략.",
+"definition_en": "A marketing strategy that combines product, price, place, and promotion.",
+"example_ko": "새 의류 라인의 가격·유통 채널·프로모션을 마케팅 믹스로 검토해요.",
+"example_en": "We review the new apparel line's price, distribution channels, and promotion as a marketing mix."
+},
+{
+"id": "marketing-109",
+"field": "marketing",
+"term_ko": "퍼널",
+"term_en": "Funnel",
+"english": "Funnel",
+"aliases_ko": [
+"마케팅 퍼널",
+"깔때기"
+],
+"definition_ko": "인지부터 전환까지 고객이 거치는 단계를 나타낸 모형.",
+"definition_en": "A model showing the stages a customer passes through from awareness to conversion.",
+"example_ko": "퍼널에서 이탈이 큰 단계를 살펴요.",
+"example_en": "We look at the funnel stage with the largest drop-off."
+},
+{
+"id": "fashion-147",
+"field": "fashion",
+"term_ko": "퍼널",
+"term_en": "Funnel",
+"english": "Funnel",
+"aliases_ko": [
+"마케팅 퍼널",
+"깔때기"
+],
+"definition_ko": "인지부터 전환까지 고객이 거치는 단계를 나타낸 모형.",
+"definition_en": "A model showing the stages a customer passes through from awareness to conversion.",
+"example_ko": "자사몰 상품 조회에서 사이즈 선택과 결제까지의 퍼널을 분석해요.",
+"example_en": "We analyze the funnel from product view to size selection and checkout on our own store."
+},
+{
+"id": "marketing-110",
+"field": "marketing",
+"term_ko": "LTV",
+"term_en": "LTV",
+"english": "Lifetime value",
+"aliases_ko": [
+"고객 생애 가치",
+"CLV"
+],
+"definition_ko": "고객과의 관계 기간에 기대하는 누적 가치.",
+"definition_en": "The cumulative value expected over the duration of the relationship with a customer.",
+"example_ko": "신규 고객의 LTV를 추정해요.",
+"example_en": "We estimate the LTV of new customers.",
+"note_ko": "매출 기준인지 이익 기준인지, 관찰 기간은 얼마인지 회사의 산정 기준을 함께 확인하세요.",
+"note_en": "Check your company's calculation standard, including whether it is revenue-based or profit-based and over what observation period."
+},
+{
+"id": "fashion-148",
+"field": "fashion",
+"term_ko": "LTV",
+"term_en": "LTV",
+"english": "Lifetime value",
+"aliases_ko": [
+"고객 생애 가치",
+"CLV"
+],
+"definition_ko": "고객과의 관계 기간에 기대하는 누적 가치.",
+"definition_en": "The cumulative value expected over the duration of the relationship with a customer.",
+"example_ko": "첫 구매 이후의 의류 재구매를 포함해 고객 LTV를 추정해요.",
+"example_en": "We estimate customer LTV including apparel repurchases after the first purchase.",
+"note_ko": "매출 기준인지 이익 기준인지, 관찰 기간은 얼마인지 회사의 산정 기준을 함께 확인하세요.",
+"note_en": "Check your company's calculation standard, including whether it is revenue-based or profit-based and over what observation period."
+},
+{
+"id": "marketing-111",
+"field": "marketing",
+"term_ko": "OKR",
+"term_en": "OKR",
+"english": "Objectives and key results",
+"aliases_ko": [
+"오케이알",
+"목표와 핵심 결과"
+],
+"definition_ko": "목표와 달성 여부를 판단할 핵심 결과의 체계.",
+"definition_en": "A framework of objectives and the key results for judging their achievement.",
+"example_ko": "분기 OKR을 함께 점검해요.",
+"example_en": "We review the quarterly OKRs together."
+},
+{
+"id": "marketing-112",
+"field": "marketing",
+"term_ko": "AARRR",
+"term_en": "AARRR",
+"english": "Acquisition activation retention revenue referral",
+"aliases_ko": [
+"해적 지표"
+],
+"definition_ko": "유입·활성화·유지·수익·추천을 살피는 성장 지표 틀.",
+"definition_en": "A growth-metrics framework that examines acquisition, activation, retention, revenue, and referral.",
+"example_ko": "AARRR로 개선 지점을 찾았어요.",
+"example_en": "We found improvement points with AARRR."
+},
+{
+"id": "marketing-113",
+"field": "marketing",
+"term_ko": "CX",
+"term_en": "CX",
+"english": "Customer experience",
+"aliases_ko": [
+"고객 경험"
+],
+"definition_ko": "고객이 브랜드와 접하며 느끼는 경험 전반.",
+"definition_en": "The overall experience a customer feels in encountering a brand.",
+"example_ko": "구매 이후의 CX도 살펴요.",
+"example_en": "We also look at the CX after purchase."
+},
+{
+"id": "fashion-149",
+"field": "fashion",
+"term_ko": "장끼",
+"term_en": "Jangkki",
+"english": "Transaction slip",
+"aliases_ko": [
+"장기",
+"거래 명세서"
+],
+"definition_ko": "도매 거래의 품목·수량·금액 등을 적은 거래 내역서.",
+"definition_en": "A transaction statement recording the items, quantities, amounts, and so on of a wholesale deal.",
+"example_ko": "장끼와 입고 수량을 대조해요.",
+"example_en": "We cross-check the jangkki against the received quantity.",
+"note_ko": "도매시장 거래 내역을 뜻하며, 세금계산서와 같은 뜻은 아닙니다.",
+"note_en": "It means a wholesale-market transaction record and is not the same as a tax invoice."
+},
+{
+"id": "fashion-150",
+"field": "fashion",
+"term_ko": "미송",
+"term_en": "Misong",
+"english": "Prepaid pending delivery",
+"aliases_ko": [
+"미송 거래"
+],
+"definition_ko": "대금을 먼저 지급하고 물건은 나중에 받는 사입 거래.",
+"definition_en": "A sourcing deal in which payment is made first and the goods are received later.",
+"example_ko": "미송한 상품의 출고일을 확인해요.",
+"example_en": "We check the shipout date of the misong goods."
+},
+{
+"id": "fashion-151",
+"field": "fashion",
+"term_ko": "미송 장끼",
+"term_en": "Misong jangkki",
+"english": "Prepayment slip",
+"aliases_ko": [
+"미송장끼"
+],
+"definition_ko": "미리 결제한 미출고 상품 내역을 적은 장끼.",
+"definition_en": "A jangkki recording prepaid, not-yet-shipped goods.",
+"example_ko": "미송 장끼와 받은 상품을 대조해요.",
+"example_en": "We cross-check the misong jangkki against the received goods."
+},
+{
+"id": "fashion-152",
+"field": "fashion",
+"term_ko": "샘플 장끼",
+"term_en": "Sample jangkki",
+"english": "Sample loan slip",
+"aliases_ko": [
+"샘플장끼"
+],
+"definition_ko": "촬영용으로 빌린 상품과 반납 내역 등을 적는 장끼.",
+"definition_en": "A jangkki recording goods borrowed for shoots and their return details.",
+"example_ko": "샘플 장끼에 반납일을 적었어요.",
+"example_en": "I noted the return date on the sample jangkki.",
+"note_ko": "여기서 샘플은 제작 견본이 아니라 촬영 등을 위해 빌리는 상품입니다.",
+"note_en": "Here \"sample\" refers not to a production prototype but to goods borrowed for shoots and the like."
+},
+{
+"id": "fashion-153",
+"field": "fashion",
+"term_ko": "매입 장끼",
+"term_en": "Credit jangkki",
+"english": "Store credit slip",
+"aliases_ko": [
+"매입장끼"
+],
+"definition_ko": "반품 등을 현금 대신 다음 거래 금액으로 인정한 장끼.",
+"definition_en": "A jangkki that credits returns and the like toward the next transaction's amount instead of cash.",
+"example_ko": "다음 주문에 매입 장끼를 사용해요.",
+"example_en": "We use the credit jangkki on the next order.",
+"note_ko": "해당 도매 거래처에서 인정하는 사용 조건을 확인해야 합니다.",
+"note_en": "You must check the usage conditions recognized by that wholesale vendor."
+},
+{
+"id": "fashion-154",
+"field": "fashion",
+"term_ko": "깔",
+"term_en": "Kkal",
+"english": "Color",
+"aliases_ko": [
+"컬러",
+"색깔"
+],
+"definition_ko": "도매 거래에서 상품의 색상을 부르는 말.",
+"definition_en": "A term for a product's color in wholesale trading.",
+"example_ko": "이 셔츠는 어떤 깔이 남았나요?",
+"example_en": "Which kkal of this shirt is left?",
+"note_ko": "2020년 동대문시장 취재 자료의 사용 사례입니다. 거래처별 표현은 다를 수 있습니다.",
+"note_en": "This is a usage example from 2020 Dongdaemun market reporting. Expressions may differ by vendor."
+},
+{
+"id": "fashion-155",
+"field": "fashion",
+"term_ko": "탕",
+"term_en": "Tang",
+"english": "Dye color",
+"aliases_ko": [
+"원단 탕"
+],
+"definition_ko": "염색한 원단의 색을 가리키는 현장 말.",
+"definition_en": "A field term referring to the color of dyed fabric.",
+"example_ko": "추가 원단의 탕을 기존 것과 비교해요.",
+"example_en": "We compare the tang of the additional fabric with the existing one.",
+"note_ko": "2020년 동대문시장 취재 자료의 사용 사례입니다. 거래처별 표현은 다를 수 있습니다.",
+"note_en": "This is a usage example from 2020 Dongdaemun market reporting. Expressions may differ by vendor."
+},
+{
+"id": "fashion-156",
+"field": "fashion",
+"term_ko": "구미",
+"term_en": "Gumi",
+"english": "Assorted purchase",
+"aliases_ko": [
+"구미 구매"
+],
+"definition_ko": "색상이나 사이즈를 묶어서 사입하는 방식.",
+"definition_en": "A way of sourcing by bundling colors or sizes together.",
+"example_ko": "구미로 주문할 구성부터 확인해요.",
+"example_en": "We first check the composition to order as a gumi.",
+"note_ko": "묶음의 색상·사이즈·수량 구성은 거래처마다 다를 수 있습니다. 2020년 동대문시장 취재 자료의 사용 사례입니다. 거래처별 표현은 다를 수 있습니다.",
+"note_en": "The bundle's color, size, and quantity composition may differ by vendor. This is a usage example from 2020 Dongdaemun market reporting. Expressions may differ by vendor."
+},
+{
+"id": "fashion-157",
+"field": "fashion",
+"term_ko": "사입삼촌",
+"term_en": "Sourcing agent",
+"english": "Buying agent",
+"aliases_ko": [
+"사입 삼촌",
+"사입 대행"
+],
+"definition_ko": "도매시장 구매·수거 등을 대신하는 사입 담당자.",
+"definition_en": "A sourcing staffer who handles wholesale-market buying, pickup, and the like on someone's behalf.",
+"example_ko": "사입삼촌에게 수거 목록을 전달했어요.",
+"example_en": "I passed the pickup list to the sourcing agent.",
+"note_ko": "직무의 관행적 호칭이며 담당자의 성별이나 친족 관계를 뜻하지 않습니다. 2020년 동대문시장 취재 자료의 사용 사례입니다. 거래처별 표현은 다를 수 있습니다.",
+"note_en": "It is a conventional job title and does not imply the person's gender or any kinship. This is a usage example from 2020 Dongdaemun market reporting. Expressions may differ by vendor."
+},
+{
+"id": "fashion-158",
+"field": "fashion",
+"term_ko": "대납",
+"term_en": "Proxy payment",
+"english": "Payment on behalf",
+"aliases_ko": [
+"사입 대납"
+],
+"definition_ko": "사입 담당자 등이 주문자를 대신해 대금을 내는 것.",
+"definition_en": "A sourcing agent or the like paying on behalf of the orderer.",
+"example_ko": "대납 금액을 장끼와 함께 정산해요.",
+"example_en": "We settle the proxy-paid amount together with the jangkki.",
+"note_ko": "2020년 동대문시장 취재 자료의 사용 사례입니다. 거래처별 표현은 다를 수 있습니다.",
+"note_en": "This is a usage example from 2020 Dongdaemun market reporting. Expressions may differ by vendor."
+},
+{
+"id": "fashion-159",
+"field": "fashion",
+"term_ko": "단가",
+"term_en": "Unit price",
+"english": "Unit price",
+"aliases_ko": [
+"개당 가격"
+],
+"definition_ko": "상품 한 개 등 기준 단위의 가격.",
+"definition_en": "The price of a reference unit such as one item.",
+"example_ko": "색상별 단가가 같은지 확인해요.",
+"example_en": "We check whether the unit price is the same across colors.",
+"note_ko": "2020년 동대문시장 취재 자료의 사용 사례입니다. 거래처별 표현은 다를 수 있습니다.",
+"note_en": "This is a usage example from 2020 Dongdaemun market reporting. Expressions may differ by vendor."
+},
+{
+"id": "fashion-160",
+"field": "fashion",
+"term_ko": "나오시",
+"term_en": "Naoshi",
+"english": "Alteration",
+"aliases_ko": [
+"고침질",
+"수정 봉제"
+],
+"definition_ko": "옷의 잘못된 부분을 고치거나 보정하는 작업.",
+"definition_en": "The work of fixing or correcting a flawed part of a garment.",
+"example_ko": "소매 길이는 나오시가 필요해요.",
+"example_en": "The sleeve length needs naoshi.",
+"note_ko": "2023년 실무자 글에 수록된 과거 봉제 자료를 참고했습니다. 공장마다 호칭과 표기가 다를 수 있습니다.",
+"note_en": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory."
+},
+{
+"id": "fashion-161",
+"field": "fashion",
+"term_ko": "랍빠",
+"term_en": "Rappa",
+"english": "Folder attachment",
+"aliases_ko": [
+"라빠",
+"바인더 보조기"
+],
+"definition_ko": "천을 접어 넣으며 봉제하도록 돕는 보조 장치.",
+"definition_en": "An auxiliary attachment that helps sew while folding the fabric in.",
+"example_ko": "테이프 폭에 맞는 랍빠를 써요.",
+"example_en": "We use a rappa that matches the tape width.",
+"note_ko": "장치를 사용한 접어박기·테두리 마감 작업도 랍빠 작업이라고 부릅니다. 2023년 실무자 글에 수록된 과거 봉제 자료를 참고했습니다. 공장마다 호칭과 표기가 다를 수 있습니다.",
+"note_en": "Fold-and-stitch and edge-finishing work done using the attachment is also called rappa work. This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory."
+},
+{
+"id": "fashion-162",
+"field": "fashion",
+"term_ko": "간도메",
+"term_en": "Kandome",
+"english": "Bar tack",
+"aliases_ko": [
+"간도매",
+"바택",
+"빗장박기"
+],
+"definition_ko": "힘 받는 부위를 촘촘하게 보강하는 박음질.",
+"definition_en": "Dense reinforcing stitching on a stress-bearing area.",
+"example_ko": "주머니 입구에 간도메를 넣어요.",
+"example_en": "We add kandome at the pocket opening.",
+"note_ko": "2023년 실무자 글에 수록된 과거 봉제 자료를 참고했습니다. 공장마다 호칭과 표기가 다를 수 있습니다.",
+"note_en": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory."
+},
+{
+"id": "fashion-163",
+"field": "fashion",
+"term_ko": "나나인찌",
+"term_en": "Nanainchi",
+"english": "Straight buttonhole",
+"aliases_ko": [
+"나나이찌",
+"나나인치",
+"일자 단춧구멍"
+],
+"definition_ko": "일자 모양으로 만드는 단춧구멍.",
+"definition_en": "A straight-shaped buttonhole.",
+"example_ko": "셔츠 앞단에 나나인찌 작업해요.",
+"example_en": "We make nanainchi buttonholes on the shirt front placket.",
+"note_ko": "2023년 실무자 글에 수록된 과거 봉제 자료를 참고했습니다. 공장마다 호칭과 표기가 다를 수 있습니다.",
+"note_en": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory."
+},
+{
+"id": "fashion-164",
+"field": "fashion",
+"term_ko": "나라시",
+"term_en": "Narashi",
+"english": "Spreading",
+"aliases_ko": [
+"연단"
+],
+"definition_ko": "재단할 원단을 고르게 여러 겹 펼치는 작업.",
+"definition_en": "The work of evenly spreading fabric in multiple layers for cutting.",
+"example_ko": "나라시 전에 원단을 확인해요.",
+"example_en": "We check the fabric before narashi.",
+"note_ko": "2023년 실무자 글에 수록된 과거 봉제 자료를 참고했습니다. 공장마다 호칭과 표기가 다를 수 있습니다.",
+"note_en": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory."
+},
+{
+"id": "fashion-165",
+"field": "fashion",
+"term_ko": "낫찌",
+"term_en": "Notchi",
+"english": "Notch",
+"aliases_ko": [
+"나찌",
+"노치",
+"맞춤 표시"
+],
+"definition_ko": "조각을 맞춰 봉제할 때 참고하는 표시나 작은 가윗집.",
+"definition_en": "A mark or small snip referenced when matching pieces for sewing.",
+"example_ko": "소매 낫찌를 맞춰 박아요.",
+"example_en": "We align and stitch the sleeve notchi.",
+"note_ko": "2023년 실무자 글에 수록된 과거 봉제 자료를 참고했습니다. 공장마다 호칭과 표기가 다를 수 있습니다.",
+"note_en": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory."
+},
+{
+"id": "fashion-166",
+"field": "fashion",
+"term_ko": "단작",
+"term_en": "Danjak",
+"english": "Placket",
+"aliases_ko": [
+"덧단"
+],
+"definition_ko": "옷의 트임에 덧대어 마감하는 단.",
+"definition_en": "A placket added to finish a garment's opening.",
+"example_ko": "앞 단작 폭을 확인해요.",
+"example_en": "We check the width of the front danjak.",
+"note_ko": "2023년 실무자 글에 수록된 과거 봉제 자료를 참고했습니다. 공장마다 호칭과 표기가 다를 수 있습니다.",
+"note_en": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory."
+},
+{
+"id": "fashion-167",
+"field": "fashion",
+"term_ko": "미까시",
+"term_en": "Mikashi",
+"english": "Facing",
+"aliases_ko": [
+"미까에시",
+"안단"
+],
+"definition_ko": "목둘레·앞여밈 등의 안쪽 가장자리를 마감하는 천.",
+"definition_en": "Fabric that finishes the inner edge of a neckline, front closure, and the like.",
+"example_ko": "미까시가 밖으로 보이지 않게 해요.",
+"example_en": "We make sure the mikashi isn't visible from the outside.",
+"note_ko": "2023년 실무자 글에 수록된 과거 봉제 자료를 참고했습니다. 공장마다 호칭과 표기가 다를 수 있습니다.",
+"note_en": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory."
+},
+{
+"id": "fashion-168",
+"field": "fashion",
+"term_ko": "미미",
+"term_en": "Mimi",
+"english": "Selvage",
+"aliases_ko": [
+"미미지",
+"식서"
+],
+"definition_ko": "직물 양쪽 끝의 풀리지 않도록 짠 가장자리.",
+"definition_en": "The woven edge on both ends of a fabric that keeps it from fraying.",
+"example_ko": "미미를 기준으로 결을 확인해요.",
+"example_en": "We check the grain based on the mimi.",
+"note_ko": "식서(직물 가장자리)와 식서 방향(그 가장자리와 나란한 방향)을 구별하세요. 2023년 실무자 글에 수록된 과거 봉제 자료를 참고했습니다. 공장마다 호칭과 표기가 다를 수 있습니다.",
+"note_en": "Distinguish the selvage (the fabric edge) from the selvage direction (the direction parallel to that edge). This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory."
+},
+{
+"id": "fashion-169",
+"field": "fashion",
+"term_ko": "오비",
+"term_en": "Obi",
+"english": "Waistband",
+"aliases_ko": [
+"허릿단",
+"허리단"
+],
+"definition_ko": "바지나 치마의 허리 둘레에 붙이는 단.",
+"definition_en": "A waistband attached around the waist of pants or a skirt.",
+"example_ko": "오비 폭을 조금 줄여요.",
+"example_en": "We reduce the obi width slightly.",
+"note_ko": "2023년 실무자 글에 수록된 과거 봉제 자료를 참고했습니다. 공장마다 호칭과 표기가 다를 수 있습니다.",
+"note_en": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory."
+},
+{
+"id": "fashion-170",
+"field": "fashion",
+"term_ko": "우라",
+"term_en": "Ura",
+"english": "Lining",
+"aliases_ko": [
+"우라지",
+"안감"
+],
+"definition_ko": "옷 안쪽에 덧대는 천.",
+"definition_en": "Fabric added to the inside of a garment.",
+"example_ko": "우라 색을 겉감에 맞춰요.",
+"example_en": "We match the ura color to the outer fabric.",
+"note_ko": "2023년 실무자 글에 수록된 과거 봉제 자료를 참고했습니다. 공장마다 호칭과 표기가 다를 수 있습니다.",
+"note_en": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory."
+},
+{
+"id": "fashion-171",
+"field": "fashion",
+"term_ko": "오모데",
+"term_en": "Omote",
+"english": "Right side of fabric",
+"aliases_ko": [
+"오모테",
+"겉면"
+],
+"definition_ko": "천의 바깥으로 드러나게 쓰는 면.",
+"definition_en": "The side of the fabric meant to be exposed on the outside.",
+"example_ko": "오모데끼리 맞대어 박아요.",
+"example_en": "We stitch with the omote sides facing each other.",
+"note_ko": "2023년 실무자 글에 수록된 과거 봉제 자료를 참고했습니다. 공장마다 호칭과 표기가 다를 수 있습니다.",
+"note_en": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory."
+},
+{
+"id": "fashion-172",
+"field": "fashion",
+"term_ko": "요꼬",
+"term_en": "Yoko",
+"english": "Crosswise",
+"aliases_ko": [
+"가로 방향",
+"위사 방향"
+],
+"definition_ko": "직물의 폭을 가로지르는 방향.",
+"definition_en": "The direction that runs across the width of the fabric.",
+"example_ko": "요꼬 방향을 표시해요.",
+"example_en": "We mark the yoko direction.",
+"note_ko": "이 항목은 원단 방향의 뜻입니다. 니트 편직 방식이나 장비를 부르는 다른 용법과 구별하세요. 2023년 실무자 글에 수록된 과거 봉제 자료를 참고했습니다. 공장마다 호칭과 표기가 다를 수 있습니다.",
+"note_en": "This entry means the fabric direction. Distinguish it from other usages referring to a knit-knitting method or equipment. This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory."
+},
+{
+"id": "fashion-173",
+"field": "fashion",
+"term_ko": "다대",
+"term_en": "Tate",
+"english": "Lengthwise",
+"aliases_ko": [
+"다데",
+"다테",
+"세로 방향"
+],
+"definition_ko": "원단 길이를 따라가는 방향.",
+"definition_en": "The direction that runs along the length of the fabric.",
+"example_ko": "다대 방향으로 패턴을 놓아요.",
+"example_en": "We lay the pattern in the tate direction.",
+"note_ko": "2023년 실무자 글에 수록된 과거 봉제 자료를 참고했습니다. 공장마다 호칭과 표기가 다를 수 있습니다.",
+"note_en": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory."
+}
+]

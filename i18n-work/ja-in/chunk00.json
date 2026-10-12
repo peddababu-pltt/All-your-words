@@ -1,0 +1,4559 @@
+[
+{
+"id": "marketing-001",
+"field": "marketing",
+"term_ko": "CPC",
+"term_en": "CPC",
+"english": "Cost per click",
+"aliases_ko": [
+"클릭당 비용",
+"씨피씨",
+"시피시"
+],
+"definition_ko": "광고 클릭 한 번에 드는 비용.",
+"definition_en": "The cost of a single ad click.",
+"example_ko": "소재별 CPC를 비교해 주세요.",
+"example_en": "Please compare CPC across creatives."
+},
+{
+"id": "marketing-002",
+"field": "marketing",
+"term_ko": "CPM",
+"term_en": "CPM",
+"english": "Cost per mille",
+"aliases_ko": [
+"천 회 노출당 비용",
+"씨피엠",
+"시피엠"
+],
+"definition_ko": "광고가 1,000회 노출되는 데 드는 비용.",
+"definition_en": "The cost of showing an ad 1,000 times.",
+"example_ko": "이번 캠페인은 CPM 기준으로 집행해요.",
+"example_en": "This campaign runs on a CPM basis."
+},
+{
+"id": "marketing-003",
+"field": "marketing",
+"term_ko": "CPV",
+"term_en": "CPV",
+"english": "Cost per view",
+"aliases_ko": [
+"조회당 비용",
+"씨피브이"
+],
+"definition_ko": "동영상의 유효 조회 한 번에 드는 비용.",
+"definition_en": "The cost of a single valid video view.",
+"example_ko": "매체별 유효 조회 기준을 먼저 확인해요.",
+"example_en": "First check each platform's valid-view criteria.",
+"note_ko": "유효 조회 시간과 인정 기준은 매체·상품마다 다릅니다.",
+"note_en": "Valid-view duration and qualifying criteria vary by platform and ad product."
+},
+{
+"id": "marketing-004",
+"field": "marketing",
+"term_ko": "CPT",
+"term_en": "CPT",
+"english": "Cost per time",
+"aliases_ko": [
+"시간당 비용",
+"씨피티"
+],
+"definition_ko": "정해진 광고 게재 시간에 따라 지불하는 비용.",
+"definition_en": "A cost paid according to a fixed ad placement duration.",
+"example_ko": "첫 화면을 하루 동안 CPT로 집행해요.",
+"example_en": "We'll run the main screen on a CPT basis for one day."
+},
+{
+"id": "marketing-005",
+"field": "marketing",
+"term_ko": "CTR",
+"term_en": "CTR",
+"english": "Click-through rate",
+"aliases_ko": [
+"클릭률",
+"씨티알",
+"시티알"
+],
+"definition_ko": "광고 노출 횟수 대비 클릭 횟수의 비율.",
+"definition_en": "The ratio of clicks to ad impressions.",
+"example_ko": "클릭 20회, 노출 1,000회라 CTR은 2%예요.",
+"example_en": "With 20 clicks and 1,000 impressions, the CTR is 2%.",
+"note_ko": "클릭 수 ÷ 노출수 × 100으로 계산합니다. 사람 수를 분모로 쓰는 지표와 구분하세요.",
+"note_en": "Calculated as clicks ÷ impressions × 100. Distinguish it from metrics that use the number of people as the denominator."
+},
+{
+"id": "marketing-006",
+"field": "marketing",
+"term_ko": "ROAS",
+"term_en": "ROAS",
+"english": "Return on advertising spend",
+"aliases_ko": [
+"광고비 대비 매출",
+"로아스",
+"알오에이에스"
+],
+"definition_ko": "광고비에 비해 발생한 매출의 비율.",
+"definition_en": "Revenue generated relative to ad spend.",
+"example_ko": "광고 매출과 비용으로 ROAS를 계산해요.",
+"example_en": "We calculate ROAS from ad revenue and cost.",
+"note_ko": "매출 기준 지표입니다. 이익률이나 순이익을 직접 뜻하지는 않습니다.",
+"note_en": "A revenue-based metric. It does not directly indicate profit margin or net profit."
+},
+{
+"id": "marketing-007",
+"field": "marketing",
+"term_ko": "CVR",
+"term_en": "CVR",
+"english": "Conversion rate",
+"aliases_ko": [
+"전환율",
+"씨브이알",
+"시브이알"
+],
+"definition_ko": "방문이나 클릭 중 목표 행동으로 이어진 비율.",
+"definition_en": "The share of visits or clicks that lead to a target action.",
+"example_ko": "가입 CVR은 가입 수를 방문 수로 나눠요.",
+"example_en": "Signup CVR is the number of signups divided by the number of visits.",
+"note_ko": "분모가 클릭인지 방문인지, 어떤 행동을 전환으로 정했는지 함께 확인해야 합니다.",
+"note_en": "Check whether the denominator is clicks or visits, and which action is defined as a conversion."
+},
+{
+"id": "marketing-008",
+"field": "marketing",
+"term_ko": "CPA",
+"term_en": "CPA",
+"english": "Cost per action",
+"aliases_ko": [
+"행동당 비용",
+"씨피에이",
+"시피에이"
+],
+"definition_ko": "구매·가입 등 목표 행동 한 건당 드는 비용.",
+"definition_en": "The cost of each target action, such as a purchase or signup.",
+"example_ko": "가입 한 건을 얻는 데 든 CPA를 확인해요.",
+"example_en": "We check the CPA of acquiring one signup."
+},
+{
+"id": "marketing-009",
+"field": "marketing",
+"term_ko": "노출수",
+"term_en": "Impressions",
+"english": "Impressions",
+"aliases_ko": [
+"임프레션",
+"노출"
+],
+"definition_ko": "광고가 표시된 총횟수.",
+"definition_en": "The total number of times an ad is displayed.",
+"example_ko": "같은 사람에게 두 번 보이면 노출도 두 번이에요.",
+"example_en": "If the same person sees it twice, that counts as two impressions."
+},
+{
+"id": "marketing-010",
+"field": "marketing",
+"term_ko": "도달수",
+"term_en": "Reach",
+"english": "Reach",
+"aliases_ko": [
+"도달",
+"리치"
+],
+"definition_ko": "광고에 도달한 중복을 제외한 사람 수.",
+"definition_en": "The number of unique people an ad reached, excluding duplicates.",
+"example_ko": "노출수와 도달수를 구분해서 보고해요.",
+"example_en": "Report impressions and reach separately."
+},
+{
+"id": "marketing-011",
+"field": "marketing",
+"term_ko": "타겟팅",
+"term_en": "Targeting",
+"english": "Targeting",
+"aliases_ko": [
+"타기팅"
+],
+"definition_ko": "광고를 보여줄 대상을 정하는 일.",
+"definition_en": "The act of defining who an ad will be shown to.",
+"example_ko": "관심사를 기준으로 타겟팅을 나눠요.",
+"example_en": "We split targeting by interests."
+},
+{
+"id": "marketing-012",
+"field": "marketing",
+"term_ko": "오디언스",
+"term_en": "Audience",
+"english": "Audience",
+"aliases_ko": [
+"잠재고객",
+"타깃 고객"
+],
+"definition_ko": "광고나 콘텐츠의 대상이 되는 사람들.",
+"definition_en": "The people an ad or piece of content is aimed at.",
+"example_ko": "캠페인 목적에 맞는 오디언스를 정해요.",
+"example_en": "Define an audience that matches the campaign goal."
+},
+{
+"id": "marketing-013",
+"field": "marketing",
+"term_ko": "세그먼트",
+"term_en": "Segment",
+"english": "Segment",
+"aliases_ko": [
+"고객군",
+"고객 세분화"
+],
+"definition_ko": "공통 특성으로 나눈 고객 집단.",
+"definition_en": "A group of customers divided by shared characteristics.",
+"example_ko": "최근 구매 고객을 별도 세그먼트로 나눠요.",
+"example_en": "We separate recent buyers into their own segment."
+},
+{
+"id": "marketing-014",
+"field": "marketing",
+"term_ko": "리타겟팅",
+"term_en": "Retargeting",
+"english": "Retargeting",
+"aliases_ko": [
+"리타기팅",
+"리마케팅"
+],
+"definition_ko": "방문 등 접점이 있었던 대상에게 다시 광고하는 방식.",
+"definition_en": "Advertising again to people who had prior contact, such as a visit.",
+"example_ko": "장바구니 방문자에게 리타겟팅해요.",
+"example_en": "We retarget people who visited the cart."
+},
+{
+"id": "marketing-015",
+"field": "marketing",
+"term_ko": "디타겟팅",
+"term_en": "De-targeting",
+"english": "Detargeting",
+"aliases_ko": [
+"제외 타겟팅"
+],
+"definition_ko": "광고 노출 대상에서 특정 집단을 빼는 것.",
+"definition_en": "Excluding a specific group from the audience shown an ad.",
+"example_ko": "기존 구매자는 이 캠페인에서 제외해요.",
+"example_en": "We exclude existing buyers from this campaign."
+},
+{
+"id": "dev-001",
+"field": "dev",
+"term_ko": "커밋",
+"term_en": "Commit",
+"english": "Commit",
+"aliases_ko": [
+"commit"
+],
+"definition_ko": "파일 변경 내용을 버전 기록으로 남기는 단위.",
+"definition_en": "A unit that records file changes in version history.",
+"example_ko": "수정한 로그인 코드를 커밋했어요.",
+"example_en": "I committed the login code I edited."
+},
+{
+"id": "dev-002",
+"field": "dev",
+"term_ko": "브랜치",
+"term_en": "Branch",
+"english": "Branch",
+"aliases_ko": [
+"branch",
+"분기"
+],
+"definition_ko": "독립적으로 작업할 수 있는 버전의 흐름.",
+"definition_en": "A line of versioning you can work on independently.",
+"example_ko": "수정 작업은 새 브랜치에서 시작해요.",
+"example_en": "Start edits on a new branch."
+},
+{
+"id": "dev-003",
+"field": "dev",
+"term_ko": "머지",
+"term_en": "Merge",
+"english": "Merge",
+"aliases_ko": [
+"merge",
+"병합"
+],
+"definition_ko": "서로 다른 변경 이력을 하나로 합치는 것.",
+"definition_en": "Combining different change histories into one.",
+"example_ko": "리뷰가 끝나면 메인 브랜치에 머지해요.",
+"example_en": "Once review is done, merge into the main branch."
+},
+{
+"id": "dev-004",
+"field": "dev",
+"term_ko": "풀 리퀘스트",
+"term_en": "Pull request",
+"english": "Pull request",
+"aliases_ko": [
+"PR",
+"풀리퀘스트",
+"피알",
+"PR 올리다",
+"PR을 올리다",
+"피알 올리다"
+],
+"definition_ko": "변경 내용을 검토하고 반영해 달라는 제안.",
+"definition_en": "A proposal to review and incorporate changes.",
+"example_ko": "PR에 변경 이유를 적어 주세요.",
+"example_en": "Please describe the reason for the change in the PR."
+},
+{
+"id": "dev-005",
+"field": "dev",
+"term_ko": "포크",
+"term_en": "Fork",
+"english": "Fork",
+"aliases_ko": [
+"fork"
+],
+"definition_ko": "다른 저장소를 바탕으로 만든 별도 저장소.",
+"definition_en": "A separate repository created based on another repository.",
+"example_ko": "오픈소스 저장소를 포크해서 수정해요.",
+"example_en": "We fork the open-source repo and make edits."
+},
+{
+"id": "dev-006",
+"field": "dev",
+"term_ko": "리포지토리",
+"term_en": "Repository",
+"english": "Repository",
+"aliases_ko": [
+"레포",
+"repo",
+"저장소"
+],
+"definition_ko": "프로젝트 파일과 변경 이력을 보관하는 공간.",
+"definition_en": "A space that stores project files and their change history.",
+"example_ko": "문서도 같은 리포지토리에서 관리해요.",
+"example_en": "Docs are managed in the same repository."
+},
+{
+"id": "dev-007",
+"field": "dev",
+"term_ko": "이슈",
+"term_en": "Issue",
+"english": "Issue",
+"aliases_ko": [
+"issue",
+"티켓"
+],
+"definition_ko": "버그·작업·논의 등을 기록하고 추적하는 항목.",
+"definition_en": "An item for recording and tracking bugs, tasks, discussions, and more.",
+"example_ko": "재현 방법을 이슈에 남겨 주세요.",
+"example_en": "Please note the reproduction steps in the issue."
+},
+{
+"id": "dev-008",
+"field": "dev",
+"term_ko": "충돌",
+"term_en": "Conflict",
+"english": "Merge conflict",
+"aliases_ko": [
+"컨플릭트",
+"머지 충돌"
+],
+"definition_ko": "겹치는 변경을 자동으로 합칠 수 없는 상태.",
+"definition_en": "A state where overlapping changes cannot be merged automatically.",
+"example_ko": "같은 줄을 수정해서 충돌이 발생했어요.",
+"example_en": "A conflict occurred because the same line was edited."
+},
+{
+"id": "dev-009",
+"field": "dev",
+"term_ko": "클론",
+"term_en": "Clone",
+"english": "Clone",
+"aliases_ko": [
+"clone",
+"복제"
+],
+"definition_ko": "저장소와 그 이력을 내 컴퓨터로 복제하는 것.",
+"definition_en": "Copying a repository and its history to your own computer.",
+"example_ko": "먼저 저장소를 로컬에 클론해 주세요.",
+"example_en": "First clone the repository locally."
+},
+{
+"id": "dev-010",
+"field": "dev",
+"term_ko": "푸시",
+"term_en": "Push",
+"english": "Push",
+"aliases_ko": [
+"push"
+],
+"definition_ko": "로컬 변경 이력을 원격 저장소에 보내는 것.",
+"definition_en": "Sending local change history to a remote repository.",
+"example_ko": "커밋한 작업을 원격으로 푸시했어요.",
+"example_en": "I pushed the committed work to the remote."
+},
+{
+"id": "dev-011",
+"field": "dev",
+"term_ko": "풀",
+"term_en": "Pull",
+"english": "Pull",
+"aliases_ko": [
+"pull"
+],
+"definition_ko": "원격 변경을 가져와 현재 작업에 반영하는 것.",
+"definition_en": "Fetching remote changes and applying them to your current work.",
+"example_ko": "작업 전에 최신 변경을 풀해 주세요.",
+"example_en": "Please pull the latest changes before starting."
+},
+{
+"id": "dev-012",
+"field": "dev",
+"term_ko": "리버트",
+"term_en": "Revert",
+"english": "Revert",
+"aliases_ko": [
+"revert",
+"되돌리기"
+],
+"definition_ko": "이전 변경을 취소하는 새 커밋을 만드는 것.",
+"definition_en": "Creating a new commit that undoes a previous change.",
+"example_ko": "문제가 된 커밋을 리버트했어요.",
+"example_en": "I reverted the problematic commit."
+},
+{
+"id": "dev-013",
+"field": "dev",
+"term_ko": "애자일",
+"term_en": "Agile",
+"english": "Agile",
+"aliases_ko": [
+"agile"
+],
+"definition_ko": "짧은 반복과 피드백으로 제품을 개선하는 접근.",
+"definition_en": "An approach that improves a product through short iterations and feedback.",
+"example_ko": "사용자 피드백에 맞춰 다음 작업을 조정해요.",
+"example_en": "We adjust the next tasks based on user feedback."
+},
+{
+"id": "dev-014",
+"field": "dev",
+"term_ko": "스크럼",
+"term_en": "Scrum",
+"english": "Scrum",
+"aliases_ko": [
+"scrum"
+],
+"definition_ko": "정해진 역할과 반복 주기로 협업하는 애자일 프레임워크.",
+"definition_en": "An agile framework for collaborating with defined roles and iteration cycles.",
+"example_ko": "이번 스프린트 목표를 함께 정해요.",
+"example_en": "Let's set this sprint's goal together."
+},
+{
+"id": "dev-015",
+"field": "dev",
+"term_ko": "스프린트",
+"term_en": "Sprint",
+"english": "Sprint",
+"aliases_ko": [
+"sprint"
+],
+"definition_ko": "목표한 결과물을 만드는 일정한 길이의 작업 주기.",
+"definition_en": "A fixed-length work cycle for producing a targeted deliverable.",
+"example_ko": "다음 스프린트에 검색 기능을 개선해요.",
+"example_en": "We'll improve search in the next sprint."
+},
+{
+"id": "dev-016",
+"field": "dev",
+"term_ko": "스탠드업",
+"term_en": "Stand-up",
+"english": "Stand-up",
+"aliases_ko": [
+"데일리 스크럼",
+"데일리"
+],
+"definition_ko": "진행 상황과 막힌 일을 짧게 공유하는 팀 회의.",
+"definition_en": "A short team meeting to share progress and blockers.",
+"example_ko": "스탠드업에서 막힌 작업부터 이야기해요.",
+"example_en": "In stand-up, start with blocked tasks."
+},
+{
+"id": "dev-017",
+"field": "dev",
+"term_ko": "회고",
+"term_en": "Retrospective",
+"english": "Retrospective",
+"aliases_ko": [
+"레트로",
+"retrospective"
+],
+"definition_ko": "지난 작업 방식을 돌아보고 개선점을 정하는 활동.",
+"definition_en": "An activity to reflect on past working methods and decide improvements.",
+"example_ko": "회고에서 다음에 바꿀 한 가지를 정해요.",
+"example_en": "In the retrospective, pick one thing to change next time."
+},
+{
+"id": "dev-018",
+"field": "dev",
+"term_ko": "스토리 포인트",
+"term_en": "Story point",
+"english": "Story points",
+"aliases_ko": [
+"포인트",
+"스토리포인트"
+],
+"definition_ko": "작업의 상대적 크기와 복잡성을 추정하는 단위.",
+"definition_en": "A unit for estimating the relative size and complexity of work.",
+"example_ko": "비슷한 작업과 비교해 포인트를 정해요.",
+"example_en": "We set points by comparing with similar tasks.",
+"note_ko": "시간을 그대로 환산하는 보편적인 단위가 아니며, 팀의 기준에 따라 달라집니다.",
+"note_en": "It is not a universal unit that converts directly to time, and it varies by the team's standard."
+},
+{
+"id": "dev-019",
+"field": "dev",
+"term_ko": "백로그",
+"term_en": "Backlog",
+"english": "Backlog",
+"aliases_ko": [
+"제품 백로그"
+],
+"definition_ko": "앞으로 할 기능·개선·수정 작업을 모아 둔 목록.",
+"definition_en": "A collected list of upcoming features, improvements, and fixes.",
+"example_ko": "요청은 백로그에 모아 우선순위를 정해요.",
+"example_en": "We gather requests in the backlog and prioritize them."
+},
+{
+"id": "dev-020",
+"field": "dev",
+"term_ko": "번다운 차트",
+"term_en": "Burndown chart",
+"english": "Burndown chart",
+"aliases_ko": [
+"번다운"
+],
+"definition_ko": "기간 중 남은 작업량의 변화를 보여주는 그래프.",
+"definition_en": "A graph showing how remaining work changes over a period.",
+"example_ko": "번다운 차트로 남은 작업을 확인해요.",
+"example_en": "We check remaining work with the burndown chart."
+},
+{
+"id": "dev-021",
+"field": "dev",
+"term_ko": "QA",
+"term_en": "QA",
+"english": "Quality assurance",
+"aliases_ko": [
+"큐에이",
+"품질 보증",
+"큐에이 테스트"
+],
+"definition_ko": "소프트웨어 품질을 확보하기 위한 과정과 활동.",
+"definition_en": "The processes and activities for ensuring software quality.",
+"example_ko": "배포 전 QA에서 주요 사용자 흐름을 확인해요.",
+"example_en": "In QA before release, we check the main user flows.",
+"note_ko": "테스트는 품질 확보 활동의 일부입니다. 팀에 따라 QA라는 말을 테스트 단계나 담당 조직의 뜻으로도 씁니다.",
+"note_en": "Testing is part of quality assurance. Depending on the team, QA may also refer to a testing phase or the responsible organization."
+},
+{
+"id": "dev-022",
+"field": "dev",
+"term_ko": "단위 테스트",
+"term_en": "Unit test",
+"english": "Unit test",
+"aliases_ko": [
+"유닛 테스트",
+"unit testing",
+"단테"
+],
+"definition_ko": "작은 코드 단위가 기대대로 작동하는지 확인하는 시험.",
+"definition_en": "A test that verifies a small unit of code works as expected.",
+"example_ko": "가격 계산 함수에 단위 테스트를 추가해요.",
+"example_en": "We add a unit test to the price calculation function."
+},
+{
+"id": "dev-023",
+"field": "dev",
+"term_ko": "통합 테스트",
+"term_en": "Integration test",
+"english": "Integration test",
+"aliases_ko": [
+"integration testing",
+"통테"
+],
+"definition_ko": "여러 구성 요소가 함께 제대로 작동하는지 확인하는 시험.",
+"definition_en": "A test that verifies multiple components work correctly together.",
+"example_ko": "결제와 주문 저장 연결을 통합 테스트해요.",
+"example_en": "We integration-test the link between payment and order storage."
+},
+{
+"id": "design-001",
+"field": "design",
+"term_ko": "누끼",
+"term_en": "Cutout",
+"english": "Background removal",
+"aliases_ko": [
+"누끼따기",
+"누끼 따다",
+"배경 제거",
+"누끼를 따다"
+],
+"definition_ko": "이미지에서 원하는 피사체를 배경과 분리하는 작업.",
+"definition_en": "The task of separating a desired subject from its background in an image.",
+"example_ko": "제품 사진은 누끼를 따서 전달해 주세요.",
+"example_en": "Please deliver product photos with the background cut out."
+},
+{
+"id": "design-002",
+"field": "design",
+"term_ko": "커닝",
+"term_en": "Kerning",
+"english": "Kerning",
+"aliases_ko": [
+"kerning"
+],
+"definition_ko": "특정 두 글자 사이의 간격을 조절하는 것.",
+"definition_en": "Adjusting the spacing between two specific letters.",
+"example_ko": "로고의 두 글자 사이를 커닝으로 맞춰요.",
+"example_en": "We fine-tune the space between the two letters in the logo with kerning."
+},
+{
+"id": "design-003",
+"field": "design",
+"term_ko": "트래킹",
+"term_en": "Tracking",
+"english": "Tracking",
+"aliases_ko": [
+"자간",
+"tracking"
+],
+"definition_ko": "선택한 글자 범위 전체의 간격을 조절하는 것.",
+"definition_en": "Adjusting the spacing across an entire selected range of letters.",
+"example_ko": "본문의 트래킹을 조금 넓혀 주세요.",
+"example_en": "Please widen the tracking of the body text a little."
+},
+{
+"id": "design-004",
+"field": "design",
+"term_ko": "리딩",
+"term_en": "Leading",
+"english": "Leading",
+"aliases_ko": [
+"행간",
+"leading"
+],
+"definition_ko": "글줄 사이의 세로 간격.",
+"definition_en": "The vertical spacing between lines of text.",
+"example_ko": "본문 리딩을 늘려 읽기 편하게 해요.",
+"example_en": "Increase the body leading to make it easier to read."
+},
+{
+"id": "design-005",
+"field": "design",
+"term_ko": "타이포그래피",
+"term_en": "Typography",
+"english": "Typography",
+"aliases_ko": [
+"typography",
+"타이포"
+],
+"definition_ko": "글자 형태와 크기·간격 등을 조직하는 시각 표현.",
+"definition_en": "Visual expression that organizes letterforms, size, spacing, and more.",
+"example_ko": "타이포그래피로 제목과 본문을 구분해요.",
+"example_en": "We distinguish headings from body text with typography."
+},
+{
+"id": "design-006",
+"field": "design",
+"term_ko": "벡터",
+"term_en": "Vector",
+"english": "Vector",
+"aliases_ko": [
+"벡터 그래픽",
+"벡따",
+"벡터화",
+"벡터 따다"
+],
+"definition_ko": "점과 선의 수학적 정보로 표현하는 그래픽.",
+"definition_en": "Graphics expressed through the mathematical information of points and lines.",
+"example_ko": "로고는 확대에 유리한 벡터로 전달해요.",
+"example_en": "Deliver the logo as a vector, which scales well."
+},
+{
+"id": "design-007",
+"field": "design",
+"term_ko": "래스터",
+"term_en": "Raster",
+"english": "Raster",
+"aliases_ko": [
+"비트맵",
+"bitmap",
+"픽셀 이미지",
+"비트맵 이미지"
+],
+"definition_ko": "픽셀 격자로 표현하는 이미지.",
+"definition_en": "An image expressed with a grid of pixels.",
+"example_ko": "래스터 이미지는 원본 해상도를 확인해요.",
+"example_en": "For raster images, check the original resolution."
+},
+{
+"id": "design-008",
+"field": "design",
+"term_ko": "해상도",
+"term_en": "Resolution",
+"english": "Resolution",
+"aliases_ko": [
+"resolution"
+],
+"definition_ko": "이미지의 세부 표현 정도를 나타내는 픽셀 관련 척도.",
+"definition_en": "A pixel-related measure indicating the level of detail in an image.",
+"example_ko": "사용할 크기에 맞춰 이미지 해상도를 확인해요.",
+"example_en": "Check the image resolution against the size you'll use.",
+"note_ko": "픽셀 크기와 출력 밀도(PPI)는 구분해서 확인해야 합니다.",
+"note_en": "Pixel dimensions and output density (PPI) should be checked separately."
+},
+{
+"id": "design-009",
+"field": "design",
+"term_ko": "PPI",
+"term_en": "PPI",
+"english": "Pixels per inch",
+"aliases_ko": [
+"피피아이"
+],
+"definition_ko": "1인치 길이에 배치되는 이미지 픽셀 수.",
+"definition_en": "The number of image pixels placed along one inch.",
+"example_ko": "출력 크기와 PPI를 함께 확인해 주세요.",
+"example_en": "Please check the output size together with the PPI."
+},
+{
+"id": "design-010",
+"field": "design",
+"term_ko": "EPS",
+"term_en": "EPS",
+"english": "Encapsulated PostScript",
+"aliases_ko": [
+"이피에스"
+],
+"definition_ko": "그래픽을 전달하는 데 쓰는 PostScript 기반 파일 형식.",
+"definition_en": "A PostScript-based file format used to deliver graphics.",
+"example_ko": "인쇄소에서 요청한 EPS로 전달해요.",
+"example_en": "We deliver it as the EPS requested by the print shop."
+},
+{
+"id": "design-011",
+"field": "design",
+"term_ko": "무드보드",
+"term_en": "Mood board",
+"english": "Moodboard",
+"aliases_ko": [
+"무드 보드"
+],
+"definition_ko": "이미지·색·질감 등을 모아 표현 방향을 보여주는 판.",
+"definition_en": "A board that gathers images, colors, and textures to show a creative direction.",
+"example_ko": "시안 제작 전에 무드보드를 공유해요.",
+"example_en": "We share a mood board before producing drafts."
+},
+{
+"id": "design-012",
+"field": "design",
+"term_ko": "레퍼런스",
+"term_en": "Reference",
+"english": "Reference",
+"aliases_ko": [
+"참고 자료",
+"레퍼",
+"reference"
+],
+"definition_ko": "표현 방향을 정할 때 참고하는 이미지나 사례.",
+"definition_en": "Images or examples referred to when setting a creative direction.",
+"example_ko": "원하는 분위기의 레퍼런스를 모아 주세요.",
+"example_en": "Please collect references with the mood you want."
+},
+{
+"id": "design-013",
+"field": "design",
+"term_ko": "목업",
+"term_en": "Mockup",
+"english": "Mockup",
+"aliases_ko": [
+"목업 이미지",
+"mock-up"
+],
+"definition_ko": "디자인이 적용된 모습을 미리 보여주는 모형이나 시안.",
+"definition_en": "A model or draft that previews how a design will look when applied.",
+"example_ko": "포장 디자인을 목업으로 확인해요.",
+"example_en": "We review the packaging design as a mockup."
+},
+{
+"id": "fashion-001",
+"field": "fashion",
+"term_ko": "마도메",
+"term_en": "Hand finishing",
+"english": "",
+"aliases_ko": [
+"마도매"
+],
+"definition_ko": "봉제 후 단추·밑단 등 손작업으로 마무리하는 공정.",
+"definition_en": "The process of finishing details such as buttons and hems by hand after sewing.",
+"example_ko": "이 물량은 마도메 공정이 남아 있어요.",
+"example_en": "This lot still has the hand-finishing process left."
+},
+{
+"id": "fashion-002",
+"field": "fashion",
+"term_ko": "와끼",
+"term_en": "Side seam",
+"english": "",
+"aliases_ko": [
+"와키"
+],
+"definition_ko": "옷의 앞판과 뒷판이 만나는 옆선 부분.",
+"definition_en": "The side line where the front and back panels of a garment meet.",
+"example_ko": "와끼 봉제 상태를 확인해 주세요.",
+"example_en": "Please check the side-seam stitching."
+},
+{
+"id": "fashion-003",
+"field": "fashion",
+"term_ko": "시아게",
+"term_en": "Finishing press",
+"english": "",
+"aliases_ko": [
+"시야게",
+"시야기",
+"시아기",
+"마무리 가공"
+],
+"definition_ko": "다림질 등을 포함한 옷의 마무리 작업.",
+"definition_en": "The finishing work on a garment, including ironing.",
+"example_ko": "출고 전에 시아게를 마쳐 주세요.",
+"example_en": "Please complete the finishing press before shipment.",
+"note_ko": "문헌마다 다림질 중심 또는 완성·마무리 공정 전체로 범위가 조금씩 다릅니다.",
+"note_en": "Sources vary slightly, scoping it from ironing-focused work to the entire finishing process."
+},
+{
+"id": "fashion-004",
+"field": "fashion",
+"term_ko": "객공",
+"term_en": "Piece-rate worker",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "작업 물량이나 단가에 따라 보수를 받는 봉제 작업자.",
+"definition_en": "A sewing worker paid according to work volume or unit price.",
+"example_ko": "이 공정은 객공 방식으로 진행해요.",
+"example_en": "This process is done on a piece-rate basis."
+},
+{
+"id": "fashion-005",
+"field": "fashion",
+"term_ko": "시다",
+"term_en": "Sewing assistant",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "현장에서 다른 작업을 거드는 보조 인력을 이르는 말.",
+"definition_en": "A term for support staff who assist with other tasks on site.",
+"example_ko": "기록 속 시다는 작업을 돕는 사람을 뜻해요.",
+"example_en": "In the records, this term means a person who helps with the work.",
+"note_ko": "사람을 낮춰 부르는 말로 받아들여질 수 있어, 직접 부를 때는 보조 담당자 등 구체적인 역할명을 권합니다.",
+"note_en": "It can be taken as a demeaning term, so when addressing someone directly we recommend a specific role name such as support staff."
+},
+{
+"id": "fashion-006",
+"field": "fashion",
+"term_ko": "아이롱사",
+"term_en": "Presser",
+"english": "",
+"aliases_ko": [
+"아이롱"
+],
+"definition_ko": "봉제 현장에서 다림질을 담당하는 사람.",
+"definition_en": "The person in charge of ironing on the sewing floor.",
+"example_ko": "아이롱사에게 다림질 마무리를 요청해요.",
+"example_en": "We ask the presser to do the final pressing.",
+"note_ko": "원문은 다림질 담당자를 ‘아이롱사’로 기록합니다. ‘아이롱’은 검색 보조 표기로 연결했습니다.",
+"note_en": "The source records the ironing worker with this term. 'Ironing' is linked as a search aid."
+},
+{
+"id": "fashion-007",
+"field": "fashion",
+"term_ko": "오바사",
+"term_en": "Overlock operator",
+"english": "",
+"aliases_ko": [
+"오버사"
+],
+"definition_ko": "오버로크 작업을 담당하는 봉제 기술자.",
+"definition_en": "A sewing technician in charge of overlock work.",
+"example_ko": "오바사에게 가장자리 처리를 맡겨요.",
+"example_en": "We assign edge finishing to the overlock operator."
+},
+{
+"id": "fashion-008",
+"field": "fashion",
+"term_ko": "가라",
+"term_en": "Pattern (fabric)",
+"english": "",
+"aliases_ko": [
+"무늬",
+"패턴 무늬"
+],
+"definition_ko": "옷감의 무늬나 바탕을 가리키는 현장 표현.",
+"definition_en": "A field term referring to the pattern or ground of a fabric.",
+"example_ko": "이 원단은 가라가 큰 편이에요.",
+"example_en": "This fabric has a fairly large pattern.",
+"note_ko": "한글 표기가 같아도 분야에 따라 의미가 다릅니다. 일반 업무의 ‘가짜’와 패션의 ‘무늬’를 구분하세요.",
+"note_en": "Even with the same Korean spelling, the meaning differs by field. Distinguish the general-work sense of 'fake' from the fashion sense of 'pattern'."
+},
+{
+"id": "fashion-009",
+"field": "fashion",
+"term_ko": "가리누이",
+"term_en": "Basting",
+"english": "",
+"aliases_ko": [
+"시침질"
+],
+"definition_ko": "본봉 전 임시로 꿰매는 시침질을 이르는 말.",
+"definition_en": "A term for temporary stitching done before the main sewing.",
+"example_ko": "가리누이로 형태를 먼저 잡아 봐요.",
+"example_en": "Let's set the shape first with basting."
+},
+{
+"id": "fashion-010",
+"field": "fashion",
+"term_ko": "가라게",
+"term_en": "Whipstitching",
+"english": "",
+"aliases_ko": [
+"휘감치기"
+],
+"definition_ko": "천의 가장자리 등을 휘감아 꿰매는 작업.",
+"definition_en": "Work that wraps and stitches the edge of fabric.",
+"example_ko": "가장자리를 가라게로 처리해요.",
+"example_en": "We finish the edge with whipstitching."
+},
+{
+"id": "fashion-011",
+"field": "fashion",
+"term_ko": "패턴",
+"term_en": "Pattern",
+"english": "Pattern",
+"aliases_ko": [
+"옷본",
+"패턴 제작"
+],
+"definition_ko": "옷의 각 부분을 만들기 위한 형태와 치수의 본.",
+"definition_en": "The template of shapes and measurements for making each part of a garment.",
+"example_ko": "샘플을 보고 소매 패턴을 수정해요.",
+"example_en": "We revise the sleeve pattern based on the sample."
+},
+{
+"id": "fashion-012",
+"field": "fashion",
+"term_ko": "샘플",
+"term_en": "Sample",
+"english": "Sample",
+"aliases_ko": [
+"시제품",
+"샘플 의류"
+],
+"definition_ko": "본생산 전에 형태와 사양을 확인하는 시험 제품.",
+"definition_en": "A trial product that confirms form and specs before mass production.",
+"example_ko": "본생산 전에 샘플 핏을 확인해요.",
+"example_en": "We check the sample fit before mass production."
+},
+{
+"id": "fashion-013",
+"field": "fashion",
+"term_ko": "재단",
+"term_en": "Cutting",
+"english": "Cutting",
+"aliases_ko": [
+"원단 재단",
+"다찌"
+],
+"definition_ko": "패턴에 맞춰 원단을 자르는 작업.",
+"definition_en": "Cutting fabric according to the pattern.",
+"example_ko": "확정된 패턴으로 재단을 시작해요.",
+"example_en": "We start cutting with the finalized pattern.",
+"note_ko": "다찌는 봉제 현장에서 재단을 부르는 표현입니다.",
+"note_en": "'Dachi' is a field term for cutting on the sewing floor."
+},
+{
+"id": "fashion-014",
+"field": "fashion",
+"term_ko": "봉제",
+"term_en": "Sewing",
+"english": "Sewing",
+"aliases_ko": [
+"봉제 작업"
+],
+"definition_ko": "잘라낸 원단 등을 바느질해 이어 붙이는 작업.",
+"definition_en": "Stitching cut fabric and other pieces together.",
+"example_ko": "재단이 끝난 물량을 봉제로 넘겨요.",
+"example_en": "We pass cut lots on to sewing."
+},
+{
+"id": "fashion-015",
+"field": "fashion",
+"term_ko": "다이마루",
+"term_en": "Circular knit",
+"english": "Circular knit",
+"aliases_ko": [
+"환편 니트"
+],
+"definition_ko": "원형 편직으로 만든 니트 원단이나 그 원단의 의류를 이르는 말.",
+"definition_en": "A term for knit fabric made by circular knitting, or garments made from it.",
+"example_ko": "다이마루 원단의 늘어남을 확인해요.",
+"example_en": "We check the stretch of the circular-knit fabric.",
+"note_ko": "자료에서는 환편 니트 원단으로 만든 셔츠를 설명합니다. 구체적인 소재 구성은 별도로 확인하세요.",
+"note_en": "The material describes a shirt made from circular-knit fabric. Check the specific material composition separately."
+},
+{
+"id": "fashion-016",
+"field": "fashion",
+"term_ko": "우븐",
+"term_en": "Woven",
+"english": "Woven",
+"aliases_ko": [
+"직물",
+"woven"
+],
+"definition_ko": "실을 가로세로 엮어 만든 직물 또는 그 의류.",
+"definition_en": "Fabric made by interlacing yarns lengthwise and crosswise, or garments made from it.",
+"example_ko": "이 셔츠는 우븐 소재예요.",
+"example_en": "This shirt is a woven material."
+},
+{
+"id": "fashion-017",
+"field": "fashion",
+"term_ko": "삼봉",
+"term_en": "Coverstitch",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "니트 등의 단이나 시접을 처리하는 봉제 방식.",
+"definition_en": "A sewing method for finishing hems or seam allowances on knits and the like.",
+"example_ko": "티셔츠 밑단은 삼봉으로 마감해요.",
+"example_en": "We finish the T-shirt hem with a coverstitch."
+},
+{
+"id": "fashion-018",
+"field": "fashion",
+"term_ko": "인타록",
+"term_en": "Overlock edging",
+"english": "",
+"aliases_ko": [
+"인터록",
+"인타로크"
+],
+"definition_ko": "원단 가장자리 등을 마감하는 봉제 작업을 이르는 말.",
+"definition_en": "A term for sewing work that finishes fabric edges.",
+"example_ko": "스카프 끝은 인타록으로 마무리해요.",
+"example_en": "We finish the scarf edge with overlock edging.",
+"note_ko": "이 항목은 가장자리를 마감하는 봉제 현장 표현입니다. 편직 조직·원단을 가리키는 인터록과는 문맥을 구분합니다.",
+"note_en": "This entry is a field term for edge-finishing stitching. Distinguish its context from interlock, which refers to a knit structure or fabric."
+},
+{
+"id": "fashion-019",
+"field": "fashion",
+"term_ko": "실루엣",
+"term_en": "Silhouette",
+"english": "Silhouette",
+"aliases_ko": [
+"silhouette"
+],
+"definition_ko": "옷을 입었을 때 드러나는 전체적인 외곽 형태.",
+"definition_en": "The overall outline revealed when a garment is worn.",
+"example_ko": "이번 코트는 여유 있는 실루엣이에요.",
+"example_en": "This coat has a relaxed silhouette."
+},
+{
+"id": "fashion-020",
+"field": "fashion",
+"term_ko": "스와치",
+"term_en": "Swatch",
+"english": "Swatch",
+"aliases_ko": [
+"원단 견본",
+"스와치북"
+],
+"definition_ko": "색·질감 등을 확인하기 위한 작은 견본.",
+"definition_en": "A small sample for checking color, texture, and the like.",
+"example_ko": "원단 스와치를 무드보드에 붙여요.",
+"example_en": "We attach fabric swatches to the mood board."
+},
+{
+"id": "film-001",
+"field": "film",
+"term_ko": "부감",
+"term_en": "High angle",
+"english": "High-angle shot",
+"aliases_ko": [
+"하이 앵글",
+"하이앵글"
+],
+"definition_ko": "피사체보다 높은 위치에서 내려다보는 촬영 구도.",
+"definition_en": "A shot composition looking down from a position higher than the subject.",
+"example_ko": "테이블 장면은 부감으로 찍어볼게요.",
+"example_en": "I'll shoot the table scene from a high angle.",
+"note_ko": "하이 앵글을 한국어 촬영 표현으로 함께 정리했습니다. 바로 위 수직 구도인 탑 샷과 구별해 보세요.",
+"note_en": "The high angle is organized here alongside the Korean cinematography term. Distinguish it from the top shot, a directly overhead vertical composition."
+},
+{
+"id": "film-002",
+"field": "film",
+"term_ko": "앙감",
+"term_en": "Low angle",
+"english": "Low-angle shot",
+"aliases_ko": [
+"로 앵글",
+"로우 앵글",
+"로우앵글"
+],
+"definition_ko": "피사체보다 낮은 위치에서 올려다보는 촬영 구도.",
+"definition_en": "A shot composition looking up from a position lower than the subject.",
+"example_ko": "인물을 앙감으로 잡아 주세요.",
+"example_en": "Please frame the subject from a low angle.",
+"note_ko": "로 앵글에 대응하는 한국어 촬영 표현으로 정리했습니다.",
+"note_en": "Organized as the Korean cinematography term corresponding to the low angle."
+},
+{
+"id": "film-003",
+"field": "film",
+"term_ko": "아이 레벨",
+"term_en": "Eye level",
+"english": "Eye-level shot",
+"aliases_ko": [
+"눈높이 샷",
+"아이레벨",
+"눈높이 숏",
+"눈높이 쇼트"
+],
+"definition_ko": "피사체의 눈높이에 맞춘 카메라 구도.",
+"definition_en": "A camera composition aligned with the subject's eye level.",
+"example_ko": "인터뷰는 아이 레벨로 촬영해요.",
+"example_en": "We shoot interviews at eye level."
+},
+{
+"id": "film-004",
+"field": "film",
+"term_ko": "더치 앵글",
+"term_en": "Dutch angle",
+"english": "Dutch angle",
+"aliases_ko": [
+"더치앵글",
+"더치 틸트"
+],
+"definition_ko": "수평선을 기울여 잡는 카메라 구도.",
+"definition_en": "A camera composition that tilts the horizon.",
+"example_ko": "불안한 분위기를 더치 앵글로 표현해요.",
+"example_en": "We convey an uneasy mood with a Dutch angle."
+},
+{
+"id": "film-005",
+"field": "film",
+"term_ko": "POV",
+"term_en": "POV",
+"english": "Point-of-view shot",
+"aliases_ko": [
+"피오브이",
+"시점 샷",
+"시점 숏",
+"시점 쇼트"
+],
+"definition_ko": "인물이 바라보는 시야처럼 보여주는 숏.",
+"definition_en": "A shot that shows what a character is looking at, as if through their eyes.",
+"example_ko": "문을 여는 장면 뒤에 POV를 붙여요.",
+"example_en": "We add a POV after the shot of the door opening."
+},
+{
+"id": "film-006",
+"field": "film",
+"term_ko": "OTS",
+"term_en": "OTS",
+"english": "Over-the-shoulder shot",
+"aliases_ko": [
+"오버 더 숄더",
+"어깨너머 샷",
+"어깨 걸치기",
+"어깨너머 숏",
+"어깨너머 쇼트"
+],
+"definition_ko": "한 인물의 어깨 너머로 상대를 보여주는 숏.",
+"definition_en": "A shot that shows the other person over one character's shoulder.",
+"example_ko": "대화 장면을 OTS로 이어갈게요.",
+"example_en": "I'll continue the conversation scene with an OTS."
+},
+{
+"id": "film-007",
+"field": "film",
+"term_ko": "트래킹",
+"term_en": "Tracking",
+"english": "Tracking shot",
+"aliases_ko": [
+"트래킹 샷",
+"이동 촬영",
+"트래킹 숏",
+"트래킹 쇼트"
+],
+"definition_ko": "피사체를 따라 카메라가 이동하며 촬영하는 것.",
+"definition_en": "Shooting while the camera moves to follow the subject.",
+"example_ko": "걷는 인물을 트래킹으로 따라가요.",
+"example_en": "We follow the walking subject with a tracking shot."
+},
+{
+"id": "film-008",
+"field": "film",
+"term_ko": "클로즈업",
+"term_en": "Close-up",
+"english": "Close-up",
+"aliases_ko": [
+"클로즈 업",
+"CU",
+"씨유"
+],
+"definition_ko": "얼굴이나 대상을 가까이 잡아 세부를 보여주는 숏.",
+"definition_en": "A shot that frames a face or object closely to show detail.",
+"example_ko": "표정은 클로즈업으로 담아 주세요.",
+"example_en": "Please capture the expression in close-up."
+},
+{
+"id": "film-009",
+"field": "film",
+"term_ko": "익스트림 클로즈업",
+"term_en": "Extreme close-up",
+"english": "Extreme close-up",
+"aliases_ko": [
+"ECU",
+"극단적 클로즈업"
+],
+"definition_ko": "눈·손 등 아주 작은 부분을 크게 보여주는 숏.",
+"definition_en": "A shot that shows a very small part, such as an eye or hand, large.",
+"example_ko": "눈동자만 익스트림 클로즈업으로 찍어요.",
+"example_en": "We shoot just the pupil in extreme close-up."
+},
+{
+"id": "film-010",
+"field": "film",
+"term_ko": "미디엄 샷",
+"term_en": "Medium shot",
+"english": "Medium shot",
+"aliases_ko": [
+"미디엄숏",
+"MS",
+"미디엄 숏",
+"미디엄 쇼트"
+],
+"definition_ko": "인물의 상반신 등을 담아 표정과 주변을 함께 보여주는 숏.",
+"definition_en": "A shot that frames a subject's upper body to show expression and surroundings together.",
+"example_ko": "설명 장면은 미디엄 샷으로 가요.",
+"example_en": "We'll go with a medium shot for the explanation scene."
+},
+{
+"id": "film-011",
+"field": "film",
+"term_ko": "롱 샷",
+"term_en": "Long shot",
+"english": "Long shot",
+"aliases_ko": [
+"롱숏",
+"LS",
+"와이드 샷",
+"롱 숏",
+"롱 쇼트",
+"와이드 숏",
+"와이드 쇼트"
+],
+"definition_ko": "인물 전체와 주변 공간을 넓게 담는 숏.",
+"definition_en": "A shot that frames the whole figure and surrounding space widely.",
+"example_ko": "공간을 보여줄 롱 샷이 필요해요.",
+"example_en": "We need a long shot to show the space."
+},
+{
+"id": "film-012",
+"field": "film",
+"term_ko": "익스트림 롱 샷",
+"term_en": "Extreme long shot",
+"english": "Extreme long shot",
+"aliases_ko": [
+"ELS",
+"극원경",
+"익스트림 롱 숏",
+"익스트림 롱 쇼트"
+],
+"definition_ko": "멀리서 넓은 배경과 작은 피사체를 함께 담는 숏.",
+"definition_en": "A shot that frames a wide background and a small subject together from afar.",
+"example_ko": "도시 전경은 익스트림 롱 샷으로 시작해요.",
+"example_en": "We open the city skyline with an extreme long shot."
+},
+{
+"id": "film-013",
+"field": "film",
+"term_ko": "탑 샷",
+"term_en": "Top shot",
+"english": "Top-down shot",
+"aliases_ko": [
+"탑뷰",
+"탑 뷰",
+"오버헤드",
+"탑 숏",
+"탑 쇼트"
+],
+"definition_ko": "피사체의 바로 위에서 수직으로 내려다보는 숏.",
+"definition_en": "A shot looking straight down from directly above the subject.",
+"example_ko": "요리 과정은 탑 샷으로 담아요.",
+"example_en": "We capture the cooking process with a top shot."
+},
+{
+"id": "common-001",
+"field": "common",
+"term_ko": "가라",
+"term_en": "Fake",
+"english": "",
+"aliases_ko": [
+"가짜",
+"허위",
+"헛것"
+],
+"definition_ko": "진짜가 아니거나 내용이 없는 것을 이르는 속된 표현.",
+"definition_en": "A slang expression for something that is not genuine or has no substance.",
+"example_ko": "실제로 확인하지 않은 수치를 가라로 적었다는 지적을 받았어요.",
+"example_en": "I was criticized for writing down figures as fakes without actually checking them.",
+"note_ko": "한글 표기가 같아도 분야에 따라 의미가 다릅니다. 일반 업무의 ‘가짜’와 패션의 ‘무늬’를 구분하세요.",
+"note_en": "Even with the same Korean spelling, the meaning differs by field. Distinguish the general-work sense of 'fake' from the fashion sense of 'pattern'."
+},
+{
+"id": "common-002",
+"field": "common",
+"term_ko": "가리",
+"term_en": "Temporary",
+"english": "",
+"aliases_ko": [
+"임시"
+],
+"definition_ko": "임시로 하거나 빌린 것을 이르는 표현.",
+"definition_en": "An expression for something done or borrowed temporarily.",
+"example_ko": "가리로 둔 것인지 먼저 확인해요.",
+"example_en": "Let's first check whether it was left as a placeholder.",
+"note_ko": "과거 순화 자료에서 확인한 표현입니다. 현재 사용 범위는 현장별로 다를 수 있습니다.",
+"note_en": "An expression confirmed in past language-refinement materials. Its current range of use may vary by site."
+},
+{
+"id": "dev-024",
+"field": "dev",
+"term_ko": "API",
+"term_en": "API",
+"english": "Application programming interface",
+"aliases_ko": [
+"에이피아이"
+],
+"definition_ko": "프로그램끼리 기능이나 데이터를 주고받는 약속된 연결 방식.",
+"definition_en": "An agreed way for programs to exchange functions or data with each other.",
+"example_ko": "날씨 데이터는 제공처의 API로 받아요.",
+"example_en": "We receive weather data through the provider's API."
+},
+{
+"id": "dev-025",
+"field": "dev",
+"term_ko": "HTML",
+"term_en": "HTML",
+"english": "HyperText Markup Language",
+"aliases_ko": [
+"에이치티엠엘"
+],
+"definition_ko": "웹 문서의 구조와 의미를 표시하는 언어.",
+"definition_en": "A language that marks up the structure and meaning of web documents.",
+"example_ko": "제목과 본문 구조를 HTML로 작성해요.",
+"example_en": "We write the title and body structure in HTML."
+},
+{
+"id": "dev-026",
+"field": "dev",
+"term_ko": "CSS",
+"term_en": "CSS",
+"english": "Cascading Style Sheets",
+"aliases_ko": [
+"씨에스에스"
+],
+"definition_ko": "웹 문서의 색·글꼴·배치 등 표현을 지정하는 언어.",
+"definition_en": "A language that specifies the presentation of a web document, such as color, font, and layout.",
+"example_ko": "화면 간격은 CSS로 조정해요.",
+"example_en": "We adjust screen spacing with CSS."
+},
+{
+"id": "dev-027",
+"field": "dev",
+"term_ko": "JavaScript",
+"term_en": "JavaScript",
+"english": "JavaScript",
+"aliases_ko": [
+"JS",
+"자바스크립트",
+"자스"
+],
+"definition_ko": "웹에서 상호작용 등 동작을 구현하는 프로그래밍 언어.",
+"definition_en": "A programming language that implements behavior such as interactivity on the web.",
+"example_ko": "버튼 동작을 JavaScript로 연결해요.",
+"example_en": "We connect button behavior with JavaScript."
+},
+{
+"id": "dev-028",
+"field": "dev",
+"term_ko": "HTTP",
+"term_en": "HTTP",
+"english": "Hypertext Transfer Protocol",
+"aliases_ko": [
+"에이치티티피"
+],
+"definition_ko": "웹에서 요청과 응답을 주고받는 통신 규약.",
+"definition_en": "A communication protocol for exchanging requests and responses on the web.",
+"example_ko": "브라우저가 서버로 HTTP 요청을 보내요.",
+"example_en": "The browser sends an HTTP request to the server."
+},
+{
+"id": "dev-029",
+"field": "dev",
+"term_ko": "DOM",
+"term_en": "DOM",
+"english": "Document Object Model",
+"aliases_ko": [
+"돔",
+"문서 객체 모델"
+],
+"definition_ko": "문서를 객체의 트리로 표현해 코드에서 다루게 하는 구조.",
+"definition_en": "A structure that represents a document as a tree of objects so code can manipulate it.",
+"example_ko": "DOM의 제목 요소를 찾아 내용을 바꿔요.",
+"example_en": "We find the title element in the DOM and change its content."
+},
+{
+"id": "dev-030",
+"field": "dev",
+"term_ko": "JSON",
+"term_en": "JSON",
+"english": "JavaScript Object Notation",
+"aliases_ko": [
+"제이슨"
+],
+"definition_ko": "키와 값 등을 텍스트로 표현하는 데이터 교환 형식.",
+"definition_en": "A data-exchange format that expresses keys and values as text.",
+"example_ko": "단어 데이터를 JSON으로 정리해요.",
+"example_en": "We organize the word data as JSON."
+},
+{
+"id": "dev-031",
+"field": "dev",
+"term_ko": "캐시",
+"term_en": "Cache",
+"english": "Cache",
+"aliases_ko": [
+"cache",
+"임시 저장"
+],
+"definition_ko": "다시 사용할 데이터를 보관해 다음 접근을 빠르게 하는 방식.",
+"definition_en": "A method of storing data for reuse to speed up the next access.",
+"example_ko": "오래된 캐시 때문에 이전 이미지가 보였어요.",
+"example_en": "An old cache was showing a previous image."
+},
+{
+"id": "dev-032",
+"field": "dev",
+"term_ko": "레퍼런스",
+"term_en": "Reference",
+"english": "Object reference",
+"aliases_ko": [
+"참조",
+"reference",
+"객체 참조"
+],
+"definition_ko": "특정 객체를 가리키는 참조.",
+"definition_en": "A reference that points to a particular object.",
+"example_ko": "같은 객체를 가리키는 레퍼런스인지 확인해요.",
+"example_en": "We check whether they are references pointing to the same object."
+},
+{
+"id": "film-014",
+"field": "film",
+"term_ko": "앵글",
+"term_en": "Angle",
+"english": "Camera angle",
+"aliases_ko": [
+"카메라 앵글",
+"카메라 각도"
+],
+"definition_ko": "피사체를 바라보는 카메라의 높이와 방향.",
+"definition_en": "The height and direction from which the camera views the subject.",
+"example_ko": "앵글을 낮춰볼게요.",
+"example_en": "I'll lower the angle."
+},
+{
+"id": "film-015",
+"field": "film",
+"term_ko": "바스트 샷",
+"term_en": "Bust shot",
+"english": "Bust shot",
+"aliases_ko": [
+"바스트",
+"버스트 샷",
+"BS",
+"가슴 샷",
+"바스트 숏",
+"바스트 쇼트",
+"버스트 숏",
+"버스트 쇼트",
+"가슴 숏",
+"가슴 쇼트"
+],
+"definition_ko": "대략 가슴 위부터 머리까지 담는 인물 구도.",
+"definition_en": "A framing of a figure from roughly the chest up to the head.",
+"example_ko": "인터뷰는 바스트 샷으로 갈게요.",
+"example_en": "I'll go with a bust shot for the interview.",
+"note_ko": "샷의 경계는 현장 관행에 따라 달라집니다. 가슴의 어느 지점까지 담을지 구체적으로 맞춰보세요.",
+"note_en": "Shot boundaries vary by field convention. Agree specifically on how far down the chest to include."
+},
+{
+"id": "film-016",
+"field": "film",
+"term_ko": "웨이스트 샷",
+"term_en": "Waist shot",
+"english": "Waist shot",
+"aliases_ko": [
+"웨스트 샷",
+"허리 샷",
+"WS",
+"웨이스트 숏",
+"웨이스트 쇼트",
+"웨스트 숏",
+"웨스트 쇼트",
+"허리 숏",
+"허리 쇼트"
+],
+"definition_ko": "허리 부근부터 머리까지 담는 인물 구도.",
+"definition_en": "A framing of a figure from around the waist up to the head.",
+"example_ko": "손동작은 웨이스트 샷으로 담아요.",
+"example_en": "We capture hand gestures with a waist shot.",
+"note_ko": "WS는 문서에 따라 Wide Shot의 약자이기도 합니다. 약자만 보지 말고 프레이밍을 확인하세요.",
+"note_en": "Depending on the document, WS can also stand for Wide Shot. Don't rely on the abbreviation alone—check the framing."
+},
+{
+"id": "film-017",
+"field": "film",
+"term_ko": "풀 샷",
+"term_en": "Full shot",
+"english": "Full shot",
+"aliases_ko": [
+"풀샷",
+"전신 샷",
+"FS",
+"full figure",
+"풀 숏",
+"풀 쇼트",
+"풀숏",
+"풀쇼트",
+"전신 숏",
+"전신 쇼트"
+],
+"definition_ko": "머리부터 발끝까지 인물 전체를 담는 구도.",
+"definition_en": "A composition that frames the entire figure from head to toe.",
+"example_ko": "신발까지 풀 샷에 넣어주세요.",
+"example_en": "Please include the shoes in the full shot."
+},
+{
+"id": "film-018",
+"field": "film",
+"term_ko": "니 샷",
+"term_en": "Knee shot",
+"english": "Knee shot",
+"aliases_ko": [
+"니샷",
+"무릎 샷",
+"KS",
+"니 숏",
+"니 쇼트",
+"니숏",
+"니쇼트",
+"무릎 숏",
+"무릎 쇼트"
+],
+"definition_ko": "무릎 부근부터 머리까지 담는 구도.",
+"definition_en": "A composition framing from around the knees up to the head.",
+"example_ko": "니 샷으로 동작을 보여줘요.",
+"example_en": "Show the movement with a knee shot."
+},
+{
+"id": "film-019",
+"field": "film",
+"term_ko": "원 샷",
+"term_en": "One shot",
+"english": "One shot",
+"aliases_ko": [
+"원샷",
+"싱글 샷",
+"single shot",
+"원 숏",
+"원 쇼트",
+"원숏",
+"원쇼트",
+"싱글 숏",
+"싱글 쇼트"
+],
+"definition_ko": "한 사람을 중심으로 담는 숏.",
+"definition_en": "A shot centered on a single person.",
+"example_ko": "각자 원 샷도 찍어요.",
+"example_en": "Let's also shoot each person's one shot."
+},
+{
+"id": "film-020",
+"field": "film",
+"term_ko": "투 샷",
+"term_en": "Two shot",
+"english": "Two shot",
+"aliases_ko": [
+"투샷",
+"2 shot",
+"투 숏",
+"투 쇼트",
+"투숏",
+"투쇼트"
+],
+"definition_ko": "두 사람을 함께 담는 숏.",
+"definition_en": "A shot that frames two people together.",
+"example_ko": "대화는 투 샷으로 시작해요.",
+"example_en": "We start the conversation with a two shot."
+},
+{
+"id": "film-021",
+"field": "film",
+"term_ko": "그룹 샷",
+"term_en": "Group shot",
+"english": "Group shot",
+"aliases_ko": [
+"그룹샷",
+"단체 샷",
+"그룹 숏",
+"그룹 쇼트",
+"그룹숏",
+"그룹쇼트",
+"단체 숏",
+"단체 쇼트"
+],
+"definition_ko": "여러 사람을 한 화면에 담는 숏.",
+"definition_en": "A shot that frames several people in one frame.",
+"example_ko": "마지막은 그룹 샷이에요.",
+"example_en": "The last one is a group shot."
+},
+{
+"id": "film-022",
+"field": "film",
+"term_ko": "샷",
+"term_en": "Shot",
+"english": "Shot",
+"aliases_ko": [
+"숏",
+"쇼트",
+"shot"
+],
+"definition_ko": "하나의 구도로 담은 영상의 기본 단위.",
+"definition_en": "The basic unit of footage captured in a single composition.",
+"example_ko": "이 샷 뒤에 반응을 붙여요.",
+"example_en": "We add a reaction after this shot.",
+"note_ko": "샷·숏·쇼트는 같은 영어 shot을 옮긴 표기입니다. 다른 단어 수로 부풀리지 않고 한 항목에 연결했습니다.",
+"note_en": "Shot and its transliterations all render the same English word 'shot'. They are linked to one entry rather than inflated into separate words."
+},
+{
+"id": "film-023",
+"field": "film",
+"term_ko": "씬",
+"term_en": "Scene",
+"english": "Scene",
+"aliases_ko": [
+"신",
+"장면"
+],
+"definition_ko": "대체로 같은 시간·장소에서 이어지는 이야기 단위.",
+"definition_en": "A story unit that generally continues in the same time and place.",
+"example_ko": "이 씬은 카페에서 진행돼요.",
+"example_en": "This scene takes place in a cafe."
+},
+{
+"id": "film-024",
+"field": "film",
+"term_ko": "시퀀스",
+"term_en": "Sequence",
+"english": "Sequence",
+"aliases_ko": [
+"sequence"
+],
+"definition_ko": "연관된 장면들이 모여 이루는 이야기의 묶음.",
+"definition_en": "A grouping of related scenes that together form a story unit.",
+"example_ko": "추격 시퀀스가 끝났어요.",
+"example_en": "The chase sequence is over.",
+"note_ko": "여기서는 이야기 단위를 뜻합니다. 편집 프로그램에서는 여러 클립을 배치하는 타임라인 작업 단위를 가리키기도 합니다.",
+"note_en": "Here it means a story unit. In editing software it can also refer to a timeline work unit where multiple clips are arranged."
+},
+{
+"id": "film-025",
+"field": "film",
+"term_ko": "롱 테이크",
+"term_en": "Long take",
+"english": "Long take",
+"aliases_ko": [
+"롱테이크",
+"긴 테이크"
+],
+"definition_ko": "중간에 끊지 않고 길게 이어 찍는 숏.",
+"definition_en": "A shot filmed continuously over a long stretch without cutting.",
+"example_ko": "입장부터 롱 테이크로 담아요.",
+"example_en": "We capture from the entrance in one long take."
+},
+{
+"id": "film-026",
+"field": "film",
+"term_ko": "헤드 룸",
+"term_en": "Headroom",
+"english": "Headroom",
+"aliases_ko": [
+"헤드룸"
+],
+"definition_ko": "머리 위와 화면 상단 사이의 여백.",
+"definition_en": "The empty space between the top of the head and the top of the frame.",
+"example_ko": "헤드 룸을 조금 줄여요.",
+"example_en": "Reduce the headroom a little."
+},
+{
+"id": "film-027",
+"field": "film",
+"term_ko": "아이 룸",
+"term_en": "Eye room",
+"english": "Eye room",
+"aliases_ko": [
+"아이룸",
+"룩킹 룸",
+"노즈 룸"
+],
+"definition_ko": "인물의 시선 방향에 두는 여백.",
+"definition_en": "The empty space placed in the direction of a figure's gaze.",
+"example_ko": "아이 룸을 오른쪽에 주세요.",
+"example_en": "Please give eye room on the right."
+},
+{
+"id": "film-028",
+"field": "film",
+"term_ko": "리드 룸",
+"term_en": "Lead room",
+"english": "Lead room",
+"aliases_ko": [
+"리드룸"
+],
+"definition_ko": "인물이나 물체가 이동하는 방향의 여백.",
+"definition_en": "The empty space in the direction a figure or object is moving.",
+"example_ko": "달리는 앞쪽에 리드 룸을 둬요.",
+"example_en": "Leave lead room in front of the runner."
+},
+{
+"id": "film-029",
+"field": "film",
+"term_ko": "팔로우",
+"term_en": "Follow",
+"english": "Follow",
+"aliases_ko": [
+"팔로",
+"팔로우 샷",
+"follow shot",
+"팔로우 숏",
+"팔로우 쇼트"
+],
+"definition_ko": "움직이는 대상을 화면 안에서 따라가는 촬영 지시.",
+"definition_en": "A shooting instruction to follow a moving subject within the frame.",
+"example_ko": "걸어오는 배우를 팔로우해요.",
+"example_en": "Follow the actor walking toward us.",
+"note_ko": "대상을 따라가는 목적을 말합니다. 제자리에서 팬으로 따라갈 수도, 카메라가 이동할 수도 있어요. 초점 조작 장치인 팔로우 포커스와는 다릅니다.",
+"note_en": "It refers to the goal of following the subject. You can follow by panning in place or by moving the camera. It differs from the follow focus, a focus-control device."
+},
+{
+"id": "film-030",
+"field": "film",
+"term_ko": "테이크",
+"term_en": "Take",
+"english": "Take",
+"aliases_ko": [
+"테잌",
+"take"
+],
+"definition_ko": "같은 숏을 찍은 각각의 시도.",
+"definition_en": "Each individual attempt at filming the same shot.",
+"example_ko": "세 번째 테이크로 확인해요.",
+"example_en": "Let's check with the third take."
+},
+{
+"id": "film-031",
+"field": "film",
+"term_ko": "오케이 컷",
+"term_en": "OK take",
+"english": "OK take",
+"aliases_ko": [
+"오케이컷",
+"OK 컷",
+"오케이"
+],
+"definition_ko": "사용할 만하다고 선택한 촬영분.",
+"definition_en": "The footage selected as usable.",
+"example_ko": "이번 테이크는 오케이 컷이에요.",
+"example_en": "This take is the OK take."
+},
+{
+"id": "film-032",
+"field": "film",
+"term_ko": "킵",
+"term_en": "Keep",
+"english": "Keep",
+"aliases_ko": [
+"keep",
+"킵 컷"
+],
+"definition_ko": "바로 버리지 않고 후보로 남기는 촬영분.",
+"definition_en": "Footage kept as a candidate rather than discarded right away.",
+"example_ko": "이 버전도 킵해두죠.",
+"example_en": "Let's keep this version too."
+},
+{
+"id": "film-033",
+"field": "film",
+"term_ko": "인서트",
+"term_en": "Insert",
+"english": "Insert shot",
+"aliases_ko": [
+"인서트 샷",
+"삽입 컷",
+"인서트 숏",
+"인서트 쇼트"
+],
+"definition_ko": "장면의 중요한 사물·동작을 따로 강조하는 숏.",
+"definition_en": "A shot that separately emphasizes an important object or action in a scene.",
+"example_ko": "서명하는 손 인서트가 필요해요.",
+"example_en": "We need an insert of the hand signing."
+},
+{
+"id": "film-034",
+"field": "film",
+"term_ko": "B롤",
+"term_en": "B-roll",
+"english": "B-roll",
+"aliases_ko": [
+"비롤",
+"B roll",
+"보조 영상",
+"비 롤"
+],
+"definition_ko": "주요 영상에 덧붙여 상황과 분위기를 보여주는 보조 촬영분.",
+"definition_en": "Supplementary footage added to the main footage to show context and mood.",
+"example_ko": "작업실 B롤도 찍어주세요.",
+"example_en": "Please also shoot B-roll of the workshop."
+},
+{
+"id": "film-035",
+"field": "film",
+"term_ko": "시마이",
+"term_en": "Wrap",
+"english": "Wrap up",
+"aliases_ko": [
+"시마이하다",
+"시마이 치다",
+"촬끝",
+"wrap",
+"랩",
+"쫑",
+"쫑내다",
+"촬영 쫑"
+],
+"definition_ko": "하던 일을 끝내고 마무리한다는 말.",
+"definition_en": "An expression meaning to finish and wrap up the work at hand.",
+"example_ko": "오늘 촬영은 여기서 시마이해요.",
+"example_en": "Let's wrap today's shoot here.",
+"note_ko": "여러 작업 현장에서 일 마무리를 뜻하는 공통 표현입니다. 영상 항목의 예문은 촬영 상황에 맞춰 작성했습니다. ‘촬영 종료’, ‘마무리’로 바꿔 말할 수 있어요.",
+"note_en": "A common expression for finishing work across many job sites. The example for this film entry is written to fit a shooting context. You can replace it with 'end of shoot' or 'wrap-up'."
+},
+{
+"id": "common-003",
+"field": "common",
+"term_ko": "시마이",
+"term_en": "Wrap",
+"english": "Wrap up",
+"aliases_ko": [
+"시마이하다",
+"시마이 치다"
+],
+"definition_ko": "일을 마무리하고 끝낸다는 표현.",
+"definition_en": "An expression for finishing and ending the work.",
+"example_ko": "이 작업은 여기서 시마이하죠.",
+"example_en": "Let's wrap this task here.",
+"note_ko": "여러 작업 현장에서 일 마무리를 뜻하는 공통 표현입니다. 영상 항목의 예문은 촬영 상황에 맞춰 작성했습니다. ‘촬영 종료’, ‘마무리’로 바꿔 말할 수 있어요.",
+"note_en": "A common expression for finishing work across many job sites. The example for the film entry is written to fit a shooting context. You can replace it with 'end of shoot' or 'wrap-up'."
+},
+{
+"id": "film-036",
+"field": "film",
+"term_ko": "팬",
+"term_en": "Pan",
+"english": "Pan",
+"aliases_ko": [
+"패닝",
+"panning",
+"팬 레프트",
+"팬 라이트"
+],
+"definition_ko": "카메라 위치를 유지하며 좌우로 방향을 돌리는 동작.",
+"definition_en": "Turning the camera left or right while keeping its position.",
+"example_ko": "입구 쪽으로 팬해요.",
+"example_en": "Pan toward the entrance."
+},
+{
+"id": "film-037",
+"field": "film",
+"term_ko": "틸트",
+"term_en": "Tilt",
+"english": "Tilt",
+"aliases_ko": [
+"틸팅",
+"tilting",
+"틸트 업",
+"틸트 다운"
+],
+"definition_ko": "카메라 위치를 유지하며 위아래로 방향을 돌리는 동작.",
+"definition_en": "Turning the camera up or down while keeping its position.",
+"example_ko": "발부터 얼굴까지 틸트 업해요.",
+"example_en": "Tilt up from the feet to the face."
+},
+{
+"id": "film-038",
+"field": "film",
+"term_ko": "휩 팬",
+"term_en": "Whip pan",
+"english": "Whip pan",
+"aliases_ko": [
+"스위시 팬",
+"스윙 팬"
+],
+"definition_ko": "화면이 흐려질 만큼 빠르게 좌우로 돌리는 팬.",
+"definition_en": "A pan turned left or right so fast that the image blurs.",
+"example_ko": "휩 팬으로 다음 인물을 보여줘요.",
+"example_en": "We reveal the next person with a whip pan."
+},
+{
+"id": "film-039",
+"field": "film",
+"term_ko": "달리 인",
+"term_en": "Dolly in",
+"english": "Dolly in",
+"aliases_ko": [
+"푸시 인",
+"push in",
+"돌리 인"
+],
+"definition_ko": "카메라 자체가 피사체 쪽으로 가까워지는 이동.",
+"definition_en": "A move where the camera itself gets closer to the subject.",
+"example_ko": "표정에 맞춰 달리 인해요.",
+"example_en": "We dolly in to match the expression."
+},
+{
+"id": "film-040",
+"field": "film",
+"term_ko": "달리 아웃",
+"term_en": "Dolly out",
+"english": "Dolly out",
+"aliases_ko": [
+"풀 아웃",
+"pull out",
+"돌리 아웃"
+],
+"definition_ko": "카메라 자체가 피사체에서 멀어지는 이동.",
+"definition_en": "A move where the camera itself moves away from the subject.",
+"example_ko": "공간이 보이게 달리 아웃해요.",
+"example_en": "We dolly out to reveal the space."
+},
+{
+"id": "film-041",
+"field": "film",
+"term_ko": "줌 인",
+"term_en": "Zoom in",
+"english": "Zoom in",
+"aliases_ko": [
+"줌인"
+],
+"definition_ko": "초점거리를 늘려 대상을 화면에서 크게 보이게 하는 것.",
+"definition_en": "Making the subject appear larger in frame by increasing the focal length.",
+"example_ko": "표지판을 줌 인해요.",
+"example_en": "Zoom in on the sign."
+},
+{
+"id": "film-042",
+"field": "film",
+"term_ko": "줌 아웃",
+"term_en": "Zoom out",
+"english": "Zoom out",
+"aliases_ko": [
+"줌아웃"
+],
+"definition_ko": "초점거리를 줄여 화면에 더 넓은 범위를 담는 것.",
+"definition_en": "Capturing a wider range in frame by decreasing the focal length.",
+"example_ko": "주변이 보이게 줌 아웃해요.",
+"example_en": "Zoom out so the surroundings are visible."
+},
+{
+"id": "film-043",
+"field": "film",
+"term_ko": "달리 줌",
+"term_en": "Dolly zoom",
+"english": "Dolly zoom",
+"aliases_ko": [
+"돌리 줌",
+"버티고 효과",
+"zolly"
+],
+"definition_ko": "카메라 이동과 반대 방향 줌을 함께 써 원근감을 변화시키는 기법.",
+"definition_en": "A technique that changes perspective by combining camera movement with a zoom in the opposite direction.",
+"example_ko": "불안한 순간에 달리 줌을 써요.",
+"example_en": "We use a dolly zoom at the uneasy moment."
+},
+{
+"id": "film-044",
+"field": "film",
+"term_ko": "롤",
+"term_en": "Roll",
+"english": "Roll",
+"aliases_ko": [
+"카메라 롤",
+"roll shot"
+],
+"definition_ko": "렌즈를 향하는 축을 중심으로 카메라를 회전시키는 동작.",
+"definition_en": "Rotating the camera around the axis pointing toward the lens.",
+"example_ko": "롤로 기울어지는 느낌을 줘요.",
+"example_en": "Give it a tilting feel with a roll.",
+"note_ko": "촬영 현장의 ‘롤 카메라’는 녹화 시작 지시이며, 여기서 설명한 카메라 회전과는 다른 쓰임입니다.",
+"note_en": "On set, 'roll camera' is a cue to start recording, a different usage from the camera rotation described here."
+},
+{
+"id": "film-045",
+"field": "film",
+"term_ko": "아크 샷",
+"term_en": "Arc shot",
+"english": "Arc shot",
+"aliases_ko": [
+"아크",
+"아크숏",
+"아크 숏",
+"아크 쇼트"
+],
+"definition_ko": "대상을 중심으로 원호를 그리며 이동하는 숏.",
+"definition_en": "A shot that moves in an arc around the subject.",
+"example_ko": "두 사람 주위를 아크 샷으로 담아요.",
+"example_en": "We capture the two people with an arc shot around them."
+},
+{
+"id": "film-046",
+"field": "film",
+"term_ko": "픽스 샷",
+"term_en": "Fixed shot",
+"english": "Static shot",
+"aliases_ko": [
+"픽스",
+"고정 샷",
+"fixed shot",
+"스태틱 샷",
+"픽스 숏",
+"픽스 쇼트",
+"고정 숏",
+"고정 쇼트",
+"스태틱 숏",
+"스태틱 쇼트"
+],
+"definition_ko": "카메라의 위치와 구도를 움직이지 않는 숏.",
+"definition_en": "A shot in which the camera's position and framing do not move.",
+"example_ko": "이번 장면은 픽스 샷이에요.",
+"example_en": "This scene is a fixed shot."
+},
+{
+"id": "film-047",
+"field": "film",
+"term_ko": "페데스털",
+"term_en": "Pedestal",
+"english": "Pedestal",
+"aliases_ko": [
+"페데스탈",
+"페데스털 업",
+"페데스털 다운"
+],
+"definition_ko": "카메라 전체의 높이를 수직으로 올리거나 내리는 동작.",
+"definition_en": "A move that raises or lowers the entire camera vertically.",
+"example_ko": "페데스털 업으로 눈높이를 맞춰요.",
+"example_en": "We match eye level with a pedestal up."
+},
+{
+"id": "film-048",
+"field": "film",
+"term_ko": "트럭",
+"term_en": "Truck",
+"english": "Truck",
+"aliases_ko": [
+"트러킹",
+"trucking",
+"트럭 레프트",
+"트럭 라이트"
+],
+"definition_ko": "카메라가 옆으로 평행 이동하는 동작.",
+"definition_en": "A move where the camera travels sideways in parallel.",
+"example_ko": "인물과 나란히 트럭 라이트해요.",
+"example_en": "We truck right alongside the subject."
+},
+{
+"id": "film-049",
+"field": "film",
+"term_ko": "붐 샷",
+"term_en": "Boom shot",
+"english": "Boom shot",
+"aliases_ko": [
+"붐 업",
+"붐 다운",
+"붐 숏",
+"붐 쇼트"
+],
+"definition_ko": "크레인·지브 암으로 카메라를 위아래로 이동시키는 숏.",
+"definition_en": "A shot that moves the camera up and down with a crane or jib arm.",
+"example_ko": "붐 업으로 마당을 드러내요.",
+"example_en": "We reveal the yard with a boom up."
+},
+{
+"id": "film-050",
+"field": "film",
+"term_ko": "핸드헬드",
+"term_en": "Handheld",
+"english": "Handheld",
+"aliases_ko": [
+"핸드 헬드",
+"핸드헬드 샷",
+"데모찌",
+"데모치",
+"핸드헬드 숏",
+"핸드헬드 쇼트"
+],
+"definition_ko": "손이나 어깨로 카메라를 지지하며 찍는 방식.",
+"definition_en": "A method of shooting while supporting the camera with the hands or shoulder.",
+"example_ko": "이동 장면은 핸드헬드로 가요.",
+"example_en": "We'll go handheld for the moving scene.",
+"note_ko": "데모찌는 1985년 순화 자료에서 확인되는 현장 호칭입니다.",
+"note_en": "'Demochi' is a field term found in 1985 language-refinement materials."
+},
+{
+"id": "film-051",
+"field": "film",
+"term_ko": "삼각대",
+"term_en": "Tripod",
+"english": "Tripod",
+"aliases_ko": [
+"트라이포드"
+],
+"definition_ko": "세 다리로 카메라를 받치는 장비.",
+"definition_en": "Equipment that supports the camera on three legs.",
+"example_ko": "삼각대에 카메라를 올려요.",
+"example_en": "We put the camera on the tripod."
+},
+{
+"id": "film-052",
+"field": "film",
+"term_ko": "달리",
+"term_en": "Dolly",
+"english": "Camera dolly",
+"aliases_ko": [
+"돌리",
+"카메라 달리"
+],
+"definition_ko": "카메라를 싣고 부드럽게 이동시키는 바퀴 달린 받침 장비.",
+"definition_en": "A wheeled support rig that carries the camera and moves it smoothly.",
+"example_ko": "달리 이동 경로를 확인해요.",
+"example_en": "We check the dolly's path of movement."
+},
+{
+"id": "film-053",
+"field": "film",
+"term_ko": "슬라이더",
+"term_en": "Slider",
+"english": "Camera slider",
+"aliases_ko": [
+"카메라 슬라이더"
+],
+"definition_ko": "레일을 따라 카메라를 짧게 이동시키는 장비.",
+"definition_en": "Equipment that moves the camera a short distance along a rail.",
+"example_ko": "제품 옆으로 슬라이더를 밀어요.",
+"example_en": "We push the slider past the product."
+},
+{
+"id": "film-054",
+"field": "film",
+"term_ko": "지브",
+"term_en": "Jib",
+"english": "Jib",
+"aliases_ko": [
+"지브 암",
+"지미집",
+"크레인",
+"camera crane"
+],
+"definition_ko": "긴 암에 카메라를 달아 넓게 움직이는 장비.",
+"definition_en": "Equipment that mounts the camera on a long arm for wide movement.",
+"example_ko": "지브로 무대 전체를 담아요.",
+"example_en": "We capture the whole stage with a jib.",
+"note_ko": "지미집(Jimmy Jib)은 장비 이름에서 온 현장 호칭입니다. 모든 지브가 해당 브랜드 제품인 것은 아닙니다.",
+"note_en": "'Jimmy Jib' is a field term derived from an equipment brand name. Not every jib is a product of that brand."
+},
+{
+"id": "film-055",
+"field": "film",
+"term_ko": "스테디캠",
+"term_en": "Steadicam",
+"english": "Steadicam",
+"aliases_ko": [
+"스테디 캠"
+],
+"definition_ko": "몸에 장착하는 안정화 장치 계열로 부드러운 이동 촬영에 쓰이는 이름.",
+"definition_en": "A name for a body-mounted stabilizer class used for smooth moving shots.",
+"example_ko": "스테디캠으로 복도를 따라가요.",
+"example_en": "We follow the hallway with a Steadicam.",
+"note_ko": "Steadicam은 장비 브랜드 이름입니다. 모든 안정화 장비나 전자식 짐벌을 뜻하는 일반명으로 혼동하지 마세요.",
+"note_en": "Steadicam is an equipment brand name. Don't confuse it as a generic term for all stabilizers or electronic gimbals."
+},
+{
+"id": "film-056",
+"field": "film",
+"term_ko": "짐벌",
+"term_en": "Gimbal",
+"english": "Gimbal",
+"aliases_ko": [
+"김벌",
+"카메라 짐벌"
+],
+"definition_ko": "회전축을 제어해 카메라 흔들림을 줄이는 안정화 장비.",
+"definition_en": "A stabilizer that reduces camera shake by controlling rotation axes.",
+"example_ko": "짐벌 균형을 먼저 맞춰요.",
+"example_en": "Balance the gimbal first."
+},
+{
+"id": "film-057",
+"field": "film",
+"term_ko": "스노리캠",
+"term_en": "Snorricam",
+"english": "Snorricam",
+"aliases_ko": [
+"바디 마운트",
+"body rig"
+],
+"definition_ko": "배우 몸에 카메라를 고정해 함께 움직이도록 하는 장치.",
+"definition_en": "A device that fixes the camera to an actor's body so it moves with them.",
+"example_ko": "스노리캠으로 인물을 고정해 보여줘요.",
+"example_en": "We fix the figure in place and show them with a Snorricam."
+},
+{
+"id": "film-058",
+"field": "film",
+"term_ko": "단렌즈",
+"term_en": "Prime lens",
+"english": "Prime lens",
+"aliases_ko": [
+"프라임 렌즈",
+"프라임"
+],
+"definition_ko": "초점거리가 하나로 고정된 렌즈.",
+"definition_en": "A lens with a single fixed focal length.",
+"example_ko": "오늘은 50mm 단렌즈를 써요.",
+"example_en": "Today we use a 50mm prime lens."
+},
+{
+"id": "film-059",
+"field": "film",
+"term_ko": "줌 렌즈",
+"term_en": "Zoom lens",
+"english": "Zoom lens",
+"aliases_ko": [
+"줌렌즈"
+],
+"definition_ko": "초점거리를 바꿀 수 있는 렌즈.",
+"definition_en": "A lens whose focal length can be changed.",
+"example_ko": "줌 렌즈로 구도를 조절해요.",
+"example_en": "We adjust the composition with a zoom lens."
+},
+{
+"id": "film-060",
+"field": "film",
+"term_ko": "광각 렌즈",
+"term_en": "Wide-angle lens",
+"english": "Wide-angle lens",
+"aliases_ko": [
+"광각",
+"와이드 렌즈"
+],
+"definition_ko": "같은 촬상면에서 넓은 화각을 담는 짧은 초점거리 렌즈.",
+"definition_en": "A short-focal-length lens that captures a wide angle of view on the same sensor.",
+"example_ko": "좁은 실내는 광각으로 담아요.",
+"example_en": "We capture the narrow interior with a wide-angle lens."
+},
+{
+"id": "film-061",
+"field": "film",
+"term_ko": "망원 렌즈",
+"term_en": "Telephoto lens",
+"english": "Telephoto lens",
+"aliases_ko": [
+"망원",
+"텔레포토"
+],
+"definition_ko": "먼 대상을 크게 담는 긴 초점거리 렌즈.",
+"definition_en": "A long-focal-length lens that captures distant subjects large.",
+"example_ko": "먼 무대는 망원으로 찍어요.",
+"example_en": "We shoot the distant stage with a telephoto lens."
+},
+{
+"id": "film-062",
+"field": "film",
+"term_ko": "표준 렌즈",
+"term_en": "Standard lens",
+"english": "Normal lens",
+"aliases_ko": [
+"노멀 렌즈"
+],
+"definition_ko": "촬상면 대각선 길이 부근의 초점거리를 가진 렌즈.",
+"definition_en": "A lens with a focal length near the diagonal length of the sensor.",
+"example_ko": "표준 렌즈로 구도를 확인해요.",
+"example_en": "We check the composition with a standard lens."
+},
+{
+"id": "film-063",
+"field": "film",
+"term_ko": "매크로 렌즈",
+"term_en": "Macro lens",
+"english": "Macro lens",
+"aliases_ko": [
+"마크로",
+"접사 렌즈"
+],
+"definition_ko": "작은 대상을 가까이에서 크게 담도록 설계된 렌즈.",
+"definition_en": "A lens designed to capture small subjects large from close up.",
+"example_ko": "질감은 매크로 렌즈로 찍어요.",
+"example_en": "We shoot texture with a macro lens."
+},
+{
+"id": "film-064",
+"field": "film",
+"term_ko": "파포컬",
+"term_en": "Parfocal",
+"english": "Parfocal",
+"aliases_ko": [
+"파포컬 렌즈",
+"동초점 렌즈"
+],
+"definition_ko": "줌을 바꿔도 맞춘 초점이 유지되는 렌즈 특성.",
+"definition_en": "A lens property where set focus is maintained even when the zoom changes.",
+"example_ko": "파포컬인지 확인하고 줌해요.",
+"example_en": "Check that it's parfocal before zooming."
+},
+{
+"id": "film-065",
+"field": "film",
+"term_ko": "아나모픽",
+"term_en": "Anamorphic",
+"english": "Anamorphic lens",
+"aliases_ko": [
+"아나모픽 렌즈"
+],
+"definition_ko": "영상을 가로 방향으로 압축해 기록하고 후에 펼치는 렌즈 방식.",
+"definition_en": "A lens method that records the image horizontally compressed and expands it later.",
+"example_ko": "아나모픽에 맞춰 화면을 펼쳐요.",
+"example_en": "We expand the image to match the anamorphic."
+},
+{
+"id": "film-066",
+"field": "film",
+"term_ko": "랙 포커스",
+"term_en": "Rack focus",
+"english": "Rack focus",
+"aliases_ko": [
+"랙포커스",
+"포커스 이동",
+"초점 이동"
+],
+"definition_ko": "한 숏 안에서 서로 다른 거리의 대상으로 초점을 옮기는 기법.",
+"definition_en": "A technique that shifts focus to subjects at different distances within one shot.",
+"example_ko": "컵에서 인물로 랙 포커스해요.",
+"example_en": "We rack focus from the cup to the figure."
+},
+{
+"id": "film-067",
+"field": "film",
+"term_ko": "포커스 풀러",
+"term_en": "Focus puller",
+"english": "Focus puller",
+"aliases_ko": [
+"퍼스트 AC",
+"1st AC",
+"포커스맨",
+"포커스 맨"
+],
+"definition_ko": "촬영 중 초점을 맞추고 유지하는 촬영 보조 담당자.",
+"definition_en": "A camera assistant who sets and maintains focus during shooting.",
+"example_ko": "포커스 풀러와 동선을 맞춰요.",
+"example_en": "We coordinate movement with the focus puller."
+},
+{
+"id": "film-068",
+"field": "film",
+"term_ko": "팔로우 포커스",
+"term_en": "Follow focus",
+"english": "Follow focus",
+"aliases_ko": [
+"팔로 포커스",
+"팔포"
+],
+"definition_ko": "렌즈 초점을 정밀하게 조작하도록 돕는 장치.",
+"definition_en": "A device that helps precisely control lens focus.",
+"example_ko": "팔로우 포커스에 거리를 표시해요.",
+"example_en": "We mark distances on the follow focus."
+},
+{
+"id": "film-069",
+"field": "film",
+"term_ko": "얕은 심도",
+"term_en": "Shallow depth of field",
+"english": "Shallow depth of field",
+"aliases_ko": [
+"쉘로 포커스",
+"shallow focus",
+"아웃포커싱"
+],
+"definition_ko": "선명하게 보이는 앞뒤 거리 범위가 좁은 상태.",
+"definition_en": "A state where the in-focus front-to-back range is narrow.",
+"example_ko": "얕은 심도로 인물을 강조해요.",
+"example_en": "We emphasize the figure with a shallow depth of field.",
+"note_ko": "‘아웃포커싱’은 배경을 흐리게 만드는 효과를 찾는 검색 표현으로 연결했습니다. 화면 전체의 초점이 어긋난 상태와는 구별하세요.",
+"note_en": "'Out-focusing' is linked as a search term for the effect of blurring the background. Distinguish it from a state where the entire image is out of focus."
+},
+{
+"id": "film-070",
+"field": "film",
+"term_ko": "깊은 심도",
+"term_en": "Deep depth of field",
+"english": "Deep depth of field",
+"aliases_ko": [
+"딥 포커스",
+"deep focus",
+"팬 포커스"
+],
+"definition_ko": "가까운 곳부터 먼 곳까지 넓게 선명해 보이는 상태.",
+"definition_en": "A state where everything appears sharp from near to far.",
+"example_ko": "깊은 심도로 공간을 보여줘요.",
+"example_en": "We show the space with a deep depth of field."
+},
+{
+"id": "film-071",
+"field": "film",
+"term_ko": "키 라이트",
+"term_en": "Key light",
+"english": "Key light",
+"aliases_ko": [
+"키라이트",
+"주광",
+"메인 라이트"
+],
+"definition_ko": "피사체를 비추는 중심 조명.",
+"definition_en": "The main light that illuminates the subject.",
+"example_ko": "키 라이트를 왼쪽에 둬요.",
+"example_en": "Place the key light on the left."
+},
+{
+"id": "film-072",
+"field": "film",
+"term_ko": "필 라이트",
+"term_en": "Fill light",
+"english": "Fill light",
+"aliases_ko": [
+"필라이트",
+"보조광"
+],
+"definition_ko": "주광이 만든 그림자를 완화하는 빛.",
+"definition_en": "Light that softens the shadows created by the key light.",
+"example_ko": "필 라이트를 조금 줄여요.",
+"example_en": "Reduce the fill light a little."
+},
+{
+"id": "film-073",
+"field": "film",
+"term_ko": "백 라이트",
+"term_en": "Back light",
+"english": "Backlight",
+"aliases_ko": [
+"백라이트",
+"백광"
+],
+"definition_ko": "피사체 뒤에서 비춰 배경과 구분하는 빛.",
+"definition_en": "Light shone from behind the subject to separate it from the background.",
+"example_ko": "백 라이트로 인물을 분리해요.",
+"example_en": "We separate the figure with a back light."
+},
+{
+"id": "film-074",
+"field": "film",
+"term_ko": "림 라이트",
+"term_en": "Rim light",
+"english": "Rim light",
+"aliases_ko": [
+"림라이트",
+"윤곽광"
+],
+"definition_ko": "피사체 가장자리에 밝은 윤곽을 만드는 빛.",
+"definition_en": "Light that creates a bright outline along the edge of the subject.",
+"example_ko": "어깨에 림 라이트를 줘요.",
+"example_en": "Add a rim light on the shoulder."
+},
+{
+"id": "film-075",
+"field": "film",
+"term_ko": "프랙티컬",
+"term_en": "Practical",
+"english": "Practical light",
+"aliases_ko": [
+"프랙티컬 라이트",
+"실용광"
+],
+"definition_ko": "화면 안에 실제로 보이는 조명 광원.",
+"definition_en": "A lighting source that is actually visible within the frame.",
+"example_ko": "스탠드를 프랙티컬로 써요.",
+"example_en": "We use the lamp as a practical."
+},
+{
+"id": "film-076",
+"field": "film",
+"term_ko": "바운스",
+"term_en": "Bounce",
+"english": "Bounce light",
+"aliases_ko": [
+"바운스 라이트",
+"반사광"
+],
+"definition_ko": "벽이나 반사판에 반사시켜 비추는 빛.",
+"definition_en": "Light reflected off a wall or reflector.",
+"example_ko": "천장 바운스로 부드럽게 해요.",
+"example_en": "We soften it with a ceiling bounce."
+},
+{
+"id": "film-077",
+"field": "film",
+"term_ko": "하드 라이트",
+"term_en": "Hard light",
+"english": "Hard light",
+"aliases_ko": [
+"경광",
+"하드광"
+],
+"definition_ko": "경계가 뚜렷한 그림자를 만드는 빛.",
+"definition_en": "Light that creates sharply defined shadows.",
+"example_ko": "하드 라이트로 질감을 살려요.",
+"example_en": "We bring out texture with hard light."
+},
+{
+"id": "film-078",
+"field": "film",
+"term_ko": "소프트 라이트",
+"term_en": "Soft light",
+"english": "Soft light",
+"aliases_ko": [
+"연광",
+"소프트광"
+],
+"definition_ko": "경계가 부드러운 그림자를 만드는 빛.",
+"definition_en": "Light that creates soft-edged shadows.",
+"example_ko": "소프트 라이트로 얼굴을 비춰요.",
+"example_en": "We light the face with soft light."
+},
+{
+"id": "film-079",
+"field": "film",
+"term_ko": "플래그",
+"term_en": "Flag",
+"english": "Flag",
+"aliases_ko": [
+"차광판",
+"플래그 조명"
+],
+"definition_ko": "빛을 막거나 범위를 제한하는 불투명한 판·천.",
+"definition_en": "An opaque board or cloth that blocks light or limits its spread.",
+"example_ko": "플래그로 벽의 빛을 막아요.",
+"example_en": "We block the light on the wall with a flag."
+},
+{
+"id": "film-080",
+"field": "film",
+"term_ko": "반도어",
+"term_en": "Barn door",
+"english": "Barndoors",
+"aliases_ko": [
+"반도아",
+"바른도어"
+],
+"definition_ko": "조명 앞에서 빛의 퍼짐을 조절하는 날개.",
+"definition_en": "Flaps in front of a light that control the spread of the beam.",
+"example_ko": "반도어로 옆빛을 줄여요.",
+"example_en": "We reduce the side light with barn doors."
+},
+{
+"id": "film-081",
+"field": "film",
+"term_ko": "3점 조명",
+"term_en": "Three-point lighting",
+"english": "Three-point lighting",
+"aliases_ko": [
+"삼점 조명",
+"쓰리 포인트 라이팅"
+],
+"definition_ko": "주광·보조광·후면광을 조합하는 기본 조명 구성.",
+"definition_en": "A basic lighting setup combining key, fill, and back light.",
+"example_ko": "인터뷰는 3점 조명으로 시작해요.",
+"example_en": "We start the interview with three-point lighting."
+},
+{
+"id": "film-082",
+"field": "film",
+"term_ko": "하이 키",
+"term_en": "High key",
+"english": "High-key lighting",
+"aliases_ko": [
+"하이키"
+],
+"definition_ko": "명암 차이를 작게 하고 밝은 톤을 유지하는 조명 방식.",
+"definition_en": "A lighting style that keeps a bright tone with little contrast.",
+"example_ko": "밝은 광고라 하이 키로 가요.",
+"example_en": "It's a bright commercial, so we go high key."
+},
+{
+"id": "film-083",
+"field": "film",
+"term_ko": "로우 키",
+"term_en": "Low key",
+"english": "Low-key lighting",
+"aliases_ko": [
+"로 키",
+"로우키"
+],
+"definition_ko": "어두운 영역과 강한 명암 대비를 활용하는 조명 방식.",
+"definition_en": "A lighting style that uses dark areas and strong contrast.",
+"example_ko": "로우 키로 긴장감을 만들어요.",
+"example_en": "We create tension with low key."
+},
+{
+"id": "film-084",
+"field": "film",
+"term_ko": "디퓨전",
+"term_en": "Diffusion",
+"english": "Diffusion",
+"aliases_ko": [
+"디퓨저",
+"디퓨전 천",
+"확산재"
+],
+"definition_ko": "빛을 분산시켜 부드럽게 만드는 재료나 처리.",
+"definition_en": "Material or treatment that scatters light to make it soft.",
+"example_ko": "창에 디퓨전을 설치해요.",
+"example_en": "We install diffusion on the window."
+},
+{
+"id": "film-085",
+"field": "film",
+"term_ko": "네거티브 필",
+"term_en": "Negative fill",
+"english": "Negative fill",
+"aliases_ko": [
+"네거티브필",
+"검은 반사판"
+],
+"definition_ko": "반사되는 빛을 흡수·차단해 그림자를 짙게 만드는 방법.",
+"definition_en": "A method that absorbs or blocks reflected light to deepen shadows.",
+"example_ko": "검은 천으로 네거티브 필을 줘요.",
+"example_en": "We add negative fill with black cloth."
+},
+{
+"id": "film-086",
+"field": "film",
+"term_ko": "노출",
+"term_en": "Exposure",
+"english": "Exposure",
+"aliases_ko": [
+"익스포저"
+],
+"definition_ko": "촬상면에 들어오는 빛의 양과 관련된 밝기 조절.",
+"definition_en": "Brightness control related to the amount of light reaching the sensor.",
+"example_ko": "창밖에 맞춰 노출을 확인해요.",
+"example_en": "We check exposure against the view outside the window."
+},
+{
+"id": "film-087",
+"field": "film",
+"term_ko": "조리개",
+"term_en": "Aperture",
+"english": "Aperture",
+"aliases_ko": [
+"아이리스",
+"iris",
+"F값",
+"F스톱"
+],
+"definition_ko": "렌즈 안에서 빛이 통과하는 구멍의 크기를 조절하는 부분.",
+"definition_en": "The part inside a lens that adjusts the size of the opening light passes through.",
+"example_ko": "조리개를 조여 심도를 늘려요.",
+"example_en": "We stop down the aperture to increase depth of field."
+},
+{
+"id": "film-088",
+"field": "film",
+"term_ko": "셔터 스피드",
+"term_en": "Shutter speed",
+"english": "Shutter speed",
+"aliases_ko": [
+"셔터 속도",
+"노출 시간"
+],
+"definition_ko": "한 프레임을 기록할 때 빛을 받는 시간.",
+"definition_en": "The time light is received when recording a single frame.",
+"example_ko": "움직임에 맞춰 셔터를 조절해요.",
+"example_en": "We adjust the shutter to match the motion."
+},
+{
+"id": "film-089",
+"field": "film",
+"term_ko": "ISO",
+"term_en": "ISO",
+"english": "ISO sensitivity",
+"aliases_ko": [
+"아이에스오",
+"감도"
+],
+"definition_ko": "영상 밝기 처리와 노이즈에 영향을 주는 감도 설정값.",
+"definition_en": "A sensitivity setting that affects image brightness processing and noise.",
+"example_ko": "조명과 ISO를 함께 확인해요.",
+"example_en": "We check the lighting and ISO together."
+},
+{
+"id": "film-090",
+"field": "film",
+"term_ko": "과다 노출",
+"term_en": "Overexposure",
+"english": "Overexposure",
+"aliases_ko": [
+"오버 노출",
+"노출 오버"
+],
+"definition_ko": "필요보다 밝게 기록되어 밝은 부분의 정보가 사라질 수 있는 상태.",
+"definition_en": "A state recorded brighter than needed, where detail in bright areas may be lost.",
+"example_ko": "하늘의 과다 노출을 확인해요.",
+"example_en": "We check the sky for overexposure."
+},
+{
+"id": "film-091",
+"field": "film",
+"term_ko": "노출 부족",
+"term_en": "Underexposure",
+"english": "Underexposure",
+"aliases_ko": [
+"언더 노출",
+"노출 언더"
+],
+"definition_ko": "필요보다 어둡게 기록되어 어두운 부분을 구분하기 힘든 상태.",
+"definition_en": "A state recorded darker than needed, where dark areas are hard to distinguish.",
+"example_ko": "얼굴의 노출 부족을 보완해요.",
+"example_en": "We compensate for underexposure on the face."
+},
+{
+"id": "film-092",
+"field": "film",
+"term_ko": "J컷",
+"term_en": "J-cut",
+"english": "J-cut",
+"aliases_ko": [
+"제이 컷",
+"J 컷",
+"오디오 선행"
+],
+"definition_ko": "다음 장면의 소리를 화면보다 먼저 들려주는 편집.",
+"definition_en": "An edit that lets the next scene's sound be heard before the picture.",
+"example_ko": "J컷으로 다음 대사를 먼저 들려줘요.",
+"example_en": "We let the next line be heard first with a J-cut."
+},
+{
+"id": "film-093",
+"field": "film",
+"term_ko": "L컷",
+"term_en": "L-cut",
+"english": "L-cut",
+"aliases_ko": [
+"엘 컷",
+"L 컷",
+"오디오 후행"
+],
+"definition_ko": "화면이 바뀐 뒤에도 앞 장면의 소리가 이어지는 편집.",
+"definition_en": "An edit where the previous scene's sound continues after the picture changes.",
+"example_ko": "L컷으로 반응을 보여줘요.",
+"example_en": "We show the reaction with an L-cut."
+},
+{
+"id": "film-094",
+"field": "film",
+"term_ko": "스플릿 편집",
+"term_en": "Split edit",
+"english": "Split edit",
+"aliases_ko": [
+"스플릿 에디트"
+],
+"definition_ko": "소리와 화면의 전환 시점을 다르게 하는 편집.",
+"definition_en": "An edit where the transition points of sound and picture differ.",
+"example_ko": "스플릿 편집으로 대화를 연결해요.",
+"example_en": "We connect the dialogue with a split edit."
+},
+{
+"id": "film-095",
+"field": "film",
+"term_ko": "점프 컷",
+"term_en": "Jump cut",
+"english": "Jump cut",
+"aliases_ko": [
+"점프컷"
+],
+"definition_ko": "비슷한 구도에서 시간·동작이 불연속적으로 뛰어 보이게 자르는 편집.",
+"definition_en": "An edit that cuts within a similar composition so that time or action appears to jump.",
+"example_ko": "멈춘 부분은 점프 컷으로 줄여요.",
+"example_en": "We shorten the pause with a jump cut."
+},
+{
+"id": "film-096",
+"field": "film",
+"term_ko": "매치 컷",
+"term_en": "Match cut",
+"english": "Match cut",
+"aliases_ko": [
+"매치컷"
+],
+"definition_ko": "형태·동작·소리 등의 유사성을 이용해 서로 다른 숏을 잇는 편집.",
+"definition_en": "An edit that joins different shots using similarity of form, action, or sound.",
+"example_ko": "둥근 형태를 매치 컷으로 연결해요.",
+"example_en": "We connect round shapes with a match cut."
+},
+{
+"id": "film-097",
+"field": "film",
+"term_ko": "클립",
+"term_en": "Clip",
+"english": "Clip",
+"aliases_ko": [
+"clip"
+],
+"definition_ko": "편집에 사용하는 영상·음성의 한 조각.",
+"definition_en": "A single piece of video or audio used in editing.",
+"example_ko": "클립을 타임라인에 놓아요.",
+"example_en": "We place the clip on the timeline."
+},
+{
+"id": "film-098",
+"field": "film",
+"term_ko": "프레임",
+"term_en": "Frame",
+"english": "Frame",
+"aliases_ko": [
+"frame"
+],
+"definition_ko": "영상을 구성하는 한 장의 정지 화면.",
+"definition_en": "A single still image that makes up a video.",
+"example_ko": "한 프레임씩 확인해요.",
+"example_en": "We check frame by frame."
+},
+{
+"id": "film-099",
+"field": "film",
+"term_ko": "프레임 레이트",
+"term_en": "Frame rate",
+"english": "Frame rate",
+"aliases_ko": [
+"프레임률",
+"FPS",
+"프레임 속도"
+],
+"definition_ko": "1초 동안 기록·재생하는 프레임 수.",
+"definition_en": "The number of frames recorded or played per second.",
+"example_ko": "프레임 레이트를 맞춰요.",
+"example_en": "We match the frame rate."
+},
+{
+"id": "film-100",
+"field": "film",
+"term_ko": "코덱",
+"term_en": "Codec",
+"english": "Codec",
+"aliases_ko": [
+"codec"
+],
+"definition_ko": "영상·음성을 압축하고 복원하는 방식이나 프로그램.",
+"definition_en": "A method or program that compresses and restores video and audio.",
+"example_ko": "납품 코덱을 확인해요.",
+"example_en": "We check the delivery codec."
+},
+{
+"id": "film-101",
+"field": "film",
+"term_ko": "렌더링",
+"term_en": "Rendering",
+"english": "Rendering",
+"aliases_ko": [
+"렌더",
+"render"
+],
+"definition_ko": "편집·효과 결과를 계산해 화면으로 만드는 과정.",
+"definition_en": "The process of computing the result of edits and effects into a final image.",
+"example_ko": "효과 구간을 렌더링해요.",
+"example_en": "We render the effect section."
+},
+{
+"id": "film-102",
+"field": "film",
+"term_ko": "크로마키",
+"term_en": "Chroma key",
+"english": "Chroma key",
+"aliases_ko": [
+"크로마 키",
+"그린 스크린 합성"
+],
+"definition_ko": "특정 색 영역을 투명하게 만들어 다른 화면과 합성하는 기법.",
+"definition_en": "A technique that makes a specific color range transparent to composite it with another image.",
+"example_ko": "초록 배경을 크로마키로 빼요.",
+"example_en": "We key out the green background with chroma key."
+},
+{
+"id": "film-103",
+"field": "film",
+"term_ko": "키프레임",
+"term_en": "Keyframe",
+"english": "Keyframe",
+"aliases_ko": [
+"키 프레임"
+],
+"definition_ko": "특정 시점의 속성값을 지정하는 애니메이션 기준점.",
+"definition_en": "An animation reference point that specifies a property value at a specific time.",
+"example_ko": "위치에 키프레임을 넣어요.",
+"example_en": "We add a keyframe to the position."
+},
+{
+"id": "film-104",
+"field": "film",
+"term_ko": "레터박스",
+"term_en": "Letterbox",
+"english": "Letterbox",
+"aliases_ko": [
+"레터 박스"
+],
+"definition_ko": "화면 비율을 유지할 때 위아래에 남기는 띠 영역.",
+"definition_en": "The bands left at the top and bottom when maintaining an aspect ratio.",
+"example_ko": "레터박스 없이 비율을 맞춰요.",
+"example_en": "We match the ratio without letterboxing."
+},
+{
+"id": "film-105",
+"field": "film",
+"term_ko": "러프 컷",
+"term_en": "Rough cut",
+"english": "Rough cut",
+"aliases_ko": [
+"러프컷",
+"가편집",
+"가편",
+"가편본",
+"가편집본",
+"가편 시사",
+"가편 리뷰"
+],
+"definition_ko": "정밀한 다듬기 전 주요 흐름을 조립한 편집본.",
+"definition_en": "An edit assembling the main flow before detailed refinement.",
+"example_ko": "러프 컷에서 구성을 확인해요.",
+"example_en": "We check the structure in the rough cut."
+},
+{
+"id": "film-106",
+"field": "film",
+"term_ko": "룸 톤",
+"term_en": "Room tone",
+"english": "Room tone",
+"aliases_ko": [
+"룸톤",
+"공간음"
+],
+"definition_ko": "대사나 동작 없이 녹음한 장소 고유의 배경 소리.",
+"definition_en": "The location's inherent background sound, recorded without dialogue or action.",
+"example_ko": "이 방의 룸 톤을 따요.",
+"example_en": "We record this room's room tone."
+},
+{
+"id": "film-107",
+"field": "film",
+"term_ko": "라발리에",
+"term_en": "Lavalier",
+"english": "Lavalier microphone",
+"aliases_ko": [
+"핀 마이크",
+"라발리어",
+"lav mic"
+],
+"definition_ko": "옷이나 몸에 부착하는 작은 마이크.",
+"definition_en": "A small microphone attached to clothing or the body.",
+"example_ko": "라발리에 옷 스침을 확인해요.",
+"example_en": "We check the lavalier for clothing rustle."
+},
+{
+"id": "film-108",
+"field": "film",
+"term_ko": "샷건 마이크",
+"term_en": "Shotgun mic",
+"english": "Shotgun microphone",
+"aliases_ko": [
+"샷건",
+"지향성 샷건",
+"숏건 마이크",
+"쇼트건 마이크",
+"숏건",
+"쇼트건",
+"지향성 숏건",
+"지향성 쇼트건"
+],
+"definition_ko": "정면 소리를 중심으로 받도록 설계된 길쭉한 지향성 마이크.",
+"definition_en": "A long directional microphone designed to pick up sound mainly from the front.",
+"example_ko": "샷건을 화자 쪽으로 향해요.",
+"example_en": "We point the shotgun toward the speaker."
+},
+{
+"id": "film-109",
+"field": "film",
+"term_ko": "붐 폴",
+"term_en": "Boom pole",
+"english": "Boom pole",
+"aliases_ko": [
+"붐대",
+"붐 마이크 대"
+],
+"definition_ko": "마이크를 화면 밖에서 화자 가까이 두기 위한 긴 막대.",
+"definition_en": "A long pole for placing the mic near the speaker from off-frame.",
+"example_ko": "붐 폴이 화면에 안 들어오게 해요.",
+"example_en": "Keep the boom pole out of the frame."
+},
+{
+"id": "film-110",
+"field": "film",
+"term_ko": "팬텀 파워",
+"term_en": "Phantom power",
+"english": "Phantom power",
+"aliases_ko": [
+"팬텀 전원",
+"48V",
+"P48"
+],
+"definition_ko": "마이크 케이블을 통해 공급하는 직류 전원.",
+"definition_en": "DC power supplied through the microphone cable.",
+"example_ko": "마이크의 팬텀 파워 요구를 확인해요.",
+"example_en": "We check the mic's phantom power requirement.",
+"note_ko": "필요 전압과 지원 여부는 마이크·입력 장치에 따라 다릅니다. 모든 마이크에 켜야 하는 기능은 아닙니다.",
+"note_en": "The required voltage and support vary by microphone and input device. It is not a feature that must be turned on for every microphone."
+},
+{
+"id": "film-111",
+"field": "film",
+"term_ko": "프리프로덕션",
+"term_en": "Pre-production",
+"english": "Pre-production",
+"aliases_ko": [
+"프리 프로덕션",
+"프리프로",
+"사전 제작"
+],
+"definition_ko": "본 촬영 전 기획·섭외·준비를 진행하는 단계.",
+"definition_en": "The stage of planning, casting, and preparation before the main shoot.",
+"example_ko": "프리프로덕션에서 동선을 정해요.",
+"example_en": "We set the blocking in pre-production."
+},
+{
+"id": "film-112",
+"field": "film",
+"term_ko": "프로덕션",
+"term_en": "Production",
+"english": "Production",
+"aliases_ko": [
+"본 촬영",
+"production"
+],
+"definition_ko": "계획한 장면을 실제로 촬영하는 제작 단계.",
+"definition_en": "The production stage of actually shooting the planned scenes.",
+"example_ko": "프로덕션 일정이 시작돼요.",
+"example_en": "The production schedule begins."
+},
+{
+"id": "film-113",
+"field": "film",
+"term_ko": "포스트프로덕션",
+"term_en": "Post-production",
+"english": "Post-production",
+"aliases_ko": [
+"포스트 프로덕션",
+"포스트",
+"후반 작업"
+],
+"definition_ko": "촬영 후 편집·색·음향 등을 완성하는 단계.",
+"definition_en": "The stage of completing editing, color, and sound after shooting.",
+"example_ko": "포스트프로덕션 일정을 잡아요.",
+"example_en": "We set the post-production schedule."
+},
+{
+"id": "film-114",
+"field": "film",
+"term_ko": "콜 시트",
+"term_en": "Call sheet",
+"english": "Call sheet",
+"aliases_ko": [
+"콜시트",
+"촬영 일일 계획표"
+],
+"definition_ko": "당일 촬영 일정·장소·참여자 등을 안내하는 문서.",
+"definition_en": "A document announcing the day's shooting schedule, locations, participants, and more.",
+"example_ko": "내일 콜 시트를 확인해요.",
+"example_en": "We check tomorrow's call sheet."
+},
+{
+"id": "film-115",
+"field": "film",
+"term_ko": "콜 타임",
+"term_en": "Call time",
+"english": "Call time",
+"aliases_ko": [
+"콜타임",
+"집합 시간"
+],
+"definition_ko": "촬영 참여자가 현장에 도착해야 하는 지정 시각.",
+"definition_en": "The designated time by which shooting participants must arrive on set.",
+"example_ko": "팀마다 콜 타임이 달라요.",
+"example_en": "The call time differs by team."
+},
+{
+"id": "film-116",
+"field": "film",
+"term_ko": "블로킹",
+"term_en": "Blocking",
+"english": "Blocking",
+"aliases_ko": [
+"배우 동선",
+"동선 설계"
+],
+"definition_ko": "장면 속 배우의 위치와 움직임을 정하는 작업.",
+"definition_en": "The task of setting the positions and movements of actors in a scene.",
+"example_ko": "블로킹에 맞춰 카메라를 옮겨요.",
+"example_en": "We move the camera to match the blocking."
+},
+{
+"id": "film-117",
+"field": "film",
+"term_ko": "롤 카메라",
+"term_en": "Roll camera",
+"english": "Roll camera",
+"aliases_ko": [
+"카메라 롤",
+"카메라 돌아"
+],
+"definition_ko": "카메라 녹화를 시작하라는 지시.",
+"definition_en": "An instruction to start camera recording.",
+"example_ko": "롤 카메라, 준비됐습니다.",
+"example_en": "Roll camera—we're ready."
+},
+{
+"id": "film-118",
+"field": "film",
+"term_ko": "롤 사운드",
+"term_en": "Roll sound",
+"english": "Roll sound",
+"aliases_ko": [
+"사운드 롤"
+],
+"definition_ko": "소리 녹음을 시작하라는 지시.",
+"definition_en": "An instruction to start audio recording.",
+"example_ko": "롤 사운드 후 신호를 기다려요.",
+"example_en": "We wait for the cue after roll sound."
+},
+{
+"id": "film-119",
+"field": "film",
+"term_ko": "액션",
+"term_en": "Action",
+"english": "Action",
+"aliases_ko": [
+"액션 큐"
+],
+"definition_ko": "배우의 연기·동작을 시작하라는 신호.",
+"definition_en": "The cue to begin the actors' performance and movement.",
+"example_ko": "액션 후 문을 열어요.",
+"example_en": "Open the door after action."
+},
+{
+"id": "film-120",
+"field": "film",
+"term_ko": "컷",
+"term_en": "Cut",
+"english": "Cut",
+"aliases_ko": [
+"커트",
+"컷 사인"
+],
+"definition_ko": "진행 중인 연기·촬영을 멈추라는 신호.",
+"definition_en": "The signal to stop the ongoing performance and shooting.",
+"example_ko": "컷, 동선을 다시 맞춰요.",
+"example_en": "Cut—let's reset the blocking."
+},
+{
+"id": "film-121",
+"field": "film",
+"term_ko": "스토리보드",
+"term_en": "Storyboard",
+"english": "Storyboard",
+"aliases_ko": [
+"스토리 보드",
+"콘티",
+"그림 콘티"
+],
+"definition_ko": "숏의 순서와 구도를 그림으로 정리한 계획.",
+"definition_en": "A plan that organizes the order and composition of shots as drawings.",
+"example_ko": "스토리보드로 흐름을 맞춰요.",
+"example_en": "We align the flow with the storyboard."
+},
+{
+"id": "film-122",
+"field": "film",
+"term_ko": "데일리스",
+"term_en": "Dailies",
+"english": "Dailies",
+"aliases_ko": [
+"러시",
+"러시스",
+"rushes"
+],
+"definition_ko": "그날 촬영분을 점검하기 위한 확인용 영상.",
+"definition_en": "Review footage for checking the day's shoot.",
+"example_ko": "데일리스에서 연결을 확인해요.",
+"example_en": "We check continuity in the dailies."
+},
+{
+"id": "film-123",
+"field": "film",
+"term_ko": "호리존",
+"term_en": "Cyclorama",
+"english": "Cyclorama",
+"aliases_ko": [
+"사이클로라마",
+"호리존 스튜디오",
+"싸이클로라마"
+],
+"definition_ko": "벽과 바닥의 경계를 곡면으로 이은 촬영 배경.",
+"definition_en": "A shooting backdrop where the boundary of wall and floor is joined by a curved surface.",
+"example_ko": "호리존에서 제품을 찍어요.",
+"example_en": "We shoot the product on the cyclorama.",
+"note_ko": "영문 자료의 cyclorama를 국내 촬영 배경 표현과 연결했습니다. 구체적인 공간 형태는 스튜디오마다 다릅니다.",
+"note_en": "The cyclorama from English-language sources is linked to the domestic term for a shooting backdrop. The specific spatial form varies by studio."
+},
+{
+"id": "film-124",
+"field": "film",
+"term_ko": "폴리",
+"term_en": "Foley",
+"english": "Foley",
+"aliases_ko": [
+"폴리 사운드",
+"폴리 효과"
+],
+"definition_ko": "화면에 맞춰 동작 소리를 후반에 직접 만들어 녹음하는 작업.",
+"definition_en": "The work of creating and recording action sounds directly in post to match the picture.",
+"example_ko": "발소리를 폴리로 보완해요.",
+"example_en": "We supplement the footsteps with Foley."
+},
+{
+"id": "film-125",
+"field": "film",
+"term_ko": "컷어웨이",
+"term_en": "Cutaway",
+"english": "Cutaway",
+"aliases_ko": [
+"컷어웨이 샷",
+"컷어웨이 숏",
+"컷어웨이 쇼트"
+],
+"definition_ko": "주요 행동에서 잠시 다른 대상·반응으로 시선을 돌리는 숏.",
+"definition_en": "A shot that briefly turns attention to another subject or reaction from the main action.",
+"example_ko": "듣는 사람 컷어웨이를 넣어요.",
+"example_en": "We insert a cutaway of the listener."
+},
+{
+"id": "film-126",
+"field": "film",
+"term_ko": "데이 포 나이트",
+"term_en": "Day for night",
+"english": "Day for night",
+"aliases_ko": [
+"데이포나이트",
+"낮밤 촬영"
+],
+"definition_ko": "낮에 찍은 장면을 밤처럼 보이게 만드는 촬영·보정 방식.",
+"definition_en": "A shooting and grading method that makes scenes shot in daytime look like night.",
+"example_ko": "데이 포 나이트를 테스트해요.",
+"example_en": "We test day for night."
+},
+{
+"id": "film-127",
+"field": "film",
+"term_ko": "색보정",
+"term_en": "Color correction",
+"english": "Color correction",
+"aliases_ko": [
+"컬러 코렉션",
+"색 보정"
+],
+"definition_ko": "노출·색 균형 등을 조정해 영상의 기본 색 상태를 맞추는 작업.",
+"definition_en": "The work of adjusting exposure, color balance, and such to set the image's baseline color.",
+"example_ko": "카메라별 색보정을 맞춰요.",
+"example_en": "We match color correction across cameras."
+},
+{
+"id": "film-128",
+"field": "film",
+"term_ko": "컬러 그레이딩",
+"term_en": "Color grading",
+"english": "Color grading",
+"aliases_ko": [
+"그레이딩",
+"색감 연출"
+],
+"definition_ko": "장면의 감정과 분위기를 위해 색·명암을 설계하는 작업.",
+"definition_en": "The work of designing color and contrast for a scene's emotion and mood.",
+"example_ko": "그레이딩으로 차가운 분위기를 줘요.",
+"example_en": "We give it a cold mood with grading."
+},
+{
+"id": "film-129",
+"field": "film",
+"term_ko": "웨이브폼",
+"term_en": "Waveform",
+"english": "Waveform monitor",
+"aliases_ko": [
+"웨이브 폼",
+"파형 모니터"
+],
+"definition_ko": "영상 신호의 밝기 등을 파형으로 확인하는 표시.",
+"definition_en": "A display that checks image signal brightness and such as a waveform.",
+"example_ko": "웨이브폼으로 밝기를 확인해요.",
+"example_en": "We check brightness with the waveform."
+},
+{
+"id": "film-130",
+"field": "film",
+"term_ko": "LUT",
+"term_en": "LUT",
+"english": "Look-up table",
+"aliases_ko": [
+"룩업 테이블",
+"루트",
+"러트"
+],
+"definition_ko": "입력 색 값을 정해진 출력 값으로 바꾸는 변환 표.",
+"definition_en": "A conversion table that changes input color values into set output values.",
+"example_ko": "소스에 맞는 LUT를 적용해요.",
+"example_en": "We apply a LUT suited to the source.",
+"note_ko": "기술적인 색 공간 변환과 창작용 색감 적용 등 용도가 다릅니다. 어느 카메라·색 공간용인지 확인하세요.",
+"note_en": "Uses differ, from technical color-space conversion to creative color application. Check which camera or color space it's for."
+},
+{
+"id": "film-131",
+"field": "film",
+"term_ko": "로그 촬영",
+"term_en": "Log recording",
+"english": "Log recording",
+"aliases_ko": [
+"로그",
+"Log",
+"로그 감마"
+],
+"definition_ko": "밝기 정보를 로그 곡선으로 기록하는 촬영 방식.",
+"definition_en": "A shooting method that records brightness information along a log curve.",
+"example_ko": "로그 촬영본에 맞는 변환을 적용해요.",
+"example_en": "We apply a conversion suited to the log footage.",
+"note_ko": "Log는 RAW와 같은 뜻이 아닙니다. 기록 곡선과 카메라별 색 공간에 맞는 변환이 필요합니다.",
+"note_en": "Log is not the same as RAW. It needs conversion matched to the recording curve and the camera's color space."
+},
+{
+"id": "film-132",
+"field": "film",
+"term_ko": "DIT",
+"term_en": "DIT",
+"english": "Digital imaging technician",
+"aliases_ko": [
+"디지털 이미징 테크니션",
+"디아이티"
+],
+"definition_ko": "현장에서 디지털 영상의 색·신호·작업 흐름을 관리하는 기술 담당자.",
+"definition_en": "A technical role that manages the color, signal, and workflow of digital footage on set.",
+"example_ko": "DIT와 모니터 색을 확인해요.",
+"example_en": "We check monitor color with the DIT."
+},
+{
+"id": "film-133",
+"field": "film",
+"term_ko": "슬레이트",
+"term_en": "Slate",
+"english": "Film slate",
+"aliases_ko": [
+"클래퍼보드",
+"딱판",
+"clapperboard"
+],
+"definition_ko": "숏 정보를 적고 소리와 화면을 맞추는 기준을 남기는 판.",
+"definition_en": "A board that records shot information and marks a reference for syncing sound and picture.",
+"example_ko": "슬레이트 번호를 확인해요.",
+"example_en": "We check the slate number."
+},
+{
+"id": "film-134",
+"field": "film",
+"term_ko": "싱크",
+"term_en": "Sync",
+"english": "Synchronization",
+"aliases_ko": [
+"싱크 맞추기",
+"동기화",
+"sync"
+],
+"definition_ko": "따로 기록한 소리와 영상의 시점을 일치시키는 것.",
+"definition_en": "Aligning the timing of separately recorded sound and picture.",
+"example_ko": "슬레이트로 싱크를 맞춰요.",
+"example_en": "We sync using the slate."
+},
+{
+"id": "film-135",
+"field": "film",
+"term_ko": "MOS",
+"term_en": "MOS",
+"english": "MOS",
+"aliases_ko": [
+"엠오에스",
+"무음 촬영"
+],
+"definition_ko": "해당 촬영분에 소리를 녹음하지 않는다는 표시.",
+"definition_en": "A marking that no sound is recorded for that footage.",
+"example_ko": "이 인서트는 MOS로 찍어요.",
+"example_en": "We shoot this insert MOS.",
+"note_ko": "약자의 유래에는 여러 설이 있어 단정하지 않았습니다. 여기서는 무음 촬영 표기라는 실제 용도만 설명합니다.",
+"note_en": "There are several theories about the origin of the abbreviation, so we don't assert one. Here we describe only its actual use as a silent-shooting marking."
+},
+{
+"id": "film-136",
+"field": "film",
+"term_ko": "스크립트 슈퍼바이저",
+"term_en": "Script supervisor",
+"english": "Script supervisor",
+"aliases_ko": [
+"스크립터",
+"스크립티",
+"scripty"
+],
+"definition_ko": "테이크와 장면 연결 상태 등을 기록·점검하는 담당자.",
+"definition_en": "The person who records and checks takes and scene continuity.",
+"example_ko": "스크립터가 연결을 확인해요.",
+"example_en": "The script supervisor checks continuity."
+},
+{
+"id": "film-137",
+"field": "film",
+"term_ko": "테일 슬레이트",
+"term_en": "Tail slate",
+"english": "Tail slate",
+"aliases_ko": [
+"엔드 슬레이트",
+"꼬리 슬레이트"
+],
+"definition_ko": "테이크 시작 대신 끝에서 슬레이트를 치는 방식.",
+"definition_en": "A method of slating at the end of a take instead of the start.",
+"example_ko": "이번에는 테일 슬레이트로 남겨요.",
+"example_en": "This time we record it with a tail slate."
+},
+{
+"id": "film-138",
+"field": "film",
+"term_ko": "소프트 스틱스",
+"term_en": "Soft sticks",
+"english": "Soft sticks",
+"aliases_ko": [
+"소프트 스틱"
+],
+"definition_ko": "슬레이트를 약하게 치겠다는 안내.",
+"definition_en": "A notice that the slate will be clapped gently.",
+"example_ko": "얼굴 가까우니 소프트 스틱스로 가요.",
+"example_en": "The face is close, so let's go with soft sticks.",
+"note_ko": "영어권 촬영 현장 자료에 나온 지시어입니다. 국내 모든 현장에서 같은 호칭을 쓰는 것은 아닙니다.",
+"note_en": "A cue found in English-language on-set materials. Not every domestic set uses the same term."
+},
+{
+"id": "film-139",
+"field": "film",
+"term_ko": "세컨드 스틱스",
+"term_en": "Second sticks",
+"english": "Second sticks",
+"aliases_ko": [
+"세컨 스틱"
+],
+"definition_ko": "슬레이트를 다시 치겠다는 신호.",
+"definition_en": "A signal that the slate will be clapped again.",
+"example_ko": "소리가 작아 세컨드 스틱스로 갑니다.",
+"example_en": "The sound was faint, so we go with second sticks.",
+"note_ko": "영어권 촬영 현장 자료에 나온 지시어입니다. 국내에서는 ‘슬레이트 다시’ 등으로 말하기도 합니다.",
+"note_en": "A cue found in English-language on-set materials. Domestically it may be said as 'slate again' and such."
+},
+{
+"id": "film-140",
+"field": "film",
+"term_ko": "리플 편집",
+"term_en": "Ripple edit",
+"english": "Ripple edit",
+"aliases_ko": [
+"리플 에디트",
+"잔물결 편집"
+],
+"definition_ko": "클립 길이를 조절하며 뒤 클립들도 함께 밀거나 당기는 편집.",
+"definition_en": "An edit that adjusts a clip's length while pushing or pulling the following clips along.",
+"example_ko": "리플 편집으로 빈틈을 없애요.",
+"example_en": "We close the gap with a ripple edit."
+},
+{
+"id": "film-141",
+"field": "film",
+"term_ko": "롤링 편집",
+"term_en": "Rolling edit",
+"english": "Rolling edit",
+"aliases_ko": [
+"롤링 에디트",
+"롤 편집"
+],
+"definition_ko": "맞닿은 두 클립의 경계를 옮겨 전체 길이를 유지하는 편집.",
+"definition_en": "An edit that moves the boundary of two adjoining clips while keeping the total length.",
+"example_ko": "롤링 편집으로 전환 시점을 옮겨요.",
+"example_en": "We move the transition point with a rolling edit."
+},
+{
+"id": "film-142",
+"field": "film",
+"term_ko": "슬립 편집",
+"term_en": "Slip edit",
+"english": "Slip edit",
+"aliases_ko": [
+"슬립 에디트"
+],
+"definition_ko": "클립의 위치·길이를 유지하며 내부 시작·끝 프레임을 바꾸는 편집.",
+"definition_en": "An edit that keeps a clip's position and length while changing its internal start and end frames.",
+"example_ko": "슬립 편집으로 표정을 바꿔요.",
+"example_en": "We change the expression with a slip edit."
+},
+{
+"id": "film-143",
+"field": "film",
+"term_ko": "슬라이드 편집",
+"term_en": "Slide edit",
+"english": "Slide edit",
+"aliases_ko": [
+"슬라이드 에디트"
+],
+"definition_ko": "클립을 이동하고 인접 클립 길이를 조절해 전체 길이를 유지하는 편집.",
+"definition_en": "An edit that moves a clip and adjusts adjacent clip lengths to keep the total length.",
+"example_ko": "슬라이드 편집으로 위치를 옮겨요.",
+"example_en": "We move the position with a slide edit."
+},
+{
+"id": "film-144",
+"field": "film",
+"term_ko": "트리밍",
+"term_en": "Trimming",
+"english": "Trimming",
+"aliases_ko": [
+"트림",
+"trim"
+],
+"definition_ko": "클립의 시작점·끝점을 다듬는 작업.",
+"definition_en": "The work of refining a clip's in and out points.",
+"example_ko": "숨 고르는 부분을 트리밍해요.",
+"example_en": "We trim the part where they catch their breath."
+},
+{
+"id": "common-004",
+"field": "common",
+"term_ko": "단도리",
+"term_en": "Groundwork",
+"english": "Preparation",
+"aliases_ko": [
+"단도리하다",
+"채비"
+],
+"definition_ko": "일이 잘 진행되도록 준비하고 챙긴다는 표현.",
+"definition_en": "An expression for preparing and taking care of things so work goes smoothly.",
+"example_ko": "행사 전 단도리를 확인해요.",
+"example_en": "We check the groundwork before the event."
+},
+{
+"id": "common-005",
+"field": "common",
+"term_ko": "기스",
+"term_en": "Scratch",
+"english": "Scratch",
+"aliases_ko": [
+"기스나다",
+"흠집"
+],
+"definition_ko": "물건 표면에 난 흠이나 긁힌 자국을 부르는 말.",
+"definition_en": "A term for a flaw or scratch mark on the surface of an object.",
+"example_ko": "패널에 기스가 있는지 봐요.",
+"example_en": "We check whether there are scratches on the panel."
+},
+{
+"id": "common-006",
+"field": "common",
+"term_ko": "잇파이",
+"term_en": "To the max",
+"english": "Full",
+"aliases_ko": [
+"잇빠이",
+"이빠이",
+"입빠이"
+],
+"definition_ko": "가득 또는 한껏이라는 뜻으로 쓰는 표현.",
+"definition_en": "An expression used to mean full or to the fullest.",
+"example_ko": "오늘 일정이 잇파이라 추가 미팅을 잡기 어려워요.",
+"example_en": "My schedule is packed today, so it's hard to add another meeting.",
+"note_ko": "‘가득’, ‘최대로’처럼 구체적인 말로 바꿀 수 있습니다. 장비 조절 지시라면 정확한 수치를 확인하세요.",
+"note_en": "It can be replaced with specific words like 'full' or 'to the maximum'. If it's an instruction to adjust equipment, check the exact value."
+},
+{
+"id": "common-007",
+"field": "common",
+"term_ko": "구루마",
+"term_en": "Cart",
+"english": "Handcart",
+"aliases_ko": [
+"구르마",
+"손수레"
+],
+"definition_ko": "짐을 옮기는 수레를 부르는 현장 표현.",
+"definition_en": "A field term for a cart used to move loads.",
+"example_ko": "상자를 구루마로 옮겨요.",
+"example_en": "We move the boxes with a cart."
+},
+{
+"id": "design-014",
+"field": "design",
+"term_ko": "정렬",
+"term_en": "Alignment",
+"english": "Alignment",
+"aliases_ko": [
+"얼라인",
+"얼라인먼트"
+],
+"definition_ko": "요소들을 일정한 기준선에 맞춰 배치하는 것.",
+"definition_en": "Arranging elements to a consistent reference line.",
+"example_ko": "제목을 왼쪽 정렬해요.",
+"example_en": "We left-align the title."
+},
+{
+"id": "design-015",
+"field": "design",
+"term_ko": "대체 텍스트",
+"term_en": "Alt text",
+"english": "Alternative text",
+"aliases_ko": [
+"alt text",
+"알트 텍스트"
+],
+"definition_ko": "이미지가 전달하는 내용을 글로 설명하는 정보.",
+"definition_en": "Information that describes in words what an image conveys.",
+"example_ko": "사진에 대체 텍스트를 넣어요.",
+"example_en": "We add alt text to the photo."
+},
+{
+"id": "design-016",
+"field": "design",
+"term_ko": "화면비",
+"term_en": "Aspect ratio",
+"english": "Aspect ratio",
+"aliases_ko": [
+"종횡비",
+"가로세로비"
+],
+"definition_ko": "화면 가로와 세로 길이의 비율.",
+"definition_en": "The ratio of a screen's width to its height.",
+"example_ko": "화면비를 16대9로 맞춰요.",
+"example_en": "We set the aspect ratio to 16:9."
+},
+{
+"id": "design-017",
+"field": "design",
+"term_ko": "베이스라인",
+"term_en": "Baseline",
+"english": "Baseline",
+"aliases_ko": [
+"기준선",
+"글자 기준선"
+],
+"definition_ko": "글자가 놓이는 타이포그래피의 기준선.",
+"definition_en": "The reference line in typography on which letters sit.",
+"example_ko": "본문 베이스라인을 맞춰요.",
+"example_en": "We align the body text baseline."
+},
+{
+"id": "design-018",
+"field": "design",
+"term_ko": "불리언 연산",
+"term_en": "Boolean operation",
+"english": "Boolean operation",
+"aliases_ko": [
+"도형 합치기",
+"불리언"
+],
+"definition_ko": "도형의 합치기·빼기·교차 등으로 형태를 만드는 연산.",
+"definition_en": "Operations that create shapes by uniting, subtracting, or intersecting shapes.",
+"example_ko": "불리언 연산으로 구멍을 뚫어요.",
+"example_en": "We cut a hole with a Boolean operation."
+},
+{
+"id": "design-019",
+"field": "design",
+"term_ko": "베지어 곡선",
+"term_en": "Bézier curve",
+"english": "Bézier curve",
+"aliases_ko": [
+"베지에",
+"베지어",
+"bezier"
+],
+"definition_ko": "제어점으로 모양을 조절하는 수학적 곡선.",
+"definition_en": "A mathematical curve whose shape is controlled by control points.",
+"example_ko": "베지어 곡선으로 윤곽을 다듬어요.",
+"example_en": "We refine the outline with a Bézier curve."
+},
+{
+"id": "design-020",
+"field": "design",
+"term_ko": "카피",
+"term_en": "Copy",
+"english": "Copy",
+"aliases_ko": [
+"문구",
+"카피라이팅"
+],
+"definition_ko": "디자인에 실제로 들어가는 제목·본문 등의 글.",
+"definition_en": "The actual text that goes into a design, such as titles and body.",
+"example_ko": "버튼 카피를 짧게 줄여요.",
+"example_en": "We shorten the button copy."
+},
+{
+"id": "design-021",
+"field": "design",
+"term_ko": "어센더",
+"term_en": "Ascender",
+"english": "Ascender",
+"aliases_ko": [
+"어센더 라인"
+],
+"definition_ko": "소문자에서 x 높이 위로 올라온 부분.",
+"definition_en": "The part of a lowercase letter that rises above the x-height.",
+"example_ko": "어센더가 긴 서체예요.",
+"example_en": "It's a typeface with long ascenders."
+},
+{
+"id": "design-022",
+"field": "design",
+"term_ko": "접근성",
+"term_en": "Accessibility",
+"english": "Accessibility",
+"aliases_ko": [
+"접근 가능한 디자인",
+"A11y"
+],
+"definition_ko": "다양한 능력과 환경의 사람이 제품을 이용할 수 있는 정도.",
+"definition_en": "The degree to which people of varying abilities and environments can use a product.",
+"example_ko": "키보드 접근성을 확인해요.",
+"example_en": "We check keyboard accessibility."
+},
+{
+"id": "design-023",
+"field": "design",
+"term_ko": "프로토타입",
+"term_en": "Prototype",
+"english": "Prototype",
+"aliases_ko": [
+"프로토타이핑",
+"시제품"
+],
+"definition_ko": "아이디어와 사용 흐름을 시험하기 위한 모형.",
+"definition_en": "A model built to test ideas and user flows.",
+"example_ko": "프로토타입으로 이동을 확인해요.",
+"example_en": "We verify navigation with a prototype."
+},
+{
+"id": "design-024",
+"field": "design",
+"term_ko": "와이어프레임",
+"term_en": "Wireframe",
+"english": "Wireframe",
+"aliases_ko": [
+"와이어 프레임",
+"화면 뼈대"
+],
+"definition_ko": "세부 시각 표현 전 구조·배치를 나타내는 화면 설계.",
+"definition_en": "A screen layout that shows structure and arrangement before detailed visual design.",
+"example_ko": "와이어프레임에서 순서를 정해요.",
+"example_en": "We decide the flow in the wireframe."
+},
+{
+"id": "marketing-016",
+"field": "marketing",
+"term_ko": "A/B 테스트",
+"term_en": "A/B test",
+"english": "A/B test",
+"aliases_ko": [
+"AB 테스트",
+"에이비 테스트",
+"분할 테스트"
+],
+"definition_ko": "서로 다른 버전의 성과를 비교하는 실험.",
+"definition_en": "An experiment that compares the performance of different versions.",
+"example_ko": "제목 두 개를 A/B 테스트해요.",
+"example_en": "We A/B test two headlines."
+},
+{
+"id": "marketing-017",
+"field": "marketing",
+"term_ko": "랜딩 페이지",
+"term_en": "Landing page",
+"english": "Landing page",
+"aliases_ko": [
+"랜딩",
+"랜딩페이지"
+],
+"definition_ko": "광고·이메일 등을 눌러 도착하며 특정 행동을 유도하는 페이지.",
+"definition_en": "A page that visitors reach by clicking an ad or email and that drives a specific action.",
+"example_ko": "광고와 랜딩 메시지를 맞춰요.",
+"example_en": "We align the ad and the landing page message."
+},
+{
+"id": "marketing-018",
+"field": "marketing",
+"term_ko": "전환",
+"term_en": "Conversion",
+"english": "Conversion",
+"aliases_ko": [
+"컨버전",
+"conversion"
+],
+"definition_ko": "구매·가입 등 미리 정한 목표 행동을 완료하는 것.",
+"definition_en": "Completing a predefined goal action such as a purchase or sign-up.",
+"example_ko": "신청 완료를 전환으로 잡아요.",
+"example_en": "We count a completed application as a conversion."
+},
+{
+"id": "marketing-019",
+"field": "marketing",
+"term_ko": "리드",
+"term_en": "Lead",
+"english": "Lead",
+"aliases_ko": [
+"잠재 고객",
+"가망 고객"
+],
+"definition_ko": "관심을 보여 향후 고객이 될 가능성이 있는 대상.",
+"definition_en": "Someone who has shown interest and may become a future customer.",
+"example_ko": "신청 폼으로 리드를 모아요.",
+"example_en": "We collect leads through a sign-up form.",
+"note_ko": "구체적인 리드 인정 기준은 조직과 캠페인마다 다릅니다.",
+"note_en": "The specific criteria for qualifying a lead vary by organization and campaign."
+},
+{
+"id": "marketing-020",
+"field": "marketing",
+"term_ko": "리드 캡처",
+"term_en": "Lead capture",
+"english": "Lead capture",
+"aliases_ko": [
+"리드 수집"
+],
+"definition_ko": "후속 소통을 위해 잠재 고객의 연락 정보 등을 받는 것.",
+"definition_en": "Collecting a prospect's contact information and other details for follow-up communication.",
+"example_ko": "리드 캡처 폼을 줄여요.",
+"example_en": "We shorten the lead capture form."
+},
+{
+"id": "marketing-021",
+"field": "marketing",
+"term_ko": "CTA",
+"term_en": "CTA",
+"english": "Call to action",
+"aliases_ko": [
+"씨티에이",
+"콜 투 액션",
+"행동 유도"
+],
+"definition_ko": "다음 행동을 안내하거나 유도하는 문구·버튼·링크.",
+"definition_en": "A phrase, button, or link that guides or prompts the next action.",
+"example_ko": "CTA를 신청하기로 바꿔요.",
+"example_en": "We change the CTA to \"Apply now.\""
+},
+{
+"id": "dev-033",
+"field": "dev",
+"term_ko": "DNS",
+"term_en": "DNS",
+"english": "Domain Name System",
+"aliases_ko": [
+"디엔에스"
+],
+"definition_ko": "도메인 이름을 IP 주소 등 관련 정보로 연결하는 이름 체계.",
+"definition_en": "A naming system that maps domain names to IP addresses and other related information.",
+"example_ko": "DNS 설정을 확인해요.",
+"example_en": "We check the DNS settings."
+},
+{
+"id": "dev-034",
+"field": "dev",
+"term_ko": "URL",
+"term_en": "URL",
+"english": "Uniform Resource Locator",
+"aliases_ko": [
+"유알엘",
+"웹 주소"
+],
+"definition_ko": "인터넷 자원의 위치와 접근 방법을 나타내는 주소.",
+"definition_en": "An address that indicates the location of and access method for an internet resource.",
+"example_ko": "URL을 공유해 주세요.",
+"example_en": "Please share the URL."
+},
+{
+"id": "dev-035",
+"field": "dev",
+"term_ko": "HTTPS",
+"term_en": "HTTPS",
+"english": "HTTP Secure",
+"aliases_ko": [
+"에이치티티피에스"
+],
+"definition_ko": "TLS로 보호된 연결을 사용하는 HTTP 통신.",
+"definition_en": "HTTP communication that uses a connection secured with TLS.",
+"example_ko": "로그인 페이지는 HTTPS를 사용해요.",
+"example_en": "The login page uses HTTPS."
+},
+{
+"id": "dev-036",
+"field": "dev",
+"term_ko": "REST",
+"term_en": "REST",
+"english": "Representational State Transfer",
+"aliases_ko": [
+"레스트",
+"REST API",
+"RESTful API"
+],
+"definition_ko": "자원·표현·일관된 인터페이스 등의 원칙을 갖는 소프트웨어 구조 방식.",
+"definition_en": "A software architectural style built on principles such as resources, representations, and a uniform interface.",
+"example_ko": "REST 원칙으로 API를 검토해요.",
+"example_en": "We review the API against REST principles."
+},
+{
+"id": "dev-037",
+"field": "dev",
+"term_ko": "CRUD",
+"term_en": "CRUD",
+"english": "Create Read Update Delete",
+"aliases_ko": [
+"크러드"
+],
+"definition_ko": "데이터의 생성·조회·수정·삭제를 묶어 부르는 말.",
+"definition_en": "A collective term for creating, reading, updating, and deleting data.",
+"example_ko": "게시물 CRUD를 구현해요.",
+"example_en": "We implement CRUD for posts."
+},
+{
+"id": "dev-038",
+"field": "dev",
+"term_ko": "CORS",
+"term_en": "CORS",
+"english": "Cross-origin resource sharing",
+"aliases_ko": [
+"코르스",
+"교차 출처 리소스 공유",
+"CORS error",
+"CORS 에러"
+],
+"definition_ko": "서버가 다른 출처의 브라우저 접근을 허용하도록 알리는 체계.",
+"definition_en": "A mechanism by which a server signals that it allows browser access from another origin.",
+"example_ko": "CORS 응답 헤더를 확인해요.",
+"example_en": "We check the CORS response headers."
+},
+{
+"id": "dev-039",
+"field": "dev",
+"term_ko": "쿠키",
+"term_en": "Cookie",
+"english": "Cookie",
+"aliases_ko": [
+"HTTP 쿠키",
+"cookie"
+],
+"definition_ko": "사이트가 브라우저에 저장하고 요청에 함께 보낼 수 있는 작은 데이터.",
+"definition_en": "A small piece of data that a site stores in the browser and can send along with requests.",
+"example_ko": "세션 쿠키를 확인해요.",
+"example_en": "We check the session cookie."
+},
+{
+"id": "dev-040",
+"field": "dev",
+"term_ko": "인증",
+"term_en": "Authentication",
+"english": "Authentication",
+"aliases_ko": [
+"어센티케이션",
+"로그인 인증"
+],
+"definition_ko": "사용자 등이 주장한 신원을 확인하는 과정.",
+"definition_en": "The process of verifying a claimed identity, such as a user's.",
+"example_ko": "인증 후 계정 화면을 열어요.",
+"example_en": "We open the account screen after authentication.",
+"note_ko": "신원을 확인하는 인증과 어떤 자원에 접근 가능한지 정하는 권한 부여는 구분합니다.",
+"note_en": "Authentication, which verifies identity, is distinct from authorization, which determines what resources can be accessed."
+},
+{
+"id": "dev-041",
+"field": "dev",
+"term_ko": "비동기",
+"term_en": "Asynchronous",
+"english": "Asynchronous",
+"aliases_ko": [
+"어싱크",
+"async"
+],
+"definition_ko": "작업 완료를 기다리는 동안 다른 처리를 진행할 수 있는 방식.",
+"definition_en": "An approach that lets other processing continue while waiting for a task to finish.",
+"example_ko": "파일을 비동기로 읽어요.",
+"example_en": "We read the file asynchronously."
+},
+{
+"id": "dev-042",
+"field": "dev",
+"term_ko": "콜백",
+"term_en": "Callback",
+"english": "Callback function",
+"aliases_ko": [
+"콜백 함수",
+"callback"
+],
+"definition_ko": "다른 함수에 전달되어 정해진 시점에 호출되는 함수.",
+"definition_en": "A function passed to another function and invoked at a designated time.",
+"example_ko": "완료 콜백을 등록해요.",
+"example_en": "We register a completion callback."
+},
+{
+"id": "dev-043",
+"field": "dev",
+"term_ko": "프로미스",
+"term_en": "Promise",
+"english": "Promise",
+"aliases_ko": [
+"프라미스",
+"promise"
+],
+"definition_ko": "비동기 작업의 향후 완료·실패와 결과를 나타내는 객체.",
+"definition_en": "An object that represents the eventual completion or failure of an asynchronous operation and its result.",
+"example_ko": "프로미스 실패를 처리해요.",
+"example_en": "We handle promise rejection."
+},
+{
+"id": "dev-044",
+"field": "dev",
+"term_ko": "배열",
+"term_en": "Array",
+"english": "Array",
+"aliases_ko": [
+"어레이",
+"array"
+],
+"definition_ko": "여러 값을 순서대로 담는 자료 구조.",
+"definition_en": "A data structure that holds multiple values in order.",
+"example_ko": "검색 결과를 배열에 담아요.",
+"example_en": "We store the search results in an array."
+},
+{
+"id": "dev-045",
+"field": "dev",
+"term_ko": "불리언",
+"term_en": "Boolean",
+"english": "Boolean",
+"aliases_ko": [
+"불린",
+"참거짓",
+"bool"
+],
+"definition_ko": "참 또는 거짓을 나타내는 논리 자료형.",
+"definition_en": "A logical data type that represents true or false.",
+"example_ko": "저장 여부는 불리언이에요.",
+"example_en": "Whether it is saved is a boolean."
+},
+{
+"id": "dev-046",
+"field": "dev",
+"term_ko": "함수",
+"term_en": "Function",
+"english": "Function",
+"aliases_ko": [
+"펑션",
+"function"
+],
+"definition_ko": "특정 작업을 수행하도록 묶어 호출하는 코드 단위.",
+"definition_en": "A unit of code grouped to perform a specific task and called when needed.",
+"example_ko": "검색 로직을 함수로 묶어요.",
+"example_en": "We group the search logic into a function."
+},
+{
+"id": "dev-047",
+"field": "dev",
+"term_ko": "변수",
+"term_en": "Variable",
+"english": "Variable",
+"aliases_ko": [
+"variable"
+],
+"definition_ko": "값을 저장하거나 참조하기 위해 이름을 붙인 대상.",
+"definition_en": "A named entity used to store or reference a value.",
+"example_ko": "입력값을 변수에 담아요.",
+"example_en": "We store the input value in a variable."
+},
+{
+"id": "dev-048",
+"field": "dev",
+"term_ko": "null",
+"term_en": "null",
+"english": "Null",
+"aliases_ko": [
+"널",
+"null 값"
+],
+"definition_ko": "의도적으로 값이나 객체가 없음을 나타내는 값.",
+"definition_en": "A value that intentionally represents the absence of a value or object.",
+"example_ko": "선택이 없으면 null로 둬요.",
+"example_en": "We leave it as null when there is no selection."
+},
+{
+"id": "dev-049",
+"field": "dev",
+"term_ko": "undefined",
+"term_en": "undefined",
+"english": "Undefined",
+"aliases_ko": [
+"언디파인드"
+],
+"definition_ko": "JavaScript에서 값이 정해지지 않은 상태를 나타내는 원시 값.",
+"definition_en": "A primitive value in JavaScript that represents a variable whose value has not been assigned.",
+"example_ko": "반환값이 undefined인지 확인해요.",
+"example_en": "We check whether the return value is undefined."
+},
+{
+"id": "dev-050",
+"field": "dev",
+"term_ko": "알고리즘",
+"term_en": "Algorithm",
+"english": "Algorithm",
+"aliases_ko": [
+"알고리듬"
+],
+"definition_ko": "문제를 풀거나 결과를 구하기 위한 일련의 절차.",
+"definition_en": "A sequence of steps for solving a problem or producing a result.",
+"example_ko": "검색 알고리즘을 비교해요.",
+"example_en": "We compare search algorithms."
+},
+{
+"id": "dev-051",
+"field": "dev",
+"term_ko": "SPA",
+"term_en": "SPA",
+"english": "Single-page application",
+"aliases_ko": [
+"싱글 페이지 앱",
+"단일 페이지 앱"
+],
+"definition_ko": "문서 전체를 매번 새로 받지 않고 화면 내용을 바꾸는 웹 앱 방식.",
+"definition_en": "A web app approach that updates the screen content without reloading the entire document each time.",
+"example_ko": "이 사전은 SPA로 동작해요.",
+"example_en": "This dictionary runs as an SPA."
+},
+{
+"id": "marketing-022",
+"field": "marketing",
+"term_ko": "PT",
+"term_en": "PT",
+"english": "Presentation",
+"aliases_ko": [
+"피티",
+"프레젠테이션",
+"프리젠테이션"
+],
+"definition_ko": "광고주에게 캠페인 전략·아이디어·시안을 제안하고 설명하는 발표. 경쟁 PT에서는 대행사 선정 등을 위해 제안을 비교·평가받는다.",
+"definition_en": "A presentation that proposes and explains campaign strategy, ideas, and draft creative to an advertiser. In a competitive pitch, proposals are compared and evaluated to select an agency.",
+"example_ko": "광고주 PT에서 캠페인 전략과 시안을 발표해요.",
+"example_en": "We present the campaign strategy and draft creative at the client pitch.",
+"note_ko": "광고 대행사의 제안 업무 문맥입니다. 일반적인 사내 발표·프레젠테이션은 업무 공통의 PT에서 설명합니다.",
+"note_en": "This refers to the pitching work of an advertising agency. A general internal presentation is covered under the common business sense of PT."
+},
+{
+"id": "common-008",
+"field": "common",
+"term_ko": "PT",
+"term_en": "PT",
+"english": "Presentation",
+"aliases_ko": [
+"피티",
+"프레젠테이션",
+"프리젠테이션"
+],
+"definition_ko": "기획이나 제안을 설명하는 발표.",
+"definition_en": "A presentation that explains a plan or proposal.",
+"example_ko": "내일 PT에서 기획 의도를 설명해요.",
+"example_en": "I'll explain the intent of the plan at tomorrow's presentation.",
+"note_ko": "업무 발표를 뜻합니다. 문맥에 따라 발표 자료까지 PT라고 부르기도 합니다.",
+"note_en": "It means a business presentation. Depending on context, the presentation deck itself is sometimes called a PT."
+},
+{
+"id": "common-009",
+"field": "common",
+"term_ko": "컨펌",
+"term_en": "Confirmation",
+"english": "Confirmation",
+"aliases_ko": [
+"컴펌",
+"confirm",
+"확인 승인",
+"컨펌하다",
+"컨펌받다",
+"확인받다"
+],
+"definition_ko": "내용을 확인하거나 진행을 승인하는 것.",
+"definition_en": "Reviewing content or approving that work may proceed.",
+"example_ko": "제작 전에 담당자 컨펌을 받아요.",
+"example_en": "We get the manager's sign-off before production.",
+"note_ko": "단순 확인인지 최종 승인인지 팀마다 다릅니다. 승인 대상과 담당자를 함께 확인하세요.",
+"note_en": "Whether it is a simple check or final approval varies by team. Confirm both what is being approved and who approves it."
+},
+{
+"id": "marketing-024",
+"field": "marketing",
+"term_ko": "경쟁 PT",
+"term_en": "Competitive pitch",
+"english": "Competitive presentation",
+"aliases_ko": [
+"경쟁피티",
+"경쟁 프레젠테이션",
+"비딩 PT"
+],
+"definition_ko": "여러 업체가 수주를 위해 제안을 발표하는 심사.",
+"definition_en": "A review in which multiple companies present proposals to win a contract.",
+"example_ko": "경쟁 PT에 낼 전략을 점검해요.",
+"example_en": "We review the strategy to submit for the competitive pitch."
+},
+{
+"id": "marketing-025",
+"field": "marketing",
+"term_ko": "수주",
+"term_en": "Winning a contract",
+"english": "Winning a contract",
+"aliases_ko": [
+"프로젝트 수주"
+],
+"definition_ko": "발주처의 일감을 계약으로 따내는 것.",
+"definition_en": "Securing a client's work through a contract.",
+"example_ko": "이번 브랜드 캠페인을 수주했어요.",
+"example_en": "We won the contract for this brand campaign."
+},
+{
+"id": "marketing-028",
+"field": "marketing",
+"term_ko": "시안",
+"term_en": "Draft design",
+"english": "Design draft",
+"aliases_ko": [
+"디자인 시안",
+"초안",
+"시안 작업"
+],
+"definition_ko": "방향을 검토하기 위해 먼저 만든 디자인 안.",
+"definition_en": "An initial design proposal created to review the direction.",
+"example_ko": "광고주에게 배너 시안 두 가지를 보내요.",
+"example_en": "We send the client two banner design drafts.",
+"note_ko": "검토용 안으로, 승인된 최종 납품 파일과는 구별합니다.",
+"note_en": "It is a draft for review and is distinct from the approved final deliverable file."
+},
+{
+"id": "fashion-023",
+"field": "fashion",
+"term_ko": "시안",
+"term_en": "Draft design",
+"english": "Design draft",
+"aliases_ko": [
+"디자인 시안",
+"초안",
+"시안 작업"
+],
+"definition_ko": "방향을 검토하기 위해 먼저 만든 디자인 안.",
+"definition_en": "An initial design proposal created to review the direction.",
+"example_ko": "신상품 상세페이지 시안을 검토해요.",
+"example_en": "We review the draft of the new product detail page.",
+"note_ko": "검토용 안으로, 승인된 최종 납품 파일과는 구별합니다.",
+"note_en": "It is a draft for review and is distinct from the approved final deliverable file."
+},
+{
+"id": "design-029",
+"field": "design",
+"term_ko": "시안",
+"term_en": "Draft design",
+"english": "Design draft",
+"aliases_ko": [
+"디자인 시안",
+"초안",
+"시안 작업",
+"시안 리뷰",
+"시안 검토"
+],
+"definition_ko": "방향을 검토하기 위해 먼저 만든 디자인 안.",
+"definition_en": "An initial design proposal created to review the direction.",
+"example_ko": "브랜드 로고 시안 두 가지를 비교해요.",
+"example_en": "We compare two brand logo drafts.",
+"note_ko": "검토용 안으로, 승인된 최종 납품 파일과는 구별합니다.",
+"note_en": "It is a draft for review and is distinct from the approved final deliverable file."
+},
+{
+"id": "marketing-029",
+"field": "marketing",
+"term_ko": "키비주얼",
+"term_en": "Key visual",
+"english": "Key visual",
+"aliases_ko": [
+"키 비주얼",
+"KV",
+"케이비주얼",
+"키비쥬얼",
+"키비",
+"케이비",
+"케이브이"
+],
+"definition_ko": "캠페인이나 브랜드를 대표하는 중심 시각 이미지.",
+"definition_en": "The central visual image that represents a campaign or brand.",
+"example_ko": "캠페인 키비주얼을 매체별 소재로 확장해요.",
+"example_en": "We extend the campaign key visual into creative for each medium."
+},
+{
+"id": "fashion-024",
+"field": "fashion",
+"term_ko": "키비주얼",
+"term_en": "Key visual",
+"english": "Key visual",
+"aliases_ko": [
+"키 비주얼",
+"KV",
+"케이비주얼",
+"키비쥬얼"
+],
+"definition_ko": "캠페인이나 브랜드를 대표하는 중심 시각 이미지.",
+"definition_en": "The central visual image that represents a campaign or brand.",
+"example_ko": "가을 컬렉션 키비주얼을 자사몰과 매장에 적용해요.",
+"example_en": "We apply the fall collection key visual to our online store and physical stores."
+},
+{
+"id": "design-030",
+"field": "design",
+"term_ko": "키비주얼",
+"term_en": "Key visual",
+"english": "Key visual",
+"aliases_ko": [
+"키 비주얼",
+"KV",
+"케이비주얼",
+"키비쥬얼"
+],
+"definition_ko": "캠페인이나 브랜드를 대표하는 중심 시각 이미지.",
+"definition_en": "The central visual image that represents a campaign or brand.",
+"example_ko": "키비주얼을 기준으로 포스터를 디자인해요.",
+"example_en": "We design the poster based on the key visual."
+},
+{
+"id": "marketing-030",
+"field": "marketing",
+"term_ko": "브랜드 가이드",
+"term_en": "Brand guide",
+"english": "Brand guidelines",
+"aliases_ko": [
+"브랜드 가이드라인",
+"브랜드 가이드북"
+],
+"definition_ko": "로고·색·글꼴 등의 사용 규칙을 정리한 자료.",
+"definition_en": "A document that sets out the rules for using the logo, colors, fonts, and more.",
+"example_ko": "브랜드 가이드에 맞춰 로고 여백을 지켜요.",
+"example_en": "We keep the logo's clear space in line with the brand guide."
+},
+{
+"id": "fashion-025",
+"field": "fashion",
+"term_ko": "브랜드 가이드",
+"term_en": "Brand guide",
+"english": "Brand guidelines",
+"aliases_ko": [
+"브랜드 가이드라인",
+"브랜드 가이드북"
+],
+"definition_ko": "로고·색·글꼴 등의 사용 규칙을 정리한 자료.",
+"definition_en": "A document that sets out the rules for using the logo, colors, fonts, and more.",
+"example_ko": "의류 라벨과 쇼핑백의 로고 크기를 브랜드 가이드에 맞춰요.",
+"example_en": "We match the logo size on garment labels and shopping bags to the brand guide."
+},
+{
+"id": "design-031",
+"field": "design",
+"term_ko": "브랜드 가이드",
+"term_en": "Brand guide",
+"english": "Brand guidelines",
+"aliases_ko": [
+"브랜드 가이드라인",
+"브랜드 가이드북"
+],
+"definition_ko": "로고·색·글꼴 등의 사용 규칙을 정리한 자료.",
+"definition_en": "A document that sets out the rules for using the logo, colors, fonts, and more.",
+"example_ko": "브랜드 가이드에 있는 최소 크기와 보호 공간에 맞춰 로고를 배치해요.",
+"example_en": "We place the logo according to the minimum size and clear space specified in the brand guide."
+},
+{
+"id": "marketing-031",
+"field": "marketing",
+"term_ko": "네이밍",
+"term_en": "Naming",
+"english": "Naming",
+"aliases_ko": [
+"브랜드 네이밍",
+"제품명 기획"
+],
+"definition_ko": "브랜드나 상품의 이름을 기획하는 작업.",
+"definition_en": "The work of developing a name for a brand or product.",
+"example_ko": "신제품 네이밍 후보를 검토해요.",
+"example_en": "We review candidate names for the new product."
+},
+{
+"id": "fashion-026",
+"field": "fashion",
+"term_ko": "네이밍",
+"term_en": "Naming",
+"english": "Naming",
+"aliases_ko": [
+"브랜드 네이밍",
+"제품명 기획"
+],
+"definition_ko": "브랜드나 상품의 이름을 기획하는 작업.",
+"definition_en": "The work of developing a name for a brand or product.",
+"example_ko": "새 데님 라인의 네이밍이 기존 상품명과 혼동되지 않는지 확인해요.",
+"example_en": "We check that the naming of the new denim line is not confused with existing product names."
+},
+{
+"id": "design-032",
+"field": "design",
+"term_ko": "네이밍",
+"term_en": "Naming",
+"english": "Naming",
+"aliases_ko": [
+"브랜드 네이밍",
+"제품명 기획"
+],
+"definition_ko": "브랜드나 상품의 이름을 기획하는 작업.",
+"definition_en": "The work of developing a name for a brand or product.",
+"example_ko": "확정된 네이밍의 글자 형태를 비교하며 워드마크를 설계해요.",
+"example_en": "We design the wordmark while comparing the letterforms of the finalized name."
+},
+{
+"id": "marketing-032",
+"field": "marketing",
+"term_ko": "패키지 디자인",
+"term_en": "Package design",
+"english": "Packaging design",
+"aliases_ko": [
+"패키지",
+"패키징 디자인"
+],
+"definition_ko": "상품 포장에 필요한 형태와 시각 표현을 설계하는 작업.",
+"definition_en": "The work of designing the form and visual expression needed for product packaging.",
+"example_ko": "패키지 디자인에 제품명을 반영해요.",
+"example_en": "We incorporate the product name into the package design."
+},
+{
+"id": "fashion-027",
+"field": "fashion",
+"term_ko": "패키지 디자인",
+"term_en": "Package design",
+"english": "Packaging design",
+"aliases_ko": [
+"패키지",
+"패키징 디자인"
+],
+"definition_ko": "상품 포장에 필요한 형태와 시각 표현을 설계하는 작업.",
+"definition_en": "The work of designing the form and visual expression needed for product packaging.",
+"example_ko": "니트 포장 상자의 패키지 디자인에 보관 안내와 브랜드명을 넣어요.",
+"example_en": "We add storage instructions and the brand name to the package design of the knitwear box."
+},
+{
+"id": "design-033",
+"field": "design",
+"term_ko": "패키지 디자인",
+"term_en": "Package design",
+"english": "Packaging design",
+"aliases_ko": [
+"패키지",
+"패키징 디자인"
+],
+"definition_ko": "상품 포장에 필요한 형태와 시각 표현을 설계하는 작업.",
+"definition_en": "The work of designing the form and visual expression needed for product packaging.",
+"example_ko": "패키지 디자인에서 전개도와 실제 조립 상태를 함께 확인해요.",
+"example_en": "In package design, we check the dieline and the actual assembled form together."
+},
+{
+"id": "marketing-033",
+"field": "marketing",
+"term_ko": "브리프",
+"term_en": "Brief",
+"english": "Creative brief",
+"aliases_ko": [
+"브리핑 문서",
+"크리에이티브 브리프",
+"크리에이티브브리프",
+"제작 브리프"
+],
+"definition_ko": "제작 목표·대상·핵심 요구를 요약한 문서.",
+"definition_en": "A document that summarizes the production goals, audience, and key requirements.",
+"example_ko": "브리프를 보고 시안 방향을 잡아요.",
+"example_en": "We set the direction for the drafts based on the brief."
+},
+{
+"id": "fashion-028",
+"field": "fashion",
+"term_ko": "브리프",
+"term_en": "Brief",
+"english": "Creative brief",
+"aliases_ko": [
+"브리핑 문서",
+"크리에이티브 브리프"
+],
+"definition_ko": "제작 목표·대상·핵심 요구를 요약한 문서.",
+"definition_en": "A document that summarizes the production goals, audience, and key requirements.",
+"example_ko": "룩북 촬영 브리프에 시즌 콘셉트와 반드시 보여줄 착장을 적어요.",
+"example_en": "In the lookbook shoot brief, we note the season concept and the outfits that must be shown."
+}
+]

@@ -1,7 +1,7 @@
 /* Browser + Node: pure search, persistence validation and learning queue. */
 (function(root,factory){if(typeof module==='object'&&module.exports)module.exports=factory();else root.WordCore=factory();})(typeof globalThis!=='undefined'?globalThis:this,function(){
 'use strict';
-const normalize=s=>String(s||'').normalize('NFKC').toLowerCase().replace(/[^a-z0-9가-힣]/g,'');
+const normalize=s=>String(s||'').normalize('NFKC').toLowerCase().replace(/[^a-z0-9가-힣ぁ-ゖァ-ヺー㐀-䶿一-鿿]/g,'');
 const names=e=>[e.term,e.english,...(e.aliases||[])].map(normalize).filter(Boolean);
 function score(e,query){const q=normalize(query);if(!q)return 1;const ns=names(e);if(ns.includes(q))return 10000;
  // Short Latin acronyms must stand alone: PT should find 경쟁 PT, not depth
@@ -22,7 +22,7 @@ function score(e,query){const q=normalize(query);if(!q)return 1;const ns=names(e
  if(hits&&hits/tokens.length>=.5)return 1000+Math.round(hits/tokens.length*400);
  if(q.length>=7){const grams=new Set(Array.from({length:q.length-1},(_,i)=>q.slice(i,i+2)));let best=0;for(const p of phrases){let match=0;for(const g of grams)if(p.includes(g))match++;best=Math.max(best,match/grams.size);}if(best>=.45)return Math.round(best*800);}
  return 0;}
-function search(entries,q='',{fields=[],field='',kind='',category=''}={}){const scored=entries.filter(e=>(!field||e.field===field)&&(!kind||e.kind===kind)&&(!category||e.category===category)).map(e=>({entry:e,score:score(e,q)}));const exactShortKorean=/^[가-힣]{2,3}$/.test(normalize(q))&&scored.some(x=>x.score===10000);const floor=exactShortKorean?5000:normalize(q).length>=5&&scored.some(x=>x.score>=2200)?2000:scored.some(x=>x.score>=1000)?1000:1;return scored.filter(x=>x.score>=floor).sort((a,b)=>b.score-a.score||(fields.includes(a.entry.field)?fields.indexOf(a.entry.field):fields.length)-(fields.includes(b.entry.field)?fields.indexOf(b.entry.field):fields.length)||a.entry.term.localeCompare(b.entry.term,'ko')).map(x=>x.entry);}
+function search(entries,q='',{fields=[],field='',kind='',category=''}={}){const scored=entries.filter(e=>(!field||e.field===field)&&(!kind||e.kind===kind)&&(!category||e.category===category)).map(e=>({entry:e,score:score(e,q)}));const exactShortKorean=/^[가-힣ぁ-ゖァ-ヺー一-鿿]{2,3}$/.test(normalize(q))&&scored.some(x=>x.score===10000);const floor=exactShortKorean?5000:normalize(q).length>=5&&scored.some(x=>x.score>=2200)?2000:scored.some(x=>x.score>=1000)?1000:1;return scored.filter(x=>x.score>=floor).sort((a,b)=>b.score-a.score||(fields.includes(a.entry.field)?fields.indexOf(a.entry.field):fields.length)-(fields.includes(b.entry.field)?fields.indexOf(b.entry.field):fields.length)||a.entry.term.localeCompare(b.entry.term,'ko')).map(x=>x.entry);}
 // Suggestions match names, not prose. Short acronym prefixes are useful here
 // even though submitted searches deliberately require complete short tokens.
 function suggest(entries,query,{fields=[],kind='',category='',limit=6}={}){

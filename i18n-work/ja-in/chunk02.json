@@ -1,0 +1,4594 @@
+[
+{
+"id": "fashion-174",
+"field": "fashion",
+"term_ko": "데끼 패턴",
+"term_en": "Deki pattern",
+"english": "Net pattern",
+"aliases_ko": [
+"데끼패턴",
+"알패턴",
+"완성선 패턴"
+],
+"definition_ko": "시접을 포함하지 않은 완성선 기준 옷본.",
+"definition_en": "A garment pattern based on the finished line, without seam allowance included.",
+"example_ko": "데끼 패턴에 시접을 더해요.",
+"example_en": "We add seam allowance to the deki pattern.",
+"note_ko": "2023년 실무자 글에 수록된 과거 봉제 자료를 참고했습니다. 공장마다 호칭과 표기가 다를 수 있습니다.",
+"note_en": "This references older sewing material included in a 2023 practitioner's writing. The names and spellings may differ by factory."
+},
+{
+"id": "design-091",
+"field": "design",
+"term_ko": "하리꼬미",
+"term_en": "Harikomi",
+"english": "Imposition",
+"aliases_ko": [
+"하리코미",
+"터잡기"
+],
+"definition_ko": "한 인쇄판에 페이지나 도안을 배치하는 작업.",
+"definition_en": "The work of arranging pages or designs on a single printing plate.",
+"example_ko": "종이 낭비를 줄이도록 하리꼬미해요.",
+"example_en": "We do harikomi to reduce paper waste."
+},
+{
+"id": "design-092",
+"field": "design",
+"term_ko": "싯끼리",
+"term_en": "Shikkiri",
+"english": "Divider",
+"aliases_ko": [
+"박스 칸막이"
+],
+"definition_ko": "상자 안에서 제품을 나누거나 고정하는 칸막이.",
+"definition_en": "A divider that separates or holds products inside a box.",
+"example_ko": "병이 흔들리지 않게 싯끼리를 넣어요.",
+"example_en": "We insert a shikkiri so the bottles don't rattle."
+},
+{
+"id": "design-093",
+"field": "design",
+"term_ko": "구아이",
+"term_en": "Guai",
+"english": "Gripper margin",
+"aliases_ko": [
+"물림 여백"
+],
+"definition_ko": "인쇄기가 종이를 잡을 수 있도록 남기는 여백.",
+"definition_en": "The margin left so the printing press can grip the paper.",
+"example_ko": "구아이 공간을 확인해 주세요.",
+"example_en": "Please check the guai space."
+},
+{
+"id": "design-094",
+"field": "design",
+"term_ko": "베다",
+"term_en": "Beda",
+"english": "Solid fill",
+"aliases_ko": [
+"뻬다",
+"베다 인쇄"
+],
+"definition_ko": "넓은 면을 한 색으로 꽉 채우는 인쇄 표현.",
+"definition_en": "A print expression that fully fills a large area with a single color.",
+"example_ko": "뒷면은 남색 베다로 가요.",
+"example_en": "The back goes with a navy beda."
+},
+{
+"id": "design-095",
+"field": "design",
+"term_ko": "로스",
+"term_en": "Loss",
+"english": "Waste",
+"aliases_ko": [
+"인쇄 로스",
+"손실분"
+],
+"definition_ko": "재단·인쇄 과정에서 쓰지 못하게 되는 종이 등의 손실.",
+"definition_en": "The loss of paper and the like that becomes unusable during cutting and printing.",
+"example_ko": "로스를 고려해 종이를 준비해요.",
+"example_en": "We prepare paper accounting for loss."
+},
+{
+"id": "design-096",
+"field": "design",
+"term_ko": "목형",
+"term_en": "Cutting die",
+"english": "Cutting die",
+"aliases_ko": [
+"도무송 목형"
+],
+"definition_ko": "원하는 형태로 자르기 위해 칼날을 배치한 틀.",
+"definition_en": "A form with blades arranged to cut into a desired shape.",
+"example_ko": "목형 제작 전에 도안을 확정해요.",
+"example_en": "We finalize the artwork before making the cutting die."
+},
+{
+"id": "design-097",
+"field": "design",
+"term_ko": "도무송",
+"term_en": "Die-cutting",
+"english": "Die cutting",
+"aliases_ko": [
+"다이커팅",
+"다이컷",
+"톰슨 가공"
+],
+"definition_ko": "칼틀로 종이 등을 정해진 형태로 잘라내는 가공.",
+"definition_en": "Processing that cuts paper and the like into a set shape with a cutting die.",
+"example_ko": "태그 외곽은 도무송으로 만들어요.",
+"example_en": "We make the tag's outline with die-cutting."
+},
+{
+"id": "marketing-114",
+"field": "marketing",
+"term_ko": "도무송",
+"term_en": "Die-cutting",
+"english": "Die cutting",
+"aliases_ko": [
+"다이커팅",
+"다이컷",
+"톰슨 가공"
+],
+"definition_ko": "칼틀로 종이 등을 정해진 형태로 잘라내는 가공.",
+"definition_en": "Processing that cuts paper and the like into a set shape with a cutting die.",
+"example_ko": "태그 외곽은 도무송으로 만들어요.",
+"example_en": "We make the tag's outline with die-cutting."
+},
+{
+"id": "fashion-175",
+"field": "fashion",
+"term_ko": "도무송",
+"term_en": "Die-cutting",
+"english": "Die cutting",
+"aliases_ko": [
+"다이커팅",
+"다이컷",
+"톰슨 가공"
+],
+"definition_ko": "칼틀로 종이 등을 정해진 형태로 잘라내는 가공.",
+"definition_en": "Processing that cuts paper and the like into a set shape with a cutting die.",
+"example_ko": "의류 행택을 원하는 모양으로 만들기 위해 도무송 칼선을 확인해요.",
+"example_en": "We check the die-cut lines to make the apparel hangtag in the desired shape.",
+"note_ko": "의류 패턴 재단이 아니라 태그·박스 등 인쇄물 제작에서의 뜻입니다.",
+"note_en": "This means the sense used in making printed items such as tags and boxes, not garment pattern cutting."
+},
+{
+"id": "design-098",
+"field": "design",
+"term_ko": "박",
+"term_en": "Foil stamping",
+"english": "Foil stamping",
+"aliases_ko": [
+"박 가공",
+"호일 스탬핑"
+],
+"definition_ko": "열과 압력으로 필름을 옮겨 장식하는 가공.",
+"definition_en": "Processing that decorates by transferring film with heat and pressure.",
+"example_ko": "패키지 로고에 은색 박을 넣어요.",
+"example_en": "We add silver foil to the package logo."
+},
+{
+"id": "marketing-115",
+"field": "marketing",
+"term_ko": "박",
+"term_en": "Foil stamping",
+"english": "Foil stamping",
+"aliases_ko": [
+"박 가공",
+"호일 스탬핑"
+],
+"definition_ko": "열과 압력으로 필름을 옮겨 장식하는 가공.",
+"definition_en": "Processing that decorates by transferring film with heat and pressure.",
+"example_ko": "패키지 로고에 은색 박을 넣어요.",
+"example_en": "We add silver foil to the package logo."
+},
+{
+"id": "fashion-176",
+"field": "fashion",
+"term_ko": "박",
+"term_en": "Foil stamping",
+"english": "Foil stamping",
+"aliases_ko": [
+"박 가공",
+"호일 스탬핑"
+],
+"definition_ko": "열과 압력으로 필름을 옮겨 장식하는 가공.",
+"definition_en": "Processing that decorates by transferring film with heat and pressure.",
+"example_ko": "프리미엄 라인 쇼핑백 로고에 은박을 넣어요.",
+"example_en": "We add silver foil to the logo on the premium-line shopping bag.",
+"note_ko": "패키지·인쇄물 제작에서의 뜻입니다.",
+"note_en": "This means the sense used in package and print-material production."
+},
+{
+"id": "design-099",
+"field": "design",
+"term_ko": "형압",
+"term_en": "Embossing/debossing",
+"english": "Embossing and debossing",
+"aliases_ko": [
+"형압 가공"
+],
+"definition_ko": "금형으로 종이를 눌러 요철을 만드는 가공.",
+"definition_en": "Processing that presses paper with a die to create raised or recessed relief.",
+"example_ko": "로고는 형압으로 표현해요.",
+"example_en": "We render the logo with embossing."
+},
+{
+"id": "marketing-116",
+"field": "marketing",
+"term_ko": "형압",
+"term_en": "Embossing/debossing",
+"english": "Embossing and debossing",
+"aliases_ko": [
+"형압 가공"
+],
+"definition_ko": "금형으로 종이를 눌러 요철을 만드는 가공.",
+"definition_en": "Processing that presses paper with a die to create raised or recessed relief.",
+"example_ko": "로고는 형압으로 표현해요.",
+"example_en": "We render the logo with embossing."
+},
+{
+"id": "fashion-177",
+"field": "fashion",
+"term_ko": "형압",
+"term_en": "Embossing/debossing",
+"english": "Embossing and debossing",
+"aliases_ko": [
+"형압 가공"
+],
+"definition_ko": "금형으로 종이를 눌러 요철을 만드는 가공.",
+"definition_en": "Processing that presses paper with a die to create raised or recessed relief.",
+"example_ko": "의류 선물 상자의 브랜드 로고를 형압으로 표현해요.",
+"example_en": "We render the brand logo on the apparel gift box with embossing.",
+"note_ko": "패키지·인쇄물 제작에서의 뜻입니다.",
+"note_en": "This means the sense used in package and print-material production."
+},
+{
+"id": "design-100",
+"field": "design",
+"term_ko": "후가공",
+"term_en": "Finishing",
+"english": "Print finishing",
+"aliases_ko": [
+"인쇄 후가공"
+],
+"definition_ko": "인쇄 뒤 마감이나 장식 효과를 더하는 작업.",
+"definition_en": "Work that adds finishing or decorative effects after printing.",
+"example_ko": "후가공별 샘플을 비교해요.",
+"example_en": "We compare samples for each finishing option."
+},
+{
+"id": "design-101",
+"field": "design",
+"term_ko": "라미네이팅",
+"term_en": "Laminating",
+"english": "Lamination",
+"aliases_ko": [
+"필름 코팅"
+],
+"definition_ko": "인쇄면에 얇은 필름을 붙이는 마감.",
+"definition_en": "A finish that applies a thin film over the printed surface.",
+"example_ko": "표지는 무광 라미네이팅으로 해요.",
+"example_en": "We go with a matte lamination for the cover."
+},
+{
+"id": "design-102",
+"field": "design",
+"term_ko": "양각",
+"term_en": "Emboss (raised)",
+"english": "Emboss",
+"aliases_ko": [
+"엠보싱"
+],
+"definition_ko": "표면에서 도드라지게 올라온 형태.",
+"definition_en": "A form that rises prominently from the surface.",
+"example_ko": "로고를 양각으로 올려요.",
+"example_en": "We raise the logo with embossing."
+},
+{
+"id": "design-103",
+"field": "design",
+"term_ko": "음각",
+"term_en": "Deboss (recessed)",
+"english": "Deboss",
+"aliases_ko": [
+"디보싱"
+],
+"definition_ko": "표면 안쪽으로 들어가게 눌린 형태.",
+"definition_en": "A form pressed inward into the surface.",
+"example_ko": "브랜드명은 음각으로 눌러요.",
+"example_en": "We press the brand name in with debossing."
+},
+{
+"id": "design-104",
+"field": "design",
+"term_ko": "UV 코팅",
+"term_en": "UV coating",
+"english": "UV coating",
+"aliases_ko": [
+"유브이 코팅",
+"부분 UV"
+],
+"definition_ko": "자외선으로 굳히는 코팅제를 쓰는 마감.",
+"definition_en": "A finish using a coating agent cured by ultraviolet light.",
+"example_ko": "그림 부분만 UV 코팅해요.",
+"example_en": "We UV-coat only the illustration area."
+},
+{
+"id": "design-105",
+"field": "design",
+"term_ko": "반칼",
+"term_en": "Kiss cut",
+"english": "Kiss cut",
+"aliases_ko": [
+"키스컷"
+],
+"definition_ko": "스티커 뒷지를 남기고 윗부분만 자르는 가공.",
+"definition_en": "Processing that cuts only the top layer of a sticker while leaving the backing paper.",
+"example_ko": "시트째 납품하려고 반칼로 주문해요.",
+"example_en": "We order kiss cut to deliver it by the full sheet."
+},
+{
+"id": "marketing-117",
+"field": "marketing",
+"term_ko": "반칼",
+"term_en": "Kiss cut",
+"english": "Kiss cut",
+"aliases_ko": [
+"키스컷"
+],
+"definition_ko": "스티커 뒷지를 남기고 윗부분만 자르는 가공.",
+"definition_en": "A finishing cut that cuts only the top layer while leaving the sticker's backing paper intact.",
+"example_ko": "시트째 납품하려고 반칼로 주문해요.",
+"example_en": "I'm ordering kiss cut so they can be delivered as full sheets."
+},
+{
+"id": "design-106",
+"field": "design",
+"term_ko": "완칼",
+"term_en": "Die cut",
+"english": "Through cut",
+"aliases_ko": [
+"완전 재단"
+],
+"definition_ko": "스티커와 뒷지까지 관통해 자르는 가공.",
+"definition_en": "A finishing cut that cuts all the way through both the sticker and its backing paper.",
+"example_ko": "낱개 배포용이라 완칼로 해요.",
+"example_en": "It's for individual distribution, so we go with die cut."
+},
+{
+"id": "marketing-118",
+"field": "marketing",
+"term_ko": "완칼",
+"term_en": "Die cut",
+"english": "Through cut",
+"aliases_ko": [
+"완전 재단"
+],
+"definition_ko": "스티커와 뒷지까지 관통해 자르는 가공.",
+"definition_en": "A finishing cut that cuts all the way through both the sticker and its backing paper.",
+"example_ko": "낱개 배포용이라 완칼로 해요.",
+"example_en": "It's for individual distribution, so we go with die cut."
+},
+{
+"id": "design-107",
+"field": "design",
+"term_ko": "판스티커",
+"term_en": "Sheet sticker",
+"english": "Sticker sheet",
+"aliases_ko": [
+"시트 스티커"
+],
+"definition_ko": "여러 스티커를 한 시트에 배치한 제품.",
+"definition_en": "A product with multiple stickers arranged on a single sheet.",
+"example_ko": "캐릭터들을 판스티커로 묶었어요.",
+"example_en": "We bundled the characters into a sheet sticker."
+},
+{
+"id": "marketing-119",
+"field": "marketing",
+"term_ko": "판스티커",
+"term_en": "Sheet sticker",
+"english": "Sticker sheet",
+"aliases_ko": [
+"시트 스티커"
+],
+"definition_ko": "여러 스티커를 한 시트에 배치한 제품.",
+"definition_en": "A product with multiple stickers arranged on a single sheet.",
+"example_ko": "캐릭터들을 판스티커로 묶었어요.",
+"example_en": "We bundled the characters into a sheet sticker."
+},
+{
+"id": "design-108",
+"field": "design",
+"term_ko": "조각스티커",
+"term_en": "Cut-out sticker",
+"english": "Individual sticker",
+"aliases_ko": [
+"낱개 스티커"
+],
+"definition_ko": "모양별로 완전히 분리해 납품하는 스티커.",
+"definition_en": "Stickers fully separated by shape and delivered as individual pieces.",
+"example_ko": "행사에서 조각스티커를 나눠줘요.",
+"example_en": "We hand out cut-out stickers at events."
+},
+{
+"id": "marketing-120",
+"field": "marketing",
+"term_ko": "조각스티커",
+"term_en": "Cut-out sticker",
+"english": "Individual sticker",
+"aliases_ko": [
+"낱개 스티커"
+],
+"definition_ko": "모양별로 완전히 분리해 납품하는 스티커.",
+"definition_en": "Stickers fully separated by shape and delivered as individual pieces.",
+"example_ko": "행사에서 조각스티커를 나눠줘요.",
+"example_en": "We hand out cut-out stickers at events."
+},
+{
+"id": "film-145",
+"field": "film",
+"term_ko": "야마",
+"term_en": "Yama",
+"english": "Main point",
+"aliases_ko": [
+"핵심 관점"
+],
+"definition_ko": "방송 구성이나 글이 전달하려는 핵심 관점.",
+"definition_en": "The core point or angle that a broadcast segment or piece of writing aims to convey.",
+"example_ko": "이번 인터뷰의 야마부터 정해요.",
+"example_en": "Let's decide the yama of this interview first.",
+"note_ko": "2009년 방송작가의 사용 기록을 참고했습니다. 프로그램·팀마다 사용 범위가 다릅니다.",
+"note_en": "Based on documented usage by broadcast writers in 2009. The scope of use varies by program and team."
+},
+{
+"id": "film-146",
+"field": "film",
+"term_ko": "시바이",
+"term_en": "Shibai",
+"english": "Staged performance",
+"aliases_ko": [
+"인위적 연기"
+],
+"definition_ko": "상황을 연출해 보여주는 인위적인 연기.",
+"definition_en": "Artificial, staged acting put on for the camera.",
+"example_ko": "자연스러운 반응과 시바이를 구분해요.",
+"example_en": "We distinguish between natural reactions and shibai.",
+"note_ko": "연출된 연기라는 뜻입니다. 촬영을 끝낸다는 시마이와 다릅니다. 2009년 방송작가의 사용 기록을 참고했습니다. 프로그램·팀마다 사용 범위가 다릅니다.",
+"note_en": "It means staged acting. It is different from 'shimai,' which means wrapping up a shoot. Based on documented usage by broadcast writers in 2009. The scope of use varies by program and team."
+},
+{
+"id": "film-147",
+"field": "film",
+"term_ko": "입봉",
+"term_en": "Ipbong",
+"english": "Debut",
+"aliases_ko": [
+"첫 연출",
+"데뷔"
+],
+"definition_ko": "처음으로 작품이나 담당 코너를 책임지고 맡는 것.",
+"definition_en": "Taking charge of one's first project or assigned segment.",
+"example_ko": "이번 코너로 입봉했어요.",
+"example_en": "I made my debut with this segment.",
+"note_ko": "2009년 방송작가의 사용 기록을 참고했습니다. 프로그램·팀마다 사용 범위가 다릅니다.",
+"note_en": "Based on documented usage by broadcast writers in 2009. The scope of use varies by program and team."
+},
+{
+"id": "film-148",
+"field": "film",
+"term_ko": "구다리",
+"term_en": "Kudari",
+"english": "Passage",
+"aliases_ko": [
+"대목"
+],
+"definition_ko": "대본이나 이야기에서 한 흐름을 이루는 대목.",
+"definition_en": "A passage that forms one flow in a script or story.",
+"example_ko": "이 구다리를 짧게 정리해요.",
+"example_en": "Let's trim this kudari down.",
+"note_ko": "2009년 방송작가의 사용 기록을 참고했습니다. 프로그램·팀마다 사용 범위가 다릅니다.",
+"note_en": "Based on documented usage by broadcast writers in 2009. The scope of use varies by program and team."
+},
+{
+"id": "film-149",
+"field": "film",
+"term_ko": "미다시",
+"term_en": "Midashi",
+"english": "Headline",
+"aliases_ko": [
+"헤드라인"
+],
+"definition_ko": "기사나 글의 제목을 가리키는 현장 말.",
+"definition_en": "A field term for the title of an article or piece of writing.",
+"example_ko": "미다시에 핵심을 담아주세요.",
+"example_en": "Please capture the key point in the midashi.",
+"note_ko": "2009년 방송작가의 사용 기록을 참고했습니다. 프로그램·팀마다 사용 범위가 다릅니다.",
+"note_en": "Based on documented usage by broadcast writers in 2009. The scope of use varies by program and team."
+},
+{
+"id": "film-150",
+"field": "film",
+"term_ko": "우라까이",
+"term_en": "Urakkai",
+"english": "Reworked copy",
+"aliases_ko": [
+"우라카이"
+],
+"definition_ko": "남의 글을 일부 바꿔 베끼는 행위를 가리키는 은어.",
+"definition_en": "Slang for the act of partially altering and copying someone else's writing.",
+"example_ko": "우라까이 없이 직접 취재해 작성해요.",
+"example_en": "We write by reporting firsthand, without urakkai.",
+"note_ko": "베끼기를 지적하는 부정적인 뉘앙스가 있는 표현입니다. 2009년 방송작가의 사용 기록을 참고했습니다. 프로그램·팀마다 사용 범위가 다릅니다.",
+"note_en": "This expression carries a negative nuance, pointing to copying. Based on documented usage by broadcast writers in 2009. The scope of use varies by program and team."
+},
+{
+"id": "film-151",
+"field": "film",
+"term_ko": "가타키",
+"term_en": "Kataki",
+"english": "Villain",
+"aliases_ko": [
+"악역"
+],
+"definition_ko": "극 중 악역을 부르던 현장 표현.",
+"definition_en": "A field term that was used for the villain role in a drama.",
+"example_ko": "배역 메모에서 가타키를 확인했어요.",
+"example_en": "I checked the kataki in the casting notes.",
+"note_ko": "1985년 순화 자료에 기록된 표현입니다. 오늘날 모든 촬영 현장에서 통용된다는 뜻은 아닙니다.",
+"note_en": "An expression recorded in 1985 language-refinement materials. It does not mean the term is in common use on all film sets today."
+},
+{
+"id": "film-152",
+"field": "film",
+"term_ko": "갇와리",
+"term_en": "Kadwari",
+"english": "Shot division",
+"aliases_ko": [
+"컷 나누기"
+],
+"definition_ko": "장면을 촬영할 컷으로 나누는 일을 부르던 말.",
+"definition_en": "A term that was used for dividing a scene into the shots to be filmed.",
+"example_ko": "옛 제작표에 갇와리라고 적혀 있어요.",
+"example_en": "The old production sheet says 'kadwari.'",
+"note_ko": "1985년 순화 자료에 기록된 표현입니다. 오늘날 모든 촬영 현장에서 통용된다는 뜻은 아닙니다.",
+"note_en": "An expression recorded in 1985 language-refinement materials. It does not mean the term is in common use on all film sets today."
+},
+{
+"id": "film-153",
+"field": "film",
+"term_ko": "데다시",
+"term_en": "Dedashi",
+"english": "Opening",
+"aliases_ko": [
+"도입부"
+],
+"definition_ko": "작품이나 장면의 시작 부분을 부르던 말.",
+"definition_en": "A term that was used for the beginning part of a work or scene.",
+"example_ko": "데다시에 해당하는 도입부를 확인해요.",
+"example_en": "Let's check the opening section that corresponds to the dedashi.",
+"note_ko": "1985년 순화 자료에 기록된 표현입니다. 오늘날 모든 촬영 현장에서 통용된다는 뜻은 아닙니다.",
+"note_en": "An expression recorded in 1985 language-refinement materials. It does not mean the term is in common use on all film sets today."
+},
+{
+"id": "film-154",
+"field": "film",
+"term_ko": "덴깡",
+"term_en": "Denkkang",
+"english": "Set change",
+"aliases_ko": [
+"세트 전환"
+],
+"definition_ko": "촬영 세트를 다른 장면에 맞게 바꾸는 일을 부르던 말.",
+"definition_en": "A term that was used for changing a film set to suit a different scene.",
+"example_ko": "덴깡 지시 다음에 세트를 바꿔요.",
+"example_en": "We change the set after the denkkang instruction.",
+"note_ko": "1985년 순화 자료에 기록된 표현입니다. 오늘날 모든 촬영 현장에서 통용된다는 뜻은 아닙니다.",
+"note_en": "An expression recorded in 1985 language-refinement materials. It does not mean the term is in common use on all film sets today."
+},
+{
+"id": "film-155",
+"field": "film",
+"term_ko": "도리나오시",
+"term_en": "Torinaoshi",
+"english": "Reshoot",
+"aliases_ko": [
+"재촬영"
+],
+"definition_ko": "이미 찍은 내용을 다시 촬영하는 일.",
+"definition_en": "Filming again content that has already been shot.",
+"example_ko": "도리나오시할 컷을 따로 표시했어요.",
+"example_en": "I marked the shots for torinaoshi separately.",
+"note_ko": "1985년 순화 자료에 기록된 표현입니다. 오늘날 모든 촬영 현장에서 통용된다는 뜻은 아닙니다.",
+"note_en": "An expression recorded in 1985 language-refinement materials. It does not mean the term is in common use on all film sets today."
+},
+{
+"id": "film-156",
+"field": "film",
+"term_ko": "바라스",
+"term_en": "Baras",
+"english": "Strike",
+"aliases_ko": [
+"세트 철거"
+],
+"definition_ko": "세트나 설치물을 해체하는 일을 가리키던 말.",
+"definition_en": "A term that referred to dismantling a set or installation.",
+"example_ko": "촬영 뒤 바라스 작업을 진행해요.",
+"example_en": "We carry out the baras work after shooting.",
+"note_ko": "1985년 순화 자료에 기록된 표현입니다. 오늘날 모든 촬영 현장에서 통용된다는 뜻은 아닙니다.",
+"note_en": "An expression recorded in 1985 language-refinement materials. It does not mean the term is in common use on all film sets today."
+},
+{
+"id": "film-157",
+"field": "film",
+"term_ko": "소라백",
+"term_en": "Sorabaek",
+"english": "Sky backdrop",
+"aliases_ko": [
+"하늘 배경막"
+],
+"definition_ko": "하늘처럼 보이도록 쓰는 배경막.",
+"definition_en": "A backdrop used to look like the sky.",
+"example_ko": "소라백 앞에서 장면을 찍어요.",
+"example_en": "We shoot the scene in front of the sorabaek.",
+"note_ko": "1985년 순화 자료에 기록된 표현입니다. 오늘날 모든 촬영 현장에서 통용된다는 뜻은 아닙니다.",
+"note_en": "An expression recorded in 1985 language-refinement materials. It does not mean the term is in common use on all film sets today."
+},
+{
+"id": "film-158",
+"field": "film",
+"term_ko": "씬와리",
+"term_en": "Sinwari",
+"english": "Scene division",
+"aliases_ko": [
+"씬 나누기"
+],
+"definition_ko": "이야기를 장면 단위로 나누는 작업.",
+"definition_en": "The work of dividing a story into scene units.",
+"example_ko": "대본의 씬와리를 검토해요.",
+"example_en": "We review the sinwari of the script.",
+"note_ko": "1985년 순화 자료에 기록된 표현입니다. 오늘날 모든 촬영 현장에서 통용된다는 뜻은 아닙니다.",
+"note_en": "An expression recorded in 1985 language-refinement materials. It does not mean the term is in common use on all film sets today."
+},
+{
+"id": "film-159",
+"field": "film",
+"term_ko": "콤마도리",
+"term_en": "Kommadori",
+"english": "Frame-by-frame shooting",
+"aliases_ko": [
+"한 프레임씩 촬영"
+],
+"definition_ko": "한 프레임씩 나누어 촬영하는 방식.",
+"definition_en": "A method of shooting one frame at a time.",
+"example_ko": "모형을 움직이며 콤마도리로 찍어요.",
+"example_en": "We move the model and shoot it frame by frame with kommadori.",
+"note_ko": "1985년 순화 자료에 기록된 표현입니다. 오늘날 모든 촬영 현장에서 통용된다는 뜻은 아닙니다.",
+"note_en": "An expression recorded in 1985 language-refinement materials. It does not mean the term is in common use on all film sets today."
+},
+{
+"id": "film-160",
+"field": "film",
+"term_ko": "레프",
+"term_en": "Reflector",
+"english": "Reflector",
+"aliases_ko": [
+"반사판",
+"레프판"
+],
+"definition_ko": "빛을 반사해 피사체로 보내는 판.",
+"definition_en": "A board that reflects light and sends it onto the subject.",
+"example_ko": "레프로 얼굴의 그늘을 밝혀요.",
+"example_en": "We use a reflector to brighten the shadows on the face.",
+"note_ko": "1985년 순화 자료에 기록된 표현입니다. 오늘날 모든 촬영 현장에서 통용된다는 뜻은 아닙니다.",
+"note_en": "An expression recorded in 1985 language-refinement materials. It does not mean the term is in common use on all film sets today."
+},
+{
+"id": "dev-129",
+"field": "dev",
+"term_ko": "LGTM",
+"term_en": "LGTM",
+"english": "Looks good to me",
+"aliases_ko": [
+"엘지티엠"
+],
+"definition_ko": "코드 변경을 검토한 사람이 승인 의사를 전하는 약어.",
+"definition_en": "An abbreviation a reviewer uses to signal approval of a code change.",
+"example_ko": "수정 확인했어요. LGTM입니다.",
+"example_en": "I checked the fix. LGTM.",
+"note_ko": "리뷰 승인 의사를 나타내지만 댓글만으로 자동 병합되는지는 도구와 팀 설정에 따라 다릅니다.",
+"note_en": "It indicates review approval, but whether a comment alone triggers an automatic merge depends on the tool and team settings."
+},
+{
+"id": "dev-130",
+"field": "dev",
+"term_ko": "CL",
+"term_en": "CL",
+"english": "Changelist",
+"aliases_ko": [
+"체인지리스트",
+"변경 묶음"
+],
+"definition_ko": "검토하거나 버전 관리에 올리는 하나의 변경 묶음.",
+"definition_en": "A single bundle of changes submitted for review or version control.",
+"example_ko": "이번 CL에는 오류 수정만 담았어요.",
+"example_en": "This CL contains only bug fixes.",
+"note_ko": "Google 개발 문서에서 확인되는 호칭입니다. 팀에 따라 변경 요청·패치·PR이라고 부릅니다.",
+"note_en": "A term found in Google's engineering documentation. Depending on the team, it may be called a change request, patch, or PR."
+},
+{
+"id": "dev-131",
+"field": "dev",
+"term_ko": "Nit",
+"term_en": "Nit",
+"english": "Nitpick",
+"aliases_ko": [
+"니트",
+"nit:"
+],
+"definition_ko": "리뷰에서 사소한 다듬기 제안임을 표시하는 말.",
+"definition_en": "A note marking a minor, polishing suggestion in a review.",
+"example_ko": "Nit: 이 이름을 조금 짧게 해도 좋겠어요.",
+"example_en": "Nit: this name could be a little shorter.",
+"note_ko": "대개 필수가 아닌 작은 제안입니다. 수정 의무는 팀의 리뷰 규칙을 확인하세요.",
+"note_en": "It is usually a small, non-mandatory suggestion. Check your team's review rules for whether a change is required."
+},
+{
+"id": "dev-133",
+"field": "dev",
+"term_ko": "드래프트",
+"term_en": "Draft",
+"english": "Draft",
+"aliases_ko": [
+"초안",
+"Draft MR",
+"Draft PR"
+],
+"definition_ko": "아직 병합할 준비가 끝나지 않았다고 표시한 변경 요청.",
+"definition_en": "A change request marked as not yet ready to merge.",
+"example_ko": "초안은 드래프트로 먼저 공유해요.",
+"example_en": "We share the first version as a draft.",
+"note_ko": "병합 준비 상태를 표시하는 기능입니다. 동료에게 초안 검토를 요청할 수 있습니다.",
+"note_en": "It is a feature for marking merge-readiness. You can ask colleagues to review the draft."
+},
+{
+"id": "dev-134",
+"field": "dev",
+"term_ko": "WIP",
+"term_en": "WIP",
+"english": "Work in progress",
+"aliases_ko": [
+"더블유아이피",
+"작업 중"
+],
+"definition_ko": "아직 완성되지 않고 작업 중임을 나타내는 약어.",
+"definition_en": "An abbreviation indicating that something is still in progress and not yet finished.",
+"example_ko": "로그인 개선은 아직 WIP예요.",
+"example_en": "The login improvements are still WIP."
+},
+{
+"id": "dev-135",
+"field": "dev",
+"term_ko": "피처 플래그",
+"term_en": "Feature flag",
+"english": "Feature flag",
+"aliases_ko": [
+"기능 플래그",
+"기능 토글",
+"feature toggle"
+],
+"definition_ko": "기능 노출이나 동작을 켜고 끄는 제어 장치.",
+"definition_en": "A control switch that turns a feature's visibility or behavior on and off.",
+"example_ko": "피처 플래그로 새 화면을 켰어요.",
+"example_en": "We turned on the new screen with a feature flag."
+},
+{
+"id": "dev-136",
+"field": "dev",
+"term_ko": "WIP 제한",
+"term_en": "WIP limit",
+"english": "Work in progress limit",
+"aliases_ko": [
+"WIP limit",
+"진행 중 작업 제한"
+],
+"definition_ko": "동시에 진행하는 작업 수 등의 상한.",
+"definition_en": "A cap on things such as the number of tasks in progress at the same time.",
+"example_ko": "WIP 제한을 넘기기 전에 일을 끝내요.",
+"example_en": "We finish work before exceeding the WIP limit."
+},
+{
+"id": "dev-137",
+"field": "dev",
+"term_ko": "칸반",
+"term_en": "Kanban",
+"english": "Kanban",
+"aliases_ko": [
+"칸반 보드"
+],
+"definition_ko": "작업 상태를 시각화하고 흐름을 관리하는 방식.",
+"definition_en": "A method for visualizing work status and managing flow.",
+"example_ko": "칸반에서 진행 중인 작업을 확인해요.",
+"example_en": "We check the work in progress on the Kanban board."
+},
+{
+"id": "dev-138",
+"field": "dev",
+"term_ko": "삽질",
+"term_en": "Sapjil",
+"english": "Trial and error",
+"aliases_ko": [
+"삽질하다"
+],
+"definition_ko": "원인을 찾거나 구현하느라 시행착오를 거치는 과정을 자조적으로 이르는 말.",
+"definition_en": "A self-deprecating term for the trial-and-error grind of tracking down a cause or getting an implementation to work.",
+"example_ko": "연결 오류로 삽질한 내용을 기록했어요.",
+"example_en": "I documented the sapjil I went through over the connection error."
+},
+{
+"id": "dev-139",
+"field": "dev",
+"term_ko": "레거시",
+"term_en": "Legacy",
+"english": "Legacy code",
+"aliases_ko": [
+"레거시 코드",
+"레거시 시스템",
+"레가시"
+],
+"definition_ko": "이전부터 이어져 현재도 유지·운영하는 코드나 시스템.",
+"definition_en": "Code or systems carried over from before that are still maintained and operated today.",
+"example_ko": "레거시의 동작을 확인하고 수정해요.",
+"example_en": "We check the behavior of the legacy and fix it.",
+"note_ko": "오래됐다는 이유만으로 잘못된 코드라는 뜻은 아닙니다.",
+"note_en": "Being old alone does not mean the code is wrong."
+},
+{
+"id": "dev-140",
+"field": "dev",
+"term_ko": "하드코딩",
+"term_en": "Hardcoding",
+"english": "Hard coding",
+"aliases_ko": [
+"하드 코딩",
+"하드코드"
+],
+"definition_ko": "값이나 조건을 코드 안에 직접 고정해 넣는 것.",
+"definition_en": "Embedding values or conditions directly and fixedly into the code.",
+"example_ko": "문구 하드코딩을 리소스 파일로 옮겼어요.",
+"example_en": "We moved the hardcoded text into a resource file."
+},
+{
+"id": "dev-141",
+"field": "dev",
+"term_ko": "테스트 더블",
+"term_en": "Test double",
+"english": "Test double",
+"aliases_ko": [
+"테스트 대역"
+],
+"definition_ko": "테스트에서 실제 구성 요소 대신 사용하는 대역.",
+"definition_en": "A stand-in used in place of a real component during testing.",
+"example_ko": "외부 결제는 테스트 더블로 바꿨어요.",
+"example_en": "We swapped the external payment with a test double."
+},
+{
+"id": "dev-142",
+"field": "dev",
+"term_ko": "더미",
+"term_en": "Dummy",
+"english": "Dummy",
+"aliases_ko": [
+"더미 객체"
+],
+"definition_ko": "테스트에서 실제 사용하지 않고 인자 자리 등을 채우는 객체.",
+"definition_en": "An object that fills slots such as argument positions in a test without actually being used.",
+"example_ko": "필요 없는 인자는 더미로 채워요.",
+"example_en": "We fill unneeded arguments with a dummy."
+},
+{
+"id": "dev-143",
+"field": "dev",
+"term_ko": "페이크",
+"term_en": "Fake",
+"english": "Fake",
+"aliases_ko": [
+"페이크 객체"
+],
+"definition_ko": "단순한 구현으로 실제처럼 동작하게 만든 테스트 대역.",
+"definition_en": "A test double that works like the real thing through a simple implementation.",
+"example_ko": "저장소를 메모리 페이크로 바꿨어요.",
+"example_en": "We replaced the repository with an in-memory fake."
+},
+{
+"id": "dev-144",
+"field": "dev",
+"term_ko": "스텁",
+"term_en": "Stub",
+"english": "Stub",
+"aliases_ko": [
+"스텁 객체"
+],
+"definition_ko": "테스트 호출에 미리 정한 응답을 돌려주는 대역.",
+"definition_en": "A double that returns predetermined responses to test calls.",
+"example_ko": "스텁이 품절 응답을 돌려주게 해요.",
+"example_en": "We make the stub return an out-of-stock response."
+},
+{
+"id": "dev-145",
+"field": "dev",
+"term_ko": "스파이",
+"term_en": "Spy",
+"english": "Spy",
+"aliases_ko": [
+"테스트 스파이"
+],
+"definition_ko": "어떻게 호출됐는지 기록하는 테스트 대역.",
+"definition_en": "A test double that records how it was called.",
+"example_ko": "스파이로 발송 횟수를 확인해요.",
+"example_en": "We use a spy to check the number of dispatches."
+},
+{
+"id": "dev-146",
+"field": "dev",
+"term_ko": "목",
+"term_en": "Mock",
+"english": "Mock",
+"aliases_ko": [
+"모크",
+"목 객체",
+"모킹"
+],
+"definition_ko": "예상한 호출 등 상호작용을 검증하도록 설정한 테스트 대역.",
+"definition_en": "A test double set up to verify interactions, such as expected calls.",
+"example_ko": "목으로 결제 요청 인자를 검증해요.",
+"example_en": "We use a mock to verify the payment request arguments.",
+"note_ko": "테스트 대역의 세부 이름은 라이브러리마다 다를 수 있습니다. 이 항목은 Fowler가 소개한 분류를 따릅니다.",
+"note_en": "The specific names of test doubles can differ by library. This entry follows the classification introduced by Fowler."
+},
+{
+"id": "dev-147",
+"field": "dev",
+"term_ko": "RFC",
+"term_en": "RFC",
+"english": "Request for comments",
+"aliases_ko": [
+"알에프씨",
+"설계 제안서"
+],
+"definition_ko": "중요한 변경을 제안하고 의견을 모으는 문서나 절차.",
+"definition_en": "A document or process for proposing a significant change and gathering feedback.",
+"example_ko": "구조 변경 전에 RFC를 공유해요.",
+"example_en": "We share an RFC before changing the architecture.",
+"note_ko": "여기서는 소프트웨어 프로젝트의 설계 제안 절차입니다. 인터넷 기술 문서 RFC 시리즈와 구별하세요.",
+"note_en": "Here it refers to a design-proposal process in a software project. Distinguish it from the internet-standards RFC series."
+},
+{
+"id": "dev-148",
+"field": "dev",
+"term_ko": "온콜",
+"term_en": "On-call",
+"english": "On-call",
+"aliases_ko": [
+"온 콜",
+"운영 당번"
+],
+"definition_ko": "장애 연락을 받고 대응할 수 있도록 대기하는 담당이나 근무.",
+"definition_en": "A role or shift on standby to receive and respond to incident calls.",
+"example_ko": "이번 주 온콜 담당을 확인해요.",
+"example_en": "Let's check who is on-call this week."
+},
+{
+"id": "marketing-121",
+"field": "marketing",
+"term_ko": "OT",
+"term_en": "OT",
+"english": "Orientation",
+"aliases_ko": [
+"오티",
+"오리엔테이션"
+],
+"definition_ko": "제작 전에 목표·방향·일정 등을 공유하는 설명 자리.",
+"definition_en": "A briefing session before production to share goals, direction, schedule, and more.",
+"example_ko": "캠페인 OT에서 타깃을 확인해요.",
+"example_en": "We confirm the target audience at the campaign OT.",
+"note_ko": "광고·제작 업무의 오리엔테이션입니다. 근무시간의 overtime 약어와 구별하세요.",
+"note_en": "It refers to an orientation in advertising and production work. Distinguish it from 'overtime.'"
+},
+{
+"id": "design-109",
+"field": "design",
+"term_ko": "OT",
+"term_en": "OT",
+"english": "Orientation",
+"aliases_ko": [
+"오티",
+"오리엔테이션"
+],
+"definition_ko": "제작 전에 목표·방향·일정 등을 공유하는 설명 자리.",
+"definition_en": "A briefing session before production to share goals, direction, schedule, and more.",
+"example_ko": "브랜드 개편 OT에서 필요한 디자인 적용물과 제작 규격을 확인해요.",
+"example_en": "At the brand-redesign OT, we confirm the needed design deliverables and production specs.",
+"note_ko": "광고·제작 업무의 오리엔테이션입니다. 근무시간의 overtime 약어와 구별하세요.",
+"note_en": "It refers to an orientation in advertising and production work. Distinguish it from 'overtime.'"
+},
+{
+"id": "film-161",
+"field": "film",
+"term_ko": "OT",
+"term_en": "OT",
+"english": "Orientation",
+"aliases_ko": [
+"오티",
+"오리엔테이션"
+],
+"definition_ko": "제작 전에 목표·방향·일정 등을 공유하는 설명 자리.",
+"definition_en": "A briefing session before production to share goals, direction, schedule, and more.",
+"example_ko": "촬영 제작 OT에서 콘티와 예산·납품 일정을 확인해요.",
+"example_en": "At the shoot-production OT, we confirm the storyboard, budget, and delivery schedule.",
+"note_ko": "광고·제작 업무의 오리엔테이션입니다. 근무시간의 overtime 약어와 구별하세요.",
+"note_en": "It refers to an orientation in advertising and production work. Distinguish it from 'overtime.'"
+},
+{
+"id": "fashion-178",
+"field": "fashion",
+"term_ko": "OT",
+"term_en": "OT",
+"english": "Orientation",
+"aliases_ko": [
+"오티",
+"오리엔테이션"
+],
+"definition_ko": "제작 전에 목표·방향·일정 등을 공유하는 설명 자리.",
+"definition_en": "A briefing session before production to share goals, direction, schedule, and more.",
+"example_ko": "시즌 캠페인 OT에서 주요 착장과 타깃 고객을 공유해요.",
+"example_en": "At the season campaign OT, we share the key outfits and the target customers.",
+"note_ko": "광고·제작 업무의 오리엔테이션입니다. 근무시간의 overtime 약어와 구별하세요.",
+"note_en": "It refers to an orientation in advertising and production work. Distinguish it from 'overtime.'"
+},
+{
+"id": "marketing-122",
+"field": "marketing",
+"term_ko": "PPM",
+"term_en": "PPM",
+"english": "Pre-production meeting",
+"aliases_ko": [
+"피피엠",
+"프리 프로덕션 미팅"
+],
+"definition_ko": "촬영 전에 모델·의상·구도 등 제작 세부사항을 맞추는 회의.",
+"definition_en": "A meeting before the shoot to align production details such as the model, wardrobe, and composition.",
+"example_ko": "PPM에서 의상과 음악을 확정해요.",
+"example_en": "At the PPM, we finalize the wardrobe and music.",
+"note_ko": "광고·촬영 사전 제작 회의의 뜻입니다. 농도 단위 ppm과 다릅니다.",
+"note_en": "It means a pre-production meeting for advertising shoots. It differs from ppm as a unit of concentration."
+},
+{
+"id": "design-110",
+"field": "design",
+"term_ko": "PPM",
+"term_en": "PPM",
+"english": "Pre-production meeting",
+"aliases_ko": [
+"피피엠",
+"프리 프로덕션 미팅"
+],
+"definition_ko": "촬영 전에 모델·의상·구도 등 제작 세부사항을 맞추는 회의.",
+"definition_en": "A meeting before the shoot to align production details such as the model, wardrobe, and composition.",
+"example_ko": "브랜드 영상 PPM에서 준비한 그래픽 시안과 합성 영역을 확인해요.",
+"example_en": "At the brand-video PPM, we review the prepared graphic drafts and the compositing areas.",
+"note_ko": "광고·촬영 사전 제작 회의의 뜻입니다. 농도 단위 ppm과 다릅니다.",
+"note_en": "It means a pre-production meeting for advertising shoots. It differs from ppm as a unit of concentration."
+},
+{
+"id": "film-162",
+"field": "film",
+"term_ko": "PPM",
+"term_en": "PPM",
+"english": "Pre-production meeting",
+"aliases_ko": [
+"피피엠",
+"프리 프로덕션 미팅"
+],
+"definition_ko": "촬영 전에 모델·의상·구도 등 제작 세부사항을 맞추는 회의.",
+"definition_en": "A meeting before the shoot to align production details such as the model, wardrobe, and composition.",
+"example_ko": "PPM에서 배우 동선·미술·의상·촬영 순서를 맞춰요.",
+"example_en": "At the PPM, we align the actors' blocking, art, wardrobe, and shooting order.",
+"note_ko": "광고·촬영 사전 제작 회의의 뜻입니다. 농도 단위 ppm과 다릅니다.",
+"note_en": "It means a pre-production meeting for advertising shoots. It differs from ppm as a unit of concentration."
+},
+{
+"id": "fashion-179",
+"field": "fashion",
+"term_ko": "PPM",
+"term_en": "PPM",
+"english": "Pre-production meeting",
+"aliases_ko": [
+"피피엠",
+"프리 프로덕션 미팅"
+],
+"definition_ko": "촬영 전에 모델·의상·구도 등 제작 세부사항을 맞추는 회의.",
+"definition_en": "A meeting before the shoot to align production details such as the model, wardrobe, and composition.",
+"example_ko": "룩북 영상 PPM에서 모델 착장 순서와 의상 교체 시간을 맞춰요.",
+"example_en": "At the lookbook-video PPM, we align the models' outfit order and the wardrobe-change timing.",
+"note_ko": "광고·촬영 사전 제작 회의의 뜻입니다. 농도 단위 ppm과 다릅니다.",
+"note_en": "It means a pre-production meeting for advertising shoots. It differs from ppm as a unit of concentration."
+},
+{
+"id": "marketing-123",
+"field": "marketing",
+"term_ko": "크리에이티브 디렉터",
+"term_en": "Creative Director",
+"english": "Creative director",
+"aliases_ko": [
+"CD",
+"씨디",
+"시디"
+],
+"definition_ko": "광고 제작의 창작 방향을 이끄는 책임자.",
+"definition_en": "The person responsible for leading the creative direction of advertising production.",
+"example_ko": "크리에이티브 디렉터와 콘셉트를 검토해요.",
+"example_en": "We review the concept with the Creative Director.",
+"note_ko": "광고 제작 직무입니다. 개발에서 CD라고 부르는 지속적 제공·배포와 구별하세요.",
+"note_en": "It is a role in advertising production. Distinguish it from CD as 'continuous delivery/deployment' in software development."
+},
+{
+"id": "design-111",
+"field": "design",
+"term_ko": "크리에이티브 디렉터",
+"term_en": "Creative Director",
+"english": "Creative director",
+"aliases_ko": [
+"CD",
+"씨디"
+],
+"definition_ko": "광고 제작의 창작 방향을 이끄는 책임자.",
+"definition_en": "The person responsible for leading the creative direction of advertising production.",
+"example_ko": "크리에이티브 디렉터와 포스터 시안의 중심 아이디어를 리뷰해요.",
+"example_en": "We review the central idea of the poster draft with the Creative Director.",
+"note_ko": "광고 제작 직무입니다. 개발에서 CD라고 부르는 지속적 제공·배포와 구별하세요.",
+"note_en": "It is a role in advertising production. Distinguish it from CD as 'continuous delivery/deployment' in software development."
+},
+{
+"id": "film-163",
+"field": "film",
+"term_ko": "크리에이티브 디렉터",
+"term_en": "Creative Director",
+"english": "Creative director",
+"aliases_ko": [
+"CD",
+"씨디"
+],
+"definition_ko": "광고 제작의 창작 방향을 이끄는 책임자.",
+"definition_en": "The person responsible for leading the creative direction of advertising production.",
+"example_ko": "대행사 크리에이티브 디렉터와 감독이 영상의 핵심 표현을 맞춰요.",
+"example_en": "The agency's Creative Director and the director align on the core expression of the video.",
+"note_ko": "광고 제작 직무입니다. 개발에서 CD라고 부르는 지속적 제공·배포와 구별하세요.",
+"note_en": "It is a role in advertising production. Distinguish it from CD as 'continuous delivery/deployment' in software development."
+},
+{
+"id": "marketing-124",
+"field": "marketing",
+"term_ko": "시사",
+"term_en": "Screening",
+"english": "Preview screening",
+"aliases_ko": [
+"시사본 검토"
+],
+"definition_ko": "완성도나 수정점을 확인하기 위해 영상을 미리 보는 것.",
+"definition_en": "Previewing a video to check its quality or points needing revision.",
+"example_ko": "광고주 시사 전에 수정본을 준비해요.",
+"example_en": "We prepare a revised cut before the client screening."
+},
+{
+"id": "film-164",
+"field": "film",
+"term_ko": "시사",
+"term_en": "Screening",
+"english": "Preview screening",
+"aliases_ko": [
+"시사본 검토"
+],
+"definition_ko": "완성도나 수정점을 확인하기 위해 영상을 미리 보는 것.",
+"definition_en": "Previewing a video to check its quality or points needing revision.",
+"example_ko": "광고주 시사 전에 수정본을 준비해요.",
+"example_en": "We prepare a revised cut before the client screening."
+},
+{
+"id": "marketing-125",
+"field": "marketing",
+"term_ko": "시딩",
+"term_en": "Seeding",
+"english": "Seeding",
+"aliases_ko": [
+"인플루언서 시딩",
+"제품 시딩"
+],
+"definition_ko": "리뷰와 입소문을 기대하며 제품을 미리 제공하는 활동.",
+"definition_en": "The practice of providing products in advance in hopes of reviews and word of mouth.",
+"example_ko": "신상품 시딩 대상자를 정리해요.",
+"example_en": "We organize the recipient list for new-product seeding.",
+"note_ko": "제품 제공을 뜻하며 게시물 발행을 보장하지는 않습니다. 유상 계약·제공 조건에 따라 운영 형태가 달라집니다.",
+"note_en": "It means providing products and does not guarantee that posts will be published. The arrangement varies with paid contracts and provision terms."
+},
+{
+"id": "fashion-180",
+"field": "fashion",
+"term_ko": "시딩",
+"term_en": "Seeding",
+"english": "Seeding",
+"aliases_ko": [
+"인플루언서 시딩",
+"제품 시딩"
+],
+"definition_ko": "리뷰와 입소문을 기대하며 제품을 미리 제공하는 활동.",
+"definition_en": "The practice of providing products in advance in hopes of reviews and word of mouth.",
+"example_ko": "신상 재킷의 시딩 대상자와 제공 가능한 사이즈를 정리해요.",
+"example_en": "We organize the seeding recipients for the new jacket and the sizes we can provide.",
+"note_ko": "제품 제공을 뜻하며 게시물 발행을 보장하지는 않습니다. 유상 계약·제공 조건에 따라 운영 형태가 달라집니다.",
+"note_en": "It means providing products and does not guarantee that posts will be published. The arrangement varies with paid contracts and provision terms."
+},
+{
+"id": "marketing-126",
+"field": "marketing",
+"term_ko": "마이크로 인플루언서",
+"term_en": "Micro-influencer",
+"english": "Micro-influencer",
+"aliases_ko": [
+"마이크로인플루언서"
+],
+"definition_ko": "비교적 작은 규모의 팔로워와 밀접하게 소통하는 창작자.",
+"definition_en": "A creator who communicates closely with a relatively small number of followers.",
+"example_ko": "취향이 맞는 마이크로 인플루언서를 찾아요.",
+"example_en": "We look for micro-influencers whose tastes match ours.",
+"note_ko": "팔로워 수에 대한 구분 기준은 업체와 플랫폼마다 다릅니다.",
+"note_en": "The criteria for follower counts differ by agency and platform."
+},
+{
+"id": "fashion-181",
+"field": "fashion",
+"term_ko": "마이크로 인플루언서",
+"term_en": "Micro-influencer",
+"english": "Micro-influencer",
+"aliases_ko": [
+"마이크로인플루언서"
+],
+"definition_ko": "비교적 작은 규모의 팔로워와 밀접하게 소통하는 창작자.",
+"definition_en": "A creator who communicates closely with a relatively small number of followers.",
+"example_ko": "브랜드의 미니멀한 착장과 어울리는 마이크로 인플루언서를 찾아요.",
+"example_en": "We look for micro-influencers who suit the brand's minimal styling.",
+"note_ko": "팔로워 수에 대한 구분 기준은 업체와 플랫폼마다 다릅니다.",
+"note_en": "The criteria for follower counts differ by agency and platform."
+},
+{
+"id": "marketing-127",
+"field": "marketing",
+"term_ko": "바이럴 마케팅",
+"term_en": "Viral marketing",
+"english": "Viral marketing",
+"aliases_ko": [
+"바이럴",
+"입소문 마케팅"
+],
+"definition_ko": "사람들의 공유와 입소문을 통해 메시지 확산을 유도하는 마케팅.",
+"definition_en": "Marketing that drives the spread of a message through people's sharing and word of mouth.",
+"example_ko": "공유하고 싶은 내용으로 바이럴 마케팅을 기획해요.",
+"example_en": "We plan viral marketing with content people will want to share."
+},
+{
+"id": "fashion-182",
+"field": "fashion",
+"term_ko": "바이럴 마케팅",
+"term_en": "Viral marketing",
+"english": "Viral marketing",
+"aliases_ko": [
+"바이럴",
+"입소문 마케팅"
+],
+"definition_ko": "사람들의 공유와 입소문을 통해 메시지 확산을 유도하는 마케팅.",
+"definition_en": "Marketing that drives the spread of a message through people's sharing and word of mouth.",
+"example_ko": "고객의 다양한 니트 스타일링을 나누는 바이럴 마케팅을 기획해요.",
+"example_en": "We plan viral marketing where customers share their various knit styling."
+},
+{
+"id": "marketing-128",
+"field": "marketing",
+"term_ko": "파트너십 광고",
+"term_en": "Partnership ad",
+"english": "Partnership ad",
+"aliases_ko": [
+"파트너쉽 광고"
+],
+"definition_ko": "브랜드가 크리에이터 등 파트너와 연결해 집행하는 광고.",
+"definition_en": "An ad a brand runs in connection with a partner such as a creator.",
+"example_ko": "크리에이터와 합의한 게시물을 파트너십 광고로 집행해요.",
+"example_en": "We run a post agreed on with the creator as a partnership ad."
+},
+{
+"id": "fashion-183",
+"field": "fashion",
+"term_ko": "파트너십 광고",
+"term_en": "Partnership ad",
+"english": "Partnership ad",
+"aliases_ko": [
+"파트너쉽 광고"
+],
+"definition_ko": "브랜드가 크리에이터 등 파트너와 연결해 집행하는 광고.",
+"definition_en": "An ad a brand runs in connection with a partner such as a creator.",
+"example_ko": "사용 범위를 합의한 크리에이터의 데님 착장 게시물로 파트너십 광고를 집행해요.",
+"example_en": "We run a partnership ad using the creator's denim-outfit post, with the usage scope agreed upon."
+},
+{
+"id": "marketing-129",
+"field": "marketing",
+"term_ko": "바리에이션",
+"term_en": "Variation",
+"english": "Variation",
+"aliases_ko": [
+"베리에이션",
+"배리에이션",
+"변형안"
+],
+"definition_ko": "기본 소재를 바탕으로 크기·구성·문구 등을 바꾼 버전.",
+"definition_en": "A version that changes the size, layout, copy, and so on based on a base asset.",
+"example_ko": "지면별 바리에이션을 준비해 주세요.",
+"example_en": "Please prepare variations for each placement."
+},
+{
+"id": "design-112",
+"field": "design",
+"term_ko": "바리에이션",
+"term_en": "Variation",
+"english": "Variation",
+"aliases_ko": [
+"베리에이션",
+"배리에이션",
+"변형안"
+],
+"definition_ko": "기본 소재를 바탕으로 크기·구성·문구 등을 바꾼 버전.",
+"definition_en": "A version that changes the size, layout, copy, and so on based on a base asset.",
+"example_ko": "정사각형 키비주얼을 가로 배너와 포스터 바리에이션으로 확장해요.",
+"example_en": "We expand the square key visual into horizontal banner and poster variations."
+},
+{
+"id": "fashion-184",
+"field": "fashion",
+"term_ko": "바리에이션",
+"term_en": "Variation",
+"english": "Variation",
+"aliases_ko": [
+"베리에이션",
+"배리에이션",
+"변형안"
+],
+"definition_ko": "기본 소재를 바탕으로 크기·구성·문구 등을 바꾼 버전.",
+"definition_en": "A version that changes the size, layout, copy, and so on based on a base asset.",
+"example_ko": "같은 컬렉션 비주얼로 자사몰 배너와 세로형 광고 바리에이션을 만들어요.",
+"example_en": "We create variations of the same collection visual for the owned-mall banner and vertical ads."
+},
+{
+"id": "marketing-130",
+"field": "marketing",
+"term_ko": "후킹",
+"term_en": "Hooking",
+"english": "Hook",
+"aliases_ko": [
+"후크",
+"훅",
+"후킹 포인트",
+"훅 포인트"
+],
+"definition_ko": "시작부터 시선을 붙잡거나 관심을 끄는 장치.",
+"definition_en": "A device that grabs attention from the start or draws interest.",
+"example_ko": "첫 장면의 후킹을 강화해요.",
+"example_en": "We strengthen the hooking of the opening shot.",
+"note_ko": "광고·영상에서 관심을 끄는 뜻입니다. 개발의 함수 후킹과 구별하세요.",
+"note_en": "It means drawing interest in advertising and video. Distinguish it from function hooking in software development."
+},
+{
+"id": "design-113",
+"field": "design",
+"term_ko": "후킹",
+"term_en": "Hooking",
+"english": "Hook",
+"aliases_ko": [
+"후크",
+"훅",
+"후킹 포인트"
+],
+"definition_ko": "시작부터 시선을 붙잡거나 관심을 끄는 장치.",
+"definition_en": "A device that grabs attention from the start or draws interest.",
+"example_ko": "모션 포스터의 첫 타이포 움직임으로 후킹을 만들어요.",
+"example_en": "We create hooking with the first typographic movement of the motion poster.",
+"note_ko": "광고·영상에서 관심을 끄는 뜻입니다. 개발의 함수 후킹과 구별하세요.",
+"note_en": "It means drawing interest in advertising and video. Distinguish it from function hooking in software development."
+},
+{
+"id": "fashion-185",
+"field": "fashion",
+"term_ko": "후킹",
+"term_en": "Hooking",
+"english": "Hook",
+"aliases_ko": [
+"후크",
+"훅",
+"후킹 포인트"
+],
+"definition_ko": "시작부터 시선을 붙잡거나 관심을 끄는 장치.",
+"definition_en": "A device that grabs attention from the start or draws interest.",
+"example_ko": "아우터 광고 첫 장면에서 양면 착용을 보여줘 후킹을 만들어요.",
+"example_en": "We create hooking by showing reversible wear in the first shot of the outerwear ad.",
+"note_ko": "광고·영상에서 관심을 끄는 뜻입니다. 개발의 함수 후킹과 구별하세요.",
+"note_en": "It means drawing interest in advertising and video. Distinguish it from function hooking in software development."
+},
+{
+"id": "film-165",
+"field": "film",
+"term_ko": "후킹",
+"term_en": "Hooking",
+"english": "Hook",
+"aliases_ko": [
+"후크",
+"훅",
+"후킹 포인트"
+],
+"definition_ko": "시작부터 시선을 붙잡거나 관심을 끄는 장치.",
+"definition_en": "A device that grabs attention from the start or draws interest.",
+"example_ko": "인터뷰 첫 장면에 핵심 발언을 배치해 후킹을 만들어요.",
+"example_en": "We create hooking by placing the key remark in the first shot of the interview.",
+"note_ko": "광고·영상에서 관심을 끄는 뜻입니다. 개발의 함수 후킹과 구별하세요.",
+"note_en": "It means drawing interest in advertising and video. Distinguish it from function hooking in software development."
+},
+{
+"id": "marketing-131",
+"field": "marketing",
+"term_ko": "위닝 소재",
+"term_en": "Winning creative",
+"english": "Winning creative",
+"aliases_ko": [
+"위닝소재",
+"winning 소재"
+],
+"definition_ko": "테스트에서 목표 지표의 성과가 상대적으로 좋은 광고 소재.",
+"definition_en": "An ad creative that performs relatively well on the target metric in testing.",
+"example_ko": "위닝 소재를 기준으로 다음 테스트를 해요.",
+"example_en": "We base the next test on the winning creative.",
+"note_ko": "목표 지표·비교 기간·집행 조건에 따라 달라지며 이후 성과까지 보장하는 뜻은 아닙니다.",
+"note_en": "It depends on the target metric, comparison period, and run conditions, and does not guarantee future performance."
+},
+{
+"id": "fashion-186",
+"field": "fashion",
+"term_ko": "위닝 소재",
+"term_en": "Winning creative",
+"english": "Winning creative",
+"aliases_ko": [
+"위닝소재",
+"winning 소재"
+],
+"definition_ko": "테스트에서 목표 지표의 성과가 상대적으로 좋은 광고 소재.",
+"definition_en": "An ad creative that performs relatively well on the target metric in testing.",
+"example_ko": "착장 영상과 디테일 사진 중 구매 전환이 좋은 위닝 소재를 확인해요.",
+"example_en": "We identify the winning creative with better purchase conversion between the outfit video and the detail photos.",
+"note_ko": "목표 지표·비교 기간·집행 조건에 따라 달라지며 이후 성과까지 보장하는 뜻은 아닙니다.",
+"note_en": "It depends on the target metric, comparison period, and run conditions, and does not guarantee future performance."
+},
+{
+"id": "marketing-132",
+"field": "marketing",
+"term_ko": "미디어 믹스",
+"term_en": "Media mix",
+"english": "Media mix",
+"aliases_ko": [
+"미디어믹스",
+"매체 조합"
+],
+"definition_ko": "목표에 맞춰 광고 매체와 예산 비중을 조합하는 것.",
+"definition_en": "Combining advertising channels and budget allocation to fit the objective.",
+"example_ko": "이번 출시의 미디어 믹스를 검토해요.",
+"example_en": "We review the media mix for this launch."
+},
+{
+"id": "fashion-187",
+"field": "fashion",
+"term_ko": "미디어 믹스",
+"term_en": "Media mix",
+"english": "Media mix",
+"aliases_ko": [
+"미디어믹스",
+"매체 조합"
+],
+"definition_ko": "목표에 맞춰 광고 매체와 예산 비중을 조합하는 것.",
+"definition_en": "Combining advertising channels and budget allocation to fit the objective.",
+"example_ko": "신규 브랜드의 자사몰 유입과 매장 방문을 고려해 미디어 믹스를 짜요.",
+"example_en": "We build the media mix considering the new brand's owned-mall traffic and store visits."
+},
+{
+"id": "dev-165",
+"field": "dev",
+"term_ko": "정규식",
+"term_en": "Regex",
+"english": "Regular expression",
+"aliases_ko": [
+"정규 표현식",
+"정규표현식",
+"regex",
+"regexp"
+],
+"definition_ko": "정규 표현식을 짧게 부르는 말. 일정한 문자 패턴을 표현하여 문자열을 찾거나 검사할 때 쓴다.",
+"definition_en": "A short way of saying 'regular expression.' It expresses a set pattern of characters, used to search or validate strings.",
+"example_ko": "입력한 코드의 형식을 정규식으로 검사해요.",
+"example_en": "We validate the format of the entered code with a regex."
+},
+{
+"id": "common-048",
+"field": "common",
+"term_ko": "재택",
+"term_en": "Working from home",
+"english": "Work from home",
+"aliases_ko": [
+"재택근무",
+"재택 근무",
+"WFH"
+],
+"definition_ko": "근무 일정에서 재택근무를 짧게 부르는 말. 사무실에 출근하는 대신 집에서 일하는 방식.",
+"definition_en": "A short way of saying working from home in a work schedule. Working at home instead of commuting to the office.",
+"example_ko": "내일은 재택이라 회의에 온라인으로 참여해요.",
+"example_en": "I'm working from home tomorrow, so I'll join the meeting online."
+},
+{
+"id": "common-049",
+"field": "common",
+"term_ko": "취준생",
+"term_en": "Job seeker",
+"english": "",
+"aliases_ko": [
+"취업준비생",
+"취업 준비생"
+],
+"definition_ko": "취업준비생의 줄임말. 입사를 목표로 채용 전형이나 필요한 역량을 준비하는 사람.",
+"definition_en": "Short for 'job-seeking student.' A person preparing for hiring processes or the skills needed to land a job.",
+"example_ko": "취준생 대상 직무 설명회를 준비해요.",
+"example_en": "We're preparing a job session for job seekers."
+},
+{
+"id": "common-050",
+"field": "common",
+"term_ko": "퇴준생",
+"term_en": "Resignation preparer",
+"english": "",
+"aliases_ko": [
+"퇴사준비생",
+"퇴사 준비생"
+],
+"definition_ko": "퇴사준비생의 줄임말. 재직하면서 퇴사 이후의 진로나 생활을 준비하는 사람을 가리키는 비공식 표현.",
+"definition_en": "Short for 'resignation-preparing student.' An informal expression for someone who, while still employed, prepares for their career or life after leaving the company.",
+"example_ko": "퇴준생 인터뷰에서 이직을 결심한 계기를 물었어요.",
+"example_en": "In the interview with a resignation preparer, we asked what made them decide to change jobs."
+},
+{
+"id": "marketing-133",
+"field": "marketing",
+"term_ko": "브검",
+"term_en": "Brand search ad",
+"english": "Brand search advertising",
+"aliases_ko": [
+"브랜드 검색 광고",
+"브랜드검색광고",
+"브랜드검색"
+],
+"definition_ko": "브랜드 검색 광고의 줄임말. 브랜드명 등을 검색한 사람에게 브랜드 소개와 연결 링크를 보여 주는 광고.",
+"definition_en": "Short for 'brand search advertising.' An ad that shows a brand introduction and links to people who searched the brand name and related terms.",
+"example_ko": "브검 소재를 여름 컬렉션 이미지로 바꿔주세요.",
+"example_en": "Please change the brand search ad creative to the summer collection image."
+},
+{
+"id": "fashion-188",
+"field": "fashion",
+"term_ko": "브검",
+"term_en": "Brand search ad",
+"english": "Brand search advertising",
+"aliases_ko": [
+"브랜드 검색 광고",
+"브랜드검색광고",
+"브랜드검색"
+],
+"definition_ko": "브랜드 검색 광고의 줄임말. 브랜드명 등을 검색한 사람에게 브랜드 소개와 연결 링크를 보여 주는 광고.",
+"definition_en": "Short for 'brand search advertising.' An ad that shows a brand introduction and links to people who searched the brand name and related terms.",
+"example_ko": "브검 소재를 여름 컬렉션 이미지로 바꿔주세요.",
+"example_en": "Please change the brand search ad creative to the summer collection image."
+},
+{
+"id": "marketing-134",
+"field": "marketing",
+"term_ko": "쇼검",
+"term_en": "Shopping search ad",
+"english": "Shopping search advertising",
+"aliases_ko": [
+"쇼핑 검색 광고",
+"쇼핑검색광고",
+"쇼핑검색"
+],
+"definition_ko": "쇼핑 검색 광고를 줄인 말. 상품 정보와 이미지를 검색 결과 등의 광고 지면에 노출하는 광고.",
+"definition_en": "Short for 'shopping search advertising.' An ad that shows product information and images in ad placements such as search results.",
+"example_ko": "쇼검에 연결된 상품명과 품절 상태를 확인해요.",
+"example_en": "We check the product names and out-of-stock status linked to the shopping search ad."
+},
+{
+"id": "fashion-189",
+"field": "fashion",
+"term_ko": "쇼검",
+"term_en": "Shopping search ad",
+"english": "Shopping search advertising",
+"aliases_ko": [
+"쇼핑 검색 광고",
+"쇼핑검색광고",
+"쇼핑검색"
+],
+"definition_ko": "쇼핑 검색 광고를 줄인 말. 상품 정보와 이미지를 검색 결과 등의 광고 지면에 노출하는 광고.",
+"definition_en": "Short for 'shopping search advertising.' An ad that shows product information and images in ad placements such as search results.",
+"example_ko": "쇼검에 연결된 상품명과 품절 상태를 확인해요.",
+"example_en": "We check the product names and out-of-stock status linked to the shopping search ad."
+},
+{
+"id": "marketing-135",
+"field": "marketing",
+"term_ko": "상페",
+"term_en": "Product page",
+"english": "Product detail page",
+"aliases_ko": [
+"상세페이지",
+"상세 페이지",
+"상품 상세페이지"
+],
+"definition_ko": "상세페이지의 줄임말. 상품 특징·구성·이용 정보를 설명하는 판매 페이지.",
+"definition_en": "Short for 'product detail page.' A sales page that explains a product's features, contents, and usage information.",
+"example_ko": "상페 첫 화면에 소재와 핏이 잘 보이게 해주세요.",
+"example_en": "Please make the material and fit clearly visible in the first view of the product page."
+},
+{
+"id": "fashion-190",
+"field": "fashion",
+"term_ko": "상페",
+"term_en": "Product page",
+"english": "Product detail page",
+"aliases_ko": [
+"상세페이지",
+"상세 페이지",
+"상품 상세페이지"
+],
+"definition_ko": "상세페이지의 줄임말. 상품 특징·구성·이용 정보를 설명하는 판매 페이지.",
+"definition_en": "Short for 'product detail page.' A sales page that explains a product's features, contents, and usage information.",
+"example_ko": "상페 첫 화면에 소재와 핏이 잘 보이게 해주세요.",
+"example_en": "Please make the material and fit clearly visible in the first view of the product page."
+},
+{
+"id": "design-114",
+"field": "design",
+"term_ko": "상페",
+"term_en": "Product page",
+"english": "Product detail page",
+"aliases_ko": [
+"상세페이지",
+"상세 페이지",
+"상품 상세페이지"
+],
+"definition_ko": "상세페이지의 줄임말. 상품 특징·구성·이용 정보를 설명하는 판매 페이지.",
+"definition_en": "Short for 'product detail page.' A sales page that explains a product's features, contents, and usage information.",
+"example_ko": "상페에서 제품 정보와 이미지의 읽는 순서를 설계해요.",
+"example_en": "On the product page, we design the reading order of the product information and images."
+},
+{
+"id": "marketing-138",
+"field": "marketing",
+"term_ko": "공구",
+"term_en": "Group buy",
+"english": "Group buying",
+"aliases_ko": [
+"공동구매",
+"공동 구매",
+"공구 마케팅"
+],
+"definition_ko": "공동구매의 줄임말. 참여자를 모아 정해진 조건이나 기간에 상품을 함께 판매·구매하는 방식.",
+"definition_en": "Short for 'group purchase.' A method of gathering participants to sell and buy products together under set conditions or within a set period.",
+"example_ko": "이번 공구의 수량과 배송 일정을 먼저 확정해요.",
+"example_en": "Let's first confirm the quantity and delivery schedule for this group buy."
+},
+{
+"id": "fashion-193",
+"field": "fashion",
+"term_ko": "공구",
+"term_en": "Group buy",
+"english": "Group buying",
+"aliases_ko": [
+"공동구매",
+"공동 구매",
+"공구 마케팅"
+],
+"definition_ko": "공동구매의 줄임말. 참여자를 모아 정해진 조건이나 기간에 상품을 함께 판매·구매하는 방식.",
+"definition_en": "Short for 'group purchase.' A method of gathering participants to sell and buy products together under set conditions or within a set period.",
+"example_ko": "이번 공구의 수량과 배송 일정을 먼저 확정해요.",
+"example_en": "Let's first confirm the quantity and delivery schedule for this group buy."
+},
+{
+"id": "marketing-139",
+"field": "marketing",
+"term_ko": "라방",
+"term_en": "Live stream",
+"english": "Live commerce",
+"aliases_ko": [
+"라이브 방송",
+"라이브방송",
+"라이브 커머스",
+"라이브커머스"
+],
+"definition_ko": "라이브 방송의 줄임말. 판매 업무에서는 실시간 방송으로 상품을 소개하고 주문을 받는 라이브 커머스를 가리키기도 한다.",
+"definition_en": "Short for 'live broadcast.' In sales work, it can also refer to live commerce, where products are introduced and orders are taken via a real-time broadcast.",
+"example_ko": "라방 전에 사이즈별 재고를 확인해요.",
+"example_en": "We check stock by size before the live stream.",
+"note_ko": "라이브 방송의 줄임말이며, 방송에 판매 기능이 있는지는 문맥에 따라 다릅니다.",
+"note_en": "It is short for 'live broadcast,' and whether the broadcast includes a sales function depends on context."
+},
+{
+"id": "fashion-194",
+"field": "fashion",
+"term_ko": "라방",
+"term_en": "Live stream",
+"english": "Live commerce",
+"aliases_ko": [
+"라이브 방송",
+"라이브방송",
+"라이브 커머스",
+"라이브커머스"
+],
+"definition_ko": "라이브 방송의 줄임말. 판매 업무에서는 실시간 방송으로 상품을 소개하고 주문을 받는 라이브 커머스를 가리키기도 한다.",
+"definition_en": "Short for 'live broadcast.' In sales work, it can also refer to live commerce, where products are introduced and orders are taken via a real-time broadcast.",
+"example_ko": "라방 전에 사이즈별 재고를 확인해요.",
+"example_en": "We check stock by size before the live stream.",
+"note_ko": "라이브 방송의 줄임말이며, 방송에 판매 기능이 있는지는 문맥에 따라 다릅니다.",
+"note_en": "It is short for 'live broadcast,' and whether the broadcast includes a sales function depends on context."
+},
+{
+"id": "film-168",
+"field": "film",
+"term_ko": "라방",
+"term_en": "Live stream",
+"english": "Live broadcast",
+"aliases_ko": [
+"라이브 방송",
+"라이브방송"
+],
+"definition_ko": "라이브 방송의 줄임말. 촬영과 송출이 실시간으로 이어지는 온라인 방송을 말한다.",
+"definition_en": "Short for 'live broadcast.' It refers to an online broadcast where filming and transmission happen in real time.",
+"example_ko": "오늘 라방은 출연자와 실시간 질의응답으로 진행해요.",
+"example_en": "Today's live stream runs as a real-time Q&A with the guests.",
+"note_ko": "라이브 방송의 줄임말이며, 방송에 판매 기능이 있는지는 문맥에 따라 다릅니다.",
+"note_en": "It is short for 'live broadcast,' and whether the broadcast includes a sales function depends on context."
+},
+{
+"id": "marketing-140",
+"field": "marketing",
+"term_ko": "스스",
+"term_en": "SmartStore",
+"english": "Naver Smart Store",
+"aliases_ko": [
+"스마트스토어",
+"스마트 스토어",
+"네이버 스마트스토어"
+],
+"definition_ko": "스마트스토어를 줄여 부르는 판매자들의 표현. 네이버의 온라인 판매점 서비스를 뜻한다.",
+"definition_en": "A seller's shorthand for SmartStore. It refers to Naver's online storefront service.",
+"example_ko": "스스 상품 옵션을 자사몰과 맞춰주세요.",
+"example_en": "Please match the SmartStore product options to our owned mall."
+},
+{
+"id": "fashion-195",
+"field": "fashion",
+"term_ko": "스스",
+"term_en": "SmartStore",
+"english": "Naver Smart Store",
+"aliases_ko": [
+"스마트스토어",
+"스마트 스토어",
+"네이버 스마트스토어"
+],
+"definition_ko": "스마트스토어를 줄여 부르는 판매자들의 표현. 네이버의 온라인 판매점 서비스를 뜻한다.",
+"definition_en": "A seller's shorthand for SmartStore. It refers to Naver's online storefront service.",
+"example_ko": "스스 상품 옵션을 자사몰과 맞춰주세요.",
+"example_en": "Please match the SmartStore product options to our owned mall."
+},
+{
+"id": "marketing-141",
+"field": "marketing",
+"term_ko": "자사몰",
+"term_en": "Owned mall",
+"english": "Brand-owned online store",
+"aliases_ko": [
+"자사 쇼핑몰",
+"자사쇼핑몰",
+"자체 쇼핑몰"
+],
+"definition_ko": "회사가 직접 운영하는 온라인 쇼핑몰을 짧게 부르는 말.",
+"definition_en": "A short way of referring to an online shopping mall a company runs directly.",
+"example_ko": "자사몰 상세페이지 개편 일정을 공유해요.",
+"example_en": "We share the schedule for revamping the owned mall's product pages."
+},
+{
+"id": "fashion-196",
+"field": "fashion",
+"term_ko": "자사몰",
+"term_en": "Owned mall",
+"english": "Brand-owned online store",
+"aliases_ko": [
+"자사 쇼핑몰",
+"자사쇼핑몰",
+"자체 쇼핑몰"
+],
+"definition_ko": "회사가 직접 운영하는 온라인 쇼핑몰을 짧게 부르는 말.",
+"definition_en": "A short way of referring to an online shopping mall a company runs directly.",
+"example_ko": "자사몰 상세페이지 개편 일정을 공유해요.",
+"example_en": "We share the schedule for revamping the owned mall's product pages."
+},
+{
+"id": "marketing-142",
+"field": "marketing",
+"term_ko": "무배",
+"term_en": "Free shipping",
+"english": "Free shipping",
+"aliases_ko": [
+"무료배송",
+"무료 배송"
+],
+"definition_ko": "무료배송의 줄임말. 구매자가 배송비를 별도로 부담하지 않는 조건을 말한다.",
+"definition_en": "Short for 'free delivery.' A condition where the buyer does not pay a separate shipping fee.",
+"example_ko": "무배 적용 금액을 배너에 함께 적어주세요.",
+"example_en": "Please note the free-shipping threshold amount on the banner as well."
+},
+{
+"id": "fashion-197",
+"field": "fashion",
+"term_ko": "무배",
+"term_en": "Free shipping",
+"english": "Free shipping",
+"aliases_ko": [
+"무료배송",
+"무료 배송"
+],
+"definition_ko": "무료배송의 줄임말. 구매자가 배송비를 별도로 부담하지 않는 조건을 말한다.",
+"definition_en": "Short for 'free delivery.' A condition where the buyer does not pay a separate shipping fee.",
+"example_ko": "무배 적용 금액을 배너에 함께 적어주세요.",
+"example_en": "Please note the free-shipping threshold amount on the banner as well."
+},
+{
+"id": "fashion-198",
+"field": "fashion",
+"term_ko": "폴리",
+"term_en": "Poly",
+"english": "Polyester",
+"aliases_ko": [
+"폴리에스터",
+"폴리에스테르",
+"polyester"
+],
+"definition_ko": "의류 원단 업무에서 폴리에스터를 짧게 부르는 말.",
+"definition_en": "A short way of saying polyester in apparel fabric work.",
+"example_ko": "이 원단은 폴리 비율이 높아요.",
+"example_en": "This fabric has a high poly content."
+},
+{
+"id": "fashion-199",
+"field": "fashion",
+"term_ko": "스판",
+"term_en": "Span",
+"english": "Spandex",
+"aliases_ko": [
+"스판덱스",
+"폴리우레탄 탄성섬유",
+"elastane"
+],
+"definition_ko": "스판덱스를 짧게 부르는 말. 원단에 신축성을 주는 탄성섬유를 뜻하며, 신축성 있는 원단을 넓게 지칭하기도 한다.",
+"definition_en": "A short way of saying spandex. It refers to the elastic fiber that gives fabric stretch, and is sometimes used broadly for stretchy fabric.",
+"example_ko": "스판 함량과 늘어나는 방향을 확인해주세요.",
+"example_en": "Please check the span content and the direction of stretch.",
+"note_ko": "소재의 정확한 종류와 혼용률은 라벨·사양서로 확인합니다. 스판이라는 말만으로 모든 탄성 소재를 같은 성분으로 보지 않습니다.",
+"note_en": "Confirm the exact material type and blend ratio on the label or spec sheet. The word 'span' alone does not mean all elastic materials are the same component."
+},
+{
+"id": "fashion-200",
+"field": "fashion",
+"term_ko": "총장",
+"term_en": "Total length",
+"english": "Garment length",
+"aliases_ko": [
+"전체 길이",
+"총기장",
+"옷 전체 길이"
+],
+"definition_ko": "옷의 전체 길이를 가리키는 치수 표기. 시작점과 끝점은 품목과 측정 기준에 따라 정한다.",
+"definition_en": "A measurement notation for the overall length of a garment. The start and end points are set by item and measurement standard.",
+"example_ko": "샘플 총장은 목옆점부터 밑단까지 측정해주세요.",
+"example_en": "Please measure the sample's total length from the side-neck point to the hem."
+},
+{
+"id": "fashion-201",
+"field": "fashion",
+"term_ko": "품명",
+"term_en": "Product name",
+"english": "Product name",
+"aliases_ko": [
+"품목명",
+"제품명",
+"상품명"
+],
+"definition_ko": "품목의 이름을 짧게 부르는 말. 번호로 구분하는 품번과 달리 제품 이름을 표시한다.",
+"definition_en": "A short way of referring to the name of an item. Unlike an item number, which identifies by number, it shows the product's name.",
+"example_ko": "발주서에 품명과 품번을 함께 적어주세요.",
+"example_en": "Please note both the product name and the item number on the purchase order."
+},
+{
+"id": "fashion-202",
+"field": "fashion",
+"term_ko": "얼죽코",
+"term_en": "Coat no matter the cold",
+"english": "",
+"aliases_ko": [
+"얼어 죽어도 코트"
+],
+"definition_ko": "추워도 코트를 고집한다는 뜻의 줄임말. 스타일 취향을 표현하는 소비자 신조어.",
+"definition_en": "An abbreviation meaning one insists on a coat even when it's cold. A consumer coinage expressing style preference.",
+"example_ko": "코트 콘텐츠 제목에 얼죽코라는 표현을 썼어요.",
+"example_en": "We used the phrase 'coat no matter the cold' in the coat content title."
+},
+{
+"id": "fashion-203",
+"field": "fashion",
+"term_ko": "얼죽크",
+"term_en": "Crop no matter the cold",
+"english": "",
+"aliases_ko": [
+"얼어 죽어도 크롭"
+],
+"definition_ko": "추워도 짧은 기장의 크롭 스타일을 즐긴다는 뜻의 줄임말.",
+"definition_en": "An abbreviation meaning one enjoys short, cropped styles even when it's cold.",
+"example_ko": "크롭 상의 기획에 얼죽크 스타일 이미지를 참고해요.",
+"example_en": "We reference 'crop no matter the cold' style images when planning cropped tops.",
+"note_ko": "2024년 패션 기사에 기록된 소비자 표현입니다. 모든 패션 회사의 공식 업무 용어라는 뜻은 아닙니다.",
+"note_en": "A consumer expression recorded in 2024 fashion articles. It does not mean it is an official work term at every fashion company."
+},
+{
+"id": "fashion-204",
+"field": "fashion",
+"term_ko": "추구미",
+"term_en": "Aspired aesthetic",
+"english": "",
+"aliases_ko": [
+"추구하는 아름다움",
+"지향하는 이미지"
+],
+"definition_ko": "자신이 추구하는 아름다움이나 닮고 싶은 스타일을 가리키는 합성 표현.",
+"definition_en": "A blended expression referring to the beauty one pursues or the style one wants to resemble.",
+"example_ko": "타깃 고객의 추구미를 무드보드로 정리해요.",
+"example_en": "We organize the target customers' aspired aesthetic into a mood board.",
+"note_ko": "순수한 두문자 약어가 아닌 합성 표현으로, 소비자와 스타일을 이해하기 위한 항목입니다.",
+"note_en": "It is a blended expression rather than a pure acronym, used as an item for understanding consumers and style."
+},
+{
+"id": "marketing-145",
+"field": "marketing",
+"term_ko": "추구미",
+"term_en": "Aspired aesthetic",
+"english": "",
+"aliases_ko": [
+"추구하는 아름다움",
+"지향하는 이미지"
+],
+"definition_ko": "자신이 추구하는 아름다움이나 닮고 싶은 스타일을 가리키는 합성 표현.",
+"definition_en": "A blended expression referring to the beauty one pursues or the style one wants to resemble.",
+"example_ko": "타깃 고객의 추구미를 무드보드로 정리해요.",
+"example_en": "We organize the target customers' aspired aesthetic into a mood board.",
+"note_ko": "순수한 두문자 약어가 아닌 합성 표현으로, 소비자와 스타일을 이해하기 위한 항목입니다.",
+"note_en": "It is a blended expression rather than a pure acronym, used as an item for understanding consumers and style."
+},
+{
+"id": "film-169",
+"field": "film",
+"term_ko": "헤메",
+"term_en": "Hair and makeup",
+"english": "Hair and makeup",
+"aliases_ko": [
+"헤어 메이크업",
+"헤어메이크업",
+"헤어·메이크업",
+"헤메팀"
+],
+"definition_ko": "헤어와 메이크업을 묶어 짧게 부르는 말. 촬영 준비 작업이나 그 담당팀을 가리킨다.",
+"definition_en": "A short way of referring to hair and makeup together. It refers to the shoot-prep work or the team in charge of it.",
+"example_ko": "첫 촬영 한 시간 전에 헤메를 시작해요.",
+"example_en": "We start hair and makeup an hour before the first shot."
+},
+{
+"id": "marketing-146",
+"field": "marketing",
+"term_ko": "헤메",
+"term_en": "Hair and makeup",
+"english": "Hair and makeup",
+"aliases_ko": [
+"헤어 메이크업",
+"헤어메이크업",
+"헤어·메이크업",
+"헤메팀"
+],
+"definition_ko": "헤어와 메이크업을 묶어 짧게 부르는 말. 촬영 준비 작업이나 그 담당팀을 가리킨다.",
+"definition_en": "A short way of referring to hair and makeup together. It refers to the shoot-prep work or the team in charge of it.",
+"example_ko": "첫 촬영 한 시간 전에 헤메를 시작해요.",
+"example_en": "We start hair and makeup an hour before the first shot."
+},
+{
+"id": "fashion-205",
+"field": "fashion",
+"term_ko": "헤메",
+"term_en": "Hair and makeup",
+"english": "Hair and makeup",
+"aliases_ko": [
+"헤어 메이크업",
+"헤어메이크업",
+"헤어·메이크업",
+"헤메팀"
+],
+"definition_ko": "헤어와 메이크업을 묶어 짧게 부르는 말. 촬영 준비 작업이나 그 담당팀을 가리킨다.",
+"definition_en": "A short way of referring to hair and makeup together. It refers to the shoot-prep work or the team in charge of it.",
+"example_ko": "룩북의 첫 착장에 맞춰 헤메를 준비하고 의상 오염도 확인해요.",
+"example_en": "We prepare hair and makeup for the first outfit of the lookbook and also check the garments for stains."
+},
+{
+"id": "film-170",
+"field": "film",
+"term_ko": "촬감",
+"term_en": "Director of photography",
+"english": "Director of photography",
+"aliases_ko": [
+"촬영감독",
+"촬영 감독",
+"DP",
+"DOP"
+],
+"definition_ko": "촬영감독의 줄임말. 카메라와 촬영 방식 등 화면의 기술적·시각적 구현을 맡는 책임자.",
+"definition_en": "Short for 'cinematographer.' The person responsible for the technical and visual realization of the image, such as the camera and shooting methods.",
+"example_ko": "촬감님과 제품 클로즈업 구도를 상의해요.",
+"example_en": "We discuss the product close-up composition with the DP."
+},
+{
+"id": "marketing-147",
+"field": "marketing",
+"term_ko": "촬감",
+"term_en": "Director of photography",
+"english": "Director of photography",
+"aliases_ko": [
+"촬영감독",
+"촬영 감독",
+"DP",
+"DOP"
+],
+"definition_ko": "촬영감독의 줄임말. 카메라와 촬영 방식 등 화면의 기술적·시각적 구현을 맡는 책임자.",
+"definition_en": "Short for 'cinematographer.' The person responsible for the technical and visual realization of the image, such as the camera and shooting methods.",
+"example_ko": "촬감님과 제품 클로즈업 구도를 상의해요.",
+"example_en": "We discuss the product close-up composition with the DP."
+},
+{
+"id": "fashion-206",
+"field": "fashion",
+"term_ko": "촬감",
+"term_en": "Director of photography",
+"english": "Director of photography",
+"aliases_ko": [
+"촬영감독",
+"촬영 감독",
+"DP",
+"DOP"
+],
+"definition_ko": "촬영감독의 줄임말. 카메라와 촬영 방식 등 화면의 기술적·시각적 구현을 맡는 책임자.",
+"definition_en": "Short for 'cinematographer.' The person responsible for the technical and visual realization of the image, such as the camera and shooting methods.",
+"example_ko": "룩북 영상에서 스커트의 움직임이 보이도록 촬감님과 구도를 맞춰요.",
+"example_en": "For the lookbook video, we align the composition with the DP so the skirt's movement is visible."
+},
+{
+"id": "film-171",
+"field": "film",
+"term_ko": "종편",
+"term_en": "Final online edit",
+"english": "Online editing",
+"aliases_ko": [
+"종합편집",
+"종합 편집"
+],
+"definition_ko": "종합편집의 줄임말. 영상에 자막·그래픽·음향 등을 반영해 납품 형태로 마무리하는 작업.",
+"definition_en": "Short for 'comprehensive editing.' The work of finishing a video into deliverable form by applying subtitles, graphics, sound, and more.",
+"example_ko": "자막 수정까지 반영한 종편본을 전달해주세요.",
+"example_en": "Please deliver the final-edit version with the subtitle revisions applied.",
+"note_ko": "여기서는 종합편집을 뜻합니다. 방송 매체를 말할 때의 종합편성채널과는 구별합니다. 작업 범위는 제작사마다 다를 수 있습니다.",
+"note_en": "Here it means comprehensive editing. When referring to broadcast media, distinguish it from a general-programming cable channel. The scope of work can differ by production house."
+},
+{
+"id": "marketing-148",
+"field": "marketing",
+"term_ko": "종편",
+"term_en": "Final online edit",
+"english": "Online editing",
+"aliases_ko": [
+"종합편집",
+"종합 편집"
+],
+"definition_ko": "종합편집의 줄임말. 영상에 자막·그래픽·음향 등을 반영해 납품 형태로 마무리하는 작업.",
+"definition_en": "Short for 'comprehensive editing.' The work of finishing a video into deliverable form by applying subtitles, graphics, sound, and more.",
+"example_ko": "자막 수정까지 반영한 종편본을 전달해주세요.",
+"example_en": "Please deliver the final-edit version with the subtitle revisions applied.",
+"note_ko": "여기서는 종합편집을 뜻합니다. 방송 매체를 말할 때의 종합편성채널과는 구별합니다. 작업 범위는 제작사마다 다를 수 있습니다.",
+"note_en": "Here it means comprehensive editing. When referring to broadcast media, distinguish it from a general-programming cable channel. The scope of work can differ by production house."
+},
+{
+"id": "design-118",
+"field": "design",
+"term_ko": "종편",
+"term_en": "Final online edit",
+"english": "Online editing",
+"aliases_ko": [
+"종합편집",
+"종합 편집"
+],
+"definition_ko": "종합편집의 줄임말. 영상에 자막·그래픽·음향 등을 반영해 납품 형태로 마무리하는 작업.",
+"definition_en": "Short for 'comprehensive editing.' The work of finishing a video into deliverable form by applying subtitles, graphics, sound, and more.",
+"example_ko": "모션그래픽을 종편에 넘길 때 투명도와 화면 규격을 확인해요.",
+"example_en": "When handing motion graphics to the final edit, we check the transparency and screen specs.",
+"note_ko": "여기서는 종합편집을 뜻합니다. 방송 매체를 말할 때의 종합편성채널과는 구별합니다. 작업 범위는 제작사마다 다를 수 있습니다.",
+"note_en": "Here it means comprehensive editing. When referring to broadcast media, distinguish it from a general-programming cable channel. The scope of work can differ by production house."
+},
+{
+"id": "film-172",
+"field": "film",
+"term_ko": "컷편",
+"term_en": "Cut editing",
+"english": "Cut editing",
+"aliases_ko": [
+"컷편집",
+"컷 편집"
+],
+"definition_ko": "컷편집의 줄임말. 사용할 장면을 고르고 자르거나 이어 영상 흐름을 만드는 작업.",
+"definition_en": "Short for 'cut editing.' The work of selecting, trimming, and joining the scenes to use to create the video's flow.",
+"example_ko": "컷편을 먼저 확정한 뒤 자막을 넣어요.",
+"example_en": "We lock the cut edit first, then add subtitles."
+},
+{
+"id": "marketing-149",
+"field": "marketing",
+"term_ko": "컷편",
+"term_en": "Cut editing",
+"english": "Cut editing",
+"aliases_ko": [
+"컷편집",
+"컷 편집"
+],
+"definition_ko": "컷편집의 줄임말. 사용할 장면을 고르고 자르거나 이어 영상 흐름을 만드는 작업.",
+"definition_en": "Short for 'cut editing.' The work of selecting, trimming, and joining the scenes to use to create the video's flow.",
+"example_ko": "컷편을 먼저 확정한 뒤 자막을 넣어요.",
+"example_en": "We lock the cut edit first, then add subtitles."
+},
+{
+"id": "design-119",
+"field": "design",
+"term_ko": "컷편",
+"term_en": "Cut editing",
+"english": "Cut editing",
+"aliases_ko": [
+"컷편집",
+"컷 편집"
+],
+"definition_ko": "컷편집의 줄임말. 사용할 장면을 고르고 자르거나 이어 영상 흐름을 만드는 작업.",
+"definition_en": "Short for 'cut editing.' The work of selecting, trimming, and joining the scenes to use to create the video's flow.",
+"example_ko": "브랜드 영상 컷편의 타이밍에 맞춰 그래픽이 나올 구간을 정해요.",
+"example_en": "We set the sections where graphics appear to match the timing of the brand video's cut edit."
+},
+{
+"id": "film-173",
+"field": "film",
+"term_ko": "사녹",
+"term_en": "Pre-recording",
+"english": "Pre-recording",
+"aliases_ko": [
+"사전녹화",
+"사전 녹화"
+],
+"definition_ko": "사전녹화의 줄임말. 실제 방송 시점보다 앞서 장면이나 공연을 녹화하는 것.",
+"definition_en": "Short for 'advance recording.' Recording a scene or performance ahead of the actual broadcast time.",
+"example_ko": "사녹 시작 전에 출연자 동선을 확인해요.",
+"example_en": "We check the performers' blocking before the pre-recording starts."
+},
+{
+"id": "film-174",
+"field": "film",
+"term_ko": "본방",
+"term_en": "Original broadcast",
+"english": "Original broadcast",
+"aliases_ko": [
+"본방송",
+"본 방송"
+],
+"definition_ko": "본방송의 줄임말. 재방송과 구별하여 예정된 회차를 처음 내보내는 방송.",
+"definition_en": "Short for 'original broadcast.' The first airing of a scheduled episode, as distinguished from a rerun.",
+"example_ko": "본방 송출 시간을 기준으로 최종본을 전달해요.",
+"example_en": "We deliver the final cut based on the original-broadcast air time.",
+"note_ko": "본방송이 반드시 생방송이라는 뜻은 아닙니다. 사전 제작한 영상의 첫 방송도 본방송입니다.",
+"note_en": "An original broadcast is not necessarily live. The first airing of pre-produced footage is also an original broadcast."
+},
+{
+"id": "film-175",
+"field": "film",
+"term_ko": "공방",
+"term_en": "Open broadcast",
+"english": "Public broadcast",
+"aliases_ko": [
+"공개방송",
+"공개 방송"
+],
+"definition_ko": "공개방송의 줄임말. 관객이 현장에 참여할 수 있도록 공개해서 진행하는 방송.",
+"definition_en": "Short for 'open broadcast.' A broadcast held open to the public so that an audience can attend in person.",
+"example_ko": "공방 관객 입장과 카메라 동선을 분리해요.",
+"example_en": "We separate the open-broadcast audience entry from the camera paths.",
+"note_ko": "방송 업무에서의 뜻입니다. 물건을 만드는 작업 공간인 공방과 구별합니다.",
+"note_en": "This is the meaning in broadcast work. Distinguish it from a 'workshop,' a workspace where things are made."
+},
+{
+"id": "film-176",
+"field": "film",
+"term_ko": "생방",
+"term_en": "Live broadcast",
+"english": "Live broadcast",
+"aliases_ko": [
+"생방송",
+"생 방송"
+],
+"definition_ko": "생방송의 줄임말. 현장의 영상이나 음성을 진행과 거의 동시에 내보내는 방송.",
+"definition_en": "Short for 'live broadcast.' A broadcast that transmits on-site video or audio almost simultaneously with the proceedings.",
+"example_ko": "생방 시작 전에 송출 상태를 점검해요.",
+"example_en": "We check the transmission status before the live broadcast starts."
+},
+{
+"id": "design-120",
+"field": "design",
+"term_ko": "포샵",
+"term_en": "Photoshop",
+"english": "Adobe Photoshop",
+"aliases_ko": [
+"포토샵",
+"포토숍",
+"Photoshop",
+"포샵 작업"
+],
+"definition_ko": "포토샵을 짧게 부르는 말. 사진 보정이나 이미지 합성 작업을 가리키는 말로도 쓴다.",
+"definition_en": "A short way of saying Photoshop. Also used to refer to photo retouching or image compositing work.",
+"example_ko": "포샵에서 포스터 배경의 질감과 인물 마스크를 다듬어요.",
+"example_en": "In Photoshop, we refine the poster background's texture and the subject's mask."
+},
+{
+"id": "film-177",
+"field": "film",
+"term_ko": "포샵",
+"term_en": "Photoshop",
+"english": "Adobe Photoshop",
+"aliases_ko": [
+"포토샵",
+"포토숍",
+"Photoshop",
+"포샵 작업"
+],
+"definition_ko": "포토샵을 짧게 부르는 말. 사진 보정이나 이미지 합성 작업을 가리키는 말로도 쓴다.",
+"definition_en": "A short way of saying Photoshop. Also used to refer to photo retouching or image compositing work.",
+"example_ko": "포샵에서 합성용 배경 스틸의 불필요한 요소를 정리해요.",
+"example_en": "In Photoshop, we clean up unnecessary elements in the background still used for compositing."
+},
+{
+"id": "marketing-150",
+"field": "marketing",
+"term_ko": "포샵",
+"term_en": "Photoshop",
+"english": "Adobe Photoshop",
+"aliases_ko": [
+"포토샵",
+"포토숍",
+"Photoshop",
+"포샵 작업"
+],
+"definition_ko": "포토샵을 짧게 부르는 말. 사진 보정이나 이미지 합성 작업을 가리키는 말로도 쓴다.",
+"definition_en": "A short way of saying Photoshop. Also used to refer to photo retouching or image compositing work.",
+"example_ko": "포샵에서 제품 사진의 먼지를 정리했어요.",
+"example_en": "In Photoshop, I cleaned up the dust on the product photo."
+},
+{
+"id": "fashion-207",
+"field": "fashion",
+"term_ko": "포샵",
+"term_en": "Photoshop",
+"english": "Adobe Photoshop",
+"aliases_ko": [
+"포토샵",
+"포토숍",
+"Photoshop",
+"포샵 작업"
+],
+"definition_ko": "포토샵을 짧게 부르는 말. 사진 보정이나 이미지 합성 작업을 가리키는 말로도 쓴다.",
+"definition_en": "A short way of saying Photoshop. Also used to refer to photo retouching or image compositing work.",
+"example_ko": "포샵에서 옷의 실루엣은 유지하고 배경 얼룩만 정리해요.",
+"example_en": "In Photoshop, we keep the garment's silhouette and only clean up the background smudges."
+},
+{
+"id": "design-121",
+"field": "design",
+"term_ko": "일러",
+"term_en": "Illustrator",
+"english": "Adobe Illustrator",
+"aliases_ko": [
+"일러스트레이터",
+"어도비 일러스트레이터",
+"Illustrator"
+],
+"definition_ko": "도구를 말하는 문맥에서 어도비 일러스트레이터를 줄여 부르는 말. 로고·도형 등 벡터 그래픽 제작에 사용한다.",
+"definition_en": "In a tooling context, a short way of saying Adobe Illustrator. It is used for vector graphics such as logos and shapes.",
+"example_ko": "일러에서 심벌의 곡선과 작은 크기의 가독성을 확인해요.",
+"example_en": "In Illustrator, we check the symbol's curves and its legibility at small sizes.",
+"note_ko": "그림 자체를 말하는 문맥에서는 일러스트레이션을 줄여 부르는 경우도 있으므로 도구명인지 확인합니다.",
+"note_en": "In a context about the artwork itself, it can be short for 'illustration,' so confirm whether it refers to the tool."
+},
+{
+"id": "film-178",
+"field": "film",
+"term_ko": "일러",
+"term_en": "Illustrator",
+"english": "Adobe Illustrator",
+"aliases_ko": [
+"일러스트레이터",
+"어도비 일러스트레이터",
+"Illustrator"
+],
+"definition_ko": "도구를 말하는 문맥에서 어도비 일러스트레이터를 줄여 부르는 말. 로고·도형 등 벡터 그래픽 제작에 사용한다.",
+"definition_en": "In a tooling context, a short way of saying Adobe Illustrator. It is used for vector graphics such as logos and shapes.",
+"example_ko": "일러로 만든 타이틀 벡터를 모션 작업에 넘겨요.",
+"example_en": "We hand off the title vectors made in Illustrator to the motion work.",
+"note_ko": "그림 자체를 말하는 문맥에서는 일러스트레이션을 줄여 부르는 경우도 있으므로 도구명인지 확인합니다.",
+"note_en": "In a context about the artwork itself, it can be short for 'illustration,' so confirm whether it refers to the tool."
+},
+{
+"id": "marketing-151",
+"field": "marketing",
+"term_ko": "일러",
+"term_en": "Illustrator",
+"english": "Adobe Illustrator",
+"aliases_ko": [
+"일러스트레이터",
+"어도비 일러스트레이터",
+"Illustrator"
+],
+"definition_ko": "도구를 말하는 문맥에서 어도비 일러스트레이터를 줄여 부르는 말. 로고·도형 등 벡터 그래픽 제작에 사용한다.",
+"definition_en": "In a tooling context, a short way of saying Adobe Illustrator. It is used for vector graphics such as logos and shapes.",
+"example_ko": "일러 원본에 로고 수정 내용을 반영해주세요.",
+"example_en": "Please apply the logo revisions to the original Illustrator file.",
+"note_ko": "그림 자체를 말하는 문맥에서는 일러스트레이션을 줄여 부르는 경우도 있으므로 도구명인지 확인합니다.",
+"note_en": "In a context about the artwork itself, it can be short for 'illustration,' so confirm whether it refers to the tool."
+},
+{
+"id": "fashion-208",
+"field": "fashion",
+"term_ko": "일러",
+"term_en": "Illustrator",
+"english": "Adobe Illustrator",
+"aliases_ko": [
+"일러스트레이터",
+"어도비 일러스트레이터",
+"Illustrator"
+],
+"definition_ko": "도구를 말하는 문맥에서 어도비 일러스트레이터를 줄여 부르는 말. 로고·도형 등 벡터 그래픽 제작에 사용한다.",
+"definition_en": "In a tooling context, a short way of saying Adobe Illustrator. It is used for vector graphics such as logos and shapes.",
+"example_ko": "일러에서 티셔츠 프린트 도안의 색상별 원본을 정리해요.",
+"example_en": "In Illustrator, we organize the per-color masters of the T-shirt print artwork.",
+"note_ko": "그림 자체를 말하는 문맥에서는 일러스트레이션을 줄여 부르는 경우도 있으므로 도구명인지 확인합니다.",
+"note_en": "In a context about the artwork itself, it can be short for 'illustration,' so confirm whether it refers to the tool."
+},
+{
+"id": "design-122",
+"field": "design",
+"term_ko": "에펙",
+"term_en": "After Effects",
+"english": "Adobe After Effects",
+"aliases_ko": [
+"애프터 이펙트",
+"애프터이펙트",
+"에프터 이펙트",
+"에프터이펙트",
+"After Effects"
+],
+"definition_ko": "애프터 이펙트를 줄여 부르는 말. 모션그래픽과 영상 합성 등에 사용하는 제작 도구.",
+"definition_en": "A short way of saying After Effects. A production tool used for motion graphics and video compositing.",
+"example_ko": "에펙에서 로고 형태가 이어지는 모션을 만들어요.",
+"example_en": "In After Effects, we create motion where the logo's shape flows continuously."
+},
+{
+"id": "film-179",
+"field": "film",
+"term_ko": "에펙",
+"term_en": "After Effects",
+"english": "Adobe After Effects",
+"aliases_ko": [
+"애프터 이펙트",
+"애프터이펙트",
+"에프터 이펙트",
+"에프터이펙트",
+"After Effects"
+],
+"definition_ko": "애프터 이펙트를 줄여 부르는 말. 모션그래픽과 영상 합성 등에 사용하는 제작 도구.",
+"definition_en": "A short way of saying After Effects. A production tool used for motion graphics and video compositing.",
+"example_ko": "에펙에서 촬영한 화면에 따라가는 설명 그래픽을 합성해요.",
+"example_en": "In After Effects, we composite explanatory graphics that track the filmed footage."
+},
+{
+"id": "marketing-152",
+"field": "marketing",
+"term_ko": "에펙",
+"term_en": "After Effects",
+"english": "Adobe After Effects",
+"aliases_ko": [
+"애프터 이펙트",
+"애프터이펙트",
+"에프터 이펙트",
+"에프터이펙트",
+"After Effects"
+],
+"definition_ko": "애프터 이펙트를 줄여 부르는 말. 모션그래픽과 영상 합성 등에 사용하는 제작 도구.",
+"definition_en": "A short way of saying After Effects. A production tool used for motion graphics and video compositing.",
+"example_ko": "에펙에서 로고 등장 모션을 만들어요.",
+"example_en": "In After Effects, we create the logo's entrance motion."
+},
+{
+"id": "common-039",
+"field": "common",
+"term_ko": "포폴",
+"term_en": "Portfolio",
+"english": "Portfolio",
+"aliases_ko": [
+"포트폴리오",
+"포트 폴리오"
+],
+"definition_ko": "포트폴리오의 줄임말. 수행한 프로젝트와 자신의 역할·결과를 모아 보여 주는 자료.",
+"definition_en": "Short for 'portfolio.' Material that gathers the projects you've done and your role and results in them.",
+"example_ko": "포폴에 이번 프로젝트에서 맡은 역할을 적었어요.",
+"example_en": "I noted the role I took in this project in my portfolio."
+},
+{
+"id": "dev-151",
+"field": "dev",
+"term_ko": "코테",
+"term_en": "Coding test",
+"english": "Coding test",
+"aliases_ko": [
+"코딩 테스트",
+"코딩테스트"
+],
+"definition_ko": "코딩 테스트의 줄임말. 주어진 문제를 코드로 해결하는 능력을 확인하는 평가.",
+"definition_en": "Short for 'coding test.' An assessment that checks the ability to solve a given problem with code.",
+"example_ko": "코테 연습에서는 풀이가 맞는 이유도 설명해봐요.",
+"example_en": "In coding-test practice, try to also explain why your solution is correct."
+},
+{
+"id": "dev-152",
+"field": "dev",
+"term_ko": "컴공",
+"term_en": "Computer science",
+"english": "Computer engineering",
+"aliases_ko": [
+"컴퓨터공학",
+"컴퓨터 공학",
+"컴퓨터공학과"
+],
+"definition_ko": "컴퓨터공학이나 컴퓨터공학과를 줄여 부르는 말.",
+"definition_en": "A short way of saying computer science or the computer science department.",
+"example_ko": "컴공 전공에서 배운 내용을 실무와 연결해보고 있어요.",
+"example_en": "I'm connecting what I learned in my computer science major to practical work."
+},
+{
+"id": "dev-153",
+"field": "dev",
+"term_ko": "정처기",
+"term_en": "Engineer Information Processing",
+"english": "",
+"aliases_ko": [
+"정보처리기사",
+"정보 처리 기사"
+],
+"definition_ko": "정보처리기사 자격을 줄여 부르는 말.",
+"definition_en": "A short way of referring to the Engineer Information Processing certification.",
+"example_ko": "정처기 공부한 내용을 개발 기초 복습에 활용해요.",
+"example_en": "I use what I studied for the Engineer Information Processing exam to review development fundamentals."
+},
+{
+"id": "dev-154",
+"field": "dev",
+"term_ko": "타스",
+"term_en": "TypeScript",
+"english": "TypeScript",
+"aliases_ko": [
+"타입스크립트",
+"타입 스크립트",
+"TypeScript",
+"TS"
+],
+"definition_ko": "타입스크립트를 짧게 부르는 말. 자바스크립트에 타입 표현과 검사를 더한 언어.",
+"definition_en": "A short way of saying TypeScript. A language that adds type annotations and checking to JavaScript.",
+"example_ko": "다음 기능은 타스로 작성하기로 했어요.",
+"example_en": "We decided to write the next feature in TypeScript."
+},
+{
+"id": "dev-155",
+"field": "dev",
+"term_ko": "프론트",
+"term_en": "Front-end",
+"english": "Frontend",
+"aliases_ko": [
+"프론트엔드",
+"프런트엔드",
+"프론트 엔드",
+"FE"
+],
+"definition_ko": "프론트엔드를 짧게 부르는 말. 사용자가 직접 보는 화면과 그 상호작용을 구현하는 영역.",
+"definition_en": "A short way of saying front-end. The area that implements the screens users directly see and their interactions.",
+"example_ko": "프론트에서 API 오류를 받아 재시도 버튼을 표시하도록 수정해요.",
+"example_en": "We fix the front-end to catch API errors and show a retry button."
+},
+{
+"id": "design-124",
+"field": "design",
+"term_ko": "프론트",
+"term_en": "Front-end",
+"english": "Frontend",
+"aliases_ko": [
+"프론트엔드",
+"프런트엔드",
+"프론트 엔드",
+"FE"
+],
+"definition_ko": "프론트엔드를 짧게 부르는 말. 사용자가 직접 보는 화면과 그 상호작용을 구현하는 영역.",
+"definition_en": "A short way of saying front-end. The area that implements the screens users directly see and their interactions.",
+"example_ko": "프론트 담당자에게 화면 상태별 시안과 간격 규칙을 전달해요.",
+"example_en": "We hand the front-end developer the drafts for each screen state and the spacing rules."
+},
+{
+"id": "dev-156",
+"field": "dev",
+"term_ko": "디비",
+"term_en": "DB",
+"english": "Database",
+"aliases_ko": [
+"DB",
+"데이터베이스",
+"데이터 베이스"
+],
+"definition_ko": "DB를 한국어로 읽는 현장 호칭. 데이터를 체계적으로 저장하고 조회하는 데이터베이스를 뜻한다.",
+"definition_en": "A field term for reading 'DB' aloud in Korean. It refers to a database that systematically stores and retrieves data.",
+"example_ko": "디비에 저장된 상품 옵션을 확인해요.",
+"example_en": "We check the product options stored in the DB."
+},
+{
+"id": "common-040",
+"field": "common",
+"term_ko": "원복",
+"term_en": "Restore",
+"english": "Restore to previous state",
+"aliases_ko": [
+"원상복구",
+"원상 복구",
+"원복하다"
+],
+"definition_ko": "원상복구를 짧게 부르는 말. 변경한 작업물이나 설정을 이전 상태로 되돌리는 것.",
+"definition_en": "Short for 'restoring to the original state.' Reverting a changed work product or setting to its previous state.",
+"example_ko": "비교 검토를 위해 이전 버전으로 원복해주세요.",
+"example_en": "Please restore to the previous version for comparison review.",
+"note_ko": "업무별로 되돌리는 대상은 다릅니다. 개발에서는 코드·설정·데이터를, 제작에서는 시안·편집본 등을 가리킬 수 있습니다.",
+"note_en": "What gets reverted differs by field. In development it may mean code, settings, or data; in production it may mean drafts or edited versions."
+},
+{
+"id": "common-041",
+"field": "common",
+"term_ko": "복붙",
+"term_en": "Copy-paste",
+"english": "Copy and paste",
+"aliases_ko": [
+"복사 붙여넣기",
+"복사하여 붙여넣기",
+"복사·붙여넣기",
+"복붙하다"
+],
+"definition_ko": "복사와 붙여넣기를 묶어 짧게 부르는 말. 글·코드·이미지 등을 복제해 다른 위치에 넣는 작업.",
+"definition_en": "A short way of referring to copying and pasting together. The work of duplicating text, code, images, and so on and placing them elsewhere.",
+"example_ko": "지난 문구를 복붙한 뒤 바뀐 날짜를 수정해요.",
+"example_en": "We copy-paste the previous text, then fix the changed date."
+},
+{
+"id": "common-042",
+"field": "common",
+"term_ko": "플젝",
+"term_en": "Project",
+"english": "Project",
+"aliases_ko": [
+"프로젝트",
+"플젝 진행"
+],
+"definition_ko": "프로젝트를 짧게 부르는 비공식 표현. 정해진 목표를 위해 수행하는 작업 단위를 말한다.",
+"definition_en": "An informal short term for 'project.' A unit of work carried out toward a set goal.",
+"example_ko": "이번 플젝의 담당자와 일정을 공유해요.",
+"example_en": "We share the owner and schedule of this project."
+},
+{
+"id": "common-043",
+"field": "common",
+"term_ko": "자소서",
+"term_en": "Personal statement",
+"english": "Personal statement",
+"aliases_ko": [
+"자기소개서",
+"자기 소개서"
+],
+"definition_ko": "자기소개서의 줄임말. 지원 동기와 경험 등을 글로 설명하는 채용 자료.",
+"definition_en": "Short for 'self-introduction letter.' A hiring document that explains one's motivation, experience, and so on in writing.",
+"example_ko": "자소서에 프로젝트에서 해결한 문제를 적었어요.",
+"example_en": "In my personal statement, I wrote about a problem I solved in a project."
+},
+{
+"id": "common-044",
+"field": "common",
+"term_ko": "지결",
+"term_en": "Expense approval",
+"english": "Expense approval",
+"aliases_ko": [
+"지출결의",
+"지출 결의",
+"지출결의서",
+"지결서"
+],
+"definition_ko": "지출결의 또는 그 문서를 줄여 부르는 말. 사용하거나 사용할 비용의 내역과 증빙을 정리해 승인을 받는 업무.",
+"definition_en": "A short way of referring to an expense-approval request or its document. The work of organizing the details and evidence of costs incurred or to be incurred and obtaining approval.",
+"example_ko": "영수증을 첨부해 지결을 올려주세요.",
+"example_en": "Please submit the expense approval with the receipts attached.",
+"note_ko": "회사별로 지출 전 승인과 지출 후 정산 절차 및 서식 이름이 다릅니다.",
+"note_en": "The pre-spending approval and post-spending settlement procedures and form names differ by company."
+},
+{
+"id": "common-045",
+"field": "common",
+"term_ko": "법카",
+"term_en": "Corporate card",
+"english": "Corporate card",
+"aliases_ko": [
+"법인카드",
+"법인 카드"
+],
+"definition_ko": "법인카드의 줄임말. 회사의 업무 비용을 결제하는 카드를 말한다.",
+"definition_en": "Short for 'corporate card.' A card used to pay for the company's business expenses.",
+"example_ko": "촬영 소품은 법카로 결제하고 증빙을 챙겨요.",
+"example_en": "We pay for shoot props with the corporate card and keep the receipts."
+},
+{
+"id": "common-046",
+"field": "common",
+"term_ko": "칼퇴",
+"term_en": "Leaving right on time",
+"english": "",
+"aliases_ko": [
+"칼퇴근",
+"정시 퇴근"
+],
+"definition_ko": "정해진 퇴근 시간에 맞춰 바로 퇴근하는 것을 짧게 부르는 말.",
+"definition_en": "A short way of saying leaving work exactly at the set quitting time.",
+"example_ko": "오늘은 일정을 맞춰 마무리하고 칼퇴할게요.",
+"example_en": "I'll wrap up on schedule and leave right on time today."
+},
+{
+"id": "common-047",
+"field": "common",
+"term_ko": "워라밸",
+"term_en": "Work-life balance",
+"english": "Work-life balance",
+"aliases_ko": [
+"워크 라이프 밸런스",
+"일과 삶의 균형"
+],
+"definition_ko": "워크 라이프 밸런스를 줄인 말. 업무와 개인 생활 사이의 균형을 뜻한다.",
+"definition_en": "Short for 'work-life balance.' It means the balance between work and personal life.",
+"example_ko": "일정 계획을 세울 때 팀의 워라밸도 고려해요.",
+"example_en": "We also consider the team's work-life balance when planning schedules."
+},
+{
+"id": "marketing-165",
+"field": "marketing",
+"term_ko": "PD",
+"term_en": "PD",
+"english": "Producer",
+"aliases_ko": [
+"피디",
+"프로듀서"
+],
+"definition_ko": "영상 제작의 일정·예산·인력과 진행을 조율하는 제작 담당자. 연출자와 발주처 사이에서 제작 조건을 맞춘다.",
+"definition_en": "A production lead who coordinates the schedule, budget, staffing, and progress of video production. They align production conditions between the director and the client.",
+"example_ko": "PD님과 촬영 일정과 후반 예산부터 맞춰 주세요.",
+"example_en": "Please align the shoot schedule and post-production budget with the PD first.",
+"note_ko": "광고 제작의 PD를 중심으로 설명했습니다. 방송에서는 PD가 기획·연출을 함께 맡는 등 조직마다 업무 범위가 다릅니다.",
+"note_en": "This is centered on the PD in advertising production. In broadcasting, a PD may also handle planning and directing, so the scope of work differs by organization."
+},
+{
+"id": "film-190",
+"field": "film",
+"term_ko": "PD",
+"term_en": "PD",
+"english": "Producer",
+"aliases_ko": [
+"피디",
+"프로듀서"
+],
+"definition_ko": "영상 제작의 일정·예산·인력과 진행을 조율하는 제작 담당자. 연출자와 발주처 사이에서 제작 조건을 맞춘다.",
+"definition_en": "A production lead who coordinates the schedule, budget, staffing, and progress of video production. They align production conditions between the director and the client.",
+"example_ko": "PD가 촬영 일정과 장비·후반 예산을 조율해요.",
+"example_en": "The PD coordinates the shoot schedule, equipment, and post-production budget.",
+"note_ko": "광고 제작의 PD를 중심으로 설명했습니다. 방송에서는 PD가 기획·연출을 함께 맡는 등 조직마다 업무 범위가 다릅니다.",
+"note_en": "This is centered on the PD in advertising production. In broadcasting, a PD may also handle planning and directing, so the scope of work differs by organization."
+},
+{
+"id": "marketing-166",
+"field": "marketing",
+"term_ko": "PD 프로덕션",
+"term_en": "PD production house",
+"english": "Producer-led production company",
+"aliases_ko": [
+"PD프로덕션",
+"PD덕션",
+"피디덕션",
+"피디 프로덕션"
+],
+"definition_ko": "제작 PD를 중심으로 광고 제작을 운영하는 회사. 프로젝트에 맞춰 감독·스태프·후반 업체를 구성하고 제작을 진행한다.",
+"definition_en": "A company that runs advertising production centered on production PDs. It assembles directors, staff, and post-production vendors per project and carries out production.",
+"example_ko": "이번 건은 PD 프로덕션에서 감독 섭외부터 맡아요.",
+"example_en": "For this job, the PD production house handles everything from casting the director."
+},
+{
+"id": "film-191",
+"field": "film",
+"term_ko": "PD 프로덕션",
+"term_en": "PD production house",
+"english": "Producer-led production company",
+"aliases_ko": [
+"PD프로덕션",
+"PD덕션",
+"피디덕션",
+"피디 프로덕션"
+],
+"definition_ko": "제작 PD를 중심으로 광고 제작을 운영하는 회사. 프로젝트에 맞춰 감독·스태프·후반 업체를 구성하고 제작을 진행한다.",
+"definition_en": "A company that runs advertising production centered on production PDs. It assembles directors, staff, and post-production vendors per project and carries out production.",
+"example_ko": "이번 건은 PD 프로덕션에서 감독 섭외부터 맡아요.",
+"example_en": "For this job, the PD production house handles everything from casting the director."
+},
+{
+"id": "marketing-167",
+"field": "marketing",
+"term_ko": "덕션",
+"term_en": "Duction",
+"english": "Production company",
+"aliases_ko": [
+"프로덕션 회사",
+"광고 제작사",
+"광고 프로덕션"
+],
+"definition_ko": "현장에서 프로덕션, 즉 영상 제작 회사를 짧게 부르는 말.",
+"definition_en": "A field shorthand for a production house, i.e., a video production company.",
+"example_ko": "덕션 쪽에 촬영 견적과 가능한 날짜를 물어봐 주세요.",
+"example_en": "Please ask the duction for the shoot estimate and available dates.",
+"note_ko": "제작사라는 뜻의 구어입니다. 프리프로덕션·프로덕션·포스트프로덕션에서의 프로덕션은 제작 단계라는 별도 문맥입니다.",
+"note_en": "It is a colloquial term for a production house. 'Production' in pre-production, production, and post-production is a separate context meaning a production stage."
+},
+{
+"id": "film-192",
+"field": "film",
+"term_ko": "덕션",
+"term_en": "Duction",
+"english": "Production company",
+"aliases_ko": [
+"프로덕션 회사",
+"광고 제작사",
+"광고 프로덕션"
+],
+"definition_ko": "현장에서 프로덕션, 즉 영상 제작 회사를 짧게 부르는 말.",
+"definition_en": "A field shorthand for a production house, i.e., a video production company.",
+"example_ko": "덕션에 장소 섭외와 장비 반입 일정의 진행 상황을 확인해요.",
+"example_en": "We check with the duction on the progress of location scouting and the equipment load-in schedule.",
+"note_ko": "제작사라는 뜻의 구어입니다. 프리프로덕션·프로덕션·포스트프로덕션에서의 프로덕션은 제작 단계라는 별도 문맥입니다.",
+"note_en": "It is a colloquial term for a production house. 'Production' in pre-production, production, and post-production is a separate context meaning a production stage."
+},
+{
+"id": "marketing-168",
+"field": "marketing",
+"term_ko": "감독 프로덕션",
+"term_en": "Director production house",
+"english": "Director-led production company",
+"aliases_ko": [
+"감독덕션",
+"감독프로덕션"
+],
+"definition_ko": "소속 감독의 연출을 중심으로 프로젝트를 수주하고 제작하는 형태의 영상 제작사.",
+"definition_en": "A type of video production company that wins and produces projects centered on the directing of its in-house directors.",
+"example_ko": "이 감독 프로덕션의 최근 광고 연출작을 봤어요.",
+"example_en": "I watched this director production house's recent ad work.",
+"note_ko": "PD 프로덕션과의 구분은 업계에서 사용하는 운영 형태의 설명이며, 회사의 법적 분류가 아닙니다.",
+"note_en": "The distinction from a PD production house is an industry description of operating style, not a legal classification of the company."
+},
+{
+"id": "film-193",
+"field": "film",
+"term_ko": "감독 프로덕션",
+"term_en": "Director production house",
+"english": "Director-led production company",
+"aliases_ko": [
+"감독덕션",
+"감독프로덕션"
+],
+"definition_ko": "소속 감독의 연출을 중심으로 프로젝트를 수주하고 제작하는 형태의 영상 제작사.",
+"definition_en": "A type of video production company that wins and produces projects centered on the directing of its in-house directors.",
+"example_ko": "이 감독 프로덕션의 최근 광고 연출작을 봤어요.",
+"example_en": "I watched this director production house's recent ad work.",
+"note_ko": "PD 프로덕션과의 구분은 업계에서 사용하는 운영 형태의 설명이며, 회사의 법적 분류가 아닙니다.",
+"note_en": "The distinction from a PD production house is an industry description of operating style, not a legal classification of the company."
+},
+{
+"id": "marketing-169",
+"field": "marketing",
+"term_ko": "라인 PD",
+"term_en": "Line PD",
+"english": "Line producer",
+"aliases_ko": [
+"라인PD",
+"라인 피디",
+"라인 프로듀서"
+],
+"definition_ko": "제작 현장에서 인력·장비·장소·예산 집행과 일정을 실무적으로 조율하는 제작 담당자.",
+"definition_en": "A production lead who practically coordinates staffing, equipment, locations, budget execution, and scheduling at the production site.",
+"example_ko": "차량과 장비 반입 시간은 라인 PD가 정리해요.",
+"example_en": "The line PD sorts out the vehicle and equipment load-in times."
+},
+{
+"id": "film-194",
+"field": "film",
+"term_ko": "라인 PD",
+"term_en": "Line PD",
+"english": "Line producer",
+"aliases_ko": [
+"라인PD",
+"라인 피디",
+"라인 프로듀서"
+],
+"definition_ko": "제작 현장에서 인력·장비·장소·예산 집행과 일정을 실무적으로 조율하는 제작 담당자.",
+"definition_en": "A production lead who practically coordinates staffing, equipment, locations, budget execution, and scheduling at the production site.",
+"example_ko": "차량과 장비 반입 시간은 라인 PD가 정리해요.",
+"example_en": "The line PD sorts out the vehicle and equipment load-in times."
+},
+{
+"id": "marketing-170",
+"field": "marketing",
+"term_ko": "기획실",
+"term_en": "Planning office",
+"english": "Creative planning department",
+"aliases_ko": [
+"프로덕션 기획실",
+"광고 기획실"
+],
+"definition_ko": "광고 제작 아이디어를 시안·카피·콘티 등으로 구체화하는 부서. 제작사에 따라 아트와 카피 인력이 함께 일한다.",
+"definition_en": "A department that develops advertising production ideas into drafts, copy, storyboards, and so on. Depending on the production house, art and copy staff work together there.",
+"example_ko": "기획실에서 콘티 두 안을 먼저 정리했어요.",
+"example_en": "The planning office first put together two storyboard options.",
+"note_ko": "광고 제작사의 기획실 문맥입니다. 일반 회사의 경영기획실과 업무가 다를 수 있습니다.",
+"note_en": "This is the context of a planning office at an ad production house. The work may differ from a general company's corporate planning office."
+},
+{
+"id": "film-195",
+"field": "film",
+"term_ko": "기획실",
+"term_en": "Planning office",
+"english": "Creative planning department",
+"aliases_ko": [
+"프로덕션 기획실",
+"광고 기획실"
+],
+"definition_ko": "광고 제작 아이디어를 시안·카피·콘티 등으로 구체화하는 부서. 제작사에 따라 아트와 카피 인력이 함께 일한다.",
+"definition_en": "A department that develops advertising production ideas into drafts, copy, storyboards, and so on. Depending on the production house, art and copy staff work together there.",
+"example_ko": "광고 제작사 기획실에서 정리한 콘티를 감독 트리트먼트와 함께 봐요.",
+"example_en": "We review the storyboard organized by the ad production house's planning office together with the director's treatment.",
+"note_ko": "광고 제작사의 기획실 문맥입니다. 일반 회사의 경영기획실과 업무가 다를 수 있습니다.",
+"note_en": "This is the context of a planning office at an ad production house. The work may differ from a general company's corporate planning office."
+},
+{
+"id": "marketing-171",
+"field": "marketing",
+"term_ko": "플래너",
+"term_en": "Planner",
+"english": "Planner",
+"aliases_ko": [
+"크리에이티브 플래너",
+"기획자"
+],
+"definition_ko": "광고의 목표와 메시지를 바탕으로 아이디어와 실행 방향을 설계하는 기획 담당자.",
+"definition_en": "A planning lead who designs ideas and an execution direction based on an ad's goals and message.",
+"example_ko": "플래너가 기획 의도를 정리하고 아트팀과 시안을 만들어요.",
+"example_en": "The planner organizes the planning intent and creates drafts with the art team.",
+"note_ko": "전략·매체·크리에이티브 등 무엇을 기획하는지에 따라 역할이 달라집니다.",
+"note_en": "The role varies depending on what is being planned, such as strategy, media, or creative."
+},
+{
+"id": "film-196",
+"field": "film",
+"term_ko": "플래너",
+"term_en": "Planner",
+"english": "Planner",
+"aliases_ko": [
+"크리에이티브 플래너",
+"기획자"
+],
+"definition_ko": "광고의 목표와 메시지를 바탕으로 아이디어와 실행 방향을 설계하는 기획 담당자.",
+"definition_en": "A planning lead who designs ideas and an execution direction based on an ad's goals and message.",
+"example_ko": "광고 제작 플래너와 콘티의 아이디어가 촬영으로 구현되는 방식을 논의해요.",
+"example_en": "We discuss with the ad-production planner how the storyboard's ideas are realized in the shoot.",
+"note_ko": "전략·매체·크리에이티브 등 무엇을 기획하는지에 따라 역할이 달라집니다.",
+"note_en": "The role varies depending on what is being planned, such as strategy, media, or creative."
+},
+{
+"id": "marketing-172",
+"field": "marketing",
+"term_ko": "EPD",
+"term_en": "EPD",
+"english": "",
+"aliases_ko": [
+"이피디",
+"총괄 제작",
+"총괄제작"
+],
+"definition_ko": "프로젝트의 제작 방향과 완성도, 예산·일정·인력 운영을 총괄하는 제작 책임자를 가리키는 직책.",
+"definition_en": "A title for a production lead who oversees a project's production direction and quality, as well as budget, schedule, and staffing.",
+"example_ko": "EPD와 제작 범위와 최종 일정부터 확정해요.",
+"example_en": "Let's first confirm the production scope and final schedule with the EPD.",
+"note_ko": "실제 제작사에서 쓰는 총괄 제작 직책입니다. 영문 풀이는 회사마다 달라질 수 있어 하나로 단정하지 않습니다.",
+"note_en": "It is an overall-production title used at actual production houses. The English expansion can differ by company, so we do not pin it to one."
+},
+{
+"id": "film-197",
+"field": "film",
+"term_ko": "EPD",
+"term_en": "EPD",
+"english": "",
+"aliases_ko": [
+"이피디",
+"총괄 제작",
+"총괄제작"
+],
+"definition_ko": "프로젝트의 제작 방향과 완성도, 예산·일정·인력 운영을 총괄하는 제작 책임자를 가리키는 직책.",
+"definition_en": "A title for a production lead who oversees a project's production direction and quality, as well as budget, schedule, and staffing.",
+"example_ko": "EPD와 제작 범위와 최종 일정부터 확정해요.",
+"example_en": "Let's first confirm the production scope and final schedule with the EPD.",
+"note_ko": "실제 제작사에서 쓰는 총괄 제작 직책입니다. 영문 풀이는 회사마다 달라질 수 있어 하나로 단정하지 않습니다.",
+"note_en": "It is an overall-production title used at actual production houses. The English expansion can differ by company, so we do not pin it to one."
+},
+{
+"id": "marketing-173",
+"field": "marketing",
+"term_ko": "ECD",
+"term_en": "ECD",
+"english": "Executive creative director",
+"aliases_ko": [
+"이씨디",
+"이시디",
+"이그제큐티브 크리에이티브 디렉터"
+],
+"definition_ko": "조직의 주요 캠페인과 여러 크리에이티브 작업의 방향·품질을 총괄하는 크리에이티브 책임자.",
+"definition_en": "A creative lead who oversees the direction and quality of an organization's major campaigns and multiple creative works.",
+"example_ko": "ECD 리뷰에서 캠페인의 중심 아이디어를 확인해요.",
+"example_en": "At the ECD review, we confirm the campaign's central idea.",
+"note_ko": "CD·ECD·CCO의 구성과 결재 관계는 회사마다 다릅니다.",
+"note_en": "The composition and approval relationships among CD, ECD, and CCO differ by company."
+},
+{
+"id": "design-134",
+"field": "design",
+"term_ko": "ECD",
+"term_en": "ECD",
+"english": "Executive creative director",
+"aliases_ko": [
+"이씨디",
+"이시디",
+"이그제큐티브 크리에이티브 디렉터"
+],
+"definition_ko": "조직의 주요 캠페인과 여러 크리에이티브 작업의 방향·품질을 총괄하는 크리에이티브 책임자.",
+"definition_en": "A creative lead who oversees the direction and quality of an organization's major campaigns and multiple creative works.",
+"example_ko": "대행사 ECD 리뷰에서 캠페인 비주얼의 전체 방향을 확인해요.",
+"example_en": "At the agency ECD review, we confirm the overall direction of the campaign visuals.",
+"note_ko": "CD·ECD·CCO의 구성과 결재 관계는 회사마다 다릅니다.",
+"note_en": "The composition and approval relationships among CD, ECD, and CCO differ by company."
+},
+{
+"id": "marketing-174",
+"field": "marketing",
+"term_ko": "CCO",
+"term_en": "CCO",
+"english": "Chief creative officer",
+"aliases_ko": [
+"최고 크리에이티브 책임자"
+],
+"definition_ko": "회사 차원에서 크리에이티브 전략과 조직을 이끄는 최고 책임자 직책.",
+"definition_en": "A top-executive title that leads creative strategy and the creative organization at the company level.",
+"example_ko": "CCO가 브랜드별 크리에이티브 방향을 함께 검토해요.",
+"example_en": "The CCO reviews the creative direction for each brand together with us.",
+"note_ko": "이 항목은 크리에이티브 조직의 CCO입니다. 다른 조직에서는 같은 약자를 다른 직책에 쓰기도 합니다.",
+"note_en": "This entry is the CCO of a creative organization. Other organizations may use the same abbreviation for a different title."
+},
+{
+"id": "design-135",
+"field": "design",
+"term_ko": "CCO",
+"term_en": "CCO",
+"english": "Chief creative officer",
+"aliases_ko": [
+"최고 크리에이티브 책임자"
+],
+"definition_ko": "회사 차원에서 크리에이티브 전략과 조직을 이끄는 최고 책임자 직책.",
+"definition_en": "A top-executive title that leads creative strategy and the creative organization at the company level.",
+"example_ko": "CCO에게 브랜드 개편의 크리에이티브 방향과 디자인 적용안을 제안해요.",
+"example_en": "We propose the brand-redesign creative direction and design applications to the CCO.",
+"note_ko": "이 항목은 크리에이티브 조직의 CCO입니다. 다른 조직에서는 같은 약자를 다른 직책에 쓰기도 합니다.",
+"note_en": "This entry is the CCO of a creative organization. Other organizations may use the same abbreviation for a different title."
+},
+{
+"id": "marketing-175",
+"field": "marketing",
+"term_ko": "2D",
+"term_en": "2D",
+"english": "2D post-production",
+"aliases_ko": [
+"2d",
+"투디",
+"2D 작업",
+"2D팀"
+],
+"definition_ko": "광고 후반에서 평면 그래픽·모션그래픽·영상 합성·리터칭 등을 처리하는 작업 또는 담당 파트.",
+"definition_en": "The work, or responsible part, in advertising post-production that handles flat graphics, motion graphics, video compositing, retouching, and so on.",
+"example_ko": "제품 주변 정리와 타이틀은 2D에서 작업해요.",
+"example_en": "The cleanup around the product and the title are done in 2D.",
+"note_ko": "광고 후반 파트의 뜻입니다. 2D 애니메이션만을 의미하지 않으며, 회사마다 합성·모션·디자인의 담당 범위가 다릅니다.",
+"note_en": "It means a post-production part in advertising. It does not mean only 2D animation, and the scope covering compositing, motion, and design differs by company."
+},
+{
+"id": "film-198",
+"field": "film",
+"term_ko": "2D",
+"term_en": "2D",
+"english": "2D post-production",
+"aliases_ko": [
+"2d",
+"투디",
+"2D 작업",
+"2D팀"
+],
+"definition_ko": "광고 후반에서 평면 그래픽·모션그래픽·영상 합성·리터칭 등을 처리하는 작업 또는 담당 파트.",
+"definition_en": "The work, or responsible part, in advertising post-production that handles flat graphics, motion graphics, video compositing, retouching, and so on.",
+"example_ko": "촬영본의 와이어 제거와 타이틀 합성은 2D 파트에 전달해요.",
+"example_en": "We hand the wire removal and title compositing of the footage to the 2D part.",
+"note_ko": "광고 후반 파트의 뜻입니다. 2D 애니메이션만을 의미하지 않으며, 회사마다 합성·모션·디자인의 담당 범위가 다릅니다.",
+"note_en": "It means a post-production part in advertising. It does not mean only 2D animation, and the scope covering compositing, motion, and design differs by company."
+},
+{
+"id": "design-136",
+"field": "design",
+"term_ko": "2D",
+"term_en": "2D",
+"english": "2D graphic design",
+"aliases_ko": [
+"투디",
+"2D 그래픽",
+"평면 그래픽"
+],
+"definition_ko": "평면에서 도형·이미지·글자 등을 구성하는 그래픽 작업. 모션 디자인에서는 시간에 따른 움직임을 더하기도 한다.",
+"definition_en": "Graphic work that composes shapes, images, and text on a flat plane. In motion design, movement over time may also be added.",
+"example_ko": "2D 그래픽으로 포스터와 타이틀 화면을 구성해요.",
+"example_en": "We compose the poster and title screen with 2D graphics.",
+"note_ko": "디자인의 그래픽 제작 문맥입니다. 광고 후반의 2D 담당 파트와 구분합니다.",
+"note_en": "This is the context of graphic production in design. Distinguish it from the 2D part in advertising post-production."
+},
+{
+"id": "marketing-176",
+"field": "marketing",
+"term_ko": "3D",
+"term_en": "3D",
+"english": "3D graphics",
+"aliases_ko": [
+"쓰리디",
+"스리디",
+"3D 작업",
+"3D팀"
+],
+"definition_ko": "입체 모델에 재질·조명·움직임을 적용해 이미지나 영상을 만드는 컴퓨터 그래픽 작업 또는 담당 파트.",
+"definition_en": "Computer-graphics work, or the responsible part, that applies materials, lighting, and movement to 3D models to create images or video.",
+"example_ko": "실물로 찍기 어려운 제품 단면은 3D로 만들어요.",
+"example_en": "We make product cross-sections that are hard to shoot for real in 3D."
+},
+{
+"id": "film-199",
+"field": "film",
+"term_ko": "3D",
+"term_en": "3D",
+"english": "3D graphics",
+"aliases_ko": [
+"쓰리디",
+"스리디",
+"3D 작업",
+"3D팀"
+],
+"definition_ko": "입체 모델에 재질·조명·움직임을 적용해 이미지나 영상을 만드는 컴퓨터 그래픽 작업 또는 담당 파트.",
+"definition_en": "Computer-graphics work, or the responsible part, that applies materials, lighting, and movement to 3D models to create images or video.",
+"example_ko": "실물로 찍기 어려운 제품 단면은 3D로 만들어요.",
+"example_en": "We make product cross-sections that are hard to shoot for real in 3D."
+},
+{
+"id": "design-137",
+"field": "design",
+"term_ko": "3D",
+"term_en": "3D",
+"english": "3D graphics",
+"aliases_ko": [
+"쓰리디",
+"스리디",
+"3D 작업",
+"3D팀"
+],
+"definition_ko": "입체 모델에 재질·조명·움직임을 적용해 이미지나 영상을 만드는 컴퓨터 그래픽 작업 또는 담당 파트.",
+"definition_en": "Computer-graphics work, or the responsible part, that applies materials, lighting, and movement to 3D models to create images or video.",
+"example_ko": "신제품 패키지를 3D로 만들어 구조와 재질 표현을 검토해요.",
+"example_en": "We make the new product package in 3D to review its structure and material rendering."
+},
+{
+"id": "marketing-177",
+"field": "marketing",
+"term_ko": "D.I",
+"term_en": "D.I",
+"english": "Digital intermediate",
+"aliases_ko": [
+"DI",
+"D.I.",
+"디아이",
+"디지털 인터미디어트"
+],
+"definition_ko": "광고 후반에서 주로 색보정·컬러 그레이딩 공정을 가리키는 말. 장면별 색과 밝기를 맞추고 최종 화면의 분위기를 다듬는다.",
+"definition_en": "A term that mainly refers to the color-correction and color-grading process in advertising post-production. It matches the color and brightness of each scene and refines the mood of the final image.",
+"example_ko": "편집 픽스 후 D.I에서 피부 톤과 제품 색을 맞춰요.",
+"example_en": "After the edit lock, we match skin tones and product colors in D.I.",
+"note_ko": "Digital intermediate는 본래 디지털 중간 처리·후반 공정을 넓게 가리킵니다. 광고 현장에서는 색보정 공정이나 업체를 지칭하는 경우가 많습니다. 촬영 현장의 DIT와는 구분합니다.",
+"note_en": "Digital intermediate originally refers broadly to digital intermediate processing and post-production. In advertising, it often refers to the color-correction process or vendor. Distinguish it from DIT on set."
+},
+{
+"id": "film-200",
+"field": "film",
+"term_ko": "D.I",
+"term_en": "D.I",
+"english": "Digital intermediate",
+"aliases_ko": [
+"DI",
+"D.I.",
+"디아이",
+"디지털 인터미디어트",
+"디 아이"
+],
+"definition_ko": "광고 후반에서 주로 색보정·컬러 그레이딩 공정을 가리키는 말. 장면별 색과 밝기를 맞추고 최종 화면의 분위기를 다듬는다.",
+"definition_en": "A term that mainly refers to the color-correction and color-grading process in advertising post-production. It matches the color and brightness of each scene and refines the mood of the final image.",
+"example_ko": "편집 픽스 후 D.I에서 피부 톤과 제품 색을 맞춰요.",
+"example_en": "After the edit lock, we match skin tones and product colors in D.I.",
+"note_ko": "Digital intermediate는 본래 디지털 중간 처리·후반 공정을 넓게 가리킵니다. 광고 현장에서는 색보정 공정이나 업체를 지칭하는 경우가 많습니다. 촬영 현장의 DIT와는 구분합니다.",
+"note_en": "Digital intermediate originally refers broadly to digital intermediate processing and post-production. In advertising, it often refers to the color-correction process or vendor. Distinguish it from DIT on set."
+},
+{
+"id": "marketing-178",
+"field": "marketing",
+"term_ko": "편집",
+"term_en": "Editing",
+"english": "Editing",
+"aliases_ko": [
+"영상 편집",
+"에디팅"
+],
+"definition_ko": "촬영본에서 필요한 부분을 고르고 순서·길이·소리를 구성해 전달할 이야기를 만드는 작업.",
+"definition_en": "The work of selecting the needed parts from footage and arranging the order, length, and sound to create the story to be told.",
+"example_ko": "편집에서 도입부를 줄이고 제품 컷을 앞당겨 주세요.",
+"example_en": "In editing, please trim the opening and move the product shots earlier."
+},
+{
+"id": "film-201",
+"field": "film",
+"term_ko": "편집",
+"term_en": "Editing",
+"english": "Editing",
+"aliases_ko": [
+"영상 편집",
+"에디팅"
+],
+"definition_ko": "촬영본에서 필요한 부분을 고르고 순서·길이·소리를 구성해 전달할 이야기를 만드는 작업.",
+"definition_en": "The work of selecting the needed parts from footage and arranging the order, length, and sound to create the story to be told.",
+"example_ko": "인터뷰 편집에서 답변 순서를 바꾸고 필요한 B롤을 붙여요.",
+"example_en": "In the interview edit, we change the order of answers and add the needed B-roll."
+},
+{
+"id": "design-139",
+"field": "design",
+"term_ko": "편집",
+"term_en": "Editing",
+"english": "Editorial design",
+"aliases_ko": [
+"지면 편집",
+"편집 디자인",
+"에디팅"
+],
+"definition_ko": "책·잡지·브로슈어 등의 글과 이미지를 페이지의 순서·위계·여백에 맞게 구성해 읽는 흐름을 만드는 작업.",
+"definition_en": "The work of arranging the text and images of a book, magazine, brochure, and so on according to page order, hierarchy, and margins to create a reading flow.",
+"example_ko": "카탈로그 편집에서 제품 사진과 설명이 같은 펼침면에 보이도록 배치해요.",
+"example_en": "In the catalog layout, we place the product photo and description on the same spread.",
+"note_ko": "여기서는 지면 편집을 뜻합니다. 모션 디자인에서 사용하는 영상 편집·컷편집과 구분합니다.",
+"note_en": "Here it means page layout. Distinguish it from video editing and cut editing used in motion design."
+},
+{
+"id": "marketing-179",
+"field": "marketing",
+"term_ko": "녹음",
+"term_en": "Recording",
+"english": "Recording",
+"aliases_ko": [
+"레코딩",
+"음성 녹음"
+],
+"definition_ko": "목소리·연주·현장 소리 등을 소리 데이터로 기록하는 작업.",
+"definition_en": "The work of capturing voices, performances, on-site sound, and so on as audio data.",
+"example_ko": "내레이션 녹음 전에 최종 카피를 확정해 주세요.",
+"example_en": "Please finalize the copy before the narration recording."
+},
+{
+"id": "film-202",
+"field": "film",
+"term_ko": "녹음",
+"term_en": "Recording",
+"english": "Recording",
+"aliases_ko": [
+"레코딩",
+"음성 녹음"
+],
+"definition_ko": "목소리·연주·현장 소리 등을 소리 데이터로 기록하는 작업.",
+"definition_en": "The work of capturing voices, performances, on-site sound, and so on as audio data.",
+"example_ko": "현장 대사 녹음 전에 마이크 위치와 소음 상태를 확인해요.",
+"example_en": "Before recording on-set dialogue, we check the mic position and the noise conditions."
+},
+{
+"id": "marketing-180",
+"field": "marketing",
+"term_ko": "성우",
+"term_en": "Voice actor",
+"english": "Voice actor",
+"aliases_ko": [
+"보이스 액터"
+],
+"definition_ko": "캐릭터 연기나 광고 내레이션 등 목소리 표현을 전문으로 하는 사람.",
+"definition_en": "A person who specializes in vocal expression, such as character acting or advertising narration.",
+"example_ko": "브랜드 톤에 맞는 성우 후보를 들어볼게요.",
+"example_en": "I'll listen to voice-actor candidates that match the brand tone."
+},
+{
+"id": "film-203",
+"field": "film",
+"term_ko": "성우",
+"term_en": "Voice actor",
+"english": "Voice actor",
+"aliases_ko": [
+"보이스 액터"
+],
+"definition_ko": "캐릭터 연기나 광고 내레이션 등 목소리 표현을 전문으로 하는 사람.",
+"definition_en": "A person who specializes in vocal expression, such as character acting or advertising narration.",
+"example_ko": "브랜드 톤에 맞는 성우 후보를 들어볼게요.",
+"example_en": "I'll listen to voice-actor candidates that match the brand tone."
+},
+{
+"id": "marketing-181",
+"field": "marketing",
+"term_ko": "내레이션",
+"term_en": "Narration",
+"english": "Narration",
+"aliases_ko": [
+"나레이션",
+"내레이션 녹음",
+"NA"
+],
+"definition_ko": "영상의 내용이나 메시지를 목소리로 설명하는 말. 화면 속 대사와 구분해 쓰기도 한다.",
+"definition_en": "Spoken words that explain a video's content or message. It is sometimes used as distinct from on-screen dialogue.",
+"example_ko": "마지막 제품 설명에 내레이션을 넣어 주세요.",
+"example_en": "Please add narration to the final product explanation."
+},
+{
+"id": "film-204",
+"field": "film",
+"term_ko": "내레이션",
+"term_en": "Narration",
+"english": "Narration",
+"aliases_ko": [
+"나레이션",
+"내레이션 녹음",
+"NA"
+],
+"definition_ko": "영상의 내용이나 메시지를 목소리로 설명하는 말. 화면 속 대사와 구분해 쓰기도 한다.",
+"definition_en": "Spoken words that explain a video's content or message. It is sometimes used as distinct from on-screen dialogue.",
+"example_ko": "마지막 제품 설명에 내레이션을 넣어 주세요.",
+"example_en": "Please add narration to the final product explanation."
+},
+{
+"id": "marketing-182",
+"field": "marketing",
+"term_ko": "합성",
+"term_en": "Compositing",
+"english": "Compositing",
+"aliases_ko": [
+"컴포지팅",
+"컴포짓"
+],
+"definition_ko": "여러 영상·이미지·그래픽을 겹치고 조정해 하나의 화면으로 만드는 작업.",
+"definition_en": "The work of overlaying and adjusting multiple videos, images, and graphics into a single image.",
+"example_ko": "촬영한 제품을 새 배경에 합성해 주세요.",
+"example_en": "Please composite the shot product onto a new background."
+},
+{
+"id": "film-205",
+"field": "film",
+"term_ko": "합성",
+"term_en": "Compositing",
+"english": "Compositing",
+"aliases_ko": [
+"컴포지팅",
+"컴포짓"
+],
+"definition_ko": "여러 영상·이미지·그래픽을 겹치고 조정해 하나의 화면으로 만드는 작업.",
+"definition_en": "The work of overlaying and adjusting multiple videos, images, and graphics into a single image.",
+"example_ko": "촬영한 제품을 새 배경에 합성해 주세요.",
+"example_en": "Please composite the shot product onto a new background."
+},
+{
+"id": "design-140",
+"field": "design",
+"term_ko": "합성",
+"term_en": "Compositing",
+"english": "Compositing",
+"aliases_ko": [
+"컴포지팅",
+"컴포짓"
+],
+"definition_ko": "여러 영상·이미지·그래픽을 겹치고 조정해 하나의 화면으로 만드는 작업.",
+"definition_en": "The work of overlaying and adjusting multiple videos, images, and graphics into a single image.",
+"example_ko": "포스터 배경과 제품 사진을 합성하며 빛의 방향을 맞춰요.",
+"example_en": "We composite the poster background and the product photo, matching the direction of the light."
+},
+{
+"id": "marketing-183",
+"field": "marketing",
+"term_ko": "알파 채널",
+"term_en": "Alpha channel",
+"english": "Alpha channel",
+"aliases_ko": [
+"알파",
+"알파채널"
+],
+"definition_ko": "이미지나 영상에서 각 부분의 투명도를 담는 정보.",
+"definition_en": "Information that holds the transparency of each part of an image or video.",
+"example_ko": "로고 애니메이션은 알파 채널이 있는 파일로 주세요.",
+"example_en": "Please provide the logo animation as a file with an alpha channel."
+},
+{
+"id": "film-206",
+"field": "film",
+"term_ko": "알파 채널",
+"term_en": "Alpha channel",
+"english": "Alpha channel",
+"aliases_ko": [
+"알파",
+"알파채널"
+],
+"definition_ko": "이미지나 영상에서 각 부분의 투명도를 담는 정보.",
+"definition_en": "Information that holds the transparency of each part of an image or video.",
+"example_ko": "로고 애니메이션은 알파 채널이 있는 파일로 주세요.",
+"example_en": "Please provide the logo animation as a file with an alpha channel."
+},
+{
+"id": "design-141",
+"field": "design",
+"term_ko": "알파 채널",
+"term_en": "Alpha channel",
+"english": "Alpha channel",
+"aliases_ko": [
+"알파",
+"알파채널"
+],
+"definition_ko": "이미지나 영상에서 각 부분의 투명도를 담는 정보.",
+"definition_en": "Information that holds the transparency of each part of an image or video.",
+"example_ko": "모션 로고를 배경에 얹을 수 있도록 알파 채널을 포함해 출력해요.",
+"example_en": "We render with an alpha channel included so the motion logo can be placed over the background."
+},
+{
+"id": "marketing-184",
+"field": "marketing",
+"term_ko": "로토스코핑",
+"term_en": "Rotoscoping",
+"english": "Rotoscoping",
+"aliases_ko": [
+"로토",
+"로토 작업"
+],
+"definition_ko": "영상 속 움직이는 인물이나 사물의 경계를 따라 분리용 영역을 만드는 작업. 배경 교체나 부분 효과에 활용한다.",
+"definition_en": "The work of creating separation regions along the boundary of a moving person or object in footage. It is used for background replacement or partial effects.",
+"example_ko": "머리카락 경계는 로토로 더 정리해 주세요.",
+"example_en": "Please clean up the hair boundary further with roto."
+},
+{
+"id": "film-207",
+"field": "film",
+"term_ko": "로토스코핑",
+"term_en": "Rotoscoping",
+"english": "Rotoscoping",
+"aliases_ko": [
+"로토",
+"로토 작업"
+],
+"definition_ko": "영상 속 움직이는 인물이나 사물의 경계를 따라 분리용 영역을 만드는 작업. 배경 교체나 부분 효과에 활용한다.",
+"definition_en": "The work of creating separation regions along the boundary of a moving person or object in footage. It is used for background replacement or partial effects.",
+"example_ko": "머리카락 경계는 로토로 더 정리해 주세요.",
+"example_en": "Please clean up the hair boundary further with roto."
+},
+{
+"id": "design-142",
+"field": "design",
+"term_ko": "로토스코핑",
+"term_en": "Rotoscoping",
+"english": "Rotoscoping",
+"aliases_ko": [
+"로토",
+"로토 작업"
+],
+"definition_ko": "영상 속 움직이는 인물이나 사물의 경계를 따라 분리용 영역을 만드는 작업. 배경 교체나 부분 효과에 활용한다.",
+"definition_en": "The work of creating separation regions along the boundary of a moving person or object in footage. It is used for background replacement or partial effects.",
+"example_ko": "실사와 타이포를 겹치는 모션 작업에서 인물 경계를 로토로 분리해요.",
+"example_en": "In motion work overlaying live action and type, we separate the subject's boundary with roto."
+},
+{
+"id": "marketing-185",
+"field": "marketing",
+"term_ko": "연출",
+"term_en": "Directing",
+"english": "Directing",
+"aliases_ko": [
+"디렉팅",
+"영상 연출"
+],
+"definition_ko": "기획 의도를 화면과 소리로 구현하도록 장면 구성·연기·촬영 표현 등을 이끄는 작업.",
+"definition_en": "The work of leading scene composition, performance, and shooting expression to realize the planning intent in image and sound.",
+"example_ko": "같은 카피라도 담담한 연출로 분위기를 바꿔 봅시다.",
+"example_en": "Even with the same copy, let's change the mood with an understated directing approach."
+},
+{
+"id": "film-208",
+"field": "film",
+"term_ko": "연출",
+"term_en": "Directing",
+"english": "Directing",
+"aliases_ko": [
+"디렉팅",
+"영상 연출"
+],
+"definition_ko": "기획 의도를 화면과 소리로 구현하도록 장면 구성·연기·촬영 표현 등을 이끄는 작업.",
+"definition_en": "The work of leading scene composition, performance, and shooting expression to realize the planning intent in image and sound.",
+"example_ko": "같은 카피라도 담담한 연출로 분위기를 바꿔 봅시다.",
+"example_en": "Even with the same copy, let's change the mood with an understated directing approach."
+},
+{
+"id": "marketing-186",
+"field": "marketing",
+"term_ko": "감독",
+"term_en": "Director",
+"english": "Director",
+"aliases_ko": [
+"연출 감독",
+"디렉터"
+],
+"definition_ko": "작품이나 광고의 장면·연기·표현 방향을 결정하고 제작진을 이끄는 연출 책임자.",
+"definition_en": "The directing lead who decides a work's or ad's scene, performance, and expression direction and leads the production crew.",
+"example_ko": "감독님이 배우 동선과 카메라 위치를 같이 봐요.",
+"example_en": "The director reviews the actors' blocking and camera positions together with us."
+},
+{
+"id": "film-209",
+"field": "film",
+"term_ko": "감독",
+"term_en": "Director",
+"english": "Director",
+"aliases_ko": [
+"연출 감독",
+"디렉터"
+],
+"definition_ko": "작품이나 광고의 장면·연기·표현 방향을 결정하고 제작진을 이끄는 연출 책임자.",
+"definition_en": "The directing lead who decides a work's or ad's scene, performance, and expression direction and leads the production crew.",
+"example_ko": "감독님이 배우 동선과 카메라 위치를 같이 봐요.",
+"example_en": "The director reviews the actors' blocking and camera positions together with us."
+},
+{
+"id": "marketing-187",
+"field": "marketing",
+"term_ko": "조감독",
+"term_en": "Assistant director",
+"english": "Assistant director",
+"aliases_ko": [
+"조연출",
+"AD",
+"에이디"
+],
+"definition_ko": "감독을 보좌하며 촬영 준비·진행과 부서 간 전달을 조율하는 연출부 담당자.",
+"definition_en": "A directing-team member who assists the director and coordinates shoot prep, progress, and communication between departments.",
+"example_ko": "조감독이 다음 씬 준비 상황을 각 팀에 확인해요.",
+"example_en": "The assistant director checks the prep status for the next scene with each team.",
+"note_ko": "AD는 광고·디자인의 Art director와 같은 약자를 쓰지만 역할이 다릅니다.",
+"note_en": "AD uses the same abbreviation as Art Director in advertising and design, but the role is different."
+},
+{
+"id": "film-210",
+"field": "film",
+"term_ko": "조감독",
+"term_en": "Assistant director",
+"english": "Assistant director",
+"aliases_ko": [
+"조연출",
+"AD",
+"에이디"
+],
+"definition_ko": "감독을 보좌하며 촬영 준비·진행과 부서 간 전달을 조율하는 연출부 담당자.",
+"definition_en": "A directing-team member who assists the director and coordinates shoot prep, progress, and communication between departments.",
+"example_ko": "조감독이 다음 씬 준비 상황을 각 팀에 확인해요.",
+"example_en": "The assistant director checks the prep status for the next scene with each team.",
+"note_ko": "AD는 광고·디자인의 Art director와 같은 약자를 쓰지만 역할이 다릅니다.",
+"note_en": "AD uses the same abbreviation as Art Director in advertising and design, but the role is different."
+},
+{
+"id": "marketing-188",
+"field": "marketing",
+"term_ko": "연출부",
+"term_en": "Directing department",
+"english": "Directing department",
+"aliases_ko": [
+"연출팀"
+],
+"definition_ko": "감독의 연출을 실현하기 위해 촬영 준비와 현장 진행, 출연자 동선 등을 지원하는 팀.",
+"definition_en": "A team that supports shoot prep, on-site progress, and performers' blocking to realize the director's vision.",
+"example_ko": "연출부에서 다음 출연자 대기 위치를 안내해요.",
+"example_en": "The directing department guides the next performers' standby positions."
+},
+{
+"id": "film-211",
+"field": "film",
+"term_ko": "연출부",
+"term_en": "Directing department",
+"english": "Directing department",
+"aliases_ko": [
+"연출팀"
+],
+"definition_ko": "감독의 연출을 실현하기 위해 촬영 준비와 현장 진행, 출연자 동선 등을 지원하는 팀.",
+"definition_en": "A team that supports shoot prep, on-site progress, and performers' blocking to realize the director's vision.",
+"example_ko": "연출부에서 다음 출연자 대기 위치를 안내해요.",
+"example_en": "The directing department guides the next performers' standby positions."
+},
+{
+"id": "marketing-189",
+"field": "marketing",
+"term_ko": "제작부",
+"term_en": "Production department",
+"english": "Production department",
+"aliases_ko": [
+"제작팀"
+],
+"definition_ko": "촬영의 장소·인력·차량·식사·예산 등 운영 조건을 마련하고 현장 진행을 지원하는 팀.",
+"definition_en": "A team that arranges operating conditions such as the location, staffing, vehicles, meals, and budget for a shoot and supports on-site progress.",
+"example_ko": "제작부에 장비차 주차 공간을 확인해 주세요.",
+"example_en": "Please check the parking space for the equipment truck with the production department."
+},
+{
+"id": "film-212",
+"field": "film",
+"term_ko": "제작부",
+"term_en": "Production department",
+"english": "Production department",
+"aliases_ko": [
+"제작팀"
+],
+"definition_ko": "촬영의 장소·인력·차량·식사·예산 등 운영 조건을 마련하고 현장 진행을 지원하는 팀.",
+"definition_en": "A team that arranges operating conditions such as the location, staffing, vehicles, meals, and budget for a shoot and supports on-site progress.",
+"example_ko": "제작부에 장비차 주차 공간을 확인해 주세요.",
+"example_en": "Please check the parking space for the equipment truck with the production department."
+},
+{
+"id": "marketing-190",
+"field": "marketing",
+"term_ko": "촬영팀",
+"term_en": "Camera team",
+"english": "Camera department",
+"aliases_ko": [
+"카메라팀",
+"촬영부"
+],
+"definition_ko": "카메라와 렌즈 등 촬영 장비를 운영하고 구도·초점·노출 등 영상 기록을 맡는 팀.",
+"definition_en": "A team that operates shooting gear such as cameras and lenses and handles the video recording, including composition, focus, and exposure.",
+"example_ko": "촬영팀은 다음 렌즈와 카메라 세팅을 준비해요.",
+"example_en": "The camera team prepares the next lens and camera setup."
+},
+{
+"id": "film-213",
+"field": "film",
+"term_ko": "촬영팀",
+"term_en": "Camera team",
+"english": "Camera department",
+"aliases_ko": [
+"카메라팀",
+"촬영부"
+],
+"definition_ko": "카메라와 렌즈 등 촬영 장비를 운영하고 구도·초점·노출 등 영상 기록을 맡는 팀.",
+"definition_en": "A team that operates shooting gear such as cameras and lenses and handles the video recording, including composition, focus, and exposure.",
+"example_ko": "촬영팀은 다음 렌즈와 카메라 세팅을 준비해요.",
+"example_en": "The camera team prepares the next lens and camera setup."
+},
+{
+"id": "marketing-191",
+"field": "marketing",
+"term_ko": "조명",
+"term_en": "Lighting",
+"english": "Lighting",
+"aliases_ko": [
+"라이팅",
+"조명 작업"
+],
+"definition_ko": "빛의 방향·세기·색·질감을 조절해 인물과 공간의 모양과 분위기를 만드는 작업.",
+"definition_en": "The work of controlling the direction, intensity, color, and texture of light to shape the form and mood of people and spaces.",
+"example_ko": "조명을 조금 부드럽게 해서 얼굴 그림자를 줄여 주세요.",
+"example_en": "Please soften the lighting a bit to reduce the shadows on the face."
+},
+{
+"id": "film-214",
+"field": "film",
+"term_ko": "조명",
+"term_en": "Lighting",
+"english": "Lighting",
+"aliases_ko": [
+"라이팅",
+"조명 작업"
+],
+"definition_ko": "빛의 방향·세기·색·질감을 조절해 인물과 공간의 모양과 분위기를 만드는 작업.",
+"definition_en": "The work of controlling the direction, intensity, color, and texture of light to shape the form and mood of people and spaces.",
+"example_ko": "조명을 조금 부드럽게 해서 얼굴 그림자를 줄여 주세요.",
+"example_en": "Please soften the lighting a bit to reduce the shadows on the face."
+},
+{
+"id": "marketing-192",
+"field": "marketing",
+"term_ko": "조명감독",
+"term_en": "Lighting director",
+"english": "Gaffer",
+"aliases_ko": [
+"조명 감독",
+"개퍼"
+],
+"definition_ko": "촬영·연출 의도에 맞춰 조명 설계와 설치·운용을 이끄는 책임자.",
+"definition_en": "The lead who directs lighting design, setup, and operation to match the shooting and directing intent.",
+"example_ko": "조명감독과 창밖 빛의 방향을 먼저 맞춰요.",
+"example_en": "We first align the direction of the window light with the lighting director."
+},
+{
+"id": "film-215",
+"field": "film",
+"term_ko": "조명감독",
+"term_en": "Lighting director",
+"english": "Gaffer",
+"aliases_ko": [
+"조명 감독",
+"개퍼"
+],
+"definition_ko": "촬영·연출 의도에 맞춰 조명 설계와 설치·운용을 이끄는 책임자.",
+"definition_en": "The lead who directs lighting design, setup, and operation to match the shooting and directing intent.",
+"example_ko": "조명감독과 창밖 빛의 방향을 먼저 맞춰요.",
+"example_en": "We first align the direction of the window light with the lighting director."
+},
+{
+"id": "marketing-193",
+"field": "marketing",
+"term_ko": "조명팀",
+"term_en": "Lighting team",
+"english": "Lighting department",
+"aliases_ko": [
+"조명부"
+],
+"definition_ko": "조명기·확산재·전원 등을 준비하고 빛을 조절하는 촬영 스태프 조직.",
+"definition_en": "A shooting-crew unit that prepares lights, diffusers, and power and controls the light.",
+"example_ko": "조명팀에서 역광 세팅을 마치면 리허설할게요.",
+"example_en": "Once the lighting team finishes the backlight setup, we'll rehearse."
+},
+{
+"id": "film-216",
+"field": "film",
+"term_ko": "조명팀",
+"term_en": "Lighting team",
+"english": "Lighting department",
+"aliases_ko": [
+"조명부"
+],
+"definition_ko": "조명기·확산재·전원 등을 준비하고 빛을 조절하는 촬영 스태프 조직.",
+"definition_en": "A shooting-crew unit that prepares lights, diffusers, and power and controls the light.",
+"example_ko": "조명팀에서 역광 세팅을 마치면 리허설할게요.",
+"example_en": "Once the lighting team finishes the backlight setup, we'll rehearse."
+},
+{
+"id": "marketing-194",
+"field": "marketing",
+"term_ko": "미술감독",
+"term_en": "Production designer",
+"english": "Production designer",
+"aliases_ko": [
+"프로덕션 디자이너",
+"미술 감독"
+],
+"definition_ko": "세트·공간·소품·색 등 화면 속 미술의 방향을 설계하고 조율하는 책임자.",
+"definition_en": "The lead who designs and coordinates the direction of the on-screen art, such as sets, spaces, props, and color.",
+"example_ko": "미술감독이 공간 색과 소품 재질을 제안했어요.",
+"example_en": "The production designer proposed the space colors and prop materials."
+},
+{
+"id": "film-217",
+"field": "film",
+"term_ko": "미술감독",
+"term_en": "Production designer",
+"english": "Production designer",
+"aliases_ko": [
+"프로덕션 디자이너",
+"미술 감독"
+],
+"definition_ko": "세트·공간·소품·색 등 화면 속 미술의 방향을 설계하고 조율하는 책임자.",
+"definition_en": "The lead who designs and coordinates the direction of the on-screen art, such as sets, spaces, props, and color.",
+"example_ko": "미술감독이 공간 색과 소품 재질을 제안했어요.",
+"example_en": "The production designer proposed the space colors and prop materials."
+},
+{
+"id": "marketing-195",
+"field": "marketing",
+"term_ko": "미술팀",
+"term_en": "Art team",
+"english": "Art department",
+"aliases_ko": [
+"미술부"
+],
+"definition_ko": "세트와 소품 등 화면에 보일 공간 요소를 준비하고 관리하는 팀.",
+"definition_en": "A team that prepares and manages the spatial elements that appear on screen, such as sets and props.",
+"example_ko": "미술팀에서 테이블 소품을 다음 컷에 맞춰 바꿔요.",
+"example_en": "The art team swaps the table props to match the next shot."
+},
+{
+"id": "film-218",
+"field": "film",
+"term_ko": "미술팀",
+"term_en": "Art team",
+"english": "Art department",
+"aliases_ko": [
+"미술부"
+],
+"definition_ko": "세트와 소품 등 화면에 보일 공간 요소를 준비하고 관리하는 팀.",
+"definition_en": "A team that prepares and manages the spatial elements that appear on screen, such as sets and props.",
+"example_ko": "미술팀에서 테이블 소품을 다음 컷에 맞춰 바꿔요.",
+"example_en": "The art team swaps the table props to match the next shot."
+},
+{
+"id": "marketing-196",
+"field": "marketing",
+"term_ko": "소품",
+"term_en": "Prop",
+"english": "Prop",
+"aliases_ko": [
+"프롭",
+"소도구"
+],
+"definition_ko": "장면에 놓이거나 출연자가 사용하는 물건.",
+"definition_en": "An object placed in a scene or used by a performer.",
+"example_ko": "제품 옆 소품은 반사되는 재질을 피해 주세요.",
+"example_en": "Please avoid reflective materials for the props next to the product."
+},
+{
+"id": "film-219",
+"field": "film",
+"term_ko": "소품",
+"term_en": "Prop",
+"english": "Prop",
+"aliases_ko": [
+"프롭",
+"소도구"
+],
+"definition_ko": "장면에 놓이거나 출연자가 사용하는 물건.",
+"definition_en": "An object placed in a scene or used by a performer.",
+"example_ko": "제품 옆 소품은 반사되는 재질을 피해 주세요.",
+"example_en": "Please avoid reflective materials for the props next to the product."
+},
+{
+"id": "marketing-197",
+"field": "marketing",
+"term_ko": "로케이션 매니저",
+"term_en": "Location manager",
+"english": "Location manager",
+"aliases_ko": [
+"로케 매니저",
+"로케이션팀"
+],
+"definition_ko": "촬영 장소를 찾고 사용 조건·허가·현장 협의를 관리하는 담당자.",
+"definition_en": "A person who finds shooting locations and manages usage conditions, permits, and on-site coordination.",
+"example_ko": "로케이션 매니저에게 촬영 가능 시간을 확인해요.",
+"example_en": "We check the available shooting hours with the location manager."
+},
+{
+"id": "film-220",
+"field": "film",
+"term_ko": "로케이션 매니저",
+"term_en": "Location manager",
+"english": "Location manager",
+"aliases_ko": [
+"로케 매니저",
+"로케이션팀"
+],
+"definition_ko": "촬영 장소를 찾고 사용 조건·허가·현장 협의를 관리하는 담당자.",
+"definition_en": "A person who finds shooting locations and manages usage conditions, permits, and on-site coordination.",
+"example_ko": "로케이션 매니저에게 촬영 가능 시간을 확인해요.",
+"example_en": "We check the available shooting hours with the location manager."
+},
+{
+"id": "marketing-198",
+"field": "marketing",
+"term_ko": "동시녹음",
+"term_en": "Sync sound recording",
+"english": "Location sound recording",
+"aliases_ko": [
+"현장 녹음",
+"동녹"
+],
+"definition_ko": "영상 촬영과 동시에 대사와 현장 소리를 녹음하는 작업.",
+"definition_en": "The work of recording dialogue and on-site sound simultaneously with the video shoot.",
+"example_ko": "동시녹음을 위해 에어컨 소리를 잠깐 확인할게요.",
+"example_en": "For the sync sound, let me quickly check the air-conditioner noise."
+},
+{
+"id": "film-221",
+"field": "film",
+"term_ko": "동시녹음",
+"term_en": "Sync sound recording",
+"english": "Location sound recording",
+"aliases_ko": [
+"현장 녹음",
+"동녹",
+"동시 녹음"
+],
+"definition_ko": "영상 촬영과 동시에 대사와 현장 소리를 녹음하는 작업.",
+"definition_en": "The work of recording dialogue and on-site sound simultaneously with the video shoot.",
+"example_ko": "동시녹음을 위해 에어컨 소리를 잠깐 확인할게요.",
+"example_en": "For the sync sound, let me quickly check the air-conditioner noise."
+},
+{
+"id": "marketing-199",
+"field": "marketing",
+"term_ko": "붐 오퍼레이터",
+"term_en": "Boom operator",
+"english": "Boom operator",
+"aliases_ko": [
+"붐맨",
+"붐 오퍼"
+],
+"definition_ko": "붐 폴에 단 마이크를 화면에 들어가지 않게 움직이며 대사 수음을 돕는 스태프.",
+"definition_en": "A crew member who moves a mic mounted on a boom pole without letting it enter the frame, helping capture dialogue.",
+"example_ko": "붐 오퍼레이터가 배우 동선을 따라 마이크를 이동해요.",
+"example_en": "The boom operator moves the mic following the actor's blocking."
+},
+{
+"id": "film-222",
+"field": "film",
+"term_ko": "붐 오퍼레이터",
+"term_en": "Boom operator",
+"english": "Boom operator",
+"aliases_ko": [
+"붐맨",
+"붐 오퍼"
+],
+"definition_ko": "붐 폴에 단 마이크를 화면에 들어가지 않게 움직이며 대사 수음을 돕는 스태프.",
+"definition_en": "A crew member who moves a mic mounted on a boom pole without letting it enter the frame, helping capture dialogue.",
+"example_ko": "붐 오퍼레이터가 배우 동선을 따라 마이크를 이동해요.",
+"example_en": "The boom operator moves the mic following the actor's blocking."
+},
+{
+"id": "marketing-200",
+"field": "marketing",
+"term_ko": "촬영",
+"term_en": "Shooting",
+"english": "Shooting",
+"aliases_ko": [
+"슈팅",
+"촬영 작업"
+],
+"definition_ko": "카메라로 기획한 장면·인물·제품을 사진이나 영상으로 기록하는 작업.",
+"definition_en": "The work of recording planned scenes, people, and products as photos or video with a camera.",
+"example_ko": "촬영 전에 제품 상태와 필요한 컷을 확인해요.",
+"example_en": "Before shooting, we check the product condition and the shots we need."
+},
+{
+"id": "film-223",
+"field": "film",
+"term_ko": "촬영",
+"term_en": "Shooting",
+"english": "Shooting",
+"aliases_ko": [
+"슈팅",
+"촬영 작업"
+],
+"definition_ko": "카메라로 기획한 장면·인물·제품을 사진이나 영상으로 기록하는 작업.",
+"definition_en": "The work of recording planned scenes, people, and products as photos or video with a camera.",
+"example_ko": "촬영 전에 제품 상태와 필요한 컷을 확인해요.",
+"example_en": "Before shooting, we check the product condition and the shots we need."
+},
+{
+"id": "fashion-221",
+"field": "fashion",
+"term_ko": "촬영",
+"term_en": "Shooting",
+"english": "Shooting",
+"aliases_ko": [
+"슈팅",
+"촬영 작업"
+],
+"definition_ko": "카메라로 기획한 장면·인물·제품을 사진이나 영상으로 기록하는 작업.",
+"definition_en": "The work of recording planned scenes, people, and products as photos or video with a camera.",
+"example_ko": "상품 촬영 전에 옷을 스팀하고 앞·뒤·디테일 컷 목록을 확인해요.",
+"example_en": "Before the product shoot, we steam the garments and check the list of front, back, and detail shots."
+},
+{
+"id": "marketing-201",
+"field": "marketing",
+"term_ko": "로케이션",
+"term_en": "Location",
+"english": "Location",
+"aliases_ko": [
+"로케",
+"촬영 장소"
+],
+"definition_ko": "촬영에 사용하는 장소. 스튜디오 밖 실제 공간을 가리켜 말하기도 한다.",
+"definition_en": "A place used for shooting. It is also used to refer to an actual space outside the studio.",
+"example_ko": "비가 오면 대체할 실내 로케이션도 잡아 둬요.",
+"example_en": "If it rains, we also secure an indoor location as a backup."
+},
+{
+"id": "film-224",
+"field": "film",
+"term_ko": "로케이션",
+"term_en": "Location",
+"english": "Location",
+"aliases_ko": [
+"로케",
+"촬영 장소"
+],
+"definition_ko": "촬영에 사용하는 장소. 스튜디오 밖 실제 공간을 가리켜 말하기도 한다.",
+"definition_en": "A place used for shooting. It is also used to refer to an actual space outside the studio.",
+"example_ko": "비가 오면 대체할 실내 로케이션도 잡아 둬요.",
+"example_en": "If it rains, we also secure an indoor location as a backup."
+},
+{
+"id": "fashion-222",
+"field": "fashion",
+"term_ko": "로케이션",
+"term_en": "Location",
+"english": "Location",
+"aliases_ko": [
+"로케",
+"촬영 장소"
+],
+"definition_ko": "촬영에 사용하는 장소. 스튜디오 밖 실제 공간을 가리켜 말하기도 한다.",
+"definition_en": "A place used for shooting. It is also used to refer to an actual space outside the studio.",
+"example_ko": "여름 리조트웨어 룩북에 맞는 로케이션을 골라요.",
+"example_en": "We pick a location that suits the summer resort-wear lookbook."
+},
+{
+"id": "marketing-202",
+"field": "marketing",
+"term_ko": "헌팅",
+"term_en": "Location scouting",
+"english": "Location scouting",
+"aliases_ko": [
+"로케 헌팅",
+"답사"
+],
+"definition_ko": "촬영 후보 장소에 가서 빛·공간·소음·전력·이동 여건을 확인하는 작업.",
+"definition_en": "The work of visiting candidate shooting locations to check light, space, noise, power, and access conditions.",
+"example_ko": "오후 빛을 보려고 같은 시간에 헌팅을 가요.",
+"example_en": "We go scouting at the same time of day to see the afternoon light."
+},
+{
+"id": "film-225",
+"field": "film",
+"term_ko": "헌팅",
+"term_en": "Location scouting",
+"english": "Location scouting",
+"aliases_ko": [
+"로케 헌팅",
+"답사"
+],
+"definition_ko": "촬영 후보 장소에 가서 빛·공간·소음·전력·이동 여건을 확인하는 작업.",
+"definition_en": "The work of visiting candidate shooting locations to check light, space, noise, power, and access conditions.",
+"example_ko": "오후 빛을 보려고 같은 시간에 헌팅을 가요.",
+"example_en": "We go scouting at the same time of day to see the afternoon light."
+},
+{
+"id": "fashion-223",
+"field": "fashion",
+"term_ko": "헌팅",
+"term_en": "Location scouting",
+"english": "Location scouting",
+"aliases_ko": [
+"로케 헌팅",
+"답사"
+],
+"definition_ko": "촬영 후보 장소에 가서 빛·공간·소음·전력·이동 여건을 확인하는 작업.",
+"definition_en": "The work of visiting candidate shooting locations to check light, space, noise, power, and access conditions.",
+"example_ko": "룩북 로케이션 헌팅에서 탈의 공간과 옷 보관 위치를 확인해요.",
+"example_en": "At the lookbook location scouting, we check the changing space and where to store the clothes."
+},
+{
+"id": "marketing-203",
+"field": "marketing",
+"term_ko": "캐스팅",
+"term_en": "Casting",
+"english": "Casting",
+"aliases_ko": [
+"출연자 섭외",
+"모델 캐스팅"
+],
+"definition_ko": "기획과 역할에 맞는 배우·모델·출연자를 선정하고 참여를 조율하는 일.",
+"definition_en": "The work of selecting actors, models, and performers that fit the plan and roles, and coordinating their participation.",
+"example_ko": "브랜드 이미지에 맞춰 모델 캐스팅 후보를 좁혀요.",
+"example_en": "We narrow down the model casting candidates to match the brand image."
+},
+{
+"id": "film-226",
+"field": "film",
+"term_ko": "캐스팅",
+"term_en": "Casting",
+"english": "Casting",
+"aliases_ko": [
+"출연자 섭외",
+"모델 캐스팅"
+],
+"definition_ko": "기획과 역할에 맞는 배우·모델·출연자를 선정하고 참여를 조율하는 일.",
+"definition_en": "The work of selecting actors, models, and performers that fit the plan and roles, and coordinating their participation.",
+"example_ko": "브랜드 이미지에 맞춰 모델 캐스팅 후보를 좁혀요.",
+"example_en": "We narrow down the model casting candidates to match the brand image."
+},
+{
+"id": "fashion-224",
+"field": "fashion",
+"term_ko": "캐스팅",
+"term_en": "Casting",
+"english": "Casting",
+"aliases_ko": [
+"출연자 섭외",
+"모델 캐스팅"
+],
+"definition_ko": "기획과 역할에 맞는 배우·모델·출연자를 선정하고 참여를 조율하는 일.",
+"definition_en": "The work of selecting actors, models, and performers that fit the plan and roles, and coordinating their participation.",
+"example_ko": "착장 샘플 사이즈와 브랜드 이미지에 맞춰 모델 캐스팅을 진행해요.",
+"example_en": "We proceed with model casting to match the sample sizes and the brand image."
+},
+{
+"id": "marketing-204",
+"field": "marketing",
+"term_ko": "리허설",
+"term_en": "Rehearsal",
+"english": "Rehearsal",
+"aliases_ko": [
+"리허설 촬영",
+"드라이 리허설"
+],
+"definition_ko": "본 촬영 전에 연기·동선·진행을 맞춰 보는 연습.",
+"definition_en": "A run-through before the main shoot to align performance, blocking, and progress.",
+"example_ko": "리허설에서 제품을 드는 타이밍부터 맞춰요.",
+"example_en": "In the rehearsal, we start by aligning the timing of picking up the product."
+},
+{
+"id": "film-227",
+"field": "film",
+"term_ko": "리허설",
+"term_en": "Rehearsal",
+"english": "Rehearsal",
+"aliases_ko": [
+"리허설 촬영",
+"드라이 리허설"
+],
+"definition_ko": "본 촬영 전에 연기·동선·진행을 맞춰 보는 연습.",
+"definition_en": "A run-through before the main shoot to align performance, blocking, and progress.",
+"example_ko": "리허설에서 제품을 드는 타이밍부터 맞춰요.",
+"example_en": "In the rehearsal, we start by aligning the timing of picking up the product."
+},
+{
+"id": "fashion-225",
+"field": "fashion",
+"term_ko": "리허설",
+"term_en": "Rehearsal",
+"english": "Rehearsal",
+"aliases_ko": [
+"리허설 촬영",
+"드라이 리허설"
+],
+"definition_ko": "본 촬영 전에 연기·동선·진행을 맞춰 보는 연습.",
+"definition_en": "A run-through before the main shoot to align performance, blocking, and progress.",
+"example_ko": "룩북 영상 리허설에서 걸을 때 옷이 자연스럽게 흐르는지 봐요.",
+"example_en": "In the lookbook video rehearsal, we see whether the clothes flow naturally when walking."
+},
+{
+"id": "marketing-205",
+"field": "marketing",
+"term_ko": "세트",
+"term_en": "Set",
+"english": "Set",
+"aliases_ko": [
+"촬영 세트",
+"세트장"
+],
+"definition_ko": "촬영 목적에 맞춰 만든 공간이나 무대.",
+"definition_en": "A space or stage built to suit the shooting purpose.",
+"example_ko": "벽 색을 바꾸려면 세트 제작 일정도 확인해야 해요.",
+"example_en": "To change the wall color, we also need to check the set-build schedule."
+},
+{
+"id": "film-228",
+"field": "film",
+"term_ko": "세트",
+"term_en": "Set",
+"english": "Set",
+"aliases_ko": [
+"촬영 세트",
+"세트장"
+],
+"definition_ko": "촬영 목적에 맞춰 만든 공간이나 무대.",
+"definition_en": "A space or stage built to suit the shooting purpose.",
+"example_ko": "벽 색을 바꾸려면 세트 제작 일정도 확인해야 해요.",
+"example_en": "To change the wall color, we also need to check the set-build schedule."
+},
+{
+"id": "fashion-226",
+"field": "fashion",
+"term_ko": "세트",
+"term_en": "Set",
+"english": "Set",
+"aliases_ko": [
+"촬영 세트",
+"세트장"
+],
+"definition_ko": "촬영 목적에 맞춰 만든 공간이나 무대.",
+"definition_en": "A space or stage built to suit the shooting purpose.",
+"example_ko": "밝은 의상이 배경에 묻히지 않도록 촬영 세트 색을 정해요.",
+"example_en": "We decide the shooting set color so that bright clothing doesn't blend into the background."
+},
+{
+"id": "marketing-206",
+"field": "marketing",
+"term_ko": "스타일리스트",
+"term_en": "Stylist",
+"english": "Stylist",
+"aliases_ko": [
+"스타일링 담당"
+],
+"definition_ko": "기획에 맞춰 의상·액세서리와 착장 조합을 구성하는 담당자.",
+"definition_en": "A person who composes wardrobe, accessories, and outfit combinations to match the plan.",
+"example_ko": "스타일리스트에게 배경색과 겹치지 않는 착장을 요청해요.",
+"example_en": "We ask the stylist for outfits that don't overlap with the background color."
+},
+{
+"id": "film-229",
+"field": "film",
+"term_ko": "스타일리스트",
+"term_en": "Stylist",
+"english": "Stylist",
+"aliases_ko": [
+"스타일링 담당"
+],
+"definition_ko": "기획에 맞춰 의상·액세서리와 착장 조합을 구성하는 담당자.",
+"definition_en": "A person who composes wardrobe, accessories, and outfit combinations to match the plan.",
+"example_ko": "스타일리스트에게 배경색과 겹치지 않는 착장을 요청해요.",
+"example_en": "We ask the stylist for outfits that don't overlap with the background color."
+},
+{
+"id": "fashion-227",
+"field": "fashion",
+"term_ko": "스타일리스트",
+"term_en": "Stylist",
+"english": "Stylist",
+"aliases_ko": [
+"스타일링 담당"
+],
+"definition_ko": "기획에 맞춰 의상·액세서리와 착장 조합을 구성하는 담당자.",
+"definition_en": "A person who composes wardrobe, accessories, and outfit combinations to match the plan.",
+"example_ko": "스타일리스트와 신발·가방까지 포함한 전체 착장을 맞춰요.",
+"example_en": "We align the full outfit, including shoes and bags, with the stylist."
+},
+{
+"id": "marketing-207",
+"field": "marketing",
+"term_ko": "메이킹",
+"term_en": "Making-of",
+"english": "Behind-the-scenes",
+"aliases_ko": [
+"메이킹 영상",
+"비하인드",
+"BTS"
+],
+"definition_ko": "제작 과정과 현장 모습을 기록한 사진이나 영상.",
+"definition_en": "Photos or video recording the production process and on-site scenes.",
+"example_ko": "본편 촬영을 방해하지 않게 메이킹 동선을 잡아요.",
+"example_en": "We plan the making-of path so it doesn't interfere with the main shoot."
+},
+{
+"id": "film-230",
+"field": "film",
+"term_ko": "메이킹",
+"term_en": "Making-of",
+"english": "Behind-the-scenes",
+"aliases_ko": [
+"메이킹 영상",
+"비하인드",
+"BTS"
+],
+"definition_ko": "제작 과정과 현장 모습을 기록한 사진이나 영상.",
+"definition_en": "Photos or video recording the production process and on-site scenes.",
+"example_ko": "본편 촬영을 방해하지 않게 메이킹 동선을 잡아요.",
+"example_en": "We plan the making-of path so it doesn't interfere with the main shoot."
+},
+{
+"id": "fashion-228",
+"field": "fashion",
+"term_ko": "메이킹",
+"term_en": "Making-of",
+"english": "Behind-the-scenes",
+"aliases_ko": [
+"메이킹 영상",
+"비하인드",
+"BTS"
+],
+"definition_ko": "제작 과정과 현장 모습을 기록한 사진이나 영상.",
+"definition_en": "Photos or video recording the production process and on-site scenes.",
+"example_ko": "룩북 메이킹에 피팅과 착장 준비 과정을 담아요.",
+"example_en": "We capture the fitting and outfit-prep process in the lookbook making-of."
+},
+{
+"id": "marketing-208",
+"field": "marketing",
+"term_ko": "스틸",
+"term_en": "Still",
+"english": "Still photography",
+"aliases_ko": [
+"스틸컷",
+"스틸 사진"
+],
+"definition_ko": "영상과 구분되는 정지 사진. 현장에서는 홍보용이나 기록용 사진을 가리킨다.",
+"definition_en": "A still photo, as distinct from video. On set, it refers to promotional or documentary photos.",
+"example_ko": "영상과 별도로 포스터용 스틸도 촬영해요.",
+"example_en": "Separately from the video, we also shoot stills for the poster."
+},
+{
+"id": "film-231",
+"field": "film",
+"term_ko": "스틸",
+"term_en": "Still",
+"english": "Still photography",
+"aliases_ko": [
+"스틸컷",
+"스틸 사진"
+],
+"definition_ko": "영상과 구분되는 정지 사진. 현장에서는 홍보용이나 기록용 사진을 가리킨다.",
+"definition_en": "A still photo, as distinct from video. On set, it refers to promotional or documentary photos.",
+"example_ko": "영상과 별도로 포스터용 스틸도 촬영해요.",
+"example_en": "Separately from the video, we also shoot stills for the poster."
+},
+{
+"id": "fashion-229",
+"field": "fashion",
+"term_ko": "스틸",
+"term_en": "Still",
+"english": "Still photography",
+"aliases_ko": [
+"스틸컷",
+"스틸 사진"
+],
+"definition_ko": "영상과 구분되는 정지 사진. 현장에서는 홍보용이나 기록용 사진을 가리킨다.",
+"definition_en": "A still photo, as distinct from video. On set, it refers to promotional or documentary photos.",
+"example_ko": "컬렉션 영상과 함께 온라인 룩북에 쓸 스틸도 촬영해요.",
+"example_en": "Along with the collection video, we also shoot stills for the online lookbook."
+},
+{
+"id": "marketing-209",
+"field": "marketing",
+"term_ko": "제품 컷",
+"term_en": "Product shot",
+"english": "Product shot",
+"aliases_ko": [
+"제품컷",
+"팩샷",
+"패키지 샷"
+],
+"definition_ko": "제품의 형태·특징·패키지가 잘 보이도록 찍거나 만든 이미지 또는 영상 컷.",
+"definition_en": "An image or video shot or created so the product's form, features, and packaging are clearly visible.",
+"example_ko": "엔딩 제품 컷에서 상표가 잘 보이는지 확인해요.",
+"example_en": "In the ending product shot, we check that the logo is clearly visible."
+},
+{
+"id": "film-232",
+"field": "film",
+"term_ko": "제품 컷",
+"term_en": "Product shot",
+"english": "Product shot",
+"aliases_ko": [
+"제품컷",
+"팩샷",
+"패키지 샷",
+"팩숏",
+"팩쇼트",
+"패키지 숏",
+"패키지 쇼트"
+],
+"definition_ko": "제품의 형태·특징·패키지가 잘 보이도록 찍거나 만든 이미지 또는 영상 컷.",
+"definition_en": "An image or video shot or created so the product's form, features, and packaging are clearly visible.",
+"example_ko": "엔딩 제품 컷에서 상표가 잘 보이는지 확인해요.",
+"example_en": "In the ending product shot, we check that the logo is clearly visible."
+},
+{
+"id": "fashion-230",
+"field": "fashion",
+"term_ko": "제품 컷",
+"term_en": "Product shot",
+"english": "Product shot",
+"aliases_ko": [
+"제품컷",
+"팩샷",
+"패키지 샷"
+],
+"definition_ko": "제품의 형태·특징·패키지가 잘 보이도록 찍거나 만든 이미지 또는 영상 컷.",
+"definition_en": "An image or video shot or created so the product's form, features, and packaging are clearly visible.",
+"example_ko": "재킷 제품 컷에 앞면·뒷면·안감·단추 디테일을 포함해요.",
+"example_en": "In the jacket product shots, we include the front, back, lining, and button details."
+},
+{
+"id": "marketing-210",
+"field": "marketing",
+"term_ko": "듀레이션",
+"term_en": "Duration",
+"english": "Duration",
+"aliases_ko": [
+"듀레이숀",
+"러닝타임",
+"러닝 타임",
+"영상 길이"
+],
+"definition_ko": "영상이나 장면·효과가 지속되는 시간.",
+"definition_en": "The length of time a video, scene, or effect lasts.",
+"example_ko": "이 컷 듀레이션을 반 초만 늘려 주세요.",
+"example_en": "Please extend this shot's duration by just half a second."
+},
+{
+"id": "film-233",
+"field": "film",
+"term_ko": "듀레이션",
+"term_en": "Duration",
+"english": "Duration",
+"aliases_ko": [
+"듀레이숀",
+"러닝타임",
+"러닝 타임",
+"영상 길이",
+"런닝타임",
+"RT",
+"전체 재생시간"
+],
+"definition_ko": "영상이나 장면·효과가 지속되는 시간.",
+"definition_en": "The length of time a video, scene, or effect lasts.",
+"example_ko": "이 컷 듀레이션을 반 초만 늘려 주세요.",
+"example_en": "Please extend this shot's duration by just half a second."
+},
+{
+"id": "design-143",
+"field": "design",
+"term_ko": "듀레이션",
+"term_en": "Duration",
+"english": "Duration",
+"aliases_ko": [
+"듀레이숀",
+"러닝타임",
+"러닝 타임",
+"영상 길이"
+],
+"definition_ko": "영상이나 장면·효과가 지속되는 시간.",
+"definition_en": "The length of time a video, scene, or effect lasts.",
+"example_ko": "버튼 전환 모션의 듀레이션을 조정해 반응이 느려 보이지 않게 해요.",
+"example_en": "We adjust the duration of the button-transition motion so the response doesn't feel slow."
+},
+{
+"id": "marketing-211",
+"field": "marketing",
+"term_ko": "컷다운",
+"term_en": "Cutdown",
+"english": "Cutdown",
+"aliases_ko": [
+"컷 다운",
+"축약본"
+],
+"definition_ko": "긴 원본 광고나 영상을 줄여 더 짧은 길이로 재구성한 버전.",
+"definition_en": "A version that shortens a long original ad or video into a shorter length.",
+"example_ko": "30초 본편으로 15초 컷다운을 만들어요.",
+"example_en": "We make a 15-second cutdown from the 30-second main version."
+},
+{
+"id": "film-234",
+"field": "film",
+"term_ko": "컷다운",
+"term_en": "Cutdown",
+"english": "Cutdown",
+"aliases_ko": [
+"컷 다운",
+"축약본"
+],
+"definition_ko": "긴 원본 광고나 영상을 줄여 더 짧은 길이로 재구성한 버전.",
+"definition_en": "A version that shortens a long original ad or video into a shorter length.",
+"example_ko": "30초 본편으로 15초 컷다운을 만들어요.",
+"example_en": "We make a 15-second cutdown from the 30-second main version."
+},
+{
+"id": "design-144",
+"field": "design",
+"term_ko": "컷다운",
+"term_en": "Cutdown",
+"english": "Cutdown",
+"aliases_ko": [
+"컷 다운",
+"축약본"
+],
+"definition_ko": "긴 원본 광고나 영상을 줄여 더 짧은 길이로 재구성한 버전.",
+"definition_en": "A version that shortens a long original ad or video into a shorter length.",
+"example_ko": "30초 브랜드 모션을 6초 매체용 컷다운으로 재구성해요.",
+"example_en": "We recut the 30-second brand motion into a 6-second cutdown for media."
+},
+{
+"id": "marketing-212",
+"field": "marketing",
+"term_ko": "리사이징",
+"term_en": "Resizing",
+"english": "Resizing",
+"aliases_ko": [
+"리사이즈",
+"사이즈 변환"
+],
+"definition_ko": "이미지나 영상의 크기 또는 화면비를 게재 규격에 맞춰 바꾸는 작업.",
+"definition_en": "The work of changing the size or aspect ratio of an image or video to fit the placement spec.",
+"example_ko": "가로 영상을 세로로 리사이징하면서 자막 위치도 조정해요.",
+"example_en": "While resizing a horizontal video to vertical, we also adjust the subtitle position."
+},
+{
+"id": "film-235",
+"field": "film",
+"term_ko": "리사이징",
+"term_en": "Resizing",
+"english": "Resizing",
+"aliases_ko": [
+"리사이즈",
+"사이즈 변환"
+],
+"definition_ko": "이미지나 영상의 크기 또는 화면비를 게재 규격에 맞춰 바꾸는 작업.",
+"definition_en": "The work of changing the size or aspect ratio of an image or video to fit the placement spec.",
+"example_ko": "가로 영상을 세로로 리사이징하면서 자막 위치도 조정해요.",
+"example_en": "While resizing a horizontal video to vertical, we also adjust the subtitle position."
+},
+{
+"id": "design-145",
+"field": "design",
+"term_ko": "리사이징",
+"term_en": "Resizing",
+"english": "Resizing",
+"aliases_ko": [
+"리사이즈",
+"사이즈 변환"
+],
+"definition_ko": "이미지나 영상의 크기 또는 화면비를 게재 규격에 맞춰 바꾸는 작업.",
+"definition_en": "The work of changing the size or aspect ratio of an image or video to fit the placement spec.",
+"example_ko": "포스터를 배너로 리사이징하면서 제목의 크기와 배치를 다시 맞춰요.",
+"example_en": "While resizing a poster into a banner, we re-fit the title's size and placement."
+},
+{
+"id": "marketing-213",
+"field": "marketing",
+"term_ko": "모션그래픽",
+"term_en": "Motion graphics",
+"english": "Motion graphics",
+"aliases_ko": [
+"모션 그래픽",
+"모션 작업"
+],
+"definition_ko": "글자·도형·이미지 등 그래픽 요소에 움직임을 더한 표현.",
+"definition_en": "An expression that adds movement to graphic elements such as text, shapes, and images.",
+"example_ko": "숫자 변화는 모션그래픽으로 보여 주세요.",
+"example_en": "Please show the numeric changes with motion graphics."
+},
+{
+"id": "film-236",
+"field": "film",
+"term_ko": "모션그래픽",
+"term_en": "Motion graphics",
+"english": "Motion graphics",
+"aliases_ko": [
+"모션 그래픽",
+"모션 작업"
+],
+"definition_ko": "글자·도형·이미지 등 그래픽 요소에 움직임을 더한 표현.",
+"definition_en": "An expression that adds movement to graphic elements such as text, shapes, and images.",
+"example_ko": "숫자 변화는 모션그래픽으로 보여 주세요.",
+"example_en": "Please show the numeric changes with motion graphics."
+},
+{
+"id": "design-146",
+"field": "design",
+"term_ko": "모션그래픽",
+"term_en": "Motion graphics",
+"english": "Motion graphics",
+"aliases_ko": [
+"모션 그래픽",
+"모션 작업"
+],
+"definition_ko": "글자·도형·이미지 등 그래픽 요소에 움직임을 더한 표현.",
+"definition_en": "An expression that adds movement to graphic elements such as text, shapes, and images.",
+"example_ko": "정적인 인포그래픽에 움직임을 더해 모션그래픽으로 설명해요.",
+"example_en": "We add movement to a static infographic and explain it as motion graphics."
+},
+{
+"id": "marketing-214",
+"field": "marketing",
+"term_ko": "애니매틱",
+"term_en": "Animatic",
+"english": "Animatic",
+"aliases_ko": [
+"애니메틱",
+"보드매틱"
+],
+"definition_ko": "콘티 이미지를 시간 순서로 배치하고 임시 소리를 붙여 길이와 흐름을 확인하는 영상.",
+"definition_en": "A video that arranges storyboard images in time order and adds temporary sound to check length and flow.",
+"example_ko": "촬영 전에 애니매틱으로 30초 안에 들어오는지 봐요.",
+"example_en": "Before shooting, we use an animatic to see if it fits within 30 seconds."
+},
+{
+"id": "film-237",
+"field": "film",
+"term_ko": "애니매틱",
+"term_en": "Animatic",
+"english": "Animatic",
+"aliases_ko": [
+"애니메틱",
+"보드매틱"
+],
+"definition_ko": "콘티 이미지를 시간 순서로 배치하고 임시 소리를 붙여 길이와 흐름을 확인하는 영상.",
+"definition_en": "A video that arranges storyboard images in time order and adds temporary sound to check length and flow.",
+"example_ko": "촬영 전에 애니매틱으로 30초 안에 들어오는지 봐요.",
+"example_en": "Before shooting, we use an animatic to see if it fits within 30 seconds."
+}
+]

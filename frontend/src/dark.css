@@ -31,3 +31,106 @@
 :root[data-color-mode="dark"] .daily-card { background: #241f1d !important; }
 :root[data-color-mode="dark"] img,
 :root[data-color-mode="dark"] .word-art { opacity: 0.92; }
+
+/* Primary buttons are hardcoded #30312d with var(--white) text, which turns
+ * into dark-on-dark here: flip them to a light button. */
+:root[data-color-mode="dark"] .primary-button,
+:root[data-color-mode="dark"] .welcome-actions .primary-button {
+  background: var(--ink) !important;
+  color: var(--paper) !important;
+}
+:root[data-color-mode="dark"] a.primary-button:hover,
+:root[data-color-mode="dark"] button.primary-button:hover {
+  background: #ffffff !important;
+}
+
+/* light tinted surfaces -> dark surfaces */
+:root[data-color-mode="dark"] .nav-link.active,
+:root[data-color-mode="dark"] a.nav-link:hover,
+:root[data-color-mode="dark"] .field-pill,
+:root[data-color-mode="dark"] .avatar,
+:root[data-color-mode="dark"] .backup-panel,
+:root[data-color-mode="dark"] .tool-hint,
+:root[data-color-mode="dark"] .usage-note,
+:root[data-color-mode="dark"] .term-symbol,
+:root[data-color-mode="dark"] .term-approval,
+:root[data-color-mode="dark"] .term-pencil,
+:root[data-color-mode="dark"] .term-pin,
+:root[data-color-mode="dark"] .word-art .art-circle,
+:root[data-color-mode="dark"] .daily-card .tag,
+:root[data-color-mode="dark"] .saved-card .tag,
+:root[data-color-mode="dark"] .learn-progress,
+:root[data-color-mode="dark"] a.daily-card:hover,
+:root[data-color-mode="dark"] a.industry:hover {
+  background: var(--sage) !important;
+}
+:root[data-color-mode="dark"] .annotated-document,
+:root[data-color-mode="dark"] .term-popover,
+:root[data-color-mode="dark"] .search-suggestion-panel,
+:root[data-color-mode="dark"] .profile-field,
+:root[data-color-mode="dark"] .secondary-button {
+  background: var(--white) !important;
+}
+/* selected / saved states keep a warm accent tint */
+:root[data-color-mode="dark"] .industry.selected,
+:root[data-color-mode="dark"] .welcome-field.selected,
+:root[data-color-mode="dark"] .profile-field.selected,
+:root[data-color-mode="dark"] .bookmark.is-saved,
+:root[data-color-mode="dark"] .welcome-emblem,
+:root[data-color-mode="dark"] .collection-label {
+  background: var(--accent-soft) !important;
+  border-color: #6b3b2f !important;
+}
+
+/* light borders -> theme line */
+:root[data-color-mode="dark"] .tag,
+:root[data-color-mode="dark"] .secondary-button,
+:root[data-color-mode="dark"] select,
+:root[data-color-mode="dark"] textarea,
+:root[data-color-mode="dark"] input,
+:root[data-color-mode="dark"] .dd-trigger,
+:root[data-color-mode="dark"] .term-popover,
+:root[data-color-mode="dark"] .circle-arrow {
+  border-color: var(--line) !important;
+}
+:root[data-color-mode="dark"] textarea,
+:root[data-color-mode="dark"] input:not([type="file"]) {
+  background: var(--white);
+  color: var(--ink);
+}
+
+/* dark green/brown text tuned for the light theme -> readable muted text */
+:root[data-color-mode="dark"] .tag,
+:root[data-color-mode="dark"] .daily-description,
+:root[data-color-mode="dark"] .daily-read,
+:root[data-color-mode="dark"] .card-bottom .small-link,
+:root[data-color-mode="dark"] .circle-arrow,
+:root[data-color-mode="dark"] .usage-note p,
+:root[data-color-mode="dark"] .about-section p,
+:root[data-color-mode="dark"] .other-meaning p,
+:root[data-color-mode="dark"] .saved-card p,
+:root[data-color-mode="dark"] .card-refresh,
+:root[data-color-mode="dark"] .collection-label,
+:root[data-color-mode="dark"] .industry-top small,
+:root[data-color-mode="dark"] .profile-field.selected .profile-check,
+:root[data-color-mode="dark"] .nav-link,
+:root[data-color-mode="dark"] .mobile-nav a {
+  color: var(--muted) !important;
+}
+:root[data-color-mode="dark"] .nav-link.active,
+:root[data-color-mode="dark"] .mobile-nav a.active {
+  color: var(--ink) !important;
+}
+
+/* document highlights: dark amber instead of bright yellow */
+:root[data-color-mode="dark"] .word-highlight {
+  background: #5a4a1c !important;
+  color: var(--ink) !important;
+}
+:root[data-color-mode="dark"] .word-highlight:hover,
+:root[data-color-mode="dark"] .word-highlight[aria-expanded="true"] {
+  background: #74602a !important;
+}
+:root[data-color-mode="dark"] .dd-panel {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+}

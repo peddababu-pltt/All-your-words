@@ -1,13 +1,16 @@
 """Per-session storage in the Palette Drive (Data Rooms).
 
-Every processing session gets its own folder, with the user's inputs and the
-app's generated outputs kept apart:
+Every processing session gets its own folder directly in the app's drive,
+named after its input (the saved word, the start of a scanned document, the
+imported file name, ...), with the user's inputs and the app's generated
+outputs kept apart:
 
     다, 너의 단어 (All your Words)   (Drive / Data Room)
-    └── Sessions/
-        └── 20261009-170512-backup-a1b2c3/
-            ├── input/
-            └── output/
+    ├── State/                     app state snapshots
+    ├── CPC/
+    │   ├── input/
+    │   └── output/
+    └── CPC (2)/                   same name again -> numbered, never mixed
 
 A new submission always creates a new session folder, so files from different
 sessions are never mixed. All Drive access goes through ``ctx.data_rooms``
@@ -25,7 +28,10 @@ from typing import Any, Iterable
 
 ROOM_NAME = "다, 너의 단어 (All your Words)"
 ROOM_DESCRIPTION = "Inputs and outputs from 다, 너의 단어 (All your Words) — one folder per session."
-ROOT_FOLDER = "Sessions"
+# Older versions kept sessions under Sessions/; new sessions live in the drive root.
+LEGACY_ROOT_FOLDER = "Sessions"
+RESERVED_NAMES = {"State", LEGACY_ROOT_FOLDER}
+MAX_SESSION_NAME = 80
 STATE_FOLDER = "State"
 STATE_SUFFIX = "-records.json"
 # State snapshots: 20261009T150102123456Z-records.json (sortable by name = by time)
@@ -36,8 +42,6 @@ KINDS = ("backup", "document", "import", "word")
 MAX_FILES_PER_PART = 10
 MAX_FILE_BYTES = 20 * 1024 * 1024
 
-# Session folder names this module creates: 20261009-170512-backup-a1b2c3
-SESSION_RE = re.compile(r"^\d{8}-\d{6}-(?:backup|document|import|word)-[0-9a-f]{6}$")
 _UNSAFE = re.compile(r"[\x00-\x1f/\\]+")
 
 
@@ -52,10 +56,18 @@ def safe_filename(name: str) -> str:
 
 
 def new_session_name(kind: str, now: datetime | None = None) -> str:
+    """Fallback folder name when a session has no label."""
     if kind not in KINDS:
         raise DriveSessionError(f"unknown session kind: {kind}")
     now = now or datetime.now(timezone.utc)
     return f"{now:%Y%m%d-%H%M%S}-{kind}-{secrets.token_hex(3)}"
+
+
+def session_label(label: str | None) -> str | None:
+    """Folder name from the session's input: one line, safe, at most MAX_SESSION_NAME chars."""
+    text = " ".join((label or "").split())
+    cleaned = _UNSAFE.sub("_", text).strip(" .")[:MAX_SESSION_NAME].strip(" .")
+    return cleaned or None
 
 
 def _payload_bytes(item: dict[str, Any]) -> bytes:
@@ -115,6 +127,7 @@ class DriveSessions:
         kind: str,
         inputs: Iterable[dict[str, Any]],
         outputs: Iterable[dict[str, Any]] = (),
+        label: str | None = None,
     ) -> dict[str, Any]:
         inputs, outputs = list(inputs), list(outputs)
         if not inputs:
@@ -127,10 +140,12 @@ class DriveSessions:
             for part, files in (("input", inputs), ("output", outputs))
         }
 
-        name = new_session_name(kind)
+        if kind not in KINDS:
+            raise DriveSessionError(f"unknown session kind: {kind}")
         room = await self._room()
+        name = await self._free_name(room["id"], session_label(label) or new_session_name(kind))
         folders = {
-            part: await self.dr.resolve_folder_path(room["id"], [ROOT_FOLDER, name, part], create=True)
+            part: await self.dr.resolve_folder_path(room["id"], [name, part], create=True)
             for part in PARTS
         }
 
@@ -151,21 +166,28 @@ class DriveSessions:
             "kind": kind,
             "room": ROOM_NAME,
             "room_id": room["id"],
-            "path": f"{ROOT_FOLDER}/{name}",
+            "path": name,
             "folders": {part: folders[part]["id"] for part in PARTS},
             "files": uploaded,
         }
+
+    async def _free_name(self, room_id: int, base: str) -> str:
+        """`base`, or `base (2)`, `base (3)`, ... — the first name not used in the drive root."""
+        for n in range(1, 1000):
+            candidate = base if n == 1 else f"{base} ({n})"
+            if candidate in RESERVED_NAMES:
+                continue
+            if await self.dr.resolve_folder_path(room_id, [candidate]) is None:
+                return candidate
+        return f"{base} ({secrets.token_hex(3)})"
 
     async def list_sessions(self) -> list[str]:
         room = await self._existing_room()
         if room is None:
             return []
-        root = await self.dr.resolve_folder_path(room["id"], [ROOT_FOLDER])
-        if root is None:
-            return []
-        folders, _ = _split_contents(await self.dr.contents(room["id"], root["id"]))
-        names = [f.get("name", "") for f in folders if SESSION_RE.match(f.get("name", ""))]
-        return sorted(names, reverse=True)  # names start with a timestamp: newest first
+        folders, _ = _split_contents(await self.dr.contents(room["id"]))
+        names = [_fname(f) for f in folders if _fname(f) and _fname(f) not in RESERVED_NAMES]
+        return sorted(names)
 
     async def session_files(self, session: str) -> dict[str, Any]:
         self._check_session(session)
@@ -174,7 +196,7 @@ class DriveSessions:
         if room is None:
             return result
         for part in PARTS:
-            folder = await self.dr.resolve_folder_path(room["id"], [ROOT_FOLDER, session, part])
+            folder = await self.dr.resolve_folder_path(room["id"], [session, part])
             if folder is None:
                 continue
             _, files = _split_contents(await self.dr.contents(room["id"], folder["id"]))
@@ -188,7 +210,7 @@ class DriveSessions:
         room = await self._existing_room()
         if room is None:
             return None
-        folder = await self.dr.resolve_folder_path(room["id"], [ROOT_FOLDER, session, part])
+        folder = await self.dr.resolve_folder_path(room["id"], [session, part])
         if folder is None:
             return None
         found = await self.dr.find_file_by_name(room["id"], safe_filename(filename), folder_id=folder["id"])
@@ -202,11 +224,10 @@ class DriveSessions:
     # State/ and the newest one is the current state.
 
     async def init_room(self) -> dict[str, Any]:
-        """Create (or reuse) the app's data room and its State/ + Sessions/ folders."""
+        """Create (or reuse) the app's data room and its State/ folder."""
         room = await self._room()
         state = await self.dr.resolve_folder_path(room["id"], [STATE_FOLDER], create=True)
-        sessions = await self.dr.resolve_folder_path(room["id"], [ROOT_FOLDER], create=True)
-        return {"room": ROOM_NAME, "room_id": room["id"], "state_folder": state["id"], "sessions_folder": sessions["id"]}
+        return {"room": ROOM_NAME, "room_id": room["id"], "state_folder": state["id"]}
 
     async def save_state(self, data: dict[str, Any], now: datetime | None = None) -> dict[str, Any]:
         import json
@@ -243,5 +264,5 @@ class DriveSessions:
 
     @staticmethod
     def _check_session(session: str) -> None:
-        if not SESSION_RE.match(session or ""):
+        if not session or session_label(session) != session or session in RESERVED_NAMES:
             raise DriveSessionError("invalid session name")

@@ -1,0 +1,4409 @@
+[
+{
+"id": "marketing-644",
+"field": "marketing",
+"term_ko": "전환 가치",
+"term_en": "Conversion Value",
+"english": "Conversion Value",
+"aliases_ko": [],
+"definition_ko": "구매금액이나 사업 기여도 등을 기준으로 전환에 부여하는 가치.",
+"definition_en": "The value assigned to a conversion based on purchase amount, business contribution, and the like.",
+"example_ko": "구매 이벤트의 전환 가치에 취소 주문이 중복 반영되지 않았는지 확인해요.",
+"example_en": "We check that canceled orders are not double-counted in the conversion value of purchase events."
+},
+{
+"id": "marketing-645",
+"field": "marketing",
+"term_ko": "최적화 점수",
+"term_en": "Optimization Score",
+"english": "Optimization Score",
+"aliases_ko": [],
+"definition_ko": "Google Ads에서 계정 등의 성과 개선 여지를 추천과 함께 제시하는 점수. 실제 매출 성과 자체를 의미하지는 않는다.",
+"definition_en": "A score in Google Ads that, along with recommendations, presents the room for performance improvement for an account and the like. It does not itself mean actual sales performance.",
+"example_ko": "최적화 점수가 높아도 수익성 목표에 맞는지 별도로 검토해요.",
+"example_en": "Even if the optimization score is high, we separately review whether it fits the profitability goal."
+},
+{
+"id": "marketing-646",
+"field": "marketing",
+"term_ko": "전환 지연",
+"term_en": "Conversion Delay",
+"english": "Conversion Delay",
+"aliases_ko": [
+"전환 지연시간"
+],
+"definition_ko": "광고 상호작용부터 실제 전환 또는 그 전환이 보고되는 시점까지의 지연.",
+"definition_en": "The delay from the ad interaction to the actual conversion or to when that conversion is reported.",
+"example_ko": "어제 성과를 확정하기 전에 전환 지연을 고려해요.",
+"example_en": "Before finalizing yesterday's performance, we account for conversion delay."
+},
+{
+"id": "marketing-647",
+"field": "marketing",
+"term_ko": "스마트 자동 입찰",
+"term_en": "Smart Bidding",
+"english": "Smart Bidding",
+"aliases_ko": [
+"스마트 비딩"
+],
+"definition_ko": "전환이나 전환 가치를 목표로 경매별 입찰을 자동 조정하는 Google Ads 입찰 체계.",
+"definition_en": "A Google Ads bidding system that automatically adjusts bids per auction, targeting conversions or conversion value.",
+"example_ko": "스마트 자동 입찰을 쓰기 전에 전환 측정의 정확성을 확인해요.",
+"example_en": "Before using Smart Bidding, we check the accuracy of conversion measurement."
+},
+{
+"id": "marketing-648",
+"field": "marketing",
+"term_ko": "소재 테스트",
+"term_en": "Creative Testing",
+"english": "Creative Testing",
+"aliases_ko": [
+"크리에이티브 테스트"
+],
+"definition_ko": "이미지·카피·형식 등의 차이가 광고 성과에 미치는 영향을 비교하는 작업.",
+"definition_en": "The work of comparing how differences in image, copy, format, and the like affect ad performance.",
+"example_ko": "소재 테스트에서는 바꾼 요소와 비교 기간을 기록해요.",
+"example_en": "In creative testing, we record the changed element and the comparison period."
+},
+{
+"id": "marketing-649",
+"field": "marketing",
+"term_ko": "러닝 페이즈",
+"term_en": "Learning Phase",
+"english": "Learning Phase",
+"aliases_ko": [
+"학습 단계",
+"러닝 기간"
+],
+"definition_ko": "광고 전달 시스템이 새로운 설정 등에 맞춰 성과 패턴을 학습하는 단계.",
+"definition_en": "The stage in which the ad delivery system learns the performance pattern to match new settings and the like.",
+"example_ko": "러닝 페이즈의 변동을 보고 바로 소재 실패로 단정하지 않아요.",
+"example_en": "Seeing fluctuations in the learning phase, we do not immediately conclude the creative failed."
+},
+{
+"id": "marketing-650",
+"field": "marketing",
+"term_ko": "애드서버",
+"term_en": "Ad Server",
+"english": "Ad Server",
+"aliases_ko": [
+"광고 서버"
+],
+"definition_ko": "광고 소재를 전달하고 노출·클릭 등의 기록을 처리하는 시스템.",
+"definition_en": "A system that delivers ad creatives and processes records such as impressions and clicks.",
+"example_ko": "애드서버와 매체 보고서의 집계 기준을 맞춰요.",
+"example_en": "We align the aggregation basis of the ad server and the media report."
+},
+{
+"id": "marketing-651",
+"field": "marketing",
+"term_ko": "뷰어빌리티",
+"term_en": "Viewability",
+"english": "Viewability",
+"aliases_ko": [
+"광고 가시성"
+],
+"definition_ko": "광고가 사용자의 화면에서 정해진 면적·시간 등 실제 볼 수 있는 조건을 충족했는지 보는 지표.",
+"definition_en": "An indicator of whether an ad met the conditions to be actually viewable on a user's screen, such as a defined area and duration.",
+"example_ko": "노출수와 뷰어빌리티를 함께 확인해 매체 품질을 검토해요.",
+"example_en": "We check impressions together with viewability to review media quality."
+},
+{
+"id": "marketing-652",
+"field": "marketing",
+"term_ko": "브랜드 세이프티",
+"term_en": "Brand Safety",
+"english": "Brand Safety",
+"aliases_ko": [
+"브랜드 안전성"
+],
+"definition_ko": "부적절하거나 유해한 콘텐츠 옆에 광고가 노출되는 위험을 관리하는 것.",
+"definition_en": "Managing the risk of ads being shown next to inappropriate or harmful content.",
+"example_ko": "브랜드 세이프티 기준에 맞춰 제외 카테고리를 정해요.",
+"example_en": "We set exclusion categories in line with brand safety criteria."
+},
+{
+"id": "dev-459",
+"field": "dev",
+"term_ko": "디바운스",
+"term_en": "Debounce",
+"english": "Debounce",
+"aliases_ko": [
+"디바운싱"
+],
+"definition_ko": "짧은 간격으로 반복되는 호출을 모아 일정 시간 추가 호출이 없을 때 실행하도록 하는 방식.",
+"definition_en": "A method that groups repeated calls over short intervals and executes only when no additional call occurs for a set time.",
+"example_ko": "검색 입력을 디바운스해 매 글자마다 요청이 나가지 않게 해요.",
+"example_en": "We debounce the search input so a request does not fire on every keystroke."
+},
+{
+"id": "dev-460",
+"field": "dev",
+"term_ko": "스로틀",
+"term_en": "Throttle",
+"english": "Throttle",
+"aliases_ko": [
+"스로틀링"
+],
+"definition_ko": "반복되는 작업의 실행 빈도를 정한 시간 간격 등으로 제한하는 방식.",
+"definition_en": "A method that limits the execution frequency of a repeated task by a set time interval and the like.",
+"example_ko": "스크롤 이벤트 처리를 스로틀해 과도한 계산을 줄여요.",
+"example_en": "We throttle scroll event handling to reduce excessive computation."
+},
+{
+"id": "dev-461",
+"field": "dev",
+"term_ko": "이벤트 루프",
+"term_en": "Event Loop",
+"english": "Event Loop",
+"aliases_ko": [],
+"definition_ko": "대기 중인 작업과 콜백 등을 실행 순서에 따라 처리하도록 조정하는 실행 구조.",
+"definition_en": "An execution structure that coordinates pending tasks, callbacks, and the like to be processed in execution order.",
+"example_ko": "무거운 동기 계산이 이벤트 루프를 막아 화면이 멈추는지 확인해요.",
+"example_en": "We check whether a heavy synchronous computation blocks the event loop and freezes the screen."
+},
+{
+"id": "dev-462",
+"field": "dev",
+"term_ko": "직렬화",
+"term_en": "Serialization",
+"english": "Serialization",
+"aliases_ko": [
+"시리얼라이즈"
+],
+"definition_ko": "객체나 데이터를 저장·전송 가능한 형식으로 바꾸는 과정.",
+"definition_en": "The process of converting an object or data into a format that can be stored or transmitted.",
+"example_ko": "날짜와 큰 정수를 JSON으로 직렬화할 때 손실 여부를 확인해요.",
+"example_en": "When serializing dates and large integers to JSON, we check for loss."
+},
+{
+"id": "dev-463",
+"field": "dev",
+"term_ko": "역직렬화",
+"term_en": "Deserialization",
+"english": "Deserialization",
+"aliases_ko": [
+"디시리얼라이즈"
+],
+"definition_ko": "저장·전송 형식의 데이터를 프로그램에서 사용할 구조로 되돌리는 과정.",
+"definition_en": "The process of restoring data in a stored or transmitted format into a structure usable by the program.",
+"example_ko": "외부 입력을 역직렬화한 뒤 기대한 자료형인지 검증해요.",
+"example_en": "After deserializing external input, we validate whether it is the expected data type."
+},
+{
+"id": "dev-464",
+"field": "dev",
+"term_ko": "페이지네이션",
+"term_en": "Pagination",
+"english": "Pagination",
+"aliases_ko": [
+"페이징"
+],
+"definition_ko": "많은 목록을 페이지나 커서 단위로 나눠 불러오고 표시하는 방식.",
+"definition_en": "A method of loading and displaying a long list in units of pages or cursors.",
+"example_ko": "새 항목 삽입 시 중복이 생기지 않도록 커서 페이지네이션을 검토해요.",
+"example_en": "We review cursor pagination so that duplicates do not occur when new items are inserted."
+},
+{
+"id": "dev-465",
+"field": "dev",
+"term_ko": "레이트 리밋",
+"term_en": "Rate Limit",
+"english": "Rate Limit",
+"aliases_ko": [
+"요청 제한",
+"레이트리밋"
+],
+"definition_ko": "사용자·키·주소 등의 기준으로 일정 기간에 허용할 요청 수를 제한하는 것.",
+"definition_en": "Limiting the number of requests allowed over a period based on criteria such as user, key, or address.",
+"example_ko": "레이트 리밋에 걸리면 재시도 간격을 늘려요.",
+"example_en": "When we hit the rate limit, we increase the retry interval."
+},
+{
+"id": "dev-466",
+"field": "dev",
+"term_ko": "서킷 브레이커",
+"term_en": "Circuit Breaker",
+"english": "Circuit Breaker",
+"aliases_ko": [],
+"definition_ko": "연속 실패하는 외부 호출을 일시 중단해 장애 확산을 줄이는 패턴.",
+"definition_en": "A pattern that temporarily suspends repeatedly failing external calls to reduce the spread of failures.",
+"example_ko": "결제 서비스 오류가 반복되면 서킷 브레이커로 호출을 제한해요.",
+"example_en": "If payment service errors repeat, we restrict calls with a circuit breaker."
+},
+{
+"id": "dev-467",
+"field": "dev",
+"term_ko": "재시도",
+"term_en": "Retry",
+"english": "Retry",
+"aliases_ko": [
+"리트라이"
+],
+"definition_ko": "일시적인 실패로 끝난 작업을 다시 실행하는 것.",
+"definition_en": "Re-executing a task that ended in a temporary failure.",
+"example_ko": "결제 재시도에는 멱등성 키를 붙여 중복 결제를 방지해요.",
+"example_en": "We attach an idempotency key to payment retries to prevent duplicate payments."
+},
+{
+"id": "dev-468",
+"field": "dev",
+"term_ko": "지수 백오프",
+"term_en": "Exponential Backoff",
+"english": "Exponential Backoff",
+"aliases_ko": [
+"백오프"
+],
+"definition_ko": "재시도할 때 대기 간격을 점차 크게 늘리는 방식.",
+"definition_en": "A method that gradually increases the wait interval between retries.",
+"example_ko": "동시 재시도가 몰리지 않도록 지수 백오프에 무작위 지연을 섞어요.",
+"example_en": "We mix in random delay with exponential backoff so simultaneous retries do not pile up."
+},
+{
+"id": "dev-469",
+"field": "dev",
+"term_ko": "옵저버빌리티",
+"term_en": "Observability",
+"english": "Observability",
+"aliases_ko": [
+"관측 가능성",
+"관측성"
+],
+"definition_ko": "로그·지표·추적 등의 출력으로 시스템 내부 상태와 문제를 이해할 수 있는 성질.",
+"definition_en": "The property of being able to understand a system's internal state and problems through outputs such as logs, metrics, and traces.",
+"example_ko": "요청이 어느 서비스에서 느려졌는지 보도록 옵저버빌리티를 보강해요.",
+"example_en": "We reinforce observability to see at which service a request slowed down."
+},
+{
+"id": "dev-470",
+"field": "dev",
+"term_ko": "분산 추적",
+"term_en": "Distributed Tracing",
+"english": "Distributed Tracing",
+"aliases_ko": [
+"트레이싱"
+],
+"definition_ko": "여러 서비스에 걸친 요청의 경로와 처리 시간을 연결해 추적하는 방법.",
+"definition_en": "A method of tracing a request across multiple services by connecting its path and processing time.",
+"example_ko": "트레이스 ID로 API와 메시지 처리 구간을 연결해요.",
+"example_en": "We link the API and message-processing segments by trace ID."
+},
+{
+"id": "dev-471",
+"field": "dev",
+"term_ko": "ETL",
+"term_en": "ETL",
+"english": "Extract Transform Load",
+"aliases_ko": [
+"추출 변환 적재"
+],
+"definition_ko": "데이터를 추출하고 변환한 다음 목적 저장소에 적재하는 처리 흐름.",
+"definition_en": "A processing flow that extracts data, transforms it, and then loads it into the target store.",
+"example_ko": "ETL 작업의 중복 적재와 실패 지점을 점검해요.",
+"example_en": "We inspect duplicate loads and failure points in the ETL job."
+},
+{
+"id": "dev-472",
+"field": "dev",
+"term_ko": "ELT",
+"term_en": "ELT",
+"english": "Extract Load Transform",
+"aliases_ko": [
+"추출 적재 변환"
+],
+"definition_ko": "데이터를 추출해 먼저 목적 저장소에 적재한 뒤 그 안에서 변환하는 흐름.",
+"definition_en": "A flow that extracts data, loads it into the target store first, and then transforms it there.",
+"example_ko": "ELT 모델에서 원본과 가공 테이블의 갱신 시점을 구분해요.",
+"example_en": "In the ELT model, we distinguish the refresh timing of the raw and processed tables."
+},
+{
+"id": "dev-473",
+"field": "dev",
+"term_ko": "RBAC",
+"term_en": "RBAC",
+"english": "Role-based Access Control",
+"aliases_ko": [
+"역할 기반 접근 제어"
+],
+"definition_ko": "사용자 역할에 권한을 연결해 자원 접근을 제어하는 방식.",
+"definition_en": "A method of controlling resource access by linking permissions to user roles.",
+"example_ko": "관리자와 조회 담당자의 RBAC 권한을 분리해요.",
+"example_en": "We separate the RBAC permissions of administrators and read-only staff."
+},
+{
+"id": "fashion-601",
+"field": "fashion",
+"term_ko": "SS",
+"term_en": "SS",
+"english": "Spring Summer",
+"aliases_ko": [
+"S/S",
+"봄여름 시즌",
+"에스에스"
+],
+"definition_ko": "봄·여름 상품을 묶어 기획하고 판매하는 시즌 표기.",
+"definition_en": "A season notation that plans and sells spring and summer products together.",
+"example_ko": "SS 컬렉션의 원단 확정 시점을 생산 일정에 맞춰요.",
+"example_en": "We align the fabric confirmation timing of the SS collection with the production schedule."
+},
+{
+"id": "fashion-602",
+"field": "fashion",
+"term_ko": "FW",
+"term_en": "FW",
+"english": "Fall Winter",
+"aliases_ko": [
+"F/W",
+"AW",
+"A/W",
+"가을겨울 시즌",
+"에프더블유"
+],
+"definition_ko": "가을·겨울 상품을 묶어 기획하고 판매하는 시즌 표기.",
+"definition_en": "A season notation that plans and sells fall and winter products together.",
+"example_ko": "FW 아우터의 충전재 수급 일정을 먼저 확인해요.",
+"example_en": "We first check the fill-material procurement schedule for FW outerwear."
+},
+{
+"id": "fashion-603",
+"field": "fashion",
+"term_ko": "캡슐 컬렉션",
+"term_en": "Capsule Collection",
+"english": "Capsule Collection",
+"aliases_ko": [],
+"definition_ko": "작은 수의 상품을 일관된 콘셉트로 구성한 컬렉션.",
+"definition_en": "A collection composed of a small number of products with a consistent concept.",
+"example_ko": "캡슐 컬렉션은 서로 조합할 수 있도록 색과 실루엣을 맞춰요.",
+"example_en": "In a capsule collection, we coordinate colors and silhouettes so items can be mixed and matched."
+},
+{
+"id": "fashion-604",
+"field": "fashion",
+"term_ko": "풀프라이스",
+"term_en": "Full Price",
+"english": "Full Price",
+"aliases_ko": [
+"정상가 판매",
+"풀 프라이스"
+],
+"definition_ko": "할인을 적용하지 않은 정상 가격 또는 그 가격으로 판매하는 것.",
+"definition_en": "The normal price without a discount applied, or selling at that price.",
+"example_ko": "풀프라이스 판매 비중이 높은 스타일을 리오더 후보로 봐요.",
+"example_en": "We treat styles with a high share of full-price sales as reorder candidates."
+},
+{
+"id": "fashion-605",
+"field": "fashion",
+"term_ko": "IMU",
+"term_en": "IMU",
+"english": "Initial Markup",
+"aliases_ko": [
+"초기 마크업"
+],
+"definition_ko": "상품의 최초 판매가격과 원가의 차이를 기준으로 잡는 초기 마진 지표. 계산 분모를 확인한다.",
+"definition_en": "An initial margin indicator based on the difference between a product's initial retail price and its cost. We confirm the calculation denominator.",
+"example_ko": "기획 단계의 IMU와 할인 후 실제 마진을 구분해요.",
+"example_en": "We distinguish the planning-stage IMU from the actual margin after discounts."
+},
+{
+"id": "fashion-606",
+"field": "fashion",
+"term_ko": "마커 효율",
+"term_en": "Marker Efficiency",
+"english": "Marker Efficiency",
+"aliases_ko": [
+"마킹 효율"
+],
+"definition_ko": "재단 배치 영역에서 실제 패턴 조각이 차지하는 비율을 나타내는 지표.",
+"definition_en": "An indicator of the proportion of the cutting layout area actually occupied by pattern pieces.",
+"example_ko": "사이즈 조합을 바꿔 마커 효율과 원단 손실을 비교해요.",
+"example_en": "We change the size combination to compare marker efficiency and fabric waste."
+},
+{
+"id": "fashion-607",
+"field": "fashion",
+"term_ko": "합봉",
+"term_en": "Joining Seam",
+"english": "Joining Seams",
+"aliases_ko": [],
+"definition_ko": "둘 이상의 재단 조각을 이어 봉제하는 작업.",
+"definition_en": "The work of joining and sewing two or more cut pieces together.",
+"example_ko": "어깨 합봉 전에 좌우 패턴 방향을 확인해요.",
+"example_en": "Before the shoulder joining seam, we check the left-right pattern direction."
+},
+{
+"id": "fashion-608",
+"field": "fashion",
+"term_ko": "쌍침",
+"term_en": "Double-needle Stitch",
+"english": "Twin Needle",
+"aliases_ko": [
+"두 줄 스티치"
+],
+"definition_ko": "두 바늘 등으로 나란한 봉제선을 만드는 방식이나 그 봉제선을 부르는 표현.",
+"definition_en": "A method of making parallel seam lines with two needles and the like, or an expression for such a seam.",
+"example_ko": "밑단 쌍침의 간격과 장력을 샘플과 맞춰요.",
+"example_en": "We match the spacing and tension of the hem double-needle stitch to the sample."
+},
+{
+"id": "fashion-609",
+"field": "fashion",
+"term_ko": "땀길이",
+"term_en": "Stitch Length",
+"english": "Stitch Length",
+"aliases_ko": [
+"땀 길이",
+"스티치 길이"
+],
+"definition_ko": "봉제선에서 연속된 바늘땀 사이의 길이. 일정 길이당 땀의 개수인 땀수와 구분한다.",
+"definition_en": "The length between consecutive stitches in a seam. It is distinguished from stitch count, the number of stitches per unit length.",
+"example_ko": "얇은 원단이 울지 않도록 땀길이와 장력을 함께 조정해요.",
+"example_en": "We adjust the stitch length and tension together so thin fabric does not pucker."
+},
+{
+"id": "fashion-610",
+"field": "fashion",
+"term_ko": "경편",
+"term_en": "Warp Knitting",
+"english": "Warp Knitting",
+"aliases_ko": [],
+"definition_ko": "경사 방향의 여러 실로 고리를 연결해 만드는 편직 방식.",
+"definition_en": "A knitting method that connects loops from multiple yarns in the warp direction.",
+"example_ko": "경편 원단의 신축 방향을 고려해 패턴을 배치해요.",
+"example_en": "We lay out the pattern considering the stretch direction of the warp-knit fabric."
+},
+{
+"id": "fashion-611",
+"field": "fashion",
+"term_ko": "위편",
+"term_en": "Weft Knitting",
+"english": "Weft Knitting",
+"aliases_ko": [],
+"definition_ko": "가로 방향으로 이어지는 실의 고리를 연결해 만드는 편직 방식.",
+"definition_en": "A knitting method that connects loops of yarn running in the crosswise direction.",
+"example_ko": "위편 원단은 세탁 후 치수 변화를 샘플로 확인해요.",
+"example_en": "For weft-knit fabric, we check the dimensional change after washing with a sample."
+},
+{
+"id": "fashion-612",
+"field": "fashion",
+"term_ko": "평직",
+"term_en": "Plain Weave",
+"english": "Plain Weave",
+"aliases_ko": [],
+"definition_ko": "경사와 위사가 번갈아 위아래로 교차하는 기본 직물 조직.",
+"definition_en": "A basic woven structure where warp and weft cross over and under alternately.",
+"example_ko": "평직 셔츠 원단의 밀도와 비침을 비교해요.",
+"example_en": "We compare the density and sheer-through of plain-weave shirt fabric."
+},
+{
+"id": "fashion-613",
+"field": "fashion",
+"term_ko": "능직",
+"term_en": "Twill Weave",
+"english": "Twill Weave",
+"aliases_ko": [
+"트윌"
+],
+"definition_ko": "경사·위사의 교차점이 이동하면서 사선 무늬가 나타나는 직물 조직.",
+"definition_en": "A woven structure in which diagonal patterns appear as the crossing points of warp and weft shift.",
+"example_ko": "능직 원단의 사선 방향을 재단 시 맞춰요.",
+"example_en": "We match the diagonal direction of twill fabric when cutting."
+},
+{
+"id": "fashion-614",
+"field": "fashion",
+"term_ko": "수자직",
+"term_en": "Satin Weave",
+"english": "Satin Weave",
+"aliases_ko": [
+"주자직",
+"새틴 조직"
+],
+"definition_ko": "실의 부유 부분이 길고 교차점이 분산돼 표면에 광택이 나타나기 쉬운 직물 조직.",
+"definition_en": "A woven structure where the floats of yarn are long and the crossing points are dispersed, so a sheen tends to appear on the surface.",
+"example_ko": "수자직 원단은 표면의 올 걸림과 봉제 미끄러짐을 확인해요.",
+"example_en": "For satin-weave fabric, we check surface snagging and seam slippage."
+},
+{
+"id": "film-510",
+"field": "film",
+"term_ko": "셔터 앵글",
+"term_en": "Shutter Angle",
+"english": "Shutter Angle",
+"aliases_ko": [
+"셔터각",
+"셔터 각도"
+],
+"definition_ko": "한 프레임 기간 중 노출하는 비율을 각도로 나타낸 설정. 같은 각도여도 프레임 레이트에 따라 노출시간이 달라진다.",
+"definition_en": "A setting expressing the proportion of a frame period that is exposed, as an angle. Even at the same angle, the exposure time differs by frame rate.",
+"example_ko": "슬로모션 촬영 전 셔터 앵글과 조명 플리커를 함께 확인해요.",
+"example_en": "Before slow-motion shooting, we check the shutter angle together with lighting flicker."
+},
+{
+"id": "film-511",
+"field": "film",
+"term_ko": "롤링 셔터",
+"term_en": "Rolling Shutter",
+"english": "Rolling Shutter",
+"aliases_ko": [],
+"definition_ko": "센서 화면의 위치마다 다른 시점에 순차적으로 노출·읽기 등을 수행하는 방식으로 빠른 움직임에서 왜곡이 나타날 수 있다.",
+"definition_en": "A method where exposure and readout are performed sequentially at different times for different positions on the sensor, which can cause distortion during fast movement.",
+"example_ko": "빠른 팬에서 수직선이 휘는 롤링 셔터 현상을 점검해요.",
+"example_en": "Check for rolling shutter distortion where vertical lines bend during fast pans."
+},
+{
+"id": "film-512",
+"field": "film",
+"term_ko": "글로벌 셔터",
+"term_en": "Global Shutter",
+"english": "Global Shutter",
+"aliases_ko": [],
+"definition_ko": "센서 전체의 노출 시점을 맞춰 이미지를 얻는 방식.",
+"definition_en": "A method that captures an image by aligning the exposure timing across the entire sensor.",
+"example_ko": "빠른 동작 촬영에 쓸 카메라의 글로벌 셔터 지원 여부를 확인해요.",
+"example_en": "Check whether the camera you will use for fast-action shoots supports a global shutter."
+},
+{
+"id": "film-513",
+"field": "film",
+"term_ko": "젠록",
+"term_en": "Genlock",
+"english": "Genlock",
+"aliases_ko": [
+"겐록"
+],
+"definition_ko": "여러 영상 장비의 프레임 타이밍을 기준 신호에 동기화하는 방식.",
+"definition_en": "A method of synchronizing the frame timing of multiple video devices to a reference signal.",
+"example_ko": "멀티카메라 촬영에서 젠록과 타임코드의 역할을 구분해 설정해요.",
+"example_en": "In multi-camera shoots, distinguish and configure the roles of genlock and timecode."
+},
+{
+"id": "film-514",
+"field": "film",
+"term_ko": "잼싱크",
+"term_en": "Jam Sync",
+"english": "Jam Sync",
+"aliases_ko": [
+"잼 싱크"
+],
+"definition_ko": "한 장비의 타임코드를 다른 장비에 맞춰 놓고 각 장비가 진행하도록 동기화하는 방식.",
+"definition_en": "A method of setting one device's timecode onto another device and letting each device run in sync.",
+"example_ko": "카메라와 녹음기를 잼싱크한 뒤 장시간 촬영 중 오차를 재확인해요.",
+"example_en": "After jam-syncing the camera and the audio recorder, recheck for drift during long takes."
+},
+{
+"id": "film-515",
+"field": "film",
+"term_ko": "오버크랭크",
+"term_en": "Overcrank",
+"english": "Overcrank",
+"aliases_ko": [
+"하이스피드 촬영",
+"고속 촬영"
+],
+"definition_ko": "재생 기준보다 높은 프레임 레이트로 촬영해 느린 움직임으로 보여주는 방식.",
+"definition_en": "A method of shooting at a higher frame rate than the playback standard to show motion in slow motion.",
+"example_ko": "물 튀는 장면은 오버크랭크로 촬영하고 필요한 광량을 확보해요.",
+"example_en": "Shoot water splashes with overcrank and secure the necessary amount of light."
+},
+{
+"id": "film-516",
+"field": "film",
+"term_ko": "언더크랭크",
+"term_en": "Undercrank",
+"english": "Undercrank",
+"aliases_ko": [
+"저속 촬영"
+],
+"definition_ko": "재생 기준보다 낮은 프레임 레이트로 촬영해 빠른 움직임으로 보여주는 방식.",
+"definition_en": "A method of shooting at a lower frame rate than the playback standard to show motion sped up.",
+"example_ko": "언더크랭크로 군중의 이동을 빠르게 표현해요.",
+"example_en": "Use undercrank to speed up the movement of a crowd."
+},
+{
+"id": "film-517",
+"field": "film",
+"term_ko": "스피드 램프",
+"term_en": "Speed Ramp",
+"english": "Speed Ramp",
+"aliases_ko": [
+"스피드램핑"
+],
+"definition_ko": "하나의 클립 안에서 재생 속도를 점진적이거나 의도적으로 바꾸는 효과.",
+"definition_en": "An effect that gradually or deliberately changes the playback speed within a single clip.",
+"example_ko": "동작의 강조 지점에 맞춰 스피드 램프 구간을 잡아요.",
+"example_en": "Set the speed ramp section to match the emphasis point of the action."
+},
+{
+"id": "film-518",
+"field": "film",
+"term_ko": "옵티컬 플로우",
+"term_en": "Optical Flow",
+"english": "Optical Flow",
+"aliases_ko": [],
+"definition_ko": "연속 프레임 사이의 움직임을 추정하는 기술. 영상 보간이나 속도 변환 등에 활용한다.",
+"definition_en": "A technique that estimates motion between consecutive frames. It is used for video interpolation and speed conversion.",
+"example_ko": "옵티컬 플로우 적용 후 손가락 경계가 깨지는지 확인해요.",
+"example_en": "After applying optical flow, check whether the edges of the fingers break up."
+},
+{
+"id": "film-519",
+"field": "film",
+"term_ko": "오버스캔",
+"term_en": "Overscan",
+"english": "Overscan",
+"aliases_ko": [],
+"definition_ko": "표시 화면의 가장자리 일부를 잘라 보여주는 동작이나 이를 고려한 여유 영역을 뜻하는 표현.",
+"definition_en": "The action of cropping off part of the edge of a display, or the term for the margin area that accounts for this.",
+"example_ko": "방송 자막을 배치할 때 오버스캔과 안전 영역을 확인해요.",
+"example_en": "When placing broadcast subtitles, check the overscan and the safe area."
+},
+{
+"id": "film-520",
+"field": "film",
+"term_ko": "다이내믹 레인지",
+"term_en": "Dynamic Range",
+"english": "Dynamic Range",
+"aliases_ko": [
+"DR",
+"다이나믹 레인지"
+],
+"definition_ko": "카메라가 기록하거나 화면이 표현할 수 있는 밝고 어두운 범위.",
+"definition_en": "The range of bright and dark that a camera can record or a display can reproduce.",
+"example_ko": "창밖 하이라이트와 실내 그림자가 다이내믹 레인지 안에 들어오는지 확인해요.",
+"example_en": "Check whether the highlights outside the window and the shadows indoors fall within the dynamic range."
+},
+{
+"id": "film-521",
+"field": "film",
+"term_ko": "크로마 서브샘플링",
+"term_en": "Chroma Subsampling",
+"english": "Chroma Subsampling",
+"aliases_ko": [
+"4:2:2",
+"4:2:0",
+"4:4:4"
+],
+"definition_ko": "영상의 밝기 정보에 비해 색차 정보를 적은 해상도로 저장하는 방식과 그 비율 표기.",
+"definition_en": "A method of storing color-difference information at a lower resolution than the luminance information of a video, and the notation for that ratio.",
+"example_ko": "크로마키 합성용 촬영에서는 크로마 서브샘플링과 비트 깊이를 함께 확인해요.",
+"example_en": "For footage intended for chroma-key compositing, check the chroma subsampling together with the bit depth."
+},
+{
+"id": "film-522",
+"field": "film",
+"term_ko": "비트 깊이",
+"term_en": "Bit Depth",
+"english": "Bit Depth",
+"aliases_ko": [
+"비트뎁스",
+"비트 뎁스",
+"10비트",
+"8비트"
+],
+"definition_ko": "신호의 한 성분 값을 표현하는 데 쓰는 비트 수. 더 많은 단계의 값을 표현할 수 있는 정도와 관련된다.",
+"definition_en": "The number of bits used to represent the value of one component of a signal. It relates to how many levels of values can be represented.",
+"example_ko": "강한 색보정을 하기 전에 원본의 비트 깊이를 확인해요.",
+"example_en": "Before applying heavy color grading, check the bit depth of the source."
+},
+{
+"id": "film-523",
+"field": "film",
+"term_ko": "밴딩",
+"term_en": "Banding",
+"english": "Banding",
+"aliases_ko": [],
+"definition_ko": "매끄러워야 할 명암이나 색 변화가 띠처럼 끊어져 보이는 현상.",
+"definition_en": "A phenomenon where a gradation of brightness or color that should be smooth appears broken up into bands.",
+"example_ko": "하늘 그라데이션에 밴딩이 생기지 않는지 납품 파일을 확인해요.",
+"example_en": "Check the delivery file to ensure no banding appears in the sky gradient."
+},
+{
+"id": "film-524",
+"field": "film",
+"term_ko": "라운드트립",
+"term_en": "Round Trip",
+"english": "Round Trip",
+"aliases_ko": [
+"라운드 트립"
+],
+"definition_ko": "편집 프로젝트를 색보정·음향 등 다른 도구로 보냈다가 결과를 원래 작업에 다시 연결하는 흐름.",
+"definition_en": "A workflow where an editing project is sent to another tool such as color grading or sound, and the result is reconnected back to the original work.",
+"example_ko": "색보정 라운드트립 전에 프레임 레이트와 파일명을 맞춰요.",
+"example_en": "Before a color-grading round trip, align the frame rate and the file names."
+},
+{
+"id": "design-471",
+"field": "design",
+"term_ko": "인스턴스",
+"term_en": "Instance",
+"english": "Instance",
+"aliases_ko": [
+"컴포넌트 인스턴스"
+],
+"definition_ko": "원본 컴포넌트와 연결된 사용본. 원본의 구조나 스타일 변경을 이어받으면서 일부 속성을 따로 바꿀 수 있다.",
+"definition_en": "A used copy linked to a master component. It inherits structural or style changes from the master while some properties can be changed separately.",
+"example_ko": "버튼 인스턴스의 문구만 바꾸고 공통 스타일 연결은 유지해요.",
+"example_en": "Change only the text of the button instance while keeping the shared style link."
+},
+{
+"id": "design-472",
+"field": "design",
+"term_ko": "컨스트레인트",
+"term_en": "Constraint",
+"english": "Constraints",
+"aliases_ko": [
+"리사이징 제약",
+"제약 조건"
+],
+"definition_ko": "부모 프레임의 크기가 바뀔 때 자식 요소의 위치·크기가 어떻게 반응할지 정하는 규칙.",
+"definition_en": "A rule that determines how a child element's position and size respond when the parent frame's size changes.",
+"example_ko": "화면 폭이 늘어도 버튼이 오른쪽에 붙도록 컨스트레인트를 설정해요.",
+"example_en": "Set constraints so the button stays pinned to the right even as the screen width grows."
+},
+{
+"id": "design-473",
+"field": "design",
+"term_ko": "오버라이드",
+"term_en": "Override",
+"english": "Override",
+"aliases_ko": [
+"컴포넌트 오버라이드"
+],
+"definition_ko": "컴포넌트 사용본에서 문구·이미지·속성 등을 원본과 다르게 지정하는 것.",
+"definition_en": "Specifying text, images, or properties differently from the master in a component instance.",
+"example_ko": "인스턴스의 오버라이드가 원본 업데이트 후 유지되는지 확인해요.",
+"example_en": "Check whether the instance's overrides are preserved after the master is updated."
+},
+{
+"id": "design-474",
+"field": "design",
+"term_ko": "디태치",
+"term_en": "Detach",
+"english": "Detach Instance",
+"aliases_ko": [
+"인스턴스 분리",
+"디태치 인스턴스"
+],
+"definition_ko": "컴포넌트 사용본과 원본 사이의 연결을 끊고 독립적인 요소로 바꾸는 것.",
+"definition_en": "Breaking the link between a component instance and its master, turning it into an independent element.",
+"example_ko": "특수한 화면만 디태치할지 원본 배리언트를 늘릴지 먼저 검토해요.",
+"example_en": "First consider whether to detach only the special screen or to add more master variants."
+},
+{
+"id": "design-475",
+"field": "design",
+"term_ko": "네스팅",
+"term_en": "Nesting",
+"english": "Nesting",
+"aliases_ko": [
+"중첩 컴포넌트"
+],
+"definition_ko": "컴포넌트나 레이아웃 안에 다른 컴포넌트·레이아웃을 넣는 구성 방식.",
+"definition_en": "A composition method of placing other components or layouts inside a component or layout.",
+"example_ko": "카드 안의 버튼을 네스팅해 공통 변경을 쉽게 반영해요.",
+"example_en": "Nest the button inside the card to easily apply shared changes."
+},
+{
+"id": "design-476",
+"field": "design",
+"term_ko": "시맨틱 토큰",
+"term_en": "Semantic Token",
+"english": "Semantic Token",
+"aliases_ko": [
+"의미 토큰"
+],
+"definition_ko": "실제 색·크기 값보다 용도나 역할을 이름으로 표현한 디자인 토큰.",
+"definition_en": "A design token that expresses its purpose or role by name rather than the actual color or size value.",
+"example_ko": "오류 메시지 색은 빨강 값 대신 오류 의미의 시맨틱 토큰을 써요.",
+"example_en": "For an error message color, use a semantic token meaning error instead of a red value."
+},
+{
+"id": "design-477",
+"field": "design",
+"term_ko": "옵티컬 정렬",
+"term_en": "Optical Alignment",
+"english": "Optical Alignment",
+"aliases_ko": [
+"시각적 정렬"
+],
+"definition_ko": "좌표상 중심뿐 아니라 형태와 시각적 무게를 고려해 사람이 맞다고 느끼도록 정렬하는 것.",
+"definition_en": "Aligning so that it feels right to people, considering not only the coordinate center but also the shape and visual weight.",
+"example_ko": "원형 아이콘과 글자를 옵티컬 정렬로 미세하게 조정해요.",
+"example_en": "Finely adjust a circular icon and text using optical alignment."
+},
+{
+"id": "design-478",
+"field": "design",
+"term_ko": "옵티컬 사이즈",
+"term_en": "Optical Size",
+"english": "Optical Size",
+"aliases_ko": [
+"광학 크기"
+],
+"definition_ko": "글자가 쓰일 크기에 맞춰 획·간격·디테일 등을 조정한 서체 설계나 가변 축.",
+"definition_en": "A typeface design or variable axis that adjusts strokes, spacing, and details to match the size at which the text is used.",
+"example_ko": "작은 본문은 해당 크기에 맞는 옵티컬 사이즈를 적용해요.",
+"example_en": "Apply an optical size suited to that size for small body text."
+},
+{
+"id": "design-479",
+"field": "design",
+"term_ko": "가변 폰트",
+"term_en": "Variable Font",
+"english": "Variable Font",
+"aliases_ko": [
+"베리어블 폰트"
+],
+"definition_ko": "하나의 폰트 파일 안에서 굵기·폭 등 지원하는 축의 값을 연속적으로 바꿀 수 있는 폰트.",
+"definition_en": "A font that can continuously vary the values of supported axes such as weight and width within a single font file.",
+"example_ko": "가변 폰트의 굵기 축 범위를 확인하고 제목과 본문에 적용해요.",
+"example_en": "Check the weight axis range of the variable font and apply it to headings and body text."
+},
+{
+"id": "design-480",
+"field": "design",
+"term_ko": "디센더",
+"term_en": "Descender",
+"english": "Descender",
+"aliases_ko": [],
+"definition_ko": "기준선 아래로 내려오는 글자의 부분.",
+"definition_en": "The part of a letter that extends below the baseline.",
+"example_ko": "영문 소문자의 디센더가 잘리지 않도록 텍스트 영역을 확인해요.",
+"example_en": "Check the text area so the descenders of lowercase letters are not clipped."
+},
+{
+"id": "design-481",
+"field": "design",
+"term_ko": "캡하이트",
+"term_en": "Cap Height",
+"english": "Cap Height",
+"aliases_ko": [
+"캡 하이트"
+],
+"definition_ko": "서체에서 대문자의 기준 높이.",
+"definition_en": "The reference height of capital letters in a typeface.",
+"example_ko": "서로 다른 폰트를 섞을 때 캡하이트를 기준으로 크기를 맞춰요.",
+"example_en": "When mixing different fonts, match their sizes based on cap height."
+},
+{
+"id": "design-482",
+"field": "design",
+"term_ko": "로고 락업",
+"term_en": "Logo Lockup",
+"english": "Logo Lockup",
+"aliases_ko": [
+"로고 조합",
+"락업"
+],
+"definition_ko": "심벌·워드마크·태그라인 등을 정해진 관계로 묶은 로고 조합.",
+"definition_en": "A logo combination that binds the symbol, wordmark, tagline, and so on in a fixed relationship.",
+"example_ko": "가로형 로고 락업의 최소 여백을 가이드에 표시해요.",
+"example_en": "Mark the minimum clear space of the horizontal logo lockup in the guidelines."
+},
+{
+"id": "design-483",
+"field": "design",
+"term_ko": "워드마크",
+"term_en": "Wordmark",
+"english": "Wordmark",
+"aliases_ko": [
+"로고타입",
+"워드 마크"
+],
+"definition_ko": "브랜드 이름의 글자 형태를 중심으로 만든 로고.",
+"definition_en": "A logo built around the lettering of a brand name.",
+"example_ko": "워드마크의 자간을 작은 크기에서도 읽히게 다듬어요.",
+"example_en": "Refine the letter spacing of the wordmark so it stays legible even at small sizes."
+},
+{
+"id": "design-484",
+"field": "design",
+"term_ko": "심벌",
+"term_en": "Symbol",
+"english": "Symbol Mark",
+"aliases_ko": [
+"심볼",
+"심벌마크"
+],
+"definition_ko": "브랜드를 식별하도록 만든 도형이나 이미지 중심의 표식.",
+"definition_en": "A mark centered on a shape or image created to identify a brand.",
+"example_ko": "심벌을 단색과 작은 크기에서도 알아볼 수 있는지 확인해요.",
+"example_en": "Check whether the symbol remains recognizable in a single color and at small sizes."
+},
+{
+"id": "design-485",
+"field": "design",
+"term_ko": "아이코노그래피",
+"term_en": "Iconography",
+"english": "Iconography",
+"aliases_ko": [
+"아이콘 체계"
+],
+"definition_ko": "아이콘의 형태·선·의미·사용 규칙을 일관되게 정한 시각 체계.",
+"definition_en": "A visual system that consistently defines the shape, lines, meaning, and usage rules of icons.",
+"example_ko": "아이코노그래피 가이드에서 선 굵기와 모서리 규칙을 맞춰요.",
+"example_en": "Align the line weight and corner rules in the iconography guide."
+},
+{
+"id": "common-213",
+"field": "common",
+"term_ko": "변경 요청",
+"term_en": "Change Request",
+"english": "Change Request",
+"aliases_ko": [
+"CR",
+"체인지 리퀘스트"
+],
+"definition_ko": "합의한 범위·요건·일정 등을 바꾸어 달라는 공식 또는 관리 대상 요청.",
+"definition_en": "A formal or managed request to change the agreed scope, requirements, schedule, and so on.",
+"example_ko": "변경 요청에 비용과 일정 영향을 함께 기록해요.",
+"example_en": "Record the cost and schedule impact together in the change request."
+},
+{
+"id": "common-214",
+"field": "common",
+"term_ko": "SOW",
+"term_en": "SOW",
+"english": "Statement of Work",
+"aliases_ko": [
+"작업명세서",
+"업무기술서",
+"작업 범위서"
+],
+"definition_ko": "계약·프로젝트에서 수행할 업무 범위·산출물·일정·책임 등을 정리한 문서.",
+"definition_en": "A document that organizes the scope of work, deliverables, schedule, and responsibilities to be performed in a contract or project.",
+"example_ko": "SOW에 수정 횟수와 제외 작업을 구분해요.",
+"example_en": "Separate the number of revisions and the excluded work in the SOW."
+},
+{
+"id": "common-215",
+"field": "common",
+"term_ko": "RACI",
+"term_en": "RACI",
+"english": "Responsible Accountable Consulted Informed",
+"aliases_ko": [
+"책임 할당 매트릭스"
+],
+"definition_ko": "실행·최종책임·협의·공유 대상을 나눠 업무별 책임을 표시하는 표.",
+"definition_en": "A chart that marks responsibility for each task by dividing it into responsible, accountable, consulted, and informed.",
+"example_ko": "승인 누락이 없도록 RACI에서 최종책임자를 확인해요.",
+"example_en": "Check the accountable owner in the RACI so no approval is missed."
+},
+{
+"id": "common-216",
+"field": "common",
+"term_ko": "DACI",
+"term_en": "DACI",
+"english": "Driver Approver Contributors Informed",
+"aliases_ko": [
+"의사결정 역할 모델"
+],
+"definition_ko": "추진자·승인자·기여자·공유 대상을 구분해 의사결정 역할을 정하는 방식.",
+"definition_en": "A method of defining decision-making roles by distinguishing driver, approver, contributor, and informed.",
+"example_ko": "새 정책의 DACI를 정해 누가 결론을 내릴지 명확히 해요.",
+"example_en": "Define the DACI for the new policy to clarify who makes the final call."
+},
+{
+"id": "common-217",
+"field": "common",
+"term_ko": "POC 담당자",
+"term_en": "Point of Contact",
+"english": "Point of Contact",
+"aliases_ko": [
+"담당 연락처",
+"연락 창구",
+"Contact Point"
+],
+"definition_ko": "업무 문의와 조정을 모으는 주된 연락 담당자.",
+"definition_en": "The main contact person who gathers work inquiries and coordination.",
+"example_ko": "이 건의 POC 담당자를 정해 거래처 문의를 한곳에서 받아요.",
+"example_en": "Designate a point of contact for this matter so client inquiries are received in one place."
+},
+{
+"id": "common-218",
+"field": "common",
+"term_ko": "EOD",
+"term_en": "EOD",
+"english": "End of Day",
+"aliases_ko": [
+"업무 종료 시점",
+"이오디"
+],
+"definition_ko": "그날의 업무 종료 시점을 뜻하는 마감 표현. 시간대와 실제 시각을 합의해 쓰는 것이 좋다.",
+"definition_en": "A deadline expression meaning the end of the workday. It is best used after agreeing on the time zone and the actual time.",
+"example_ko": "해외 담당자와 EOD가 어느 시간대인지 먼저 맞춰요.",
+"example_en": "First align with the overseas contact on which time zone EOD refers to."
+},
+{
+"id": "common-219",
+"field": "common",
+"term_ko": "EOW",
+"term_en": "EOW",
+"english": "End of Week",
+"aliases_ko": [
+"주말 전",
+"이오더블유"
+],
+"definition_ko": "해당 업무 주간의 종료 시점을 뜻하는 마감 표현.",
+"definition_en": "A deadline expression meaning the end of the given work week.",
+"example_ko": "EOW까지 전달한다는 말 대신 금요일 몇 시인지 확인해요.",
+"example_en": "Instead of saying you will deliver by EOW, confirm what time on Friday."
+},
+{
+"id": "common-220",
+"field": "common",
+"term_ko": "BAU",
+"term_en": "BAU",
+"english": "Business as Usual",
+"aliases_ko": [
+"정상 운영",
+"일상 운영"
+],
+"definition_ko": "프로젝트성 변화 업무와 구분되는 평소의 일상 업무나 정상 운영 상태.",
+"definition_en": "Ordinary day-to-day work or a normal operating state, as distinguished from project-based change work.",
+"example_ko": "전환 작업 중에도 BAU 문의를 처리할 담당자를 따로 둬요.",
+"example_en": "Assign a separate person to handle BAU inquiries even during the transition work."
+},
+{
+"id": "common-221",
+"field": "common",
+"term_ko": "OJT",
+"term_en": "OJT",
+"english": "On-the-job Training",
+"aliases_ko": [
+"현장 직무교육",
+"오제이티"
+],
+"definition_ko": "실제 업무를 수행하며 필요한 지식과 기술을 배우는 교육 방식.",
+"definition_en": "A training method of learning the necessary knowledge and skills while performing actual work.",
+"example_ko": "OJT에서 직접 해 볼 업무와 확인 기준을 정해요.",
+"example_en": "In OJT, define the tasks to be tried hands-on and the criteria for checking them."
+},
+{
+"id": "common-222",
+"field": "common",
+"term_ko": "인테이크",
+"term_en": "Intake",
+"english": "Intake",
+"aliases_ko": [
+"요청 접수"
+],
+"definition_ko": "업무 요청을 받아 내용·우선순위·담당 등을 정리하는 초기 접수 과정.",
+"definition_en": "The initial reception process of receiving a work request and organizing its content, priority, and assignment.",
+"example_ko": "인테이크 양식에 요청 목적과 필요한 날짜를 적어 주세요.",
+"example_en": "Please write the purpose of the request and the needed date on the intake form."
+},
+{
+"id": "common-223",
+"field": "common",
+"term_ko": "핸드셰이크",
+"term_en": "Handshake",
+"english": "Handshake",
+"aliases_ko": [
+"합의 확인"
+],
+"definition_ko": "담당자 사이에서 인계 조건이나 역할·범위를 서로 확인하고 합의했다는 비유적 업무 표현.",
+"definition_en": "A figurative work expression meaning that the parties have mutually confirmed and agreed on handover conditions, roles, or scope.",
+"example_ko": "운영팀과 장애 대응 범위의 핸드셰이크를 마쳤어요.",
+"example_en": "We have completed the handshake with the operations team on the incident-response scope."
+},
+{
+"id": "common-224",
+"field": "common",
+"term_ko": "오너십",
+"term_en": "Ownership",
+"english": "Ownership",
+"aliases_ko": [
+"오너쉽",
+"책임 주체"
+],
+"definition_ko": "어떤 일의 결과를 책임지고 끝까지 관리하는 태도 또는 책임의 귀속.",
+"definition_en": "The attitude of taking responsibility for the outcome of something and managing it to the end, or the attribution of responsibility.",
+"example_ko": "공동 과제라도 최종 오너십을 맡을 사람을 정해요.",
+"example_en": "Even for a joint task, decide who will take final ownership."
+},
+{
+"id": "hrfinance-472",
+"field": "hrfinance",
+"term_ko": "장부 털다",
+"term_en": "Clear the Books",
+"english": "",
+"aliases_ko": [
+"장부를 털다",
+"잔액 털다",
+"잔액을 털다"
+],
+"definition_ko": "남아 있는 미결·잔액의 원인을 확인해 적절한 회계처리로 정리한다는 실무 표현. 근거 없이 금액을 없앤다는 뜻은 아니다.",
+"definition_en": "A practical expression meaning to identify the cause of remaining open items or balances and settle them with appropriate accounting treatment. It does not mean erasing amounts without basis.",
+"example_ko": "오래된 가수금은 입금 근거를 확인한 뒤 장부를 털기로 했어요.",
+"example_en": "We decided to clear the books on the old suspense receipts after verifying the deposit records."
+},
+{
+"id": "hrfinance-473",
+"field": "hrfinance",
+"term_ko": "비용 이연",
+"term_en": "Expense Deferral",
+"english": "",
+"aliases_ko": [
+"비용을 이연하다",
+"비용 넘기다"
+],
+"definition_ko": "비용 인식 시점을 이후 기간으로 넘겨 잡는 것. 단순한 실적 조정이 아니라 적용 기준에 맞는 귀속 판단이 필요하다.",
+"definition_en": "Recognizing an expense in a later period. It is not a simple performance adjustment but requires an attribution judgment that meets the applicable criteria.",
+"example_ko": "선급 보험료 중 다음 기간에 해당하는 금액의 비용 이연을 확인해요.",
+"example_en": "Check the expense deferral for the portion of prepaid insurance that belongs to the next period."
+},
+{
+"id": "hrfinance-474",
+"field": "hrfinance",
+"term_ko": "매출 잡다",
+"term_en": "Book Revenue",
+"english": "",
+"aliases_ko": [
+"매출을 잡다",
+"매출 잡히다"
+],
+"definition_ko": "거래의 수익 인식 요건과 귀속 시점에 맞춰 매출을 회계에 반영한다는 표현.",
+"definition_en": "An expression meaning to reflect sales in the accounts in line with the revenue recognition criteria and the attribution timing of a transaction.",
+"example_ko": "검수가 끝나지 않은 건을 이번 달 매출로 잡을 수 있는지 검토해요.",
+"example_en": "Review whether a case for which inspection is not yet complete can be booked as this month's revenue."
+},
+{
+"id": "hrfinance-475",
+"field": "hrfinance",
+"term_ko": "기장 맡기다",
+"term_en": "Outsource Bookkeeping",
+"english": "",
+"aliases_ko": [
+"기장을 맡기다",
+"기장 대행"
+],
+"definition_ko": "거래 기록과 장부 작성 업무를 외부 회계·세무 서비스에 맡긴다는 말.",
+"definition_en": "Entrusting the work of recording transactions and keeping the books to an external accounting or tax service.",
+"example_ko": "기장을 맡겨도 회사에서 증빙과 거래 내용을 정확히 전달해야 해요.",
+"example_en": "Even when bookkeeping is outsourced, the company must accurately provide the supporting documents and transaction details."
+},
+{
+"id": "hrfinance-476",
+"field": "hrfinance",
+"term_ko": "티오 열다",
+"term_en": "Open a Headcount Slot",
+"english": "",
+"aliases_ko": [
+"TO 오픈",
+"티오를 열다",
+"티오 오픈"
+],
+"definition_ko": "채용할 자리를 승인하거나 채용을 시작할 수 있도록 연다는 표현.",
+"definition_en": "An expression meaning to approve a position to hire for, or to open it so hiring can begin.",
+"example_ko": "퇴사자 대체 채용은 예산 확인 후 티오를 열기로 했어요.",
+"example_en": "We decided to open the headcount slot for the replacement hire after confirming the budget."
+},
+{
+"id": "hrfinance-477",
+"field": "hrfinance",
+"term_ko": "오퍼 나가다",
+"term_en": "Offer Goes Out",
+"english": "",
+"aliases_ko": [
+"오퍼 내다",
+"오퍼를 내다",
+"오퍼 보내다"
+],
+"definition_ko": "후보자에게 입사 조건을 담은 제안을 전달한다는 표현.",
+"definition_en": "An expression meaning that a proposal containing the employment terms is delivered to a candidate.",
+"example_ko": "처우 승인이 끝나면 후보자에게 오퍼가 나가요.",
+"example_en": "Once the compensation is approved, the offer goes out to the candidate."
+},
+{
+"id": "hrfinance-478",
+"field": "hrfinance",
+"term_ko": "테이블 맞추다",
+"term_en": "Align to the Pay Scale",
+"english": "",
+"aliases_ko": [
+"연봉 테이블 맞추다"
+],
+"definition_ko": "직무·직급·경력 등에 해당하는 회사 보상 기준 안에서 급여 조건을 조정한다는 표현.",
+"definition_en": "An expression meaning to adjust salary terms within the company's compensation standards for the relevant job, grade, and experience.",
+"example_ko": "오퍼 금액은 내부 형평성을 검토해 연봉 테이블에 맞춰요.",
+"example_en": "Review internal equity and align the offer amount to the salary table."
+},
+{
+"id": "hrfinance-479",
+"field": "hrfinance",
+"term_ko": "처우 맞추다",
+"term_en": "Align the Compensation Package",
+"english": "",
+"aliases_ko": [
+"처우를 맞추다"
+],
+"definition_ko": "보수·직급·복지 등 입사 조건을 회사 기준과 후보자의 기대 사이에서 조율한다는 표현.",
+"definition_en": "An expression meaning to coordinate employment terms such as pay, grade, and benefits between the company's standards and the candidate's expectations.",
+"example_ko": "기본급과 성과급을 분리해 처우를 맞춰요.",
+"example_en": "Separate base pay and incentives to align the compensation package."
+},
+{
+"id": "marketing-653",
+"field": "marketing",
+"term_ko": "워싱",
+"term_en": "Polishing",
+"english": "Washing",
+"aliases_ko": [
+"워싱하다",
+"문구 워싱",
+"카피 워싱"
+],
+"definition_ko": "초안의 표현·구성·톤을 다듬어 전달하기 좋은 상태로 정리한다는 말. 기만적 홍보를 뜻하는 그린워싱과는 다른 문맥이다.",
+"definition_en": "An expression meaning to refine the wording, structure, and tone of a draft into a state that is easy to deliver. It is a different context from greenwashing, which means deceptive promotion.",
+"example_ko": "광고주에게 보내기 전에 과장된 표현을 줄이는 방향으로 카피를 워싱해요.",
+"example_en": "Before sending it to the client, polish the copy by toning down exaggerated expressions."
+},
+{
+"id": "marketing-654",
+"field": "marketing",
+"term_ko": "장표 치다",
+"term_en": "Build Slides",
+"english": "",
+"aliases_ko": [
+"장표를 치다",
+"장표 작업"
+],
+"definition_ko": "보고·제안에 쓸 발표 자료의 페이지를 구성하고 작성한다는 말.",
+"definition_en": "An expression meaning to structure and write the pages of a presentation deck for a report or proposal.",
+"example_ko": "합의된 전략을 기준으로 경쟁 PT 장표를 쳐요.",
+"example_en": "Build the pitch deck slides based on the agreed strategy."
+},
+{
+"id": "marketing-655",
+"field": "marketing",
+"term_ko": "예산 태우다",
+"term_en": "Burn Budget",
+"english": "",
+"aliases_ko": [
+"예산을 태우다",
+"광고비 태우다",
+"광고비를 태우다"
+],
+"definition_ko": "광고 예산을 실제 매체 집행에 사용한다는 구어적 표현.",
+"definition_en": "A colloquial expression meaning to actually spend the advertising budget on media placement.",
+"example_ko": "새 소재에 예산을 태우기 전에 전환 추적이 정상인지 확인해요.",
+"example_en": "Before burning budget on new creative, check that conversion tracking is working."
+},
+{
+"id": "marketing-656",
+"field": "marketing",
+"term_ko": "소재 돌리다",
+"term_en": "Run Creative",
+"english": "",
+"aliases_ko": [
+"소재를 돌리다",
+"광고 돌리다"
+],
+"definition_ko": "광고 소재를 매체에 집행하거나 여러 소재를 번갈아 운영한다는 말.",
+"definition_en": "An expression meaning to place ad creative on media or to run multiple creatives in rotation.",
+"example_ko": "피로도가 높아져 새 소재를 소액으로 돌려 봐요.",
+"example_en": "Fatigue has risen, so run new creative with a small budget to test it."
+},
+{
+"id": "marketing-657",
+"field": "marketing",
+"term_ko": "딴 안",
+"term_en": "Alternate Option",
+"english": "",
+"aliases_ko": [
+"다른 안",
+"딴안"
+],
+"definition_ko": "현재 제안과 다른 방향으로 만든 대안.",
+"definition_en": "An alternative made in a different direction from the current proposal.",
+"example_ko": "메시지는 유지하되 표현 방식이 다른 딴 안도 준비해요.",
+"example_en": "Keep the message but also prepare an alternate option with a different style of expression."
+},
+{
+"id": "marketing-658",
+"field": "marketing",
+"term_ko": "카피 갈다",
+"term_en": "Rework Copy",
+"english": "",
+"aliases_ko": [
+"카피를 갈다",
+"문구 갈다"
+],
+"definition_ko": "광고 문구를 다시 쓰거나 여러 차례 다듬는다는 표현.",
+"definition_en": "An expression meaning to rewrite advertising copy or refine it multiple times.",
+"example_ko": "제품 장점이 명확해지도록 헤드라인 카피를 갈아 봐요.",
+"example_en": "Rework the headline copy so the product's advantages become clear."
+},
+{
+"id": "marketing-659",
+"field": "marketing",
+"term_ko": "한 줄 정리",
+"term_en": "One-Line Summary",
+"english": "",
+"aliases_ko": [
+"한줄정리",
+"원라인"
+],
+"definition_ko": "캠페인의 핵심 논리나 메시지를 짧은 한 문장으로 압축하는 작업.",
+"definition_en": "The work of condensing a campaign's core logic or message into a short single sentence.",
+"example_ko": "제안서 앞단을 쓰기 전에 소비자가 얻을 가치를 한 줄로 정리해요.",
+"example_en": "Before writing the opening of the proposal, summarize the value the consumer gets in one line."
+},
+{
+"id": "marketing-660",
+"field": "marketing",
+"term_ko": "역제안",
+"term_en": "Counterproposal",
+"english": "Counterproposal",
+"aliases_ko": [
+"역 제안"
+],
+"definition_ko": "광고주 요청을 그대로 수행하기보다 목표에 더 맞는 다른 방법이나 조건을 제시하는 것.",
+"definition_en": "Presenting a different method or condition that better fits the goal, rather than simply carrying out the client's request as-is.",
+"example_ko": "요청된 매체보다 타깃 접점이 좋은 채널을 역제안해요.",
+"example_en": "Counterpropose a channel with better target touchpoints than the requested medium."
+},
+{
+"id": "dev-474",
+"field": "dev",
+"term_ko": "브랜치 따다",
+"term_en": "Cut a Branch",
+"english": "",
+"aliases_ko": [
+"브랜치를 따다",
+"브랜치 파다"
+],
+"definition_ko": "기준 브랜치 등에서 새 작업 브랜치를 만든다는 말.",
+"definition_en": "An expression meaning to create a new working branch from a base branch or similar.",
+"example_ko": "핫픽스는 현재 운영 버전에서 브랜치를 따서 작업해요.",
+"example_en": "For hotfixes, cut a branch from the current production version to work on it."
+},
+{
+"id": "dev-475",
+"field": "dev",
+"term_ko": "코드 박다",
+"term_en": "Hardcode",
+"english": "",
+"aliases_ko": [
+"값 박다",
+"값을 박다",
+"상수 박다"
+],
+"definition_ko": "값이나 처리를 코드 안에 직접 넣는다는 표현. 설정 대신 고정값을 넣는 문맥에서 자주 쓴다.",
+"definition_en": "An expression meaning to put a value or processing directly into the code. It is often used in the context of putting in a fixed value instead of a configuration.",
+"example_ko": "환경마다 다른 주소를 코드에 박지 말고 설정으로 분리해요.",
+"example_en": "Do not hardcode addresses that differ per environment; separate them into configuration."
+},
+{
+"id": "dev-476",
+"field": "dev",
+"term_ko": "로그 심다",
+"term_en": "Add Logging",
+"english": "",
+"aliases_ko": [
+"로그를 심다"
+],
+"definition_ko": "실행 상태나 오류를 확인할 수 있도록 기록 코드를 추가한다는 말.",
+"definition_en": "An expression meaning to add logging code so the execution state or errors can be checked.",
+"example_ko": "재현이 어려운 구간에 개인정보를 제외한 진단 로그를 심어요.",
+"example_en": "Add diagnostic logging, excluding personal information, to the section that is hard to reproduce."
+},
+{
+"id": "dev-477",
+"field": "dev",
+"term_ko": "서버 띄우다",
+"term_en": "Spin Up a Server",
+"english": "",
+"aliases_ko": [
+"서버를 띄우다",
+"서버 올리다"
+],
+"definition_ko": "서버 프로그램이나 인스턴스를 실행해 요청을 받을 수 있게 한다는 말.",
+"definition_en": "An expression meaning to run a server program or instance so it can accept requests.",
+"example_ko": "로컬 서버를 띄운 뒤 API 응답을 확인해요.",
+"example_en": "After spinning up the local server, check the API responses."
+},
+{
+"id": "dev-478",
+"field": "dev",
+"term_ko": "디비 밀다",
+"term_en": "Wipe the DB",
+"english": "",
+"aliases_ko": [
+"DB 밀다",
+"DB를 밀다",
+"디비를 밀다"
+],
+"definition_ko": "데이터베이스의 내용을 비우거나 초기화한다는 표현. 삭제 범위를 반드시 구체적으로 확인해야 한다.",
+"definition_en": "An expression meaning to empty or reset the contents of a database. The scope of deletion must always be confirmed specifically.",
+"example_ko": "테스트 디비를 밀기 전에 운영 연결이 아닌지 확인해요.",
+"example_en": "Before wiping the test DB, confirm it is not connected to production."
+},
+{
+"id": "dev-479",
+"field": "dev",
+"term_ko": "쿼리 날리다",
+"term_en": "Fire a Query",
+"english": "",
+"aliases_ko": [
+"쿼리를 날리다"
+],
+"definition_ko": "데이터베이스 등에 조회·변경 요청을 실행한다는 말.",
+"definition_en": "An expression meaning to run a read or modify request against a database or similar.",
+"example_ko": "대용량 테이블에 쿼리를 날리기 전에 실행 계획을 봐요.",
+"example_en": "Before firing a query against a large table, review the execution plan."
+},
+{
+"id": "dev-480",
+"field": "dev",
+"term_ko": "노가다 코드",
+"term_en": "Grunt-Work Code",
+"english": "",
+"aliases_ko": [
+"반복 코드"
+],
+"definition_ko": "비슷한 처리를 반복해서 손으로 작성한 코드를 가리키는 비공식 표현.",
+"definition_en": "An informal expression referring to code written by hand, repeating similar processing.",
+"example_ko": "노가다 코드를 공통 함수로 묶을 수 있는지 리뷰해요.",
+"example_en": "Review whether the grunt-work code can be consolidated into a shared function."
+},
+{
+"id": "dev-481",
+"field": "dev",
+"term_ko": "매직 넘버",
+"term_en": "Magic Number",
+"english": "Magic Number",
+"aliases_ko": [
+"매직넘버"
+],
+"definition_ko": "의미를 설명하는 이름 없이 코드에 직접 적혀 있는 특정 숫자 값.",
+"definition_en": "A specific numeric value written directly in code without a name that explains its meaning.",
+"example_ko": "타임아웃의 매직 넘버를 단위가 드러나는 상수로 바꿔요.",
+"example_en": "Replace the timeout's magic number with a constant that reveals its unit."
+},
+{
+"id": "fashion-615",
+"field": "fashion",
+"term_ko": "완사입",
+"term_en": "Outright Purchase",
+"english": "",
+"aliases_ko": [
+"완사",
+"완사 매입"
+],
+"definition_ko": "소매업체 등이 상품을 직접 매입해 재고·판매 부담을 지는 거래 방식. 반품 가능 범위는 거래 조건에 따른다.",
+"definition_en": "A transaction method where a retailer or similar buys goods outright and bears the inventory and sales risk. The scope of possible returns depends on the transaction terms.",
+"example_ko": "완사입 상품의 불량 교환과 반품 조건을 먼저 확인해요.",
+"example_en": "First confirm the defect-exchange and return terms for outright-purchase goods."
+},
+{
+"id": "fashion-616",
+"field": "fashion",
+"term_ko": "깔별",
+"term_en": "By Color",
+"english": "",
+"aliases_ko": [
+"컬러별",
+"색상별"
+],
+"definition_ko": "같은 상품을 색상별로 나누어 말하는 현장 표현.",
+"definition_en": "A field expression for dividing the same product by color.",
+"example_ko": "이 셔츠는 깔별로 판매량이 달라 리오더 수량을 나눠요.",
+"example_en": "Sales of this shirt differ by color, so split the reorder quantity accordingly."
+},
+{
+"id": "fashion-617",
+"field": "fashion",
+"term_ko": "낱장",
+"term_en": "Single Unit",
+"english": "",
+"aliases_ko": [
+"낱장 주문",
+"한 장 주문"
+],
+"definition_ko": "묶음이나 일정 수량이 아닌 상품 한 장 단위의 주문·거래를 뜻하는 말.",
+"definition_en": "An expression meaning an order or transaction of a single piece of goods, rather than a bundle or set quantity.",
+"example_ko": "신규 거래처에 낱장 주문이 가능한지 확인해요.",
+"example_en": "Check with the new client whether single-unit orders are possible."
+},
+{
+"id": "fashion-618",
+"field": "fashion",
+"term_ko": "합포",
+"term_en": "Combined Packing",
+"english": "",
+"aliases_ko": [
+"합배송 포장",
+"합포장"
+],
+"definition_ko": "여러 상품이나 주문 건을 하나의 포장으로 합쳐 발송하는 것.",
+"definition_en": "Combining multiple products or orders into a single package for shipping.",
+"example_ko": "합포 가능한 주문을 묶되 수취인과 출고일을 확인해요.",
+"example_en": "Bundle orders eligible for combined packing, but confirm the recipient and the ship date.",
+"note_ko": "이 항목은 출고·포장의 합포장이라는 뜻입니다. 원단을 붙이는 가공은 ‘합포 가공’을 참고하세요.",
+"note_en": "This entry means combined packing in shipping and packaging. For the processing of bonding fabrics, see 'fabric bonding.'"
+},
+{
+"id": "fashion-619",
+"field": "fashion",
+"term_ko": "맞바꿈",
+"term_en": "Swap Exchange",
+"english": "",
+"aliases_ko": [
+"불량 맞교환",
+"맞교환"
+],
+"definition_ko": "불량품 등을 회수하면서 교환품을 함께 주고받는 방식.",
+"definition_en": "A method of handing over a replacement item while collecting a defective item.",
+"example_ko": "불량 맞바꿈 건은 수량과 품번을 장끼에 표시해요.",
+"example_en": "For defect swap exchanges, note the quantity and style number on the delivery slip."
+},
+{
+"id": "fashion-620",
+"field": "fashion",
+"term_ko": "박다",
+"term_en": "Stitch",
+"english": "",
+"aliases_ko": [
+"미싱 박다",
+"박음질하다"
+],
+"definition_ko": "재봉틀로 원단을 봉제한다는 현장 표현.",
+"definition_en": "A field expression meaning to sew fabric with a sewing machine.",
+"example_ko": "주머니 위치를 확인한 뒤 상침을 박아 주세요.",
+"example_en": "After checking the pocket position, stitch the topstitching."
+},
+{
+"id": "fashion-621",
+"field": "fashion",
+"term_ko": "뜯다",
+"term_en": "Unpick",
+"english": "",
+"aliases_ko": [
+"봉제 뜯다",
+"실밥 뜯다"
+],
+"definition_ko": "수정 등을 위해 기존 봉제선의 실을 풀어 해체한다는 말.",
+"definition_en": "An expression meaning to undo the thread of an existing seam to take it apart, for example for alterations.",
+"example_ko": "핏 수정을 위해 옆선을 뜯기 전에 시접 여유를 확인해요.",
+"example_en": "Before unpicking the side seam for a fit adjustment, check the seam allowance."
+},
+{
+"id": "film-525",
+"field": "film",
+"term_ko": "핀 나가다",
+"term_en": "Out of Focus",
+"english": "",
+"aliases_ko": [
+"핀이 나가다",
+"핀 나감",
+"아웃포커스 오류"
+],
+"definition_ko": "의도한 피사체에 초점이 맞지 않은 상태를 말한다.",
+"definition_en": "Refers to a state where the intended subject is not in focus.",
+"example_ko": "중요 대사 컷의 눈에 핀이 나가서 다시 촬영했어요.",
+"example_en": "The eyes were out of focus in the key-line shot, so we reshot it."
+},
+{
+"id": "film-526",
+"field": "film",
+"term_ko": "핀 맞다",
+"term_en": "In Focus",
+"english": "",
+"aliases_ko": [
+"핀이 맞다",
+"핀 맞추다"
+],
+"definition_ko": "의도한 피사체에 초점이 정확히 맞는 상태를 말한다.",
+"definition_en": "Refers to a state where the intended subject is precisely in focus.",
+"example_ko": "배우가 멈추는 위치에서 눈에 핀이 맞는지 확대해 확인해요.",
+"example_en": "Zoom in to check whether the eyes are in focus at the spot where the actor stops."
+},
+{
+"id": "film-527",
+"field": "film",
+"term_ko": "프레임 튀다",
+"term_en": "Frame Jump",
+"english": "",
+"aliases_ko": [
+"프레임이 튀다",
+"프레임 점프"
+],
+"definition_ko": "프레임 누락·중복이나 편집 연결 문제 등으로 화면 움직임이 순간적으로 끊겨 보인다는 표현.",
+"definition_en": "An expression meaning the on-screen motion momentarily appears to break up due to dropped or duplicated frames or an editing-connection problem.",
+"example_ko": "납품본에서 프레임이 튀는 구간을 원본과 비교해요.",
+"example_en": "Compare the sections where frames jump in the delivery version against the original."
+},
+{
+"id": "film-528",
+"field": "film",
+"term_ko": "소리 물리다",
+"term_en": "Overlap Audio",
+"english": "",
+"aliases_ko": [
+"소리를 물리다",
+"오디오 겹치다"
+],
+"definition_ko": "앞뒤 컷의 오디오를 겹치거나 연결해 장면 전환을 자연스럽게 만든다는 말.",
+"definition_en": "An expression meaning to overlap or connect the audio of the preceding and following cuts to make the scene transition natural.",
+"example_ko": "다음 장면의 소리를 먼저 물려 전환을 부드럽게 해요.",
+"example_en": "Overlap the audio of the next scene first to smooth the transition."
+},
+{
+"id": "film-529",
+"field": "film",
+"term_ko": "컷 쪼개다",
+"term_en": "Split Cuts",
+"english": "",
+"aliases_ko": [
+"컷을 쪼개다"
+],
+"definition_ko": "한 구간을 여러 짧은 컷으로 나눠 편집한다는 표현.",
+"definition_en": "An expression meaning to divide a single section into several short cuts for editing.",
+"example_ko": "정보가 많은 구간은 컷을 쪼개되 의미가 끊기지 않게 해요.",
+"example_en": "Split the cuts in information-heavy sections, but keep the meaning from breaking."
+},
+{
+"id": "design-486",
+"field": "design",
+"term_ko": "텍스트 깨다",
+"term_en": "Outline Text",
+"english": "",
+"aliases_ko": [
+"글자 깨다",
+"폰트 깨다",
+"서체 깨다"
+],
+"definition_ko": "텍스트를 글자 편집이 가능한 상태에서 벡터 윤곽선 형태로 바꾼다는 말.",
+"definition_en": "An expression meaning to convert text from an editable state into vector outlines.",
+"example_ko": "인쇄용 파일은 폰트 사용 조건을 확인하고 필요한 텍스트를 깨서 전달해요.",
+"example_en": "For print files, check the font usage terms and outline the necessary text before handing it over."
+},
+{
+"id": "design-487",
+"field": "design",
+"term_ko": "패스 따다",
+"term_en": "Trace a Path",
+"english": "",
+"aliases_ko": [
+"패스를 따다",
+"윤곽 따다"
+],
+"definition_ko": "대상의 외곽을 따라 벡터 경로를 그린다는 표현.",
+"definition_en": "An expression meaning to draw a vector path along the outline of a subject.",
+"example_ko": "로고 이미지의 윤곽을 패스로 딴 뒤 곡선을 다듬어요.",
+"example_en": "Trace a path along the outline of the logo image, then refine the curves."
+},
+{
+"id": "design-488",
+"field": "design",
+"term_ko": "톤 맞추다",
+"term_en": "Match the Tone",
+"english": "",
+"aliases_ko": [
+"톤을 맞추다"
+],
+"definition_ko": "색감·대비·이미지 분위기 등을 전체 시각 방향에 맞게 조정한다는 표현.",
+"definition_en": "An expression meaning to adjust color, contrast, and image mood to fit the overall visual direction.",
+"example_ko": "서로 다른 촬영일의 제품 사진 톤을 맞춰요.",
+"example_en": "Match the tone of product photos shot on different days."
+},
+{
+"id": "design-489",
+"field": "design",
+"term_ko": "앉히다",
+"term_en": "Place",
+"english": "",
+"aliases_ko": [
+"로고 앉히다",
+"이미지 앉히다"
+],
+"definition_ko": "로고·글자·이미지 등을 레이아웃의 적절한 위치에 배치한다는 말.",
+"definition_en": "An expression meaning to position a logo, text, or image at the appropriate spot in the layout.",
+"example_ko": "상단 여백을 확보한 뒤 로고를 앉혀 주세요.",
+"example_en": "After securing the top margin, place the logo."
+},
+{
+"id": "design-490",
+"field": "design",
+"term_ko": "시안 뽑다",
+"term_en": "Produce a Draft",
+"english": "",
+"aliases_ko": [
+"시안을 뽑다"
+],
+"definition_ko": "검토할 수 있는 디자인 안을 만들거나 출력한다는 표현.",
+"definition_en": "An expression meaning to create or print a design proposal for review.",
+"example_ko": "세로형 매체에 맞는 시안을 먼저 뽑아 봐요.",
+"example_en": "Produce a draft suited to the vertical medium first."
+},
+{
+"id": "design-491",
+"field": "design",
+"term_ko": "깨진 링크",
+"term_en": "Broken Link",
+"english": "",
+"aliases_ko": [
+"링크 깨지다",
+"이미지 링크 누락"
+],
+"definition_ko": "편집 파일에서 참조하는 이미지 등 외부 파일을 찾지 못하는 상태.",
+"definition_en": "A state where an external file such as an image referenced by an editing file cannot be found.",
+"example_ko": "인쇄소 전달 전 깨진 링크가 없는지 패키징 파일을 확인해요.",
+"example_en": "Before handing off to the print shop, check the packaged files for broken links."
+},
+{
+"id": "design-492",
+"field": "design",
+"term_ko": "최종최종",
+"term_en": "Final Final",
+"english": "",
+"aliases_ko": [
+"최종의 최종",
+"진짜 최종"
+],
+"definition_ko": "최종이라고 부른 뒤에도 수정본이 계속 생기는 상황을 자조적으로 부르는 말.",
+"definition_en": "A self-deprecating expression for the situation where revisions keep appearing even after something was called final.",
+"example_ko": "최종최종 파일 대신 승인 날짜와 버전 번호로 납품본을 구분해요.",
+"example_en": "Instead of final final file names, distinguish delivery versions by approval date and version number."
+},
+{
+"id": "common-225",
+"field": "common",
+"term_ko": "갈아엎다",
+"term_en": "Overhaul",
+"english": "",
+"aliases_ko": [
+"갈아 엎다",
+"전면 수정"
+],
+"definition_ko": "기존 안이나 작업을 크게 버리고 방향·구조부터 다시 만든다는 비공식 표현.",
+"definition_en": "An informal expression meaning to largely scrap an existing proposal or work and rebuild it from the direction and structure up.",
+"example_ko": "요구사항이 바뀌어 기존 계획을 갈아엎기 전에 영향부터 확인해요.",
+"example_en": "Before overhauling the existing plan because the requirements changed, first check the impact."
+},
+{
+"id": "common-226",
+"field": "common",
+"term_ko": "핸들링",
+"term_en": "Handling",
+"english": "Handling",
+"aliases_ko": [
+"핸들링하다"
+],
+"definition_ko": "업무나 관계자를 맡아 진행 상황을 관리하고 조율한다는 말.",
+"definition_en": "An expression meaning to take charge of a task or stakeholder and manage and coordinate its progress.",
+"example_ko": "거래처 문의는 지정 담당자가 핸들링해요.",
+"example_en": "Client inquiries are handled by the designated person in charge."
+},
+{
+"id": "common-227",
+"field": "common",
+"term_ko": "드라이브 걸다",
+"term_en": "Push Hard",
+"english": "",
+"aliases_ko": [
+"드라이브를 걸다"
+],
+"definition_ko": "일의 추진 속도와 집중도를 높인다는 비유적 표현.",
+"definition_en": "A figurative expression meaning to raise the pace and focus on driving work forward.",
+"example_ko": "마감이 가까워져 우선순위가 높은 과제에 드라이브를 걸어요.",
+"example_en": "With the deadline near, push hard on the high-priority tasks."
+},
+{
+"id": "common-228",
+"field": "common",
+"term_ko": "케바케",
+"term_en": "Case by Case",
+"english": "Case by Case",
+"aliases_ko": [
+"케이스 바이 케이스",
+"케이스바이케이스"
+],
+"definition_ko": "일률적으로 판단하기보다 상황이나 사례마다 다르다는 뜻의 줄임말.",
+"definition_en": "An abbreviation meaning that things differ by situation or case rather than being judged uniformly.",
+"example_ko": "계약 조건은 케바케라 기존 사례만 보고 확정하지 않아요.",
+"example_en": "Contract terms are case by case, so do not finalize based only on past cases."
+},
+{
+"id": "common-229",
+"field": "common",
+"term_ko": "사바사",
+"term_en": "Person by Person",
+"english": "",
+"aliases_ko": [
+"사람 바이 사람"
+],
+"definition_ko": "사람마다 선호·방식·반응이 다르다는 뜻의 비공식 줄임말.",
+"definition_en": "An informal abbreviation meaning that preferences, methods, and reactions differ from person to person.",
+"example_ko": "보고 방식은 사바사라는 말로 넘기지 말고 팀 기준을 정해요.",
+"example_en": "Do not brush off reporting style as person by person; set a team standard."
+},
+{
+"id": "common-230",
+"field": "common",
+"term_ko": "공유방",
+"term_en": "Shared Chat Room",
+"english": "",
+"aliases_ko": [
+"업무 공유방",
+"단톡방"
+],
+"definition_ko": "업무 공지와 자료를 주고받기 위해 만든 단체 대화 공간을 부르는 말.",
+"definition_en": "A term for a group chat space created to exchange work announcements and materials.",
+"example_ko": "최종 자료는 공유방에만 두지 말고 공용 저장소에도 남겨요.",
+"example_en": "Do not leave the final materials only in the shared chat room; also keep them in the shared repository."
+},
+{
+"id": "common-231",
+"field": "common",
+"term_ko": "짬처리",
+"term_en": "Dumping Grunt Work",
+"english": "",
+"aliases_ko": [
+"짬 처리"
+],
+"definition_ko": "남은 일이나 곤란한 일을 다른 사람에게 떠넘긴다고 느낄 때 쓰는 비판적 표현.",
+"definition_en": "A critical expression used when someone feels that leftover or difficult tasks are being offloaded onto others.",
+"example_ko": "반복되는 짬처리라는 불만이 생겨 업무 분장을 다시 논의했어요.",
+"example_en": "Complaints about repeated dumping of grunt work came up, so we re-discussed the division of duties."
+},
+{
+"id": "common-232",
+"field": "common",
+"term_ko": "터치하다",
+"term_en": "Touch",
+"english": "",
+"aliases_ko": [
+"터치",
+"손보다"
+],
+"definition_ko": "기존 작업의 일부를 수정하거나 관여한다는 구어적 표현.",
+"definition_en": "A colloquial expression meaning to modify or get involved in part of existing work.",
+"example_ko": "승인된 부분을 터치할 때는 변경 사유를 기록해요.",
+"example_en": "When touching an approved part, record the reason for the change."
+},
+{
+"id": "hrfinance-480",
+"field": "hrfinance",
+"term_ko": "IR",
+"term_en": "IR",
+"english": "Investor Relations",
+"aliases_ko": [
+"아이알",
+"투자자 관계"
+],
+"definition_ko": "투자자 등에게 기업의 실적·전략·재무 정보를 설명하고 소통하는 활동.",
+"definition_en": "The activity of explaining and communicating a company's performance, strategy, and financial information to investors and others.",
+"example_ko": "IR 자료의 조정 지표를 공시 수치와 연결해 설명해요.",
+"example_en": "Explain the adjusted metrics in the IR materials by tying them to the disclosed figures."
+},
+{
+"id": "hrfinance-481",
+"field": "hrfinance",
+"term_ko": "밸류에이션",
+"term_en": "Valuation",
+"english": "Valuation",
+"aliases_ko": [
+"밸류",
+"가치평가",
+"기업 가치평가"
+],
+"definition_ko": "기업이나 자산의 경제적 가치를 정한 방법과 가정으로 추정하는 작업.",
+"definition_en": "The work of estimating the economic value of a company or asset with a defined method and assumptions.",
+"example_ko": "밸류에이션에 사용한 비교 기업과 할인율을 명시해요.",
+"example_en": "Specify the comparable companies and the discount rate used in the valuation."
+},
+{
+"id": "hrfinance-482",
+"field": "hrfinance",
+"term_ko": "멀티플",
+"term_en": "Multiple",
+"english": "Valuation Multiple",
+"aliases_ko": [
+"멀티풀",
+"가치평가 배수"
+],
+"definition_ko": "이익·매출 등의 지표에 대한 기업가치·지분가치의 배수.",
+"definition_en": "A multiple of enterprise value or equity value relative to a metric such as earnings or revenue.",
+"example_ko": "비교 회사 멀티플을 볼 때 지표의 산정 기간을 통일해요.",
+"example_en": "When looking at comparable-company multiples, standardize the measurement period of the metric."
+},
+{
+"id": "hrfinance-483",
+"field": "hrfinance",
+"term_ko": "EV/EBITDA",
+"term_en": "EV/EBITDA",
+"english": "Enterprise Value to EBITDA",
+"aliases_ko": [
+"이브이 에비따",
+"이브이 에비타"
+],
+"definition_ko": "기업가치를 EBITDA로 나눈 가치평가 배수. 자본적지출과 운전자본 수요 등은 따로 고려해야 한다.",
+"definition_en": "A valuation multiple of enterprise value divided by EBITDA. Capital expenditures and working capital needs must be considered separately.",
+"example_ko": "EV/EBITDA 비교에서 조정 EBITDA의 제외 항목을 맞춰요.",
+"example_en": "In EV/EBITDA comparisons, align the excluded items of adjusted EBITDA."
+},
+{
+"id": "hrfinance-484",
+"field": "hrfinance",
+"term_ko": "듀딜리전스",
+"term_en": "Due Diligence",
+"english": "Due Diligence",
+"aliases_ko": [
+"DD",
+"듀딜",
+"실사",
+"기업 실사"
+],
+"definition_ko": "투자·인수 등의 의사결정 전에 재무·법무·사업 등의 사실과 위험을 조사하는 과정.",
+"definition_en": "The process of investigating financial, legal, and business facts and risks before a decision such as an investment or acquisition.",
+"example_ko": "듀딜리전스에서 주요 고객 매출과 현금 회수를 대조해요.",
+"example_en": "In due diligence, reconcile key-customer revenue against cash collection."
+},
+{
+"id": "hrfinance-485",
+"field": "hrfinance",
+"term_ko": "FDD",
+"term_en": "FDD",
+"english": "Financial Due Diligence",
+"aliases_ko": [
+"재무실사",
+"재무 실사"
+],
+"definition_ko": "인수·투자 대상의 실적·재무상태·현금흐름 등을 확인하는 실사.",
+"definition_en": "Due diligence that verifies the performance, financial position, and cash flows of an acquisition or investment target.",
+"example_ko": "FDD에서 정상적인 반복 이익과 일회성 항목을 구분해요.",
+"example_en": "In FDD, distinguish normal recurring earnings from one-off items."
+},
+{
+"id": "hrfinance-486",
+"field": "hrfinance",
+"term_ko": "QoE",
+"term_en": "QoE",
+"english": "Quality of Earnings",
+"aliases_ko": [
+"이익의 질",
+"퀄리티 오브 어닝스"
+],
+"definition_ko": "이익의 지속 가능성·현금화·일회성 영향 등을 평가하는 실사·분석 관점.",
+"definition_en": "A due-diligence and analysis perspective that evaluates the sustainability of earnings, their conversion to cash, and one-off impacts.",
+"example_ko": "QoE 분석에서 특수관계자 매출과 비경상 비용을 살펴요.",
+"example_en": "In QoE analysis, examine related-party revenue and non-recurring costs."
+},
+{
+"id": "hrfinance-487",
+"field": "hrfinance",
+"term_ko": "MRR",
+"term_en": "MRR",
+"english": "Monthly Recurring Revenue",
+"aliases_ko": [
+"월 반복매출",
+"월 정기매출"
+],
+"definition_ko": "구독 등 반복적으로 발생하는 계약 매출을 월 기준으로 환산한 지표. 회계상 당월 매출과 다를 수 있다.",
+"definition_en": "A metric that converts recurring contract revenue, such as subscriptions, to a monthly basis. It may differ from the accounting revenue of the current month.",
+"example_ko": "MRR 집계에서 일회성 구축비를 제외해요.",
+"example_en": "Exclude one-off setup fees from the MRR calculation."
+},
+{
+"id": "hrfinance-488",
+"field": "hrfinance",
+"term_ko": "ARR",
+"term_en": "ARR",
+"english": "Annual Recurring Revenue",
+"aliases_ko": [
+"연 반복매출",
+"연간 반복매출"
+],
+"definition_ko": "반복 계약 매출을 연간 기준으로 환산한 지표. 일회성 매출과 인식 시점을 구분한다.",
+"definition_en": "A metric that converts recurring contract revenue to an annual basis. Distinguish it from one-off revenue and its recognition timing.",
+"example_ko": "ARR 증가를 신규 계약과 기존 고객 확장으로 나눠요.",
+"example_en": "Break down ARR growth into new contracts and expansion from existing customers."
+},
+{
+"id": "hrfinance-489",
+"field": "hrfinance",
+"term_ko": "GRR",
+"term_en": "GRR",
+"english": "Gross Revenue Retention",
+"aliases_ko": [
+"총매출유지율"
+],
+"definition_ko": "기존 고객의 기준 매출에서 이탈·축소를 반영하되 추가 판매는 제외해 유지된 비율을 보는 지표.",
+"definition_en": "A metric that measures the retained ratio from existing customers' base revenue, reflecting churn and contraction but excluding upsell.",
+"example_ko": "GRR과 신규 고객 매출을 구분해 기존 계약의 안정성을 봐요.",
+"example_en": "Distinguish GRR from new-customer revenue to see the stability of existing contracts."
+},
+{
+"id": "hrfinance-490",
+"field": "hrfinance",
+"term_ko": "NRR",
+"term_en": "NRR",
+"english": "Net Revenue Retention",
+"aliases_ko": [
+"순매출유지율",
+"NDR"
+],
+"definition_ko": "기존 고객의 기준 반복매출에 이탈·축소·확장 영향을 반영한 유지 비율. 신규 고객 매출은 제외한다.",
+"definition_en": "A retention ratio that reflects churn, contraction, and expansion on existing customers' base recurring revenue. New-customer revenue is excluded.",
+"example_ko": "NRR 개선이 가격 인상 때문인지 사용량 확대 때문인지 분석해요.",
+"example_en": "Analyze whether the NRR improvement is due to price increases or to greater usage."
+},
+{
+"id": "hrfinance-491",
+"field": "hrfinance",
+"term_ko": "유닛 이코노믹스",
+"term_en": "Unit Economics",
+"english": "Unit Economics",
+"aliases_ko": [
+"단위 경제성"
+],
+"definition_ko": "고객·주문 등 한 단위를 확보하고 서비스하는 데 드는 비용과 수익의 관계.",
+"definition_en": "The relationship between the cost and the revenue of acquiring and serving a single unit such as a customer or order.",
+"example_ko": "유닛 이코노믹스를 볼 때 공헌이익과 고객 획득비용의 범위를 맞춰요.",
+"example_en": "When looking at unit economics, align the scope of contribution margin and customer acquisition cost."
+},
+{
+"id": "hrfinance-492",
+"field": "hrfinance",
+"term_ko": "경비 정산",
+"term_en": "Expense Reimbursement",
+"english": "Expense Reimbursement",
+"aliases_ko": [
+"경비 처리",
+"실비정산"
+],
+"definition_ko": "업무를 위해 지출한 비용의 증빙과 규정을 확인해 지급·회계처리하는 업무.",
+"definition_en": "The work of verifying the supporting documents and policies for costs spent for work and then paying and accounting for them.",
+"example_ko": "출장 경비 정산 때 사용 목적과 영수증을 함께 제출해요.",
+"example_en": "When settling travel expenses, submit the purpose of use together with the receipts."
+},
+{
+"id": "hrfinance-493",
+"field": "hrfinance",
+"term_ko": "지출결의서",
+"term_en": "Expense Approval Form",
+"english": "Expense Approval Form",
+"aliases_ko": [
+"지결서",
+"지출 결의"
+],
+"definition_ko": "비용 지급의 사유·금액·계정·증빙 등을 기재해 결재받는 문서.",
+"definition_en": "A document that states the reason, amount, account, and supporting documents for a payment and obtains approval.",
+"example_ko": "지출결의서의 거래처와 지급 계좌를 확인해요.",
+"example_en": "Check the vendor and the payment account on the expense approval form."
+},
+{
+"id": "hrfinance-494",
+"field": "hrfinance",
+"term_ko": "적요",
+"term_en": "Memo Line",
+"english": "Description",
+"aliases_ko": [
+"전표 적요"
+],
+"definition_ko": "전표나 장부에서 거래 내용을 간단히 설명하는 기록란.",
+"definition_en": "A field in a voucher or ledger that briefly describes the transaction.",
+"example_ko": "적요에 지급 대상 기간과 용역 내용을 적어요.",
+"example_en": "Write the covered payment period and the service details in the memo line."
+},
+{
+"id": "hrfinance-495",
+"field": "hrfinance",
+"term_ko": "복리후생비",
+"term_en": "Employee Benefits Expense",
+"english": "Employee Welfare Expense",
+"aliases_ko": [
+"복후비"
+],
+"definition_ko": "구성원의 복리후생을 위한 지출을 기록하는 비용 계정.",
+"definition_en": "An expense account that records spending for employees' welfare and benefits.",
+"example_ko": "식대와 건강검진비를 회사 기준에 따라 복리후생비로 분류해요.",
+"example_en": "Classify meal allowances and health-checkup costs as employee benefits expense per company standards."
+},
+{
+"id": "hrfinance-496",
+"field": "hrfinance",
+"term_ko": "여비교통비",
+"term_en": "Travel & Transportation Expense",
+"english": "Travel and Transportation Expense",
+"aliases_ko": [
+"여교비"
+],
+"definition_ko": "업무 이동·출장에 드는 교통·숙박 등 비용을 회사 계정 기준에 따라 모은 항목.",
+"definition_en": "An item that gathers costs such as transportation and lodging for work travel and business trips, per the company's account standards.",
+"example_ko": "해외 출장의 여비교통비를 환율과 증빙에 맞춰 정산해요.",
+"example_en": "Settle the travel and transportation expense for an overseas trip in line with the exchange rate and supporting documents."
+},
+{
+"id": "hrfinance-497",
+"field": "hrfinance",
+"term_ko": "접대비",
+"term_en": "Entertainment Expense",
+"english": "Business Entertainment Expense",
+"aliases_ko": [
+"기업업무추진비",
+"업무추진비"
+],
+"definition_ko": "사업 관계 유지를 위한 접대·교제 등의 지출을 부르는 회계·실무 표현. 세법상 명칭과 비용 범위는 별도로 확인한다.",
+"definition_en": "An accounting and practical expression for spending such as entertainment and hospitality to maintain business relationships. The tax-law name and the scope of deductible expenses should be checked separately.",
+"example_ko": "접대비 정산에 참석자와 업무 목적을 기록해요.",
+"example_en": "Record the attendees and the business purpose in the entertainment expense settlement."
+},
+{
+"id": "hrfinance-498",
+"field": "hrfinance",
+"term_ko": "지급수수료",
+"term_en": "Fees Paid",
+"english": "Service Fee Expense",
+"aliases_ko": [
+"수수료 비용"
+],
+"definition_ko": "외부 서비스나 업무 처리의 대가로 지급하는 수수료를 기록하는 비용 항목.",
+"definition_en": "An expense item that records fees paid in exchange for external services or work handling.",
+"example_ko": "결제대행 수수료와 자문료의 지급수수료 분류를 확인해요.",
+"example_en": "Check the classification of payment-gateway fees and advisory fees under fees paid."
+},
+{
+"id": "hrfinance-499",
+"field": "hrfinance",
+"term_ko": "예산 잔액",
+"term_en": "Remaining Budget",
+"english": "Remaining Budget",
+"aliases_ko": [
+"잔여 예산"
+],
+"definition_ko": "배정된 예산에서 집행액 등을 뺀 남은 금액. 약정 비용을 차감하는지 기준을 확인한다.",
+"definition_en": "The amount left after subtracting spending and so on from the allocated budget. Check the basis for whether committed costs are deducted.",
+"example_ko": "예산 잔액이 있어도 미지급 발주액을 먼저 확인해요.",
+"example_en": "Even if there is a remaining budget, first check the unpaid purchase orders."
+},
+{
+"id": "hrfinance-500",
+"field": "hrfinance",
+"term_ko": "수정신고",
+"term_en": "Amended Return",
+"english": "Amended Tax Return",
+"aliases_ko": [
+"세금 수정신고"
+],
+"definition_ko": "기존 신고 내용의 세액 등을 바로잡기 위해 다시 신고하는 절차를 뜻하는 말.",
+"definition_en": "An expression for the procedure of filing again to correct the tax amount and so on in a previous return.",
+"example_ko": "신고 누락을 발견해 담당자와 수정신고 필요성을 검토해요.",
+"example_en": "We found an omission in the filing and are reviewing with the person in charge whether an amended return is needed."
+},
+{
+"id": "hrfinance-501",
+"field": "hrfinance",
+"term_ko": "경정청구",
+"term_en": "Claim for Rectification",
+"english": "Claim for Tax Correction",
+"aliases_ko": [
+"세금 경정청구"
+],
+"definition_ko": "이미 신고·결정된 세액 등에 대해 정해진 사유로 감액·정정을 요청하는 절차.",
+"definition_en": "A procedure to request a reduction or correction, for defined reasons, of a tax amount that has already been filed or assessed.",
+"example_ko": "과다 신고 여부를 확인한 뒤 경정청구 가능성을 검토해요.",
+"example_en": "After checking whether there was an overfiling, review the possibility of a claim for rectification."
+},
+{
+"id": "hrfinance-502",
+"field": "hrfinance",
+"term_ko": "과세·비과세",
+"term_en": "Taxable / Non-Taxable",
+"english": "Taxable and Non-taxable",
+"aliases_ko": [
+"비과세 급여",
+"과세 급여"
+],
+"definition_ko": "급여 항목 등이 세금 부과 대상인지 아닌지를 구분하는 표현. 항목 이름만으로 판단하지 않고 요건을 확인한다.",
+"definition_en": "An expression that distinguishes whether a payroll item or similar is subject to taxation. Do not judge by the item name alone; check the requirements.",
+"example_ko": "급여 항목의 과세·비과세 구분이 실제 지급 조건과 맞는지 점검해요.",
+"example_en": "Check whether the taxable/non-taxable classification of payroll items matches the actual payment conditions."
+},
+{
+"id": "hrfinance-503",
+"field": "hrfinance",
+"term_ko": "중도퇴사 정산",
+"term_en": "Mid-Year Leaver Settlement",
+"english": "Payroll Settlement on Termination",
+"aliases_ko": [
+"중도퇴사자 정산"
+],
+"definition_ko": "연중 퇴사자에 대해 급여·공제·세금 등 해당 항목을 정리하는 업무.",
+"definition_en": "The work of settling the applicable items such as salary, deductions, and taxes for an employee who leaves during the year.",
+"example_ko": "중도퇴사 정산에서 지급 완료분과 추가 지급분을 나눠요.",
+"example_en": "In the mid-year leaver settlement, separate the amount already paid from the additional amount to be paid."
+},
+{
+"id": "fashion-627",
+"field": "fashion",
+"term_ko": "합포 가공",
+"term_en": "Fabric Bonding",
+"english": "Fabric Lamination",
+"aliases_ko": [
+"원단 합포",
+"합포",
+"본딩 원단"
+],
+"definition_ko": "원단에 다른 원단이나 필름 등을 붙여 두께·형태·기능을 조정하는 가공. 상품을 한 포장에 묶는 물류의 합포와 구분한다.",
+"definition_en": "Processing that bonds another fabric or film onto a fabric to adjust its thickness, form, or function. Distinguish it from logistics combined packing, which bundles goods into one package.",
+"example_ko": "가방의 형태를 잡기 위해 겉감에 보강 원단을 합포하고 접착 상태를 확인해요.",
+"example_en": "To hold the bag's shape, bond a reinforcing fabric to the outer shell and check the adhesion."
+},
+{
+"id": "marketing-035",
+"field": "marketing",
+"term_ko": "킥오프",
+"term_en": "Kickoff",
+"english": "Kickoff",
+"aliases_ko": [
+"킥오프 미팅",
+"킥 오프",
+"Kick-off",
+"Kick off",
+"킥오프미팅",
+"착수회의",
+"착수 회의"
+],
+"definition_ko": "시작할 일의 목표·역할·일정을 맞추는 첫 회의.",
+"definition_en": "The first meeting to align the goals, roles, and schedule of the work to begin.",
+"example_ko": "캠페인 킥오프에서 광고주와 타깃·핵심 메시지·제작 일정을 맞춰요.",
+"example_en": "At the campaign kickoff, align the target, key message, and production schedule with the client."
+},
+{
+"id": "dev-056",
+"field": "dev",
+"term_ko": "킥오프",
+"term_en": "Kickoff",
+"english": "Kickoff",
+"aliases_ko": [
+"킥오프 미팅",
+"킥 오프",
+"Kick-off",
+"Kick off",
+"킥오프미팅",
+"착수회의",
+"착수 회의"
+],
+"definition_ko": "시작할 일의 목표·역할·일정을 맞추는 첫 회의.",
+"definition_en": "The first meeting to align the goals, roles, and schedule of the work to begin.",
+"example_ko": "개발 킥오프에서 요구사항과 배포 범위·담당자를 정해요.",
+"example_en": "At the development kickoff, define the requirements, deployment scope, and owners."
+},
+{
+"id": "fashion-030",
+"field": "fashion",
+"term_ko": "킥오프",
+"term_en": "Kickoff",
+"english": "Kickoff",
+"aliases_ko": [
+"킥오프 미팅",
+"킥 오프",
+"Kick-off",
+"Kick off",
+"킥오프미팅",
+"착수회의",
+"착수 회의"
+],
+"definition_ko": "시작할 일의 목표·역할·일정을 맞추는 첫 회의.",
+"definition_en": "The first meeting to align the goals, roles, and schedule of the work to begin.",
+"example_ko": "신규 시즌 킥오프에서 상품기획·디자인·생산팀의 일정을 맞춰요.",
+"example_en": "At the new-season kickoff, align the schedules of the merchandising, design, and production teams."
+},
+{
+"id": "film-397",
+"field": "film",
+"term_ko": "킥오프",
+"term_en": "Kickoff",
+"english": "Kickoff",
+"aliases_ko": [
+"킥오프 미팅",
+"킥 오프",
+"Kick-off",
+"Kick off",
+"킥오프미팅",
+"착수회의",
+"착수 회의"
+],
+"definition_ko": "시작할 일의 목표·역할·일정을 맞추는 첫 회의.",
+"definition_en": "The first meeting to align the goals, roles, and schedule of the work to begin.",
+"example_ko": "영상 제작 킥오프에서 연출 방향·촬영 일정·후반 역할을 정해요.",
+"example_en": "At the video production kickoff, decide the directing direction, shooting schedule, and post-production roles."
+},
+{
+"id": "design-036",
+"field": "design",
+"term_ko": "킥오프",
+"term_en": "Kickoff",
+"english": "Kickoff",
+"aliases_ko": [
+"킥오프 미팅",
+"킥 오프",
+"Kick-off",
+"Kick off",
+"킥오프미팅",
+"착수회의",
+"착수 회의"
+],
+"definition_ko": "시작할 일의 목표·역할·일정을 맞추는 첫 회의.",
+"definition_en": "The first meeting to align the goals, roles, and schedule of the work to begin.",
+"example_ko": "디자인 킥오프에서 브랜드 방향·납품 규격·검토 일정을 맞춰요.",
+"example_en": "At the design kickoff, align the brand direction, delivery specs, and review schedule."
+},
+{
+"id": "hrfinance-504",
+"field": "hrfinance",
+"term_ko": "킥오프",
+"term_en": "Kickoff",
+"english": "Kickoff",
+"aliases_ko": [
+"킥오프 미팅",
+"킥 오프",
+"Kick-off",
+"Kick off",
+"킥오프미팅",
+"착수회의",
+"착수 회의"
+],
+"definition_ko": "시작할 일의 목표·역할·일정을 맞추는 첫 회의.",
+"definition_en": "The first meeting to align the goals, roles, and schedule of the work to begin.",
+"example_ko": "평가제도 개편 킥오프에서 인사·재무의 검토 범위와 일정을 정해요.",
+"example_en": "At the kickoff for the evaluation-system overhaul, define the HR and finance review scope and schedule."
+},
+{
+"id": "marketing-023",
+"field": "marketing",
+"term_ko": "컨펌",
+"term_en": "Confirm",
+"english": "Confirmation",
+"aliases_ko": [
+"컴펌",
+"confirm",
+"확인 승인",
+"컨펌하다",
+"컨펌받다",
+"확인받다"
+],
+"definition_ko": "내용을 확인하거나 진행을 승인하는 것.",
+"definition_en": "Verifying the content or approving the progress.",
+"example_ko": "광고주의 카피 컨펌을 받은 뒤 매체별 소재를 제작해요.",
+"example_en": "After getting the client's confirmation on the copy, produce the creative for each medium.",
+"note_ko": "단순 확인인지 최종 승인인지 팀마다 다릅니다. 승인 대상과 담당자를 함께 확인하세요.",
+"note_en": "Whether it is a simple check or a final approval differs by team. Confirm the approval target and the person in charge together."
+},
+{
+"id": "dev-053",
+"field": "dev",
+"term_ko": "컨펌",
+"term_en": "Confirm",
+"english": "Confirmation",
+"aliases_ko": [
+"컴펌",
+"confirm",
+"확인 승인",
+"컨펌하다",
+"컨펌받다",
+"확인받다"
+],
+"definition_ko": "내용을 확인하거나 진행을 승인하는 것.",
+"definition_en": "Verifying the content or approving the progress.",
+"example_ko": "보안팀 컨펌을 받은 뒤 운영 접근 권한을 적용해요.",
+"example_en": "After getting the security team's confirmation, apply the production access permissions.",
+"note_ko": "단순 확인인지 최종 승인인지 팀마다 다릅니다. 승인 대상과 담당자를 함께 확인하세요.",
+"note_en": "Whether it is a simple check or a final approval differs by team. Confirm the approval target and the person in charge together."
+},
+{
+"id": "fashion-022",
+"field": "fashion",
+"term_ko": "컨펌",
+"term_en": "Confirm",
+"english": "Confirmation",
+"aliases_ko": [
+"컴펌",
+"confirm",
+"확인 승인",
+"컨펌하다",
+"컨펌받다",
+"확인받다"
+],
+"definition_ko": "내용을 확인하거나 진행을 승인하는 것.",
+"definition_en": "Verifying the content or approving the progress.",
+"example_ko": "핏과 원단 컨펌을 받은 뒤 메인 생산을 발주해요.",
+"example_en": "After getting fit and fabric confirmation, order the main production.",
+"note_ko": "단순 확인인지 최종 승인인지 팀마다 다릅니다. 승인 대상과 담당자를 함께 확인하세요.",
+"note_en": "Whether it is a simple check or a final approval differs by team. Confirm the approval target and the person in charge together."
+},
+{
+"id": "film-404",
+"field": "film",
+"term_ko": "컨펌",
+"term_en": "Confirm",
+"english": "Confirmation",
+"aliases_ko": [
+"컴펌",
+"confirm",
+"확인 승인",
+"컨펌하다",
+"컨펌받다",
+"확인받다"
+],
+"definition_ko": "내용을 확인하거나 진행을 승인하는 것.",
+"definition_en": "Verifying the content or approving the progress.",
+"example_ko": "최종 콘티 컨펌을 받은 뒤 촬영 준비를 확정해요.",
+"example_en": "After getting confirmation on the final storyboard, finalize the shooting preparations.",
+"note_ko": "단순 확인인지 최종 승인인지 팀마다 다릅니다. 승인 대상과 담당자를 함께 확인하세요.",
+"note_en": "Whether it is a simple check or a final approval differs by team. Confirm the approval target and the person in charge together."
+},
+{
+"id": "design-026",
+"field": "design",
+"term_ko": "컨펌",
+"term_en": "Confirm",
+"english": "Confirmation",
+"aliases_ko": [
+"컴펌",
+"confirm",
+"확인 승인",
+"컨펌하다",
+"컨펌받다",
+"확인받다"
+],
+"definition_ko": "내용을 확인하거나 진행을 승인하는 것.",
+"definition_en": "Verifying the content or approving the progress.",
+"example_ko": "로고 시안 컨펌 후 응용 디자인을 진행해요.",
+"example_en": "After the logo draft is confirmed, proceed with the applied designs.",
+"note_ko": "단순 확인인지 최종 승인인지 팀마다 다릅니다. 승인 대상과 담당자를 함께 확인하세요.",
+"note_en": "Whether it is a simple check or a final approval differs by team. Confirm the approval target and the person in charge together."
+},
+{
+"id": "hrfinance-505",
+"field": "hrfinance",
+"term_ko": "컨펌",
+"term_en": "Confirm",
+"english": "Confirmation",
+"aliases_ko": [
+"컴펌",
+"confirm",
+"확인 승인",
+"컨펌하다",
+"컨펌받다",
+"확인받다"
+],
+"definition_ko": "내용을 확인하거나 진행을 승인하는 것.",
+"definition_en": "Verifying the content or approving the progress.",
+"example_ko": "부서장 컨펌을 받은 인원 계획으로 인건비 예산을 작성해요.",
+"example_en": "Prepare the labor-cost budget with the headcount plan confirmed by the department head.",
+"note_ko": "단순 확인인지 최종 승인인지 팀마다 다릅니다. 승인 대상과 담당자를 함께 확인하세요.",
+"note_en": "Whether it is a simple check or a final approval differs by team. Confirm the approval target and the person in charge together."
+},
+{
+"id": "marketing-073",
+"field": "marketing",
+"term_ko": "디벨롭",
+"term_en": "Develop",
+"english": "Develop",
+"aliases_ko": [
+"디벨로프",
+"구체화",
+"디벨롭하다",
+"구체화하다",
+"디벨럽",
+"디벨럽하다",
+"디밸롭",
+"Develop"
+],
+"definition_ko": "아이디어나 안을 더 구체적으로 발전시키는 것.",
+"definition_en": "Developing an idea or proposal into something more concrete.",
+"example_ko": "선정한 캠페인 아이디어를 영상과 배너로 디벨롭해요.",
+"example_en": "Develop the selected campaign idea into videos and banners."
+},
+{
+"id": "dev-103",
+"field": "dev",
+"term_ko": "디벨롭",
+"term_en": "Develop",
+"english": "Develop",
+"aliases_ko": [
+"디벨로프",
+"구체화",
+"디벨롭하다",
+"구체화하다",
+"디벨럽",
+"디벨럽하다",
+"디밸롭",
+"Develop"
+],
+"definition_ko": "아이디어나 안을 더 구체적으로 발전시키는 것.",
+"definition_en": "Developing an idea or proposal into something more concrete.",
+"example_ko": "프로토타입을 디벨롭할 때 검증된 요구사항부터 구현해요.",
+"example_en": "When developing the prototype, build the validated requirements first."
+},
+{
+"id": "fashion-122",
+"field": "fashion",
+"term_ko": "디벨롭",
+"term_en": "Develop",
+"english": "Develop",
+"aliases_ko": [
+"디벨로프",
+"구체화",
+"디벨롭하다",
+"구체화하다",
+"디벨럽",
+"디벨럽하다",
+"디밸롭",
+"Develop"
+],
+"definition_ko": "아이디어나 안을 더 구체적으로 발전시키는 것.",
+"definition_en": "Developing an idea or proposal into something more concrete.",
+"example_ko": "품평회에서 고른 디자인을 착용성과 원가를 고려해 디벨롭해요.",
+"example_en": "Develop the design chosen at the review, considering wearability and cost."
+},
+{
+"id": "film-406",
+"field": "film",
+"term_ko": "디벨롭",
+"term_en": "Develop",
+"english": "Develop",
+"aliases_ko": [
+"디벨로프",
+"구체화",
+"디벨롭하다",
+"구체화하다",
+"디벨럽",
+"디벨럽하다",
+"디밸롭",
+"Develop"
+],
+"definition_ko": "아이디어나 안을 더 구체적으로 발전시키는 것.",
+"definition_en": "Developing an idea or proposal into something more concrete.",
+"example_ko": "연출 아이디어를 촬영 가능한 콘티로 디벨롭해요.",
+"example_en": "Develop the directing ideas into a shootable storyboard."
+},
+{
+"id": "design-068",
+"field": "design",
+"term_ko": "디벨롭",
+"term_en": "Develop",
+"english": "Develop",
+"aliases_ko": [
+"디벨로프",
+"구체화",
+"디벨롭하다",
+"구체화하다",
+"디벨럽",
+"디벨럽하다",
+"디밸롭",
+"Develop"
+],
+"definition_ko": "아이디어나 안을 더 구체적으로 발전시키는 것.",
+"definition_en": "Developing an idea or proposal into something more concrete.",
+"example_ko": "선택된 로고 방향을 작은 크기의 사용성까지 디벨롭해요.",
+"example_en": "Develop the chosen logo direction down to its usability at small sizes."
+},
+{
+"id": "hrfinance-506",
+"field": "hrfinance",
+"term_ko": "디벨롭",
+"term_en": "Develop",
+"english": "Develop",
+"aliases_ko": [
+"디벨로프",
+"구체화",
+"디벨롭하다",
+"구체화하다",
+"디벨럽",
+"디벨럽하다",
+"디밸롭",
+"Develop"
+],
+"definition_ko": "아이디어나 안을 더 구체적으로 발전시키는 것.",
+"definition_en": "Developing an idea or proposal into something more concrete.",
+"example_ko": "평가제도 초안을 현장 의견을 반영해 디벨롭해요.",
+"example_en": "Develop the draft evaluation system by reflecting feedback from the field."
+},
+{
+"id": "marketing-075",
+"field": "marketing",
+"term_ko": "피드백",
+"term_en": "Feedback",
+"english": "Feedback",
+"aliases_ko": [
+"F/B",
+"FB",
+"피드 백"
+],
+"definition_ko": "작업을 검토하고 전달하는 의견.",
+"definition_en": "An opinion given after reviewing work.",
+"example_ko": "광고주 피드백을 메시지와 표현 수정으로 나눠 정리해요.",
+"example_en": "Sort the client's feedback into message changes and expression changes."
+},
+{
+"id": "dev-105",
+"field": "dev",
+"term_ko": "피드백",
+"term_en": "Feedback",
+"english": "Feedback",
+"aliases_ko": [
+"F/B",
+"FB",
+"피드 백"
+],
+"definition_ko": "작업을 검토하고 전달하는 의견.",
+"definition_en": "An opinion given after reviewing work.",
+"example_ko": "코드 리뷰 피드백 중 배포 전 필수 항목을 먼저 반영해요.",
+"example_en": "Among the code review feedback, apply the items required before deployment first."
+},
+{
+"id": "fashion-124",
+"field": "fashion",
+"term_ko": "피드백",
+"term_en": "Feedback",
+"english": "Feedback",
+"aliases_ko": [
+"F/B",
+"FB",
+"피드 백"
+],
+"definition_ko": "작업을 검토하고 전달하는 의견.",
+"definition_en": "An opinion given after reviewing work.",
+"example_ko": "피팅 피드백을 부위별 치수 수정 사항으로 기록해요.",
+"example_en": "Record the fitting feedback as measurement changes by body part."
+},
+{
+"id": "film-408",
+"field": "film",
+"term_ko": "피드백",
+"term_en": "Feedback",
+"english": "Feedback",
+"aliases_ko": [
+"F/B",
+"FB",
+"피드 백"
+],
+"definition_ko": "작업을 검토하고 전달하는 의견.",
+"definition_en": "An opinion given after reviewing work.",
+"example_ko": "시사 피드백에 해당 타임코드를 붙여 편집팀에 전달해요.",
+"example_en": "Attach the relevant timecode to the screening feedback and pass it to the editing team."
+},
+{
+"id": "design-070",
+"field": "design",
+"term_ko": "피드백",
+"term_en": "Feedback",
+"english": "Feedback",
+"aliases_ko": [
+"F/B",
+"FB",
+"피드 백"
+],
+"definition_ko": "작업을 검토하고 전달하는 의견.",
+"definition_en": "An opinion given after reviewing work.",
+"example_ko": "시안 피드백에 문제와 기대하는 변화를 구체적으로 적어요.",
+"example_en": "In the draft feedback, write the problem and the expected change concretely."
+},
+{
+"id": "hrfinance-507",
+"field": "hrfinance",
+"term_ko": "피드백",
+"term_en": "Feedback",
+"english": "Feedback",
+"aliases_ko": [
+"F/B",
+"FB",
+"피드 백"
+],
+"definition_ko": "작업을 검토하고 전달하는 의견.",
+"definition_en": "An opinion given after reviewing work.",
+"example_ko": "평가 피드백을 구체적인 업무 사례와 함께 전달해요.",
+"example_en": "Deliver the evaluation feedback together with concrete work examples."
+},
+{
+"id": "marketing-076",
+"field": "marketing",
+"term_ko": "데드라인",
+"term_en": "Deadline",
+"english": "Deadline",
+"aliases_ko": [
+"마감",
+"마감일",
+"듀데이트",
+"due date",
+"듀데잇",
+"DL"
+],
+"definition_ko": "일을 마쳐야 하는 기한.",
+"definition_en": "The due date by which work must be finished.",
+"example_ko": "매체 소재 입고 데드라인 전에 광고주 승인을 마쳐요.",
+"example_en": "Finish the client's approval before the media-asset submission deadline."
+},
+{
+"id": "dev-106",
+"field": "dev",
+"term_ko": "데드라인",
+"term_en": "Deadline",
+"english": "Deadline",
+"aliases_ko": [
+"마감",
+"마감일",
+"듀데이트",
+"due date",
+"듀데잇",
+"DL"
+],
+"definition_ko": "일을 마쳐야 하는 기한.",
+"definition_en": "The due date by which work must be finished.",
+"example_ko": "배포 데드라인 전에 회귀 테스트 시간을 확보해요.",
+"example_en": "Secure time for regression testing before the deployment deadline."
+},
+{
+"id": "fashion-125",
+"field": "fashion",
+"term_ko": "데드라인",
+"term_en": "Deadline",
+"english": "Deadline",
+"aliases_ko": [
+"마감",
+"마감일",
+"듀데이트",
+"due date",
+"듀데잇",
+"DL"
+],
+"definition_ko": "일을 마쳐야 하는 기한.",
+"definition_en": "The due date by which work must be finished.",
+"example_ko": "납품 데드라인을 기준으로 봉제와 검품 일정을 역산해요.",
+"example_en": "Work backward from the delivery deadline to set the sewing and inspection schedule."
+},
+{
+"id": "film-409",
+"field": "film",
+"term_ko": "데드라인",
+"term_en": "Deadline",
+"english": "Deadline",
+"aliases_ko": [
+"마감",
+"마감일",
+"듀데이트",
+"due date",
+"듀데잇",
+"DL"
+],
+"definition_ko": "일을 마쳐야 하는 기한.",
+"definition_en": "The due date by which work must be finished.",
+"example_ko": "방송 납품 데드라인에서 색보정·믹싱 시간을 거꾸로 잡아요.",
+"example_en": "Work backward from the broadcast delivery deadline to allocate time for color grading and mixing."
+},
+{
+"id": "design-071",
+"field": "design",
+"term_ko": "데드라인",
+"term_en": "Deadline",
+"english": "Deadline",
+"aliases_ko": [
+"마감",
+"마감일",
+"듀데이트",
+"due date",
+"듀데잇",
+"DL"
+],
+"definition_ko": "일을 마쳐야 하는 기한.",
+"definition_en": "The due date by which work must be finished.",
+"example_ko": "인쇄 발주 데드라인 전에 최종 교정을 끝내요.",
+"example_en": "Finish the final proofing before the print-order deadline."
+},
+{
+"id": "hrfinance-508",
+"field": "hrfinance",
+"term_ko": "데드라인",
+"term_en": "Deadline",
+"english": "Deadline",
+"aliases_ko": [
+"마감",
+"마감일",
+"듀데이트",
+"due date",
+"듀데잇",
+"DL"
+],
+"definition_ko": "일을 마쳐야 하는 기한.",
+"definition_en": "The due date by which work must be finished.",
+"example_ko": "급여 변동자료의 데드라인을 각 부서에 안내해요.",
+"example_en": "Inform each department of the deadline for payroll change data."
+},
+{
+"id": "marketing-036",
+"field": "marketing",
+"term_ko": "어젠다",
+"term_en": "Agenda",
+"english": "Agenda",
+"aliases_ko": [
+"아젠다",
+"회의 안건",
+"의제",
+"아젠더",
+"Agenda"
+],
+"definition_ko": "회의에서 논의할 주제와 순서.",
+"definition_en": "The topics and their order to be discussed in a meeting.",
+"example_ko": "캠페인 회의 어젠다를 타깃·메시지·예산 순서로 정해요.",
+"example_en": "Set the campaign meeting agenda in the order of target, message, and budget."
+},
+{
+"id": "dev-057",
+"field": "dev",
+"term_ko": "어젠다",
+"term_en": "Agenda",
+"english": "Agenda",
+"aliases_ko": [
+"아젠다",
+"회의 안건",
+"의제",
+"아젠더",
+"Agenda"
+],
+"definition_ko": "회의에서 논의할 주제와 순서.",
+"definition_en": "The topics and their order to be discussed in a meeting.",
+"example_ko": "설계 회의 어젠다에 데이터 정합성과 장애 대응을 넣어요.",
+"example_en": "Include data integrity and incident response in the design meeting agenda."
+},
+{
+"id": "fashion-031",
+"field": "fashion",
+"term_ko": "어젠다",
+"term_en": "Agenda",
+"english": "Agenda",
+"aliases_ko": [
+"아젠다",
+"회의 안건",
+"의제",
+"아젠더",
+"Agenda"
+],
+"definition_ko": "회의에서 논의할 주제와 순서.",
+"definition_en": "The topics and their order to be discussed in a meeting.",
+"example_ko": "품평회 어젠다에 소재·핏·목표 원가를 포함해요.",
+"example_en": "Include materials, fit, and target cost in the review meeting agenda."
+},
+{
+"id": "film-398",
+"field": "film",
+"term_ko": "어젠다",
+"term_en": "Agenda",
+"english": "Agenda",
+"aliases_ko": [
+"아젠다",
+"회의 안건",
+"의제",
+"아젠더",
+"Agenda"
+],
+"definition_ko": "회의에서 논의할 주제와 순서.",
+"definition_en": "The topics and their order to be discussed in a meeting.",
+"example_ko": "제작 회의 어젠다에 로케이션과 촬영 동선을 넣어요.",
+"example_en": "Include locations and shooting flow in the production meeting agenda."
+},
+{
+"id": "design-037",
+"field": "design",
+"term_ko": "어젠다",
+"term_en": "Agenda",
+"english": "Agenda",
+"aliases_ko": [
+"아젠다",
+"회의 안건",
+"의제",
+"아젠더",
+"Agenda"
+],
+"definition_ko": "회의에서 논의할 주제와 순서.",
+"definition_en": "The topics and their order to be discussed in a meeting.",
+"example_ko": "디자인 리뷰 어젠다를 정보 구조와 시각 표현으로 나눠요.",
+"example_en": "Divide the design review agenda into information structure and visual expression."
+},
+{
+"id": "hrfinance-509",
+"field": "hrfinance",
+"term_ko": "어젠다",
+"term_en": "Agenda",
+"english": "Agenda",
+"aliases_ko": [
+"아젠다",
+"회의 안건",
+"의제",
+"아젠더",
+"Agenda"
+],
+"definition_ko": "회의에서 논의할 주제와 순서.",
+"definition_en": "The topics and their order to be discussed in a meeting.",
+"example_ko": "경영회의 어젠다에 예실 차이와 자금 전망을 포함해요.",
+"example_en": "Include budget-vs-actual variance and cash outlook in the management meeting agenda."
+},
+{
+"id": "marketing-037",
+"field": "marketing",
+"term_ko": "액션 아이템",
+"term_en": "Action Item",
+"english": "Action item",
+"aliases_ko": [
+"액션아이템",
+"후속 할 일",
+"후속 조치",
+"액션 정리",
+"Action Item"
+],
+"definition_ko": "논의 후 담당자가 실행해야 할 구체적인 일.",
+"definition_en": "A specific task that an owner must carry out after discussion.",
+"example_ko": "매체 제안서 보완을 담당자와 기한이 있는 액션 아이템으로 남겨요.",
+"example_en": "Leave the media-proposal revision as an action item with an owner and a due date."
+},
+{
+"id": "dev-058",
+"field": "dev",
+"term_ko": "액션 아이템",
+"term_en": "Action Item",
+"english": "Action item",
+"aliases_ko": [
+"액션아이템",
+"후속 할 일",
+"후속 조치",
+"액션 정리",
+"Action Item"
+],
+"definition_ko": "논의 후 담당자가 실행해야 할 구체적인 일.",
+"definition_en": "A specific task that an owner must carry out after discussion.",
+"example_ko": "장애 회고의 액션 아이템을 이슈로 등록하고 담당자를 정해요.",
+"example_en": "Register the incident retrospective's action items as issues and assign owners."
+},
+{
+"id": "fashion-032",
+"field": "fashion",
+"term_ko": "액션 아이템",
+"term_en": "Action Item",
+"english": "Action item",
+"aliases_ko": [
+"액션아이템",
+"후속 할 일",
+"후속 조치",
+"액션 정리",
+"Action Item"
+],
+"definition_ko": "논의 후 담당자가 실행해야 할 구체적인 일.",
+"definition_en": "A specific task that an owner must carry out after discussion.",
+"example_ko": "샘플 수정 액션 아이템마다 담당 공장과 확인일을 적어요.",
+"example_en": "For each sample-revision action item, note the responsible factory and the check date."
+},
+{
+"id": "film-399",
+"field": "film",
+"term_ko": "액션 아이템",
+"term_en": "Action Item",
+"english": "Action item",
+"aliases_ko": [
+"액션아이템",
+"후속 할 일",
+"후속 조치",
+"액션 정리",
+"Action Item"
+],
+"definition_ko": "논의 후 담당자가 실행해야 할 구체적인 일.",
+"definition_en": "A specific task that an owner must carry out after discussion.",
+"example_ko": "제작 회의에서 정한 액션 아이템을 촬영팀과 미술팀에 배분해요.",
+"example_en": "Distribute the action items decided in the production meeting to the camera and art teams."
+},
+{
+"id": "design-038",
+"field": "design",
+"term_ko": "액션 아이템",
+"term_en": "Action Item",
+"english": "Action item",
+"aliases_ko": [
+"액션아이템",
+"후속 할 일",
+"후속 조치",
+"액션 정리",
+"Action Item"
+],
+"definition_ko": "논의 후 담당자가 실행해야 할 구체적인 일.",
+"definition_en": "A specific task that an owner must carry out after discussion.",
+"example_ko": "리뷰에서 합의한 액션 아이템만 다음 시안에 반영해요.",
+"example_en": "Reflect only the action items agreed in the review into the next draft."
+},
+{
+"id": "hrfinance-510",
+"field": "hrfinance",
+"term_ko": "액션 아이템",
+"term_en": "Action Item",
+"english": "Action item",
+"aliases_ko": [
+"액션아이템",
+"후속 할 일",
+"후속 조치",
+"액션 정리",
+"Action Item"
+],
+"definition_ko": "논의 후 담당자가 실행해야 할 구체적인 일.",
+"definition_en": "A specific task that an owner must carry out after discussion.",
+"example_ko": "결산 차이 확인을 계정별 액션 아이템으로 나눠요.",
+"example_en": "Divide the closing-variance checks into action items by account."
+},
+{
+"id": "marketing-038",
+"field": "marketing",
+"term_ko": "스코프",
+"term_en": "Scope",
+"english": "Project scope",
+"aliases_ko": [
+"업무 범위",
+"과업 범위"
+],
+"definition_ko": "이번 일에 포함할 작업과 결과의 범위.",
+"definition_en": "The range of work and results to be included in this effort.",
+"example_ko": "이번 캠페인 스코프에 숏폼 추가 제작이 포함되는지 확인해요.",
+"example_en": "Check whether additional short-form production is included in this campaign's scope."
+},
+{
+"id": "dev-059",
+"field": "dev",
+"term_ko": "스코프",
+"term_en": "Scope",
+"english": "Project scope",
+"aliases_ko": [
+"업무 범위",
+"과업 범위"
+],
+"definition_ko": "이번 일에 포함할 작업과 결과의 범위.",
+"definition_en": "The range of work and results to be included in this effort.",
+"example_ko": "이번 릴리스 스코프에서 결제 개편은 제외하기로 했어요.",
+"example_en": "We decided to exclude the payment overhaul from this release's scope."
+},
+{
+"id": "fashion-033",
+"field": "fashion",
+"term_ko": "스코프",
+"term_en": "Scope",
+"english": "Project scope",
+"aliases_ko": [
+"업무 범위",
+"과업 범위"
+],
+"definition_ko": "이번 일에 포함할 작업과 결과의 범위.",
+"definition_en": "The range of work and results to be included in this effort.",
+"example_ko": "원단 개발 스코프에 시험 생산과 견뢰도 검사를 포함해요.",
+"example_en": "Include trial production and colorfastness testing in the fabric-development scope."
+},
+{
+"id": "film-400",
+"field": "film",
+"term_ko": "스코프",
+"term_en": "Scope",
+"english": "Project scope",
+"aliases_ko": [
+"업무 범위",
+"과업 범위"
+],
+"definition_ko": "이번 일에 포함할 작업과 결과의 범위.",
+"definition_en": "The range of work and results to be included in this effort.",
+"example_ko": "촬영 스코프에 스틸 촬영과 메이킹이 포함되는지 계약서로 확인해요.",
+"example_en": "Check the contract for whether still photography and making-of are included in the shooting scope."
+},
+{
+"id": "design-039",
+"field": "design",
+"term_ko": "스코프",
+"term_en": "Scope",
+"english": "Project scope",
+"aliases_ko": [
+"업무 범위",
+"과업 범위"
+],
+"definition_ko": "이번 일에 포함할 작업과 결과의 범위.",
+"definition_en": "The range of work and results to be included in this effort.",
+"example_ko": "디자인 스코프에 원본 전달과 수정 횟수를 명시해요.",
+"example_en": "Specify source-file delivery and the number of revisions in the design scope."
+},
+{
+"id": "hrfinance-511",
+"field": "hrfinance",
+"term_ko": "스코프",
+"term_en": "Scope",
+"english": "Project scope",
+"aliases_ko": [
+"업무 범위",
+"과업 범위"
+],
+"definition_ko": "이번 일에 포함할 작업과 결과의 범위.",
+"definition_en": "The range of work and results to be included in this effort.",
+"example_ko": "급여 시스템 전환의 스코프에 과거 이력 이전을 포함해요.",
+"example_en": "Include historical-data migration in the scope of the payroll system transition."
+},
+{
+"id": "marketing-039",
+"field": "marketing",
+"term_ko": "마일스톤",
+"term_en": "Milestone",
+"english": "Milestone",
+"aliases_ko": [
+"주요 일정",
+"중간 이정표"
+],
+"definition_ko": "진행 상태를 판단하는 중요한 완료 지점.",
+"definition_en": "An important completion point by which progress is judged.",
+"example_ko": "광고주 PT와 온에어 날짜를 캠페인 마일스톤으로 정해요.",
+"example_en": "Set the client pitch and the on-air date as campaign milestones."
+},
+{
+"id": "dev-060",
+"field": "dev",
+"term_ko": "마일스톤",
+"term_en": "Milestone",
+"english": "Milestone",
+"aliases_ko": [
+"주요 일정",
+"중간 이정표"
+],
+"definition_ko": "진행 상태를 판단하는 중요한 완료 지점.",
+"definition_en": "An important completion point by which progress is judged.",
+"example_ko": "API 확정·통합 테스트·배포를 개발 마일스톤으로 관리해요.",
+"example_en": "Manage API finalization, integration testing, and deployment as development milestones."
+},
+{
+"id": "fashion-034",
+"field": "fashion",
+"term_ko": "마일스톤",
+"term_en": "Milestone",
+"english": "Milestone",
+"aliases_ko": [
+"주요 일정",
+"중간 이정표"
+],
+"definition_ko": "진행 상태를 판단하는 중요한 완료 지점.",
+"definition_en": "An important completion point by which progress is judged.",
+"example_ko": "샘플 승인과 원단 입고를 생산 마일스톤으로 잡아요.",
+"example_en": "Set sample approval and fabric arrival as production milestones."
+},
+{
+"id": "film-401",
+"field": "film",
+"term_ko": "마일스톤",
+"term_en": "Milestone",
+"english": "Milestone",
+"aliases_ko": [
+"주요 일정",
+"중간 이정표"
+],
+"definition_ko": "진행 상태를 판단하는 중요한 완료 지점.",
+"definition_en": "An important completion point by which progress is judged.",
+"example_ko": "콘티 확정·촬영·픽처 락을 제작 마일스톤으로 정해요.",
+"example_en": "Set storyboard finalization, shooting, and picture lock as production milestones."
+},
+{
+"id": "design-040",
+"field": "design",
+"term_ko": "마일스톤",
+"term_en": "Milestone",
+"english": "Milestone",
+"aliases_ko": [
+"주요 일정",
+"중간 이정표"
+],
+"definition_ko": "진행 상태를 판단하는 중요한 완료 지점.",
+"definition_en": "An important completion point by which progress is judged.",
+"example_ko": "콘셉트 승인과 최종 납품을 디자인 마일스톤으로 공유해요.",
+"example_en": "Share concept approval and final delivery as design milestones."
+},
+{
+"id": "hrfinance-512",
+"field": "hrfinance",
+"term_ko": "마일스톤",
+"term_en": "Milestone",
+"english": "Milestone",
+"aliases_ko": [
+"주요 일정",
+"중간 이정표"
+],
+"definition_ko": "진행 상태를 판단하는 중요한 완료 지점.",
+"definition_en": "An important completion point by which progress is judged.",
+"example_ko": "외부감사 자료 제출일을 결산 마일스톤에 반영해요.",
+"example_en": "Reflect the external-audit document submission date in the closing milestones."
+},
+{
+"id": "marketing-041",
+"field": "marketing",
+"term_ko": "리소스",
+"term_en": "Resource",
+"english": "Resource",
+"aliases_ko": [
+"인력과 자원",
+"가용 자원"
+],
+"definition_ko": "일에 투입할 사람·시간·예산 등의 자원.",
+"definition_en": "Resources such as people, time, and budget to be put into the work.",
+"example_ko": "매체 예산과 제작 인력을 캠페인 리소스로 함께 계획해요.",
+"example_en": "Plan the media budget and production staff together as campaign resources."
+},
+{
+"id": "dev-062",
+"field": "dev",
+"term_ko": "리소스",
+"term_en": "Resource",
+"english": "Resource",
+"aliases_ko": [
+"인력과 자원",
+"가용 자원"
+],
+"definition_ko": "일에 투입할 사람·시간·예산 등의 자원.",
+"definition_en": "Resources such as people, time, and budget to be put into the work.",
+"example_ko": "이번 스프린트에서 가용한 개발·QA 리소스를 확인해요.",
+"example_en": "Check the development and QA resources available in this sprint."
+},
+{
+"id": "fashion-036",
+"field": "fashion",
+"term_ko": "리소스",
+"term_en": "Resource",
+"english": "Resource",
+"aliases_ko": [
+"인력과 자원",
+"가용 자원"
+],
+"definition_ko": "일에 투입할 사람·시간·예산 등의 자원.",
+"definition_en": "Resources such as people, time, and budget to be put into the work.",
+"example_ko": "샘플실과 봉제 라인의 리소스를 보고 생산 일정을 정해요.",
+"example_en": "Set the production schedule based on the resources of the sample room and sewing line."
+},
+{
+"id": "film-403",
+"field": "film",
+"term_ko": "리소스",
+"term_en": "Resource",
+"english": "Resource",
+"aliases_ko": [
+"인력과 자원",
+"가용 자원"
+],
+"definition_ko": "일에 투입할 사람·시간·예산 등의 자원.",
+"definition_en": "Resources such as people, time, and budget to be put into the work.",
+"example_ko": "촬영 장비와 스태프 리소스를 로케이션별로 배치해요.",
+"example_en": "Allocate the shooting equipment and crew resources by location."
+},
+{
+"id": "design-042",
+"field": "design",
+"term_ko": "리소스",
+"term_en": "Resource",
+"english": "Resource",
+"aliases_ko": [
+"인력과 자원",
+"가용 자원"
+],
+"definition_ko": "일에 투입할 사람·시간·예산 등의 자원.",
+"definition_en": "Resources such as people, time, and budget to be put into the work.",
+"example_ko": "디자이너와 리터처의 리소스를 고려해 수정 일정을 잡아요.",
+"example_en": "Set the revision schedule considering the designer and retoucher resources."
+},
+{
+"id": "hrfinance-513",
+"field": "hrfinance",
+"term_ko": "리소스",
+"term_en": "Resource",
+"english": "Resource",
+"aliases_ko": [
+"인력과 자원",
+"가용 자원"
+],
+"definition_ko": "일에 투입할 사람·시간·예산 등의 자원.",
+"definition_en": "Resources such as people, time, and budget to be put into the work.",
+"example_ko": "연말정산 기간에 필요한 인사 운영 리소스를 확보해요.",
+"example_en": "Secure the HR operations resources needed during the year-end tax settlement period."
+},
+{
+"id": "marketing-086",
+"field": "marketing",
+"term_ko": "얼라인",
+"term_en": "Align",
+"english": "Align",
+"aliases_ko": [
+"얼라인먼트",
+"얼라인하다",
+"어라인",
+"어라인하다",
+"방향 맞추기",
+"Align",
+"Alignment"
+],
+"definition_ko": "관계자들의 목표나 방향을 맞추는 일.",
+"definition_en": "The work of matching the goals or direction of the people involved.",
+"example_ko": "광고주와 캠페인의 핵심 메시지를 얼라인해요.",
+"example_en": "Align the campaign's key message with the client."
+},
+{
+"id": "dev-121",
+"field": "dev",
+"term_ko": "얼라인",
+"term_en": "Align",
+"english": "Align",
+"aliases_ko": [
+"얼라인먼트",
+"얼라인하다",
+"어라인",
+"어라인하다",
+"방향 맞추기",
+"Align",
+"Alignment"
+],
+"definition_ko": "관계자들의 목표나 방향을 맞추는 일.",
+"definition_en": "The work of matching the goals or direction of the people involved.",
+"example_ko": "기획·개발·QA가 출시 범위와 완료 기준을 얼라인해요.",
+"example_en": "Planning, development, and QA align on the release scope and the definition of done."
+},
+{
+"id": "fashion-135",
+"field": "fashion",
+"term_ko": "얼라인",
+"term_en": "Align",
+"english": "Align",
+"aliases_ko": [
+"얼라인먼트",
+"얼라인하다",
+"어라인",
+"어라인하다",
+"방향 맞추기",
+"Align",
+"Alignment"
+],
+"definition_ko": "관계자들의 목표나 방향을 맞추는 일.",
+"definition_en": "The work of matching the goals or direction of the people involved.",
+"example_ko": "MD와 디자이너가 시즌 가격대와 상품 구성을 얼라인해요.",
+"example_en": "The MD and designer align on the season's price range and product mix."
+},
+{
+"id": "film-395",
+"field": "film",
+"term_ko": "얼라인",
+"term_en": "Align",
+"english": "Align",
+"aliases_ko": [
+"얼라인먼트",
+"얼라인하다",
+"어라인",
+"어라인하다",
+"방향 맞추기",
+"Align",
+"Alignment"
+],
+"definition_ko": "관계자들의 목표나 방향을 맞추는 일.",
+"definition_en": "The work of matching the goals or direction of the people involved.",
+"example_ko": "감독과 촬영감독이 장면의 톤과 카메라 움직임을 얼라인해요.",
+"example_en": "The director and the cinematographer align on the scene's tone and camera movement."
+},
+{
+"id": "design-084",
+"field": "design",
+"term_ko": "얼라인",
+"term_en": "Align",
+"english": "Align",
+"aliases_ko": [
+"얼라인먼트",
+"얼라인하다",
+"어라인",
+"어라인하다",
+"방향 맞추기",
+"Align",
+"Alignment"
+],
+"definition_ko": "관계자들의 목표나 방향을 맞추는 일.",
+"definition_en": "The work of matching the goals or direction of the people involved.",
+"example_ko": "브랜드팀과 디자이너가 로고 사용 원칙을 얼라인해요.",
+"example_en": "The brand team and the designer align on the logo usage principles."
+},
+{
+"id": "hrfinance-514",
+"field": "hrfinance",
+"term_ko": "얼라인",
+"term_en": "Align",
+"english": "Align",
+"aliases_ko": [
+"얼라인먼트",
+"얼라인하다",
+"어라인",
+"어라인하다",
+"방향 맞추기",
+"Align",
+"Alignment"
+],
+"definition_ko": "관계자들의 목표나 방향을 맞추는 일.",
+"definition_en": "The work of matching the goals or direction of the people involved.",
+"example_ko": "인사와 재무가 인건비 계획의 인원 기준을 얼라인해요.",
+"example_en": "HR and finance align on the headcount basis of the labor-cost plan."
+},
+{
+"id": "marketing-087",
+"field": "marketing",
+"term_ko": "팔로업",
+"term_en": "Follow-up",
+"english": "Follow-up",
+"aliases_ko": [
+"팔로우업",
+"F/up",
+"follow up",
+"팔로우 업",
+"폴로업",
+"Follow-up",
+"팔롭",
+"F/U"
+],
+"definition_ko": "진행 상황을 챙기고 후속 조치를 하는 일.",
+"definition_en": "The work of keeping track of progress and taking follow-up actions.",
+"example_ko": "광고주에게 보낸 수정 시안의 검토 결과를 팔로업해요.",
+"example_en": "Follow up on the review results of the revised draft sent to the client."
+},
+{
+"id": "dev-122",
+"field": "dev",
+"term_ko": "팔로업",
+"term_en": "Follow-up",
+"english": "Follow-up",
+"aliases_ko": [
+"팔로우업",
+"F/up",
+"follow up",
+"팔로우 업",
+"폴로업",
+"Follow-up",
+"팔롭",
+"F/U"
+],
+"definition_ko": "진행 상황을 챙기고 후속 조치를 하는 일.",
+"definition_en": "The work of keeping track of progress and taking follow-up actions.",
+"example_ko": "외부 API 장애 문의의 해결 일정을 팔로업해요.",
+"example_en": "Follow up on the resolution schedule for the external API outage inquiry."
+},
+{
+"id": "fashion-136",
+"field": "fashion",
+"term_ko": "팔로업",
+"term_en": "Follow-up",
+"english": "Follow-up",
+"aliases_ko": [
+"팔로우업",
+"F/up",
+"follow up",
+"팔로우 업",
+"폴로업",
+"Follow-up",
+"팔롭",
+"F/U"
+],
+"definition_ko": "진행 상황을 챙기고 후속 조치를 하는 일.",
+"definition_en": "The work of keeping track of progress and taking follow-up actions.",
+"example_ko": "원단 업체의 납기 회신을 팔로업해요.",
+"example_en": "Follow up on the fabric supplier's delivery-date reply."
+},
+{
+"id": "film-396",
+"field": "film",
+"term_ko": "팔로업",
+"term_en": "Follow-up",
+"english": "Follow-up",
+"aliases_ko": [
+"팔로우업",
+"F/up",
+"follow up",
+"팔로우 업",
+"폴로업",
+"Follow-up",
+"팔롭",
+"F/U"
+],
+"definition_ko": "진행 상황을 챙기고 후속 조치를 하는 일.",
+"definition_en": "The work of keeping track of progress and taking follow-up actions.",
+"example_ko": "로케이션 허가 진행 상황을 제작부에서 팔로업해요.",
+"example_en": "The production team follows up on the progress of the location permits."
+},
+{
+"id": "design-085",
+"field": "design",
+"term_ko": "팔로업",
+"term_en": "Follow-up",
+"english": "Follow-up",
+"aliases_ko": [
+"팔로우업",
+"F/up",
+"follow up",
+"팔로우 업",
+"폴로업",
+"Follow-up",
+"팔롭",
+"F/U"
+],
+"definition_ko": "진행 상황을 챙기고 후속 조치를 하는 일.",
+"definition_en": "The work of keeping track of progress and taking follow-up actions.",
+"example_ko": "인쇄소 교정본의 색상 수정 결과를 팔로업해요.",
+"example_en": "Follow up on the color-correction results of the print shop's proof."
+},
+{
+"id": "hrfinance-515",
+"field": "hrfinance",
+"term_ko": "팔로업",
+"term_en": "Follow-up",
+"english": "Follow-up",
+"aliases_ko": [
+"팔로우업",
+"F/up",
+"follow up",
+"팔로우 업",
+"폴로업",
+"Follow-up",
+"팔롭",
+"F/U"
+],
+"definition_ko": "진행 상황을 챙기고 후속 조치를 하는 일.",
+"definition_en": "The work of keeping track of progress and taking follow-up actions.",
+"example_ko": "미제출 결산 증빙을 부서별로 팔로업해요.",
+"example_en": "Follow up with each department on unsubmitted closing documentation."
+},
+{
+"id": "marketing-090",
+"field": "marketing",
+"term_ko": "R&R",
+"term_en": "R&R",
+"english": "Roles and responsibilities",
+"aliases_ko": [
+"알앤알",
+"R and R",
+"알엔알",
+"Roles and Responsibilities"
+],
+"definition_ko": "담당자별 역할과 책임 범위.",
+"definition_en": "The roles and scope of responsibility of each person in charge.",
+"example_ko": "AE·카피·아트 담당자의 캠페인 R&R을 정해요.",
+"example_en": "Define the campaign R&R of the AE, copywriter, and art lead."
+},
+{
+"id": "dev-123",
+"field": "dev",
+"term_ko": "R&R",
+"term_en": "R&R",
+"english": "Roles and responsibilities",
+"aliases_ko": [
+"알앤알",
+"R and R",
+"알엔알",
+"Roles and Responsibilities"
+],
+"definition_ko": "담당자별 역할과 책임 범위.",
+"definition_en": "The roles and scope of responsibility of each person in charge.",
+"example_ko": "서비스별 개발·운영 R&R을 문서에 남겨요.",
+"example_en": "Document the development and operations R&R for each service."
+},
+{
+"id": "fashion-137",
+"field": "fashion",
+"term_ko": "R&R",
+"term_en": "R&R",
+"english": "Roles and responsibilities",
+"aliases_ko": [
+"알앤알",
+"R and R",
+"알엔알",
+"Roles and Responsibilities"
+],
+"definition_ko": "담당자별 역할과 책임 범위.",
+"definition_en": "The roles and scope of responsibility of each person in charge.",
+"example_ko": "상품기획·소재·생산관리의 R&R을 시즌 시작 전에 맞춰요.",
+"example_en": "Align the R&R of merchandising, materials, and production management before the season starts."
+},
+{
+"id": "film-387",
+"field": "film",
+"term_ko": "R&R",
+"term_en": "R&R",
+"english": "Roles and responsibilities",
+"aliases_ko": [
+"알앤알",
+"R and R",
+"알엔알",
+"Roles and Responsibilities"
+],
+"definition_ko": "담당자별 역할과 책임 범위.",
+"definition_en": "The roles and scope of responsibility of each person in charge.",
+"example_ko": "촬영팀·조명팀·미술팀의 R&R과 인계 지점을 확인해요.",
+"example_en": "Check the R&R and handover points of the camera, lighting, and art teams."
+},
+{
+"id": "design-086",
+"field": "design",
+"term_ko": "R&R",
+"term_en": "R&R",
+"english": "Roles and responsibilities",
+"aliases_ko": [
+"알앤알",
+"R and R",
+"알엔알",
+"Roles and Responsibilities"
+],
+"definition_ko": "담당자별 역할과 책임 범위.",
+"definition_en": "The roles and scope of responsibility of each person in charge.",
+"example_ko": "UX 리서치와 UI 제작의 R&R을 구분해요.",
+"example_en": "Separate the R&R of UX research and UI production."
+},
+{
+"id": "hrfinance-516",
+"field": "hrfinance",
+"term_ko": "R&R",
+"term_en": "R&R",
+"english": "Roles and responsibilities",
+"aliases_ko": [
+"알앤알",
+"R and R",
+"알엔알",
+"Roles and Responsibilities"
+],
+"definition_ko": "담당자별 역할과 책임 범위.",
+"definition_en": "The roles and scope of responsibility of each person in charge.",
+"example_ko": "급여 계산·검토·이체의 R&R을 분리해요.",
+"example_en": "Separate the R&R of payroll calculation, review, and transfer."
+},
+{
+"id": "marketing-040",
+"field": "marketing",
+"term_ko": "산출물",
+"term_en": "Deliverables",
+"english": "Deliverable",
+"aliases_ko": [
+"딜리버러블",
+"결과물",
+"납품물",
+"Deliverables",
+"인도물",
+"최종 제출물"
+],
+"definition_ko": "업무를 통해 만들어 전달하기로 한 결과물.",
+"definition_en": "The results that are to be made and delivered through the work.",
+"example_ko": "캠페인 산출물에 매체별 영상 길이와 배너 규격을 적어요.",
+"example_en": "Write the video length and banner specs for each medium in the campaign deliverables."
+},
+{
+"id": "dev-061",
+"field": "dev",
+"term_ko": "산출물",
+"term_en": "Deliverables",
+"english": "Deliverable",
+"aliases_ko": [
+"딜리버러블",
+"결과물",
+"납품물",
+"Deliverables",
+"인도물",
+"최종 제출물"
+],
+"definition_ko": "업무를 통해 만들어 전달하기로 한 결과물.",
+"definition_en": "The results that are to be made and delivered through the work.",
+"example_ko": "개발 산출물에 소스 코드·운영 문서·테스트 결과를 포함해요.",
+"example_en": "Include source code, operations documentation, and test results in the development deliverables."
+},
+{
+"id": "fashion-035",
+"field": "fashion",
+"term_ko": "산출물",
+"term_en": "Deliverables",
+"english": "Deliverable",
+"aliases_ko": [
+"딜리버러블",
+"결과물",
+"납품물",
+"Deliverables",
+"인도물",
+"최종 제출물"
+],
+"definition_ko": "업무를 통해 만들어 전달하기로 한 결과물.",
+"definition_en": "The results that are to be made and delivered through the work.",
+"example_ko": "상품개발 산출물로 테크팩과 승인 샘플을 관리해요.",
+"example_en": "Manage the tech pack and approved sample as the product-development deliverables."
+},
+{
+"id": "film-402",
+"field": "film",
+"term_ko": "산출물",
+"term_en": "Deliverables",
+"english": "Deliverable",
+"aliases_ko": [
+"딜리버러블",
+"결과물",
+"납품물",
+"Deliverables",
+"인도물",
+"최종 제출물"
+],
+"definition_ko": "업무를 통해 만들어 전달하기로 한 결과물.",
+"definition_en": "The results that are to be made and delivered through the work.",
+"example_ko": "영상 산출물의 해상도·코덱·오디오 트랙 구성을 확인해요.",
+"example_en": "Check the resolution, codec, and audio track configuration of the video deliverables."
+},
+{
+"id": "design-041",
+"field": "design",
+"term_ko": "산출물",
+"term_en": "Deliverables",
+"english": "Deliverable",
+"aliases_ko": [
+"딜리버러블",
+"결과물",
+"납품물",
+"Deliverables",
+"인도물",
+"최종 제출물"
+],
+"definition_ko": "업무를 통해 만들어 전달하기로 한 결과물.",
+"definition_en": "The results that are to be made and delivered through the work.",
+"example_ko": "디자인 산출물의 원본 파일과 사용 가이드를 함께 전달해요.",
+"example_en": "Deliver the design deliverables' source files together with the usage guide."
+},
+{
+"id": "hrfinance-517",
+"field": "hrfinance",
+"term_ko": "산출물",
+"term_en": "Deliverables",
+"english": "Deliverable",
+"aliases_ko": [
+"딜리버러블",
+"결과물",
+"납품물",
+"Deliverables",
+"인도물",
+"최종 제출물"
+],
+"definition_ko": "업무를 통해 만들어 전달하기로 한 결과물.",
+"definition_en": "The results that are to be made and delivered through the work.",
+"example_ko": "인사 진단 산출물에서 개인 식별 정보를 제외해요.",
+"example_en": "Exclude personally identifiable information from the HR diagnostic deliverables."
+},
+{
+"id": "marketing-324",
+"field": "marketing",
+"term_ko": "리뷰",
+"term_en": "Review",
+"english": "Review",
+"aliases_ko": [
+"검토",
+"리뷰하다"
+],
+"definition_ko": "결과나 계획을 살펴보고 문제와 개선점을 확인하는 일.",
+"definition_en": "The work of examining results or plans and identifying problems and improvements.",
+"example_ko": "주간 성과 리뷰에서 매체별 전환과 비용을 확인해요.",
+"example_en": "In the weekly performance review, check conversions and costs by medium."
+},
+{
+"id": "dev-237",
+"field": "dev",
+"term_ko": "리뷰",
+"term_en": "Review",
+"english": "Review",
+"aliases_ko": [
+"검토",
+"리뷰하다"
+],
+"definition_ko": "결과나 계획을 살펴보고 문제와 개선점을 확인하는 일.",
+"definition_en": "The work of examining results or plans and identifying problems and improvements.",
+"example_ko": "코드 리뷰에서 예외 처리와 테스트 누락을 확인해요.",
+"example_en": "In the code review, check exception handling and missing tests."
+},
+{
+"id": "fashion-301",
+"field": "fashion",
+"term_ko": "리뷰",
+"term_en": "Review",
+"english": "Review",
+"aliases_ko": [
+"검토",
+"리뷰하다"
+],
+"definition_ko": "결과나 계획을 살펴보고 문제와 개선점을 확인하는 일.",
+"definition_en": "The work of examining results or plans and identifying problems and improvements.",
+"example_ko": "시즌 판매 리뷰를 다음 시즌 발주 계획에 반영해요.",
+"example_en": "Reflect the season sales review into the next season's order plan."
+},
+{
+"id": "film-347",
+"field": "film",
+"term_ko": "리뷰",
+"term_en": "Review",
+"english": "Review",
+"aliases_ko": [
+"검토",
+"리뷰하다"
+],
+"definition_ko": "결과나 계획을 살펴보고 문제와 개선점을 확인하는 일.",
+"definition_en": "The work of examining results or plans and identifying problems and improvements.",
+"example_ko": "편집본 리뷰는 타임코드와 수정 의도를 함께 남겨요.",
+"example_en": "For the edit review, leave the timecodes together with the intent of each change."
+},
+{
+"id": "design-247",
+"field": "design",
+"term_ko": "리뷰",
+"term_en": "Review",
+"english": "Review",
+"aliases_ko": [
+"검토",
+"리뷰하다"
+],
+"definition_ko": "결과나 계획을 살펴보고 문제와 개선점을 확인하는 일.",
+"definition_en": "The work of examining results or plans and identifying problems and improvements.",
+"example_ko": "디자인 리뷰에서 취향보다 사용자 과업을 기준으로 논의해요.",
+"example_en": "In the design review, discuss based on user tasks rather than personal taste."
+},
+{
+"id": "hrfinance-518",
+"field": "hrfinance",
+"term_ko": "리뷰",
+"term_en": "Review",
+"english": "Review",
+"aliases_ko": [
+"검토",
+"리뷰하다"
+],
+"definition_ko": "결과나 계획을 살펴보고 문제와 개선점을 확인하는 일.",
+"definition_en": "The work of examining results or plans and identifying problems and improvements.",
+"example_ko": "월간 손익 리뷰에서 예산 차이의 원인을 설명해요.",
+"example_en": "In the monthly P&L review, explain the causes of budget variances."
+},
+{
+"id": "marketing-291",
+"field": "marketing",
+"term_ko": "요구사항",
+"term_en": "Requirements",
+"english": "Requirements",
+"aliases_ko": [
+"리콰이어먼트",
+"요건"
+],
+"definition_ko": "결과물이나 서비스가 충족해야 하는 기능·조건·제약.",
+"definition_en": "The functions, conditions, and constraints that a deliverable or service must satisfy.",
+"example_ko": "광고주 요구사항에서 반드시 전달할 메시지와 제외 표현을 정리해요.",
+"example_en": "From the client's requirements, organize the messages that must be delivered and the expressions to exclude."
+},
+{
+"id": "dev-204",
+"field": "dev",
+"term_ko": "요구사항",
+"term_en": "Requirements",
+"english": "Requirements",
+"aliases_ko": [
+"리콰이어먼트",
+"요건"
+],
+"definition_ko": "결과물이나 서비스가 충족해야 하는 기능·조건·제약.",
+"definition_en": "The functions, conditions, and constraints that a deliverable or service must satisfy.",
+"example_ko": "요구사항마다 인수 조건을 연결해 구현 범위를 확인해요.",
+"example_en": "Link acceptance criteria to each requirement to confirm the implementation scope."
+},
+{
+"id": "fashion-268",
+"field": "fashion",
+"term_ko": "요구사항",
+"term_en": "Requirements",
+"english": "Requirements",
+"aliases_ko": [
+"리콰이어먼트",
+"요건"
+],
+"definition_ko": "결과물이나 서비스가 충족해야 하는 기능·조건·제약.",
+"definition_en": "The functions, conditions, and constraints that a deliverable or service must satisfy.",
+"example_ko": "바이어 요구사항을 소재·치수·라벨 규격에 반영해요.",
+"example_en": "Reflect the buyer's requirements into the material, measurement, and label specs."
+},
+{
+"id": "film-314",
+"field": "film",
+"term_ko": "요구사항",
+"term_en": "Requirements",
+"english": "Requirements",
+"aliases_ko": [
+"리콰이어먼트",
+"요건"
+],
+"definition_ko": "결과물이나 서비스가 충족해야 하는 기능·조건·제약.",
+"definition_en": "The functions, conditions, and constraints that a deliverable or service must satisfy.",
+"example_ko": "납품 요구사항의 화면비와 자막 유무를 촬영 전에 확인해요.",
+"example_en": "Before shooting, check the aspect ratio and subtitle presence in the delivery requirements."
+},
+{
+"id": "design-214",
+"field": "design",
+"term_ko": "요구사항",
+"term_en": "Requirements",
+"english": "Requirements",
+"aliases_ko": [
+"리콰이어먼트",
+"요건"
+],
+"definition_ko": "결과물이나 서비스가 충족해야 하는 기능·조건·제약.",
+"definition_en": "The functions, conditions, and constraints that a deliverable or service must satisfy.",
+"example_ko": "디자인 요구사항에 사용 환경과 접근성 조건을 적어요.",
+"example_en": "Write the usage environment and accessibility conditions in the design requirements."
+},
+{
+"id": "hrfinance-519",
+"field": "hrfinance",
+"term_ko": "요구사항",
+"term_en": "Requirements",
+"english": "Requirements",
+"aliases_ko": [
+"리콰이어먼트",
+"요건"
+],
+"definition_ko": "결과물이나 서비스가 충족해야 하는 기능·조건·제약.",
+"definition_en": "The functions, conditions, and constraints that a deliverable or service must satisfy.",
+"example_ko": "인사 시스템 요구사항에 승인 권한과 기록 보관 기준을 포함해요.",
+"example_en": "Include approval authority and record-retention criteria in the HR system requirements."
+},
+{
+"id": "marketing-661",
+"field": "marketing",
+"term_ko": "스테이크홀더",
+"term_en": "Stakeholder",
+"english": "Stakeholder",
+"aliases_ko": [
+"이해관계자",
+"스테이크 홀더"
+],
+"definition_ko": "업무나 결정에 영향을 주거나 그 결과의 영향을 받는 사람·조직.",
+"definition_en": "A person or organization that influences, or is affected by the results of, a task or decision.",
+"example_ko": "광고주·매체사·제작사의 스테이크홀더별 승인 범위를 정해요.",
+"example_en": "Define the approval scope for each stakeholder among the client, media company, and production company."
+},
+{
+"id": "dev-482",
+"field": "dev",
+"term_ko": "스테이크홀더",
+"term_en": "Stakeholder",
+"english": "Stakeholder",
+"aliases_ko": [
+"이해관계자",
+"스테이크 홀더"
+],
+"definition_ko": "업무나 결정에 영향을 주거나 그 결과의 영향을 받는 사람·조직.",
+"definition_en": "A person or organization that influences, or is affected by the results of, a task or decision.",
+"example_ko": "개발 변경의 영향을 받는 운영·보안 스테이크홀더를 확인해요.",
+"example_en": "Check the operations and security stakeholders affected by the development change."
+},
+{
+"id": "fashion-622",
+"field": "fashion",
+"term_ko": "스테이크홀더",
+"term_en": "Stakeholder",
+"english": "Stakeholder",
+"aliases_ko": [
+"이해관계자",
+"스테이크 홀더"
+],
+"definition_ko": "업무나 결정에 영향을 주거나 그 결과의 영향을 받는 사람·조직.",
+"definition_en": "A person or organization that influences, or is affected by the results of, a task or decision.",
+"example_ko": "시즌 변경의 스테이크홀더인 MD·영업·생산팀에 일정을 공유해요.",
+"example_en": "Share the schedule with the MD, sales, and production teams, who are the stakeholders of the season change."
+},
+{
+"id": "film-530",
+"field": "film",
+"term_ko": "스테이크홀더",
+"term_en": "Stakeholder",
+"english": "Stakeholder",
+"aliases_ko": [
+"이해관계자",
+"스테이크 홀더"
+],
+"definition_ko": "업무나 결정에 영향을 주거나 그 결과의 영향을 받는 사람·조직.",
+"definition_en": "A person or organization that influences, or is affected by the results of, a task or decision.",
+"example_ko": "연출·제작·광고주 스테이크홀더의 시사 의견을 취합해요.",
+"example_en": "Gather the screening opinions of the directing, production, and client stakeholders."
+},
+{
+"id": "design-493",
+"field": "design",
+"term_ko": "스테이크홀더",
+"term_en": "Stakeholder",
+"english": "Stakeholder",
+"aliases_ko": [
+"이해관계자",
+"스테이크 홀더"
+],
+"definition_ko": "업무나 결정에 영향을 주거나 그 결과의 영향을 받는 사람·조직.",
+"definition_en": "A person or organization that influences, or is affected by the results of, a task or decision.",
+"example_ko": "리브랜딩 스테이크홀더의 사용 환경을 인터뷰해요.",
+"example_en": "Interview the usage environments of the rebranding stakeholders."
+},
+{
+"id": "hrfinance-520",
+"field": "hrfinance",
+"term_ko": "스테이크홀더",
+"term_en": "Stakeholder",
+"english": "Stakeholder",
+"aliases_ko": [
+"이해관계자",
+"스테이크 홀더"
+],
+"definition_ko": "업무나 결정에 영향을 주거나 그 결과의 영향을 받는 사람·조직.",
+"definition_en": "A person or organization that influences, or is affected by the results of, a task or decision.",
+"example_ko": "보상제도 변경의 스테이크홀더에게 검토 자료를 공유해요.",
+"example_en": "Share the review materials with the stakeholders of the compensation-system change."
+},
+{
+"id": "marketing-662",
+"field": "marketing",
+"term_ko": "사인오프",
+"term_en": "Sign-off",
+"english": "Sign-off",
+"aliases_ko": [
+"사인 오프",
+"최종 승인",
+"싸인오프",
+"Sign-off"
+],
+"definition_ko": "책임자가 결과나 진행 조건을 확인하고 다음 단계로 넘어가도 된다고 승인하는 절차.",
+"definition_en": "A procedure where a responsible person checks the result or the conditions for proceeding and approves moving to the next step.",
+"example_ko": "광고주 사인오프를 받은 소재만 매체에 입고해요.",
+"example_en": "Deliver to the media only the creative that has received the client's sign-off."
+},
+{
+"id": "dev-483",
+"field": "dev",
+"term_ko": "사인오프",
+"term_en": "Sign-off",
+"english": "Sign-off",
+"aliases_ko": [
+"사인 오프",
+"최종 승인",
+"싸인오프",
+"Sign-off"
+],
+"definition_ko": "책임자가 결과나 진행 조건을 확인하고 다음 단계로 넘어가도 된다고 승인하는 절차.",
+"definition_en": "A procedure where a responsible person checks the result or the conditions for proceeding and approves moving to the next step.",
+"example_ko": "QA 사인오프 전에 남은 출시 차단 이슈를 확인해요.",
+"example_en": "Before the QA sign-off, check the remaining release-blocking issues."
+},
+{
+"id": "fashion-623",
+"field": "fashion",
+"term_ko": "사인오프",
+"term_en": "Sign-off",
+"english": "Sign-off",
+"aliases_ko": [
+"사인 오프",
+"최종 승인",
+"싸인오프",
+"Sign-off"
+],
+"definition_ko": "책임자가 결과나 진행 조건을 확인하고 다음 단계로 넘어가도 된다고 승인하는 절차.",
+"definition_en": "A procedure where a responsible person checks the result or the conditions for proceeding and approves moving to the next step.",
+"example_ko": "생산 승인 샘플의 사인오프 기록을 공장에 전달해요.",
+"example_en": "Pass the sign-off record of the production-approved sample to the factory."
+},
+{
+"id": "film-531",
+"field": "film",
+"term_ko": "사인오프",
+"term_en": "Sign-off",
+"english": "Sign-off",
+"aliases_ko": [
+"사인 오프",
+"최종 승인",
+"싸인오프",
+"Sign-off"
+],
+"definition_ko": "책임자가 결과나 진행 조건을 확인하고 다음 단계로 넘어가도 된다고 승인하는 절차.",
+"definition_en": "A procedure where a responsible person checks the result or the conditions for proceeding and approves moving to the next step.",
+"example_ko": "최종 영상 사인오프 후 납품 마스터를 출력해요.",
+"example_en": "After the final video sign-off, output the delivery master."
+},
+{
+"id": "design-494",
+"field": "design",
+"term_ko": "사인오프",
+"term_en": "Sign-off",
+"english": "Sign-off",
+"aliases_ko": [
+"사인 오프",
+"최종 승인",
+"싸인오프",
+"Sign-off"
+],
+"definition_ko": "책임자가 결과나 진행 조건을 확인하고 다음 단계로 넘어가도 된다고 승인하는 절차.",
+"definition_en": "A procedure where a responsible person checks the result or the conditions for proceeding and approves moving to the next step.",
+"example_ko": "인쇄용 데이터의 사인오프 버전을 별도로 보관해요.",
+"example_en": "Keep the signed-off version of the print data separately."
+},
+{
+"id": "hrfinance-521",
+"field": "hrfinance",
+"term_ko": "사인오프",
+"term_en": "Sign-off",
+"english": "Sign-off",
+"aliases_ko": [
+"사인 오프",
+"최종 승인",
+"싸인오프",
+"Sign-off"
+],
+"definition_ko": "책임자가 결과나 진행 조건을 확인하고 다음 단계로 넘어가도 된다고 승인하는 절차.",
+"definition_en": "A procedure where a responsible person checks the result or the conditions for proceeding and approves moving to the next step.",
+"example_ko": "급여 지급 파일은 검토자의 사인오프 후 이체해요.",
+"example_en": "Transfer the payroll payment file only after the reviewer's sign-off."
+},
+{
+"id": "marketing-663",
+"field": "marketing",
+"term_ko": "변경 요청",
+"term_en": "Change Request",
+"english": "Change Request",
+"aliases_ko": [
+"CR",
+"체인지 리퀘스트"
+],
+"definition_ko": "합의한 범위·요건·일정 등을 바꾸어 달라는 공식 또는 관리 대상 요청.",
+"definition_en": "A formal or managed request to change the agreed scope, requirements, schedule, and so on.",
+"example_ko": "매체 추가에 따른 변경 요청의 제작비와 일정을 확인해요.",
+"example_en": "Check the production cost and schedule of the change request arising from the added medium."
+},
+{
+"id": "dev-484",
+"field": "dev",
+"term_ko": "변경 요청",
+"term_en": "Change Request",
+"english": "Change Request",
+"aliases_ko": [
+"CR",
+"체인지 리퀘스트"
+],
+"definition_ko": "합의한 범위·요건·일정 등을 바꾸어 달라는 공식 또는 관리 대상 요청.",
+"definition_en": "A formal or managed request to change the agreed scope, requirements, schedule, and so on.",
+"example_ko": "배포 범위 변경 요청은 영향 분석 후 승인받아요.",
+"example_en": "Get approval for the deployment-scope change request after impact analysis."
+},
+{
+"id": "fashion-624",
+"field": "fashion",
+"term_ko": "변경 요청",
+"term_en": "Change Request",
+"english": "Change Request",
+"aliases_ko": [
+"CR",
+"체인지 리퀘스트"
+],
+"definition_ko": "합의한 범위·요건·일정 등을 바꾸어 달라는 공식 또는 관리 대상 요청.",
+"definition_en": "A formal or managed request to change the agreed scope, requirements, schedule, and so on.",
+"example_ko": "양산 중 사양 변경 요청은 재고와 공정 영향을 먼저 확인해요.",
+"example_en": "For a spec change request during mass production, first check the impact on inventory and processes."
+},
+{
+"id": "film-532",
+"field": "film",
+"term_ko": "변경 요청",
+"term_en": "Change Request",
+"english": "Change Request",
+"aliases_ko": [
+"CR",
+"체인지 리퀘스트"
+],
+"definition_ko": "합의한 범위·요건·일정 등을 바꾸어 달라는 공식 또는 관리 대상 요청.",
+"definition_en": "A formal or managed request to change the agreed scope, requirements, schedule, and so on.",
+"example_ko": "촬영 이후 콘티 변경 요청은 재촬영 필요 여부를 설명해요.",
+"example_en": "For a storyboard change request after shooting, explain whether a reshoot is needed."
+},
+{
+"id": "design-495",
+"field": "design",
+"term_ko": "변경 요청",
+"term_en": "Change Request",
+"english": "Change Request",
+"aliases_ko": [
+"CR",
+"체인지 리퀘스트"
+],
+"definition_ko": "합의한 범위·요건·일정 등을 바꾸어 달라는 공식 또는 관리 대상 요청.",
+"definition_en": "A formal or managed request to change the agreed scope, requirements, schedule, and so on.",
+"example_ko": "승인 시안의 변경 요청을 새 리비전으로 관리해요.",
+"example_en": "Manage the change request for an approved draft as a new revision."
+},
+{
+"id": "hrfinance-522",
+"field": "hrfinance",
+"term_ko": "변경 요청",
+"term_en": "Change Request",
+"english": "Change Request",
+"aliases_ko": [
+"CR",
+"체인지 리퀘스트"
+],
+"definition_ko": "합의한 범위·요건·일정 등을 바꾸어 달라는 공식 또는 관리 대상 요청.",
+"definition_en": "A formal or managed request to change the agreed scope, requirements, schedule, and so on.",
+"example_ko": "급여 마감 후 변경 요청은 승인 이력과 정산 방식을 기록해요.",
+"example_en": "For a change request after the payroll close, record the approval history and the settlement method."
+},
+{
+"id": "marketing-664",
+"field": "marketing",
+"term_ko": "핸들링",
+"term_en": "Handling",
+"english": "Handling",
+"aliases_ko": [
+"핸들링하다"
+],
+"definition_ko": "업무나 관계자를 맡아 진행 상황을 관리하고 조율한다는 말.",
+"definition_en": "An expression meaning to take charge of a task or stakeholder and manage and coordinate its progress.",
+"example_ko": "AE가 광고주 피드백을 취합해 제작팀과 핸들링해요.",
+"example_en": "The AE gathers the client's feedback and handles it with the production team."
+},
+{
+"id": "dev-485",
+"field": "dev",
+"term_ko": "핸들링",
+"term_en": "Handling",
+"english": "Handling",
+"aliases_ko": [
+"핸들링하다"
+],
+"definition_ko": "업무나 관계자를 맡아 진행 상황을 관리하고 조율한다는 말.",
+"definition_en": "An expression meaning to take charge of a task or stakeholder and manage and coordinate its progress.",
+"example_ko": "운영 이슈는 온콜 담당자가 우선순위를 정해 핸들링해요.",
+"example_en": "The on-call person prioritizes and handles operational issues."
+},
+{
+"id": "fashion-625",
+"field": "fashion",
+"term_ko": "핸들링",
+"term_en": "Handling",
+"english": "Handling",
+"aliases_ko": [
+"핸들링하다"
+],
+"definition_ko": "업무나 관계자를 맡아 진행 상황을 관리하고 조율한다는 말.",
+"definition_en": "An expression meaning to take charge of a task or stakeholder and manage and coordinate its progress.",
+"example_ko": "생산관리 담당자가 공장별 납기 이슈를 핸들링해요.",
+"example_en": "The production manager handles delivery-date issues at each factory."
+},
+{
+"id": "film-533",
+"field": "film",
+"term_ko": "핸들링",
+"term_en": "Handling",
+"english": "Handling",
+"aliases_ko": [
+"핸들링하다"
+],
+"definition_ko": "업무나 관계자를 맡아 진행 상황을 관리하고 조율한다는 말.",
+"definition_en": "An expression meaning to take charge of a task or stakeholder and manage and coordinate its progress.",
+"example_ko": "제작부가 로케이션 담당자와 현장 일정을 핸들링해요.",
+"example_en": "The production team handles the on-site schedule with the location manager."
+},
+{
+"id": "design-496",
+"field": "design",
+"term_ko": "핸들링",
+"term_en": "Handling",
+"english": "Handling",
+"aliases_ko": [
+"핸들링하다"
+],
+"definition_ko": "업무나 관계자를 맡아 진행 상황을 관리하고 조율한다는 말.",
+"definition_en": "An expression meaning to take charge of a task or stakeholder and manage and coordinate its progress.",
+"example_ko": "디자인 리드가 부서별 수정 요청을 핸들링해요.",
+"example_en": "The design lead handles the revision requests from each department."
+},
+{
+"id": "hrfinance-523",
+"field": "hrfinance",
+"term_ko": "핸들링",
+"term_en": "Handling",
+"english": "Handling",
+"aliases_ko": [
+"핸들링하다"
+],
+"definition_ko": "업무나 관계자를 맡아 진행 상황을 관리하고 조율한다는 말.",
+"definition_en": "An expression meaning to take charge of a task or stakeholder and manage and coordinate its progress.",
+"example_ko": "인사 운영 담당자가 입사 서류 문의를 핸들링해요.",
+"example_en": "The HR operations person handles inquiries about onboarding documents."
+},
+{
+"id": "marketing-665",
+"field": "marketing",
+"term_ko": "갈아엎다",
+"term_en": "Overhaul",
+"english": "",
+"aliases_ko": [
+"갈아 엎다",
+"전면 수정"
+],
+"definition_ko": "기존 안이나 작업을 크게 버리고 방향·구조부터 다시 만든다는 비공식 표현.",
+"definition_en": "An informal expression meaning to largely scrap an existing proposal or work and rebuild it from the direction and structure up.",
+"example_ko": "캠페인 메시지가 바뀌어 기존 제안서를 갈아엎게 됐어요.",
+"example_en": "The campaign message changed, so we ended up overhauling the existing proposal."
+},
+{
+"id": "fashion-626",
+"field": "fashion",
+"term_ko": "갈아엎다",
+"term_en": "Overhaul",
+"english": "",
+"aliases_ko": [
+"갈아 엎다",
+"전면 수정"
+],
+"definition_ko": "기존 안이나 작업을 크게 버리고 방향·구조부터 다시 만든다는 비공식 표현.",
+"definition_en": "An informal expression meaning to largely scrap an existing proposal or work and rebuild it from the direction and structure up.",
+"example_ko": "품평회 의견으로 컬렉션 구성을 갈아엎기 전에 납기를 확인해요.",
+"example_en": "Before overhauling the collection lineup based on review feedback, check the delivery dates."
+},
+{
+"id": "film-534",
+"field": "film",
+"term_ko": "갈아엎다",
+"term_en": "Overhaul",
+"english": "",
+"aliases_ko": [
+"갈아 엎다",
+"전면 수정"
+],
+"definition_ko": "기존 안이나 작업을 크게 버리고 방향·구조부터 다시 만든다는 비공식 표현.",
+"definition_en": "An informal expression meaning to largely scrap an existing proposal or work and rebuild it from the direction and structure up.",
+"example_ko": "콘티를 갈아엎으면 촬영 준비에 미치는 영향을 먼저 확인해요.",
+"example_en": "If you overhaul the storyboard, first check the impact on shooting preparations."
+},
+{
+"id": "design-497",
+"field": "design",
+"term_ko": "갈아엎다",
+"term_en": "scrap and rebuild",
+"english": "",
+"aliases_ko": [
+"갈아 엎다",
+"전면 수정"
+],
+"definition_ko": "기존 안이나 작업을 크게 버리고 방향·구조부터 다시 만든다는 비공식 표현.",
+"definition_en": "An informal expression meaning to largely discard an existing proposal or piece of work and rebuild it from the ground up, starting with its direction and structure.",
+"example_ko": "시안을 갈아엎기 전에 기존 방향의 문제가 무엇인지 합의해요.",
+"example_en": "Before we scrap and rebuild the draft, let's agree on what's wrong with the current direction."
+},
+{
+"id": "hrfinance-524",
+"field": "hrfinance",
+"term_ko": "갈아엎다",
+"term_en": "scrap and rebuild",
+"english": "",
+"aliases_ko": [
+"갈아 엎다",
+"전면 수정"
+],
+"definition_ko": "기존 안이나 작업을 크게 버리고 방향·구조부터 다시 만든다는 비공식 표현.",
+"definition_en": "An informal expression meaning to largely discard an existing proposal or piece of work and rebuild it from the ground up, starting with its direction and structure.",
+"example_ko": "평가체계를 갈아엎기 전에 기존 제도의 문제와 영향을 정리해요.",
+"example_en": "Before we scrap and rebuild the evaluation system, let's lay out the problems with the current framework and their impact."
+}
+]

@@ -1,0 +1,4210 @@
+[
+{
+"id": "dev-447",
+"field": "dev",
+"term_ko": "해피 패스",
+"term_en": "Happy path",
+"english": "Happy path",
+"aliases_ko": [
+"정상 흐름",
+"정상 시나리오"
+],
+"definition_ko": "오류나 예외 없이 예상한 입력과 순서대로 진행되는 대표적인 성공 흐름.",
+"definition_en": "The representative success flow that proceeds with expected input and order without errors or exceptions.",
+"example_ko": "해피 패스만 확인하지 말고 결제 취소와 재시도도 테스트해요.",
+"example_en": "Do not just check the happy path; also test payment cancellation and retry."
+},
+{
+"id": "dev-448",
+"field": "dev",
+"term_ko": "예외 처리",
+"term_en": "Exception handling",
+"english": "Exception handling",
+"aliases_ko": [
+"예외처리",
+"에러 핸들링"
+],
+"definition_ko": "정상 흐름을 벗어나는 오류나 조건을 감지하고 복구·안내·중단 등을 정하는 처리.",
+"definition_en": "Handling that detects errors or conditions outside the normal flow and determines recovery, notification, halting, and so on.",
+"example_ko": "타임아웃의 예외 처리에서 중복 결제가 생기지 않는지 확인해요.",
+"example_en": "In the timeout exception handling, check that no duplicate payment occurs."
+},
+{
+"id": "dev-449",
+"field": "dev",
+"term_ko": "폴백",
+"term_en": "Fallback",
+"english": "Fallback",
+"aliases_ko": [
+"폴백 처리",
+"대체 동작"
+],
+"definition_ko": "원래 기능이나 경로를 사용할 수 없을 때 적용하는 대체 동작.",
+"definition_en": "An alternative behavior applied when the original function or path is unavailable.",
+"example_ko": "추천 API가 실패하면 기본 목록을 보여주는 폴백을 넣어요.",
+"example_en": "Add a fallback that shows the default list when the recommendation API fails."
+},
+{
+"id": "dev-450",
+"field": "dev",
+"term_ko": "하위 호환성",
+"term_en": "Backward compatibility",
+"english": "Backward compatibility",
+"aliases_ko": [
+"하위 호환",
+"백워드 호환"
+],
+"definition_ko": "새 버전이 이전 버전의 데이터·인터페이스·사용 방식 등을 계속 지원하는 성질.",
+"definition_en": "The property by which a new version continues to support the data, interfaces, and usage of the previous version.",
+"example_ko": "API 응답을 바꿀 때 구버전 앱의 하위 호환성을 확인해요.",
+"example_en": "When changing the API response, check backward compatibility with the old app version."
+},
+{
+"id": "dev-451",
+"field": "dev",
+"term_ko": "브레이킹 체인지",
+"term_en": "Breaking change",
+"english": "Breaking change",
+"aliases_ko": [
+"호환성 파괴 변경",
+"호환성 깨지는 변경"
+],
+"definition_ko": "기존 사용자나 연동 코드가 수정 없이 계속 동작하지 못하게 할 수 있는 변경.",
+"definition_en": "A change that may prevent existing users or integration code from continuing to work without modification.",
+"example_ko": "필수 필드를 추가하는 것이 브레이킹 체인지인지 클라이언트와 확인해요.",
+"example_en": "Check with the client whether adding a required field is a breaking change."
+},
+{
+"id": "dev-452",
+"field": "dev",
+"term_ko": "멱등성",
+"term_en": "Idempotency",
+"english": "Idempotency",
+"aliases_ko": [
+"멱등",
+"아이덤포턴시"
+],
+"definition_ko": "같은 요청이나 연산을 반복해도 의도한 효과가 한 번 수행했을 때와 같도록 하는 성질.",
+"definition_en": "The property that repeating the same request or operation produces the same intended effect as performing it once.",
+"example_ko": "결제 재시도에서도 주문이 중복 생성되지 않도록 멱등성을 설계해요.",
+"example_en": "Design idempotency so that retrying a payment does not create a duplicate order.",
+"note_ko": "반복 요청의 응답 내용이나 응답 코드까지 항상 같아야 한다는 뜻은 아닙니다.",
+"note_en": "It does not mean the response content or response code of repeated requests must always be identical."
+},
+{
+"id": "dev-453",
+"field": "dev",
+"term_ko": "데이터 정합성",
+"term_en": "Data integrity",
+"english": "Data consistency",
+"aliases_ko": [
+"정합성",
+"데이터 일관성"
+],
+"definition_ko": "데이터 사이의 관계와 값이 정해진 규칙에 맞아 서로 모순되지 않는 상태.",
+"definition_en": "A state in which the relationships and values among data conform to defined rules and do not contradict each other.",
+"example_ko": "주문 상태와 결제 내역의 데이터 정합성을 점검해요.",
+"example_en": "Check the data integrity between order status and payment records."
+},
+{
+"id": "dev-454",
+"field": "dev",
+"term_ko": "영향 범위",
+"term_en": "Impact scope",
+"english": "Impact scope",
+"aliases_ko": [
+"변경 영향도",
+"영향도 분석"
+],
+"definition_ko": "코드·설정·데이터 변경으로 동작이 달라지거나 문제가 생길 수 있는 기능과 시스템의 범위.",
+"definition_en": "The scope of functions and systems whose behavior may change or where problems may arise due to code, configuration, or data changes.",
+"example_ko": "공통 인증 모듈 변경의 영향 범위를 확인하고 회귀 테스트 대상을 정해요.",
+"example_en": "Check the impact scope of changing the shared authentication module and decide the regression test targets."
+},
+{
+"id": "dev-455",
+"field": "dev",
+"term_ko": "롤아웃",
+"term_en": "Rollout",
+"english": "Rollout",
+"aliases_ko": [
+"롤 아웃",
+"기능 롤아웃"
+],
+"definition_ko": "새 기능이나 버전을 사용자·환경 등에 단계적으로 적용하거나 공개하는 과정.",
+"definition_en": "The process of applying or releasing a new feature or version to users, environments, and so on in stages.",
+"example_ko": "먼저 내부 사용자에게 롤아웃한 뒤 오류율을 확인해 범위를 넓혀요.",
+"example_en": "Roll out to internal users first, check the error rate, then widen the scope."
+},
+{
+"id": "dev-456",
+"field": "dev",
+"term_ko": "롤백 플랜",
+"term_en": "Rollback plan",
+"english": "Rollback plan",
+"aliases_ko": [
+"롤백 계획",
+"원복 계획"
+],
+"definition_ko": "배포나 변경에 문제가 생겼을 때 이전 상태로 되돌릴 조건·절차·책임을 정한 계획.",
+"definition_en": "A plan that defines the conditions, procedures, and responsibilities for reverting to the previous state if a deployment or change has problems.",
+"example_ko": "데이터 변경까지 되돌릴 수 있는지 롤백 플랜을 점검해요.",
+"example_en": "Check the rollback plan for whether even data changes can be reverted."
+},
+{
+"id": "dev-457",
+"field": "dev",
+"term_ko": "코드 프리즈",
+"term_en": "Code freeze",
+"english": "Code freeze",
+"aliases_ko": [
+"코드 동결",
+"프리즈"
+],
+"definition_ko": "출시 안정화 등을 위해 정한 기간에 코드 변경을 제한하는 상태나 규칙.",
+"definition_en": "A state or rule that restricts code changes during a set period for release stabilization and so on.",
+"example_ko": "코드 프리즈 이후에는 승인된 긴급 수정만 반영해요.",
+"example_en": "After the code freeze, only approved emergency fixes are applied."
+},
+{
+"id": "dev-458",
+"field": "dev",
+"term_ko": "버그 트리아지",
+"term_en": "Bug triage",
+"english": "Bug triage",
+"aliases_ko": [
+"트리아지",
+"버그 분류"
+],
+"definition_ko": "보고된 버그의 재현 여부·심각도·우선순위·담당·처리 방향을 정하는 과정.",
+"definition_en": "The process of determining reproducibility, severity, priority, ownership, and handling direction for reported bugs.",
+"example_ko": "버그 트리아지에서 데이터 손실 문제를 먼저 처리하기로 했어요.",
+"example_en": "In bug triage, we decided to handle the data-loss issue first."
+},
+{
+"id": "fashion-573",
+"field": "fashion",
+"term_ko": "품평회",
+"term_en": "Product review meeting",
+"english": "Product review",
+"aliases_ko": [
+"품평",
+"상품 품평",
+"품평 미팅"
+],
+"definition_ko": "개발한 의류 샘플을 함께 보며 디자인·핏·소재·가격·판매 가능성을 검토하고 수정이나 채택을 결정하는 자리.",
+"definition_en": "A session to review developed garment samples together for design, fit, material, price, and sales potential, and decide on revisions or adoption.",
+"example_ko": "품평회에서 착장으로 비교한 뒤 채택할 재킷과 수정할 팬츠를 나눠요.",
+"example_en": "In the product review meeting, compare by outfit, then separate the jackets to adopt from the pants to revise."
+},
+{
+"id": "fashion-574",
+"field": "fashion",
+"term_ko": "라인업",
+"term_en": "Lineup",
+"english": "Product lineup",
+"aliases_ko": [
+"상품 라인업",
+"시즌 라인업"
+],
+"definition_ko": "시즌이나 컬렉션에서 함께 전개할 품목과 스타일의 전체 구성.",
+"definition_en": "The overall composition of items and styles developed together in a season or collection.",
+"example_ko": "아우터에 치우친 라인업을 보고 이너 품목을 보강해요.",
+"example_en": "Seeing the outerwear-heavy lineup, reinforce the inner items."
+},
+{
+"id": "fashion-575",
+"field": "fashion",
+"term_ko": "스타일 수",
+"term_en": "Number of styles",
+"english": "Style count",
+"aliases_ko": [
+"스타일수",
+"스타일 개수"
+],
+"definition_ko": "기획하거나 운영하는 구분된 의류 디자인의 수. 색상·사이즈 조합별 SKU 수와 구분한다.",
+"definition_en": "The number of distinct garment designs planned or operated. Distinguish it from the number of SKUs by color and size combination.",
+"example_ko": "스타일 수는 유지하고 컬러 수를 줄여 재고 부담을 조정해요.",
+"example_en": "Keep the number of styles and reduce the number of colors to adjust inventory burden."
+},
+{
+"id": "fashion-576",
+"field": "fashion",
+"term_ko": "아이템 구성",
+"term_en": "Item composition",
+"english": "Item mix",
+"aliases_ko": [
+"아이템 믹스",
+"품목 구성"
+],
+"definition_ko": "상의·하의·아우터 등 품목을 어떤 비중과 역할로 갖출지 정한 구성.",
+"definition_en": "The composition deciding what proportion and role of items such as tops, bottoms, and outerwear to carry.",
+"example_ko": "계절 수요를 보고 아이템 구성에서 얇은 아우터 비중을 늘려요.",
+"example_en": "Seeing seasonal demand, increase the proportion of lightweight outerwear in the item composition."
+},
+{
+"id": "fashion-577",
+"field": "fashion",
+"term_ko": "상품 믹스",
+"term_en": "Product mix",
+"english": "Product mix",
+"aliases_ko": [
+"상품믹스",
+"제품 믹스"
+],
+"definition_ko": "브랜드가 운영할 상품군·가격대·스타일 등의 조합과 비중.",
+"definition_en": "The combination and proportion of product categories, price ranges, styles, and so on that a brand will carry.",
+"example_ko": "기본물과 시즌 포인트 상품의 상품 믹스를 검토해요.",
+"example_en": "Review the product mix of basic items and seasonal statement products."
+},
+{
+"id": "fashion-578",
+"field": "fashion",
+"term_ko": "가격대 구성",
+"term_en": "Price-tier structure",
+"english": "Price architecture",
+"aliases_ko": [
+"가격 구성",
+"프라이스 아키텍처"
+],
+"definition_ko": "입문·주력·고가 등 상품의 가격 역할과 구간을 나누어 갖추는 구조.",
+"definition_en": "A structure that divides and provides the price roles and ranges of products, such as entry, core, and premium.",
+"example_ko": "재킷 가격대 구성에서 주력 구간이 비어 있어 상품을 보완해요.",
+"example_en": "The core tier is empty in the jacket price-tier structure, so supplement the products."
+},
+{
+"id": "fashion-579",
+"field": "fashion",
+"term_ko": "타깃 핏",
+"term_en": "Target fit",
+"english": "Target fit",
+"aliases_ko": [
+"타겟 핏",
+"타깃핏",
+"타겟핏"
+],
+"definition_ko": "상품의 스타일·가격·착용 상황 등이 목표 고객의 취향과 생활에 맞는 정도.",
+"definition_en": "The degree to which a product's style, price, and wearing occasion match the target customer's taste and lifestyle.",
+"example_ko": "디자인은 좋지만 출퇴근용 고객의 타깃 핏에 맞는 길이인지 봐요.",
+"example_en": "The design is good, but check whether the length suits the target fit of commuting customers.",
+"note_ko": "고객과 상품의 적합성을 말합니다. 실제로 입었을 때의 치수·실루엣을 뜻하는 핏과 구분합니다.",
+"note_en": "It refers to the suitability between customer and product. Distinguish it from fit, which means the actual measurements and silhouette when worn."
+},
+{
+"id": "fashion-580",
+"field": "fashion",
+"term_ko": "브랜드 핏",
+"term_en": "Brand fit",
+"english": "Brand fit",
+"aliases_ko": [
+"브랜드핏",
+"브랜드 적합성"
+],
+"definition_ko": "상품·착장·협업 등의 표현이 브랜드의 정체성과 상품 방향에 어울리는 정도.",
+"definition_en": "The degree to which the expression of products, styling, and collaborations suits the brand's identity and product direction.",
+"example_ko": "유행하는 디테일이라도 우리 컬렉션의 브랜드 핏과 맞는지 검토해요.",
+"example_en": "Even for a trending detail, review whether it fits our collection's brand fit."
+},
+{
+"id": "fashion-581",
+"field": "fashion",
+"term_ko": "판매 적기",
+"term_en": "Optimal sales timing",
+"english": "",
+"aliases_ko": [
+"판매 시점",
+"적기 판매"
+],
+"definition_ko": "계절·행사·수요 변화 등을 고려할 때 해당 상품을 판매하기 적절한 시기.",
+"definition_en": "The appropriate time to sell a given product considering season, events, demand changes, and so on.",
+"example_ko": "입고가 늦어지면 겨울 아우터의 판매 적기를 놓칠 수 있어요.",
+"example_en": "If delivery is late, you may miss the optimal sales timing for winter outerwear."
+},
+{
+"id": "fashion-582",
+"field": "fashion",
+"term_ko": "초도 물량",
+"term_en": "Initial order quantity",
+"english": "Initial order quantity",
+"aliases_ko": [
+"초도 수량",
+"초도물량",
+"초도 발주량"
+],
+"definition_ko": "신상품 판매나 생산을 시작하며 처음 주문·투입하는 수량.",
+"definition_en": "The quantity first ordered or input when starting the sale or production of a new product.",
+"example_ko": "초도 물량은 작게 잡고 초기 판매를 보고 리오더해요.",
+"example_en": "Keep the initial order quantity small and reorder after seeing initial sales.",
+"note_ko": "첫 생산·주문 수량에 관한 말입니다. 샘플 제작 수량이나 총 시즌 발주량과 구분합니다.",
+"note_en": "It concerns the first production or order quantity. Distinguish it from the sample-making quantity or the total seasonal order quantity."
+},
+{
+"id": "fashion-583",
+"field": "fashion",
+"term_ko": "소진 계획",
+"term_en": "Sell-through plan",
+"english": "",
+"aliases_ko": [
+"재고 소진 계획",
+"소진 플랜"
+],
+"definition_ko": "남은 상품을 언제 어떤 채널·가격·프로모션으로 판매할지 정하는 계획.",
+"definition_en": "A plan deciding when and through which channel, price, and promotion to sell remaining products.",
+"example_ko": "시즌 말 재고는 할인율뿐 아니라 채널별 소진 계획을 함께 봐요.",
+"example_en": "For end-of-season inventory, look at the sell-through plan by channel, not just the discount rate."
+},
+{
+"id": "fashion-584",
+"field": "fashion",
+"term_ko": "납기 지연",
+"term_en": "Delivery delay",
+"english": "",
+"aliases_ko": [
+"딜레이",
+"납기 밀림"
+],
+"definition_ko": "합의한 원부자재 공급·생산·납품 날짜보다 늦어지는 상황.",
+"definition_en": "A situation of being later than the agreed date for raw and sub-material supply, production, or delivery.",
+"example_ko": "부자재 납기 지연이 완제품 입고일에 미치는 영향을 확인해요.",
+"example_en": "Check the impact of the sub-material delivery delay on the finished-goods arrival date."
+},
+{
+"id": "fashion-585",
+"field": "fashion",
+"term_ko": "피팅 미팅",
+"term_en": "Fitting meeting",
+"english": "Fit meeting",
+"aliases_ko": [
+"피팅 회의",
+"핏 미팅"
+],
+"definition_ko": "샘플을 착용시켜 치수·균형·움직임 등을 살피고 패턴·봉제 수정 내용을 정하는 자리.",
+"definition_en": "A session where a sample is worn to examine measurements, balance, movement, and so on, and decide pattern and sewing revisions.",
+"example_ko": "피팅 미팅에서 앉았을 때 허리와 밑위가 불편한지 확인해요.",
+"example_en": "In the fitting meeting, check whether the waist and rise are uncomfortable when seated."
+},
+{
+"id": "fashion-586",
+"field": "fashion",
+"term_ko": "수정 샘플",
+"term_en": "Revised sample",
+"english": "Revised sample",
+"aliases_ko": [
+"재샘플",
+"수정샘플",
+"수정 샘플링"
+],
+"definition_ko": "이전 검토의 코멘트를 반영해 다시 만든 견본.",
+"definition_en": "A sample remade to reflect the comments from the previous review.",
+"example_ko": "수정 샘플에서 소매통 변경과 카라 들뜸이 해결됐는지 봐요.",
+"example_en": "In the revised sample, check whether the sleeve-width change and collar lifting are resolved."
+},
+{
+"id": "fashion-587",
+"field": "fashion",
+"term_ko": "기준 사이즈",
+"term_en": "Base size",
+"english": "Base size",
+"aliases_ko": [
+"베이스 사이즈",
+"기준사이즈"
+],
+"definition_ko": "패턴·치수·핏을 개발하고 다른 사이즈로 전개할 때 기준으로 삼는 사이즈.",
+"definition_en": "The size used as the reference when developing the pattern, measurements, and fit, and grading to other sizes.",
+"example_ko": "기준 사이즈의 핏을 먼저 맞춘 뒤 사이즈 세트를 검토해요.",
+"example_en": "Match the fit of the base size first, then review the size set."
+},
+{
+"id": "fashion-588",
+"field": "fashion",
+"term_ko": "착용 여유",
+"term_en": "Wearing ease",
+"english": "Ease",
+"aliases_ko": [
+"여유량",
+"이즈",
+"착용 여유분"
+],
+"definition_ko": "몸의 치수에 움직임과 실루엣을 위해 더하는 의복의 여유.",
+"definition_en": "The ease added to body measurements in a garment for movement and silhouette.",
+"example_ko": "신축성이 없는 셔츠라 등과 팔의 착용 여유를 확인해요.",
+"example_en": "Since the shirt has no stretch, check the wearing ease at the back and arms."
+},
+{
+"id": "fashion-589",
+"field": "fashion",
+"term_ko": "밸런스",
+"term_en": "Balance",
+"english": "Garment balance",
+"aliases_ko": [
+"핏 밸런스",
+"앞뒤 밸런스"
+],
+"definition_ko": "착용했을 때 앞뒤·좌우 길이와 위치 관계가 의도한 균형을 이루는 상태.",
+"definition_en": "A state in which the front-back and left-right length and position relationships achieve the intended balance when worn.",
+"example_ko": "옆선이 앞으로 돌아가는 원인을 앞뒤 밸런스와 함께 봐요.",
+"example_en": "Examine the cause of the side seam rotating forward together with the front-back balance.",
+"note_ko": "의류의 패턴·치수·착용 균형 문맥입니다. 화면의 시각적 무게를 뜻하는 디자인 밸런스와 구분합니다.",
+"note_en": "This is the context of a garment's pattern, measurements, and wearing balance. Distinguish it from design balance, which means visual weight on screen."
+},
+{
+"id": "fashion-600",
+"field": "fashion",
+"term_ko": "드롭 출시",
+"term_en": "Drop release",
+"english": "Delivery drop",
+"aliases_ko": [
+"드롭",
+"시즌 드롭",
+"상품 드롭",
+"드롭 일정"
+],
+"definition_ko": "시즌 안에서 상품을 일정한 묶음과 시점으로 나누어 공개·출시하는 것 또는 그 묶음.",
+"definition_en": "Releasing products divided into set groups and timings within a season, or such a group.",
+"example_ko": "두 번째 드롭은 장마 전에 판매할 경량 아우터로 구성해요.",
+"example_en": "Compose the second drop with lightweight outerwear to sell before the rainy season.",
+"note_ko": "패션의 순차 공개·출시 문맥입니다. 안건이나 작업을 제외한다는 업무 공통의 드롭과 다릅니다.",
+"note_en": "This is the context of sequential release in fashion. It differs from the general-business drop, which means excluding an agenda item or task."
+},
+{
+"id": "fashion-590",
+"field": "fashion",
+"term_ko": "핵심 스타일",
+"term_en": "Key style",
+"english": "Key style",
+"aliases_ko": [
+"키 스타일",
+"키스타일"
+],
+"definition_ko": "시즌의 디자인 방향이나 판매 전략을 대표하도록 선정한 스타일.",
+"definition_en": "A style selected to represent the season's design direction or sales strategy.",
+"example_ko": "핵심 스타일의 실루엣을 기준으로 다른 착장도 연결해요.",
+"example_en": "Connect other outfits based on the silhouette of the key style."
+},
+{
+"id": "fashion-591",
+"field": "fashion",
+"term_ko": "코스트다운",
+"term_en": "Cost down",
+"english": "Cost reduction",
+"aliases_ko": [
+"코스트 다운",
+"원가 절감"
+],
+"definition_ko": "소재·부자재·공정 등을 조정해 제품 원가를 낮추는 작업.",
+"definition_en": "The work of lowering a product's cost by adjusting materials, sub-materials, processes, and so on.",
+"example_ko": "코스트다운을 하더라도 지퍼 내구성과 봉제 품질은 지켜야 해요.",
+"example_en": "Even when doing a cost down, zipper durability and sewing quality must be maintained."
+},
+{
+"id": "fashion-592",
+"field": "fashion",
+"term_ko": "목표 원가",
+"term_en": "Target cost",
+"english": "Target cost",
+"aliases_ko": [
+"타깃 코스트",
+"타겟 원가"
+],
+"definition_ko": "판매 가격과 이익·유통 조건 등을 고려해 제품 개발에서 맞추려는 원가 기준.",
+"definition_en": "The cost standard to be met in product development, considering the selling price, profit, and distribution conditions.",
+"example_ko": "목표 원가를 넘어서 원단과 봉제 공정의 대안을 검토해요.",
+"example_en": "It exceeds the target cost, so review alternatives for the fabric and sewing process."
+},
+{
+"id": "fashion-593",
+"field": "fashion",
+"term_ko": "원가 분석",
+"term_en": "Cost analysis",
+"english": "Cost breakdown",
+"aliases_ko": [
+"원가 브레이크다운",
+"코스팅"
+],
+"definition_ko": "원단·부자재·공임·가공 등 항목별 비용을 나누어 원가 구성을 살피는 일.",
+"definition_en": "The work of breaking down costs by item such as fabric, sub-materials, labor, and processing to examine the cost structure.",
+"example_ko": "원가 분석에서 자수 공임이 얼마나 차지하는지 확인해요.",
+"example_en": "In the cost analysis, check how much the embroidery labor accounts for."
+},
+{
+"id": "fashion-594",
+"field": "fashion",
+"term_ko": "원단 확정",
+"term_en": "Fabric confirmation",
+"english": "",
+"aliases_ko": [
+"원단 픽스",
+"소재 확정",
+"소재 픽스"
+],
+"definition_ko": "품질·색·가격·수급 등을 검토해 생산에 쓸 원단을 결정하는 일.",
+"definition_en": "Deciding the fabric to use in production after reviewing quality, color, price, supply, and so on.",
+"example_ko": "원단 확정 전에 수축률과 납기까지 확인해요.",
+"example_en": "Before confirming the fabric, also check the shrinkage rate and delivery."
+},
+{
+"id": "fashion-595",
+"field": "fashion",
+"term_ko": "대체 원단",
+"term_en": "Alternative fabric",
+"english": "",
+"aliases_ko": [
+"대체 소재",
+"원단 대안"
+],
+"definition_ko": "품질·가격·납기 등의 이유로 기존 원단 대신 검토하는 소재.",
+"definition_en": "A material reviewed in place of the existing fabric for reasons such as quality, price, or delivery.",
+"example_ko": "대체 원단은 색만 보지 말고 드레이프와 세탁 후 치수도 비교해요.",
+"example_en": "For the alternative fabric, do not just look at color; also compare drape and post-wash measurements."
+},
+{
+"id": "fashion-596",
+"field": "fashion",
+"term_ko": "생산 전 미팅",
+"term_en": "Pre-production meeting",
+"english": "Pre-production meeting",
+"aliases_ko": [
+"프리프로덕션 미팅",
+"PP 미팅",
+"PPM"
+],
+"definition_ko": "본생산 전에 사양·승인 샘플·공정·품질 기준·일정을 관련 담당자가 맞추는 회의.",
+"definition_en": "A meeting before mass production where the relevant people align on specifications, approved samples, processes, quality standards, and schedule.",
+"example_ko": "생산 전 미팅에서 승인 샘플과 작업지시서의 차이를 없애요.",
+"example_en": "In the pre-production meeting, eliminate the differences between the approved sample and the work order.",
+"note_ko": "의류 본생산 전 회의입니다. 패션 화보 촬영을 앞두고 하는 PPM과 주체·검토 대상이 다릅니다.",
+"note_en": "This is a pre-mass-production meeting for garments. It differs in participants and review subject from the PPM held before a fashion editorial shoot."
+},
+{
+"id": "fashion-597",
+"field": "fashion",
+"term_ko": "양산 승인",
+"term_en": "Mass-production approval",
+"english": "",
+"aliases_ko": [
+"본생산 승인",
+"생산 컨펌",
+"벌크 승인"
+],
+"definition_ko": "검토한 샘플과 사양을 기준으로 본생산을 시작할 수 있도록 승인하는 절차.",
+"definition_en": "A procedure that approves starting mass production based on the reviewed sample and specifications.",
+"example_ko": "수정된 봉제 사양을 확인한 뒤 양산 승인을 내요.",
+"example_en": "After checking the revised sewing specifications, grant mass-production approval."
+},
+{
+"id": "fashion-598",
+"field": "fashion",
+"term_ko": "승인 보류",
+"term_en": "Approval hold",
+"english": "",
+"aliases_ko": [
+"샘플 승인 보류",
+"샘플 홀드"
+],
+"definition_ko": "샘플이나 원부자재에 미해결 사항이 있어 승인 결정을 미루는 상태.",
+"definition_en": "A state of postponing the approval decision because there are unresolved matters in the sample or raw and sub-materials.",
+"example_ko": "탕 차이 확인이 끝나지 않아 해당 원단은 승인 보류예요.",
+"example_en": "The lot-to-lot shade check is not finished, so that fabric is on approval hold.",
+"note_ko": "검토가 끝나기 전 상태입니다. 반드시 최종 불합격이나 생산 취소를 뜻하지 않습니다.",
+"note_en": "It is a state before the review is finished. It does not necessarily mean final rejection or production cancellation."
+},
+{
+"id": "fashion-599",
+"field": "fashion",
+"term_ko": "검품 기준",
+"term_en": "Inspection standard",
+"english": "",
+"aliases_ko": [
+"품질 판정 기준",
+"불량 판정 기준"
+],
+"definition_ko": "완제품의 치수·봉제·외관 등을 어떤 방법과 허용 범위로 검사할지 정한 기준.",
+"definition_en": "A standard for how and within what tolerance to inspect the measurements, sewing, and appearance of finished products.",
+"example_ko": "브랜드와 공장이 같은 검품 기준을 쓰도록 불량 견본을 함께 봐요.",
+"example_en": "Review the defect samples together so the brand and factory use the same inspection standard."
+},
+{
+"id": "design-446",
+"field": "design",
+"term_ko": "디자인 크리틱",
+"term_en": "Design critique",
+"english": "Design critique",
+"aliases_ko": [
+"크리틱",
+"디자인 크리티크",
+"디자인 리뷰",
+"디자인 검토"
+],
+"definition_ko": "디자인의 목표와 의도를 공유하고 동료들이 질문·피드백을 통해 개선 방향을 찾는 검토 과정.",
+"definition_en": "A review process where the design's goals and intent are shared and colleagues find directions for improvement through questions and feedback.",
+"example_ko": "크리틱에서는 좋아 보이는지보다 사용자가 정보를 찾을 수 있는지부터 이야기해요.",
+"example_en": "In the critique, start with whether users can find information rather than whether it looks good.",
+"note_ko": "정해진 결재 절차와는 별개로 개선을 위한 검토를 뜻합니다. 조직마다 방식과 참여자는 다릅니다.",
+"note_en": "It means a review for improvement, separate from a formal approval procedure. The method and participants differ by organization."
+},
+{
+"id": "design-447",
+"field": "design",
+"term_ko": "콘셉트",
+"term_en": "Concept",
+"english": "Design concept",
+"aliases_ko": [
+"컨셉",
+"디자인 콘셉트",
+"디자인 컨셉"
+],
+"definition_ko": "목표와 메시지를 형태·색·서체·구성 등으로 일관되게 풀어내기 위한 중심 생각과 표현 방향.",
+"definition_en": "The central idea and expressive direction for coherently developing goals and messages into form, color, typeface, composition, and so on.",
+"example_ko": "친근한 전문성이라는 콘셉트가 서체와 사진에서도 드러나는지 봐요.",
+"example_en": "Check whether the concept of approachable expertise shows through in the typeface and photos too."
+},
+{
+"id": "design-448",
+"field": "design",
+"term_ko": "디자인 디렉션",
+"term_en": "Design direction",
+"english": "Design direction",
+"aliases_ko": [
+"디자인 방향",
+"비주얼 디렉션",
+"아트 디렉션"
+],
+"definition_ko": "디자인이 지향할 시각적 성격과 이를 구현하는 선택의 방향.",
+"definition_en": "The visual character the design should pursue and the direction of choices that realize it.",
+"example_ko": "따뜻한 색과 간결한 조형을 중심으로 디자인 디렉션을 맞춰요.",
+"example_en": "Align the design direction around warm colors and clean forms."
+},
+{
+"id": "design-449",
+"field": "design",
+"term_ko": "A안·B안",
+"term_en": "Option A / Option B",
+"english": "",
+"aliases_ko": [
+"A안",
+"B안",
+"에이안",
+"비안",
+"에이 안",
+"비 안"
+],
+"definition_ko": "비교·선택을 위해 구분해 제시하는 서로 다른 시안. 단순한 색 변경인지 발상 자체가 다른 안인지 범위를 함께 정한다.",
+"definition_en": "Different drafts presented separately for comparison and selection. Also agree on the scope of whether it is a simple color change or a fundamentally different concept.",
+"example_ko": "A안은 정보 전달을, B안은 브랜드 인상을 강조한 시안이에요.",
+"example_en": "Option A emphasizes information delivery, and Option B emphasizes brand impression."
+},
+{
+"id": "design-450",
+"field": "design",
+"term_ko": "메인안",
+"term_en": "Main option",
+"english": "",
+"aliases_ko": [
+"메인 안",
+"주력 시안",
+"메인 시안"
+],
+"definition_ko": "여러 시안 중 우선적으로 제안하거나 발전시킬 중심 안.",
+"definition_en": "The central draft among several to be proposed or developed first.",
+"example_ko": "메인안의 구조를 유지하면서 제목 대비를 더 조정해요.",
+"example_en": "Keep the structure of the main option while adjusting the title contrast more."
+},
+{
+"id": "design-451",
+"field": "design",
+"term_ko": "대안 시안",
+"term_en": "Alternative draft",
+"english": "",
+"aliases_ko": [
+"얼터 시안",
+"얼터너티브 시안",
+"대체 시안"
+],
+"definition_ko": "기존 안의 제약이나 다른 선택 가능성에 대응하기 위해 준비한 별도의 디자인 안.",
+"definition_en": "A separate design draft prepared to respond to constraints of the existing draft or other possibilities.",
+"example_ko": "사진 사용이 어려울 경우를 대비해 그래픽 중심의 대안 시안을 준비해요.",
+"example_en": "Prepare a graphics-focused alternative draft in case using photos is difficult."
+},
+{
+"id": "design-452",
+"field": "design",
+"term_ko": "시선 흐름",
+"term_en": "Visual flow",
+"english": "Visual flow",
+"aliases_ko": [
+"시선 동선",
+"시각 흐름"
+],
+"definition_ko": "화면이나 지면에서 요소의 배치·크기·대비 등에 따라 시선이 이동하는 순서.",
+"definition_en": "The order in which the gaze moves according to the placement, size, contrast, and so on of elements on a screen or page.",
+"example_ko": "제목 다음에 버튼을 보게 하려면 시선 흐름을 어디서 연결할지 봐요.",
+"example_en": "To make people see the button after the title, check where to connect the visual flow."
+},
+{
+"id": "design-453",
+"field": "design",
+"term_ko": "가독성",
+"term_en": "Readability",
+"english": "Readability",
+"aliases_ko": [
+"읽기 쉬움",
+"가독성 개선"
+],
+"definition_ko": "문자와 글의 구성이 내용을 편하게 읽고 이해할 수 있도록 하는 정도.",
+"definition_en": "The degree to which the composition of characters and text allows content to be read and understood comfortably.",
+"example_ko": "본문 폭과 행간을 조정해 긴 설명의 가독성을 높여요.",
+"example_en": "Adjust the body width and line spacing to improve the readability of long explanations.",
+"note_ko": "판독성과 구분해 설명했지만 실무에서는 둘을 넓게 가독성으로 부르기도 합니다. 어떤 읽기 문제가 있는지 구체화합니다.",
+"note_en": "It is explained as distinct from legibility, but in practice both are often called readability broadly. Specify what reading problem exists."
+},
+{
+"id": "design-454",
+"field": "design",
+"term_ko": "판독성",
+"term_en": "Legibility",
+"english": "Legibility",
+"aliases_ko": [
+"글자 식별성"
+],
+"definition_ko": "개별 문자나 기호의 형태를 구분해 알아볼 수 있는 정도.",
+"definition_en": "The degree to which the forms of individual characters or symbols can be distinguished and recognized.",
+"example_ko": "작은 크기에서 숫자 1과 영문 I의 판독성을 비교해요.",
+"example_en": "Compare the legibility of the numeral 1 and the letter I at small sizes."
+},
+{
+"id": "design-455",
+"field": "design",
+"term_ko": "시인성",
+"term_en": "Visibility",
+"english": "Visibility",
+"aliases_ko": [
+"눈에 띄는 정도"
+],
+"definition_ko": "거리·빛·배경 등의 조건에서 시각 요소의 존재와 위치가 잘 눈에 들어오는 정도.",
+"definition_en": "The degree to which the presence and position of a visual element stand out under conditions such as distance, light, and background.",
+"example_ko": "복도 끝에서도 안내 사인의 시인성이 충분한지 확인해요.",
+"example_en": "Check whether the signage has sufficient visibility even from the end of the hallway."
+},
+{
+"id": "design-456",
+"field": "design",
+"term_ko": "정보 밀도",
+"term_en": "Information density",
+"english": "Information density",
+"aliases_ko": [
+"화면 밀도",
+"밀도"
+],
+"definition_ko": "일정한 화면이나 지면 안에 담긴 정보의 양과 집중 정도.",
+"definition_en": "The amount and concentration of information contained within a given screen or page.",
+"example_ko": "첫 화면의 정보 밀도를 줄이고 상세 설명은 다음 구간으로 나눠요.",
+"example_en": "Reduce the information density of the first screen and split the detailed explanation into the next section."
+},
+{
+"id": "design-457",
+"field": "design",
+"term_ko": "시각적 무게",
+"term_en": "Visual weight",
+"english": "Visual weight",
+"aliases_ko": [
+"시각 무게",
+"무게감"
+],
+"definition_ko": "크기·색·위치·질감 등 때문에 요소가 시선을 끌거나 무겁게 느껴지는 정도.",
+"definition_en": "The degree to which an element draws the eye or feels heavy due to size, color, position, texture, and so on.",
+"example_ko": "왼쪽 사진의 시각적 무게가 커서 오른쪽 제목과 균형을 맞춰요.",
+"example_en": "The left photo has strong visual weight, so balance it with the title on the right."
+},
+{
+"id": "design-458",
+"field": "design",
+"term_ko": "밸런스",
+"term_en": "Balance",
+"english": "Visual balance",
+"aliases_ko": [
+"시각적 균형",
+"레이아웃 밸런스"
+],
+"definition_ko": "요소의 시각적 무게와 공간 배치가 전체에서 이루는 균형.",
+"definition_en": "The balance that elements' visual weight and spatial arrangement achieve across the whole.",
+"example_ko": "로고 크기만 줄이기 전에 사진과 여백의 밸런스를 봐요.",
+"example_en": "Before just reducing the logo size, look at the balance of the photo and the whitespace.",
+"note_ko": "시각적 무게와 배치의 균형입니다. 의류의 앞뒤 착용 균형과 다른 대상의 개념입니다.",
+"note_en": "It is the balance of visual weight and arrangement. It is a different subject from a garment's front-back wearing balance."
+},
+{
+"id": "design-459",
+"field": "design",
+"term_ko": "조형성",
+"term_en": "Formative quality",
+"english": "",
+"aliases_ko": [
+"조형 완성도",
+"형태 완성도"
+],
+"definition_ko": "형태·비례·선·면 등의 관계가 시각적으로 구성된 특성과 완성도.",
+"definition_en": "The characteristic and completeness with which relationships of form, proportion, line, and plane are visually composed.",
+"example_ko": "심벌의 작은 돌출부가 전체 조형성에 맞는지 검토해요.",
+"example_en": "Review whether the small protrusion of the symbol fits the overall formative quality."
+},
+{
+"id": "design-460",
+"field": "design",
+"term_ko": "일관성",
+"term_en": "Consistency",
+"english": "Consistency",
+"aliases_ko": [
+"디자인 일관성",
+"시각적 일관성"
+],
+"definition_ko": "관련 화면과 결과물에서 동일한 목적의 표현·규칙·동작이 일정하게 유지되는 성질.",
+"definition_en": "The property by which expressions, rules, and behaviors serving the same purpose are kept uniform across related screens and deliverables.",
+"example_ko": "화면마다 같은 버튼의 색이 달라 디자인 일관성을 정리해요.",
+"example_en": "The same button's color differs by screen, so organize the design consistency."
+},
+{
+"id": "design-461",
+"field": "design",
+"term_ko": "어색하다",
+"term_en": "Feels off",
+"english": "",
+"aliases_ko": [
+"어색함",
+"어색한 배치"
+],
+"definition_ko": "배치·비례·연결 등이 주변 요소나 의도와 잘 맞지 않는다는 주관적 피드백.",
+"definition_en": "Subjective feedback that the placement, proportion, or connection does not fit well with surrounding elements or the intent.",
+"example_ko": "어색한 부분이 사진 비율인지 제목 위치인지 구체적으로 짚어 주세요.",
+"example_en": "Please point out specifically whether the awkward part is the photo ratio or the title position.",
+"note_ko": "정확한 공정명이 아닌 주관적인 피드백입니다. 대상·이유·원하는 결과를 함께 설명해야 수정 방향을 맞출 수 있습니다.",
+"note_en": "It is subjective feedback, not a precise process name. Explain the subject, reason, and desired result together to align the revision direction."
+},
+{
+"id": "design-462",
+"field": "design",
+"term_ko": "답답하다",
+"term_en": "Feels cramped",
+"english": "",
+"aliases_ko": [
+"답답한 화면",
+"숨통을 틔우다",
+"숨통"
+],
+"definition_ko": "요소가 밀집하거나 여백·구분이 부족해 시선과 읽는 흐름이 막히는 느낌을 말하는 피드백.",
+"definition_en": "Feedback describing a sense that the gaze and reading flow are blocked because elements are crowded or whitespace and separation are insufficient.",
+"example_ko": "카드가 답답해 보여서 정보 묶음 사이 여백을 먼저 늘려 봐요.",
+"example_en": "The card looks cramped, so try first increasing the whitespace between information groups.",
+"note_ko": "개인 감상을 수치처럼 다루지 않습니다. 정보량·여백·글자 크기 등 확인할 대상을 함께 짚습니다.",
+"note_en": "Do not treat personal impressions as if they were numbers. Point out subjects to check together, such as information volume, whitespace, and font size."
+},
+{
+"id": "design-463",
+"field": "design",
+"term_ko": "힘주다",
+"term_en": "Add emphasis",
+"english": "",
+"aliases_ko": [
+"힘 주다",
+"힘을 주다",
+"강조하다"
+],
+"definition_ko": "중요한 요소가 먼저 보이도록 크기·대비·굵기·공간 등을 조정한다는 작업 표현.",
+"definition_en": "A working expression for adjusting size, contrast, weight, space, and so on so that important elements are seen first.",
+"example_ko": "제목에 힘을 주되 보조 문구까지 모두 굵게 만들지는 말아요.",
+"example_en": "Add weight to the title, but do not make all the supporting text bold too."
+},
+{
+"id": "design-464",
+"field": "design",
+"term_ko": "정돈하다",
+"term_en": "Tidy up",
+"english": "",
+"aliases_ko": [
+"정리하다",
+"정돈",
+"정리된 느낌"
+],
+"definition_ko": "요소의 정렬·간격·위계·스타일을 일관된 기준으로 다듬는 작업 표현.",
+"definition_en": "A working expression for refining elements' alignment, spacing, hierarchy, and style by a consistent standard.",
+"example_ko": "왼쪽 기준선과 카드 간격부터 정돈해 주세요.",
+"example_en": "Please tidy up the left baseline and the card spacing first."
+},
+{
+"id": "design-465",
+"field": "design",
+"term_ko": "실사이즈",
+"term_en": "Actual size",
+"english": "Actual size",
+"aliases_ko": [
+"실제 크기",
+"실사이즈 출력"
+],
+"definition_ko": "실제로 사용하거나 제작할 크기. 화면 확대 상태와 구분해 확인한다.",
+"definition_en": "The size at which something is actually used or produced. Check it as distinct from a zoomed screen state.",
+"example_ko": "명함은 실사이즈로 출력해 글자가 읽히는지 봐요.",
+"example_en": "Print the business card at actual size and check whether the text is legible.",
+"note_ko": "인쇄물은 실제 출력 크기, 화면은 실제 표시 환경을 기준으로 확인합니다.",
+"note_en": "For print, check against the actual output size; for screen, against the actual display environment."
+},
+{
+"id": "design-466",
+"field": "design",
+"term_ko": "안전 영역",
+"term_en": "Safe area",
+"english": "Safe area",
+"aliases_ko": [
+"세이프 에어리어",
+"안전영역"
+],
+"definition_ko": "재단·가림·화면 경계 등의 영향을 피해 중요한 글자와 요소를 배치하는 영역.",
+"definition_en": "The area where important text and elements are placed, avoiding the effects of trimming, cropping, and screen edges.",
+"example_ko": "포스터 재단 오차를 고려해 연락처를 안전 영역 안에 넣어요.",
+"example_en": "Considering poster trimming tolerance, place the contact details within the safe area.",
+"note_ko": "재단 여유인 도련과 같은 영역이 아닙니다. 중요 정보는 완성 영역 안쪽에 보관합니다.",
+"note_en": "It is not the same area as bleed, the trimming margin. Keep important information inside the finished area."
+},
+{
+"id": "design-467",
+"field": "design",
+"term_ko": "레이아웃 확정",
+"term_en": "Layout confirmation",
+"english": "",
+"aliases_ko": [
+"레이아웃 픽스",
+"구성 확정"
+],
+"definition_ko": "정보 구조와 주요 배치를 합의해 후속 세부 작업의 기준으로 삼는 결정.",
+"definition_en": "A decision that agrees on the information structure and main arrangement to serve as the basis for subsequent detailed work.",
+"example_ko": "레이아웃 확정 후 사진 보정에 들어가되 큰 구성 변경은 따로 공유해요.",
+"example_en": "After the layout confirmation, proceed with photo retouching, but share any major structural changes separately."
+},
+{
+"id": "design-468",
+"field": "design",
+"term_ko": "디자인 QA",
+"term_en": "Design QA",
+"english": "Design QA",
+"aliases_ko": [
+"디자인 검수",
+"구현 검수",
+"디자인 큐에이"
+],
+"definition_ko": "구현되거나 제작된 결과가 시안·규칙·동작 의도에 맞는지 확인하는 작업.",
+"definition_en": "The work of checking whether the implemented or produced result matches the draft, rules, and intended behavior.",
+"example_ko": "디자인 QA에서 긴 문구와 오류 상태까지 시안과 대조해요.",
+"example_en": "In design QA, compare long text and error states against the draft too."
+},
+{
+"id": "design-469",
+"field": "design",
+"term_ko": "수정 라운드",
+"term_en": "Revision round",
+"english": "Revision round",
+"aliases_ko": [
+"수정 회차",
+"리비전 라운드"
+],
+"definition_ko": "한 번의 피드백을 모아 반영하고 다시 검토하는 수정 단위.",
+"definition_en": "A revision unit in which one batch of feedback is collected, reflected, and reviewed again.",
+"example_ko": "이번 수정 라운드에서는 구조 변경을 모으고 다음에는 오탈자를 확인해요.",
+"example_en": "In this revision round, collect structural changes, and check typos next time."
+},
+{
+"id": "design-470",
+"field": "design",
+"term_ko": "원본 정리",
+"term_en": "Source file cleanup",
+"english": "",
+"aliases_ko": [
+"소스 정리",
+"편집 원본 정리"
+],
+"definition_ko": "전달·수정이 가능하도록 레이어·파일명·링크·서체 등 작업 원본을 정돈하는 일.",
+"definition_en": "The work of organizing working source files such as layers, file names, links, and fonts so they can be handed over and revised.",
+"example_ko": "납품 전에 원본 정리로 누락 이미지와 사용하지 않는 레이어를 확인해요.",
+"example_en": "Before delivery, use source file cleanup to check for missing images and unused layers."
+},
+{
+"id": "film-483",
+"field": "film",
+"term_ko": "콘티 리딩",
+"term_en": "Storyboard reading",
+"english": "",
+"aliases_ko": [
+"콘티리딩",
+"콘티 회의",
+"콘티 검토"
+],
+"definition_ko": "콘티의 컷을 순서대로 보며 연출 의도·동작·촬영·제작 조건을 확인하는 과정.",
+"definition_en": "The process of reviewing the storyboard cuts in order to confirm directing intent, action, shooting, and production conditions.",
+"example_ko": "콘티 리딩에서 제품을 집는 손과 다음 컷의 방향을 맞춰요.",
+"example_en": "In the storyboard reading, match the hand picking up the product with the direction of the next cut."
+},
+{
+"id": "film-484",
+"field": "film",
+"term_ko": "대본 리딩",
+"term_en": "Script reading",
+"english": "Table read",
+"aliases_ko": [
+"리딩",
+"대본리딩",
+"테이블 리딩"
+],
+"definition_ko": "출연자 등이 대본을 소리 내어 읽으며 대사·인물 관계·장면 흐름을 확인하는 과정.",
+"definition_en": "The process where the cast and others read the script aloud to confirm dialogue, character relationships, and scene flow.",
+"example_ko": "대본 리딩에서 감정이 바뀌는 지점과 대사 호흡을 맞춰요.",
+"example_en": "In the script reading, align the points where emotions shift and the pacing of the lines."
+},
+{
+"id": "film-485",
+"field": "film",
+"term_ko": "샷 리스트",
+"term_en": "Shot list",
+"english": "Shot list",
+"aliases_ko": [
+"샷리스트",
+"숏 리스트",
+"촬영 컷 목록",
+"쇼트 리스트",
+"숏리스트",
+"쇼트리스트"
+],
+"definition_ko": "촬영할 샷의 내용·구도·움직임 등 필요한 정보를 정리한 목록.",
+"definition_en": "A list organizing needed information such as the content, composition, and movement of the shots to be filmed.",
+"example_ko": "샷 리스트에 꼭 필요한 손 인서트와 대체 구도를 표시해요.",
+"example_en": "Mark the essential hand insert and an alternative composition on the shot list."
+},
+{
+"id": "film-486",
+"field": "film",
+"term_ko": "씬 브레이크다운",
+"term_en": "Scene breakdown",
+"english": "Scene breakdown",
+"aliases_ko": [
+"씬 분석표",
+"씬별 분해",
+"대본 브레이크다운"
+],
+"definition_ko": "장면별 출연자·장소·소품·의상·효과 등 제작에 필요한 요소를 나누어 정리하는 작업.",
+"definition_en": "The work of dividing and organizing elements needed for production by scene, such as cast, location, props, costumes, and effects.",
+"example_ko": "씬 브레이크다운에서 비 장면에 필요한 의상 여분과 장비를 확인해요.",
+"example_en": "In the scene breakdown, check the spare costumes and equipment needed for the rain scene."
+},
+{
+"id": "film-487",
+"field": "film",
+"term_ko": "촬영 순서",
+"term_en": "Shooting order",
+"english": "",
+"aliases_ko": [
+"슛 순서",
+"촬영순서",
+"촬영 오더"
+],
+"definition_ko": "이야기의 순서와 별개로 장소·출연자·빛·세팅 등을 고려해 실제로 촬영할 차례.",
+"definition_en": "The actual order of shooting, decided by considering location, cast, light, and setup separately from the story order.",
+"example_ko": "해가 필요한 외부 컷을 먼저 찍도록 촬영 순서를 바꿔요.",
+"example_en": "Change the shooting order so the exterior cuts that need sunlight are shot first."
+},
+{
+"id": "film-488",
+"field": "film",
+"term_ko": "동선",
+"term_en": "Movement path",
+"english": "Blocking path",
+"aliases_ko": [
+"배우 동선",
+"카메라 동선",
+"이동 동선"
+],
+"definition_ko": "출연자나 카메라·스태프 등이 장면과 촬영 현장에서 이동하는 경로.",
+"definition_en": "The path along which cast, camera, or crew move within the scene and on the shooting location.",
+"example_ko": "배우 동선과 카메라 이동이 겹치는 지점을 리허설에서 확인해요.",
+"example_en": "Check at rehearsal where the actors' movement path and the camera movement overlap."
+},
+{
+"id": "film-489",
+"field": "film",
+"term_ko": "시선 처리",
+"term_en": "Eyeline direction",
+"english": "Eyeline",
+"aliases_ko": [
+"시선처리",
+"시선 방향",
+"아이 라인"
+],
+"definition_ko": "출연자가 어디를 어떻게 바라볼지 정해 장면의 관계와 표현을 만드는 것.",
+"definition_en": "Deciding where and how the cast look, to create the scene's relationships and expression.",
+"example_ko": "상대 배우가 없는 클로즈업에서도 시선 처리를 같은 높이로 맞춰요.",
+"example_en": "Even in a close-up without the other actor, match the eyeline to the same height."
+},
+{
+"id": "film-490",
+"field": "film",
+"term_ko": "연기 톤",
+"term_en": "Acting tone",
+"english": "",
+"aliases_ko": [
+"연기톤",
+"대사 톤",
+"톤 조절"
+],
+"definition_ko": "대사·표정·몸짓의 강도와 성격으로 드러나는 연기의 표현 방식.",
+"definition_en": "The mode of expression in acting shown through the intensity and character of lines, expressions, and gestures.",
+"example_ko": "상황은 코믹하지만 연기 톤은 진지하게 유지해 봐요.",
+"example_en": "The situation is comic, but try keeping the acting tone serious."
+},
+{
+"id": "film-491",
+"field": "film",
+"term_ko": "감정선",
+"term_en": "Emotional arc",
+"english": "",
+"aliases_ko": [
+"감정 흐름",
+"감정의 흐름"
+],
+"definition_ko": "인물의 감정이 사건과 장면을 따라 변화하며 이어지는 흐름.",
+"definition_en": "The flow in which a character's emotions change and continue along events and scenes.",
+"example_ko": "촬영 순서가 바뀌어도 이전 장면의 감정선에서 출발할 수 있게 확인해요.",
+"example_en": "Even if the shooting order changes, check that it can start from the emotional arc of the previous scene."
+},
+{
+"id": "film-492",
+"field": "film",
+"term_ko": "개연성",
+"term_en": "Plausibility",
+"english": "Plausibility",
+"aliases_ko": [
+"장면 개연성",
+"서사 개연성"
+],
+"definition_ko": "인물의 행동과 사건의 연결이 작품 안의 설정과 맥락에서 납득되는 정도.",
+"definition_en": "The degree to which the connection of a character's actions and events is convincing within the work's setting and context.",
+"example_ko": "갑자기 떠나는 행동의 개연성이 부족해 앞 장면에 단서를 넣어요.",
+"example_en": "The plausibility of suddenly leaving is weak, so add a clue in the earlier scene."
+},
+{
+"id": "film-493",
+"field": "film",
+"term_ko": "빌드업",
+"term_en": "Build-up",
+"english": "Narrative build-up",
+"aliases_ko": [
+"빌드 업",
+"장면 빌드업"
+],
+"definition_ko": "뒤에 나올 사건·감정·반응이 설득력 있게 느껴지도록 앞선 장면과 정보를 쌓는 구성.",
+"definition_en": "A structure that stacks preceding scenes and information so that later events, emotions, and reactions feel convincing.",
+"example_ko": "반전 전에 인물의 선택이 이해되도록 두 컷으로 빌드업해요.",
+"example_en": "Build up with two cuts before the twist so the character's choice is understandable.",
+"note_ko": "영상의 장면·감정·사건을 쌓는 구성 문맥입니다. 기획서의 근거를 쌓는 업무 공통 용례와 대상이 다릅니다.",
+"note_en": "This is the context of stacking a video's scenes, emotions, and events. It differs in subject from the general-business usage of building up the grounds of a proposal."
+},
+{
+"id": "film-494",
+"field": "film",
+"term_ko": "프리비즈",
+"term_en": "Previs",
+"english": "Previsualization",
+"aliases_ko": [
+"프리비주얼라이제이션",
+"프리비주얼",
+"previz",
+"previs"
+],
+"definition_ko": "본 촬영이나 최종 제작 전에 간단한 영상·3D 등으로 구도·동선·타이밍을 시험하는 사전 시각화.",
+"definition_en": "Pre-visualization that tests composition, blocking, and timing with simple video or 3D before the main shoot or final production.",
+"example_ko": "복잡한 카메라 이동을 프리비즈로 확인하고 세트 크기를 정해요.",
+"example_en": "Check the complex camera movement with previs and decide the set size."
+},
+{
+"id": "film-495",
+"field": "film",
+"term_ko": "테크 리허설",
+"term_en": "Tech rehearsal",
+"english": "Technical rehearsal",
+"aliases_ko": [
+"테크니컬 리허설",
+"기술 리허설"
+],
+"definition_ko": "카메라·조명·음향·장치 등의 작동과 전환 타이밍을 점검하는 리허설.",
+"definition_en": "A rehearsal that checks the operation and transition timing of camera, lighting, sound, and equipment.",
+"example_ko": "출연자 입장 전에 테크 리허설로 조명 전환과 녹음 상태를 확인해요.",
+"example_en": "Before the cast enters, check the lighting transitions and recording status with a tech rehearsal."
+},
+{
+"id": "film-496",
+"field": "film",
+"term_ko": "런스루",
+"term_en": "Run-through",
+"english": "Run-through",
+"aliases_ko": [
+"런 스루",
+"전체 리허설"
+],
+"definition_ko": "구간이나 프로그램을 가능한 한 끊지 않고 순서대로 진행하며 흐름과 시간을 확인하는 연습.",
+"definition_en": "A rehearsal that runs a segment or program in order, as uninterrupted as possible, to check the flow and timing.",
+"example_ko": "개별 세팅이 끝나면 런스루로 전체 진행 시간을 확인해요.",
+"example_en": "Once the individual setups are done, check the total runtime with a run-through."
+},
+{
+"id": "film-497",
+"field": "film",
+"term_ko": "웨더 플랜",
+"term_en": "Weather plan",
+"english": "Weather plan",
+"aliases_ko": [
+"우천 대안",
+"우천 플랜",
+"날씨 대안"
+],
+"definition_ko": "날씨 변화로 촬영이 어려워질 때 적용할 장소·일정·장면 등의 대안.",
+"definition_en": "Alternatives for location, schedule, scenes, and so on to apply when weather changes make shooting difficult.",
+"example_ko": "웨더 플랜에 실내 대체 컷과 촬영 연기 판단 시간을 적어요.",
+"example_en": "Write the indoor alternative cuts and the decision time for postponing the shoot into the weather plan."
+},
+{
+"id": "film-498",
+"field": "film",
+"term_ko": "페이퍼 에디트",
+"term_en": "Paper edit",
+"english": "Paper edit",
+"aliases_ko": [
+"페이퍼 편집",
+"종이 편집"
+],
+"definition_ko": "인터뷰 기록이나 대본 등의 텍스트로 내용의 순서와 구성을 먼저 정리하는 편집 방식.",
+"definition_en": "An editing method that first organizes the order and structure of content using text such as interview transcripts or scripts.",
+"example_ko": "인터뷰 페이퍼 에디트에서 핵심 발언을 고른 뒤 타임라인에 옮겨요.",
+"example_en": "In the interview paper edit, select the key remarks, then move them to the timeline."
+},
+{
+"id": "film-499",
+"field": "film",
+"term_ko": "어셈블리 컷",
+"term_en": "Assembly cut",
+"english": "Assembly cut",
+"aliases_ko": [
+"어셈블리",
+"조립본"
+],
+"definition_ko": "선택한 장면을 우선 이어 전체 내용과 구조를 살펴보는 초기 편집본.",
+"definition_en": "An early edit that first strings selected scenes together to examine the overall content and structure.",
+"example_ko": "어셈블리 컷에서 빠진 설명을 확인하고 이후 길이를 줄여요.",
+"example_en": "In the assembly cut, check for missing explanations, then reduce the length afterward.",
+"note_ko": "팀마다 러프 컷과 구분하는 기준이 다를 수 있습니다. 편집본의 검토 범위와 완성 수준을 함께 확인합니다.",
+"note_en": "The standard for distinguishing it from a rough cut can differ by team. Check the review scope and completion level of the edit together."
+},
+{
+"id": "film-500",
+"field": "film",
+"term_ko": "편집 포인트",
+"term_en": "Edit point",
+"english": "Edit point",
+"aliases_ko": [
+"컷 포인트",
+"편집점"
+],
+"definition_ko": "어느 프레임이나 동작에서 컷을 전환하거나 연결할지 정한 지점.",
+"definition_en": "The point decided for which frame or action to cut on or connect.",
+"example_ko": "손이 움직이기 시작하는 프레임으로 편집 포인트를 옮겨 봐요.",
+"example_en": "Try moving the edit point to the frame where the hand begins to move."
+},
+{
+"id": "film-501",
+"field": "film",
+"term_ko": "페이싱",
+"term_en": "Pacing",
+"english": "Pacing",
+"aliases_ko": [
+"편집 페이싱",
+"전개 속도"
+],
+"definition_ko": "컷 길이·정보량·장면 배치로 느껴지는 이야기의 진행 속도와 리듬.",
+"definition_en": "The progression speed and rhythm of the story as felt through cut lengths, information volume, and scene arrangement.",
+"example_ko": "설명이 몰린 중반의 페이싱을 조정해 관객이 따라올 시간을 줘요.",
+"example_en": "Adjust the pacing of the information-heavy middle to give the audience time to follow."
+},
+{
+"id": "film-502",
+"field": "film",
+"term_ko": "중복 컷",
+"term_en": "Redundant cut",
+"english": "",
+"aliases_ko": [
+"중복 장면",
+"반복 컷"
+],
+"definition_ko": "이미 전달한 정보나 비슷한 장면을 되풀이해 보여주는 컷.",
+"definition_en": "A cut that repeats already-conveyed information or a similar scene.",
+"example_ko": "기능 설명이 겹치는 중복 컷은 줄이고 실제 사용 장면을 남겨요.",
+"example_en": "Reduce redundant cuts where the feature explanation overlaps, and keep the actual-use scene."
+},
+{
+"id": "film-503",
+"field": "film",
+"term_ko": "매치 액션",
+"term_en": "Match action",
+"english": "Match on action",
+"aliases_ko": [
+"액션 매치",
+"동작 매치"
+],
+"definition_ko": "한 동작이 서로 다른 샷 사이에서 자연스럽게 이어지도록 촬영·편집하는 연결 방식.",
+"definition_en": "A connecting method of shooting and editing so that one action flows naturally between different shots.",
+"example_ko": "문고리를 잡는 손의 위치와 속도를 맞춰 매치 액션으로 이어요.",
+"example_en": "Match the position and speed of the hand grabbing the doorknob and connect them with match action."
+},
+{
+"id": "film-504",
+"field": "film",
+"term_ko": "점프하다",
+"term_en": "Jumps",
+"english": "",
+"aliases_ko": [
+"점프가 난다",
+"연결이 뛴다"
+],
+"definition_ko": "컷 사이에서 동작·위치·시간 등이 갑자기 달라져 불연속이 눈에 띈다는 표현.",
+"definition_en": "An expression that a discontinuity stands out because action, position, or time suddenly differs between cuts.",
+"example_ko": "잔을 든 손이 컷마다 달라 연결이 점프하니 다른 테이크를 봐요.",
+"example_en": "The hand holding the glass differs from cut to cut, so the connection jumps; look at another take."
+},
+{
+"id": "film-505",
+"field": "film",
+"term_ko": "늘어지다",
+"term_en": "Drags",
+"english": "",
+"aliases_ko": [
+"처지다",
+"루즈하다"
+],
+"definition_ko": "장면이나 편집의 호흡이 의도보다 길어져 긴장이나 관심이 떨어진다는 피드백.",
+"definition_en": "Feedback that the pacing of a scene or edit runs longer than intended, reducing tension or interest.",
+"example_ko": "같은 설명이 이어져 중반이 늘어지니 중복 대사를 줄여요.",
+"example_en": "The same explanation continues and the middle drags, so trim the redundant dialogue."
+},
+{
+"id": "film-506",
+"field": "film",
+"term_ko": "타이트하게",
+"term_en": "Tighten up",
+"english": "",
+"aliases_ko": [
+"타이트",
+"타이트하게 붙이다",
+"타이트한 편집"
+],
+"definition_ko": "편집에서 불필요한 쉼이나 반복을 줄여 호흡을 압축한다는 작업 표현.",
+"definition_en": "A working expression for compressing the pacing by reducing unnecessary pauses or repetition in editing.",
+"example_ko": "답변 사이의 침묵을 조금 줄여 타이트하게 붙여 주세요.",
+"example_en": "Please trim the silences between answers a bit and cut them together more tightly.",
+"note_ko": "이 항목은 편집 호흡을 줄이는 뜻입니다. 촬영에서 더 좁은 구도를 요구하거나 일정 여유가 없다는 용법과 구분합니다.",
+"note_en": "This entry means tightening the editing pace. Distinguish it from the usages of requesting a tighter framing in shooting or saying there is no schedule slack."
+},
+{
+"id": "film-507",
+"field": "film",
+"term_ko": "사운드 브리지",
+"term_en": "Sound bridge",
+"english": "Sound bridge",
+"aliases_ko": [
+"사운드브리지",
+"소리 연결"
+],
+"definition_ko": "음악·환경음·대사 등을 앞뒤 장면에 걸쳐 사용해 전환을 연결하는 방식.",
+"definition_en": "A method of connecting a transition by carrying music, ambient sound, or dialogue across the preceding and following scenes.",
+"example_ko": "먼저 들리는 기차 소리를 사운드 브리지로 써서 다음 장소로 넘어가요.",
+"example_en": "Use the train sound heard first as a sound bridge to move to the next location."
+},
+{
+"id": "film-508",
+"field": "film",
+"term_ko": "템프 음악",
+"term_en": "Temp music",
+"english": "Temp music",
+"aliases_ko": [
+"템프 뮤직",
+"가음악",
+"임시 음악"
+],
+"definition_ko": "편집의 분위기와 타이밍을 잡기 위해 최종 음악 대신 임시로 사용하는 곡.",
+"definition_en": "A track used temporarily instead of the final music to set the mood and timing of the edit.",
+"example_ko": "템프 음악의 분위기는 참고하되 최종 곡의 사용 권한을 별도로 확인해요.",
+"example_en": "Reference the mood of the temp music, but confirm the usage rights of the final track separately."
+},
+{
+"id": "film-509",
+"field": "film",
+"term_ko": "리뷰 노트",
+"term_en": "Review notes",
+"english": "Review notes",
+"aliases_ko": [
+"수정 노트",
+"편집 노트",
+"시사 코멘트"
+],
+"definition_ko": "편집본 등의 수정 요청을 타임코드·대상·원하는 결과와 함께 기록한 피드백.",
+"definition_en": "Feedback recording revision requests for an edit and the like, together with timecode, subject, and desired result.",
+"example_ko": "리뷰 노트에 정확한 타임코드와 자막 수정 문구를 적어 주세요.",
+"example_en": "In the review notes, write the exact timecode and the corrected subtitle text.",
+"note_ko": "영상 후반 작업의 피드백 문맥입니다. 취향만 적기보다 대상과 원하는 변화를 구체적으로 남깁니다.",
+"note_en": "This is the context of video post-production feedback. Rather than only recording taste, leave the subject and desired change specifically."
+},
+{
+"id": "hrfinance-001",
+"field": "hrfinance",
+"term_ko": "인사",
+"term_en": "HR",
+"english": "",
+"aliases_ko": [
+"HR",
+"Human Resources"
+],
+"definition_ko": "채용·배치·평가·보상·조직 운영 등 사람과 일의 관계를 관리하는 업무.",
+"definition_en": "The work of managing the relationship between people and work, such as recruiting, placement, evaluation, compensation, and organizational operation.",
+"example_ko": "인사에서 부서별 충원 계획을 취합해요.",
+"example_en": "HR compiles the headcount plans by department."
+},
+{
+"id": "hrfinance-002",
+"field": "hrfinance",
+"term_ko": "인사팀",
+"term_en": "HR team",
+"english": "",
+"aliases_ko": [
+"HR팀"
+],
+"definition_ko": "구성원의 입사부터 퇴사까지 인사 제도와 운영을 담당하는 조직.",
+"definition_en": "The organization responsible for HR systems and operations from an employee's hire to departure.",
+"example_ko": "인사팀에 발령 기준일을 확인해요.",
+"example_en": "Check the effective date of the assignment with the HR team."
+},
+{
+"id": "hrfinance-003",
+"field": "hrfinance",
+"term_ko": "인사기획",
+"term_en": "HR planning",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "인력 구조와 평가·보상·직급 등 인사 제도를 설계하는 업무.",
+"definition_en": "The work of designing the workforce structure and HR systems such as evaluation, compensation, and job grades.",
+"example_ko": "인사기획에서 새 직급 체계의 영향을 검토해요.",
+"example_en": "HR planning reviews the impact of the new job-grade system."
+},
+{
+"id": "hrfinance-004",
+"field": "hrfinance",
+"term_ko": "인사운영",
+"term_en": "HR operations",
+"english": "",
+"aliases_ko": [
+"HR Operations",
+"HR Ops"
+],
+"definition_ko": "인사 정보·발령·증명서·입퇴사 등 제도를 일상적으로 집행하는 업무.",
+"definition_en": "The work of routinely executing systems such as HR information, assignments, certificates, and onboarding and offboarding.",
+"example_ko": "인사운영 담당자가 입사 서류 누락을 확인해요.",
+"example_en": "The HR operations owner checks for missing onboarding documents."
+},
+{
+"id": "hrfinance-005",
+"field": "hrfinance",
+"term_ko": "HRBP",
+"term_en": "HRBP",
+"english": "",
+"aliases_ko": [
+"에이치알비피",
+"인사 비즈니스 파트너"
+],
+"definition_ko": "특정 사업 조직과 협력해 인력·조직 문제를 풀고 인사 제도를 연결하는 역할.",
+"definition_en": "A role that collaborates with a specific business unit to solve workforce and organizational problems and connect HR systems.",
+"example_ko": "사업부 HRBP와 조직 개편의 인력 영향을 논의해요.",
+"example_en": "Discuss the workforce impact of the reorganization with the business unit HRBP."
+},
+{
+"id": "hrfinance-006",
+"field": "hrfinance",
+"term_ko": "HRM",
+"term_en": "HRM",
+"english": "",
+"aliases_ko": [
+"인적자원관리"
+],
+"definition_ko": "채용·배치·평가·보상 등을 통해 조직의 인력을 관리하는 활동.",
+"definition_en": "Activities that manage an organization's workforce through recruiting, placement, evaluation, compensation, and so on.",
+"example_ko": "HRM 지표를 채용과 유지 영역으로 나눠 봐요.",
+"example_en": "Split HRM metrics into recruiting and retention areas."
+},
+{
+"id": "hrfinance-007",
+"field": "hrfinance",
+"term_ko": "HRD",
+"term_en": "HRD",
+"english": "",
+"aliases_ko": [
+"인적자원개발"
+],
+"definition_ko": "교육·경력 개발 등을 통해 구성원의 역량을 키우는 활동.",
+"definition_en": "Activities that build employees' capabilities through training, career development, and so on.",
+"example_ko": "HRD 담당자가 신임 리더 교육을 준비해요.",
+"example_en": "The HRD owner prepares the new-leader training."
+},
+{
+"id": "hrfinance-008",
+"field": "hrfinance",
+"term_ko": "채용담당자",
+"term_en": "Recruiter",
+"english": "",
+"aliases_ko": [
+"리크루터",
+"Recruiter"
+],
+"definition_ko": "채용 수요를 정리하고 후보자 발굴·전형·입사 과정을 운영하는 사람.",
+"definition_en": "A person who organizes hiring needs and runs candidate sourcing, screening, and onboarding.",
+"example_ko": "리크루터에게 면접 피드백을 전달해요.",
+"example_en": "Deliver the interview feedback to the recruiter."
+},
+{
+"id": "hrfinance-009",
+"field": "hrfinance",
+"term_ko": "소서",
+"term_en": "Sourcer",
+"english": "",
+"aliases_ko": [
+"Sourcer",
+"소싱 담당자"
+],
+"definition_ko": "채용 대상 인재를 찾아 접촉하고 후보자 풀을 만드는 역할.",
+"definition_en": "A role that finds and contacts target talent for hiring and builds the candidate pool.",
+"example_ko": "소서가 해당 기술 경험이 있는 후보자를 찾아요.",
+"example_en": "The sourcer finds candidates with the relevant technical experience."
+},
+{
+"id": "hrfinance-010",
+"field": "hrfinance",
+"term_ko": "채용 매니저",
+"term_en": "Hiring manager",
+"english": "",
+"aliases_ko": [
+"하이어링 매니저",
+"Hiring manager"
+],
+"definition_ko": "충원할 조직에서 필요 역량과 선발 판단을 주도하는 책임자.",
+"definition_en": "The person in the hiring organization who leads the required competencies and selection decisions.",
+"example_ko": "채용 매니저와 필수 경험의 범위를 정해요.",
+"example_en": "Define the scope of required experience with the hiring manager."
+},
+{
+"id": "hrfinance-011",
+"field": "hrfinance",
+"term_ko": "C&B",
+"term_en": "C&B",
+"english": "",
+"aliases_ko": [
+"보상복리후생",
+"Compensation and Benefits"
+],
+"definition_ko": "급여·성과급·복리후생 등 보상 제도를 다루는 업무 영역.",
+"definition_en": "The work area dealing with compensation systems such as pay, incentives, and benefits.",
+"example_ko": "C&B 담당자가 급여 구간과 복지 비용을 검토해요.",
+"example_en": "The C&B owner reviews the salary ranges and benefit costs."
+},
+{
+"id": "hrfinance-012",
+"field": "hrfinance",
+"term_ko": "조직문화팀",
+"term_en": "Organizational culture team",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "일하는 방식·가치·소통 경험 등 조직문화 개선을 담당하는 조직.",
+"definition_en": "The organization responsible for improving organizational culture, such as ways of working, values, and communication experience.",
+"example_ko": "조직문화팀과 사내 설문 결과를 공유해요.",
+"example_en": "Share the internal survey results with the organizational culture team."
+},
+{
+"id": "hrfinance-013",
+"field": "hrfinance",
+"term_ko": "노무담당자",
+"term_en": "Labor relations officer",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "근로조건·노사관계·노동 관련 제도 운영을 담당하는 사람.",
+"definition_en": "A person responsible for operating working conditions, labor-management relations, and labor-related systems.",
+"example_ko": "노무담당자에게 근무제 변경 절차를 확인해요.",
+"example_en": "Check the procedure for changing the work system with the labor relations officer."
+},
+{
+"id": "hrfinance-014",
+"field": "hrfinance",
+"term_ko": "피플팀",
+"term_en": "People team",
+"english": "",
+"aliases_ko": [
+"People team"
+],
+"definition_ko": "구성원의 경험과 조직 운영을 중심으로 인사 기능을 부르는 조직명.",
+"definition_en": "An organization name for the HR function centered on employee experience and organizational operation.",
+"example_ko": "피플팀에서 입사자 적응 과정을 점검해요.",
+"example_en": "The People team reviews the onboarding adaptation process."
+},
+{
+"id": "hrfinance-015",
+"field": "hrfinance",
+"term_ko": "인사총괄",
+"term_en": "Head of HR",
+"english": "",
+"aliases_ko": [
+"CHRO"
+],
+"definition_ko": "조직의 인사 전략과 주요 인사 기능을 총괄하는 책임자.",
+"definition_en": "The person responsible for overseeing the organization's HR strategy and major HR functions.",
+"example_ko": "인사총괄에게 연간 인력 계획을 보고해요.",
+"example_en": "Report the annual workforce plan to the Head of HR."
+},
+{
+"id": "hrfinance-016",
+"field": "hrfinance",
+"term_ko": "인사정보시스템",
+"term_en": "HR information system",
+"english": "",
+"aliases_ko": [
+"HRIS",
+"에이치알아이에스"
+],
+"definition_ko": "구성원 정보·발령·근태 등 인사 데이터를 관리하는 시스템.",
+"definition_en": "A system that manages HR data such as employee information, assignments, and attendance.",
+"example_ko": "HRIS의 소속 부서가 발령 내용과 맞는지 확인해요.",
+"example_en": "Check whether the department in the HRIS matches the assignment."
+},
+{
+"id": "hrfinance-017",
+"field": "hrfinance",
+"term_ko": "인사 마스터",
+"term_en": "HR master data",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "사번·소속·직급·입사일 등 인사 업무의 기준이 되는 기본 데이터.",
+"definition_en": "The core data that serves as the basis for HR work, such as employee ID, affiliation, job grade, and hire date.",
+"example_ko": "급여 계산 전에 인사 마스터의 변경분을 반영해요.",
+"example_en": "Reflect the changes in the HR master data before running payroll."
+},
+{
+"id": "hrfinance-018",
+"field": "hrfinance",
+"term_ko": "인사발령",
+"term_en": "Personnel order",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "채용·승진·전보 등 구성원의 인사상 변경을 공식적으로 알리는 조치.",
+"definition_en": "An official measure announcing an employee's HR change such as hiring, promotion, or transfer.",
+"example_ko": "인사발령의 시행일과 공지일을 구분해요.",
+"example_en": "Distinguish the effective date and the announcement date of the personnel order."
+},
+{
+"id": "hrfinance-019",
+"field": "hrfinance",
+"term_ko": "조직도",
+"term_en": "Organization chart",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "부서 구성과 보고 관계를 도식으로 표시한 자료.",
+"definition_en": "Material that depicts the department composition and reporting relationships in a diagram.",
+"example_ko": "조직 개편이 끝나면 조직도를 갱신해요.",
+"example_en": "Update the organization chart once the reorganization is complete."
+},
+{
+"id": "hrfinance-020",
+"field": "hrfinance",
+"term_ko": "직무기술서",
+"term_en": "Job description",
+"english": "",
+"aliases_ko": [
+"JD",
+"Job description"
+],
+"definition_ko": "직무의 목적·책임·업무 내용·필요 역량 등을 정리한 문서.",
+"definition_en": "A document organizing a job's purpose, responsibilities, tasks, and required competencies.",
+"example_ko": "채용 전에 직무기술서의 담당 범위를 구체화해요.",
+"example_en": "Specify the scope of responsibility in the job description before hiring."
+},
+{
+"id": "hrfinance-021",
+"field": "hrfinance",
+"term_ko": "채용계획",
+"term_en": "Hiring plan",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "사업과 조직의 필요에 따라 채용 인원·직무·시기·예산을 정하는 계획.",
+"definition_en": "A plan that sets the number of hires, jobs, timing, and budget according to business and organizational needs.",
+"example_ko": "분기 채용계획에 신규 사업 인력을 반영해요.",
+"example_en": "Reflect the new-business headcount in the quarterly hiring plan."
+},
+{
+"id": "hrfinance-022",
+"field": "hrfinance",
+"term_ko": "채용요청서",
+"term_en": "Hiring requisition",
+"english": "",
+"aliases_ko": [
+"채용 리퀴지션",
+"Requisition"
+],
+"definition_ko": "부서가 충원 사유·직무·인원 등을 기재해 채용 승인을 요청하는 문서.",
+"definition_en": "A document in which a department states the reason for filling, the job, the number of people, and so on to request hiring approval.",
+"example_ko": "채용요청서에 대체 충원인지 증원인지 적어요.",
+"example_en": "State in the hiring requisition whether it is a backfill or an addition."
+},
+{
+"id": "hrfinance-023",
+"field": "hrfinance",
+"term_ko": "헤드카운트",
+"term_en": "Headcount",
+"english": "",
+"aliases_ko": [
+"HC",
+"Headcount",
+"헤드 카운트",
+"에이치씨"
+],
+"definition_ko": "조직에 소속된 사람 수 또는 승인된 인원 규모.",
+"definition_en": "The number of people belonging to an organization or the approved headcount size.",
+"example_ko": "휴직자 포함 여부를 맞춘 뒤 헤드카운트를 비교해요.",
+"example_en": "Align whether people on leave are included, then compare headcount."
+},
+{
+"id": "hrfinance-024",
+"field": "hrfinance",
+"term_ko": "정원",
+"term_en": "Authorized headcount",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "조직이나 직무에 배정하거나 승인한 인원 수.",
+"definition_en": "The number of people allocated or approved for an organization or job.",
+"example_ko": "해당 팀의 정원 안에서 채용이 가능한지 확인해요.",
+"example_en": "Check whether hiring is possible within the team's authorized headcount."
+},
+{
+"id": "hrfinance-025",
+"field": "hrfinance",
+"term_ko": "현원",
+"term_en": "Current headcount",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "기준 시점에 실제로 배치되어 있는 인원 수.",
+"definition_en": "The number of people actually placed as of a reference point.",
+"example_ko": "정원과 현원의 차이를 부서별로 정리해요.",
+"example_en": "Organize the gap between authorized and current headcount by department."
+},
+{
+"id": "hrfinance-026",
+"field": "hrfinance",
+"term_ko": "충원",
+"term_en": "Staffing up",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "부족하거나 비어 있는 인력을 채우는 일.",
+"definition_en": "The work of filling insufficient or vacant workforce.",
+"example_ko": "퇴사 예정자의 업무를 고려해 충원 시점을 잡아요.",
+"example_en": "Set the staffing-up timing considering the work of the departing employee."
+},
+{
+"id": "hrfinance-027",
+"field": "hrfinance",
+"term_ko": "증원",
+"term_en": "Adding headcount",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "기존에 정한 인원 규모를 늘리는 일.",
+"definition_en": "The work of increasing the previously set headcount size.",
+"example_ko": "신규 매장 운영을 위해 증원을 요청해요.",
+"example_en": "Request added headcount to operate the new store."
+},
+{
+"id": "hrfinance-028",
+"field": "hrfinance",
+"term_ko": "대체 채용",
+"term_en": "Replacement hiring",
+"english": "",
+"aliases_ko": [
+"백필",
+"Backfill"
+],
+"definition_ko": "퇴사·이동 등으로 생긴 빈자리를 채우기 위한 채용.",
+"definition_en": "Hiring to fill a vacancy created by departure, transfer, and so on.",
+"example_ko": "이번 채용이 증원인지 백필인지 구분해요.",
+"example_en": "Distinguish whether this hiring is an addition or a backfill."
+},
+{
+"id": "hrfinance-029",
+"field": "hrfinance",
+"term_ko": "채용공고",
+"term_en": "Job posting",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "지원자가 직무·자격·절차 등을 알 수 있도록 공개하는 모집 안내.",
+"definition_en": "A recruitment notice made public so applicants can learn the job, qualifications, and process.",
+"example_ko": "채용공고에 실제 담당 업무와 전형 순서를 적어요.",
+"example_en": "Write the actual responsibilities and the screening order in the job posting."
+},
+{
+"id": "hrfinance-030",
+"field": "hrfinance",
+"term_ko": "지원자추적시스템",
+"term_en": "Applicant tracking system",
+"english": "",
+"aliases_ko": [
+"ATS",
+"에이티에스",
+"채용 관리 시스템"
+],
+"definition_ko": "지원자 정보와 채용 단계·면접 기록 등을 관리하는 시스템.",
+"definition_en": "A system that manages applicant information and hiring stages, interview records, and so on.",
+"example_ko": "ATS에서 면접 대기 후보자를 확인해요.",
+"example_en": "Check the candidates awaiting interviews in the ATS."
+},
+{
+"id": "hrfinance-031",
+"field": "hrfinance",
+"term_ko": "인재풀",
+"term_en": "Talent pool",
+"english": "",
+"aliases_ko": [
+"Talent pool"
+],
+"definition_ko": "향후 채용 가능성을 고려해 관리하는 후보자 집합.",
+"definition_en": "A set of candidates managed with future hiring potential in mind.",
+"example_ko": "정보 보관 동의를 확인하고 인재풀에 등록해요.",
+"example_en": "Confirm consent to store the information and register them in the talent pool."
+},
+{
+"id": "hrfinance-032",
+"field": "hrfinance",
+"term_ko": "다이렉트 소싱",
+"term_en": "Direct sourcing",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "공고 지원을 기다리지 않고 적합한 후보자를 직접 찾아 접촉하는 방식.",
+"definition_en": "A method of directly finding and contacting suitable candidates instead of waiting for applications to a posting.",
+"example_ko": "경력직 포지션은 다이렉트 소싱도 함께 진행해요.",
+"example_en": "For experienced-hire positions, also run direct sourcing."
+},
+{
+"id": "hrfinance-033",
+"field": "hrfinance",
+"term_ko": "사내추천",
+"term_en": "Employee referral",
+"english": "",
+"aliases_ko": [
+"직원 추천"
+],
+"definition_ko": "재직자가 적합한 후보자를 회사에 소개하는 채용 경로.",
+"definition_en": "A hiring channel in which current employees introduce suitable candidates to the company.",
+"example_ko": "사내추천 후보자도 같은 평가 기준으로 검토해요.",
+"example_en": "Review referral candidates by the same evaluation standard."
+},
+{
+"id": "hrfinance-034",
+"field": "hrfinance",
+"term_ko": "서류전형",
+"term_en": "Document screening",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "지원 서류를 통해 경력·역량·지원 조건을 검토하는 선발 단계.",
+"definition_en": "A selection stage that reviews career, competency, and application conditions through application documents.",
+"example_ko": "서류전형 기준을 면접관들과 먼저 맞춰요.",
+"example_en": "Align the document screening criteria with the interviewers first."
+},
+{
+"id": "hrfinance-035",
+"field": "hrfinance",
+"term_ko": "구조화 면접",
+"term_en": "Structured interview",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "공통 질문과 평가 기준을 마련해 후보자를 비교하는 면접 방식.",
+"definition_en": "An interview method that prepares common questions and evaluation criteria to compare candidates.",
+"example_ko": "구조화 면접의 질문별 평가 척도를 정리해요.",
+"example_en": "Organize the evaluation scale per question for the structured interview."
+},
+{
+"id": "hrfinance-036",
+"field": "hrfinance",
+"term_ko": "역량 면접",
+"term_en": "Competency interview",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "실제 경험과 행동 사례를 통해 직무 수행 역량을 확인하는 면접.",
+"definition_en": "An interview that checks job-performance competency through actual experience and behavioral examples.",
+"example_ko": "역량 면접에서 갈등을 해결한 구체적 행동을 물어요.",
+"example_en": "In the competency interview, ask about specific actions taken to resolve a conflict."
+},
+{
+"id": "hrfinance-037",
+"field": "hrfinance",
+"term_ko": "면접 평가표",
+"term_en": "Interview evaluation form",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "면접에서 확인한 근거와 평가 결과를 기록하는 양식.",
+"definition_en": "A form for recording the evidence confirmed in the interview and the evaluation results.",
+"example_ko": "면접 평가표에 인상보다 확인한 사례를 적어요.",
+"example_en": "In the interview evaluation form, write the confirmed examples rather than impressions."
+},
+{
+"id": "hrfinance-038",
+"field": "hrfinance",
+"term_ko": "레퍼런스 체크",
+"term_en": "Reference check",
+"english": "",
+"aliases_ko": [
+"평판 조회"
+],
+"definition_ko": "후보자의 동의와 적절한 절차에 따라 과거 업무 경험 등을 확인하는 과정.",
+"definition_en": "The process of verifying past work experience and so on, following the candidate's consent and proper procedures.",
+"example_ko": "레퍼런스 체크의 확인 항목을 직무 관련 내용으로 정해요.",
+"example_en": "Set the reference check items to job-related content."
+},
+{
+"id": "hrfinance-039",
+"field": "hrfinance",
+"term_ko": "처우협의",
+"term_en": "Offer negotiation",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "입사 전 보수·직급·근무 조건 등을 협의하는 과정.",
+"definition_en": "The process of negotiating pay, job grade, and working conditions before joining.",
+"example_ko": "처우협의에서 고정급과 변동급을 구분해 설명해요.",
+"example_en": "In the offer negotiation, explain the fixed pay and variable pay separately."
+},
+{
+"id": "hrfinance-040",
+"field": "hrfinance",
+"term_ko": "오퍼레터",
+"term_en": "Offer letter",
+"english": "",
+"aliases_ko": [
+"입사 제안서",
+"Offer letter"
+],
+"definition_ko": "회사에서 후보자에게 입사 조건을 제안하는 문서.",
+"definition_en": "A document in which the company proposes employment conditions to a candidate.",
+"example_ko": "오퍼레터의 입사일과 보상 조건을 최종 확인해요.",
+"example_en": "Finally confirm the start date and compensation terms in the offer letter."
+},
+{
+"id": "hrfinance-041",
+"field": "hrfinance",
+"term_ko": "오퍼 수락률",
+"term_en": "Offer acceptance rate",
+"english": "",
+"aliases_ko": [
+"OAR",
+"Offer Acceptance Rate"
+],
+"definition_ko": "입사 제안을 받은 후보자 중 제안을 수락한 비율.",
+"definition_en": "The proportion of candidates who accepted the offer among those who received one.",
+"example_ko": "집계 기간을 맞춰 오퍼 수락률을 비교해요.",
+"example_en": "Align the aggregation period, then compare the offer acceptance rate."
+},
+{
+"id": "hrfinance-042",
+"field": "hrfinance",
+"term_ko": "채용 소요기간",
+"term_en": "Time to fill",
+"english": "",
+"aliases_ko": [
+"Time to fill",
+"TTF",
+"타임 투 필",
+"Time-to-fill"
+],
+"definition_ko": "채용 요청부터 충원까지 등 정해진 시작·종료 기준 사이에 걸린 시간.",
+"definition_en": "The time elapsed between defined start and end points, such as from the hiring request to filling.",
+"example_ko": "채용 소요기간의 시작점을 승인일로 통일해요.",
+"example_en": "Unify the start point of time to fill as the approval date."
+},
+{
+"id": "hrfinance-043",
+"field": "hrfinance",
+"term_ko": "채용 비용",
+"term_en": "Cost per hire",
+"english": "",
+"aliases_ko": [
+"Cost per hire",
+"CPH",
+"코스트 퍼 하이어",
+"채용단가"
+],
+"definition_ko": "채용 활동에 든 비용을 정한 범위와 기준에 따라 집계한 금액 또는 인당 비용.",
+"definition_en": "The amount of cost spent on hiring activities aggregated by a defined scope and standard, or the cost per person.",
+"example_ko": "채용 비용에 외부 수수료와 광고비를 포함해요.",
+"example_en": "Include external fees and advertising costs in the cost per hire."
+},
+{
+"id": "hrfinance-044",
+"field": "hrfinance",
+"term_ko": "온보딩",
+"term_en": "Onboarding",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "새 구성원이 업무·조직·제도에 적응하도록 돕는 과정.",
+"definition_en": "The process of helping new members adapt to the work, organization, and systems.",
+"example_ko": "온보딩 일정에 시스템 접근 권한 안내를 넣어요.",
+"example_en": "Include a guide to system access in the onboarding schedule."
+},
+{
+"id": "hrfinance-045",
+"field": "hrfinance",
+"term_ko": "오프보딩",
+"term_en": "Offboarding",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "퇴사·계약 종료 등에 맞춰 인수인계·정산·권한 회수 등을 진행하는 과정.",
+"definition_en": "The process of handover, settlement, and access revocation in line with departure or contract end.",
+"example_ko": "오프보딩 체크리스트로 계정 회수를 확인해요.",
+"example_en": "Check account revocation with the offboarding checklist."
+},
+{
+"id": "hrfinance-046",
+"field": "hrfinance",
+"term_ko": "버디 제도",
+"term_en": "Buddy program",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "새 구성원의 적응을 가까이에서 돕는 동료를 지정하는 제도.",
+"definition_en": "A system that designates a colleague to closely help a new member adapt.",
+"example_ko": "버디에게 신입사원이 자주 묻는 내용을 공유해요.",
+"example_en": "Share with the buddy the things new hires frequently ask."
+},
+{
+"id": "hrfinance-047",
+"field": "hrfinance",
+"term_ko": "수습평가",
+"term_en": "Probation evaluation",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "수습 기간의 직무 적응과 수행 결과를 정한 기준에 따라 평가하는 과정.",
+"definition_en": "The process of evaluating job adaptation and performance during the probation period against set criteria.",
+"example_ko": "수습평가에 사용한 근거를 당사자에게 설명해요.",
+"example_en": "Explain the evidence used in the probation evaluation to the individual."
+},
+{
+"id": "hrfinance-048",
+"field": "hrfinance",
+"term_ko": "경력개발계획",
+"term_en": "Career development plan",
+"english": "",
+"aliases_ko": [
+"CDP"
+],
+"definition_ko": "구성원의 경력 목표와 필요한 경험·역량 개발 방향을 정리한 계획.",
+"definition_en": "A plan organizing an employee's career goals and the needed experience and competency development direction.",
+"example_ko": "CDP 면담에서 다음에 맡아 볼 업무를 정해요.",
+"example_en": "In the CDP discussion, decide the next task to take on."
+},
+{
+"id": "hrfinance-049",
+"field": "hrfinance",
+"term_ko": "개인개발계획",
+"term_en": "Individual development plan",
+"english": "",
+"aliases_ko": [
+"IDP"
+],
+"definition_ko": "개인의 역량 향상 목표와 실행 활동·일정을 정리한 계획.",
+"definition_en": "A plan organizing an individual's competency-improvement goals and the implementing activities and schedule.",
+"example_ko": "IDP에 교육 수강뿐 아니라 실제 적용 과제를 넣어요.",
+"example_en": "Include not only training but also actual application tasks in the IDP."
+},
+{
+"id": "hrfinance-050",
+"field": "hrfinance",
+"term_ko": "사내공모",
+"term_en": "Internal job posting",
+"english": "",
+"aliases_ko": [
+"내부 채용"
+],
+"definition_ko": "회사 내부에 직무 기회를 공개해 구성원의 지원을 받는 방식.",
+"definition_en": "A method of opening job opportunities within the company to receive employees' applications.",
+"example_ko": "사내공모 지원 자격과 이동 절차를 공지해요.",
+"example_en": "Announce the eligibility and transfer procedure for the internal job posting."
+},
+{
+"id": "hrfinance-051",
+"field": "hrfinance",
+"term_ko": "직무순환",
+"term_en": "Job rotation",
+"english": "",
+"aliases_ko": [
+"Job rotation"
+],
+"definition_ko": "역량 개발이나 조직 운영을 위해 다른 직무를 경험하도록 배치하는 방식.",
+"definition_en": "A method of placing employees to experience different jobs for competency development or organizational operation.",
+"example_ko": "직무순환 전에 인수인계 기간을 확보해요.",
+"example_en": "Secure a handover period before the job rotation."
+},
+{
+"id": "hrfinance-052",
+"field": "hrfinance",
+"term_ko": "전보",
+"term_en": "Transfer",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "구성원을 다른 부서나 근무지 등으로 옮겨 배치하는 인사 조치.",
+"definition_en": "An HR measure that moves and places an employee to another department or work location.",
+"example_ko": "전보 대상자의 업무 시작일을 양쪽 부서와 맞춰요.",
+"example_en": "Align the transferee's start date with both departments."
+},
+{
+"id": "hrfinance-053",
+"field": "hrfinance",
+"term_ko": "승진",
+"term_en": "Promotion",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "직급이나 조직 내 지위가 상위 단계로 올라가는 인사 조치.",
+"definition_en": "An HR measure in which the job grade or position within the organization moves to a higher level.",
+"example_ko": "승진 심사에 필요한 평가 기간을 확인해요.",
+"example_en": "Check the evaluation period required for the promotion review."
+},
+{
+"id": "hrfinance-054",
+"field": "hrfinance",
+"term_ko": "승격",
+"term_en": "Grade advancement",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "회사의 등급 체계에서 상위 자격·등급으로 올라가는 것. 승진과의 구분은 제도마다 다르다.",
+"definition_en": "Moving up to a higher qualification or grade in the company's grading system. The distinction from promotion differs by system.",
+"example_ko": "승격이 직책 변경도 포함하는지 규정을 확인해요.",
+"example_en": "Check the rules for whether a grade advancement also includes a position change."
+},
+{
+"id": "hrfinance-055",
+"field": "hrfinance",
+"term_ko": "직급",
+"term_en": "Job grade",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "직무 수준·숙련도·조직상 위치 등을 나타내는 등급.",
+"definition_en": "A grade indicating job level, proficiency, and organizational position.",
+"example_ko": "직급별 기대 역할을 구성원에게 안내해요.",
+"example_en": "Inform employees of the expected role by job grade."
+},
+{
+"id": "hrfinance-056",
+"field": "hrfinance",
+"term_ko": "직책",
+"term_en": "Position",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "팀장·본부장처럼 조직에서 맡은 책임과 역할을 나타내는 자리.",
+"definition_en": "A role indicating the responsibility held in the organization, such as team leader or division head.",
+"example_ko": "직책 변경에 따른 결재 권한을 조정해요.",
+"example_en": "Adjust approval authority according to the position change."
+},
+{
+"id": "hrfinance-057",
+"field": "hrfinance",
+"term_ko": "직위",
+"term_en": "Rank",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "조직에서 개인이 차지하는 위치를 나타내는 호칭. 직급·직책과의 사용 구분은 회사마다 다르다.",
+"definition_en": "A title indicating the standing an individual holds in the organization. Usage distinctions from job grade and position differ by company.",
+"example_ko": "명함에 쓸 직위 표기를 인사 기준과 맞춰요.",
+"example_en": "Align the rank notation on the business card with the HR standard."
+},
+{
+"id": "hrfinance-058",
+"field": "hrfinance",
+"term_ko": "직무군",
+"term_en": "Job family",
+"english": "",
+"aliases_ko": [
+"Job family"
+],
+"definition_ko": "비슷한 업무 성격과 역량을 가진 직무를 묶은 분류.",
+"definition_en": "A classification grouping jobs with similar work character and competencies.",
+"example_ko": "개발 직무군과 영업 직무군의 역량 기준을 구분해요.",
+"example_en": "Distinguish the competency standards of the development job family and the sales job family."
+},
+{
+"id": "hrfinance-059",
+"field": "hrfinance",
+"term_ko": "직무평가",
+"term_en": "Job evaluation",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "직무의 책임·난이도·영향 등을 평가해 상대적 가치를 판단하는 과정.",
+"definition_en": "The process of evaluating a job's responsibility, difficulty, and impact to judge its relative value.",
+"example_ko": "직무평가에서는 담당자의 인상과 직무 가치를 분리해요.",
+"example_en": "In job evaluation, separate the jobholder's impression from the job's value."
+},
+{
+"id": "hrfinance-060",
+"field": "hrfinance",
+"term_ko": "승계계획",
+"term_en": "Succession planning",
+"english": "",
+"aliases_ko": [
+"Succession planning"
+],
+"definition_ko": "핵심 역할의 공백에 대비해 후임 후보와 육성 방향을 준비하는 계획.",
+"definition_en": "A plan preparing successor candidates and development directions in case of a vacancy in a key role.",
+"example_ko": "승계계획에 후보자의 준비 수준을 함께 기록해요.",
+"example_en": "Record the candidates' readiness level in the succession plan."
+},
+{
+"id": "hrfinance-061",
+"field": "hrfinance",
+"term_ko": "성과관리",
+"term_en": "Performance management",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "목표 설정·진행 점검·피드백·평가를 통해 업무 성과를 관리하는 과정.",
+"definition_en": "The process of managing work performance through goal setting, progress checks, feedback, and evaluation.",
+"example_ko": "성과관리를 연말 평가 한 번으로 끝내지 않아요.",
+"example_en": "Do not end performance management with a single year-end evaluation."
+},
+{
+"id": "hrfinance-062",
+"field": "hrfinance",
+"term_ko": "인사평가",
+"term_en": "Performance appraisal",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "구성원의 성과·역량·행동 등을 정한 기준으로 판단하는 절차.",
+"definition_en": "A procedure that judges an employee's performance, competency, and behavior against set criteria.",
+"example_ko": "인사평가 전에 평가 기준을 다시 안내해요.",
+"example_en": "Re-communicate the evaluation criteria before the performance appraisal."
+},
+{
+"id": "hrfinance-063",
+"field": "hrfinance",
+"term_ko": "역량평가",
+"term_en": "Competency assessment",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "직무에 필요한 지식·기술·행동 수준을 평가하는 것.",
+"definition_en": "Evaluating the level of knowledge, skills, and behavior needed for the job.",
+"example_ko": "역량평가에 관찰 가능한 행동 기준을 써요.",
+"example_en": "Use observable behavioral criteria in the competency assessment."
+},
+{
+"id": "hrfinance-064",
+"field": "hrfinance",
+"term_ko": "목표관리",
+"term_en": "Management by objectives",
+"english": "",
+"aliases_ko": [
+"MBO"
+],
+"definition_ko": "합의한 업무 목표와 달성 결과를 중심으로 성과를 관리하는 방식.",
+"definition_en": "A method of managing performance centered on agreed work goals and the achieved results.",
+"example_ko": "MBO 목표의 측정 기준과 책임 범위를 맞춰요.",
+"example_en": "Align the measurement criteria and scope of responsibility for the MBO goals."
+},
+{
+"id": "hrfinance-065",
+"field": "hrfinance",
+"term_ko": "평가 캘리브레이션",
+"term_en": "Evaluation calibration",
+"english": "",
+"aliases_ko": [
+"평가 조정 회의"
+],
+"definition_ko": "평가자나 조직 사이의 기준 차이를 논의해 평가의 일관성을 점검하는 과정.",
+"definition_en": "The process of discussing differences in standards among evaluators or organizations to check the consistency of evaluation.",
+"example_ko": "평가 캘리브레이션에서 점수의 근거를 비교해요.",
+"example_en": "In evaluation calibration, compare the grounds for the scores."
+},
+{
+"id": "hrfinance-066",
+"field": "hrfinance",
+"term_ko": "다면평가",
+"term_en": "Multi-rater evaluation",
+"english": "",
+"aliases_ko": [
+"360도 평가"
+],
+"definition_ko": "상사·동료·부하 등 여러 관계자의 관찰을 모아 평가하는 방식.",
+"definition_en": "A method that gathers observations from various parties such as managers, peers, and reports for evaluation.",
+"example_ko": "다면평가 응답이 특정인을 추정하게 만들지 않도록 확인해요.",
+"example_en": "Check that multi-rater responses do not allow a particular person to be inferred."
+},
+{
+"id": "hrfinance-067",
+"field": "hrfinance",
+"term_ko": "상향평가",
+"term_en": "Upward evaluation",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "구성원이 자신의 관리자나 리더에 대해 평가하는 방식.",
+"definition_en": "A method in which employees evaluate their own manager or leader.",
+"example_ko": "상향평가 결과를 리더의 개선 과제와 연결해요.",
+"example_en": "Connect the upward-evaluation results to the leader's improvement tasks."
+},
+{
+"id": "hrfinance-068",
+"field": "hrfinance",
+"term_ko": "절대평가",
+"term_en": "Absolute evaluation",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "다른 사람과의 순위보다 사전에 정한 기준 충족 여부로 평가하는 방식.",
+"definition_en": "A method that evaluates by whether preset criteria are met rather than ranking against others.",
+"example_ko": "절대평가의 등급별 기준을 구체화해요.",
+"example_en": "Specify the criteria per grade for absolute evaluation."
+},
+{
+"id": "hrfinance-069",
+"field": "hrfinance",
+"term_ko": "상대평가",
+"term_en": "Relative evaluation",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "집단 안에서 성과나 수준을 비교해 등급 등을 정하는 방식.",
+"definition_en": "A method that compares performance or level within a group to set grades and so on.",
+"example_ko": "상대평가 대상 집단의 구성이 적절한지 검토해요.",
+"example_en": "Review whether the composition of the relative-evaluation group is appropriate."
+},
+{
+"id": "hrfinance-070",
+"field": "hrfinance",
+"term_ko": "평가 편향",
+"term_en": "Evaluation bias",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "평가가 관련 없는 인상·최근 사건·개인적 선호 등에 영향을 받는 현상.",
+"definition_en": "The phenomenon where evaluation is influenced by irrelevant impressions, recent events, personal preferences, and so on.",
+"example_ko": "평가 편향을 줄이려고 기간 전체의 사례를 모아요.",
+"example_en": "To reduce evaluation bias, gather examples from the entire period."
+},
+{
+"id": "hrfinance-071",
+"field": "hrfinance",
+"term_ko": "후광효과",
+"term_en": "Halo effect",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "한 가지 두드러진 인상이 다른 평가 영역까지 좌우하는 경향.",
+"definition_en": "A tendency for one prominent impression to sway other evaluation areas as well.",
+"example_ko": "발표 능력의 후광효과가 분석 역량 평가에 섞이지 않게 해요.",
+"example_en": "Keep the halo effect of presentation skill from mixing into the evaluation of analytical competency."
+},
+{
+"id": "hrfinance-072",
+"field": "hrfinance",
+"term_ko": "성과개선계획",
+"term_en": "Performance improvement plan",
+"english": "",
+"aliases_ko": [
+"PIP"
+],
+"definition_ko": "기대 수준에 미치지 못한 성과를 개선하도록 목표·지원·점검 일정을 정한 계획.",
+"definition_en": "A plan that sets goals, support, and check schedules to improve performance that falls short of expectations.",
+"example_ko": "PIP에 개선 기준과 회사가 제공할 지원을 함께 적어요.",
+"example_en": "In the PIP, write the improvement criteria together with the support the company will provide."
+},
+{
+"id": "hrfinance-073",
+"field": "hrfinance",
+"term_ko": "원온원",
+"term_en": "One-on-one",
+"english": "",
+"aliases_ko": [
+"1on1",
+"일대일 면담"
+],
+"definition_ko": "리더와 구성원이 업무·성장·어려움 등을 개별적으로 논의하는 대화.",
+"definition_en": "A conversation in which a leader and an employee individually discuss work, growth, difficulties, and so on.",
+"example_ko": "원온원에서 지원이 필요한 일을 먼저 확인해요.",
+"example_en": "In the one-on-one, first check what work needs support."
+},
+{
+"id": "hrfinance-074",
+"field": "hrfinance",
+"term_ko": "스테이 인터뷰",
+"term_en": "Stay interview",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "재직자가 계속 일하는 이유와 이탈 위험 요인을 알아보는 면담.",
+"definition_en": "An interview to learn why a current employee keeps working and the risk factors for attrition.",
+"example_ko": "스테이 인터뷰에서 바꾸면 좋을 업무 환경을 물어요.",
+"example_en": "In the stay interview, ask about the work environment that would be good to change."
+},
+{
+"id": "hrfinance-075",
+"field": "hrfinance",
+"term_ko": "퇴사면담",
+"term_en": "Exit interview",
+"english": "",
+"aliases_ko": [
+"Exit interview"
+],
+"definition_ko": "퇴사 과정에서 경험·이유·개선 의견 등을 듣는 면담.",
+"definition_en": "An interview that hears experiences, reasons, and improvement opinions during the departure process.",
+"example_ko": "퇴사면담의 의견을 개인 식별 없이 묶어 분석해요.",
+"example_en": "Analyze the exit-interview opinions in aggregate without personal identification."
+},
+{
+"id": "hrfinance-076",
+"field": "hrfinance",
+"term_ko": "조직몰입",
+"term_en": "Organizational commitment",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "구성원이 조직과 일에 느끼는 유대감과 참여 의지.",
+"definition_en": "The sense of attachment and willingness to engage that an employee feels toward the organization and work.",
+"example_ko": "조직몰입 조사 결과를 팀의 업무 조건과 함께 봐요.",
+"example_en": "Look at the organizational commitment survey results together with the team's work conditions."
+},
+{
+"id": "hrfinance-077",
+"field": "hrfinance",
+"term_ko": "직원경험",
+"term_en": "Employee experience",
+"english": "",
+"aliases_ko": [
+"EX",
+"Employee experience"
+],
+"definition_ko": "입사 지원부터 재직·퇴사까지 구성원이 조직에서 겪는 경험의 총체.",
+"definition_en": "The totality of experiences an employee has in the organization, from application through employment to departure.",
+"example_ko": "직원경험을 개선하려고 입사 첫날의 불편을 점검해요.",
+"example_en": "To improve employee experience, examine the inconveniences of the first day."
+},
+{
+"id": "hrfinance-078",
+"field": "hrfinance",
+"term_ko": "펄스 서베이",
+"term_en": "Pulse survey",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "구성원의 상태나 의견을 짧은 문항으로 자주 확인하는 조사.",
+"definition_en": "A survey that frequently checks employees' state or opinions with short questions.",
+"example_ko": "변경한 제도의 반응을 펄스 서베이로 확인해요.",
+"example_en": "Check the reaction to the changed policy with a pulse survey."
+},
+{
+"id": "hrfinance-079",
+"field": "hrfinance",
+"term_ko": "eNPS",
+"term_en": "eNPS",
+"english": "",
+"aliases_ko": [
+"직원 순추천지수"
+],
+"definition_ko": "직장을 추천할 의향을 묻는 응답을 추천자·비추천자 등으로 구분해 산출하는 지표.",
+"definition_en": "A metric calculated by classifying responses about willingness to recommend the workplace into promoters, detractors, and so on.",
+"example_ko": "eNPS 수치와 서술형 의견을 함께 읽어요.",
+"example_en": "Read the eNPS figures together with the open-ended comments."
+},
+{
+"id": "hrfinance-080",
+"field": "hrfinance",
+"term_ko": "심리적 안전감",
+"term_en": "Psychological safety",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "질문·우려·실수를 말해도 대인관계상 불이익을 받을 두려움이 낮은 상태.",
+"definition_en": "A state in which the fear of interpersonal disadvantage from asking questions, raising concerns, or making mistakes is low.",
+"example_ko": "회고에서 반대 의견을 말할 수 있는 심리적 안전감을 점검해요.",
+"example_en": "In the retrospective, check the psychological safety to voice opposing views."
+},
+{
+"id": "hrfinance-081",
+"field": "hrfinance",
+"term_ko": "근로계약",
+"term_en": "Employment contract",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "근로 제공과 그에 대한 임금 지급을 내용으로 하는 계약.",
+"definition_en": "A contract whose content is the provision of labor and the payment of wages in return.",
+"example_ko": "근로계약의 업무 내용과 근무 장소를 확인해요.",
+"example_en": "Check the job content and work location in the employment contract.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-082",
+"field": "hrfinance",
+"term_ko": "근로계약서",
+"term_en": "Written employment contract",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "임금·근로시간 등 근로조건을 서면으로 정리한 계약 문서.",
+"definition_en": "A contract document that sets working conditions such as wages and working hours in writing.",
+"example_ko": "근로계약서의 조건을 설명하고 교부 여부를 확인해요.",
+"example_en": "Explain the terms of the employment contract and confirm whether it was provided.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-083",
+"field": "hrfinance",
+"term_ko": "취업규칙",
+"term_en": "Rules of employment",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "사업장에서 적용하는 근로조건과 복무 규율 등을 정한 규칙.",
+"definition_en": "Rules that set the working conditions and work discipline applied at a workplace.",
+"example_ko": "취업규칙 개정 전 필요한 절차를 노무 담당자와 확인해요.",
+"example_en": "Check the required procedure with the labor officer before amending the rules of employment.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-084",
+"field": "hrfinance",
+"term_ko": "인사규정",
+"term_en": "HR regulations",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "채용·이동·평가·징계 등 인사 운영 기준을 정한 내부 규정.",
+"definition_en": "Internal regulations that set HR operation standards such as hiring, transfer, evaluation, and discipline.",
+"example_ko": "인사규정에서 전보의 승인 절차를 찾아봐요.",
+"example_en": "Look up the approval procedure for transfers in the HR regulations.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-085",
+"field": "hrfinance",
+"term_ko": "복무규정",
+"term_en": "Service regulations",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "근무 질서·준수 사항·신고 절차 등을 정한 내부 규정.",
+"definition_en": "Internal regulations that set work order, compliance items, and reporting procedures.",
+"example_ko": "외부 활동 신고 기준을 복무규정에서 확인해요.",
+"example_en": "Check the criteria for reporting external activities in the service regulations.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-086",
+"field": "hrfinance",
+"term_ko": "기간제 근로자",
+"term_en": "Fixed-term worker",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "근로계약 기간을 정해 고용된 근로자.",
+"definition_en": "A worker hired for a set employment-contract period.",
+"example_ko": "기간제 근로자의 계약 종료일을 사전에 확인해요.",
+"example_en": "Check the contract end date of the fixed-term worker in advance.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-087",
+"field": "hrfinance",
+"term_ko": "단시간 근로자",
+"term_en": "Part-time worker",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "비교 대상 통상 근로자보다 소정근로시간이 짧은 근로자.",
+"definition_en": "A worker whose contractual working hours are shorter than those of comparable full-time workers.",
+"example_ko": "단시간 근로자의 근무일과 시간을 계약에 맞춰 확인해요.",
+"example_en": "Check the part-time worker's workdays and hours against the contract.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-088",
+"field": "hrfinance",
+"term_ko": "파견근로",
+"term_en": "Dispatched labor",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "파견사업주가 고용한 근로자가 사용사업주의 지휘·명령 아래 일하는 구조.",
+"definition_en": "A structure in which a worker hired by a temporary-work agency works under the direction and command of the user company.",
+"example_ko": "파견근로와 도급의 운영 방식 차이를 확인해요.",
+"example_en": "Check the operational differences between dispatched labor and subcontracting.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-089",
+"field": "hrfinance",
+"term_ko": "도급",
+"term_en": "Subcontracting",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "어떤 일을 완성하고 그 결과에 대해 보수를 지급하기로 하는 계약 방식.",
+"definition_en": "A contract form agreeing to complete a certain task and pay compensation for the result.",
+"example_ko": "도급 계약의 결과물과 검수 기준을 명확히 해요.",
+"example_en": "Clarify the deliverables and inspection criteria of the subcontracting agreement.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-090",
+"field": "hrfinance",
+"term_ko": "정규직",
+"term_en": "Permanent employee",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "통상 기간의 정함 없이 지속적으로 고용되는 형태를 가리키는 말.",
+"definition_en": "A term for a form of employment that is continuous without a set term.",
+"example_ko": "정규직 채용의 수습 조건을 별도로 안내해요.",
+"example_en": "Separately explain the probation conditions for permanent hiring.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-091",
+"field": "hrfinance",
+"term_ko": "무기계약직",
+"term_en": "Open-ended contract worker",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "계약 종료 기간을 따로 정하지 않은 근로계약으로 일하는 근로자.",
+"definition_en": "A worker employed under an employment contract with no separately set end date.",
+"example_ko": "무기계약직의 처우 체계를 적용 규정으로 확인해요.",
+"example_en": "Check the treatment system for open-ended contract workers against the applicable rules.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-092",
+"field": "hrfinance",
+"term_ko": "시용",
+"term_en": "Trial employment",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "정식 채용 여부를 판단하기 위해 적격성을 살피는 기간이나 제도.",
+"definition_en": "A period or system of examining suitability to decide whether to make a formal hire.",
+"example_ko": "시용의 조건과 평가 방식을 계약에서 확인해요.",
+"example_en": "Check the conditions and evaluation method of trial employment in the contract.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-093",
+"field": "hrfinance",
+"term_ko": "수습",
+"term_en": "Probation",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "채용 후 업무에 익숙해지도록 적응·교육하는 기간이나 과정.",
+"definition_en": "A period or process of adaptation and training after hiring to become familiar with the work.",
+"example_ko": "수습 중 맡을 업무와 지원 담당자를 정해요.",
+"example_en": "Decide the tasks to handle during probation and the support owner.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-094",
+"field": "hrfinance",
+"term_ko": "노사협의회",
+"term_en": "Labor-management council",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "근로자와 사용자 측이 참여해 사업장 운영의 협력 사항을 협의하는 기구.",
+"definition_en": "A body in which the worker and employer sides participate to discuss cooperative matters of workplace operation.",
+"example_ko": "노사협의회 안건의 처리 결과를 구성원에게 안내해요.",
+"example_en": "Inform employees of the outcomes of the labor-management council agenda.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-095",
+"field": "hrfinance",
+"term_ko": "노동조합",
+"term_en": "Labor union",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "근로자가 근로조건 유지·개선 등 공동 목적을 위해 조직하는 단체.",
+"definition_en": "An organization that workers form for common purposes such as maintaining and improving working conditions.",
+"example_ko": "노동조합과 협의할 의제를 구분해 준비해요.",
+"example_en": "Prepare the agenda to discuss with the labor union by category.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-096",
+"field": "hrfinance",
+"term_ko": "단체교섭",
+"term_en": "Collective bargaining",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "노동조합과 사용자 측이 근로조건 등에 관해 협의하는 과정.",
+"definition_en": "The process in which the labor union and employer side negotiate over working conditions and so on.",
+"example_ko": "단체교섭에서 합의한 내용과 미합의 내용을 나눠 기록해요.",
+"example_en": "Record the agreed and non-agreed items from collective bargaining separately.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-097",
+"field": "hrfinance",
+"term_ko": "단체협약",
+"term_en": "Collective agreement",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "노동조합과 사용자 측이 교섭을 통해 체결하는 근로조건 등에 관한 협약.",
+"definition_en": "An agreement on working conditions and so on concluded by the labor union and employer side through bargaining.",
+"example_ko": "단체협약의 적용 범위를 확인한 뒤 제도를 운영해요.",
+"example_en": "Check the scope of application of the collective agreement before operating the system.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-098",
+"field": "hrfinance",
+"term_ko": "징계",
+"term_en": "Disciplinary action",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "규율 위반 등에 대해 정한 절차와 기준에 따라 불이익 조치를 하는 것.",
+"definition_en": "Taking disadvantageous measures for rule violations and so on according to set procedures and standards.",
+"example_ko": "징계 심의 전 사실관계와 소명 절차를 확인해요.",
+"example_en": "Check the facts and the explanation procedure before the disciplinary review.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-099",
+"field": "hrfinance",
+"term_ko": "고충처리",
+"term_en": "Grievance handling",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "구성원이 제기한 업무·근무환경상의 어려움을 접수하고 해결을 지원하는 절차.",
+"definition_en": "A procedure that receives and supports the resolution of work or work-environment difficulties raised by employees.",
+"example_ko": "고충처리 기록의 접근 권한을 제한해요.",
+"example_en": "Restrict access to grievance-handling records.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-100",
+"field": "hrfinance",
+"term_ko": "인사위원회",
+"term_en": "HR committee",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "주요 인사 안건을 심의·의결하는 내부 기구.",
+"definition_en": "An internal body that deliberates and decides on major HR matters.",
+"example_ko": "인사위원회에 제출할 안건과 자료를 준비해요.",
+"example_en": "Prepare the agenda and materials to submit to the HR committee.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-101",
+"field": "hrfinance",
+"term_ko": "근태",
+"term_en": "Attendance",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "출근·퇴근·결근·지각·휴가 등 근무 상태와 시간에 관한 기록.",
+"definition_en": "Records concerning work status and time, such as clock-in, clock-out, absence, tardiness, and leave.",
+"example_ko": "월말에 근태 누락을 구성원에게 확인해요.",
+"example_en": "At month-end, check attendance omissions with employees.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-102",
+"field": "hrfinance",
+"term_ko": "소정근로시간",
+"term_en": "Contractual working hours",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "법정 범위 안에서 근로자와 사용자가 일하기로 정한 시간.",
+"definition_en": "The hours the worker and employer have agreed to work within the statutory range.",
+"example_ko": "계약의 소정근로시간과 근태 설정을 맞춰요.",
+"example_en": "Align the contract's contractual working hours with the attendance settings.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-103",
+"field": "hrfinance",
+"term_ko": "실근로시간",
+"term_en": "Actual working hours",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "실제로 업무를 수행한 시간.",
+"definition_en": "The time actually spent performing work.",
+"example_ko": "실근로시간에서 휴게시간을 구분해 집계해요.",
+"example_en": "Separate and aggregate break time from the actual working hours.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-104",
+"field": "hrfinance",
+"term_ko": "휴게시간",
+"term_en": "Break time",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "근로 도중 근로자가 자유롭게 이용할 수 있도록 보장되는 시간.",
+"definition_en": "Time guaranteed for the worker to use freely during work.",
+"example_ko": "근무표에서 휴게시간이 어떻게 운영되는지 확인해요.",
+"example_en": "Check how break time is operated in the work schedule.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-105",
+"field": "hrfinance",
+"term_ko": "연장근로",
+"term_en": "Overtime work",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "정해진 기준 근로시간을 초과해 일하는 근로.",
+"definition_en": "Work performed exceeding the set standard working hours.",
+"example_ko": "연장근로의 승인과 실제 시간을 대조해요.",
+"example_en": "Cross-check overtime approvals against the actual hours.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-106",
+"field": "hrfinance",
+"term_ko": "야간근로",
+"term_en": "Night work",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "법령에서 정한 야간 시간대에 수행하는 근로.",
+"definition_en": "Work performed during the night hours defined by law.",
+"example_ko": "근태 자료에서 야간근로 시간을 별도로 집계해요.",
+"example_en": "Aggregate night-work hours separately in the attendance data.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-107",
+"field": "hrfinance",
+"term_ko": "휴일근로",
+"term_en": "Holiday work",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "근로 의무가 없는 휴일에 일하는 것.",
+"definition_en": "Working on a holiday on which there is no duty to work.",
+"example_ko": "휴일근로 기록과 대체 운영 내용을 확인해요.",
+"example_en": "Check the holiday-work records and the substitution arrangements.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-108",
+"field": "hrfinance",
+"term_ko": "유연근무제",
+"term_en": "Flexible work arrangements",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "시간·장소 등을 유연하게 운영하는 근무 제도의 통칭.",
+"definition_en": "A general term for work systems that flexibly operate time, location, and so on.",
+"example_ko": "유연근무제 중 우리 조직에 적용되는 방식을 안내해요.",
+"example_en": "Inform employees which of the flexible work arrangements apply to our organization.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-109",
+"field": "hrfinance",
+"term_ko": "탄력적 근로시간제",
+"term_en": "Variable working-hours system",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "정한 단위기간을 평균해 기준을 충족하도록 일별·주별 근로시간을 조정하는 제도.",
+"definition_en": "A system that adjusts daily and weekly working hours so the standard is met on average over a set unit period.",
+"example_ko": "탄력적 근로시간제 도입 요건과 근무표를 함께 검토해요.",
+"example_en": "Review the introduction requirements and the work schedule for the variable working-hours system together.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-110",
+"field": "hrfinance",
+"term_ko": "선택적 근로시간제",
+"term_en": "Flextime system",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "정산기간의 총 근로시간 등 정해진 조건 아래 출퇴근 시각 등을 근로자가 선택하는 제도.",
+"definition_en": "A system in which the worker chooses clock-in and clock-out times under set conditions such as the total working hours of the settlement period.",
+"example_ko": "선택적 근로시간제의 정산 기준을 구성원에게 설명해요.",
+"example_en": "Explain the settlement criteria of the flextime system to employees.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-111",
+"field": "hrfinance",
+"term_ko": "시차출퇴근제",
+"term_en": "Staggered-hours system",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "하루 근무시간은 유지하면서 출근·퇴근 시각을 다르게 정하는 방식.",
+"definition_en": "A method of setting different clock-in and clock-out times while keeping the daily working hours the same.",
+"example_ko": "시차출퇴근제 신청에 맞춰 공통 회의 시간을 조정해요.",
+"example_en": "Adjust the common meeting time to fit the staggered-hours requests.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-112",
+"field": "hrfinance",
+"term_ko": "재량근로",
+"term_en": "Discretionary work",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "업무 수행 방법과 시간 배분의 재량이 필요한 특정 업무에 대해 정한 시간을 근로한 것으로 보는 제도.",
+"definition_en": "A system that treats certain tasks requiring discretion in work method and time allocation as having been worked for a set number of hours.",
+"example_ko": "재량근로 적용 대상과 합의 내용을 먼저 확인해요.",
+"example_en": "First check the eligible tasks and the agreement content for discretionary work.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-113",
+"field": "hrfinance",
+"term_ko": "간주근로",
+"term_en": "Deemed working hours",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "실제 시간을 산정하기 어려운 경우 등 정한 요건 아래 일정 시간을 근로한 것으로 보는 방식.",
+"definition_en": "A method that treats a set number of hours as having been worked under defined requirements, such as when actual time is hard to calculate.",
+"example_ko": "출장에 간주근로를 적용할 수 있는지 검토해요.",
+"example_en": "Review whether deemed working hours can be applied to business trips.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-114",
+"field": "hrfinance",
+"term_ko": "연차휴가",
+"term_en": "Annual leave",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "근로관계에서 법령 등에 따라 부여되는 연 단위의 유급휴가.",
+"definition_en": "Annual paid leave granted under law and so on in the employment relationship.",
+"example_ko": "연차휴가의 발생·사용·잔여 내역을 확인해요.",
+"example_en": "Check the accrual, use, and remaining balance of annual leave.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-115",
+"field": "hrfinance",
+"term_ko": "반차",
+"term_en": "Half-day leave",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "하루 휴가를 반일 단위로 나누어 사용하는 방식.",
+"definition_en": "A method of using a day's leave divided into half-day units.",
+"example_ko": "반차 사용 시간이 회사 기준과 맞는지 확인해요.",
+"example_en": "Check whether the half-day leave hours match the company standard.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-116",
+"field": "hrfinance",
+"term_ko": "보상휴가",
+"term_en": "Compensatory leave",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "정해진 절차에 따라 특정 가산임금 지급을 휴가로 대신하는 제도.",
+"definition_en": "A system that substitutes leave for the payment of certain premium wages according to set procedures.",
+"example_ko": "보상휴가의 부여 기준과 잔여 시간을 기록해요.",
+"example_en": "Record the granting criteria and remaining hours of compensatory leave.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-117",
+"field": "hrfinance",
+"term_ko": "휴일대체",
+"term_en": "Holiday substitution",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "정한 절차에 따라 예정된 휴일과 근로일을 서로 바꾸는 것.",
+"definition_en": "Swapping a scheduled holiday and a workday according to set procedures.",
+"example_ko": "휴일대체 날짜와 안내 내용을 사전에 확인해요.",
+"example_en": "Confirm the holiday-substitution date and the notice content in advance.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-118",
+"field": "hrfinance",
+"term_ko": "대체휴무",
+"term_en": "Substitute day off",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "추가 근무 등에 대응해 다른 날 쉬는 것을 통칭하는 실무 표현.",
+"definition_en": "A practical term collectively referring to taking a day off on another day in response to extra work and so on.",
+"example_ko": "대체휴무가 휴일대체인지 보상휴가인지 확인해요.",
+"example_en": "Check whether the substitute day off is a holiday substitution or compensatory leave.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-119",
+"field": "hrfinance",
+"term_ko": "휴직",
+"term_en": "Leave of absence",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "고용관계는 유지하면서 일정 기간 업무를 쉬는 상태.",
+"definition_en": "A state of resting from work for a certain period while the employment relationship is maintained.",
+"example_ko": "휴직 기간의 급여와 복귀 절차를 안내해요.",
+"example_en": "Inform about the pay and return procedure during the leave of absence.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-120",
+"field": "hrfinance",
+"term_ko": "복직",
+"term_en": "Return to work",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "휴직 등으로 업무를 쉬던 구성원이 다시 근무를 시작하는 것.",
+"definition_en": "An employee who had been resting from work due to leave and so on starting work again.",
+"example_ko": "복직일에 맞춰 시스템 권한을 복구해요.",
+"example_en": "Restore system permissions in time for the return-to-work date.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-121",
+"field": "hrfinance",
+"term_ko": "급여대장",
+"term_en": "Payroll register",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "구성원별 지급액·공제액·실지급액 등을 기록하는 장부.",
+"definition_en": "A ledger recording each employee's payment amount, deductions, and net pay.",
+"example_ko": "급여대장을 승인된 변동 내역과 대조해요.",
+"example_en": "Cross-check the payroll register against the approved change records.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-122",
+"field": "hrfinance",
+"term_ko": "임금명세서",
+"term_en": "Pay statement",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "임금의 구성 항목과 계산·공제 내역 등을 알리는 문서.",
+"definition_en": "A document informing of the components of wages and the calculation and deduction details.",
+"example_ko": "임금명세서에 변동 수당의 계산 근거를 표시해요.",
+"example_en": "Show the calculation basis of variable allowances on the pay statement.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-123",
+"field": "hrfinance",
+"term_ko": "기본급",
+"term_en": "Base pay",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "급여 구성에서 기준이 되는 기본 보수 항목.",
+"definition_en": "The base compensation item that serves as the standard in the pay composition.",
+"example_ko": "기본급과 별도 수당을 나눠 안내해요.",
+"example_en": "Communicate base pay and separate allowances distinctly.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-124",
+"field": "hrfinance",
+"term_ko": "통상임금",
+"term_en": "Ordinary wage",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "정기적·일률적으로 소정근로 등에 대해 지급하기로 정한 임금으로, 법령상 수당 등의 산정 기준에 쓰이는 개념.",
+"definition_en": "Wages set to be paid regularly and uniformly for contractual work and so on, a concept used as the basis for calculating statutory allowances.",
+"example_ko": "통상임금에 포함되는 항목은 현재 기준으로 검토해요.",
+"example_en": "Review the items included in ordinary wage against the current standard.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-125",
+"field": "hrfinance",
+"term_ko": "평균임금",
+"term_en": "Average wage",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "정해진 산정 사유와 기간의 임금을 기준으로 계산하는 임금 개념.",
+"definition_en": "A wage concept calculated based on the wages of a defined calculation reason and period.",
+"example_ko": "퇴직 정산 전에 평균임금 산정 자료를 확인해요.",
+"example_en": "Check the average-wage calculation data before the departure settlement.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-126",
+"field": "hrfinance",
+"term_ko": "고정급",
+"term_en": "Fixed pay",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "정해진 조건에 따라 비교적 일정하게 지급하는 보수 부분.",
+"definition_en": "The compensation portion paid relatively consistently according to set conditions.",
+"example_ko": "처우표에서 고정급과 성과 연동 보상을 구분해요.",
+"example_en": "Distinguish fixed pay from performance-linked compensation in the compensation sheet.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-127",
+"field": "hrfinance",
+"term_ko": "변동급",
+"term_en": "Variable pay",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "성과나 실적 등 조건에 따라 금액이 달라지는 보수 부분.",
+"definition_en": "The compensation portion whose amount varies according to conditions such as performance or results.",
+"example_ko": "변동급의 목표액과 실제 지급액을 나눠 기록해요.",
+"example_en": "Record the target amount and the actual paid amount of variable pay separately.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-128",
+"field": "hrfinance",
+"term_ko": "성과급",
+"term_en": "Performance pay",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "개인·조직·회사 등의 성과 기준에 연계해 지급하는 보상.",
+"definition_en": "Compensation paid linked to performance criteria of the individual, organization, company, and so on.",
+"example_ko": "성과급 지급 기준과 대상 기간을 안내해요.",
+"example_en": "Inform about the payment criteria and target period of the performance pay.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-129",
+"field": "hrfinance",
+"term_ko": "상여금",
+"term_en": "Bonus",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "정기 또는 특정 조건에 따라 기본 급여 외에 지급하는 금품.",
+"definition_en": "Money paid in addition to base pay regularly or under specific conditions.",
+"example_ko": "상여금의 지급 조건을 규정과 계약에서 확인해요.",
+"example_en": "Check the payment conditions of the bonus in the regulations and the contract.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-130",
+"field": "hrfinance",
+"term_ko": "보상밴드",
+"term_en": "Compensation band",
+"english": "",
+"aliases_ko": [
+"페이밴드",
+"Salary band",
+"급여밴드",
+"샐러리밴드",
+"페이 밴드",
+"Salary Range"
+],
+"definition_ko": "직무·등급 등에 따라 설정한 보수의 하한과 상한 범위.",
+"definition_en": "The lower and upper range of compensation set according to job, grade, and so on.",
+"example_ko": "제안 급여가 해당 보상밴드 안에 있는지 검토해요.",
+"example_en": "Review whether the proposed salary is within the relevant compensation band.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-131",
+"field": "hrfinance",
+"term_ko": "보상 포지셔닝",
+"term_en": "Compensation positioning",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "시장이나 내부 기준과 비교해 보수 수준을 어느 위치에 둘지 정하는 방향.",
+"definition_en": "The direction deciding where to position the compensation level compared with the market or internal standards.",
+"example_ko": "핵심 직무의 보상 포지셔닝을 시장 자료로 검토해요.",
+"example_en": "Review the compensation positioning of key jobs using market data.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-132",
+"field": "hrfinance",
+"term_ko": "총보상",
+"term_en": "Total rewards",
+"english": "",
+"aliases_ko": [
+"Total rewards"
+],
+"definition_ko": "급여·인센티브·복지·비금전적 가치 등을 함께 보는 보상 개념.",
+"definition_en": "A compensation concept that considers pay, incentives, benefits, and non-monetary value together.",
+"example_ko": "총보상 안내에 금전 항목과 복지 혜택을 구분해요.",
+"example_en": "Distinguish the monetary items from the benefits in the total rewards statement.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-133",
+"field": "hrfinance",
+"term_ko": "보상 형평성",
+"term_en": "Compensation equity",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "유사한 역할·기여 등에 대한 보상이 일관되고 공정한지 보는 관점.",
+"definition_en": "The perspective of whether compensation for similar roles and contributions is consistent and fair.",
+"example_ko": "신규 채용 조건의 내부 보상 형평성을 확인해요.",
+"example_en": "Check the internal compensation equity of the new-hire terms.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-134",
+"field": "hrfinance",
+"term_ko": "연봉테이블",
+"term_en": "Salary table",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "직급·등급 등에 따른 연간 보수 기준을 정리한 표.",
+"definition_en": "A table organizing the annual compensation standards by job grade, grade, and so on.",
+"example_ko": "연봉테이블 적용 시 변동급 포함 여부를 확인해요.",
+"example_en": "When applying the salary table, check whether variable pay is included.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-135",
+"field": "hrfinance",
+"term_ko": "소급 지급",
+"term_en": "Retroactive payment",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "과거 기간에 적용되어야 할 금액을 뒤늦게 반영해 지급하는 것.",
+"definition_en": "Paying an amount that should have applied to a past period by reflecting it later.",
+"example_ko": "인상 확정 후 지난달 차액을 소급 지급해요.",
+"example_en": "After the raise is confirmed, retroactively pay last month's difference.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-136",
+"field": "hrfinance",
+"term_ko": "일할 계산",
+"term_en": "Pro-rata calculation",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "월 등의 정액을 해당 일수 기준으로 나누어 계산하는 방식.",
+"definition_en": "A method of dividing a fixed amount such as a monthly amount by the applicable number of days.",
+"example_ko": "중도 입사자의 급여를 정한 기준에 따라 일할 계산해요.",
+"example_en": "Pro-rate the pay of a mid-month joiner according to the set standard.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-137",
+"field": "hrfinance",
+"term_ko": "공제",
+"term_en": "Deduction",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "급여 등에서 세금·보험료 등 정해진 금액을 빼는 것.",
+"definition_en": "Subtracting set amounts such as taxes and insurance premiums from pay and so on.",
+"example_ko": "급여 공제 항목의 근거와 금액을 확인해요.",
+"example_en": "Check the basis and amount of the payroll deduction items.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-138",
+"field": "hrfinance",
+"term_ko": "실수령액",
+"term_en": "Net pay",
+"english": "",
+"aliases_ko": [
+"실지급액"
+],
+"definition_ko": "지급 총액에서 공제 등을 반영한 뒤 실제로 받는 금액.",
+"definition_en": "The amount actually received after reflecting deductions and so on from the gross payment.",
+"example_ko": "이번 달 실수령액의 차이는 공제 내역에서 확인해요.",
+"example_en": "Check the difference in this month's net pay in the deduction details.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-139",
+"field": "hrfinance",
+"term_ko": "인건비",
+"term_en": "Labor cost",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "인력을 고용·활용하는 데 드는 급여·부담금 등 비용.",
+"definition_en": "Costs such as pay and contributions incurred in hiring and utilizing workforce.",
+"example_ko": "부서별 인건비 예산에 회사 부담 보험료를 포함해요.",
+"example_en": "Include the employer's share of insurance premiums in the departmental labor-cost budget.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-140",
+"field": "hrfinance",
+"term_ko": "급여 마감",
+"term_en": "Payroll closing",
+"english": "",
+"aliases_ko": [
+"페이롤 마감",
+"급여 컷오프"
+],
+"definition_ko": "정한 지급일에 맞춰 근태·수당·공제 변동을 확정하는 작업.",
+"definition_en": "The work of finalizing attendance, allowance, and deduction changes in time for the set payday.",
+"example_ko": "급여 마감 전에 누락된 휴직 내역을 반영해요.",
+"example_en": "Reflect the missing leave-of-absence records before the payroll closing.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-141",
+"field": "hrfinance",
+"term_ko": "4대보험",
+"term_en": "Four major insurances",
+"english": "",
+"aliases_ko": [
+"사대보험"
+],
+"definition_ko": "국민연금·건강보험·고용보험·산재보험을 통칭하는 말.",
+"definition_en": "A collective term for national pension, health insurance, employment insurance, and industrial accident insurance.",
+"example_ko": "입사자의 4대보험 신고 대상과 정보를 확인해요.",
+"example_en": "Check the four-major-insurance reporting targets and information for the new hire.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-142",
+"field": "hrfinance",
+"term_ko": "국민연금",
+"term_en": "National pension",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "노령·장애·사망 등으로 인한 소득 감소에 대비하는 공적 연금 제도.",
+"definition_en": "A public pension system that prepares for income reduction due to old age, disability, death, and so on.",
+"example_ko": "국민연금 신고에 사용할 소득 자료를 확인해요.",
+"example_en": "Check the income data to use for the national pension reporting.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-143",
+"field": "hrfinance",
+"term_ko": "건강보험",
+"term_en": "Health insurance",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "질병·부상 등에 따른 진료 비용 부담을 사회적으로 나누는 보험 제도.",
+"definition_en": "An insurance system that socially shares the burden of medical costs due to illness, injury, and so on.",
+"example_ko": "건강보험 자격 변동 신고를 준비해요.",
+"example_en": "Prepare the report of a change in health-insurance eligibility.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-144",
+"field": "hrfinance",
+"term_ko": "고용보험",
+"term_en": "Employment insurance",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "실업 시 생활 안정과 고용 유지·직업능력 개발 등을 지원하는 사회보험.",
+"definition_en": "A social insurance that supports livelihood stability during unemployment and employment maintenance and vocational-ability development.",
+"example_ko": "고용보험 신고 내역을 입퇴사 자료와 대조해요.",
+"example_en": "Cross-check the employment-insurance filings against the onboarding and offboarding records.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-145",
+"field": "hrfinance",
+"term_ko": "산재보험",
+"term_en": "Industrial accident insurance",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "업무상 재해로 인한 근로자의 손실 등을 보상하는 사회보험.",
+"definition_en": "A social insurance that compensates workers' losses from work-related accidents.",
+"example_ko": "산재보험 관련 사고 자료를 사실대로 정리해요.",
+"example_en": "Organize the accident data related to industrial accident insurance accurately.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-146",
+"field": "hrfinance",
+"term_ko": "자격취득 신고",
+"term_en": "Acquisition-of-eligibility report",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "사회보험 등에서 가입 자격이 새로 생겼음을 알리는 절차.",
+"definition_en": "A procedure notifying that enrollment eligibility has newly arisen in social insurance and so on.",
+"example_ko": "입사일과 자격취득 신고 기준을 확인해요.",
+"example_en": "Check the hire date and the acquisition-of-eligibility reporting criteria.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-147",
+"field": "hrfinance",
+"term_ko": "자격상실 신고",
+"term_en": "Loss-of-eligibility report",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "퇴사 등으로 가입 자격이 종료되었음을 알리는 절차.",
+"definition_en": "A procedure notifying that enrollment eligibility has ended due to departure and so on.",
+"example_ko": "퇴사 사유를 확인한 뒤 자격상실 신고를 준비해요.",
+"example_en": "Check the reason for departure, then prepare the loss-of-eligibility report.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-148",
+"field": "hrfinance",
+"term_ko": "보수월액",
+"term_en": "Monthly remuneration base",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "보험료 산정 등을 위해 사용하는 월 보수 기준 금액.",
+"definition_en": "The monthly remuneration base amount used for calculating insurance premiums and so on.",
+"example_ko": "신고한 보수월액과 급여 변동 내역을 비교해요.",
+"example_en": "Compare the reported monthly remuneration base against the pay change records.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-149",
+"field": "hrfinance",
+"term_ko": "기준소득월액",
+"term_en": "Standard monthly income",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "국민연금 보험료와 급여 산정의 기준이 되는 소득 금액.",
+"definition_en": "The income amount that serves as the basis for national pension premiums and benefit calculation.",
+"example_ko": "기준소득월액 변경 대상인지 공단 안내로 확인해요.",
+"example_en": "Check via the agency's notice whether it is subject to a standard monthly income change.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-150",
+"field": "hrfinance",
+"term_ko": "보험료 정산",
+"term_en": "Premium reconciliation",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "신고된 금액과 실제 보수 등 확정 자료를 비교해 보험료 차액을 조정하는 일.",
+"definition_en": "The work of adjusting the premium difference by comparing reported amounts with finalized data such as actual remuneration.",
+"example_ko": "보험료 정산 내역을 급여 공제에 반영해요.",
+"example_en": "Reflect the premium reconciliation details in the payroll deductions.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-151",
+"field": "hrfinance",
+"term_ko": "퇴직금",
+"term_en": "Severance pay",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "퇴직급여 제도에서 정한 요건에 따라 퇴직 시 지급하는 급여.",
+"definition_en": "The benefit paid upon departure according to the requirements set in the retirement-benefit system.",
+"example_ko": "퇴직금 계산에 필요한 근속 자료를 확인해요.",
+"example_en": "Check the tenure data needed for the severance-pay calculation.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-152",
+"field": "hrfinance",
+"term_ko": "퇴직연금",
+"term_en": "Retirement pension",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "퇴직급여 재원을 외부 금융기관 등에 적립해 관리하는 제도.",
+"definition_en": "A system that accumulates and manages retirement-benefit funds at an external financial institution and so on.",
+"example_ko": "퇴직연금 납입 내역을 사업자 자료와 대조해요.",
+"example_en": "Cross-check the retirement-pension contribution records against the provider's data.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-153",
+"field": "hrfinance",
+"term_ko": "확정급여형",
+"term_en": "Defined benefit",
+"english": "",
+"aliases_ko": [
+"DB형",
+"DB"
+],
+"definition_ko": "퇴직 시 받을 급여 수준이 사전에 정해지는 퇴직연금 유형.",
+"definition_en": "A type of retirement pension in which the benefit level to be received at retirement is set in advance.",
+"example_ko": "확정급여형의 적립 상태를 담당 기관과 확인해요.",
+"example_en": "Check the funding status of the defined-benefit plan with the managing institution.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-154",
+"field": "hrfinance",
+"term_ko": "확정기여형",
+"term_en": "Defined contribution",
+"english": "",
+"aliases_ko": [
+"DC형",
+"DC"
+],
+"definition_ko": "사용자가 납입할 부담금 수준이 정해지고 운용 결과 등에 따라 급여가 달라지는 퇴직연금 유형.",
+"definition_en": "A type of retirement pension in which the employer's contribution level is set and the benefit varies with investment results and so on.",
+"example_ko": "확정기여형 부담금의 납입 누락 여부를 확인해요.",
+"example_en": "Check for any missed contributions in the defined-contribution plan.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-155",
+"field": "hrfinance",
+"term_ko": "개인형퇴직연금",
+"term_en": "Individual retirement pension",
+"english": "",
+"aliases_ko": [
+"IRP"
+],
+"definition_ko": "개인이 퇴직급여 등을 적립·운용하는 퇴직연금 계좌 또는 제도.",
+"definition_en": "A retirement-pension account or system in which an individual accumulates and manages retirement benefits and so on.",
+"example_ko": "퇴직급여 이전에 필요한 IRP 계좌 정보를 확인해요.",
+"example_en": "Check the IRP account information needed before transferring the retirement benefit.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-156",
+"field": "hrfinance",
+"term_ko": "퇴직 정산",
+"term_en": "Departure settlement",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "퇴직에 맞춰 급여·휴가·퇴직급여 등 지급·공제 내역을 정리하는 일.",
+"definition_en": "The work of organizing payment and deduction details such as pay, leave, and retirement benefits in line with departure.",
+"example_ko": "퇴직 정산표의 근속기간을 다시 대조해요.",
+"example_en": "Re-check the tenure period on the departure settlement sheet.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-157",
+"field": "hrfinance",
+"term_ko": "계속근로기간",
+"term_en": "Continuous service period",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "근로관계가 계속 유지된 기간을 뜻하는 개념.",
+"definition_en": "A concept meaning the period during which the employment relationship was continuously maintained.",
+"example_ko": "휴직 기간을 포함한 계속근로기간 판단 기준을 확인해요.",
+"example_en": "Check the criteria for determining the continuous service period including leave periods.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-158",
+"field": "hrfinance",
+"term_ko": "중간정산",
+"term_en": "Interim settlement",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "정해진 요건 아래 퇴직 전에 해당 기간의 퇴직금을 정산하는 것.",
+"definition_en": "Settling the severance pay for the relevant period before departure under defined requirements.",
+"example_ko": "중간정산 신청 사유가 요건에 맞는지 확인해요.",
+"example_en": "Check whether the interim-settlement application reason meets the requirements.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-159",
+"field": "hrfinance",
+"term_ko": "권고사직",
+"term_en": "Recommended resignation",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "사용자가 퇴직을 제안하고 근로자가 이를 받아들여 근로관계를 종료하는 형태.",
+"definition_en": "A form of ending the employment relationship in which the employer proposes departure and the worker accepts it.",
+"example_ko": "권고사직의 실제 의사와 합의 내용을 확인해요.",
+"example_en": "Confirm the actual intent and the agreement content of the recommended resignation.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-160",
+"field": "hrfinance",
+"term_ko": "해고",
+"term_en": "Dismissal",
+"english": "",
+"aliases_ko": [],
+"definition_ko": "사용자가 일방적으로 근로관계를 종료하는 것.",
+"definition_en": "The employer unilaterally ending the employment relationship.",
+"example_ko": "해고 관련 안건은 사유와 절차를 별도로 검토해요.",
+"example_en": "Review the reasons and procedures of dismissal-related matters separately.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This entry explains a concept used in practice. Actual application should be verified according to the working conditions, contracts, accounting standards, and the regulations in effect at the relevant time."
+},
+{
+"id": "hrfinance-161",
+"field": "hrfinance",
+"term_ko": "재무",
+"term_en": "Finance",
+"english": "",
+"aliases_ko": [
+"Finance"
+],
+"definition_ko": "회사의 자금 조달·운용과 재무 상태를 관리하는 업무 영역.",
+"definition_en": "The work area that manages the company's fundraising, use of funds, and financial condition.",
+"example_ko": "신규 설비 투자에 필요한 자금 계획을 재무에서 검토해 주세요.",
+"example_en": "Please have Finance review the funding plan needed for the new facility investment."
+},
+{
+"id": "hrfinance-162",
+"field": "hrfinance",
+"term_ko": "재무팀",
+"term_en": "Finance team",
+"english": "",
+"aliases_ko": [
+"재무부"
+],
+"definition_ko": "회사의 자금 계획과 재무 관리 업무를 맡는 조직. 회계·세무를 함께 담당하는 범위는 회사마다 다르다.",
+"definition_en": "The organization in charge of the company's funding plans and financial management. The scope of also handling accounting and tax differs by company.",
+"example_ko": "재무팀에 다음 달 대금 지급 일정을 공유했어요.",
+"example_en": "I shared next month's payment schedule with the Finance team."
+},
+{
+"id": "hrfinance-163",
+"field": "hrfinance",
+"term_ko": "회계팀",
+"term_en": "Accounting team",
+"english": "",
+"aliases_ko": [
+"경리팀"
+],
+"definition_ko": "거래를 회계 기준에 맞춰 기록하고 장부와 재무제표를 관리하는 조직.",
+"definition_en": "The organization that records transactions per accounting standards and manages the ledgers and financial statements.",
+"example_ko": "회계팀에서 이번 비용의 계정과목을 확인해 줬어요.",
+"example_en": "The accounting team confirmed the account code for this expense."
+},
+{
+"id": "hrfinance-164",
+"field": "hrfinance",
+"term_ko": "자금팀",
+"term_en": "Treasury team",
+"english": "",
+"aliases_ko": [
+"자금부"
+],
+"definition_ko": "입출금과 유동성을 관리하고 자금 조달·운용 계획을 실행하는 조직.",
+"definition_en": "The organization that manages cash flow and liquidity and executes funding and investment plans.",
+"example_ko": "자금팀에서 급여일에 필요한 잔액을 확인하고 있어요.",
+"example_en": "The treasury team is checking the balance needed for payday."
+},
+{
+"id": "hrfinance-165",
+"field": "hrfinance",
+"term_ko": "세무담당자",
+"term_en": "Tax officer",
+"english": "",
+"aliases_ko": [
+"세무 담당"
+],
+"definition_ko": "세금 신고·납부 자료와 세무상 처리 사항을 관리하는 담당자.",
+"definition_en": "A person who manages tax filing and payment data and tax-related handling matters.",
+"example_ko": "해외 용역비의 세무 처리는 세무담당자와 확인해 주세요.",
+"example_en": "Please check the tax treatment of overseas service fees with the tax officer."
+},
+{
+"id": "hrfinance-166",
+"field": "hrfinance",
+"term_ko": "CFO",
+"term_en": "CFO",
+"english": "",
+"aliases_ko": [
+"최고재무책임자"
+],
+"definition_ko": "회사의 재무 전략과 재무 관리 전반을 총괄하는 경영 책임자.",
+"definition_en": "The executive responsible for overseeing the company's overall financial strategy and financial management.",
+"example_ko": "대규모 투자안은 CFO 검토 후 경영회의에 올립니다.",
+"example_en": "Large investment proposals go to the management meeting after CFO review."
+},
+{
+"id": "hrfinance-167",
+"field": "hrfinance",
+"term_ko": "FP&A",
+"term_en": "FP&A",
+"english": "",
+"aliases_ko": [
+"재무계획분석",
+"재무 기획",
+"에프피앤에이",
+"에프피에이",
+"FPA",
+"재무 계획 및 분석"
+],
+"definition_ko": "예산·실적·전망을 분석해 경영 의사결정을 지원하는 재무 업무.",
+"definition_en": "Finance work that supports management decision-making by analyzing budgets, actuals, and forecasts.",
+"example_ko": "FP&A에서 매출 전망 변경에 따른 손익 영향을 계산했어요.",
+"example_en": "FP&A calculated the profit-and-loss impact of the revised revenue forecast."
+},
+{
+"id": "hrfinance-168",
+"field": "hrfinance",
+"term_ko": "관리회계",
+"term_en": "Management Accounting",
+"english": "",
+"aliases_ko": [
+"Management Accounting"
+],
+"definition_ko": "내부 의사결정과 성과 관리를 위해 원가·예산·수익성 등의 정보를 만드는 회계 영역.",
+"definition_en": "The area of accounting that produces information such as costs, budgets, and profitability for internal decision-making and performance management.",
+"example_ko": "사업부별 수익성은 관리회계 기준으로 다시 볼게요.",
+"example_en": "Let's review profitability by business unit on a management accounting basis."
+},
+{
+"id": "hrfinance-169",
+"field": "hrfinance",
+"term_ko": "재무회계",
+"term_en": "Financial Accounting",
+"english": "",
+"aliases_ko": [
+"Financial Accounting"
+],
+"definition_ko": "외부 이해관계자에게 재무 상태와 성과를 보고하기 위해 거래를 기록하고 재무제표를 작성하는 회계 영역.",
+"definition_en": "The area of accounting that records transactions and prepares financial statements to report financial position and performance to external stakeholders.",
+"example_ko": "관리용 집계와 재무회계 장부의 차이를 확인했어요.",
+"example_en": "I checked the difference between the management aggregation and the financial accounting books."
+},
+{
+"id": "hrfinance-170",
+"field": "hrfinance",
+"term_ko": "회계정책",
+"term_en": "Accounting Policy",
+"english": "",
+"aliases_ko": [
+"Accounting Policy"
+],
+"definition_ko": "재무제표를 작성할 때 회사가 적용하는 회계 기준과 구체적인 처리 원칙.",
+"definition_en": "The accounting standards and specific treatment principles a company applies when preparing financial statements.",
+"example_ko": "해당 계약의 수익 인식은 회사 회계정책에 따라 검토합니다.",
+"example_en": "Revenue recognition for this contract is reviewed in line with the company's accounting policy."
+},
+{
+"id": "hrfinance-171",
+"field": "hrfinance",
+"term_ko": "회계기간",
+"term_en": "Accounting Period",
+"english": "",
+"aliases_ko": [
+"회계연도"
+],
+"definition_ko": "회사의 재무 성과와 거래를 구분해 보고하는 기간. 연간 보고 기간을 회계연도라고 한다.",
+"definition_en": "The period over which a company separates and reports its financial performance and transactions. The annual reporting period is called the fiscal year.",
+"example_ko": "이번 회계기간에 귀속되는 비용인지 먼저 확인해 주세요.",
+"example_en": "Please first confirm whether the expense belongs to this accounting period."
+},
+{
+"id": "hrfinance-172",
+"field": "hrfinance",
+"term_ko": "계정과목",
+"term_en": "Account Title",
+"english": "",
+"aliases_ko": [
+"계정 코드"
+],
+"definition_ko": "거래의 성격에 따라 장부에 기록하는 분류 항목.",
+"definition_en": "The classification item under which a transaction is recorded in the books according to its nature.",
+"example_ko": "교육비를 어느 계정과목으로 처리할지 문의했어요.",
+"example_en": "I asked which account title to use for the training expense."
+},
+{
+"id": "hrfinance-173",
+"field": "hrfinance",
+"term_ko": "차변",
+"term_en": "Debit",
+"english": "",
+"aliases_ko": [
+"Debit",
+"차대변"
+],
+"definition_ko": "복식부기에서 분개나 계정의 왼쪽. 자산 증가나 비용 발생 등을 기록하며 계정 성격에 따라 쓰임이 달라진다.",
+"definition_en": "The left side of a journal entry or account in double-entry bookkeeping. It records increases in assets, occurrence of expenses, and the like, with usage varying by the nature of the account.",
+"example_ko": "선급금을 지급하면 자산 계정의 차변에 기록합니다.",
+"example_en": "When an advance payment is made, it is recorded on the debit side of an asset account."
+},
+{
+"id": "hrfinance-174",
+"field": "hrfinance",
+"term_ko": "대변",
+"term_en": "Credit",
+"english": "",
+"aliases_ko": [
+"Credit"
+],
+"definition_ko": "복식부기에서 분개나 계정의 오른쪽. 부채·자본 증가나 수익 발생 등을 기록하며 계정 성격에 따라 쓰임이 달라진다.",
+"definition_en": "The right side of a journal entry or account in double-entry bookkeeping. It records increases in liabilities and equity, occurrence of revenue, and the like, with usage varying by the nature of the account.",
+"example_ko": "매출이 발생해 수익 계정의 대변에 기록했어요.",
+"example_en": "Revenue was earned, so it was recorded on the credit side of a revenue account."
+},
+{
+"id": "hrfinance-175",
+"field": "hrfinance",
+"term_ko": "분개",
+"term_en": "Journal Entry",
+"english": "",
+"aliases_ko": [
+"Journal Entry"
+],
+"definition_ko": "거래를 차변과 대변의 계정과목·금액으로 나누어 장부에 기록하는 회계 처리.",
+"definition_en": "The accounting treatment of recording a transaction in the books by splitting it into debit and credit account titles and amounts.",
+"example_ko": "수수료가 빠져 있어 입금액 차이에 대한 분개를 추가했어요.",
+"example_en": "A fee was missing, so I added a journal entry for the difference in the deposited amount."
+},
+{
+"id": "hrfinance-176",
+"field": "hrfinance",
+"term_ko": "전표",
+"term_en": "Voucher",
+"english": "",
+"aliases_ko": [
+"회계전표"
+],
+"definition_ko": "거래의 계정·금액·거래처 등 회계 처리 내용을 기록한 문서나 시스템 기록.",
+"definition_en": "A document or system record capturing the accounting details of a transaction, such as account, amount, and counterparty.",
+"example_ko": "증빙을 첨부한 뒤 전표 승인을 요청해 주세요.",
+"example_en": "Please attach the supporting documents and then request voucher approval."
+},
+{
+"id": "hrfinance-177",
+"field": "hrfinance",
+"term_ko": "총계정원장",
+"term_en": "General Ledger",
+"english": "",
+"aliases_ko": [
+"General Ledger",
+"GL",
+"지엘",
+"G/L"
+],
+"definition_ko": "모든 회계 거래를 계정과목별로 모아 기록한 장부.",
+"definition_en": "The book that gathers and records all accounting transactions by account title.",
+"example_ko": "총계정원장에서 해당 비용의 누적 금액을 확인했어요.",
+"example_en": "I checked the accumulated amount of this expense in the general ledger."
+},
+{
+"id": "hrfinance-178",
+"field": "hrfinance",
+"term_ko": "보조원장",
+"term_en": "Subsidiary Ledger",
+"english": "",
+"aliases_ko": [
+"보조부"
+],
+"definition_ko": "총계정원장의 금액을 거래처·자산 등 세부 항목으로 나누어 관리하는 장부.",
+"definition_en": "A ledger that breaks down general ledger amounts into detailed items such as counterparties and assets for management.",
+"example_ko": "채권 보조원장과 총계정원장의 합계가 일치하는지 맞춰 봅시다.",
+"example_en": "Let's reconcile whether the receivables subsidiary ledger total matches the general ledger."
+},
+{
+"id": "hrfinance-179",
+"field": "hrfinance",
+"term_ko": "시산표",
+"term_en": "Trial Balance",
+"english": "",
+"aliases_ko": [
+"Trial Balance",
+"TB",
+"티비",
+"트라이얼 밸런스"
+],
+"definition_ko": "각 계정의 잔액이나 합계를 모아 차변과 대변의 균형을 확인하는 표.",
+"definition_en": "A table that gathers the balances or totals of each account to confirm that debits and credits are in balance.",
+"example_ko": "결산 분개를 반영한 시산표로 잔액을 검토했어요.",
+"example_en": "I reviewed the balances using a trial balance reflecting the closing entries."
+},
+{
+"id": "hrfinance-180",
+"field": "hrfinance",
+"term_ko": "증빙",
+"term_en": "Supporting Document",
+"english": "",
+"aliases_ko": [
+"증빙서류"
+],
+"definition_ko": "거래 사실과 금액·내용을 뒷받침하는 계약서·영수증 등의 자료.",
+"definition_en": "Material such as contracts and receipts that substantiates the fact, amount, and content of a transaction.",
+"example_ko": "출장 경비 전표에 교통비 증빙을 첨부해 주세요.",
+"example_en": "Please attach the transportation receipt to the travel expense voucher."
+},
+{
+"id": "hrfinance-181",
+"field": "hrfinance",
+"term_ko": "재무제표",
+"term_en": "Financial Statements",
+"english": "",
+"aliases_ko": [
+"Financial Statements"
+],
+"definition_ko": "기업의 재무 상태·경영 성과·현금 흐름 등을 정해진 형식으로 보여 주는 보고서 묶음.",
+"definition_en": "A set of reports that present a company's financial position, operating performance, cash flows, and the like in a defined format.",
+"example_ko": "투자 검토 자료에 최근 재무제표를 함께 넣었어요.",
+"example_en": "I included the latest financial statements in the investment review materials."
+},
+{
+"id": "hrfinance-182",
+"field": "hrfinance",
+"term_ko": "재무상태표",
+"term_en": "Statement of Financial Position",
+"english": "Balance Sheet",
+"aliases_ko": [
+"대차대조표",
+"BS",
+"B/S",
+"비에스",
+"밸런스시트",
+"밸런스 시트"
+],
+"definition_ko": "특정 시점의 자산·부채·자본을 보여 주는 재무제표.",
+"definition_en": "A financial statement that shows assets, liabilities, and equity at a specific point in time.",
+"example_ko": "재무상태표에서 차입금과 현금 잔액을 함께 확인해 주세요.",
+"example_en": "Please check the borrowings and cash balance together in the statement of financial position."
+},
+{
+"id": "hrfinance-183",
+"field": "hrfinance",
+"term_ko": "손익계산서",
+"term_en": "Income Statement",
+"english": "Profit and Loss Statement",
+"aliases_ko": [
+"PL",
+"P&L",
+"P/L",
+"피엘",
+"피앤엘",
+"IS",
+"Income Statement"
+],
+"definition_ko": "일정 기간의 수익과 비용을 통해 기업의 이익 또는 손실을 보여 주는 보고서.",
+"definition_en": "A report that shows a company's profit or loss through revenue and expenses over a period.",
+"example_ko": "이번 달 손익계산서에서 외주비 증가 원인을 확인했어요.",
+"example_en": "I checked the cause of the increase in outsourcing costs in this month's income statement."
+},
+{
+"id": "hrfinance-184",
+"field": "hrfinance",
+"term_ko": "현금흐름표",
+"term_en": "Cash Flow Statement",
+"english": "",
+"aliases_ko": [
+"Cash Flow Statement",
+"CFS",
+"Statement of Cash Flows",
+"캐시플로우 표"
+],
+"definition_ko": "일정 기간 현금과 현금성자산의 변동을 영업·투자·재무활동으로 구분해 보여 주는 재무제표.",
+"definition_en": "A financial statement that shows changes in cash and cash equivalents over a period, divided into operating, investing, and financing activities.",
+"example_ko": "이익이 나는데 현금이 줄어든 이유를 현금흐름표로 확인했어요.",
+"example_en": "Although profit was earned, I used the cash flow statement to find why cash decreased."
+},
+{
+"id": "hrfinance-185",
+"field": "hrfinance",
+"term_ko": "자본변동표",
+"term_en": "Statement of Changes in Equity",
+"english": "",
+"aliases_ko": [
+"Statement of Changes in Equity"
+],
+"definition_ko": "일정 기간 자본의 구성 항목이 어떻게 변했는지 보여 주는 재무제표.",
+"definition_en": "A financial statement that shows how the components of equity changed over a period.",
+"example_ko": "배당과 유상증자 내역을 자본변동표에 반영했어요.",
+"example_en": "I reflected the dividend and paid-in capital increase in the statement of changes in equity."
+},
+{
+"id": "hrfinance-186",
+"field": "hrfinance",
+"term_ko": "주석",
+"term_en": "Notes",
+"english": "",
+"aliases_ko": [
+"재무제표 주석"
+],
+"definition_ko": "재무제표의 수치와 회계정책 등에 대한 추가 설명을 담은 자료.",
+"definition_en": "Material containing additional explanations of the figures and accounting policies in the financial statements.",
+"example_ko": "충당부채의 세부 내역은 주석에서 확인할 수 있어요.",
+"example_en": "Details of the provisions can be found in the notes."
+},
+{
+"id": "hrfinance-187",
+"field": "hrfinance",
+"term_ko": "자산",
+"term_en": "Assets",
+"english": "",
+"aliases_ko": [
+"Assets"
+],
+"definition_ko": "과거 사건의 결과로 기업이 통제하며 경제적 효익을 가져올 것으로 보는 자원.",
+"definition_en": "Resources controlled by a company as a result of past events and expected to bring economic benefits.",
+"example_ko": "새로 구입한 장비를 자산으로 등록할지 검토해 주세요.",
+"example_en": "Please review whether to register the newly purchased equipment as an asset."
+},
+{
+"id": "hrfinance-188",
+"field": "hrfinance",
+"term_ko": "부채",
+"term_en": "Liabilities",
+"english": "",
+"aliases_ko": [
+"Liabilities"
+],
+"definition_ko": "과거 사건으로 인해 기업이 자원을 이전해야 하는 현재의 의무.",
+"definition_en": "A present obligation of a company to transfer resources arising from past events.",
+"example_ko": "결제 전인 거래 대금은 부채로 남아 있어요.",
+"example_en": "Transaction amounts not yet paid remain as liabilities."
+},
+{
+"id": "hrfinance-189",
+"field": "hrfinance",
+"term_ko": "자본",
+"term_en": "Equity",
+"english": "",
+"aliases_ko": [
+"Equity"
+],
+"definition_ko": "기업의 자산에서 부채를 차감한 잔여 지분.",
+"definition_en": "The residual interest in a company's assets after deducting liabilities.",
+"example_ko": "이번 결산 손실이 자본에 미치는 영향을 확인했어요.",
+"example_en": "I checked the impact of this period's loss on equity."
+},
+{
+"id": "hrfinance-190",
+"field": "hrfinance",
+"term_ko": "유동자산",
+"term_en": "Current Assets",
+"english": "",
+"aliases_ko": [
+"Current Assets"
+],
+"definition_ko": "정상 영업주기 안에 실현·소비되거나 단기간에 회수될 자산 등 유동성 기준으로 분류한 자산.",
+"definition_en": "Assets classified on a liquidity basis, such as those expected to be realized, consumed, or collected within the normal operating cycle.",
+"example_ko": "재고와 매출채권이 유동자산에서 차지하는 비중이 높아요.",
+"example_en": "Inventory and trade receivables make up a large share of current assets."
+},
+{
+"id": "hrfinance-191",
+"field": "hrfinance",
+"term_ko": "유동부채",
+"term_en": "Current Liabilities",
+"english": "",
+"aliases_ko": [
+"Current Liabilities"
+],
+"definition_ko": "정상 영업주기 안에 결제되거나 단기간에 상환해야 하는 의무 등 유동성 기준으로 분류한 부채.",
+"definition_en": "Liabilities classified on a liquidity basis, such as obligations to be settled or repaid within the normal operating cycle.",
+"example_ko": "곧 만기가 오는 차입금을 유동부채로 분류했어요.",
+"example_en": "Borrowings maturing soon were classified as current liabilities."
+},
+{
+"id": "hrfinance-192",
+"field": "hrfinance",
+"term_ko": "유형자산",
+"term_en": "Property, Plant and Equipment",
+"english": "",
+"aliases_ko": [
+"PPE",
+"유형 고정자산"
+],
+"definition_ko": "생산·서비스 제공 등에 사용하기 위해 보유하는 토지·건물·기계 같은 물리적 자산.",
+"definition_en": "Physical assets such as land, buildings, and machinery held for use in production or service provision.",
+"example_ko": "노후 기계의 유형자산 장부가액을 확인했어요.",
+"example_en": "I checked the carrying amount of the aging machinery under property, plant and equipment."
+},
+{
+"id": "hrfinance-193",
+"field": "hrfinance",
+"term_ko": "무형자산",
+"term_en": "Intangible Assets",
+"english": "",
+"aliases_ko": [
+"Intangible Assets"
+],
+"definition_ko": "물리적 실체는 없지만 식별할 수 있는 비화폐성 자산. 소프트웨어나 특허권 등이 포함될 수 있다.",
+"definition_en": "Identifiable non-monetary assets without physical substance. These may include software, patents, and the like.",
+"example_ko": "소프트웨어 개발비의 무형자산 인식 요건을 검토합니다.",
+"example_en": "We review the recognition criteria for capitalizing software development costs as intangible assets."
+},
+{
+"id": "hrfinance-194",
+"field": "hrfinance",
+"term_ko": "재고자산",
+"term_en": "Inventory",
+"english": "",
+"aliases_ko": [
+"Inventory"
+],
+"definition_ko": "판매 목적으로 보유한 상품·제품이나 생산 중인 재공품·원재료 등의 자산.",
+"definition_en": "Assets such as merchandise and products held for sale, or work-in-process and raw materials in production.",
+"example_ko": "창고 실사 수량과 재고자산 장부 수량을 대조했어요.",
+"example_en": "I reconciled the physical count quantity in the warehouse with the inventory book quantity."
+},
+{
+"id": "hrfinance-195",
+"field": "hrfinance",
+"term_ko": "선급금",
+"term_en": "Advance Payment",
+"english": "",
+"aliases_ko": [
+"Advance Payment"
+],
+"definition_ko": "재화나 용역을 공급받기 전에 거래처에 미리 지급한 금액.",
+"definition_en": "An amount paid in advance to a supplier before goods or services are received.",
+"example_ko": "계약금은 선급금으로 처리하고 납품 시 정산할게요.",
+"example_en": "The down payment will be treated as an advance payment and settled upon delivery."
+},
+{
+"id": "hrfinance-196",
+"field": "hrfinance",
+"term_ko": "선수금",
+"term_en": "Advance Received",
+"english": "",
+"aliases_ko": [
+"Advance Received"
+],
+"definition_ko": "재화나 용역을 제공하기 전에 고객으로부터 미리 받은 금액.",
+"definition_en": "An amount received in advance from a customer before goods or services are provided.",
+"example_ko": "아직 납품하지 않은 주문의 입금액은 선수금으로 관리합니다.",
+"example_en": "Payments for orders not yet delivered are managed as advances received."
+},
+{
+"id": "hrfinance-197",
+"field": "hrfinance",
+"term_ko": "선급비용",
+"term_en": "Prepaid Expense",
+"english": "",
+"aliases_ko": [
+"Prepaid Expense"
+],
+"definition_ko": "이미 지급했으나 향후 기간에 귀속되는 비용을 자산으로 기록한 금액.",
+"definition_en": "An amount recorded as an asset for expenses already paid but attributable to future periods.",
+"example_ko": "일 년 치 보험료 중 다음 달 이후분은 선급비용으로 남겨요.",
+"example_en": "Of a year's insurance premium, the portion for next month onward is kept as a prepaid expense."
+}
+]

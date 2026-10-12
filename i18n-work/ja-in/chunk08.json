@@ -1,0 +1,4298 @@
+[
+{
+"id": "hrfinance-198",
+"field": "hrfinance",
+"term_ko": "미지급비용",
+"term_en": "Accrued Expense",
+"english": "",
+"aliases_ko": [
+"Accrued Expense"
+],
+"definition_ko": "이미 발생했으나 아직 지급하지 않은 비용에 대한 부채.",
+"definition_en": "A liability for expenses already incurred but not yet paid.",
+"example_ko": "이번 달 발생한 이자는 미지급비용으로 반영해 주세요.",
+"example_en": "Please reflect the interest incurred this month as an accrued expense."
+},
+{
+"id": "hrfinance-199",
+"field": "hrfinance",
+"term_ko": "충당부채",
+"term_en": "Provision",
+"english": "",
+"aliases_ko": [
+"Provision"
+],
+"definition_ko": "지출 시기나 금액이 불확실하지만 인식 요건을 충족하는 현재 의무를 추정해 기록한 부채.",
+"definition_en": "A liability recorded by estimating a present obligation that meets the recognition criteria, although the timing or amount of the outflow is uncertain.",
+"example_ko": "품질 보증 의무의 예상 지출을 충당부채로 검토했어요.",
+"example_en": "I reviewed the expected outflow for the warranty obligation as a provision."
+},
+{
+"id": "hrfinance-200",
+"field": "hrfinance",
+"term_ko": "이익잉여금",
+"term_en": "Retained Earnings",
+"english": "",
+"aliases_ko": [
+"Retained Earnings"
+],
+"definition_ko": "누적 이익 중 배당 등으로 처분되지 않고 회사 내부에 남아 있는 금액.",
+"definition_en": "The portion of accumulated profits retained within the company rather than distributed through dividends or other means.",
+"example_ko": "배당안을 검토하기 위해 이익잉여금 변동을 확인했어요.",
+"example_en": "I checked the change in retained earnings to review the dividend proposal."
+},
+{
+"id": "hrfinance-201",
+"field": "hrfinance",
+"term_ko": "매출채권",
+"term_en": "Trade Receivables",
+"english": "",
+"aliases_ko": [
+"AR",
+"Accounts Receivable",
+"에이알",
+"A/R"
+],
+"definition_ko": "일상적인 영업에서 재화·용역을 판매하고 아직 받지 못한 대금에 대한 권리.",
+"definition_en": "The right to amounts not yet received from selling goods or services in the ordinary course of business.",
+"example_ko": "거래처별 매출채권 잔액을 영업팀에 전달했어요.",
+"example_en": "I shared the trade receivables balance by customer with the sales team."
+},
+{
+"id": "hrfinance-202",
+"field": "hrfinance",
+"term_ko": "매입채무",
+"term_en": "Trade Payables",
+"english": "",
+"aliases_ko": [
+"AP",
+"Accounts Payable",
+"에이피",
+"A/P"
+],
+"definition_ko": "일상적인 영업에서 재화·용역을 구입하고 아직 지급하지 않은 대금에 대한 의무.",
+"definition_en": "The obligation for amounts not yet paid from purchasing goods or services in the ordinary course of business.",
+"example_ko": "이번 주 지급 예정 매입채무를 정리해 주세요.",
+"example_en": "Please organize the trade payables due for payment this week."
+},
+{
+"id": "hrfinance-203",
+"field": "hrfinance",
+"term_ko": "외상매출금",
+"term_en": "Trade Accounts Receivable",
+"english": "",
+"aliases_ko": [
+"외상 매출금"
+],
+"definition_ko": "일상적인 영업상 판매 대금 중 아직 받지 못했으며 어음 등으로 바뀌지 않은 채권.",
+"definition_en": "Receivables from sales in the ordinary course of business that have not yet been collected and have not been converted into notes or the like.",
+"example_ko": "지난달 납품 건의 외상매출금이 아직 남아 있어요.",
+"example_en": "The accounts receivable from last month's delivery is still outstanding."
+},
+{
+"id": "hrfinance-204",
+"field": "hrfinance",
+"term_ko": "외상매입금",
+"term_en": "Trade Accounts Payable",
+"english": "",
+"aliases_ko": [
+"외상 매입금"
+],
+"definition_ko": "일상적인 영업상 구입 대금 중 아직 지급하지 않았으며 어음 등으로 바뀌지 않은 채무.",
+"definition_en": "Payables from purchases in the ordinary course of business that have not yet been paid and have not been converted into notes or the like.",
+"example_ko": "원재료 거래처의 외상매입금을 결제 일정에 넣었어요.",
+"example_en": "I added the raw material supplier's accounts payable to the payment schedule."
+},
+{
+"id": "hrfinance-205",
+"field": "hrfinance",
+"term_ko": "미수금",
+"term_en": "Other Receivables",
+"english": "",
+"aliases_ko": [
+"Other Receivables"
+],
+"definition_ko": "주된 영업 거래 외의 거래 등에서 발생한 아직 받지 못한 금액을 처리하는 계정.",
+"definition_en": "An account for amounts not yet received arising from transactions other than the main operating transactions.",
+"example_ko": "중고 장비 매각 대금의 미수금을 확인해 주세요.",
+"example_en": "Please check the other receivable for the proceeds from selling the used equipment."
+},
+{
+"id": "hrfinance-206",
+"field": "hrfinance",
+"term_ko": "미지급금",
+"term_en": "Other Payables",
+"english": "",
+"aliases_ko": [
+"Other Payables"
+],
+"definition_ko": "매입채무 등과 구분되는 거래에서 발생한 아직 지급하지 않은 금액을 처리하는 계정.",
+"definition_en": "An account for amounts not yet paid arising from transactions distinct from trade payables and the like.",
+"example_ko": "비품 구입 대금을 미지급금으로 기록했어요.",
+"example_en": "I recorded the payment for office supplies as other payables."
+},
+{
+"id": "hrfinance-207",
+"field": "hrfinance",
+"term_ko": "채권 연령분석",
+"term_en": "Receivables Aging Analysis",
+"english": "",
+"aliases_ko": [
+"에이징",
+"Aging"
+],
+"definition_ko": "채권을 발생일이나 만기 경과 기간별로 나누어 회수 상태를 살펴보는 분석.",
+"definition_en": "An analysis that divides receivables by period elapsed since origination or by how long they are past due and reviews their collection status.",
+"example_ko": "채권 연령분석에서 장기 미회수 건을 먼저 추렸어요.",
+"example_en": "In the receivables aging analysis, I first picked out the long-outstanding items."
+},
+{
+"id": "hrfinance-208",
+"field": "hrfinance",
+"term_ko": "대손",
+"term_en": "Bad Debt",
+"english": "",
+"aliases_ko": [
+"Bad Debt"
+],
+"definition_ko": "거래처의 지급 불능 등으로 채권을 회수하지 못하게 되는 손실.",
+"definition_en": "A loss from being unable to collect receivables due to a counterparty's insolvency or the like.",
+"example_ko": "해당 채권의 회수 가능성과 대손 처리 요건을 검토합니다.",
+"example_en": "We review the collectability and bad debt treatment criteria for this receivable."
+},
+{
+"id": "hrfinance-209",
+"field": "hrfinance",
+"term_ko": "대손충당금",
+"term_en": "Allowance for Doubtful Accounts",
+"english": "",
+"aliases_ko": [
+"Allowance for Doubtful Accounts"
+],
+"definition_ko": "채권에서 예상되는 회수 손실을 추정해 장부에 반영한 금액.",
+"definition_en": "An amount recorded in the books by estimating expected collection losses on receivables.",
+"example_ko": "회수 전망이 악화된 채권의 대손충당금을 재검토했어요.",
+"example_en": "I reviewed the allowance for doubtful accounts on receivables whose collection outlook has worsened."
+},
+{
+"id": "hrfinance-210",
+"field": "hrfinance",
+"term_ko": "대손상각",
+"term_en": "Bad Debt Write-off",
+"english": "",
+"aliases_ko": [
+"Bad Debt Write-off"
+],
+"definition_ko": "회수 불가능해진 채권을 장부에서 제거하거나 손실로 처리하는 것.",
+"definition_en": "Removing an uncollectible receivable from the books or treating it as a loss.",
+"example_ko": "승인된 장기 채권에 대해 대손상각 분개를 반영했어요.",
+"example_en": "I reflected the bad debt write-off entry for the approved long-term receivable."
+},
+{
+"id": "hrfinance-211",
+"field": "hrfinance",
+"term_ko": "수금",
+"term_en": "Collection",
+"english": "",
+"aliases_ko": [
+"Collection"
+],
+"definition_ko": "고객이나 거래처에서 받을 대금을 실제로 받는 일.",
+"definition_en": "The act of actually receiving amounts due from customers or counterparties.",
+"example_ko": "이번 주 수금 예정액을 자금 계획에 반영해 주세요.",
+"example_en": "Please reflect this week's expected collections in the cash plan."
+},
+{
+"id": "hrfinance-212",
+"field": "hrfinance",
+"term_ko": "입금 매칭",
+"term_en": "Payment Matching",
+"english": "",
+"aliases_ko": [
+"입금 대사"
+],
+"definition_ko": "들어온 입금액을 해당 거래처·청구 건·채권에 연결하는 작업.",
+"definition_en": "The task of linking received payments to the relevant counterparty, invoice, or receivable.",
+"example_ko": "입금자명이 달라서 거래처에 확인한 뒤 입금 매칭했어요.",
+"example_en": "The depositor name differed, so I matched the payment after confirming with the counterparty."
+},
+{
+"id": "hrfinance-213",
+"field": "hrfinance",
+"term_ko": "상계",
+"term_en": "Offsetting",
+"english": "",
+"aliases_ko": [
+"Offsetting"
+],
+"definition_ko": "서로 주고받을 채권과 채무 등을 요건과 합의에 따라 대등한 금액만큼 없애는 처리.",
+"definition_en": "The treatment of eliminating mutual receivables and payables by an equal amount in accordance with the requirements and the parties' agreement.",
+"example_ko": "거래처와 상계 가능 여부를 확인한 뒤 잔액을 정산했어요.",
+"example_en": "After confirming whether offsetting was possible with the counterparty, I settled the balance."
+},
+{
+"id": "hrfinance-214",
+"field": "hrfinance",
+"term_ko": "매출 인식",
+"term_en": "Revenue Recognition",
+"english": "",
+"aliases_ko": [
+"수익 인식",
+"Revenue Recognition"
+],
+"definition_ko": "적용 회계 기준에 따라 재화·용역 제공의 수익을 장부에 반영하는 것.",
+"definition_en": "Recording revenue from providing goods or services in the books in accordance with the applicable accounting standards.",
+"example_ko": "입금일과 매출 인식일이 항상 같은 것은 아니에요.",
+"example_en": "The deposit date and the revenue recognition date are not always the same."
+},
+{
+"id": "hrfinance-215",
+"field": "hrfinance",
+"term_ko": "매출 차감",
+"term_en": "Sales Deduction",
+"english": "",
+"aliases_ko": [
+"매출 공제"
+],
+"definition_ko": "반품·할인 등으로 최초 매출액에서 금액을 줄여 반영하는 처리.",
+"definition_en": "The treatment of reducing the original sales amount for returns, discounts, and the like.",
+"example_ko": "확정된 반품 금액을 이번 달 매출 차감에 넣었어요.",
+"example_en": "I added the confirmed return amount to this month's sales deductions."
+},
+{
+"id": "hrfinance-216",
+"field": "hrfinance",
+"term_ko": "매출총이익",
+"term_en": "Gross Profit",
+"english": "",
+"aliases_ko": [
+"Gross Profit",
+"GP",
+"매총",
+"지피"
+],
+"definition_ko": "매출액에서 매출원가를 뺀 금액.",
+"definition_en": "The amount of sales less cost of sales.",
+"example_ko": "원재료비 상승으로 매출총이익이 예상보다 줄었어요.",
+"example_en": "Rising raw material costs reduced gross profit more than expected."
+},
+{
+"id": "hrfinance-217",
+"field": "hrfinance",
+"term_ko": "매출원가",
+"term_en": "Cost of Goods Sold",
+"english": "",
+"aliases_ko": [
+"COGS"
+],
+"definition_ko": "해당 기간에 판매한 재화나 제공한 용역에 대응하는 원가.",
+"definition_en": "The cost corresponding to the goods sold or services provided during the period.",
+"example_ko": "출고분과 매출원가 반영분의 차이를 확인해 주세요.",
+"example_en": "Please check the difference between shipments and the amount recognized in cost of goods sold."
+},
+{
+"id": "hrfinance-218",
+"field": "hrfinance",
+"term_ko": "판매관리비",
+"term_en": "Selling, General and Administrative Expenses",
+"english": "",
+"aliases_ko": [
+"판관비",
+"SG&A",
+"에스지앤에이",
+"SGA",
+"판관"
+],
+"definition_ko": "판매 활동과 회사의 관리·운영에 발생하는 비용을 묶은 항목.",
+"definition_en": "A category grouping expenses incurred in sales activities and in the company's administration and operations.",
+"example_ko": "부서별 판매관리비 증가 내역을 정리했어요.",
+"example_en": "I organized the breakdown of the increase in SG&A by department."
+},
+{
+"id": "hrfinance-219",
+"field": "hrfinance",
+"term_ko": "영업이익",
+"term_en": "Operating Profit",
+"english": "",
+"aliases_ko": [
+"Operating Profit",
+"OP",
+"오피"
+],
+"definition_ko": "매출 등 영업 수익에서 관련 영업 비용을 차감한 영업활동의 손익.",
+"definition_en": "The profit or loss from operating activities, calculated by deducting related operating expenses from operating revenue such as sales.",
+"example_ko": "매출은 늘었지만 판관비가 증가해 영업이익은 줄었어요.",
+"example_en": "Sales rose, but SG&A increased, so operating profit fell."
+},
+{
+"id": "hrfinance-220",
+"field": "hrfinance",
+"term_ko": "당기순이익",
+"term_en": "Net Income",
+"english": "",
+"aliases_ko": [
+"Net Income",
+"NI",
+"NP",
+"Net Profit",
+"넷인컴",
+"순익"
+],
+"definition_ko": "해당 회계기간의 수익과 비용, 법인세 비용 등을 반영한 최종 손익.",
+"definition_en": "The final profit or loss for the accounting period, reflecting revenue, expenses, income tax expense, and the like.",
+"example_ko": "영업이익과 당기순이익 차이의 주요 원인을 설명해 주세요.",
+"example_en": "Please explain the main cause of the difference between operating profit and net income."
+},
+{
+"id": "hrfinance-221",
+"field": "hrfinance",
+"term_ko": "결산",
+"term_en": "Closing",
+"english": "",
+"aliases_ko": [
+"Closing"
+],
+"definition_ko": "회계기간의 거래를 마무리하고 조정해 재무 상태와 손익을 확정하는 과정.",
+"definition_en": "The process of finalizing and adjusting the period's transactions to determine financial position and profit or loss.",
+"example_ko": "결산 전에 누락된 비용 증빙을 모두 제출해 주세요.",
+"example_en": "Before closing, please submit all missing expense documentation."
+},
+{
+"id": "hrfinance-222",
+"field": "hrfinance",
+"term_ko": "월마감",
+"term_en": "Monthly Closing",
+"english": "",
+"aliases_ko": [
+"월 마감",
+"월결산",
+"월차 결산",
+"월차 마감",
+"월차결산",
+"먼슬리 클로징",
+"월말 마감"
+],
+"definition_ko": "월 단위로 거래 입력과 검토를 마치고 장부와 실적을 정리하는 업무.",
+"definition_en": "The task of completing transaction entry and review on a monthly basis and organizing the books and results.",
+"example_ko": "월마감 일정에 맞춰 미승인 전표를 처리해 주세요.",
+"example_en": "Please process the unapproved vouchers in time for the monthly closing schedule."
+},
+{
+"id": "hrfinance-223",
+"field": "hrfinance",
+"term_ko": "결산조정",
+"term_en": "Closing Adjustments",
+"english": "",
+"aliases_ko": [
+"결산 분개"
+],
+"definition_ko": "기간 귀속과 평가 등을 맞추기 위해 결산 시 추가하거나 수정하는 회계 처리.",
+"definition_en": "Accounting treatments added or corrected at closing to align period attribution, valuation, and the like.",
+"example_ko": "감가상각과 미지급비용을 결산조정에 반영했어요.",
+"example_en": "I reflected depreciation and accrued expenses in the closing adjustments."
+},
+{
+"id": "hrfinance-224",
+"field": "hrfinance",
+"term_ko": "발생주의",
+"term_en": "Accrual Basis",
+"english": "",
+"aliases_ko": [
+"Accrual Basis"
+],
+"definition_ko": "현금의 수수 시점보다 거래나 경제적 사건이 발생한 기간에 수익·비용 등을 인식하는 방식.",
+"definition_en": "A method of recognizing revenue, expenses, and the like in the period when a transaction or economic event occurs, rather than when cash is received or paid.",
+"example_ko": "아직 결제하지 않은 용역비도 발생주의에 따라 검토합니다.",
+"example_en": "Service fees not yet paid are also reviewed on an accrual basis."
+},
+{
+"id": "hrfinance-225",
+"field": "hrfinance",
+"term_ko": "현금주의",
+"term_en": "Cash Basis",
+"english": "",
+"aliases_ko": [
+"Cash Basis"
+],
+"definition_ko": "현금을 실제로 받거나 지급한 시점을 기준으로 수익·비용 등을 기록하는 방식.",
+"definition_en": "A method of recording revenue, expenses, and the like based on when cash is actually received or paid.",
+"example_ko": "현금주의 집계와 발생주의 손익의 차이를 설명했어요.",
+"example_en": "I explained the difference between the cash-basis aggregation and the accrual-basis profit or loss."
+},
+{
+"id": "hrfinance-226",
+"field": "hrfinance",
+"term_ko": "기간 귀속",
+"term_en": "Period Attribution",
+"english": "",
+"aliases_ko": [
+"Period Attribution"
+],
+"definition_ko": "거래의 수익이나 비용이 어느 회계기간에 해당하는지 판단하는 것.",
+"definition_en": "Determining which accounting period a transaction's revenue or expense belongs to.",
+"example_ko": "청구서는 다음 달에 와도 용역 제공 기간을 보고 기간 귀속을 확인해요.",
+"example_en": "Even if the invoice arrives next month, we confirm period attribution based on the service period."
+},
+{
+"id": "hrfinance-227",
+"field": "hrfinance",
+"term_ko": "컷오프",
+"term_en": "Cut-off",
+"english": "",
+"aliases_ko": [
+"Cut-off",
+"컷옵",
+"커트오프",
+"커트 오프",
+"Cutoff"
+],
+"definition_ko": "거래가 올바른 회계기간에 기록됐는지 구분하고 확인하는 결산 기준이나 절차.",
+"definition_en": "The closing standard or procedure for distinguishing and confirming whether transactions are recorded in the correct accounting period.",
+"example_ko": "월말 출고분의 매출 컷오프를 다시 점검해 주세요.",
+"example_en": "Please recheck the sales cut-off for end-of-month shipments."
+},
+{
+"id": "hrfinance-228",
+"field": "hrfinance",
+"term_ko": "감가상각",
+"term_en": "Depreciation",
+"english": "",
+"aliases_ko": [
+"Depreciation",
+"감가",
+"디프리"
+],
+"definition_ko": "유형자산의 상각 대상 금액을 사용 기간에 걸쳐 체계적으로 비용 배분하는 것.",
+"definition_en": "Systematically allocating the depreciable amount of a tangible asset as an expense over its period of use.",
+"example_ko": "새 장비의 사용 개시일을 기준으로 감가상각을 계산했어요.",
+"example_en": "I calculated depreciation based on the new equipment's in-service date."
+},
+{
+"id": "hrfinance-229",
+"field": "hrfinance",
+"term_ko": "무형자산상각",
+"term_en": "Amortization",
+"english": "",
+"aliases_ko": [
+"Amortisation",
+"무형자산 상각",
+"아모티제이션",
+"아모타이제이션",
+"Amortization"
+],
+"definition_ko": "내용연수가 유한한 무형자산의 상각 대상 금액을 사용 기간에 걸쳐 배분하는 것.",
+"definition_en": "Allocating the amortizable amount of an intangible asset with a finite useful life over its period of use.",
+"example_ko": "소프트웨어의 무형자산상각 기간을 확인해 주세요.",
+"example_en": "Please check the amortization period for the software intangible asset."
+},
+{
+"id": "hrfinance-230",
+"field": "hrfinance",
+"term_ko": "내용연수",
+"term_en": "Useful Life",
+"english": "",
+"aliases_ko": [
+"Useful Life"
+],
+"definition_ko": "자산을 사용할 것으로 예상하는 기간이나 생산량 등의 사용 가능 범위.",
+"definition_en": "The period over which an asset is expected to be used, or its usable range such as production volume.",
+"example_ko": "기계 교체 계획이 바뀌어 내용연수 추정을 검토했어요.",
+"example_en": "The machine replacement plan changed, so I reviewed the useful life estimate."
+},
+{
+"id": "hrfinance-231",
+"field": "hrfinance",
+"term_ko": "잔존가치",
+"term_en": "Residual Value",
+"english": "",
+"aliases_ko": [
+"Residual Value"
+],
+"definition_ko": "자산의 사용 종료 시 처분으로 회수할 것으로 예상하는 금액에서 처분원가를 뺀 추정액.",
+"definition_en": "The estimated amount expected to be recovered from disposal at the end of an asset's use, less disposal costs.",
+"example_ko": "감가상각 계산에 적용한 잔존가치를 다시 확인했어요.",
+"example_en": "I rechecked the residual value applied in the depreciation calculation."
+},
+{
+"id": "hrfinance-232",
+"field": "hrfinance",
+"term_ko": "손상차손",
+"term_en": "Impairment Loss",
+"english": "",
+"aliases_ko": [
+"Impairment Loss"
+],
+"definition_ko": "자산의 장부금액이 회수가능액 등을 초과해 가치를 낮추며 인식하는 손실.",
+"definition_en": "A loss recognized when an asset's carrying amount exceeds its recoverable amount and its value is written down.",
+"example_ko": "실적이 부진한 사업 자산의 손상차손 여부를 검토합니다.",
+"example_en": "We review whether an impairment loss applies to the underperforming business's assets."
+},
+{
+"id": "hrfinance-233",
+"field": "hrfinance",
+"term_ko": "장부가액",
+"term_en": "Carrying Amount",
+"english": "",
+"aliases_ko": [
+"장부금액",
+"Carrying Amount"
+],
+"definition_ko": "회계 장부에 인식되어 있는 자산이나 부채의 금액.",
+"definition_en": "The amount of an asset or liability recognized in the accounting books.",
+"example_ko": "매각 가격과 장부가액의 차이를 계산했어요.",
+"example_en": "I calculated the difference between the sale price and the carrying amount."
+},
+{
+"id": "hrfinance-234",
+"field": "hrfinance",
+"term_ko": "재고실사",
+"term_en": "Physical Inventory Count",
+"english": "",
+"aliases_ko": [
+"재고 조사"
+],
+"definition_ko": "실제 보유 재고의 수량과 상태를 확인해 장부와 비교하는 작업.",
+"definition_en": "The task of verifying the quantity and condition of inventory actually held and comparing it with the books.",
+"example_ko": "재고실사 차이가 난 품목은 출고 기록부터 확인해 주세요.",
+"example_en": "For items with a physical count discrepancy, please check the shipment records first."
+},
+{
+"id": "hrfinance-235",
+"field": "hrfinance",
+"term_ko": "대사",
+"term_en": "Reconciliation",
+"english": "",
+"aliases_ko": [
+"Reconciliation",
+"리컨",
+"리콘",
+"리컨실리에이션",
+"리컨실리",
+"대사하다",
+"맞대사"
+],
+"definition_ko": "서로 다른 장부·자료의 금액이나 내역을 비교해 차이를 확인하고 맞추는 작업.",
+"definition_en": "The task of comparing amounts or details across different books and records to identify and resolve differences.",
+"example_ko": "은행 거래 내역과 현금 계정 잔액을 대사했어요.",
+"example_en": "I reconciled the bank transaction details with the cash account balance."
+},
+{
+"id": "hrfinance-236",
+"field": "hrfinance",
+"term_ko": "은행잔액조정",
+"term_en": "Bank Reconciliation",
+"english": "",
+"aliases_ko": [
+"Bank Reconciliation"
+],
+"definition_ko": "은행 명세서와 회사 장부의 잔액 차이를 미처리 거래 등으로 설명하고 조정하는 절차.",
+"definition_en": "The procedure of explaining and adjusting the balance difference between the bank statement and the company's books using unprocessed transactions and the like.",
+"example_ko": "미반영 수수료를 찾아 은행잔액조정표에 넣었어요.",
+"example_en": "I found the unreflected fee and added it to the bank reconciliation statement."
+},
+{
+"id": "hrfinance-237",
+"field": "hrfinance",
+"term_ko": "환산",
+"term_en": "Translation",
+"english": "",
+"aliases_ko": [
+"외화 환산"
+],
+"definition_ko": "외화 표시 거래나 잔액을 적용 기준에 맞는 환율로 보고 통화 금액으로 바꾸는 것.",
+"definition_en": "Converting foreign-currency transactions or balances into the reporting currency amount at the applicable exchange rate.",
+"example_ko": "결산일 외화 잔액의 환산 내역을 확인해 주세요.",
+"example_en": "Please check the translation details of the foreign-currency balances at the closing date."
+},
+{
+"id": "hrfinance-238",
+"field": "hrfinance",
+"term_ko": "환차손익",
+"term_en": "Foreign Exchange Gain or Loss",
+"english": "",
+"aliases_ko": [
+"외환차손익",
+"환율 차이"
+],
+"definition_ko": "외화 거래의 결제나 잔액 평가 과정에서 환율 변동으로 발생하는 손익.",
+"definition_en": "Gains or losses arising from exchange rate changes in settling foreign-currency transactions or valuing balances.",
+"example_ko": "달러 대금 결제에서 발생한 환차손익을 구분했어요.",
+"example_en": "I separated out the foreign exchange gain or loss arising from the dollar payment."
+},
+{
+"id": "hrfinance-239",
+"field": "hrfinance",
+"term_ko": "연결결산",
+"term_en": "Consolidation Closing",
+"english": "",
+"aliases_ko": [
+"Consolidation",
+"콘솔",
+"컨솔",
+"연결 마감"
+],
+"definition_ko": "지배기업과 종속기업을 하나의 경제적 실체로 보고 내부 거래 등을 조정해 결산하는 작업.",
+"definition_en": "The task of closing by treating the parent and subsidiaries as a single economic entity and adjusting intercompany transactions and the like.",
+"example_ko": "종속기업 자료를 받아 연결결산 조정을 진행하고 있어요.",
+"example_en": "I received subsidiary data and am performing the consolidation closing adjustments."
+},
+{
+"id": "hrfinance-240",
+"field": "hrfinance",
+"term_ko": "내부거래 제거",
+"term_en": "Elimination of Intercompany Transactions",
+"english": "",
+"aliases_ko": [
+"연결 제거"
+],
+"definition_ko": "연결재무제표에서 그룹 내부 거래와 잔액 등이 중복 반영되지 않도록 없애는 조정.",
+"definition_en": "Adjustments that remove intra-group transactions and balances in the consolidated financial statements so they are not double-counted.",
+"example_ko": "계열사 간 매출과 채권은 내부거래 제거 대상인지 확인합니다.",
+"example_en": "We check whether intercompany sales and receivables between affiliates are subject to elimination."
+},
+{
+"id": "hrfinance-241",
+"field": "hrfinance",
+"term_ko": "원가",
+"term_en": "Cost",
+"english": "",
+"aliases_ko": [
+"Cost"
+],
+"definition_ko": "재화나 용역을 취득·생산하거나 특정 활동을 수행하기 위해 투입한 자원의 금액.",
+"definition_en": "The amount of resources invested to acquire or produce goods or services, or to perform a specific activity.",
+"example_ko": "제품별 원가를 계산할 때 포장비 포함 여부를 맞춰 주세요.",
+"example_en": "When calculating cost per product, please align on whether packaging cost is included."
+},
+{
+"id": "hrfinance-242",
+"field": "hrfinance",
+"term_ko": "직접비",
+"term_en": "Direct Cost",
+"english": "",
+"aliases_ko": [
+"Direct Cost"
+],
+"definition_ko": "특정 제품·프로젝트 등에 직접 연결해 식별할 수 있는 비용.",
+"definition_en": "A cost that can be directly linked to and identified with a specific product, project, or the like.",
+"example_ko": "해당 프로젝트 전담 외주비는 직접비로 집계했어요.",
+"example_en": "Outsourcing costs dedicated to that project were aggregated as direct costs."
+},
+{
+"id": "hrfinance-243",
+"field": "hrfinance",
+"term_ko": "간접비",
+"term_en": "Indirect Cost",
+"english": "",
+"aliases_ko": [
+"Indirect Cost"
+],
+"definition_ko": "여러 제품·부서 등에 공통으로 발생해 특정 대상에 직접 연결하기 어려운 비용.",
+"definition_en": "A cost commonly incurred across multiple products, departments, or the like that is difficult to link directly to a specific object.",
+"example_ko": "공용 설비의 간접비 배부 기준을 검토해 주세요.",
+"example_en": "Please review the allocation basis for the indirect cost of shared facilities."
+},
+{
+"id": "hrfinance-244",
+"field": "hrfinance",
+"term_ko": "고정비",
+"term_en": "Fixed Cost",
+"english": "",
+"aliases_ko": [
+"Fixed Cost"
+],
+"definition_ko": "일정한 활동 범위에서 생산량이나 판매량 변동과 무관하게 총액이 대체로 일정한 비용.",
+"definition_en": "A cost whose total remains largely constant regardless of changes in production or sales volume within a given activity range.",
+"example_ko": "판매량이 줄어도 임차료 같은 고정비는 계속 발생해요.",
+"example_en": "Even if sales volume falls, fixed costs such as rent continue to be incurred."
+},
+{
+"id": "hrfinance-245",
+"field": "hrfinance",
+"term_ko": "변동비",
+"term_en": "Variable Cost",
+"english": "",
+"aliases_ko": [
+"Variable Cost"
+],
+"definition_ko": "생산량이나 판매량 등 활동 수준에 따라 총액이 변하는 비용.",
+"definition_en": "A cost whose total changes according to the level of activity, such as production or sales volume.",
+"example_ko": "판매량 가정이 바뀌어 변동비 예산도 수정했어요.",
+"example_en": "The sales volume assumption changed, so I revised the variable cost budget."
+},
+{
+"id": "hrfinance-246",
+"field": "hrfinance",
+"term_ko": "원가배부",
+"term_en": "Cost Allocation",
+"english": "",
+"aliases_ko": [
+"Cost Allocation"
+],
+"definition_ko": "공통으로 발생한 원가를 정한 기준에 따라 부서·제품 등에 나누어 배정하는 것.",
+"definition_en": "Distributing commonly incurred costs to departments, products, and the like according to a set basis.",
+"example_ko": "공용 창고비의 원가배부 기준을 면적으로 정했어요.",
+"example_en": "I set the cost allocation basis for the shared warehouse cost as floor area."
+},
+{
+"id": "hrfinance-247",
+"field": "hrfinance",
+"term_ko": "배부기준",
+"term_en": "Allocation Basis",
+"english": "",
+"aliases_ko": [
+"배부 기준"
+],
+"definition_ko": "공통 원가를 나누기 위해 사용하는 인원·면적·작업시간 등의 기준.",
+"definition_en": "The basis used to distribute common costs, such as headcount, floor area, or working hours.",
+"example_ko": "부서 인원이 바뀌어 배부기준을 업데이트했어요.",
+"example_en": "Department headcount changed, so I updated the allocation basis."
+},
+{
+"id": "hrfinance-248",
+"field": "hrfinance",
+"term_ko": "표준원가",
+"term_en": "Standard Cost",
+"english": "",
+"aliases_ko": [
+"Standard Cost"
+],
+"definition_ko": "정상적인 작업 조건 등을 가정해 사전에 설정한 제품이나 작업의 기준 원가.",
+"definition_en": "The baseline cost of a product or operation set in advance assuming normal operating conditions and the like.",
+"example_ko": "실제 투입량을 표준원가 계산의 가정과 비교했어요.",
+"example_en": "I compared the actual input quantity with the assumptions in the standard cost calculation."
+},
+{
+"id": "hrfinance-249",
+"field": "hrfinance",
+"term_ko": "실제원가",
+"term_en": "Actual Cost",
+"english": "",
+"aliases_ko": [
+"Actual Cost"
+],
+"definition_ko": "실제로 발생한 자원 투입과 금액을 바탕으로 계산한 원가.",
+"definition_en": "Cost calculated based on the resources actually consumed and the amounts actually incurred.",
+"example_ko": "월마감 후 실제원가와 계획 원가의 차이를 분석합니다.",
+"example_en": "After the monthly close, we analyze the difference between actual cost and planned cost."
+},
+{
+"id": "hrfinance-250",
+"field": "hrfinance",
+"term_ko": "원가차이",
+"term_en": "Cost Variance",
+"english": "",
+"aliases_ko": [
+"Cost Variance"
+],
+"definition_ko": "기준·예산 원가와 실제 원가 사이의 차이.",
+"definition_en": "The difference between standard or budgeted cost and actual cost.",
+"example_ko": "원가차이를 구매 단가와 사용 수량 요인으로 나눴어요.",
+"example_en": "I split the cost variance into purchase price and usage quantity factors."
+},
+{
+"id": "hrfinance-251",
+"field": "hrfinance",
+"term_ko": "공헌이익",
+"term_en": "Contribution Margin",
+"english": "",
+"aliases_ko": [
+"Contribution Margin"
+],
+"definition_ko": "매출액에서 변동비를 뺀 금액. 고정비 회수와 이익에 기여하는 정도를 본다.",
+"definition_en": "The amount of sales less variable costs. It shows the degree of contribution to recovering fixed costs and to profit.",
+"example_ko": "할인안을 적용해도 공헌이익이 남는지 계산해 주세요.",
+"example_en": "Please calculate whether a contribution margin remains even after applying the discount proposal."
+},
+{
+"id": "hrfinance-252",
+"field": "hrfinance",
+"term_ko": "손익분기점",
+"term_en": "Break-even Point",
+"english": "",
+"aliases_ko": [
+"BEP",
+"Break-even Point"
+],
+"definition_ko": "총수익과 총비용이 같아 이익도 손실도 발생하지 않는 매출이나 활동 수준.",
+"definition_en": "The level of sales or activity at which total revenue equals total cost, so that neither profit nor loss arises.",
+"example_ko": "새 매장의 손익분기점 매출을 검토했어요.",
+"example_en": "I reviewed the break-even sales for the new store."
+},
+{
+"id": "hrfinance-253",
+"field": "hrfinance",
+"term_ko": "예산",
+"term_en": "Budget",
+"english": "",
+"aliases_ko": [
+"Budget",
+"BGT",
+"버짓",
+"버젯"
+],
+"definition_ko": "일정 기간의 수입·지출·자원 사용 등을 미리 계획한 금액.",
+"definition_en": "Amounts planned in advance for income, expenditure, resource use, and the like over a period.",
+"example_ko": "부서별 예산안을 다음 주까지 취합할게요.",
+"example_en": "I'll compile the departmental budget proposals by next week."
+},
+{
+"id": "hrfinance-254",
+"field": "hrfinance",
+"term_ko": "예산 편성",
+"term_en": "Budgeting",
+"english": "",
+"aliases_ko": [
+"Budgeting"
+],
+"definition_ko": "사업 계획에 맞춰 부서·항목별 예산을 수립하고 조정하는 과정.",
+"definition_en": "The process of establishing and adjusting budgets by department and item in line with the business plan.",
+"example_ko": "채용 계획을 반영해 인건비 예산 편성을 시작했어요.",
+"example_en": "Reflecting the hiring plan, I started budgeting for labor costs."
+},
+{
+"id": "hrfinance-255",
+"field": "hrfinance",
+"term_ko": "예산 집행",
+"term_en": "Budget Execution",
+"english": "",
+"aliases_ko": [
+"Budget Execution"
+],
+"definition_ko": "승인된 예산 범위에서 지출이나 자원 사용을 실행하는 것.",
+"definition_en": "Carrying out expenditure or resource use within the approved budget.",
+"example_ko": "이번 장비 구매는 승인된 예산 집행 건인가요?",
+"example_en": "Is this equipment purchase an approved budget execution item?"
+},
+{
+"id": "hrfinance-256",
+"field": "hrfinance",
+"term_ko": "예산 전용",
+"term_en": "Budget Reallocation",
+"english": "",
+"aliases_ko": [
+"예산 이체"
+],
+"definition_ko": "정해진 승인 절차에 따라 예산을 다른 항목이나 부서 등의 용도로 옮겨 사용하는 것.",
+"definition_en": "Moving budget to use for another item, department, or purpose in accordance with the defined approval procedure.",
+"example_ko": "교육비 잔액을 다른 용도로 쓰려면 예산 전용 승인이 필요해요.",
+"example_en": "To use the remaining training budget for another purpose, budget reallocation approval is required."
+},
+{
+"id": "hrfinance-257",
+"field": "hrfinance",
+"term_ko": "추가경정예산",
+"term_en": "Supplementary Budget",
+"english": "",
+"aliases_ko": [
+"추경"
+],
+"definition_ko": "기존 예산을 변경하거나 추가할 필요가 생겨 다시 편성하는 예산.",
+"definition_en": "A budget re-prepared when there is a need to change or add to the existing budget.",
+"example_ko": "신규 사업이 확정돼 추경안을 작성하고 있어요.",
+"example_en": "A new business was confirmed, so I'm preparing the supplementary budget proposal."
+},
+{
+"id": "hrfinance-258",
+"field": "hrfinance",
+"term_ko": "예실대비",
+"term_en": "Budget vs Actual",
+"english": "",
+"aliases_ko": [
+"예산 실적 대비",
+"예실",
+"예대실",
+"BvA",
+"Budget vs Actual",
+"예실 분석"
+],
+"definition_ko": "예산과 실제 집행·성과를 비교해 차이와 원인을 확인하는 분석.",
+"definition_en": "An analysis comparing the budget with actual execution and results to identify differences and their causes.",
+"example_ko": "예실대비표에 집행 지연 사유를 함께 적어 주세요.",
+"example_en": "In the budget-vs-actual table, please also note the reasons for execution delays."
+},
+{
+"id": "hrfinance-259",
+"field": "hrfinance",
+"term_ko": "롤링 포캐스트",
+"term_en": "Rolling Forecast",
+"english": "",
+"aliases_ko": [
+"Rolling Forecast",
+"수정 전망"
+],
+"definition_ko": "새 실적과 정보를 반영하며 전망 기간을 계속 갱신하는 방식.",
+"definition_en": "A method that continually updates the forecast period by reflecting new actuals and information.",
+"example_ko": "매달 롤링 포캐스트로 향후 자금 수요를 업데이트해요.",
+"example_en": "Each month we update future funding needs with a rolling forecast."
+},
+{
+"id": "hrfinance-260",
+"field": "hrfinance",
+"term_ko": "코스트센터",
+"term_en": "Cost Center",
+"english": "",
+"aliases_ko": [
+"Cost Center",
+"비용센터"
+],
+"definition_ko": "비용을 집계하고 책임을 관리하기 위해 구분한 부서나 관리 단위.",
+"definition_en": "A department or management unit separated to aggregate costs and manage responsibility.",
+"example_ko": "신규 조직의 코스트센터를 먼저 생성해 주세요.",
+"example_en": "Please first create the cost center for the new organization."
+},
+{
+"id": "hrfinance-261",
+"field": "hrfinance",
+"term_ko": "자금수지",
+"term_en": "Cash Budget",
+"english": "",
+"aliases_ko": [
+"Cash Budget"
+],
+"definition_ko": "일정 기간 예상 또는 실제 자금 유입과 유출을 정리한 내역.",
+"definition_en": "A statement organizing expected or actual cash inflows and outflows over a period.",
+"example_ko": "대금 지급이 몰리는 주의 자금수지를 먼저 확인했어요.",
+"example_en": "I first checked the cash budget for the week when payments are concentrated."
+},
+{
+"id": "hrfinance-262",
+"field": "hrfinance",
+"term_ko": "유동성",
+"term_en": "Liquidity",
+"english": "",
+"aliases_ko": [
+"Liquidity"
+],
+"definition_ko": "필요한 시점에 지급 의무를 이행할 수 있는 자금 확보 능력.",
+"definition_en": "The ability to secure funds to meet payment obligations when needed.",
+"example_ko": "큰 대금 지급 전에 단기 유동성을 점검해 주세요.",
+"example_en": "Please check short-term liquidity before the large payment."
+},
+{
+"id": "hrfinance-263",
+"field": "hrfinance",
+"term_ko": "운전자본",
+"term_en": "Working Capital",
+"english": "",
+"aliases_ko": [
+"Working Capital"
+],
+"definition_ko": "영업 운영에 필요한 자금 수준을 보는 개념. 순운전자본은 보통 유동자산에서 유동부채를 뺀 금액이다.",
+"definition_en": "A concept for viewing the level of funds needed to run operations. Net working capital is usually current assets less current liabilities.",
+"example_ko": "재고와 채권이 늘면서 운전자본 부담이 커졌어요.",
+"example_en": "With inventory and receivables rising, the working capital burden grew."
+},
+{
+"id": "hrfinance-264",
+"field": "hrfinance",
+"term_ko": "현금성자산",
+"term_en": "Cash Equivalents",
+"english": "",
+"aliases_ko": [
+"Cash Equivalents"
+],
+"definition_ko": "정해진 금액의 현금으로 쉽게 전환되고 가치 변동 위험이 작은 단기 고유동성 투자자산.",
+"definition_en": "Short-term, highly liquid investments that are readily convertible into a set amount of cash and carry little risk of value change.",
+"example_ko": "해당 단기 금융상품이 현금성자산 요건에 맞는지 검토합니다.",
+"example_en": "We review whether this short-term financial instrument meets the criteria for cash equivalents."
+},
+{
+"id": "hrfinance-265",
+"field": "hrfinance",
+"term_ko": "영업활동현금흐름",
+"term_en": "Operating Cash Flow",
+"english": "",
+"aliases_ko": [
+"영업 현금흐름",
+"CFO cash flow",
+"OCF",
+"CFO",
+"Cash Flow from Operations",
+"Operating Cash Flow"
+],
+"definition_ko": "기업의 주된 수익 창출 활동 등 영업활동에서 발생한 현금 흐름.",
+"definition_en": "Cash flows arising from operating activities, such as a company's main revenue-generating activities.",
+"example_ko": "채권 회수가 늦어져 영업활동현금흐름이 감소했어요.",
+"example_en": "Delayed collection of receivables reduced operating cash flow."
+},
+{
+"id": "hrfinance-266",
+"field": "hrfinance",
+"term_ko": "투자활동현금흐름",
+"term_en": "Investing Cash Flow",
+"english": "",
+"aliases_ko": [
+"투자 현금흐름",
+"CFI",
+"Cash Flow from Investing Activities"
+],
+"definition_ko": "장기자산 등의 취득·처분과 관련한 투자활동에서 발생한 현금 흐름.",
+"definition_en": "Cash flows arising from investing activities such as the acquisition and disposal of long-term assets.",
+"example_ko": "공장 설비 구입으로 투자활동현금흐름에 지출이 잡혔어요.",
+"example_en": "The purchase of factory equipment was recorded as an outflow in investing cash flow."
+},
+{
+"id": "hrfinance-267",
+"field": "hrfinance",
+"term_ko": "재무활동현금흐름",
+"term_en": "Financing Cash Flow",
+"english": "",
+"aliases_ko": [
+"재무 현금흐름",
+"CFF",
+"Cash Flow from Financing Activities"
+],
+"definition_ko": "자본과 차입금의 규모·구성을 바꾸는 재무활동에서 발생한 현금 흐름.",
+"definition_en": "Cash flows arising from financing activities that change the size and composition of equity and borrowings.",
+"example_ko": "차입금 상환을 재무활동현금흐름으로 분류했어요.",
+"example_en": "Repayment of borrowings was classified under financing cash flow."
+},
+{
+"id": "hrfinance-268",
+"field": "hrfinance",
+"term_ko": "차입금",
+"term_en": "Borrowings",
+"english": "",
+"aliases_ko": [
+"Borrowings"
+],
+"definition_ko": "외부에서 빌려 상환 의무가 있는 자금.",
+"definition_en": "Funds borrowed from external sources with an obligation to repay.",
+"example_ko": "다음 분기 차입금 만기 일정을 정리해 주세요.",
+"example_en": "Please organize next quarter's borrowing maturity schedule."
+},
+{
+"id": "hrfinance-269",
+"field": "hrfinance",
+"term_ko": "차입한도",
+"term_en": "Borrowing Limit",
+"english": "",
+"aliases_ko": [
+"여신한도"
+],
+"definition_ko": "금융기관과 약정한 조건에 따라 빌릴 수 있는 금액의 한도.",
+"definition_en": "The ceiling on the amount that can be borrowed under the terms agreed with a financial institution.",
+"example_ko": "추가 대출 전에 남은 차입한도를 확인했어요.",
+"example_en": "I checked the remaining borrowing limit before the additional loan."
+},
+{
+"id": "hrfinance-270",
+"field": "hrfinance",
+"term_ko": "약정",
+"term_en": "Agreement",
+"english": "",
+"aliases_ko": [
+"금융 약정"
+],
+"definition_ko": "자금 거래의 금액·기간·금리·준수 조건 등을 당사자 간 정해 놓은 계약 내용.",
+"definition_en": "The contractual terms agreed between parties for a funding transaction, such as amount, period, interest rate, and compliance conditions.",
+"example_ko": "새 대출 약정에 재무비율 유지 조건이 있는지 검토해 주세요.",
+"example_en": "Please review whether the new loan agreement has financial ratio maintenance conditions."
+},
+{
+"id": "hrfinance-271",
+"field": "hrfinance",
+"term_ko": "만기",
+"term_en": "Maturity",
+"english": "",
+"aliases_ko": [
+"Maturity"
+],
+"definition_ko": "채무 상환이나 금융상품 계약 종료 등 정해진 의무가 도래하는 시점.",
+"definition_en": "The point at which a defined obligation falls due, such as debt repayment or the end of a financial instrument contract.",
+"example_ko": "같은 달에 만기가 몰리지 않도록 자금 일정을 조정했어요.",
+"example_en": "I adjusted the funding schedule so maturities are not concentrated in the same month."
+},
+{
+"id": "hrfinance-272",
+"field": "hrfinance",
+"term_ko": "차환",
+"term_en": "Refinancing",
+"english": "",
+"aliases_ko": [
+"Refinancing"
+],
+"definition_ko": "기존 차입금을 갚기 위해 새 차입이나 채권 발행으로 자금을 조달하는 것.",
+"definition_en": "Raising funds through new borrowing or bond issuance to repay existing borrowings.",
+"example_ko": "만기 차입금의 차환 조건을 금융기관과 협의하고 있어요.",
+"example_en": "We are negotiating the refinancing terms for the maturing borrowings with the financial institution."
+},
+{
+"id": "hrfinance-273",
+"field": "hrfinance",
+"term_ko": "자본적지출",
+"term_en": "Capital Expenditure",
+"english": "",
+"aliases_ko": [
+"CAPEX",
+"자본적 지출",
+"캐펙스",
+"카펙스",
+"캐팩스",
+"캡엑스"
+],
+"definition_ko": "장기간 사용할 자산의 취득·개선 등으로 자산에 반영하는 지출.",
+"definition_en": "Expenditure recognized as an asset for the acquisition or improvement of assets to be used over a long period.",
+"example_ko": "새 생산설비 구매는 CAPEX 계획에 포함했어요.",
+"example_en": "The purchase of new production equipment was included in the CAPEX plan."
+},
+{
+"id": "hrfinance-274",
+"field": "hrfinance",
+"term_ko": "운영비",
+"term_en": "Operating Expense",
+"english": "",
+"aliases_ko": [
+"OPEX",
+"운영 지출",
+"오펙스",
+"오팩스"
+],
+"definition_ko": "사업의 일상적인 운영에 발생하는 비용을 가리키는 관리상 표현.",
+"definition_en": "A managerial term for the costs incurred in the day-to-day operation of a business.",
+"example_ko": "시스템 도입비와 이후 월 운영비를 나누어 비교해 주세요.",
+"example_en": "Please compare the system implementation cost and the subsequent monthly operating expense separately."
+},
+{
+"id": "hrfinance-275",
+"field": "hrfinance",
+"term_ko": "EBITDA",
+"term_en": "EBITDA",
+"english": "Earnings Before Interest, Taxes, Depreciation and Amortization",
+"aliases_ko": [
+"상각전영업이익",
+"에비따",
+"에비타",
+"에빗다",
+"이비따",
+"이비타",
+"이빗다"
+],
+"definition_ko": "이자·법인세·감가상각·무형자산상각 영향을 차감하기 전 이익을 보는 지표. 산정 기준은 자료별로 확인해야 한다.",
+"definition_en": "An indicator that views earnings before the effects of interest, taxes, depreciation, and amortization. The calculation basis should be confirmed for each source.",
+"example_ko": "기업 간 EBITDA를 비교하기 전에 조정 항목을 맞춰 봅시다.",
+"example_en": "Before comparing EBITDA across companies, let's align the adjustment items.",
+"note_ko": "에비따·에비타 등은 EBITDA를 소리 내어 부르는 표현입니다. EBITDA는 실제 현금흐름과 같지 않으며 운전자본·투자 지출 등을 함께 봐야 합니다.",
+"note_en": "EBITDA is pronounced as a single word. It is not the same as actual cash flow, and it should be viewed together with working capital, investment spending, and the like."
+},
+{
+"id": "hrfinance-276",
+"field": "hrfinance",
+"term_ko": "부채비율",
+"term_en": "Debt-to-Equity Ratio",
+"english": "",
+"aliases_ko": [
+"Debt-to-equity Ratio"
+],
+"definition_ko": "부채를 자본과 비교해 자본구조를 보는 비율.",
+"definition_en": "A ratio that views capital structure by comparing liabilities with equity.",
+"example_ko": "차입 계획을 반영한 뒤 부채비율이 어떻게 변하는지 계산했어요.",
+"example_en": "I calculated how the debt-to-equity ratio changes after reflecting the borrowing plan."
+},
+{
+"id": "hrfinance-277",
+"field": "hrfinance",
+"term_ko": "유동비율",
+"term_en": "Current Ratio",
+"english": "",
+"aliases_ko": [
+"Current Ratio"
+],
+"definition_ko": "유동자산을 유동부채와 비교해 단기 지급 능력을 살펴보는 비율.",
+"definition_en": "A ratio that examines short-term solvency by comparing current assets with current liabilities.",
+"example_ko": "유동비율과 함께 재고의 현금화 가능성도 확인해 주세요.",
+"example_en": "Along with the current ratio, please also check how readily inventory can be converted to cash."
+},
+{
+"id": "hrfinance-278",
+"field": "hrfinance",
+"term_ko": "매출채권회전일수",
+"term_en": "Days Sales Outstanding",
+"english": "",
+"aliases_ko": [
+"DSO"
+],
+"definition_ko": "매출채권을 현금으로 회수하는 데 걸리는 평균 기간을 추정한 지표.",
+"definition_en": "An indicator estimating the average period it takes to collect trade receivables in cash.",
+"example_ko": "대형 거래처의 결제 지연으로 DSO가 늘었어요.",
+"example_en": "Payment delays by a large customer increased DSO."
+},
+{
+"id": "hrfinance-279",
+"field": "hrfinance",
+"term_ko": "순차입금",
+"term_en": "Net Debt",
+"english": "",
+"aliases_ko": [
+"Net Debt"
+],
+"definition_ko": "차입금에서 현금성 자금 등을 차감해 보는 순수 차입 부담. 포함 항목은 산정 기준에 따라 달라진다.",
+"definition_en": "The net borrowing burden viewed by deducting cash and cash equivalents from borrowings. The items included vary by calculation basis.",
+"example_ko": "순차입금 계산에 어떤 금융자산을 차감했는지 표시해 주세요.",
+"example_en": "Please indicate which financial assets were deducted in the net debt calculation."
+},
+{
+"id": "hrfinance-280",
+"field": "hrfinance",
+"term_ko": "잉여현금흐름",
+"term_en": "Free Cash Flow",
+"english": "",
+"aliases_ko": [
+"FCF",
+"Free Cash Flow",
+"프리캐시플로우",
+"프리 캐시 플로우",
+"에프씨에프"
+],
+"definition_ko": "영업으로 만든 현금에서 설비 투자 등을 차감해 여유 자금을 보는 지표. 분석 목적에 따라 계산 방식이 달라진다.",
+"definition_en": "An indicator of surplus funds viewed by deducting capital expenditure and the like from cash generated by operations. The calculation method varies by analytical purpose.",
+"example_ko": "설비 투자 증가가 잉여현금흐름에 미치는 영향을 검토했어요.",
+"example_en": "I reviewed the impact of increased capital expenditure on free cash flow."
+},
+{
+"id": "hrfinance-281",
+"field": "hrfinance",
+"term_ko": "세무조정",
+"term_en": "Tax Adjustment",
+"english": "",
+"aliases_ko": [
+"Tax Adjustment"
+],
+"definition_ko": "회계상 이익과 세법상 소득 계산의 차이를 조정하는 작업.",
+"definition_en": "The task of adjusting the difference between accounting profit and the taxable income calculation under tax law.",
+"example_ko": "결산 후 법인세 신고를 위한 세무조정을 진행합니다.",
+"example_en": "After closing, we perform the tax adjustment for the corporate tax return.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time."
+},
+{
+"id": "hrfinance-282",
+"field": "hrfinance",
+"term_ko": "손금",
+"term_en": "Deductible Expense",
+"english": "",
+"aliases_ko": [
+"Tax-deductible Expense"
+],
+"definition_ko": "세법상 소득 계산에서 차감하는 비용이나 손실 항목.",
+"definition_en": "An expense or loss item deducted in calculating taxable income under tax law.",
+"example_ko": "회계상 비용이어도 세법상 손금 인정 여부는 별도로 확인해요.",
+"example_en": "Even if it is an accounting expense, whether it is deductible under tax law is confirmed separately.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time."
+},
+{
+"id": "hrfinance-283",
+"field": "hrfinance",
+"term_ko": "손금불산입",
+"term_en": "Non-deductible Expense",
+"english": "",
+"aliases_ko": [
+"손금 불산입"
+],
+"definition_ko": "회계상 비용 등을 세무상 소득 계산에서는 차감하지 않는 조정.",
+"definition_en": "An adjustment whereby an accounting expense is not deducted in calculating taxable income under tax law.",
+"example_ko": "증빙 요건을 충족하지 못한 비용의 손금불산입 여부를 검토해 주세요.",
+"example_en": "Please review whether expenses that fail to meet documentation requirements are non-deductible.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time."
+},
+{
+"id": "hrfinance-284",
+"field": "hrfinance",
+"term_ko": "익금",
+"term_en": "Taxable Revenue",
+"english": "",
+"aliases_ko": [
+"Taxable Revenue"
+],
+"definition_ko": "세법상 소득 계산에 포함하는 수익 등의 항목.",
+"definition_en": "Revenue and similar items included in calculating taxable income under tax law.",
+"example_ko": "회계 처리와 별도로 익금에 해당하는지 확인했어요.",
+"example_en": "Apart from the accounting treatment, I checked whether it constitutes taxable revenue.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time."
+},
+{
+"id": "hrfinance-285",
+"field": "hrfinance",
+"term_ko": "익금불산입",
+"term_en": "Exclusion from Taxable Income",
+"english": "",
+"aliases_ko": [
+"익금 불산입"
+],
+"definition_ko": "회계상 수익 등을 세무상 소득 계산에서는 포함하지 않는 조정.",
+"definition_en": "An adjustment whereby accounting revenue is not included in calculating taxable income under tax law.",
+"example_ko": "해당 수익의 익금불산입 요건을 세무 담당자에게 확인했어요.",
+"example_en": "I confirmed the requirements for excluding this revenue from taxable income with the tax team.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time."
+},
+{
+"id": "hrfinance-286",
+"field": "hrfinance",
+"term_ko": "과세표준",
+"term_en": "Tax Base",
+"english": "",
+"aliases_ko": [
+"Tax Base"
+],
+"definition_ko": "세율을 적용해 세액을 계산하는 기준이 되는 금액이나 수량.",
+"definition_en": "The amount or quantity that serves as the basis for calculating tax by applying the tax rate.",
+"example_ko": "공제와 조정을 반영한 과세표준을 검토해 주세요.",
+"example_en": "Please review the tax base after reflecting deductions and adjustments.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time."
+},
+{
+"id": "hrfinance-287",
+"field": "hrfinance",
+"term_ko": "부가가치세",
+"term_en": "Value-Added Tax",
+"english": "",
+"aliases_ko": [
+"부가세",
+"VAT"
+],
+"definition_ko": "재화·용역의 공급 등에서 발생하는 부가가치에 과세하는 세금.",
+"definition_en": "A tax levied on the value added in the supply of goods and services.",
+"example_ko": "견적 금액이 부가가치세 포함인지 먼저 확인해 주세요.",
+"example_en": "Please first confirm whether the quoted amount includes VAT.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time."
+},
+{
+"id": "hrfinance-288",
+"field": "hrfinance",
+"term_ko": "매출세액",
+"term_en": "Output VAT",
+"english": "",
+"aliases_ko": [
+"Output VAT"
+],
+"definition_ko": "과세 매출 등에 대해 계산되는 부가가치세액.",
+"definition_en": "The value-added tax calculated on taxable sales and the like.",
+"example_ko": "이번 신고 기간의 매출세액 집계가 장부와 맞는지 확인했어요.",
+"example_en": "I checked whether the output VAT total for this filing period matches the books.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time."
+},
+{
+"id": "hrfinance-289",
+"field": "hrfinance",
+"term_ko": "매입세액",
+"term_en": "Input VAT",
+"english": "",
+"aliases_ko": [
+"Input VAT"
+],
+"definition_ko": "사업자가 매입 과정에서 부담한 부가가치세액. 공제 가능 여부는 거래와 요건에 따라 다르다.",
+"definition_en": "The value-added tax a business bears in the course of purchases. Whether it is deductible varies by transaction and requirements.",
+"example_ko": "법인카드 지출의 매입세액 공제 여부를 구분해 주세요.",
+"example_en": "Please distinguish whether input VAT on corporate card spending is deductible.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time."
+},
+{
+"id": "hrfinance-290",
+"field": "hrfinance",
+"term_ko": "불공제",
+"term_en": "Non-deductible Input VAT",
+"english": "",
+"aliases_ko": [
+"매입세액 불공제"
+],
+"definition_ko": "부가가치세 계산에서 매입세액을 차감할 수 없는 것으로 처리하는 것.",
+"definition_en": "Treating input VAT as not deductible in calculating value-added tax.",
+"example_ko": "해당 지출을 불공제로 분류한 근거를 남겨 주세요.",
+"example_en": "Please keep a record of the basis for classifying this expense as non-deductible.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time."
+},
+{
+"id": "hrfinance-291",
+"field": "hrfinance",
+"term_ko": "세금계산서",
+"term_en": "Tax Invoice",
+"english": "",
+"aliases_ko": [
+"Tax Invoice"
+],
+"definition_ko": "과세 거래의 공급자·공급받는 자·공급가액·세액 등을 기재하는 세무 증빙.",
+"definition_en": "A tax document recording the supplier, recipient, supply value, tax amount, and the like of a taxable transaction.",
+"example_ko": "계약 법인명과 세금계산서의 공급받는 자가 일치하나요?",
+"example_en": "Does the contracting company name match the recipient on the tax invoice?",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time."
+},
+{
+"id": "hrfinance-292",
+"field": "hrfinance",
+"term_ko": "수정세금계산서",
+"term_en": "Amended Tax Invoice",
+"english": "",
+"aliases_ko": [
+"수정 세금계산서"
+],
+"definition_ko": "거래 내용 변경이나 기재 오류 등 사유에 따라 기존 세금계산서를 수정하는 증빙.",
+"definition_en": "A document that amends an existing tax invoice for reasons such as changes to the transaction or entry errors.",
+"example_ko": "반품이 확정되어 수정세금계산서 발급을 요청했어요.",
+"example_en": "The return was confirmed, so I requested issuance of an amended tax invoice.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time."
+},
+{
+"id": "hrfinance-293",
+"field": "hrfinance",
+"term_ko": "계산서",
+"term_en": "Invoice",
+"english": "",
+"aliases_ko": [
+"면세 계산서"
+],
+"definition_ko": "면세 거래 등에서 공급가액과 거래 당사자 등을 기재해 발급하는 세무 증빙.",
+"definition_en": "A tax document issued for tax-exempt transactions and the like, recording the supply value and the transacting parties.",
+"example_ko": "면세 거래라 세금계산서가 아닌 계산서를 받았어요.",
+"example_en": "As it was a tax-exempt transaction, I received an invoice rather than a tax invoice.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time."
+},
+{
+"id": "hrfinance-294",
+"field": "hrfinance",
+"term_ko": "원천징수",
+"term_en": "Withholding Tax",
+"english": "",
+"aliases_ko": [
+"Withholding Tax"
+],
+"definition_ko": "소득을 지급하는 자가 지급 시 세금을 미리 징수해 납부하는 제도.",
+"definition_en": "A system whereby the payer of income withholds and remits tax in advance at the time of payment.",
+"example_ko": "용역비 지급 전에 해당 소득의 원천징수 여부를 확인해 주세요.",
+"example_en": "Before paying the service fee, please confirm whether withholding tax applies to the income.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time."
+},
+{
+"id": "hrfinance-295",
+"field": "hrfinance",
+"term_ko": "원천징수의무자",
+"term_en": "Withholding Agent",
+"english": "",
+"aliases_ko": [
+"원천징수 의무자"
+],
+"definition_ko": "대상 소득을 지급하면서 세금을 징수하고 납부할 의무가 있는 자.",
+"definition_en": "A party obligated to withhold and remit tax when paying the relevant income.",
+"example_ko": "이번 지급 건에서 누가 원천징수의무자인지 확인했어요.",
+"example_en": "I confirmed who the withholding agent is for this payment.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time."
+},
+{
+"id": "hrfinance-296",
+"field": "hrfinance",
+"term_ko": "원천징수영수증",
+"term_en": "Withholding Tax Receipt",
+"english": "",
+"aliases_ko": [
+"원천징수 영수증"
+],
+"definition_ko": "지급한 소득과 원천징수한 세금 등의 내역을 확인하는 서류.",
+"definition_en": "A document confirming details such as the income paid and the tax withheld.",
+"example_ko": "이직자의 이전 근무지 원천징수영수증을 확인해 주세요.",
+"example_en": "Please check the previous employer's withholding tax receipt for the new hire.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time."
+},
+{
+"id": "hrfinance-297",
+"field": "hrfinance",
+"term_ko": "지급명세서",
+"term_en": "Statement of Payment",
+"english": "",
+"aliases_ko": [
+"지급 명세서"
+],
+"definition_ko": "소득 지급자가 지급 대상자와 소득 금액 등의 내역을 세무 당국에 제출하는 자료.",
+"definition_en": "A document that an income payer submits to the tax authorities detailing the payees and income amounts.",
+"example_ko": "지급명세서 제출 전에 수취인 정보와 지급액을 대조했어요.",
+"example_en": "Before submitting the statement of payment, I reconciled the payee information with the amounts paid.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time."
+},
+{
+"id": "hrfinance-298",
+"field": "hrfinance",
+"term_ko": "연말정산",
+"term_en": "Year-end Tax Settlement",
+"english": "",
+"aliases_ko": [
+"Year-end Tax Settlement"
+],
+"definition_ko": "근로소득 등에 대해 연간 세액을 계산하고 이미 원천징수한 세액과 차이를 정산하는 절차.",
+"definition_en": "The procedure of calculating the annual tax on employment income and the like and reconciling the difference with the tax already withheld.",
+"example_ko": "연말정산 자료 중 중복 제출된 항목을 확인해 주세요.",
+"example_en": "Please check the items submitted in duplicate among the year-end tax settlement materials.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time."
+},
+{
+"id": "hrfinance-299",
+"field": "hrfinance",
+"term_ko": "법인세",
+"term_en": "Corporate Income Tax",
+"english": "",
+"aliases_ko": [
+"Corporate Income Tax"
+],
+"definition_ko": "법인의 소득 등을 대상으로 부과하는 세금.",
+"definition_en": "A tax levied on a corporation's income and the like.",
+"example_ko": "결산 손익과 세무조정을 바탕으로 법인세 신고 자료를 준비합니다.",
+"example_en": "Based on the closing results and tax adjustments, we prepare the corporate tax return materials.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time."
+},
+{
+"id": "hrfinance-300",
+"field": "hrfinance",
+"term_ko": "이연법인세",
+"term_en": "Deferred Tax",
+"english": "",
+"aliases_ko": [
+"Deferred Tax"
+],
+"definition_ko": "자산·부채의 회계상 금액과 세무상 금액 차이 등으로 미래에 발생할 세금 효과를 회계에 반영한 항목.",
+"definition_en": "An item reflecting in accounting the future tax effects arising from differences between the accounting and tax amounts of assets and liabilities.",
+"example_ko": "일시적 차이의 해소 시점을 검토해 이연법인세를 계산했어요.",
+"example_en": "I reviewed the reversal timing of the temporary differences and calculated the deferred tax.",
+"note_ko": "업무에서 쓰는 개념을 설명한 항목입니다. 실제 적용은 근로조건·계약·회계기준 및 해당 시점의 제도에 따라 확인합니다.",
+"note_en": "This item explains a concept used in practice. Actual application should be confirmed against working conditions, contracts, accounting standards, and the rules in effect at the relevant time."
+},
+{
+"id": "hrfinance-301",
+"field": "hrfinance",
+"term_ko": "기표",
+"term_en": "Booking",
+"english": "",
+"aliases_ko": [
+"전표 기표",
+"전표 치다",
+"전표를 치다",
+"전표 끊다",
+"전표를 끊다",
+"분개 끊다",
+"분개를 끊다",
+"부킹",
+"북킹",
+"Booking"
+],
+"definition_ko": "거래 내용을 회계 전표로 입력하거나 장부에 기록하는 일.",
+"definition_en": "The task of entering transaction details as an accounting voucher or recording them in the books.",
+"example_ko": "계정과목 확인이 끝나면 오늘 안에 기표해 주세요.",
+"example_en": "Once the account titles are confirmed, please book it by the end of today."
+},
+{
+"id": "hrfinance-302",
+"field": "hrfinance",
+"term_ko": "역분개",
+"term_en": "Reversing Entry",
+"english": "Reversing Entry",
+"aliases_ko": [
+"Reversing Entry",
+"역분",
+"리버싱",
+"리버스 분개",
+"분개 되돌리기"
+],
+"definition_ko": "기존 분개의 효과를 반대로 취소하기 위해 차변·대변을 뒤집어 기록하는 분개.",
+"definition_en": "A journal entry that flips the debit and credit to cancel the effect of an existing entry in the opposite direction.",
+"example_ko": "잘못 입력한 전표는 역분개한 뒤 올바르게 다시 처리했어요.",
+"example_en": "I reversed the incorrectly entered voucher and then re-processed it correctly."
+},
+{
+"id": "hrfinance-303",
+"field": "hrfinance",
+"term_ko": "가결산",
+"term_en": "Provisional Closing",
+"english": "",
+"aliases_ko": [
+"잠정 결산"
+],
+"definition_ko": "최종 확정 전 자료를 이용해 손익과 재무 상태를 잠정적으로 집계하는 결산.",
+"definition_en": "A closing that tentatively aggregates profit or loss and financial position using data before final confirmation.",
+"example_ko": "아직 비용이 모두 들어오지 않아 가결산 수치로 보고했어요.",
+"example_en": "As not all expenses had come in yet, I reported using provisional closing figures."
+},
+{
+"id": "hrfinance-304",
+"field": "hrfinance",
+"term_ko": "가수금",
+"term_en": "Suspense Receipts",
+"english": "",
+"aliases_ko": [
+"Suspense Receipts"
+],
+"definition_ko": "입금은 확인했지만 거래 내용이나 최종 계정을 확정하지 못해 임시로 처리한 금액.",
+"definition_en": "An amount temporarily recorded because, although a receipt is confirmed, the transaction details or final account cannot be determined.",
+"example_ko": "입금처를 확인할 때까지 가수금으로 기록했어요.",
+"example_en": "I recorded it as a suspense receipt until the depositor could be confirmed."
+},
+{
+"id": "hrfinance-305",
+"field": "hrfinance",
+"term_ko": "가지급금",
+"term_en": "Temporary Payments",
+"english": "",
+"aliases_ko": [
+"Temporary Payments"
+],
+"definition_ko": "돈을 지급했지만 사용 내역이나 최종 계정이 확정되지 않아 임시로 처리한 금액.",
+"definition_en": "An amount temporarily recorded because, although money was paid, the usage details or final account have not been determined.",
+"example_ko": "출장 후 증빙을 제출해 가지급금을 정산해 주세요.",
+"example_en": "After the business trip, please submit the documentation and settle the temporary payment."
+},
+{
+"id": "hrfinance-306",
+"field": "hrfinance",
+"term_ko": "예수금",
+"term_en": "Withheld Amounts",
+"english": "",
+"aliases_ko": [
+"Withheld Amounts"
+],
+"definition_ko": "회사에 귀속될 돈이 아니라 타인이나 기관에 전달할 목적으로 잠시 보관하는 금액.",
+"definition_en": "An amount held temporarily that does not belong to the company but is intended to be passed on to another person or institution.",
+"example_ko": "급여에서 공제한 세금을 예수금으로 잡았어요.",
+"example_en": "I recorded the tax deducted from payroll as withheld amounts."
+},
+{
+"id": "hrfinance-307",
+"field": "hrfinance",
+"term_ko": "미결",
+"term_en": "Open Item",
+"english": "",
+"aliases_ko": [
+"미결 건"
+],
+"definition_ko": "거래의 대응 관계나 정산·처리가 아직 끝나지 않은 상태 또는 항목.",
+"definition_en": "A state or item for which a transaction's matching, settlement, or processing is not yet complete.",
+"example_ko": "월말까지 남은 미결 건의 담당자와 처리 계획을 확인해 주세요.",
+"example_en": "Please check the owner and processing plan for the open items remaining by month-end."
+},
+{
+"id": "hrfinance-308",
+"field": "hrfinance",
+"term_ko": "클리어링",
+"term_en": "Clearing",
+"english": "",
+"aliases_ko": [
+"Clearing"
+],
+"definition_ko": "대응되는 입출금·채권·채무 항목 등을 연결해 미결 잔액을 정리하는 처리.",
+"definition_en": "The treatment of linking matching receipt/payment, receivable, and payable items to clear outstanding balances.",
+"example_ko": "입금 매칭 후 해당 채권의 클리어링을 진행했어요.",
+"example_en": "After payment matching, I cleared the relevant receivable."
+},
+{
+"id": "hrfinance-309",
+"field": "hrfinance",
+"term_ko": "숫자 맞추기",
+"term_en": "Tying Out the Numbers",
+"english": "",
+"aliases_ko": [
+"숫자를 맞추다"
+],
+"definition_ko": "장부·명세·보고서 간 금액 차이의 원인을 찾아 일치시키는 대사 작업을 뜻하는 실무 표현.",
+"definition_en": "A practical expression for the reconciliation work of finding the cause of amount differences across books, statements, and reports and making them agree.",
+"example_ko": "보고 전에 원장과 집계표 숫자 맞추기부터 해 주세요.",
+"example_en": "Before reporting, please tie out the ledger and summary-table numbers first."
+},
+{
+"id": "hrfinance-310",
+"field": "hrfinance",
+"term_ko": "마감 걸다",
+"term_en": "Lock the Close",
+"english": "",
+"aliases_ko": [
+"마감을 걸다"
+],
+"definition_ko": "해당 회계기간의 입력을 마감하거나 시스템에서 추가 입력을 제한하는 것.",
+"definition_en": "Closing entry for the relevant accounting period or restricting additional entry in the system.",
+"example_ko": "미승인 전표가 없는지 확인한 뒤 마감 걸게요.",
+"example_en": "After confirming there are no unapproved vouchers, I'll lock the close."
+},
+{
+"id": "hrfinance-311",
+"field": "hrfinance",
+"term_ko": "마감 풀다",
+"term_en": "Unlock the Close",
+"english": "",
+"aliases_ko": [
+"마감을 풀다"
+],
+"definition_ko": "마감된 회계기간에 수정이 필요해 승인 절차에 따라 입력 제한을 일시 해제하는 것.",
+"definition_en": "Temporarily lifting the entry restriction through an approval procedure because corrections are needed in a closed accounting period.",
+"example_ko": "수정 전표를 반영하려면 마감 풀기 승인이 필요해요.",
+"example_en": "To reflect the correcting voucher, unlock-the-close approval is required."
+},
+{
+"id": "hrfinance-312",
+"field": "hrfinance",
+"term_ko": "비용 태우다",
+"term_en": "Charge an Expense",
+"english": "",
+"aliases_ko": [
+"비용을 태우다"
+],
+"definition_ko": "특정 지출을 비용으로 반영하거나 특정 부서·프로젝트 예산에 귀속시키는 실무 표현.",
+"definition_en": "A practical expression for reflecting a specific expenditure as an expense or attributing it to a specific department or project budget.",
+"example_ko": "이번 교육비는 어느 부서 예산에 비용 태우면 되나요?",
+"example_en": "Which department's budget should this training expense be charged to?"
+},
+{
+"id": "hrfinance-313",
+"field": "hrfinance",
+"term_ko": "비용 잡다",
+"term_en": "Book an Expense",
+"english": "",
+"aliases_ko": [
+"비용을 잡다"
+],
+"definition_ko": "발생한 지출이나 의무를 해당 기간의 비용으로 회계에 반영하는 표현.",
+"definition_en": "An expression for reflecting an incurred expenditure or obligation as an expense of the relevant period in the accounts.",
+"example_ko": "용역이 끝났으니 청구 전이어도 이번 달 비용 잡아 주세요.",
+"example_en": "The service is finished, so please book the expense this month even before billing."
+},
+{
+"id": "hrfinance-314",
+"field": "hrfinance",
+"term_ko": "충당금 쌓다",
+"term_en": "Build a Provision",
+"english": "",
+"aliases_ko": [
+"충당금을 쌓다"
+],
+"definition_ko": "예상 손실 등에 대비한 추정 금액을 충당금으로 반영한다는 실무 표현.",
+"definition_en": "A practical expression for reflecting an estimated amount set aside against expected losses and the like as a provision.",
+"example_ko": "회수 가능성을 검토한 뒤 필요한 대손충당금을 쌓겠습니다.",
+"example_en": "After reviewing collectability, I will build the necessary allowance for doubtful accounts."
+},
+{
+"id": "hrfinance-315",
+"field": "hrfinance",
+"term_ko": "예산 홀딩",
+"term_en": "Budget Hold",
+"english": "",
+"aliases_ko": [
+"예산 홀드"
+],
+"definition_ko": "예산을 배정해 두거나 집행을 잠시 보류한다는 표현. 문맥에 따라 두 의미를 구분해야 한다.",
+"definition_en": "An expression for allocating a budget or temporarily suspending its execution. The two meanings must be distinguished by context.",
+"example_ko": "계약 조건이 확정될 때까지 그 예산은 홀딩해 주세요.",
+"example_en": "Please hold that budget until the contract terms are confirmed."
+},
+{
+"id": "hrfinance-316",
+"field": "hrfinance",
+"term_ko": "채용 프리즈",
+"term_en": "Hiring Freeze",
+"english": "",
+"aliases_ko": [
+"Hiring Freeze",
+"채용 동결"
+],
+"definition_ko": "회사나 특정 조직의 신규 채용을 일정 기간 중단하거나 제한하는 조치.",
+"definition_en": "A measure that halts or restricts new hiring at a company or specific organization for a period.",
+"example_ko": "채용 프리즈 기간에도 승인된 대체 채용은 진행하는지 확인해 주세요.",
+"example_en": "Please confirm whether approved replacement hiring proceeds even during the hiring freeze."
+},
+{
+"id": "hrfinance-317",
+"field": "hrfinance",
+"term_ko": "티오",
+"term_en": "TO",
+"english": "",
+"aliases_ko": [
+"TO",
+"T/O"
+],
+"definition_ko": "조직에서 승인된 인원 자리나 충원 가능 인원을 뜻하는 실무 표현.",
+"definition_en": "A practical expression for an approved staffing position or the number of people that can be filled in an organization.",
+"example_ko": "신규 채용 공고를 내기 전에 남은 티오부터 확인해 주세요.",
+"example_en": "Before posting the new job opening, please check the remaining open headcount."
+},
+{
+"id": "hrfinance-318",
+"field": "hrfinance",
+"term_ko": "리텐션",
+"term_en": "Retention",
+"english": "",
+"aliases_ko": [
+"Retention",
+"인재 유지"
+],
+"definition_ko": "인사에서 구성원이 조직에 계속 머물도록 근무 경험과 보상 등을 관리하는 것.",
+"definition_en": "In HR, managing the work experience, compensation, and the like so that members stay with the organization.",
+"example_ko": "핵심 인력의 리텐션 방안을 보상과 경력 측면에서 검토했어요.",
+"example_en": "I reviewed retention measures for key talent in terms of compensation and career."
+},
+{
+"id": "hrfinance-319",
+"field": "hrfinance",
+"term_ko": "핏",
+"term_en": "Fit",
+"english": "",
+"aliases_ko": [
+"Culture Fit",
+"컬처핏"
+],
+"definition_ko": "채용에서 지원자의 일하는 방식·가치관 등이 직무나 조직 환경과 얼마나 맞는지를 가리키는 말.",
+"definition_en": "In hiring, how well an applicant's working style, values, and the like match the role or the organizational environment.",
+"example_ko": "막연한 인상 대신 구체적인 협업 사례로 핏을 평가해 주세요.",
+"example_en": "Instead of a vague impression, please assess fit using specific examples of collaboration."
+},
+{
+"id": "hrfinance-320",
+"field": "hrfinance",
+"term_ko": "페이롤",
+"term_en": "Payroll",
+"english": "",
+"aliases_ko": [
+"Payroll"
+],
+"definition_ko": "근태·보상 기준을 반영해 급여를 계산하고 공제·지급·관련 신고 자료를 처리하는 업무 흐름.",
+"definition_en": "The workflow of calculating pay by reflecting attendance and compensation criteria and processing deductions, payments, and related filing materials.",
+"example_ko": "페이롤 담당자에게 이번 달 발령과 휴직 변경 내역을 전달했어요.",
+"example_en": "I passed this month's assignment and leave changes to the payroll administrator."
+},
+{
+"id": "common-158",
+"field": "common",
+"term_ko": "RFP",
+"term_en": "RFP",
+"english": "Request for proposal",
+"aliases_ko": [
+"제안요청서",
+"알에프피"
+],
+"definition_ko": "업체에 필요한 과업과 제안 조건을 알리는 문서.",
+"definition_en": "A document that informs vendors of the required tasks and proposal conditions.",
+"example_ko": "RFP에서 납품 범위와 제안 마감일을 먼저 확인해요.",
+"example_en": "In the RFP, we first check the delivery scope and the proposal deadline."
+},
+{
+"id": "common-159",
+"field": "common",
+"term_ko": "제안서",
+"term_en": "Proposal",
+"english": "Proposal",
+"aliases_ko": [
+"프로포절"
+],
+"definition_ko": "문제 해결 방법과 수행 계획을 제시하는 문서.",
+"definition_en": "A document that presents the method of solving a problem and the plan for carrying it out.",
+"example_ko": "제안서에 해결 방법과 비용·일정을 함께 적어요.",
+"example_en": "In the proposal, we state the solution along with cost and schedule."
+},
+{
+"id": "common-160",
+"field": "common",
+"term_ko": "피저빌리티",
+"term_en": "Feasibility",
+"english": "Feasibility",
+"aliases_ko": [
+"피져빌리티",
+"실현 가능성"
+],
+"definition_ko": "예산·시간·기술상 실행할 수 있는 정도.",
+"definition_en": "The degree to which something can be carried out in terms of budget, time, and technology.",
+"example_ko": "피저빌리티를 확인한 뒤 일정을 잡아요.",
+"example_en": "We set the schedule after confirming feasibility."
+},
+{
+"id": "common-161",
+"field": "common",
+"term_ko": "컨센서스",
+"term_en": "Consensus",
+"english": "Consensus",
+"aliases_ko": [
+"합의",
+"컨센서스 맞추기"
+],
+"definition_ko": "관계자 사이에 모인 공통 의견이나 합의.",
+"definition_en": "A common opinion or agreement reached among stakeholders.",
+"example_ko": "변경 범위에 대한 컨센서스를 맞췄어요.",
+"example_en": "We aligned on a consensus regarding the scope of change."
+},
+{
+"id": "common-162",
+"field": "common",
+"term_ko": "스펙 아웃",
+"term_en": "Spec Out",
+"english": "Spec out",
+"aliases_ko": [
+"스펙아웃"
+],
+"definition_ko": "계획했던 기능이나 항목을 이번 작업 범위에서 빼는 말.",
+"definition_en": "An expression for removing a planned feature or item from the current scope of work.",
+"example_ko": "이번 납품 범위에서 부가 항목은 스펙 아웃했어요.",
+"example_en": "We spec'd out the add-on items from this delivery scope.",
+"note_ko": "여기서는 프로젝트 범위 제외를 뜻합니다. 제조·검사에서 규격을 벗어났다는 뜻으로 쓰는 경우와 구별하세요.",
+"note_en": "Here it means exclusion from the project scope. Distinguish it from the manufacturing or inspection sense of being out of specification."
+},
+{
+"id": "common-163",
+"field": "common",
+"term_ko": "얼터안",
+"term_en": "Alternative",
+"english": "Alternative proposal",
+"aliases_ko": [
+"얼터",
+"대안",
+"플랜 B"
+],
+"definition_ko": "원안을 대신할 수 있도록 준비한 대안.",
+"definition_en": "A backup option prepared to replace the original plan.",
+"example_ko": "기존 일정이 어려울 때 쓸 얼터안도 준비해요.",
+"example_en": "We also prepare an alternative to use when the existing schedule is difficult."
+},
+{
+"id": "common-164",
+"field": "common",
+"term_ko": "가성비",
+"term_en": "Value for Money",
+"english": "Value for money",
+"aliases_ko": [
+"가격 대비 성능",
+"가격대비성능"
+],
+"definition_ko": "가격과 비교해 성능이나 효용이 어느 정도인지 나타내는 줄임말.",
+"definition_en": "An abbreviation indicating the level of performance or utility relative to price.",
+"example_ko": "필요한 성능과 가격을 비교해 가성비가 좋은 장비를 골라요.",
+"example_en": "We choose equipment with good value for money by comparing the needed performance and the price."
+},
+{
+"id": "common-165",
+"field": "common",
+"term_ko": "가심비",
+"term_en": "Emotional Value for Money",
+"english": "",
+"aliases_ko": [
+"가격 대비 심리적 만족",
+"가격 대비 만족"
+],
+"definition_ko": "가격 대비 얻는 심리적 만족을 가리키는 줄임말. 기능 외에 취향이나 감정적 만족을 강조한다.",
+"definition_en": "An abbreviation for the psychological satisfaction gained relative to price. It emphasizes taste and emotional satisfaction beyond function.",
+"example_ko": "가격이 조금 높아도 디자인의 만족감 때문에 가심비가 좋다고 느껴요.",
+"example_en": "Even if the price is a bit high, the satisfaction from the design makes it feel worth it."
+},
+{
+"id": "common-166",
+"field": "common",
+"term_ko": "인스타",
+"term_en": "Insta",
+"english": "Instagram",
+"aliases_ko": [
+"인스타그램",
+"Instagram"
+],
+"definition_ko": "인스타그램을 줄여 부르는 말. 브랜드 콘텐츠와 광고를 운영하는 소셜미디어 채널 중 하나.",
+"definition_en": "A shortened name for Instagram. One of the social media channels for running brand content and ads.",
+"example_ko": "행사 안내를 인스타 공식 계정에 올려요.",
+"example_en": "We post event announcements on the official Instagram account."
+},
+{
+"id": "common-167",
+"field": "common",
+"term_ko": "페북",
+"term_en": "FB",
+"english": "Facebook",
+"aliases_ko": [
+"페이스북",
+"Facebook"
+],
+"definition_ko": "페이스북을 줄여 부르는 말. 페이지·게시물·광고 등의 업무에서 쓰는 채널 이름.",
+"definition_en": "A shortened name for Facebook. A channel name used in work with pages, posts, ads, and the like.",
+"example_ko": "페북 페이지에서 회사의 공개 소식을 확인해요.",
+"example_en": "We check the company's public news on the Facebook page."
+},
+{
+"id": "hrfinance-321",
+"field": "hrfinance",
+"term_ko": "YoY",
+"term_en": "YoY",
+"english": "Year over Year",
+"aliases_ko": [
+"YOY",
+"Y/Y",
+"전년 동기 대비",
+"전년대비",
+"와이오와이"
+],
+"definition_ko": "실적을 전년의 같은 기간과 비교하는 기준. 월·분기·연간 등 비교 기간과 집계 범위를 맞춘다.",
+"definition_en": "A basis for comparing results with the same period of the previous year. The comparison period and aggregation scope, whether monthly, quarterly, or annual, are kept aligned.",
+"example_ko": "9월 매출은 YoY로 증가했지만 전년의 일회성 매출도 함께 확인해요.",
+"example_en": "September sales rose YoY, but we also check last year's one-off sales."
+},
+{
+"id": "hrfinance-322",
+"field": "hrfinance",
+"term_ko": "MoM",
+"term_en": "MoM",
+"english": "Month over Month",
+"aliases_ko": [
+"MOM",
+"M/M",
+"전월 대비",
+"전월비",
+"엠오엠"
+],
+"definition_ko": "이번 달 수치를 직전 달과 비교하는 기준. 월 누계와 한 달 전체 실적을 섞어 비교하지 않도록 한다.",
+"definition_en": "A basis for comparing this month's figure with the immediately preceding month. Avoid mixing a month-to-date total with a full prior month's result.",
+"example_ko": "인건비가 MoM으로 늘어난 원인을 입사자 증가와 상여 지급으로 나눠요.",
+"example_en": "We split the MoM increase in labor costs into new hires and bonus payments."
+},
+{
+"id": "hrfinance-323",
+"field": "hrfinance",
+"term_ko": "QoQ",
+"term_en": "QoQ",
+"english": "Quarter over Quarter",
+"aliases_ko": [
+"QOQ",
+"Q/Q",
+"전분기 대비",
+"전분기비"
+],
+"definition_ko": "이번 분기 실적을 바로 앞 분기와 비교하는 기준.",
+"definition_en": "A basis for comparing this quarter's results with the immediately preceding quarter.",
+"example_ko": "영업이익의 QoQ 감소가 계절성 때문인지 비용 증가 때문인지 분석해요.",
+"example_en": "We analyze whether the QoQ decline in operating profit is due to seasonality or cost increases."
+},
+{
+"id": "hrfinance-324",
+"field": "hrfinance",
+"term_ko": "WoW",
+"term_en": "WoW",
+"english": "Week over Week",
+"aliases_ko": [
+"WOW",
+"W/W",
+"전주 대비",
+"전주비"
+],
+"definition_ko": "이번 주 수치를 직전 주와 비교하는 기준. 주 시작일과 집계 일수를 맞춘다.",
+"definition_en": "A basis for comparing this week's figure with the immediately preceding week. The week start date and the number of days aggregated are kept aligned.",
+"example_ko": "채용 지원자 수를 WoW로 비교할 때 공고 운영 일수도 확인해요.",
+"example_en": "When comparing applicant counts WoW, we also check the number of days the posting ran."
+},
+{
+"id": "hrfinance-325",
+"field": "hrfinance",
+"term_ko": "YTD",
+"term_en": "YTD",
+"english": "Year to Date",
+"aliases_ko": [
+"연초 누계",
+"연간 누계",
+"연누계",
+"와이티디"
+],
+"definition_ko": "회계연도 시작부터 기준일까지 누적한 실적. 회계연도가 달력연도와 다르면 시작 월도 달라진다.",
+"definition_en": "Results accumulated from the start of the fiscal year to the reference date. If the fiscal year differs from the calendar year, the start month also differs.",
+"example_ko": "9월 YTD 비용을 같은 기간 예산 누계와 비교해요.",
+"example_en": "We compare September YTD expenses with the budget cumulative for the same period."
+},
+{
+"id": "hrfinance-326",
+"field": "hrfinance",
+"term_ko": "MTD",
+"term_en": "MTD",
+"english": "Month to Date",
+"aliases_ko": [
+"월초 누계",
+"월 누계",
+"월누계"
+],
+"definition_ko": "해당 월의 시작일부터 기준일까지 누적한 실적.",
+"definition_en": "Results accumulated from the first day of the month to the reference date.",
+"example_ko": "15일 기준 MTD 매출을 월 전체 목표와 구분해 보고해요.",
+"example_en": "We report MTD sales as of the 15th separately from the full-month target."
+},
+{
+"id": "hrfinance-327",
+"field": "hrfinance",
+"term_ko": "QTD",
+"term_en": "QTD",
+"english": "Quarter to Date",
+"aliases_ko": [
+"분기 누계",
+"분기누계"
+],
+"definition_ko": "해당 분기의 시작일부터 기준일까지 누적한 실적.",
+"definition_en": "Results accumulated from the first day of the quarter to the reference date.",
+"example_ko": "2분기 QTD 현금 유입을 주간 자금회의에 올려요.",
+"example_en": "We bring Q2 QTD cash inflows to the weekly treasury meeting."
+},
+{
+"id": "hrfinance-328",
+"field": "hrfinance",
+"term_ko": "FY",
+"term_en": "FY",
+"english": "Fiscal Year",
+"aliases_ko": [
+"회계연도",
+"에프와이"
+],
+"definition_ko": "재무 보고와 예산 편성의 기준이 되는 1년. 회사에 따라 달력상의 1월부터 12월과 다를 수 있다.",
+"definition_en": "The one-year period that serves as the basis for financial reporting and budgeting. Depending on the company, it may differ from January to December on the calendar.",
+"example_ko": "FY27 예산의 시작 월과 종료 월을 해외 법인과 맞춰요.",
+"example_en": "We align the start and end months of the FY27 budget with the overseas subsidiary."
+},
+{
+"id": "hrfinance-329",
+"field": "hrfinance",
+"term_ko": "CY",
+"term_en": "CY",
+"english": "Calendar Year",
+"aliases_ko": [
+"역년",
+"달력연도"
+],
+"definition_ko": "1월 1일부터 12월 31일까지의 달력 기준 연도.",
+"definition_en": "The calendar-based year from January 1 to December 31.",
+"example_ko": "CY 기준 통계와 회사 회계연도 기준 매출을 구분해요.",
+"example_en": "We distinguish CY-based statistics from sales on the company's fiscal-year basis."
+},
+{
+"id": "hrfinance-330",
+"field": "hrfinance",
+"term_ko": "TTM",
+"term_en": "TTM",
+"english": "Trailing Twelve Months",
+"aliases_ko": [
+"LTM",
+"Last Twelve Months",
+"최근 12개월"
+],
+"definition_ko": "특정 기준일부터 거슬러 올라간 최근 12개월의 실적을 묶어 보는 방식.",
+"definition_en": "A method of viewing the combined results of the most recent 12 months counting back from a specific reference date.",
+"example_ko": "분기 말 기준 TTM 매출로 최근 사업 규모를 비교해요.",
+"example_en": "We compare recent business scale using TTM sales as of quarter-end."
+},
+{
+"id": "hrfinance-331",
+"field": "hrfinance",
+"term_ko": "CAGR",
+"term_en": "CAGR",
+"english": "Compound Annual Growth Rate",
+"aliases_ko": [
+"연평균 성장률",
+"연평균 복합성장률"
+],
+"definition_ko": "시작값과 종료값 사이의 성장을 매년 동일한 복리 성장률로 환산한 값. 단순 연도별 성장률 평균과 다르다.",
+"definition_en": "The growth between a start value and an end value expressed as a constant annual compound growth rate. It differs from a simple average of year-by-year growth rates.",
+"example_ko": "3년 매출 CAGR을 계산할 때 시작·종료 연도와 기간 수를 맞춰요.",
+"example_en": "When calculating 3-year sales CAGR, we align the start and end years and the number of periods."
+},
+{
+"id": "hrfinance-332",
+"field": "hrfinance",
+"term_ko": "퍼센트포인트",
+"term_en": "Percentage Point",
+"english": "Percentage Point",
+"aliases_ko": [
+"%p",
+"pp",
+"퍼센트 포인트",
+"프로센트포인트"
+],
+"definition_ko": "두 비율의 차이를 나타내는 단위. 10%에서 12%로 바뀌면 2퍼센트포인트 상승이다.",
+"definition_en": "A unit expressing the difference between two ratios. A change from 10% to 12% is a rise of 2 percentage points.",
+"example_ko": "영업이익률이 2%p 개선됐다고 쓰고 2% 증가와 구분해요.",
+"example_en": "We write that the operating margin improved by 2%p and distinguish it from a 2% increase."
+},
+{
+"id": "hrfinance-333",
+"field": "hrfinance",
+"term_ko": "bp",
+"term_en": "bp",
+"english": "Basis Point",
+"aliases_ko": [
+"bps",
+"베이시스 포인트",
+"베이시스포인트"
+],
+"definition_ko": "금리·수익률 등의 차이를 나타내는 단위로 1bp는 0.01퍼센트포인트다.",
+"definition_en": "A unit expressing differences in interest rates, yields, and the like; 1 bp is 0.01 percentage point.",
+"example_ko": "차입 금리가 25bp 오르면 이자비용이 얼마나 늘어나는지 계산해요.",
+"example_en": "We calculate how much interest expense rises if the borrowing rate goes up 25 bp."
+},
+{
+"id": "hrfinance-334",
+"field": "hrfinance",
+"term_ko": "기저효과",
+"term_en": "Base Effect",
+"english": "Base Effect",
+"aliases_ko": [],
+"definition_ko": "비교 기준 기간의 수치가 유난히 높거나 낮아서 증가율이 크게 달라 보이는 현상.",
+"definition_en": "A phenomenon where the figure in the comparison base period is unusually high or low, making the growth rate appear greatly different.",
+"example_ko": "작년 비용 환입의 기저효과를 빼고 올해 비용 추이를 설명해요.",
+"example_en": "We exclude the base effect of last year's expense reversal and explain this year's expense trend."
+},
+{
+"id": "hrfinance-335",
+"field": "hrfinance",
+"term_ko": "계절성",
+"term_en": "Seasonality",
+"english": "Seasonality",
+"aliases_ko": [],
+"definition_ko": "특정 계절이나 시기에 반복적으로 나타나는 실적 변동 특성.",
+"definition_en": "The characteristic of results fluctuating repeatedly in particular seasons or periods.",
+"example_ko": "성과급 지급 시기의 계절성을 감안해 월별 인건비를 비교해요.",
+"example_en": "We compare monthly labor costs taking into account the seasonality of bonus payment timing."
+},
+{
+"id": "hrfinance-336",
+"field": "hrfinance",
+"term_ko": "런레이트",
+"term_en": "Run Rate",
+"english": "Run Rate",
+"aliases_ko": [
+"런 레이트",
+"연환산"
+],
+"definition_ko": "최근 실적 흐름이 계속된다고 가정해 연간 등 일정 기간의 규모로 환산한 수치.",
+"definition_en": "A figure converted to an annual or set-period scale assuming the recent performance trend continues.",
+"example_ko": "최근 월매출 런레이트는 계절성이 반영된 확정 전망과 따로 표시해요.",
+"example_en": "We show the recent monthly sales run rate separately from the confirmed forecast that reflects seasonality."
+},
+{
+"id": "hrfinance-337",
+"field": "hrfinance",
+"term_ko": "실적",
+"term_en": "Actuals",
+"english": "Actual",
+"aliases_ko": [
+"Actuals",
+"ACT",
+"액추얼"
+],
+"definition_ko": "계획이나 전망에 대비되는 실제 발생·집계 수치. 결산 전 잠정 실적과 확정 실적을 구분한다.",
+"definition_en": "Actual incurred or aggregated figures as opposed to plan or forecast. We distinguish provisional results before closing from confirmed results.",
+"example_ko": "예산 파일에 전망 대신 결산 확정 실적을 반영해요.",
+"example_en": "We reflect confirmed closing actuals rather than the forecast in the budget file."
+},
+{
+"id": "hrfinance-338",
+"field": "hrfinance",
+"term_ko": "포캐스트",
+"term_en": "Forecast",
+"english": "Forecast",
+"aliases_ko": [
+"FCST",
+"FCT",
+"포어캐스트",
+"실적 전망",
+"포캐",
+"포어캐",
+"포캐스팅"
+],
+"definition_ko": "현재 정보와 가정을 바탕으로 앞으로의 매출·비용·이익 등을 추정하는 것.",
+"definition_en": "Estimating future sales, costs, profit, and the like based on current information and assumptions.",
+"example_ko": "수주 일정이 늦어져 다음 분기 매출 포캐스트를 낮췄어요.",
+"example_en": "As the order schedule slipped, we lowered next quarter's sales forecast."
+},
+{
+"id": "hrfinance-339",
+"field": "hrfinance",
+"term_ko": "차이 분석",
+"term_en": "Variance Analysis",
+"english": "Variance Analysis",
+"aliases_ko": [
+"베리언스 분석",
+"증감 분석",
+"Variance",
+"VAR"
+],
+"definition_ko": "실적과 예산·전망·과거 실적의 차이를 원인별로 설명하는 분석.",
+"definition_en": "An analysis that explains, by cause, the differences between actuals and budget, forecast, or past results.",
+"example_ko": "인건비 차이 분석을 인원 수와 평균 급여 변화로 나눠요.",
+"example_en": "We split the labor cost variance analysis into headcount and average salary changes."
+},
+{
+"id": "hrfinance-340",
+"field": "hrfinance",
+"term_ko": "브리지 분석",
+"term_en": "Bridge Analysis",
+"english": "Bridge Analysis",
+"aliases_ko": [
+"워터폴 분석",
+"손익 브리지"
+],
+"definition_ko": "시작 수치에서 최종 수치로 달라진 과정을 가격·물량·비용 등 요인별 증감으로 연결하는 분석.",
+"definition_en": "An analysis that connects the process of change from a starting figure to a final figure through increases and decreases by factor such as price, volume, and cost.",
+"example_ko": "전년 영업이익에서 올해 영업이익까지의 변화를 브리지로 보여줘요.",
+"example_en": "We show the change from last year's operating profit to this year's as a bridge."
+},
+{
+"id": "hrfinance-341",
+"field": "hrfinance",
+"term_ko": "CF",
+"term_en": "CF",
+"english": "Cash Flow",
+"aliases_ko": [
+"C/F",
+"현금흐름",
+"현금 흐름",
+"캐시플로",
+"캐시플로우",
+"씨에프",
+"캐시 플로우",
+"캐쉬플로우"
+],
+"definition_ko": "기업으로 현금이 들어오거나 나가는 흐름. 회계상 이익과 실제 현금 유입·유출은 시점과 금액이 다를 수 있다.",
+"definition_en": "The flow of cash into or out of a company. Accounting profit and actual cash inflows and outflows can differ in timing and amount.",
+"example_ko": "손익은 흑자여도 수금이 늦으면 CF가 부족할 수 있어요.",
+"example_en": "Even if the P&L is in the black, CF can fall short if collections are late."
+},
+{
+"id": "hrfinance-342",
+"field": "hrfinance",
+"term_ko": "EBIT",
+"term_en": "EBIT",
+"english": "Earnings Before Interest and Taxes",
+"aliases_ko": [
+"이자 및 세전이익",
+"이자 세전 이익"
+],
+"definition_ko": "이자와 법인세를 차감하기 전 이익 지표. 회계상 영업이익과 항상 같은 값인 것은 아니다.",
+"definition_en": "An earnings indicator before deducting interest and corporate taxes. It is not always the same value as accounting operating profit.",
+"example_ko": "투자안 비교에 쓰는 EBIT의 조정 항목을 별도로 밝혀요.",
+"example_en": "We separately disclose the adjustment items of the EBIT used in comparing investment proposals."
+},
+{
+"id": "hrfinance-343",
+"field": "hrfinance",
+"term_ko": "조정 EBITDA",
+"term_en": "Adjusted EBITDA",
+"english": "Adjusted EBITDA",
+"aliases_ko": [
+"Adjusted EBITDA",
+"조정 상각전이익"
+],
+"definition_ko": "EBITDA에서 회사가 정한 특정 항목을 더하거나 빼서 제시하는 지표. 조정 기준과 원래 수치의 연결을 확인해야 한다.",
+"definition_en": "An indicator presented by adding or subtracting specific company-defined items from EBITDA. The adjustment basis and its link to the original figure should be confirmed.",
+"example_ko": "일회성 비용을 제외한 조정 EBITDA와 제외 항목을 함께 보고해요.",
+"example_en": "We report adjusted EBITDA excluding one-off costs together with the excluded items."
+},
+{
+"id": "hrfinance-344",
+"field": "hrfinance",
+"term_ko": "매출총이익률",
+"term_en": "Gross Profit Margin",
+"english": "Gross Margin",
+"aliases_ko": [
+"GPM",
+"Gross Profit Margin",
+"GP율",
+"매총률",
+"지피엠",
+"그로스마진"
+],
+"definition_ko": "매출액에서 매출원가를 뺀 매출총이익이 매출액에서 차지하는 비율.",
+"definition_en": "The ratio of gross profit (sales less cost of sales) to sales.",
+"example_ko": "제품별 매출총이익률을 비교해 원가 상승의 영향을 확인해요.",
+"example_en": "We compare gross profit margin by product to check the impact of cost increases."
+},
+{
+"id": "hrfinance-345",
+"field": "hrfinance",
+"term_ko": "영업이익률",
+"term_en": "Operating Profit Margin",
+"english": "Operating Margin",
+"aliases_ko": [
+"OPM",
+"OP율",
+"오피엠"
+],
+"definition_ko": "영업이익을 매출액으로 나눈 비율.",
+"definition_en": "The ratio of operating profit to sales.",
+"example_ko": "외주비 증가로 영업이익률이 얼마나 낮아졌는지 설명해요.",
+"example_en": "We explain how much the operating margin fell due to the increase in outsourcing costs."
+},
+{
+"id": "hrfinance-346",
+"field": "hrfinance",
+"term_ko": "순이익률",
+"term_en": "Net Profit Margin",
+"english": "Net Profit Margin",
+"aliases_ko": [
+"NPM",
+"당기순이익률"
+],
+"definition_ko": "당기순이익이 매출액에서 차지하는 비율.",
+"definition_en": "The ratio of net income to sales.",
+"example_ko": "영업이익률과 순이익률의 차이를 금융비용과 법인세로 나눠 봐요.",
+"example_en": "We split the difference between operating margin and net margin into financial costs and corporate tax."
+},
+{
+"id": "hrfinance-347",
+"field": "hrfinance",
+"term_ko": "ROE",
+"term_en": "ROE",
+"english": "Return on Equity",
+"aliases_ko": [
+"자기자본이익률"
+],
+"definition_ko": "자기자본 대비 순이익의 비율. 보통 평균 자기자본을 분모로 쓰며 기간과 산정 기준을 확인한다.",
+"definition_en": "The ratio of net income to shareholders' equity. It usually uses average equity as the denominator; the period and calculation basis should be confirmed.",
+"example_ko": "ROE 변동이 이익 증가 때문인지 자기자본 감소 때문인지 살펴요.",
+"example_en": "We examine whether the ROE change is due to higher profit or lower equity."
+},
+{
+"id": "hrfinance-348",
+"field": "hrfinance",
+"term_ko": "ROA",
+"term_en": "ROA",
+"english": "Return on Assets",
+"aliases_ko": [
+"총자산이익률"
+],
+"definition_ko": "총자산을 활용해 어느 정도의 이익을 냈는지 보는 비율. 이익과 평균 자산의 범위를 명시한다.",
+"definition_en": "A ratio showing how much profit was earned using total assets. The scope of the profit and average assets is specified.",
+"example_ko": "새 설비 투자 이후 ROA가 낮아진 원인을 검토해요.",
+"example_en": "We review why ROA fell after the new facility investment."
+},
+{
+"id": "hrfinance-349",
+"field": "hrfinance",
+"term_ko": "ROIC",
+"term_en": "ROIC",
+"english": "Return on Invested Capital",
+"aliases_ko": [
+"투하자본이익률"
+],
+"definition_ko": "영업에 투입한 자본 대비 세후 영업이익 등의 수익성을 보는 지표. 투하자본의 계산 범위를 일관되게 적용한다.",
+"definition_en": "An indicator of profitability such as after-tax operating profit relative to the capital invested in operations. The calculation scope of invested capital is applied consistently.",
+"example_ko": "사업부 ROIC를 자본비용과 비교해 투자 효율을 검토해요.",
+"example_en": "We compare business-unit ROIC with the cost of capital to review investment efficiency."
+},
+{
+"id": "hrfinance-350",
+"field": "hrfinance",
+"term_ko": "EPS",
+"term_en": "EPS",
+"english": "Earnings per Share",
+"aliases_ko": [
+"주당순이익",
+"이피에스"
+],
+"definition_ko": "보통주 한 주에 귀속되는 이익. 기본 EPS는 보통주 귀속 이익과 가중평균 유통주식 수 등을 기준으로 산정한다.",
+"definition_en": "The profit attributable to one common share. Basic EPS is calculated based on profit attributable to common shares and the weighted-average number of shares outstanding.",
+"example_ko": "실적 자료의 EPS와 이익·주식 수 변동을 함께 확인해요.",
+"example_en": "We check the EPS in the results materials together with changes in profit and share count."
+},
+{
+"id": "hrfinance-351",
+"field": "hrfinance",
+"term_ko": "희석 EPS",
+"term_en": "Diluted EPS",
+"english": "Diluted Earnings per Share",
+"aliases_ko": [
+"Diluted EPS",
+"희석주당순이익"
+],
+"definition_ko": "주식으로 전환될 수 있는 증권 등의 희석 효과를 반영한 주당이익.",
+"definition_en": "Earnings per share reflecting the dilutive effect of securities and the like that could be converted into shares.",
+"example_ko": "스톡옵션의 영향이 포함된 희석 EPS를 기본 EPS와 비교해요.",
+"example_en": "We compare diluted EPS, which includes the effect of stock options, with basic EPS."
+},
+{
+"id": "hrfinance-352",
+"field": "hrfinance",
+"term_ko": "DPS",
+"term_en": "DPS",
+"english": "Dividend per Share",
+"aliases_ko": [
+"주당배당금"
+],
+"definition_ko": "주식 한 주에 대해 지급하는 배당금.",
+"definition_en": "The dividend paid per share.",
+"example_ko": "배당 계획의 DPS를 발행 주식 수와 대조해 총 지급액을 확인해요.",
+"example_en": "We check the total payout by reconciling the DPS in the dividend plan with the number of shares issued."
+},
+{
+"id": "hrfinance-353",
+"field": "hrfinance",
+"term_ko": "배당성향",
+"term_en": "Dividend Payout Ratio",
+"english": "Dividend Payout Ratio",
+"aliases_ko": [],
+"definition_ko": "이익 중 배당으로 지급하는 비율. 적용 이익과 배당의 범위를 맞춰 산정한다.",
+"definition_en": "The ratio of profit paid out as dividends. It is calculated by aligning the scope of the profit and dividends used.",
+"example_ko": "연결 순이익 기준인지 별도 순이익 기준인지 확인한 뒤 배당성향을 비교해요.",
+"example_en": "We compare the payout ratio after confirming whether it is on a consolidated or separate net income basis."
+},
+{
+"id": "hrfinance-354",
+"field": "hrfinance",
+"term_ko": "EV",
+"term_en": "EV",
+"english": "Enterprise Value",
+"aliases_ko": [
+"기업가치",
+"엔터프라이즈 밸류"
+],
+"definition_ko": "기업의 사업 전체 가치를 평가할 때 쓰는 값. 상장사에서는 시가총액에 순차입금 등을 조정해 계산하기도 한다.",
+"definition_en": "A value used to assess the entire business value of a company. For listed companies, it may be calculated by adjusting market capitalization for net debt and the like.",
+"example_ko": "EV를 지분가치로 환산하면서 현금과 차입금의 처리 기준을 맞춰요.",
+"example_en": "We align the treatment of cash and debt when converting EV to equity value."
+},
+{
+"id": "hrfinance-355",
+"field": "hrfinance",
+"term_ko": "DCF",
+"term_en": "DCF",
+"english": "Discounted Cash Flow",
+"aliases_ko": [
+"현금흐름할인법",
+"현금흐름 할인법"
+],
+"definition_ko": "미래 현금흐름을 적절한 할인율로 현재 가치로 바꾸어 사업이나 자산의 가치를 추정하는 방법.",
+"definition_en": "A method of estimating the value of a business or asset by converting future cash flows to present value at an appropriate discount rate.",
+"example_ko": "DCF 모델에서 성장률과 할인율을 바꾸며 가치 변화를 확인해요.",
+"example_en": "In the DCF model, we check the change in value while varying the growth rate and discount rate."
+},
+{
+"id": "hrfinance-356",
+"field": "hrfinance",
+"term_ko": "NPV",
+"term_en": "NPV",
+"english": "Net Present Value",
+"aliases_ko": [
+"순현재가치"
+],
+"definition_ko": "예상되는 현금 유입·유출의 현재 가치를 합산한 값.",
+"definition_en": "The sum of the present values of expected cash inflows and outflows.",
+"example_ko": "설비 투자안의 NPV에 초기 투자비와 유지 비용을 함께 반영해요.",
+"example_en": "We reflect both the initial investment and maintenance costs in the NPV of the facility investment proposal."
+},
+{
+"id": "hrfinance-357",
+"field": "hrfinance",
+"term_ko": "IRR",
+"term_en": "IRR",
+"english": "Internal Rate of Return",
+"aliases_ko": [
+"내부수익률"
+],
+"definition_ko": "투자 현금흐름의 순현재가치를 0으로 만드는 할인율. 현금흐름 형태에 따라 해가 여러 개이거나 없을 수 있다.",
+"definition_en": "The discount rate that makes the net present value of an investment's cash flows zero. Depending on the cash flow pattern, there may be multiple solutions or none.",
+"example_ko": "IRR뿐 아니라 투자 규모와 회수 시점도 함께 보고해요.",
+"example_en": "We report not only the IRR but also the investment size and recovery timing."
+},
+{
+"id": "hrfinance-358",
+"field": "hrfinance",
+"term_ko": "WACC",
+"term_en": "WACC",
+"english": "Weighted Average Cost of Capital",
+"aliases_ko": [
+"가중평균자본비용"
+],
+"definition_ko": "자기자본과 타인자본의 비용을 자본 구성에 따라 가중해 산정한 자본비용.",
+"definition_en": "The cost of capital calculated by weighting the costs of equity and debt according to the capital structure.",
+"example_ko": "가치평가 모델의 현금흐름 기준과 WACC 기준을 일치시켜요.",
+"example_en": "We align the cash flow basis of the valuation model with the WACC basis."
+},
+{
+"id": "hrfinance-359",
+"field": "hrfinance",
+"term_ko": "회수기간",
+"term_en": "Payback Period",
+"english": "Payback Period",
+"aliases_ko": [
+"투자 회수기간"
+],
+"definition_ko": "투자한 자금을 이후 현금 유입으로 회수하는 데 걸리는 기간.",
+"definition_en": "The period it takes to recover invested funds through subsequent cash inflows.",
+"example_ko": "회수기간이 짧아도 이후 유지 비용이 큰 투자안인지 확인해요.",
+"example_en": "We check whether an investment with a short payback period also has high subsequent maintenance costs."
+},
+{
+"id": "hrfinance-360",
+"field": "hrfinance",
+"term_ko": "민감도 분석",
+"term_en": "Sensitivity Analysis",
+"english": "Sensitivity Analysis",
+"aliases_ko": [],
+"definition_ko": "주요 가정을 바꾸었을 때 결과가 얼마나 달라지는지 확인하는 분석.",
+"definition_en": "An analysis that checks how much the result changes when key assumptions are varied.",
+"example_ko": "환율과 매출 성장률에 따른 이익의 민감도 분석을 준비해요.",
+"example_en": "We prepare a sensitivity analysis of profit to the exchange rate and the sales growth rate."
+},
+{
+"id": "hrfinance-361",
+"field": "hrfinance",
+"term_ko": "매입채무회전일수",
+"term_en": "Days Payable Outstanding",
+"english": "Days Payable Outstanding",
+"aliases_ko": [
+"DPO"
+],
+"definition_ko": "매입채무를 지급하기까지 걸리는 평균 기간을 일수로 나타낸 지표. 매입액 등 계산 기준을 확인한다.",
+"definition_en": "An indicator expressing in days the average period it takes to pay trade payables. The calculation basis, such as the purchase amount, should be confirmed.",
+"example_ko": "DPO가 줄면서 운전자금 부담이 늘었는지 확인해요.",
+"example_en": "We check whether a falling DPO increased the working capital burden."
+},
+{
+"id": "hrfinance-362",
+"field": "hrfinance",
+"term_ko": "재고자산회전일수",
+"term_en": "Days Inventory Outstanding",
+"english": "Days Inventory Outstanding",
+"aliases_ko": [
+"DIO",
+"DIH",
+"재고 회전일수"
+],
+"definition_ko": "재고가 판매·사용되기까지 머무는 평균 기간을 나타내는 지표.",
+"definition_en": "An indicator showing the average period inventory stays before being sold or used.",
+"example_ko": "DIO가 길어진 품목은 재고 소진 계획을 따로 세워요.",
+"example_en": "For items with a longer DIO, we set up a separate inventory clearance plan."
+},
+{
+"id": "hrfinance-363",
+"field": "hrfinance",
+"term_ko": "현금전환주기",
+"term_en": "Cash Conversion Cycle",
+"english": "Cash Conversion Cycle",
+"aliases_ko": [
+"CCC",
+"현금 전환 주기"
+],
+"definition_ko": "재고와 매출채권에 자금이 묶이는 기간에서 매입채무 지급 유예 기간을 뺀 운전자금 회전 지표.",
+"definition_en": "A working capital turnover indicator that subtracts the payable deferral period from the period during which funds are tied up in inventory and receivables.",
+"example_ko": "DIO와 DSO를 더하고 DPO를 빼서 CCC 추이를 확인해요.",
+"example_en": "We check the CCC trend by adding DIO and DSO and subtracting DPO."
+},
+{
+"id": "hrfinance-364",
+"field": "hrfinance",
+"term_ko": "순운전자본",
+"term_en": "Net Working Capital",
+"english": "Net Working Capital",
+"aliases_ko": [
+"NWC"
+],
+"definition_ko": "유동자산에서 유동부채를 뺀 금액. 기업가치 분석에서는 현금·차입금 등을 제외한 영업 순운전자본을 쓰기도 한다.",
+"definition_en": "Current assets less current liabilities. In enterprise value analysis, operating net working capital excluding cash, debt, and the like is sometimes used.",
+"example_ko": "계약서의 NWC 조정 대상 계정을 먼저 합의해요.",
+"example_en": "We first agree on the accounts subject to NWC adjustment in the contract."
+},
+{
+"id": "hrfinance-365",
+"field": "hrfinance",
+"term_ko": "현금 잔고",
+"term_en": "Cash Balance",
+"english": "Cash Balance",
+"aliases_ko": [
+"캐시 밸런스",
+"현금잔액"
+],
+"definition_ko": "기준 시점에 보유한 현금·예금 등의 잔액. 사용 제한 자금의 포함 여부를 구분한다.",
+"definition_en": "The balance of cash, deposits, and the like held at a reference point. Whether restricted funds are included is distinguished.",
+"example_ko": "지급 예정액을 반영하기 전 현금 잔고와 가용 잔고를 나눠 보고해요.",
+"example_en": "We report the cash balance and the available balance separately before reflecting scheduled payments."
+},
+{
+"id": "hrfinance-366",
+"field": "hrfinance",
+"term_ko": "자금일보",
+"term_en": "Daily Cash Report",
+"english": "Daily Cash Report",
+"aliases_ko": [
+"자금 일보"
+],
+"definition_ko": "하루의 현금·예금 잔액과 입출금 내역, 자금 계획을 정리한 보고서.",
+"definition_en": "A report organizing the day's cash and deposit balances, receipts and payments, and the funding plan.",
+"example_ko": "자금일보의 마감 잔액을 은행 거래내역과 맞춰요.",
+"example_en": "We reconcile the closing balance in the daily cash report with the bank transaction details."
+},
+{
+"id": "hrfinance-367",
+"field": "hrfinance",
+"term_ko": "자금계획",
+"term_en": "Cash Plan",
+"english": "Cash Planning",
+"aliases_ko": [
+"현금흐름 예측",
+"Cash Forecast"
+],
+"definition_ko": "예상 입금과 지급 시점을 반영해 자금의 부족·여유를 전망하는 계획.",
+"definition_en": "A plan that forecasts funding shortfalls or surpluses by reflecting expected receipt and payment timing.",
+"example_ko": "세금과 급여 지급일을 주간 자금계획에 반영해요.",
+"example_en": "We reflect tax and payroll payment dates in the weekly cash plan."
+},
+{
+"id": "hrfinance-368",
+"field": "hrfinance",
+"term_ko": "지급조건",
+"term_en": "Payment Terms",
+"english": "Payment Terms",
+"aliases_ko": [
+"결제조건",
+"결제 조건"
+],
+"definition_ko": "대금 지급의 시점·방법·분할 여부 등을 정한 거래 조건.",
+"definition_en": "Transaction terms specifying the timing, method, and installment status of payment.",
+"example_ko": "거래처별 지급조건이 자금계획에 정확히 들어갔는지 확인해요.",
+"example_en": "We check whether each supplier's payment terms are accurately entered in the cash plan."
+},
+{
+"id": "hrfinance-369",
+"field": "hrfinance",
+"term_ko": "Net 30",
+"term_en": "Net 30",
+"english": "Net 30 Days",
+"aliases_ko": [
+"넷30",
+"넷 서티"
+],
+"definition_ko": "송장 발행일 등 합의한 기준일부터 30일 내 전액을 지급하는 조건 표기.",
+"definition_en": "A notation for terms requiring full payment within 30 days from an agreed reference date such as the invoice issue date.",
+"example_ko": "Net 30의 기산일이 검수일인지 송장일인지 계약서에서 확인해요.",
+"example_en": "We confirm in the contract whether the Net 30 start date is the acceptance date or the invoice date."
+},
+{
+"id": "hrfinance-370",
+"field": "hrfinance",
+"term_ko": "지급 배치",
+"term_en": "Payment Run",
+"english": "Payment Run",
+"aliases_ko": [
+"페이먼트 런",
+"지급런"
+],
+"definition_ko": "지급 대상 채무를 모아 검토·승인한 뒤 일괄 이체하는 처리 단위.",
+"definition_en": "A processing unit that gathers payables due for payment, reviews and approves them, and then transfers them in a batch.",
+"example_ko": "지급 배치를 확정하기 전에 중복 송장과 계좌 변경을 점검해요.",
+"example_en": "Before finalizing the payment run, we check for duplicate invoices and account changes."
+},
+{
+"id": "hrfinance-371",
+"field": "hrfinance",
+"term_ko": "자금이체",
+"term_en": "Funds Transfer",
+"english": "Fund Transfer",
+"aliases_ko": [
+"송금",
+"이체"
+],
+"definition_ko": "계좌 사이에서 자금을 옮기는 업무.",
+"definition_en": "The work of moving funds between accounts.",
+"example_ko": "대규모 자금이체는 승인 내역과 수취 계좌를 대조해요.",
+"example_en": "For large funds transfers, we reconcile the approval details with the recipient account."
+},
+{
+"id": "hrfinance-372",
+"field": "hrfinance",
+"term_ko": "자동이체",
+"term_en": "Automatic Debit",
+"english": "Direct Debit",
+"aliases_ko": [
+"CMS 출금"
+],
+"definition_ko": "정해진 동의와 조건에 따라 계좌에서 대금이 자동으로 빠져나가도록 하는 방식.",
+"definition_en": "A method whereby payments are automatically withdrawn from an account according to a set consent and conditions.",
+"example_ko": "자동이체 예정일과 출금 한도를 자금 담당자에게 공유해요.",
+"example_en": "We share the automatic debit date and the withdrawal limit with the treasury team."
+},
+{
+"id": "hrfinance-373",
+"field": "hrfinance",
+"term_ko": "매출채권 팩토링",
+"term_en": "Receivables Factoring",
+"english": "Receivables Factoring",
+"aliases_ko": [
+"팩토링",
+"Factoring"
+],
+"definition_ko": "매출채권을 금융회사 등에 넘겨 자금을 조달하거나 회수 관리를 맡기는 거래.",
+"definition_en": "A transaction that transfers trade receivables to a financial company and the like to raise funds or outsource collection management.",
+"example_ko": "팩토링 계약의 상환청구권 여부를 확인해 회계처리를 검토해요.",
+"example_en": "We review the accounting treatment by confirming whether the factoring contract is with recourse."
+},
+{
+"id": "hrfinance-374",
+"field": "hrfinance",
+"term_ko": "현금 풀링",
+"term_en": "Cash Pooling",
+"english": "Cash Pooling",
+"aliases_ko": [
+"캐시풀링"
+],
+"definition_ko": "여러 계좌나 계열사의 잔액을 집중·연계해 자금을 관리하는 방식.",
+"definition_en": "A method of managing funds by concentrating or linking the balances of multiple accounts or affiliates.",
+"example_ko": "해외 법인의 현금 풀링에 참여할 계좌를 정리해요.",
+"example_en": "We organize the accounts that will participate in the overseas subsidiary's cash pooling."
+},
+{
+"id": "hrfinance-375",
+"field": "hrfinance",
+"term_ko": "리볼빙 한도",
+"term_en": "Revolving Credit Facility",
+"english": "Revolving Credit Facility",
+"aliases_ko": [
+"RCF",
+"회전한도대출"
+],
+"definition_ko": "약정 기간과 한도 안에서 차입·상환·재차입을 반복할 수 있는 신용공여 방식.",
+"definition_en": "A credit facility that allows repeated borrowing, repayment, and re-borrowing within the agreed period and limit.",
+"example_ko": "RCF의 미사용 한도와 만기 일정을 월말 자금회의에 보고해요.",
+"example_en": "We report the unused limit and maturity schedule of the RCF at the month-end treasury meeting."
+},
+{
+"id": "hrfinance-376",
+"field": "hrfinance",
+"term_ko": "담보",
+"term_en": "Collateral",
+"english": "Collateral",
+"aliases_ko": [],
+"definition_ko": "채무 이행을 뒷받침하기 위해 제공하는 재산이나 권리.",
+"definition_en": "Property or rights provided to secure the performance of an obligation.",
+"example_ko": "차입 약정에 설정된 담보의 범위를 자산대장과 대조해요.",
+"example_en": "We reconcile the scope of the collateral set under the borrowing agreement with the asset register."
+},
+{
+"id": "hrfinance-377",
+"field": "hrfinance",
+"term_ko": "코버넌트",
+"term_en": "Covenant",
+"english": "Covenant",
+"aliases_ko": [
+"재무약정",
+"커버넌트"
+],
+"definition_ko": "차입 계약 등에서 지키기로 한 재무비율·행위 제한 등의 조건.",
+"definition_en": "Conditions agreed to be observed in a borrowing contract and the like, such as financial ratios and restrictions on actions.",
+"example_ko": "분기 말 코버넌트 계산에 적용할 EBITDA 정의를 약정서에서 확인해요.",
+"example_en": "We confirm the EBITDA definition to apply in the quarter-end covenant calculation in the agreement."
+},
+{
+"id": "hrfinance-378",
+"field": "hrfinance",
+"term_ko": "이자보상배율",
+"term_en": "Interest Coverage Ratio",
+"english": "Interest Coverage Ratio",
+"aliases_ko": [
+"ICR",
+"인터레스트 커버리지"
+],
+"definition_ko": "이익으로 이자비용을 어느 정도 감당하는지 보는 비율. 일반적으로 영업이익 등을 이자비용과 비교한다.",
+"definition_en": "A ratio showing how well earnings can cover interest expense. It generally compares operating profit and the like with interest expense.",
+"example_ko": "이자보상배율의 분자 기준을 대출 약정과 맞춰요.",
+"example_en": "We align the numerator basis of the interest coverage ratio with the loan agreement."
+},
+{
+"id": "hrfinance-379",
+"field": "hrfinance",
+"term_ko": "DSCR",
+"term_en": "DSCR",
+"english": "Debt Service Coverage Ratio",
+"aliases_ko": [
+"부채상환비율",
+"원리금상환커버리지"
+],
+"definition_ko": "상환에 사용할 수 있는 현금흐름 등을 해당 기간 원리금 상환액과 비교한 비율.",
+"definition_en": "A ratio comparing cash flow available for repayment and the like with the principal and interest repayments for the period.",
+"example_ko": "DSCR을 계산할 때 약정상 가용 현금흐름의 범위를 확인해요.",
+"example_en": "When calculating DSCR, we confirm the scope of available cash flow per the agreement."
+},
+{
+"id": "hrfinance-380",
+"field": "hrfinance",
+"term_ko": "번레이트",
+"term_en": "Burn Rate",
+"english": "Burn Rate",
+"aliases_ko": [
+"현금소진율",
+"번 레이트"
+],
+"definition_ko": "사업 운영으로 현금을 소진하는 속도. 총 지출 기준과 현금 유입을 뺀 순소진 기준을 구분한다.",
+"definition_en": "The speed at which a business consumes cash in its operations. The gross-spending basis and the net basis (after cash inflows) are distinguished.",
+"example_ko": "월 순번레이트가 늘어난 원인을 채용과 설비 지출로 나눠요.",
+"example_en": "We split the cause of the rising monthly net burn rate into hiring and capital spending."
+},
+{
+"id": "hrfinance-381",
+"field": "hrfinance",
+"term_ko": "런웨이",
+"term_en": "Runway",
+"english": "Cash Runway",
+"aliases_ko": [
+"자금 소진까지 남은 기간",
+"런 웨이"
+],
+"definition_ko": "현재 가용 현금과 예상 현금 소진 속도를 기준으로 운영 가능한 기간을 추정한 값.",
+"definition_en": "An estimate of the period a business can operate based on currently available cash and the expected cash burn rate.",
+"example_ko": "신규 투자금 유입을 제외한 런웨이를 따로 계산해요.",
+"example_en": "We separately calculate runway excluding new investment inflows."
+},
+{
+"id": "hrfinance-382",
+"field": "hrfinance",
+"term_ko": "회계감사",
+"term_en": "External Audit",
+"english": "Financial Audit",
+"aliases_ko": [
+"외부감사"
+],
+"definition_ko": "독립적인 감사인이 재무제표가 적용 회계기준에 따라 작성됐는지 의견을 제시하기 위해 수행하는 절차.",
+"definition_en": "A procedure performed by an independent auditor to express an opinion on whether the financial statements are prepared in accordance with the applicable accounting standards.",
+"example_ko": "회계감사 요청 자료의 담당자와 제출일을 관리해요.",
+"example_en": "We manage the owners and submission dates of the audit request materials."
+},
+{
+"id": "hrfinance-383",
+"field": "hrfinance",
+"term_ko": "내부감사",
+"term_en": "Internal Audit",
+"english": "Internal Audit",
+"aliases_ko": [],
+"definition_ko": "조직의 위험관리·통제·업무 운영 등을 내부 관점에서 독립적으로 점검하는 활동.",
+"definition_en": "An activity that independently inspects the organization's risk management, controls, and operations from an internal perspective.",
+"example_ko": "내부감사에서 지급 승인 절차의 실제 운영을 확인해요.",
+"example_en": "In the internal audit, we check how the payment approval procedure actually operates."
+},
+{
+"id": "hrfinance-384",
+"field": "hrfinance",
+"term_ko": "내부통제",
+"term_en": "Internal Control",
+"english": "Internal Control",
+"aliases_ko": [],
+"definition_ko": "보고의 신뢰성·업무 효과·법규 준수 등을 위해 조직이 설계하고 운영하는 절차와 활동.",
+"definition_en": "Procedures and activities the organization designs and operates to ensure reliable reporting, effective operations, legal compliance, and the like.",
+"example_ko": "계좌 변경과 지급 승인을 분리해 내부통제를 강화해요.",
+"example_en": "We separate account changes and payment approval to strengthen internal control."
+},
+{
+"id": "hrfinance-385",
+"field": "hrfinance",
+"term_ko": "내부회계관리제도",
+"term_en": "Internal Control over Financial Reporting",
+"english": "Internal Control over Financial Reporting",
+"aliases_ko": [
+"ICFR",
+"내부회계"
+],
+"definition_ko": "회계정보의 신뢰성 확보를 위해 설계·운영하는 내부통제 체계.",
+"definition_en": "An internal control system designed and operated to ensure the reliability of accounting information.",
+"example_ko": "내부회계 담당자에게 통제 수행 증빙을 제출해요.",
+"example_en": "We ask the internal control staff to submit evidence of control performance."
+},
+{
+"id": "hrfinance-386",
+"field": "hrfinance",
+"term_ko": "업무분장",
+"term_en": "Segregation of Duties",
+"english": "Segregation of Duties",
+"aliases_ko": [
+"SoD",
+"직무분리"
+],
+"definition_ko": "오류나 부정을 줄이기 위해 서로 견제해야 하는 업무와 권한을 나누는 것.",
+"definition_en": "Dividing the tasks and authorities that must check one another to reduce errors or fraud.",
+"example_ko": "거래처 등록과 대금 지급 권한의 업무분장을 점검해요.",
+"example_en": "We inspect the segregation of duties for vendor registration and payment authority."
+},
+{
+"id": "hrfinance-387",
+"field": "hrfinance",
+"term_ko": "RCM",
+"term_en": "RCM",
+"english": "Risk Control Matrix",
+"aliases_ko": [
+"위험통제 매트릭스"
+],
+"definition_ko": "업무 위험과 이를 대응하는 통제 활동·담당자·증빙 등을 연결한 표.",
+"definition_en": "A table linking business risks with the control activities, owners, and evidence that address them.",
+"example_ko": "RCM에 통제 수행 주기와 검토 증빙을 적어요.",
+"example_en": "We write the control performance frequency and review evidence in the RCM."
+},
+{
+"id": "hrfinance-388",
+"field": "hrfinance",
+"term_ko": "워크스루",
+"term_en": "Walkthrough",
+"english": "Walkthrough",
+"aliases_ko": [
+"통제 워크스루"
+],
+"definition_ko": "거래 한 건의 흐름을 따라가며 절차와 통제 설계를 파악·확인하는 점검.",
+"definition_en": "An inspection that follows the flow of a single transaction to understand and confirm the procedure and control design.",
+"example_ko": "구매부터 지급까지 워크스루로 승인 지점을 확인해요.",
+"example_en": "We confirm the approval points from purchase to payment via a walkthrough."
+},
+{
+"id": "hrfinance-389",
+"field": "hrfinance",
+"term_ko": "감사추적",
+"term_en": "Audit Trail",
+"english": "Audit Trail",
+"aliases_ko": [
+"오딧 트레일",
+"변경 이력"
+],
+"definition_ko": "누가 언제 어떤 거래나 정보를 생성·변경·승인했는지 추적할 수 있는 기록.",
+"definition_en": "A record that allows tracing who created, changed, or approved which transaction or information, and when.",
+"example_ko": "전표 수정의 감사추적이 남는지 시스템에서 확인해요.",
+"example_en": "We check in the system whether an audit trail remains for voucher edits."
+},
+{
+"id": "hrfinance-390",
+"field": "hrfinance",
+"term_ko": "PBC",
+"term_en": "PBC",
+"english": "Prepared by Client",
+"aliases_ko": [
+"감사 요청자료",
+"PBC 리스트"
+],
+"definition_ko": "감사인이 검토할 수 있도록 회사가 준비하는 자료나 그 요청 목록을 뜻하는 실무 표기.",
+"definition_en": "A practical notation for the materials a company prepares for the auditor's review, or the list of such requests.",
+"example_ko": "PBC 리스트의 미제출 항목과 담당자를 매일 갱신해요.",
+"example_en": "We update the outstanding items and owners on the PBC list daily."
+},
+{
+"id": "hrfinance-391",
+"field": "hrfinance",
+"term_ko": "조회서",
+"term_en": "Confirmation Letter",
+"english": "Confirmation Request",
+"aliases_ko": [
+"채권채무 조회서",
+"잔액조회서"
+],
+"definition_ko": "거래 상대방이나 금융기관 등에 잔액·거래 사실을 확인받기 위한 문서.",
+"definition_en": "A document to have a counterparty, financial institution, and the like confirm balances and transaction facts.",
+"example_ko": "매출채권 조회서의 회신 차이를 거래 내역으로 설명해요.",
+"example_en": "We explain the discrepancies in the trade receivables confirmation replies using the transaction details."
+},
+{
+"id": "hrfinance-392",
+"field": "hrfinance",
+"term_ko": "미착품",
+"term_en": "Goods in Transit",
+"english": "Goods in Transit",
+"aliases_ko": [],
+"definition_ko": "운송 중인 매입 물품. 자산 인식 여부는 소유·통제 이전 조건 등을 보고 판단한다.",
+"definition_en": "Purchased goods in transit. Whether to recognize them as assets is judged based on conditions such as the transfer of ownership or control.",
+"example_ko": "결산일의 미착품을 인도 조건과 운송 서류로 확인해요.",
+"example_en": "We confirm goods in transit at the closing date using the delivery terms and shipping documents."
+},
+{
+"id": "hrfinance-393",
+"field": "hrfinance",
+"term_ko": "미청구매출",
+"term_en": "Unbilled Revenue",
+"english": "Unbilled Revenue",
+"aliases_ko": [
+"미청구 매출"
+],
+"definition_ko": "수익을 인식했지만 아직 청구서를 발행하지 않은 금액을 부르는 실무 표현.",
+"definition_en": "A practical expression for amounts for which revenue has been recognized but an invoice has not yet been issued.",
+"example_ko": "프로젝트별 미청구매출의 청구 예정일을 확인해요.",
+"example_en": "We check the scheduled billing date of unbilled revenue by project."
+},
+{
+"id": "hrfinance-394",
+"field": "hrfinance",
+"term_ko": "계약자산",
+"term_en": "Contract Asset",
+"english": "Contract Asset",
+"aliases_ko": [],
+"definition_ko": "수익을 인식한 대가에 대한 권리가 단순한 시간 경과 외의 조건에 달려 있는 자산.",
+"definition_en": "An asset where the right to consideration for recognized revenue depends on conditions other than merely the passage of time.",
+"example_ko": "검수 조건이 남은 대가는 계약자산과 채권의 구분을 검토해요.",
+"example_en": "For consideration with an outstanding acceptance condition, we review the distinction between contract asset and receivable."
+},
+{
+"id": "hrfinance-395",
+"field": "hrfinance",
+"term_ko": "계약부채",
+"term_en": "Contract Liability",
+"english": "Contract Liability",
+"aliases_ko": [],
+"definition_ko": "고객에게 대가를 받았거나 청구할 권리가 생겼지만 아직 재화·용역을 제공해야 하는 의무.",
+"definition_en": "An obligation to provide goods or services for which consideration has been received from the customer or has become billable.",
+"example_ko": "선수 대금에 대응하는 계약부채를 용역 제공 시점에 맞춰 검토해요.",
+"example_en": "We review the contract liability corresponding to advance payments to match the service provision timing."
+},
+{
+"id": "hrfinance-396",
+"field": "hrfinance",
+"term_ko": "이연수익",
+"term_en": "Deferred Revenue",
+"english": "Deferred Revenue",
+"aliases_ko": [
+"선수수익"
+],
+"definition_ko": "받거나 청구한 대가 중 아직 수익으로 인식하지 않은 금액을 가리키는 표현.",
+"definition_en": "An expression for the portion of consideration received or billed that has not yet been recognized as revenue.",
+"example_ko": "연간 유지보수료의 이연수익을 서비스 제공 기간에 맞춰 인식해요.",
+"example_en": "We recognize the deferred revenue from the annual maintenance fee over the service provision period."
+},
+{
+"id": "hrfinance-397",
+"field": "hrfinance",
+"term_ko": "자산화",
+"term_en": "Capitalization",
+"english": "Capitalization",
+"aliases_ko": [
+"자본화"
+],
+"definition_ko": "지출을 즉시 비용으로 처리하지 않고 적용 기준에 따라 자산으로 인식하는 것.",
+"definition_en": "Recognizing expenditure as an asset according to the applicable criteria rather than immediately expensing it.",
+"example_ko": "개발비 지출이 자산화 요건을 충족하는지 검토해요.",
+"example_en": "We review whether the development cost spending meets the criteria for capitalization."
+},
+{
+"id": "hrfinance-398",
+"field": "hrfinance",
+"term_ko": "비용화",
+"term_en": "Expensing",
+"english": "Expensing",
+"aliases_ko": [
+"비용 처리"
+],
+"definition_ko": "지출 등을 자산으로 남기지 않고 해당 기간의 비용으로 인식하는 처리.",
+"definition_en": "The treatment of recognizing expenditure and the like as an expense of the relevant period rather than keeping it as an asset.",
+"example_ko": "일반 유지보수 지출은 자산화 대상과 비용화 대상을 구분해요.",
+"example_en": "For general maintenance spending, we distinguish items to be capitalized from items to be expensed."
+},
+{
+"id": "hrfinance-399",
+"field": "hrfinance",
+"term_ko": "미착미지급",
+"term_en": "GR/IR",
+"english": "GR/IR",
+"aliases_ko": [
+"GRIR",
+"입고송장차이"
+],
+"definition_ko": "입고와 매입 송장의 시점·금액 차이를 임시로 관리하는 ERP 계정 또는 처리 영역.",
+"definition_en": "An ERP account or processing area that temporarily manages timing and amount differences between goods receipt and the purchase invoice.",
+"example_ko": "GR/IR 잔액에서 입고됐지만 송장이 오지 않은 건을 확인해요.",
+"example_en": "In the GR/IR balance, we check the items received but for which no invoice has arrived."
+},
+{
+"id": "hrfinance-400",
+"field": "hrfinance",
+"term_ko": "3자 대사",
+"term_en": "Three-way Match",
+"english": "Three-way Matching",
+"aliases_ko": [
+"3-way match",
+"쓰리웨이 매칭"
+],
+"definition_ko": "구매 주문·입고 또는 검수·매입 송장의 수량과 금액 등을 대조하는 통제.",
+"definition_en": "A control that reconciles the quantities and amounts across the purchase order, goods receipt or acceptance, and the purchase invoice.",
+"example_ko": "지급 전에 3자 대사로 주문보다 과다 청구된 건을 찾아요.",
+"example_en": "Before payment, we use the three-way match to find items billed in excess of the order."
+},
+{
+"id": "hrfinance-401",
+"field": "hrfinance",
+"term_ko": "계정 매핑",
+"term_en": "Account Mapping",
+"english": "Account Mapping",
+"aliases_ko": [],
+"definition_ko": "서로 다른 계정 체계를 보고·연결 기준 계정과 연결하는 작업.",
+"definition_en": "The task of linking different account structures to the reporting or consolidation base accounts.",
+"example_ko": "해외 법인 원장 계정을 그룹 보고 계정에 매핑해요.",
+"example_en": "We map the overseas subsidiary's ledger accounts to the group reporting accounts."
+},
+{
+"id": "hrfinance-402",
+"field": "hrfinance",
+"term_ko": "연결 패키지",
+"term_en": "Consolidation Package",
+"english": "Consolidation Package",
+"aliases_ko": [
+"리포팅 패키지",
+"Reporting Package"
+],
+"definition_ko": "연결결산에 필요한 재무 수치·내부거래·주석 자료 등을 정해진 형식으로 모은 자료.",
+"definition_en": "A set of materials gathering the financial figures, intercompany transactions, notes, and the like needed for consolidation closing in a defined format.",
+"example_ko": "자회사 연결 패키지에 내부거래 상대방을 표시해요.",
+"example_en": "We indicate the intercompany counterparty in the subsidiary's consolidation package."
+},
+{
+"id": "hrfinance-403",
+"field": "hrfinance",
+"term_ko": "별도재무제표",
+"term_en": "Separate Financial Statements",
+"english": "Separate Financial Statements",
+"aliases_ko": [
+"별도 재무제표"
+],
+"definition_ko": "지배기업 등이 자신의 투자 등을 정해진 기준으로 표시하는 개별 기업 관점의 재무제표.",
+"definition_en": "Financial statements from an individual-entity perspective in which a parent and the like present their investments and the like on a defined basis.",
+"example_ko": "배당 검토 자료에서 연결과 별도재무제표의 이익을 구분해요.",
+"example_en": "In the dividend review materials, we distinguish profit on a consolidated basis from the separate financial statements."
+},
+{
+"id": "hrfinance-404",
+"field": "hrfinance",
+"term_ko": "연결재무제표",
+"term_en": "Consolidated Financial Statements",
+"english": "Consolidated Financial Statements",
+"aliases_ko": [
+"연결 재무제표"
+],
+"definition_ko": "지배기업과 종속기업을 하나의 경제적 실체처럼 표시한 재무제표.",
+"definition_en": "Financial statements that present a parent and its subsidiaries as if they were a single economic entity.",
+"example_ko": "연결재무제표를 만들 때 그룹 내부 매출을 제거해요.",
+"example_en": "When preparing the consolidated financial statements, we eliminate intra-group sales."
+},
+{
+"id": "hrfinance-405",
+"field": "hrfinance",
+"term_ko": "영업권",
+"term_en": "Goodwill",
+"english": "Goodwill",
+"aliases_ko": [],
+"definition_ko": "사업결합에서 인수 대가 등과 식별 가능한 순자산 공정가치의 차이로 인식되는 자산.",
+"definition_en": "An asset recognized in a business combination as the difference between the consideration transferred and the like and the fair value of the identifiable net assets.",
+"example_ko": "인수 후 영업권 손상 검토에 사용할 사업 전망을 정리해요.",
+"example_en": "We organize the business outlook to be used in the post-acquisition goodwill impairment review."
+},
+{
+"id": "hrfinance-406",
+"field": "hrfinance",
+"term_ko": "차대 일치",
+"term_en": "Debit-Credit Balancing",
+"english": "Debits Equal Credits",
+"aliases_ko": [
+"차대 맞추기"
+],
+"definition_ko": "복식부기에서 차변과 대변의 합계가 일치하는 상태. 금액이 맞아도 계정이나 귀속 오류는 남을 수 있다.",
+"definition_en": "A state in which the totals of debits and credits agree in double-entry bookkeeping. Even if the amounts match, account or attribution errors may remain.",
+"example_ko": "차대 일치 확인 뒤 계정과 비용 귀속 부서를 다시 검토해요.",
+"example_en": "After confirming the debits and credits balance, we re-review the account and the department the expense is attributed to."
+},
+{
+"id": "hrfinance-407",
+"field": "hrfinance",
+"term_ko": "FTE",
+"term_en": "FTE",
+"english": "Full-time Equivalent",
+"aliases_ko": [
+"상근환산인원",
+"전일제환산인원",
+"에프티이"
+],
+"definition_ko": "근로시간을 전일제 기준으로 환산한 인원 단위. 사람 수인 헤드카운트와 다를 수 있다.",
+"definition_en": "A headcount unit converting working hours to a full-time basis. It can differ from headcount, which is the number of people.",
+"example_ko": "주 40시간 기준에서 주 20시간 근무자 두 명은 합계 1 FTE로 계산해요.",
+"example_en": "On a 40-hour-per-week basis, two people working 20 hours a week count as 1 FTE in total."
+},
+{
+"id": "hrfinance-408",
+"field": "hrfinance",
+"term_ko": "TA",
+"term_en": "TA",
+"english": "Talent Acquisition",
+"aliases_ko": [
+"탤런트 애퀴지션",
+"인재 확보"
+],
+"definition_ko": "필요 인재를 찾고 관계를 만들며 채용 전략과 선발 과정을 운영하는 업무 영역.",
+"definition_en": "The work area of finding needed talent, building relationships, and running the hiring strategy and selection process.",
+"example_ko": "TA팀에서 하반기 핵심 직무의 소싱 전략을 준비해요.",
+"example_en": "The TA team is preparing the sourcing strategy for key roles in the second half."
+},
+{
+"id": "hrfinance-409",
+"field": "hrfinance",
+"term_ko": "TM",
+"term_en": "TM",
+"english": "Talent Management",
+"aliases_ko": [
+"탤런트 매니지먼트",
+"인재관리"
+],
+"definition_ko": "구성원의 역량·성과·경력·승계 등을 연계해 인재를 육성하고 운영하는 활동.",
+"definition_en": "An activity that develops and manages talent by linking members' competencies, performance, careers, succession, and the like.",
+"example_ko": "TM 관점에서 핵심 역할의 후임 후보와 성장 과제를 정리해요.",
+"example_en": "From a TM perspective, we organize the successor candidates and growth tasks for key roles."
+},
+{
+"id": "hrfinance-410",
+"field": "hrfinance",
+"term_ko": "L&D",
+"term_en": "L&D",
+"english": "Learning and Development",
+"aliases_ko": [
+"러닝 앤 디벨롭먼트",
+"교육 개발"
+],
+"definition_ko": "교육과 학습 경험을 설계해 구성원의 역량과 업무 수행을 발전시키는 영역.",
+"definition_en": "The area of designing education and learning experiences to develop members' competencies and job performance.",
+"example_ko": "L&D 담당자가 교육 수료율과 실제 업무 적용을 함께 점검해요.",
+"example_en": "The L&D staff check training completion rates together with actual on-the-job application."
+},
+{
+"id": "hrfinance-411",
+"field": "hrfinance",
+"term_ko": "OD",
+"term_en": "OD",
+"english": "Organization Development",
+"aliases_ko": [
+"조직개발"
+],
+"definition_ko": "조직의 구조·문화·일하는 방식 등을 개선해 효과성을 높이는 활동.",
+"definition_en": "An activity that improves the organization's structure, culture, ways of working, and the like to raise effectiveness.",
+"example_ko": "조직개발 과제로 팀 사이 협업 절차를 진단해요.",
+"example_en": "As an organizational development task, we diagnose the collaboration procedures between teams."
+},
+{
+"id": "hrfinance-412",
+"field": "hrfinance",
+"term_ko": "ER",
+"term_en": "ER",
+"english": "Employee Relations",
+"aliases_ko": [
+"임직원 관계",
+"직원관계"
+],
+"definition_ko": "회사와 구성원 사이의 근로관계·고충·갈등 등을 다루는 인사 영역.",
+"definition_en": "The HR area that handles the employment relationship, grievances, conflicts, and the like between the company and its members.",
+"example_ko": "ER 담당자가 고충 접수 후 사실 확인 절차를 안내해요.",
+"example_en": "The ER staff guide the fact-finding procedure after receiving a grievance."
+},
+{
+"id": "hrfinance-413",
+"field": "hrfinance",
+"term_ko": "HCM",
+"term_en": "HCM",
+"english": "Human Capital Management",
+"aliases_ko": [
+"인적자본관리",
+"에이치씨엠"
+],
+"definition_ko": "인력 계획·채용·급여·성과·육성 등을 포괄해 인적자원을 관리하는 접근이나 시스템 범주.",
+"definition_en": "An approach or system category that manages human resources, encompassing workforce planning, hiring, payroll, performance, development, and the like.",
+"example_ko": "HCM 도입 범위에 급여와 인재관리를 어디까지 포함할지 정해요.",
+"example_en": "We decide how far to include payroll and talent management in the HCM implementation scope."
+},
+{
+"id": "hrfinance-414",
+"field": "hrfinance",
+"term_ko": "HRMS",
+"term_en": "HRMS",
+"english": "Human Resource Management System",
+"aliases_ko": [
+"인사관리시스템",
+"에이치알엠에스"
+],
+"definition_ko": "인사 정보·급여·근태 등 인사 업무를 관리하는 시스템을 일컫는 표현. HRIS·HCM과의 범위 구분은 공급사마다 다르다.",
+"definition_en": "A term for the system that manages HR work such as personnel information, payroll, and attendance. The scope distinction from HRIS and HCM varies by vendor.",
+"example_ko": "HRMS 연동 전에 사번과 조직 코드의 기준을 맞춰요.",
+"example_en": "Before the HRMS integration, we align the standards for employee IDs and organization codes."
+},
+{
+"id": "hrfinance-415",
+"field": "hrfinance",
+"term_ko": "피플 애널리틱스",
+"term_en": "People Analytics",
+"english": "People Analytics",
+"aliases_ko": [
+"HR Analytics",
+"인사 데이터 분석"
+],
+"definition_ko": "인사 데이터를 분석해 인력 운영·조직 경험·인사 의사결정을 지원하는 활동.",
+"definition_en": "An activity that analyzes HR data to support workforce operations, organizational experience, and HR decision-making.",
+"example_ko": "피플 애널리틱스로 조직별 이직 추이를 확인하되 개인 정보 접근을 제한해요.",
+"example_en": "We use people analytics to check turnover trends by organization while restricting access to personal data."
+},
+{
+"id": "hrfinance-416",
+"field": "hrfinance",
+"term_ko": "타임 투 하이어",
+"term_en": "Time to Hire",
+"english": "Time to Hire",
+"aliases_ko": [
+"TTH",
+"채용 전형 소요기간"
+],
+"definition_ko": "후보자가 채용 절차에 들어온 시점부터 오퍼를 수락할 때까지 걸린 기간.",
+"definition_en": "The period from when a candidate enters the hiring process to when they accept the offer.",
+"example_ko": "타임 투 하이어와 채용 요청부터의 충원 기간을 나눠 집계해요.",
+"example_en": "We aggregate time to hire separately from the time to fill since the hiring request."
+},
+{
+"id": "hrfinance-417",
+"field": "hrfinance",
+"term_ko": "채용 퍼널",
+"term_en": "Recruiting Funnel",
+"english": "Recruiting Funnel",
+"aliases_ko": [
+"리크루팅 퍼널"
+],
+"definition_ko": "지원·서류·면접·오퍼·입사 등 채용 단계별 후보자 수와 전환을 보는 구조.",
+"definition_en": "A structure for viewing candidate counts and conversions by hiring stage, such as application, screening, interview, offer, and joining.",
+"example_ko": "채용 퍼널에서 면접 이후 이탈이 큰 구간을 확인해요.",
+"example_en": "In the recruiting funnel, we check the stage with large drop-off after interviews."
+},
+{
+"id": "hrfinance-418",
+"field": "hrfinance",
+"term_ko": "채용 전환율",
+"term_en": "Hiring Conversion Rate",
+"english": "Recruiting Conversion Rate",
+"aliases_ko": [
+"전형 전환율"
+],
+"definition_ko": "한 채용 단계의 후보자 중 다음 단계로 이동한 비율.",
+"definition_en": "The ratio of candidates at one hiring stage who move to the next stage.",
+"example_ko": "서류에서 면접으로 가는 채용 전환율을 직무별로 비교해요.",
+"example_en": "We compare the conversion rate from application to interview by role."
+},
+{
+"id": "hrfinance-419",
+"field": "hrfinance",
+"term_ko": "후보자 경험",
+"term_en": "Candidate Experience",
+"english": "Candidate Experience",
+"aliases_ko": [
+"지원자 경험"
+],
+"definition_ko": "공고 탐색부터 전형 결과 안내까지 후보자가 접하는 채용 과정의 경험.",
+"definition_en": "The hiring-process experience a candidate encounters, from searching the posting to being informed of the outcome.",
+"example_ko": "탈락 안내 지연이 후보자 경험에 미치는 영향을 확인해요.",
+"example_en": "We check the impact of delayed rejection notices on the candidate experience."
+},
+{
+"id": "hrfinance-420",
+"field": "hrfinance",
+"term_ko": "채용 브랜딩",
+"term_en": "Recruitment Branding",
+"english": "Employer Branding",
+"aliases_ko": [
+"고용주 브랜딩"
+],
+"definition_ko": "일할 곳으로서 회사의 가치와 경험을 알리는 활동.",
+"definition_en": "An activity that communicates the company's value and experience as a place to work.",
+"example_ko": "현직자의 실제 업무 경험을 바탕으로 채용 브랜딩 콘텐츠를 만들어요.",
+"example_en": "We create recruitment branding content based on current employees' actual work experience."
+},
+{
+"id": "hrfinance-421",
+"field": "hrfinance",
+"term_ko": "EVP",
+"term_en": "EVP",
+"english": "Employee Value Proposition",
+"aliases_ko": [
+"직원 가치 제안",
+"고용 가치 제안"
+],
+"definition_ko": "조직이 구성원에게 제공하는 보상·성장·문화·업무 경험 등의 가치 제안.",
+"definition_en": "The value proposition an organization offers its members, such as compensation, growth, culture, and work experience.",
+"example_ko": "EVP에 적은 성장 기회가 실제 제도로 뒷받침되는지 확인해요.",
+"example_en": "We check whether the growth opportunities stated in the EVP are backed by actual programs."
+},
+{
+"id": "hrfinance-422",
+"field": "hrfinance",
+"term_ko": "이직률",
+"term_en": "Turnover Rate",
+"english": "Employee Turnover Rate",
+"aliases_ko": [
+"Turnover Rate",
+"퇴사율"
+],
+"definition_ko": "일정 기간의 퇴사 인원을 평균 재직 인원 등 정한 기준과 비교한 비율.",
+"definition_en": "The ratio of departures over a period compared with a defined basis such as average headcount.",
+"example_ko": "자발적 퇴사와 비자발적 퇴사를 구분해 이직률을 보고해요.",
+"example_en": "We report the turnover rate distinguishing voluntary from involuntary departures."
+},
+{
+"id": "hrfinance-423",
+"field": "hrfinance",
+"term_ko": "자발적 이직",
+"term_en": "Voluntary Turnover",
+"english": "Voluntary Turnover",
+"aliases_ko": [
+"자발적 퇴사"
+],
+"definition_ko": "구성원이 자신의 의사로 회사를 떠나는 유형의 이직.",
+"definition_en": "A type of turnover where a member leaves the company of their own will.",
+"example_ko": "자발적 이직의 사유를 익명화해 조직 개선 과제로 정리해요.",
+"example_en": "We anonymize the reasons for voluntary turnover and organize them into organizational improvement tasks."
+},
+{
+"id": "hrfinance-424",
+"field": "hrfinance",
+"term_ko": "비자발적 이직",
+"term_en": "Involuntary Turnover",
+"english": "Involuntary Turnover",
+"aliases_ko": [
+"비자발적 퇴사"
+],
+"definition_ko": "해고 등 본인의 자유로운 선택 외의 사유로 고용이 종료되는 유형.",
+"definition_en": "A type where employment ends for reasons other than the person's free choice, such as dismissal.",
+"example_ko": "비자발적 이직 통계는 집계 대상과 분류 기준을 먼저 맞춰요.",
+"example_en": "For involuntary turnover statistics, we first align the population and classification criteria."
+},
+{
+"id": "hrfinance-425",
+"field": "hrfinance",
+"term_ko": "조기 퇴사",
+"term_en": "Early Attrition",
+"english": "Early Attrition",
+"aliases_ko": [
+"조기 이탈"
+],
+"definition_ko": "입사 후 회사가 정한 짧은 기간 안에 퇴사하는 현상.",
+"definition_en": "A phenomenon where a person leaves within a short period defined by the company after joining.",
+"example_ko": "입사 3개월 이내 조기 퇴사를 온보딩 과정과 함께 살펴요.",
+"example_en": "We examine early attrition within three months of joining alongside the onboarding process."
+},
+{
+"id": "hrfinance-426",
+"field": "hrfinance",
+"term_ko": "핵심인재",
+"term_en": "Key Talent",
+"english": "Key Talent",
+"aliases_ko": [
+"핵심 인재"
+],
+"definition_ko": "사업 성과와 향후 역량에 중요한 기여를 하는 인재를 회사 기준으로 정한 집단.",
+"definition_en": "A group defined by the company's criteria as talent that makes an important contribution to business performance and future capabilities.",
+"example_ko": "핵심인재 선정 기준과 육성 계획을 함께 검토해요.",
+"example_en": "We review the key talent selection criteria together with the development plan."
+},
+{
+"id": "hrfinance-427",
+"field": "hrfinance",
+"term_ko": "하이포텐셜",
+"term_en": "High Potential",
+"english": "High Potential",
+"aliases_ko": [
+"HiPo",
+"하이 포텐셜"
+],
+"definition_ko": "미래에 더 큰 책임과 역할을 수행할 가능성이 높다고 판단한 인재.",
+"definition_en": "Talent judged highly likely to take on greater responsibilities and roles in the future.",
+"example_ko": "현재 성과와 하이포텐셜 판단을 같은 점수로 취급하지 않아요.",
+"example_en": "We do not treat current performance and the high-potential judgment as the same score."
+},
+{
+"id": "hrfinance-428",
+"field": "hrfinance",
+"term_ko": "나인박스",
+"term_en": "Nine-box",
+"english": "Nine-box Grid",
+"aliases_ko": [
+"9-box",
+"9박스"
+],
+"definition_ko": "성과와 잠재력 등 두 축을 각각 세 단계로 나눠 인재를 논의하는 도구.",
+"definition_en": "A tool for discussing talent by dividing two axes, such as performance and potential, each into three levels.",
+"example_ko": "나인박스 배치를 확정하기 전에 평가 근거를 비교해요.",
+"example_en": "Before finalizing the nine-box placement, we compare the evaluation evidence."
+},
+{
+"id": "hrfinance-429",
+"field": "hrfinance",
+"term_ko": "스팬 오브 컨트롤",
+"term_en": "Span of Control",
+"english": "Span of Control",
+"aliases_ko": [
+"관리 범위",
+"통솔 범위"
+],
+"definition_ko": "한 관리자가 직접 관리하는 구성원의 범위나 인원 수.",
+"definition_en": "The range or number of members a single manager directly manages.",
+"example_ko": "업무 복잡도와 관리자 역할을 고려해 스팬 오브 컨트롤을 검토해요.",
+"example_en": "We review the span of control considering work complexity and the manager's role."
+},
+{
+"id": "hrfinance-430",
+"field": "hrfinance",
+"term_ko": "결원율",
+"term_en": "Vacancy Rate",
+"english": "Vacancy Rate",
+"aliases_ko": [],
+"definition_ko": "승인된 정원 중 채워지지 않은 자리의 비율.",
+"definition_en": "The ratio of positions not filled among the approved headcount.",
+"example_ko": "결원율이 높은 조직은 업무량과 충원 우선순위를 함께 점검해요.",
+"example_en": "For organizations with a high vacancy rate, we jointly check workload and staffing priorities."
+},
+{
+"id": "hrfinance-431",
+"field": "hrfinance",
+"term_ko": "인당 매출",
+"term_en": "Revenue per Employee",
+"english": "Revenue per Employee",
+"aliases_ko": [
+"인당 생산성"
+],
+"definition_ko": "매출을 평균 인원 등 정한 인력 기준으로 나눈 지표.",
+"definition_en": "An indicator dividing sales by a defined workforce basis such as average headcount.",
+"example_ko": "외주 인력 포함 여부를 맞춘 뒤 인당 매출을 비교해요.",
+"example_en": "We compare revenue per employee after aligning whether outsourced workers are included."
+},
+{
+"id": "hrfinance-432",
+"field": "hrfinance",
+"term_ko": "컴파레시오",
+"term_en": "Compa-ratio",
+"english": "Compa-ratio",
+"aliases_ko": [
+"컴파 레이시오",
+"컴퍼레이쇼",
+"컴파레이쇼",
+"컴파",
+"Compa Ratio"
+],
+"definition_ko": "개인 급여를 해당 급여 구간의 중간값 등 정한 기준 급여로 나눈 비율.",
+"definition_en": "A ratio dividing an individual's pay by a defined reference pay such as the midpoint of the relevant pay range.",
+"example_ko": "승급 검토 때 컴파레시오와 직무·성과를 함께 살펴요.",
+"example_en": "In promotion reviews, we examine the compa-ratio together with the role and performance."
+},
+{
+"id": "hrfinance-433",
+"field": "hrfinance",
+"term_ko": "급여 구간 침투율",
+"term_en": "Range Penetration",
+"english": "Range Penetration",
+"aliases_ko": [
+"레인지 페네트레이션",
+"레인지 포지션"
+],
+"definition_ko": "급여가 급여밴드의 최저값부터 최고값 사이에서 어느 위치에 있는지 나타낸 비율.",
+"definition_en": "A ratio showing where pay sits between the minimum and maximum of the pay band.",
+"example_ko": "급여 구간 침투율을 볼 때 적용 밴드의 변경 여부를 확인해요.",
+"example_en": "When viewing range penetration, we check whether the applicable band has changed."
+},
+{
+"id": "hrfinance-434",
+"field": "hrfinance",
+"term_ko": "메리트 인상",
+"term_en": "Merit Increase",
+"english": "Merit Increase",
+"aliases_ko": [
+"성과 기반 인상"
+],
+"definition_ko": "개인의 성과나 기여 등을 기준으로 기본급을 올리는 것.",
+"definition_en": "Raising base pay based on individual performance, contribution, and the like.",
+"example_ko": "메리트 인상 예산을 배분하기 전에 평가 기준을 맞춰요.",
+"example_en": "Before allocating the merit increase budget, we align the evaluation criteria."
+},
+{
+"id": "hrfinance-435",
+"field": "hrfinance",
+"term_ko": "메리트 매트릭스",
+"term_en": "Merit Matrix",
+"english": "Merit Matrix",
+"aliases_ko": [
+"연봉 인상 매트릭스"
+],
+"definition_ko": "성과 등급·급여 위치 등의 조합으로 인상률 범위를 안내하는 표.",
+"definition_en": "A table that guides increase-rate ranges by combinations such as performance rating and pay position.",
+"example_ko": "메리트 매트릭스의 예외 승인 기준도 함께 정해요.",
+"example_en": "We also set the exception approval criteria for the merit matrix."
+},
+{
+"id": "hrfinance-436",
+"field": "hrfinance",
+"term_ko": "STI",
+"term_en": "STI",
+"english": "Short-term Incentive",
+"aliases_ko": [
+"단기 인센티브"
+],
+"definition_ko": "연간 등 비교적 짧은 성과 기간을 기준으로 지급하는 보상.",
+"definition_en": "Compensation paid based on a relatively short performance period, such as a year.",
+"example_ko": "STI의 회사 성과와 개인 성과 반영 비중을 확인해요.",
+"example_en": "We confirm the weighting of company performance versus individual performance in the STI."
+},
+{
+"id": "hrfinance-437",
+"field": "hrfinance",
+"term_ko": "LTI",
+"term_en": "LTI",
+"english": "Long-term Incentive",
+"aliases_ko": [
+"장기 인센티브"
+],
+"definition_ko": "수년에 걸친 성과나 재직 등 장기 조건과 연계하는 보상.",
+"definition_en": "Compensation linked to long-term conditions such as performance over several years or continued service.",
+"example_ko": "LTI의 성과 측정 기간과 지급 시점을 구분해 설명해요.",
+"example_en": "We distinguish the performance measurement period and the payment timing of the LTI."
+},
+{
+"id": "hrfinance-438",
+"field": "hrfinance",
+"term_ko": "사이닝 보너스",
+"term_en": "Signing Bonus",
+"english": "Signing Bonus",
+"aliases_ko": [
+"사인온 보너스",
+"Sign-on Bonus",
+"입사 보너스"
+],
+"definition_ko": "입사 수락이나 합류를 조건으로 제공하는 일회성 보상.",
+"definition_en": "A one-time compensation provided on condition of accepting an offer or joining.",
+"example_ko": "사이닝 보너스의 지급 시점과 반환 조건을 서면으로 확인해요.",
+"example_en": "We confirm in writing the payment timing and clawback conditions of the signing bonus."
+},
+{
+"id": "hrfinance-439",
+"field": "hrfinance",
+"term_ko": "리텐션 보너스",
+"term_en": "Retention Bonus",
+"english": "Retention Bonus",
+"aliases_ko": [
+"재직 유지 보너스"
+],
+"definition_ko": "정해진 기간의 재직 등 유지 조건을 충족하면 주는 보상.",
+"definition_en": "Compensation given on meeting a retention condition such as a set period of service.",
+"example_ko": "리텐션 보너스가 기본급 인상과 별개임을 안내해요.",
+"example_en": "We explain that the retention bonus is separate from a base pay increase."
+},
+{
+"id": "hrfinance-440",
+"field": "hrfinance",
+"term_ko": "스톡옵션",
+"term_en": "Stock Option",
+"english": "Stock Option",
+"aliases_ko": [
+"주식매수선택권"
+],
+"definition_ko": "정해진 조건과 가격으로 회사 주식 등을 살 수 있는 권리.",
+"definition_en": "The right to buy company shares and the like at a set condition and price.",
+"example_ko": "스톡옵션의 부여 수량과 행사 가격을 보상 안내서에 구분해요.",
+"example_en": "We distinguish the number of options granted and the exercise price in the compensation statement."
+},
+{
+"id": "hrfinance-441",
+"field": "hrfinance",
+"term_ko": "RSU",
+"term_en": "RSU",
+"english": "Restricted Stock Unit",
+"aliases_ko": [
+"양도제한조건부주식단위",
+"제한조건부 주식 단위"
+],
+"definition_ko": "정해진 재직·성과 등 조건 충족 후 주식이나 그에 상응하는 가치를 받을 수 있도록 설계한 보상 단위.",
+"definition_en": "A compensation unit designed so that, after meeting set service or performance conditions, the recipient receives shares or equivalent value.",
+"example_ko": "RSU의 부여일과 실제 권리 확정 일정을 따로 설명해요.",
+"example_en": "We separately explain the grant date and the actual vesting schedule of the RSU."
+},
+{
+"id": "hrfinance-442",
+"field": "hrfinance",
+"term_ko": "베스팅",
+"term_en": "Vesting",
+"english": "Vesting",
+"aliases_ko": [
+"권리 확정",
+"베스팅 일정"
+],
+"definition_ko": "주식 보상 등에서 재직·성과 조건에 따라 권리가 확정되는 과정.",
+"definition_en": "The process by which rights become fixed according to service or performance conditions in stock compensation and the like.",
+"example_ko": "퇴사일 기준으로 베스팅된 수량을 확인해요.",
+"example_en": "We check the number vested as of the departure date."
+},
+{
+"id": "hrfinance-443",
+"field": "hrfinance",
+"term_ko": "클리프",
+"term_en": "Cliff",
+"english": "Cliff Vesting",
+"aliases_ko": [
+"클리프 기간"
+],
+"definition_ko": "일정 기간이 지나기 전에는 권리가 확정되지 않고 해당 시점부터 정해진 권리가 확정되는 보상 조건.",
+"definition_en": "A compensation condition where no rights vest before a set period elapses, with defined rights vesting from that point.",
+"example_ko": "1년 클리프가 지난 뒤 적용되는 베스팅 방식을 확인해요.",
+"example_en": "We confirm the vesting method applied after the 1-year cliff."
+},
+{
+"id": "hrfinance-444",
+"field": "hrfinance",
+"term_ko": "그랜트",
+"term_en": "Grant",
+"english": "Grant",
+"aliases_ko": [
+"보상 부여"
+],
+"definition_ko": "주식 보상 등을 대상자에게 정해진 조건으로 부여하는 것.",
+"definition_en": "Awarding stock compensation and the like to the recipient under set conditions.",
+"example_ko": "그랜트 승인일과 베스팅 시작일이 다른지 확인해요.",
+"example_en": "We check whether the grant approval date differs from the vesting start date."
+},
+{
+"id": "hrfinance-445",
+"field": "hrfinance",
+"term_ko": "행사가격",
+"term_en": "Exercise Price",
+"english": "Exercise Price",
+"aliases_ko": [
+"Strike Price",
+"스트라이크 프라이스"
+],
+"definition_ko": "스톡옵션 등 권리를 행사할 때 주식을 사기 위해 지불하는 정해진 가격.",
+"definition_en": "The set price paid to buy shares when exercising a right such as a stock option.",
+"example_ko": "행사가격과 현재 주식 가치는 별도로 안내해요.",
+"example_en": "We communicate the exercise price and the current share value separately."
+},
+{
+"id": "hrfinance-446",
+"field": "hrfinance",
+"term_ko": "총급여",
+"term_en": "Gross Pay",
+"english": "Gross Pay",
+"aliases_ko": [
+"그로스 급여",
+"세전 급여"
+],
+"definition_ko": "급여 계산에서 공제 전 지급액을 가리키는 표현. 세법상 총급여액과 산정 범위를 구분해야 한다.",
+"definition_en": "An expression for the amount paid before deductions in payroll calculation. It must be distinguished from the tax-law total salary in its calculation scope.",
+"example_ko": "총급여와 실수령액 사이의 공제 항목을 확인해요.",
+"example_en": "We check the deduction items between gross pay and take-home pay."
+},
+{
+"id": "hrfinance-447",
+"field": "hrfinance",
+"term_ko": "그로스업",
+"term_en": "Gross-up",
+"english": "Gross-up",
+"aliases_ko": [
+"Gross Up",
+"실수령 맞추다",
+"네트 맞추다",
+"넷 맞추다"
+],
+"definition_ko": "목표 실수령액을 맞추기 위해 세금·공제 등을 고려해 지급액을 역산·조정하는 것.",
+"definition_en": "Back-calculating and adjusting the payment amount considering taxes, deductions, and the like to meet a target take-home amount.",
+"example_ko": "그로스업 약정의 대상 세금과 적용 범위를 확인해요.",
+"example_en": "We confirm the taxes covered and the application scope of the gross-up agreement."
+},
+{
+"id": "hrfinance-448",
+"field": "hrfinance",
+"term_ko": "오프사이클 급여",
+"term_en": "Off-cycle Payroll",
+"english": "Off-cycle Payroll",
+"aliases_ko": [
+"비정기 급여"
+],
+"definition_ko": "정규 급여 일정 외에 별도로 처리하는 급여 지급.",
+"definition_en": "A payroll payment processed separately outside the regular payroll schedule.",
+"example_ko": "누락 수당을 오프사이클 급여로 지급하면서 중복 반영을 확인해요.",
+"example_en": "We pay the omitted allowance via off-cycle payroll and check for duplicate reflection."
+},
+{
+"id": "hrfinance-449",
+"field": "hrfinance",
+"term_ko": "급여 이체 파일",
+"term_en": "Payroll Transfer File",
+"english": "Payroll Bank File",
+"aliases_ko": [
+"급여 파일",
+"급여 지급 파일"
+],
+"definition_ko": "은행 이체를 위해 수취인·계좌·지급액 등을 정리한 파일.",
+"definition_en": "A file organizing recipients, accounts, payment amounts, and the like for bank transfer.",
+"example_ko": "급여 이체 파일의 합계와 승인된 급여대장 합계를 대조해요.",
+"example_en": "We reconcile the payroll transfer file total with the approved payroll register total."
+},
+{
+"id": "hrfinance-450",
+"field": "hrfinance",
+"term_ko": "급여 변동자료",
+"term_en": "Payroll Input Data",
+"english": "Payroll Input",
+"aliases_ko": [
+"급여 인풋"
+],
+"definition_ko": "입퇴사·근태·수당·공제 변경 등 해당 급여 계산에 반영할 입력 자료.",
+"definition_en": "Input data to reflect in the relevant payroll calculation, such as joiners and leavers, attendance, allowance, and deduction changes.",
+"example_ko": "급여 변동자료의 마감일 이후 수정 건은 별도 승인으로 관리해요.",
+"example_en": "Changes after the payroll input cutoff are managed with separate approval."
+},
+{
+"id": "hrfinance-451",
+"field": "hrfinance",
+"term_ko": "인건비 충당",
+"term_en": "Labor Cost Accrual",
+"english": "Payroll Accrual",
+"aliases_ko": [
+"급여 발생액"
+],
+"definition_ko": "지급 전이라도 해당 기간에 발생한 급여·상여 등의 비용과 부채를 반영하는 처리.",
+"definition_en": "The treatment of reflecting expenses and liabilities for pay, bonuses, and the like incurred in the period even before payment.",
+"example_ko": "결산 때 아직 지급하지 않은 성과급의 인건비 충당을 검토해요.",
+"example_en": "At closing, we review the labor cost accrual for bonuses not yet paid."
+},
+{
+"id": "hrfinance-452",
+"field": "hrfinance",
+"term_ko": "AOP",
+"term_en": "AOP",
+"english": "Annual Operating Plan",
+"aliases_ko": [
+"연간 운영계획",
+"연간 사업계획"
+],
+"definition_ko": "다음 연도의 매출·비용·인력·투자와 실행 방향을 정리한 계획.",
+"definition_en": "A plan organizing the next year's sales, costs, workforce, investment, and execution direction.",
+"example_ko": "AOP의 매출 가정과 채용 계획을 함께 맞춰요.",
+"example_en": "We align the AOP's sales assumptions with the hiring plan."
+},
+{
+"id": "hrfinance-453",
+"field": "hrfinance",
+"term_ko": "중장기계획",
+"term_en": "Long-range Plan",
+"english": "Long-range Plan",
+"aliases_ko": [
+"LRP",
+"중기계획"
+],
+"definition_ko": "여러 해의 사업 방향과 재무·인력·투자 목표를 정리한 계획.",
+"definition_en": "A plan organizing the business direction and financial, workforce, and investment goals over several years.",
+"example_ko": "중장기계획의 설비 증설 시점을 자금 전망에 반영해요.",
+"example_en": "We reflect the timing of the capacity expansion in the long-range plan in the funding outlook."
+},
+{
+"id": "hrfinance-454",
+"field": "hrfinance",
+"term_ko": "제로베이스 예산",
+"term_en": "Zero-based Budgeting",
+"english": "Zero-based Budgeting",
+"aliases_ko": [
+"ZBB",
+"영기준 예산"
+],
+"definition_ko": "전년 예산을 그대로 출발점으로 삼지 않고 지출 필요성과 규모를 다시 검토하는 예산 방식.",
+"definition_en": "A budgeting method that does not take the prior year's budget as the starting point but re-examines the necessity and scale of spending.",
+"example_ko": "제로베이스 예산으로 반복 구독 비용의 필요성을 다시 확인해요.",
+"example_en": "With zero-based budgeting, we re-confirm the necessity of recurring subscription costs."
+},
+{
+"id": "hrfinance-455",
+"field": "hrfinance",
+"term_ko": "드라이버 기반 계획",
+"term_en": "Driver-based Planning",
+"english": "Driver-based Planning",
+"aliases_ko": [
+"드라이버 베이스드 플래닝"
+],
+"definition_ko": "인원·판매량·단가 같은 운영 요인을 연결해 재무 계획을 계산하는 방식.",
+"definition_en": "A method that calculates the financial plan by linking operational factors such as headcount, sales volume, and unit price.",
+"example_ko": "인건비 계획을 인원과 평균 급여의 드라이버로 나눠요.",
+"example_en": "We split the labor cost plan into the drivers of headcount and average salary."
+},
+{
+"id": "hrfinance-456",
+"field": "hrfinance",
+"term_ko": "시나리오 분석",
+"term_en": "Scenario Analysis",
+"english": "Scenario Analysis",
+"aliases_ko": [
+"베이스 케이스",
+"업사이드",
+"다운사이드"
+],
+"definition_ko": "여러 가정 묶음에서 실적이나 자금 상황이 어떻게 달라지는지 비교하는 분석.",
+"definition_en": "An analysis comparing how results or funding situations change under several sets of assumptions.",
+"example_ko": "기준·낙관·비관 시나리오별 현금 잔고를 비교해요.",
+"example_en": "We compare the cash balance by base, upside, and downside scenario."
+},
+{
+"id": "hrfinance-457",
+"field": "hrfinance",
+"term_ko": "헤드룸",
+"term_en": "Headroom",
+"english": "Headroom",
+"aliases_ko": [
+"여유 한도"
+],
+"definition_ko": "차입한도·재무약정·예산 등 정해진 기준까지 남아 있는 여유를 뜻하는 실무 표현.",
+"definition_en": "A practical expression for the remaining margin up to a set standard such as a borrowing limit, financial covenant, or budget.",
+"example_ko": "코버넌트 헤드룸이 줄어 추가 차입의 영향을 점검해요.",
+"example_en": "Covenant headroom shrank, so we inspect the impact of additional borrowing."
+},
+{
+"id": "hrfinance-458",
+"field": "hrfinance",
+"term_ko": "컨틴전시",
+"term_en": "Contingency",
+"english": "Contingency Budget",
+"aliases_ko": [
+"예비비",
+"컨틴전시 예산"
+],
+"definition_ko": "예상하지 못한 비용이나 위험에 대비해 따로 확보한 예산.",
+"definition_en": "A budget set aside to prepare for unexpected costs or risks.",
+"example_ko": "프로젝트 예산에 컨틴전시를 별도 항목으로 잡아요.",
+"example_en": "We set contingency as a separate line item in the project budget."
+},
+{
+"id": "hrfinance-459",
+"field": "hrfinance",
+"term_ko": "커밋 비용",
+"term_en": "Committed Cost",
+"english": "Committed Cost",
+"aliases_ko": [
+"약정 비용",
+"기약정 비용"
+],
+"definition_ko": "발주나 계약 등으로 앞으로 지출할 의무가 이미 생긴 비용.",
+"definition_en": "A cost for which an obligation to spend in the future has already arisen through an order, contract, and the like.",
+"example_ko": "예산 잔액에서 아직 미지급인 커밋 비용도 확인해요.",
+"example_en": "In the remaining budget, we also check committed costs not yet paid."
+},
+{
+"id": "hrfinance-460",
+"field": "hrfinance",
+"term_ko": "프로핏센터",
+"term_en": "Profit Center",
+"english": "Profit Center",
+"aliases_ko": [
+"이익센터"
+],
+"definition_ko": "매출과 비용을 함께 관리해 이익 책임을 평가하는 조직·관리 단위.",
+"definition_en": "An organizational or management unit that manages revenue and cost together to evaluate profit responsibility.",
+"example_ko": "프로핏센터별 손익에 공통비 배부 기준을 동일하게 적용해요.",
+"example_en": "We apply the same common-cost allocation basis to the profit and loss of each profit center."
+},
+{
+"id": "hrfinance-461",
+"field": "hrfinance",
+"term_ko": "사업부 손익",
+"term_en": "Business Unit P&L",
+"english": "Business Unit P&L",
+"aliases_ko": [
+"BU P&L"
+],
+"definition_ko": "사업부별 매출·원가·비용·이익을 모은 관리 보고.",
+"definition_en": "A management report gathering sales, cost, expense, and profit by business unit.",
+"example_ko": "사업부 손익의 공통비 배부 전후 수치를 나눠 보여줘요.",
+"example_en": "We show the business unit P&L figures before and after common-cost allocation separately."
+},
+{
+"id": "hrfinance-462",
+"field": "hrfinance",
+"term_ko": "PVM 분석",
+"term_en": "PVM Analysis",
+"english": "Price Volume Mix Analysis",
+"aliases_ko": [
+"가격 물량 믹스 분석"
+],
+"definition_ko": "매출·이익 변화를 가격·물량·제품 구성 변화 등으로 분해하는 분석.",
+"definition_en": "An analysis that decomposes changes in sales and profit into changes in price, volume, product mix, and the like.",
+"example_ko": "PVM 분석으로 매출 증가 중 가격 인상 효과를 구분해요.",
+"example_en": "With PVM analysis, we separate out the price-increase effect within the sales growth."
+},
+{
+"id": "hrfinance-463",
+"field": "hrfinance",
+"term_ko": "흡수원가",
+"term_en": "Absorption Costing",
+"english": "Absorption Costing",
+"aliases_ko": [
+"전부원가계산"
+],
+"definition_ko": "제품 원가에 변동 제조원가와 고정 제조간접원가를 함께 반영하는 원가계산 방식.",
+"definition_en": "A costing method that reflects both variable manufacturing costs and fixed manufacturing overhead in product cost.",
+"example_ko": "흡수원가와 관리 목적의 변동원가 기준 이익을 구분해요.",
+"example_en": "We distinguish absorption costing from the variable-costing-based profit used for management purposes."
+},
+{
+"id": "hrfinance-464",
+"field": "hrfinance",
+"term_ko": "변동원가계산",
+"term_en": "Variable Costing",
+"english": "Variable Costing",
+"aliases_ko": [
+"변동원가"
+],
+"definition_ko": "제품에 변동 제조원가를 부과하고 고정 제조간접원가는 기간비용으로 보는 원가계산 방식.",
+"definition_en": "A costing method that charges variable manufacturing costs to products and treats fixed manufacturing overhead as a period cost.",
+"example_ko": "변동원가계산으로 제품별 공헌이익을 비교해요.",
+"example_en": "With variable costing, we compare the contribution margin by product."
+},
+{
+"id": "hrfinance-465",
+"field": "hrfinance",
+"term_ko": "활동기준원가",
+"term_en": "Activity-based Costing",
+"english": "Activity-based Costing",
+"aliases_ko": [
+"ABC",
+"활동기준 원가계산"
+],
+"definition_ko": "활동별로 발생한 비용을 활동을 유발한 원인에 따라 제품·서비스 등에 배부하는 방식.",
+"definition_en": "A method that allocates costs incurred by activity to products, services, and the like according to what caused the activity.",
+"example_ko": "검사 횟수를 원가 동인으로 삼아 활동기준원가를 계산해요.",
+"example_en": "Using the number of inspections as the cost driver, we calculate activity-based costing."
+},
+{
+"id": "hrfinance-466",
+"field": "hrfinance",
+"term_ko": "원가 동인",
+"term_en": "Cost Driver",
+"english": "Cost Driver",
+"aliases_ko": [
+"코스트 드라이버"
+],
+"definition_ko": "원가 발생이나 변화에 영향을 주는 활동량·시간 등의 요인.",
+"definition_en": "A factor such as activity volume or time that affects the incurrence or change of cost.",
+"example_ko": "물류비의 원가 동인이 출고 건수인지 중량인지 검토해요.",
+"example_en": "We review whether the cost driver of logistics cost is the number of shipments or the weight."
+},
+{
+"id": "hrfinance-467",
+"field": "hrfinance",
+"term_ko": "표준시간",
+"term_en": "Standard Time",
+"english": "Standard Hours",
+"aliases_ko": [],
+"definition_ko": "작업을 정해진 조건에서 수행하는 데 필요한 기준 시간.",
+"definition_en": "The baseline time needed to perform an operation under defined conditions.",
+"example_ko": "표준시간과 실제시간의 차이를 노무 원가 분석에 반영해요.",
+"example_en": "We reflect the difference between standard time and actual time in the labor cost analysis."
+},
+{
+"id": "hrfinance-468",
+"field": "hrfinance",
+"term_ko": "가동률",
+"term_en": "Utilization Rate",
+"english": "Utilization Rate",
+"aliases_ko": [
+"설비 가동률"
+],
+"definition_ko": "사용 가능한 설비·시간 등의 능력 중 실제 사용한 비율. 분모의 기준을 일치시켜 비교한다.",
+"definition_en": "The ratio of the capacity of available equipment, time, and the like that was actually used. We align the denominator basis for comparison.",
+"example_ko": "공장 가동률 하락이 고정비 부담에 미치는 영향을 보고해요.",
+"example_en": "We report the impact of a falling plant utilization rate on the fixed cost burden."
+},
+{
+"id": "hrfinance-469",
+"field": "hrfinance",
+"term_ko": "영업외수익",
+"term_en": "Non-operating Income",
+"english": "Non-operating Income",
+"aliases_ko": [],
+"definition_ko": "회사의 주된 영업활동 외에서 발생하는 수익을 분류해 부르는 표현. 적용 회계기준의 표시체계를 확인한다.",
+"definition_en": "An expression classifying income arising outside the company's main operating activities. We confirm the presentation framework of the applicable accounting standards.",
+"example_ko": "자산 처분 관련 수익을 반복적인 영업 성과와 구분해요.",
+"example_en": "We distinguish income related to asset disposal from recurring operating performance."
+},
+{
+"id": "hrfinance-470",
+"field": "hrfinance",
+"term_ko": "영업외비용",
+"term_en": "Non-operating Expense",
+"english": "Non-operating Expense",
+"aliases_ko": [],
+"definition_ko": "주된 영업활동 외에서 발생하는 비용을 분류해 부르는 표현. 적용 회계기준에 따라 표시가 달라질 수 있다.",
+"definition_en": "An expression classifying expenses arising outside the main operating activities. Presentation may differ by the applicable accounting standards.",
+"example_ko": "금융비용이 전체 손익에 미친 영향을 별도로 설명해요.",
+"example_en": "We separately explain the impact of financial costs on overall profit or loss."
+},
+{
+"id": "hrfinance-471",
+"field": "hrfinance",
+"term_ko": "세전이익",
+"term_en": "Pre-tax Profit",
+"english": "Profit Before Tax",
+"aliases_ko": [
+"PBT",
+"EBT",
+"법인세비용차감전순이익"
+],
+"definition_ko": "법인세비용을 반영하기 전의 이익.",
+"definition_en": "Profit before reflecting corporate tax expense.",
+"example_ko": "세전이익에서 법인세비용을 반영해 순이익 변화를 설명해요.",
+"example_en": "We reflect corporate tax expense on pre-tax profit to explain the change in net income."
+},
+{
+"id": "marketing-639",
+"field": "marketing",
+"term_ko": "매체 효율",
+"term_en": "Media Efficiency",
+"english": "Media Efficiency",
+"aliases_ko": [],
+"definition_ko": "투입 예산에 비해 도달·전환 등 목표 성과가 얼마나 나오는지 평가하는 관점.",
+"definition_en": "A perspective evaluating how much target performance such as reach and conversion is achieved relative to the budget invested.",
+"example_ko": "매체 효율은 클릭 단가뿐 아니라 전환 품질까지 보고 판단해요.",
+"example_en": "We judge media efficiency by looking not only at cost per click but also at conversion quality."
+},
+{
+"id": "marketing-640",
+"field": "marketing",
+"term_ko": "서치 리프트",
+"term_en": "Search Lift",
+"english": "Search Lift",
+"aliases_ko": [],
+"definition_ko": "캠페인 노출 등으로 브랜드나 제품 관련 검색이 얼마나 증가했는지 보는 지표.",
+"definition_en": "An indicator of how much brand- or product-related search increased due to campaign exposure and the like.",
+"example_ko": "영상 캠페인의 서치 리프트를 자연적인 검색 증가와 구분해요.",
+"example_en": "We distinguish the search lift from the video campaign from organic search growth."
+},
+{
+"id": "marketing-641",
+"field": "marketing",
+"term_ko": "MQL",
+"term_en": "MQL",
+"english": "Marketing Qualified Lead",
+"aliases_ko": [
+"마케팅 적격 리드"
+],
+"definition_ko": "마케팅 활동에서 정한 관심·적합성 기준을 충족해 후속 관리 대상으로 분류한 리드.",
+"definition_en": "A lead classified as a target for follow-up because it meets the interest and fit criteria set by marketing activity.",
+"example_ko": "백서 다운로드만으로 MQL로 볼지 추가 조건을 합의해요.",
+"example_en": "We agree on additional conditions for whether a whitepaper download alone counts as an MQL."
+},
+{
+"id": "marketing-642",
+"field": "marketing",
+"term_ko": "SQL",
+"term_en": "SQL",
+"english": "Sales Qualified Lead",
+"aliases_ko": [
+"영업 적격 리드"
+],
+"definition_ko": "영업팀이 구매 가능성과 적합성 등을 검토해 실제 영업 기회로 판단한 리드.",
+"definition_en": "A lead the sales team judges to be an actual sales opportunity after reviewing purchase likelihood, fit, and the like.",
+"example_ko": "MQL이 SQL로 넘어가는 기준을 영업팀과 맞춰요.",
+"example_en": "We align with the sales team on the criteria for an MQL to become an SQL."
+},
+{
+"id": "marketing-643",
+"field": "marketing",
+"term_ko": "ABM",
+"term_en": "ABM",
+"english": "Account-based Marketing",
+"aliases_ko": [
+"어카운트 기반 마케팅"
+],
+"definition_ko": "중요한 기업 고객군을 정해 각 기업의 상황에 맞춘 마케팅·영업을 협업하는 방식.",
+"definition_en": "A method in which key corporate customer groups are selected and marketing and sales collaborate in a way tailored to each company's situation.",
+"example_ko": "ABM 대상 기업별 의사결정자와 콘텐츠를 설계해요.",
+"example_en": "We design the decision-makers and content for each ABM target company."
+}
+]

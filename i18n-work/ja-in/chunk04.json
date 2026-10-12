@@ -1,0 +1,4349 @@
+[
+{
+"id": "dev-276",
+"field": "dev",
+"term_ko": "ORM",
+"term_en": "ORM",
+"english": "Object-relational mapping",
+"aliases_ko": [
+"객체 관계 매핑"
+],
+"definition_ko": "프로그램의 객체와 관계형 데이터베이스의 데이터를 연결해 다루는 방식.",
+"definition_en": "A way of handling program objects and relational database data by mapping them to each other.",
+"example_ko": "ORM이 만드는 쿼리도 성능 관점에서 확인해요.",
+"example_en": "We also review the queries the ORM generates from a performance perspective."
+},
+{
+"id": "dev-277",
+"field": "dev",
+"term_ko": "엔드포인트",
+"term_en": "Endpoint",
+"english": "Endpoint",
+"aliases_ko": [
+"API 엔드포인트"
+],
+"definition_ko": "API 등에서 특정 기능이나 자원에 접근하는 주소 또는 접점.",
+"definition_en": "An address or access point for a specific function or resource in an API and the like.",
+"example_ko": "주문 조회 엔드포인트의 응답을 확인해요.",
+"example_en": "We check the response of the order lookup endpoint."
+},
+{
+"id": "dev-278",
+"field": "dev",
+"term_ko": "페이로드",
+"term_en": "Payload",
+"english": "Payload",
+"aliases_ko": [
+"요청 본문",
+"응답 데이터"
+],
+"definition_ko": "통신 메시지에서 실제로 전달하려는 데이터 부분.",
+"definition_en": "The part of a communication message that carries the actual data to be delivered.",
+"example_ko": "오류를 재현하려면 요청 페이로드를 확인해요.",
+"example_en": "To reproduce the error, we check the request payload."
+},
+{
+"id": "dev-279",
+"field": "dev",
+"term_ko": "인가",
+"term_en": "Authorization",
+"english": "Authorization",
+"aliases_ko": [
+"권한 검사",
+"권한 부여"
+],
+"definition_ko": "확인된 사용자나 주체가 특정 자원·작업에 접근할 수 있는지 판단하고 허용하는 것.",
+"definition_en": "Determining and allowing whether a verified user or subject can access a specific resource or action.",
+"example_ko": "로그인 후에도 문서 열람 권한을 인가 단계에서 확인해요.",
+"example_en": "Even after login, we check document viewing permission at the authorization step."
+},
+{
+"id": "dev-280",
+"field": "dev",
+"term_ko": "토큰",
+"term_en": "Token",
+"english": "Token",
+"aliases_ko": [
+"인증 토큰",
+"액세스 토큰"
+],
+"definition_ko": "인증·권한 등 특정 정보를 나타내며 시스템 간 전달에 사용하는 값.",
+"definition_en": "A value that represents specific information such as authentication or permissions and is used to pass it between systems.",
+"example_ko": "토큰이 만료되었을 때 다시 인증하도록 처리해요.",
+"example_en": "We handle re-authentication when the token has expired."
+},
+{
+"id": "dev-281",
+"field": "dev",
+"term_ko": "세션",
+"term_en": "Session",
+"english": "Session",
+"aliases_ko": [
+"사용자 세션"
+],
+"definition_ko": "사용자와 시스템 사이의 일정 기간 상호작용 상태를 유지하는 단위.",
+"definition_en": "A unit that maintains the state of interaction between a user and a system over a certain period.",
+"example_ko": "로그아웃하면 해당 세션을 종료해요.",
+"example_en": "When the user logs out, we end that session."
+},
+{
+"id": "dev-282",
+"field": "dev",
+"term_ko": "웹훅",
+"term_en": "Webhook",
+"english": "Webhook",
+"aliases_ko": [
+"웹 훅"
+],
+"definition_ko": "특정 이벤트가 발생하면 미리 정한 주소로 데이터를 보내 알리는 방식.",
+"definition_en": "A method that sends data to a predefined address to give notice when a specific event occurs.",
+"example_ko": "결제 완료 웹훅을 받아 주문 상태를 갱신해요.",
+"example_en": "We receive the payment-completed webhook and update the order status."
+},
+{
+"id": "dev-283",
+"field": "dev",
+"term_ko": "큐",
+"term_en": "Queue",
+"english": "Queue",
+"aliases_ko": [
+"메시지 큐",
+"작업 큐"
+],
+"definition_ko": "처리할 요청이나 작업을 순서에 따라 대기시키는 구조.",
+"definition_en": "A structure that lines up requests or tasks to be processed in order.",
+"example_ko": "메일 발송 작업은 큐에 넣어 순차 처리해요.",
+"example_en": "Email-sending tasks are placed in a queue and processed sequentially."
+},
+{
+"id": "dev-284",
+"field": "dev",
+"term_ko": "배치",
+"term_en": "Batch",
+"english": "Batch processing",
+"aliases_ko": [
+"배치 작업",
+"일괄 처리"
+],
+"definition_ko": "여러 데이터를 모아 정해진 시점이나 조건에 한꺼번에 처리하는 방식.",
+"definition_en": "A way of gathering multiple pieces of data and processing them all at once at a set time or under a set condition.",
+"example_ko": "매일 밤 배치로 통계를 갱신해요.",
+"example_en": "Every night we update the statistics with a batch job."
+},
+{
+"id": "dev-285",
+"field": "dev",
+"term_ko": "크론",
+"term_en": "Cron",
+"english": "Cron",
+"aliases_ko": [
+"크론잡",
+"cron job"
+],
+"definition_ko": "정해진 일정에 맞춰 작업을 반복 실행하도록 예약하는 도구나 작업을 부르는 말.",
+"definition_en": "A term for a tool or job that schedules tasks to run repeatedly on a set schedule.",
+"example_ko": "새벽 정리 작업을 크론으로 예약해요.",
+"example_en": "We schedule the early-morning cleanup task with cron."
+},
+{
+"id": "dev-286",
+"field": "dev",
+"term_ko": "프록시",
+"term_en": "Proxy",
+"english": "Proxy",
+"aliases_ko": [
+"프록시 서버"
+],
+"definition_ko": "클라이언트와 다른 서버 사이에서 요청과 응답을 중계하는 구성 요소.",
+"definition_en": "A component that relays requests and responses between a client and another server.",
+"example_ko": "프록시에서 요청 경로를 구분해 전달해요.",
+"example_en": "The proxy routes requests by distinguishing their paths.",
+"note_ko": "IT의 요청·응답 중계 구성 요소입니다. 영상 편집에서 원본 대신 사용하는 프록시 미디어와 다른 뜻입니다.",
+"note_en": "This is the IT component that relays requests and responses. It differs from the proxy media used in place of the original in video editing."
+},
+{
+"id": "dev-287",
+"field": "dev",
+"term_ko": "로드 밸런서",
+"term_en": "Load balancer",
+"english": "Load balancer",
+"aliases_ko": [
+"로드밸런서",
+"LB",
+"부하 분산기"
+],
+"definition_ko": "여러 서버로 요청을 나눠 보내 부하와 가용성을 관리하는 구성 요소.",
+"definition_en": "A component that distributes requests across multiple servers to manage load and availability.",
+"example_ko": "로드 밸런서가 정상 서버로만 요청을 보내게 해요.",
+"example_en": "We make the load balancer send requests only to healthy servers."
+},
+{
+"id": "dev-288",
+"field": "dev",
+"term_ko": "CDN",
+"term_en": "CDN",
+"english": "Content delivery network",
+"aliases_ko": [
+"콘텐츠 전송 네트워크"
+],
+"definition_ko": "여러 지역의 서버를 통해 이미지·파일 등 콘텐츠를 사용자 가까이에서 전달하는 체계.",
+"definition_en": "A system that delivers content such as images and files close to users through servers in multiple regions.",
+"example_ko": "큰 이미지는 CDN을 통해 전달해요.",
+"example_en": "Large images are delivered through the CDN."
+},
+{
+"id": "dev-289",
+"field": "dev",
+"term_ko": "DevOps",
+"term_en": "DevOps",
+"english": "Development and operations",
+"aliases_ko": [
+"데브옵스"
+],
+"definition_ko": "개발과 운영의 협업·자동화·공동 책임을 통해 소프트웨어 전달과 운영을 개선하는 접근 방식.",
+"definition_en": "An approach that improves software delivery and operations through collaboration, automation, and shared responsibility between development and operations.",
+"example_ko": "DevOps 관점에서 배포와 장애 대응 흐름을 연결해요.",
+"example_en": "From a DevOps perspective, we connect the deployment and incident-response flows."
+},
+{
+"id": "dev-290",
+"field": "dev",
+"term_ko": "스테이징",
+"term_en": "Staging",
+"english": "Staging",
+"aliases_ko": [
+"스테이징 환경",
+"검증 환경"
+],
+"definition_ko": "실서비스 반영 전에 운영과 비슷한 조건에서 변경을 확인하는 환경.",
+"definition_en": "An environment where changes are verified under conditions similar to production before going live.",
+"example_ko": "스테이징에서 결제 흐름을 확인한 뒤 배포해요.",
+"example_en": "We verify the payment flow in staging and then deploy."
+},
+{
+"id": "dev-291",
+"field": "dev",
+"term_ko": "개발 환경",
+"term_en": "Development environment",
+"english": "Development environment",
+"aliases_ko": [
+"데브 환경",
+"로컬 환경",
+"development",
+"dev"
+],
+"definition_ko": "코드를 작성·실행·확인하기 위해 구성한 작업 환경.",
+"definition_en": "A working environment set up to write, run, and check code.",
+"example_ko": "새 동료가 개발 환경을 설정하도록 문서를 정리해요.",
+"example_en": "We organize the documentation so new teammates can set up their development environment."
+},
+{
+"id": "dev-292",
+"field": "dev",
+"term_ko": "디버깅",
+"term_en": "Debugging",
+"english": "Debugging",
+"aliases_ko": [
+"디버그",
+"버그 잡기",
+"디버깅하다"
+],
+"definition_ko": "프로그램 문제의 원인을 찾아 분석하고 수정하는 과정.",
+"definition_en": "The process of finding, analyzing, and fixing the cause of a program problem.",
+"example_ko": "로그를 보면서 오류가 나는 구간을 디버깅해요.",
+"example_en": "We debug the failing section while watching the logs."
+},
+{
+"id": "dev-293",
+"field": "dev",
+"term_ko": "버그",
+"term_en": "Bug",
+"english": "Bug",
+"aliases_ko": [
+"결함",
+"오류"
+],
+"definition_ko": "프로그램이 의도한 동작이나 요구사항과 다르게 작동하는 문제.",
+"definition_en": "A problem where a program behaves differently from its intended behavior or requirements.",
+"example_ko": "재현 조건과 함께 버그를 등록해 주세요.",
+"example_en": "Please file the bug along with the reproduction conditions."
+},
+{
+"id": "dev-294",
+"field": "dev",
+"term_ko": "로그",
+"term_en": "Log",
+"english": "Log",
+"aliases_ko": [
+"로그 기록",
+"실행 기록"
+],
+"definition_ko": "시스템의 동작·이벤트·오류 등을 기록한 정보.",
+"definition_en": "Information that records a system's behavior, events, and errors.",
+"example_ko": "요청 시간대의 로그를 확인해요.",
+"example_en": "We check the logs around the time of the request."
+},
+{
+"id": "dev-295",
+"field": "dev",
+"term_ko": "모니터링",
+"term_en": "Monitoring",
+"english": "Monitoring",
+"aliases_ko": [
+"상태 감시",
+"운영 모니터링"
+],
+"definition_ko": "시스템의 상태·성능·오류 등을 지속적으로 관찰하는 활동.",
+"definition_en": "The activity of continuously observing a system's status, performance, and errors.",
+"example_ko": "배포 직후 오류율을 모니터링해요.",
+"example_en": "Right after deployment, we monitor the error rate."
+},
+{
+"id": "dev-296",
+"field": "dev",
+"term_ko": "장애",
+"term_en": "Outage",
+"english": "Incident",
+"aliases_ko": [
+"서비스 장애",
+"인시던트"
+],
+"definition_ko": "서비스 기능이 중단되거나 정상 수준으로 제공되지 않는 사건.",
+"definition_en": "An event in which a service function stops or is not provided at the normal level.",
+"example_ko": "장애 영향 범위와 복구 상황을 공유해요.",
+"example_en": "We share the scope of the outage's impact and the recovery status."
+},
+{
+"id": "dev-297",
+"field": "dev",
+"term_ko": "장애 회고",
+"term_en": "Incident retrospective",
+"english": "Postmortem",
+"aliases_ko": [
+"포스트모템",
+"장애 보고서"
+],
+"definition_ko": "장애의 경과·원인·대응을 분석하고 재발 방지 행동을 정리하는 활동이나 문서.",
+"definition_en": "An activity or document that analyzes the course, cause, and response of an incident and organizes actions to prevent recurrence.",
+"example_ko": "장애 회고에서 탐지가 늦어진 이유를 확인해요.",
+"example_en": "In the incident retrospective, we examine why detection was delayed."
+},
+{
+"id": "dev-298",
+"field": "dev",
+"term_ko": "RCA",
+"term_en": "RCA",
+"english": "Root cause analysis",
+"aliases_ko": [
+"근본 원인 분석"
+],
+"definition_ko": "표면적인 증상 뒤의 핵심 원인을 찾아 같은 문제가 반복되지 않도록 분석하는 일.",
+"definition_en": "The work of finding the core cause behind surface symptoms so the same problem does not recur.",
+"example_ko": "RCA 결과에 따라 재발 방지 작업을 정해요.",
+"example_en": "Based on the RCA results, we decide the recurrence-prevention work."
+},
+{
+"id": "dev-299",
+"field": "dev",
+"term_ko": "SLA",
+"term_en": "SLA",
+"english": "Service level agreement",
+"aliases_ko": [
+"서비스 수준 협약"
+],
+"definition_ko": "서비스 제공자와 고객이 합의한 품질·지원 등의 서비스 수준과 조건.",
+"definition_en": "The service level and conditions, such as quality and support, agreed between a service provider and a customer.",
+"example_ko": "SLA의 지원 시간과 장애 대응 조건을 확인해요.",
+"example_en": "We check the support hours and incident-response terms in the SLA."
+},
+{
+"id": "dev-300",
+"field": "dev",
+"term_ko": "SLO",
+"term_en": "SLO",
+"english": "Service level objective",
+"aliases_ko": [
+"서비스 수준 목표"
+],
+"definition_ko": "서비스 신뢰성과 성능에 대해 정한 측정 가능한 목표.",
+"definition_en": "A measurable target set for a service's reliability and performance.",
+"example_ko": "가용성 SLO에 맞춰 개선 우선순위를 정해요.",
+"example_en": "We set improvement priorities to meet the availability SLO."
+},
+{
+"id": "dev-301",
+"field": "dev",
+"term_ko": "SLI",
+"term_en": "SLI",
+"english": "Service level indicator",
+"aliases_ko": [
+"서비스 수준 지표"
+],
+"definition_ko": "서비스가 제공하는 품질을 측정하는 지표.",
+"definition_en": "A metric that measures the quality a service provides.",
+"example_ko": "응답 성공률을 SLI로 추적해요.",
+"example_en": "We track the response success rate as an SLI."
+},
+{
+"id": "dev-302",
+"field": "dev",
+"term_ko": "도커",
+"term_en": "Docker",
+"english": "Docker",
+"aliases_ko": [
+"컨테이너 도구"
+],
+"definition_ko": "애플리케이션과 실행 환경을 컨테이너 이미지로 구성하고 실행하는 데 사용하는 도구.",
+"definition_en": "A tool used to package and run an application and its runtime environment as container images.",
+"example_ko": "도커 이미지로 동일한 실행 환경을 공유해요.",
+"example_en": "We share an identical runtime environment using a Docker image."
+},
+{
+"id": "dev-303",
+"field": "dev",
+"term_ko": "컨테이너",
+"term_en": "Container",
+"english": "Container",
+"aliases_ko": [
+"애플리케이션 컨테이너"
+],
+"definition_ko": "프로그램과 필요한 환경을 묶어 격리된 실행 단위로 다루는 방식.",
+"definition_en": "A way of bundling a program with its required environment and handling it as an isolated execution unit.",
+"example_ko": "같은 이미지로 컨테이너를 여러 개 실행해요.",
+"example_en": "We run multiple containers from the same image."
+},
+{
+"id": "dev-304",
+"field": "dev",
+"term_ko": "쿠버네티스",
+"term_en": "Kubernetes",
+"english": "Kubernetes",
+"aliases_ko": [
+"K8s",
+"쿠베"
+],
+"definition_ko": "여러 컨테이너의 배치·확장·운영을 관리하는 플랫폼.",
+"definition_en": "A platform that manages the placement, scaling, and operation of multiple containers.",
+"example_ko": "쿠버네티스에서 서비스 인스턴스 상태를 확인해요.",
+"example_en": "We check the status of the service instances in Kubernetes."
+},
+{
+"id": "dev-305",
+"field": "dev",
+"term_ko": "롤링 배포",
+"term_en": "Rolling deployment",
+"english": "Rolling deployment",
+"aliases_ko": [
+"롤링 업데이트"
+],
+"definition_ko": "실행 중인 인스턴스를 일부씩 새 버전으로 교체하는 배포 방식.",
+"definition_en": "A deployment method that replaces running instances with the new version a portion at a time.",
+"example_ko": "롤링 배포 중 새 버전의 오류율을 확인해요.",
+"example_en": "During the rolling deployment, we check the new version's error rate."
+},
+{
+"id": "dev-306",
+"field": "dev",
+"term_ko": "카나리 배포",
+"term_en": "Canary deployment",
+"english": "Canary deployment",
+"aliases_ko": [
+"카나리 릴리스"
+],
+"definition_ko": "일부 사용자나 트래픽에 먼저 새 버전을 제공해 문제를 관찰하고 확대하는 방식.",
+"definition_en": "A method that first serves the new version to some users or traffic to observe issues and then expands it.",
+"example_ko": "카나리 배포로 영향 범위를 제한해요.",
+"example_en": "We limit the blast radius with a canary deployment."
+},
+{
+"id": "dev-307",
+"field": "dev",
+"term_ko": "블루그린 배포",
+"term_en": "Blue-green deployment",
+"english": "Blue-green deployment",
+"aliases_ko": [
+"블루 그린"
+],
+"definition_ko": "현재 버전과 새 버전 환경을 나란히 준비하고 트래픽 대상을 전환하는 배포 방식.",
+"definition_en": "A deployment method that prepares the current and new version environments side by side and switches the traffic target.",
+"example_ko": "블루그린 배포 전 새 환경의 설정을 확인해요.",
+"example_en": "Before the blue-green deployment, we check the new environment's settings."
+},
+{
+"id": "dev-308",
+"field": "dev",
+"term_ko": "부하 테스트",
+"term_en": "Load test",
+"english": "Load testing",
+"aliases_ko": [
+"로드 테스트"
+],
+"definition_ko": "예상 사용량에 해당하는 요청을 보내 시스템의 성능과 안정성을 확인하는 테스트.",
+"definition_en": "A test that sends requests matching expected usage to check a system's performance and stability.",
+"example_ko": "행사 전에 예상 동시 접속으로 부하 테스트를 해요.",
+"example_en": "Before the event, we run a load test with the expected concurrent connections."
+},
+{
+"id": "dev-309",
+"field": "dev",
+"term_ko": "회귀 테스트",
+"term_en": "Regression test",
+"english": "Regression testing",
+"aliases_ko": [
+"리그레션 테스트"
+],
+"definition_ko": "수정 후 기존에 되던 기능이 여전히 정상 동작하는지 확인하는 테스트.",
+"definition_en": "A test that checks whether previously working features still work correctly after a change.",
+"example_ko": "결제 수정 뒤 회원 가입도 회귀 테스트해요.",
+"example_en": "After the payment fix, we also regression-test sign-up."
+},
+{
+"id": "dev-310",
+"field": "dev",
+"term_ko": "테스트 케이스",
+"term_en": "Test case",
+"english": "Test case",
+"aliases_ko": [
+"TC",
+"테케"
+],
+"definition_ko": "확인할 조건·입력·절차·예상 결과를 구체적으로 정리한 테스트 단위.",
+"definition_en": "A test unit that specifies the conditions, inputs, steps, and expected results to verify.",
+"example_ko": "빈 입력과 잘못된 입력도 테스트 케이스에 넣어요.",
+"example_en": "We also include empty input and invalid input in the test cases."
+},
+{
+"id": "dev-311",
+"field": "dev",
+"term_ko": "커버리지",
+"term_en": "Coverage",
+"english": "Coverage",
+"aliases_ko": [
+"테스트 커버리지",
+"코드 커버리지"
+],
+"definition_ko": "테스트가 코드나 요구사항 등 대상 범위의 어느 정도를 다뤘는지 나타내는 정도.",
+"definition_en": "A measure of how much of the target scope, such as code or requirements, the tests covered.",
+"example_ko": "커버리지와 실제 검증 내용도 함께 확인해요.",
+"example_en": "We check the coverage together with what was actually verified.",
+"note_ko": "수치가 높다고 모든 버그가 없거나 테스트의 질이 높다는 뜻은 아닙니다.",
+"note_en": "A high number does not mean there are no bugs or that the test quality is high."
+},
+{
+"id": "dev-312",
+"field": "dev",
+"term_ko": "메모리 누수",
+"term_en": "Memory leak",
+"english": "Memory leak",
+"aliases_ko": [
+"메모리 릭"
+],
+"definition_ko": "더 이상 필요하지 않은 메모리가 해제되지 않고 남아 사용량이 늘어나는 문제.",
+"definition_en": "A problem where memory that is no longer needed is not released and remains, increasing usage.",
+"example_ko": "오래 켜 두면 느려져서 메모리 누수를 확인해요.",
+"example_en": "It slows down when left on for a long time, so we check for a memory leak."
+},
+{
+"id": "dev-313",
+"field": "dev",
+"term_ko": "레이스 컨디션",
+"term_en": "Race condition",
+"english": "Race condition",
+"aliases_ko": [
+"경쟁 상태"
+],
+"definition_ko": "동시에 진행되는 작업의 실행 순서·타이밍에 따라 결과가 달라지는 문제 상황.",
+"definition_en": "A problematic situation where the result changes depending on the execution order and timing of concurrent tasks.",
+"example_ko": "동시 요청에서 레이스 컨디션이 발생하는지 확인해요.",
+"example_en": "We check whether a race condition occurs with concurrent requests."
+},
+{
+"id": "dev-314",
+"field": "dev",
+"term_ko": "데드락",
+"term_en": "Deadlock",
+"english": "Deadlock",
+"aliases_ko": [
+"교착 상태",
+"교착"
+],
+"definition_ko": "여러 작업이 서로 가진 자원을 기다리며 더 진행하지 못하는 상태.",
+"definition_en": "A state where multiple tasks each wait for resources held by the others and none can proceed.",
+"example_ko": "잠금 순서를 통일해 데드락 가능성을 줄여요.",
+"example_en": "We unify the locking order to reduce the possibility of a deadlock."
+},
+{
+"id": "dev-315",
+"field": "dev",
+"term_ko": "재현",
+"term_en": "Reproduce",
+"english": "Reproduction",
+"aliases_ko": [
+"재현하다",
+"재현 경로",
+"리프로",
+"재현 조건",
+"재현 시나리오"
+],
+"definition_ko": "보고된 오류가 같은 조건에서 다시 발생하도록 확인하는 일.",
+"definition_en": "The work of confirming that a reported error occurs again under the same conditions.",
+"example_ko": "OS와 입력 순서를 알아야 버그를 재현할 수 있어요.",
+"example_en": "We need the OS and the input order to reproduce the bug."
+},
+{
+"id": "dev-316",
+"field": "dev",
+"term_ko": "터지다",
+"term_en": "Blow up",
+"english": "",
+"aliases_ko": [
+"터진다",
+"서버 터짐",
+"빌드 터짐"
+],
+"definition_ko": "오류·중단·실패가 발생했다는 개발 현장의 구어 표현.",
+"definition_en": "A colloquial development-field expression meaning that an error, stoppage, or failure has occurred.",
+"example_ko": "빌드가 터져서 첫 오류 로그부터 보고 있어요.",
+"example_en": "The build blew up, so I am looking from the first error log."
+},
+{
+"id": "dev-317",
+"field": "dev",
+"term_ko": "뻗다",
+"term_en": "Hang",
+"english": "",
+"aliases_ko": [
+"뻗는다",
+"서버 뻗음",
+"앱 뻗음"
+],
+"definition_ko": "프로그램이나 서버가 멈추거나 응답하지 않는 상태를 부르는 말.",
+"definition_en": "A term for a state where a program or server stops or becomes unresponsive.",
+"example_ko": "앱이 뻗는 시점의 메모리 사용량을 확인해요.",
+"example_en": "We check the memory usage at the moment the app hangs."
+},
+{
+"id": "dev-318",
+"field": "dev",
+"term_ko": "찍다",
+"term_en": "Print (to log)",
+"english": "",
+"aliases_ko": [
+"로그 찍다",
+"콘솔 찍다",
+"로그 찍기"
+],
+"definition_ko": "프로그램 상태나 값을 로그·콘솔 등에 출력해 확인한다는 말.",
+"definition_en": "An expression meaning to output a program's state or values to the logs, console, and so on to check them.",
+"example_ko": "조건문에 들어오는 값을 로그로 찍어 봐요.",
+"example_en": "Let's print the value coming into the conditional to the log."
+},
+{
+"id": "dev-319",
+"field": "dev",
+"term_ko": "말다",
+"term_en": "Roll (a build)",
+"english": "",
+"aliases_ko": [
+"빌드 말다",
+"패키지 말다",
+"이미지 말다"
+],
+"definition_ko": "코드나 파일을 빌드·패키징해 배포 가능한 묶음으로 만든다는 구어.",
+"definition_en": "A colloquialism meaning to build and package code or files into a deployable bundle.",
+"example_ko": "수정 반영해서 테스트용 빌드를 다시 말아 주세요.",
+"example_en": "Please apply the fix and roll the test build again."
+},
+{
+"id": "dev-320",
+"field": "dev",
+"term_ko": "물리다",
+"term_en": "hook up",
+"english": "",
+"aliases_ko": [
+"서버 물리다",
+"API 물리다",
+"연동 물리다"
+],
+"definition_ko": "한 화면·시스템·환경을 API나 서버 등에 연결한다는 구어 표현.",
+"definition_en": "A colloquial expression for connecting a screen, system, or environment to something like an API or server.",
+"example_ko": "목 데이터 대신 실제 API를 물려서 확인해요.",
+"example_en": "Hook up the real API instead of the mock data to check it."
+},
+{
+"id": "dev-321",
+"field": "dev",
+"term_ko": "걷어내다",
+"term_en": "strip out",
+"english": "",
+"aliases_ko": [
+"코드 걷어내기",
+"레거시 걷어내기"
+],
+"definition_ko": "더 이상 필요하지 않은 코드·설정·의존성을 제거한다는 말.",
+"definition_en": "An expression meaning to remove code, settings, or dependencies that are no longer needed.",
+"example_ko": "새 기능 검증 후 오래된 분기 코드를 걷어내요.",
+"example_en": "After validating the new feature, strip out the old branch code."
+},
+{
+"id": "dev-322",
+"field": "dev",
+"term_ko": "태우다",
+"term_en": "put through",
+"english": "",
+"aliases_ko": [
+"배포 태우다",
+"파이프라인 태우다"
+],
+"definition_ko": "변경 내용을 배포나 자동 처리 흐름에 포함해 실행한다는 말.",
+"definition_en": "An expression meaning to include a change in a deployment or automated flow and run it.",
+"example_ko": "검토가 끝난 수정만 이번 배포에 태워요.",
+"example_en": "Put only the reviewed fixes through this deployment."
+},
+{
+"id": "dev-323",
+"field": "dev",
+"term_ko": "엎다",
+"term_en": "scrap and rebuild",
+"english": "",
+"aliases_ko": [
+"갈아엎다",
+"코드 갈아엎기"
+],
+"definition_ko": "기존 구조나 구현을 크게 바꿔 다시 만든다는 말.",
+"definition_en": "An expression meaning to largely change an existing structure or implementation and rebuild it.",
+"example_ko": "범위가 커서 전체를 엎기 전에 부분 수정 가능성을 봐요.",
+"example_en": "Since the scope is large, check whether partial fixes are possible before scrapping the whole thing."
+},
+{
+"id": "dev-324",
+"field": "dev",
+"term_ko": "고도화",
+"term_en": "enhancement",
+"english": "",
+"aliases_ko": [
+"고도화 작업"
+],
+"definition_ko": "기존 기능·구조의 성능·품질·활용 범위를 더 높은 수준으로 개선하는 일.",
+"definition_en": "Work that improves the performance, quality, or usage scope of an existing feature or structure to a higher level.",
+"example_ko": "검색 정확도와 응답 속도를 고도화해요.",
+"example_en": "We're enhancing the search accuracy and the response speed."
+},
+{
+"id": "fashion-336",
+"field": "fashion",
+"term_ko": "어패럴",
+"term_en": "apparel",
+"english": "Apparel",
+"aliases_ko": [
+"어패럴 회사",
+"의류업체"
+],
+"definition_ko": "의류를 뜻하며, 현장에서는 의류를 기획·생산·판매하는 회사나 사업을 가리켜 쓰기도 한다.",
+"definition_en": "Means clothing; in the field it is also used to refer to a company or business that plans, produces, and sells clothing.",
+"example_ko": "어패럴 회사의 상품기획팀과 원단 업체가 협업해요.",
+"example_en": "The apparel company's merchandising team collaborates with the fabric vendor."
+},
+{
+"id": "fashion-337",
+"field": "fashion",
+"term_ko": "브랜드사",
+"term_en": "brand company",
+"english": "Brand company",
+"aliases_ko": [
+"패션 브랜드사"
+],
+"definition_ko": "자체 브랜드의 방향·상품·마케팅·판매 등을 운영하는 회사.",
+"definition_en": "A company that runs its own brand's direction, products, marketing, and sales.",
+"example_ko": "브랜드사에서 시즌 콘셉트와 목표 가격을 정해요.",
+"example_en": "The brand company sets the seasonal concept and the target price."
+},
+{
+"id": "fashion-338",
+"field": "fashion",
+"term_ko": "프로모션 업체",
+"term_en": "promotion vendor",
+"english": "Garment production agency",
+"aliases_ko": [
+"의류 프로모션",
+"생산 프로모션"
+],
+"definition_ko": "브랜드의 의뢰에 따라 의류 개발·원부자재 조달·생산 등을 맡아 진행하는 업체.",
+"definition_en": "A vendor that handles clothing development, material sourcing, and production on commission from a brand.",
+"example_ko": "프로모션 업체에 샘플부터 본생산까지 의뢰해요.",
+"example_en": "We commission the promotion vendor for everything from samples to main production.",
+"note_ko": "패션 생산 대행 문맥입니다. 마케팅의 판매 촉진 프로모션과 다릅니다.",
+"note_en": "This is the fashion production-outsourcing context. It differs from sales promotion in marketing."
+},
+{
+"id": "fashion-339",
+"field": "fashion",
+"term_ko": "OEM",
+"term_en": "OEM",
+"english": "Original equipment manufacturing",
+"aliases_ko": [
+"주문자 상표 부착 생산"
+],
+"definition_ko": "발주사의 요구와 상표에 맞춰 제품을 생산해 공급하는 방식.",
+"definition_en": "A method of producing and supplying products to the ordering company's requirements and brand.",
+"example_ko": "이번 제품은 OEM 방식으로 생산해요.",
+"example_en": "This product is produced via OEM."
+},
+{
+"id": "fashion-340",
+"field": "fashion",
+"term_ko": "ODM",
+"term_en": "ODM",
+"english": "Original design manufacturing",
+"aliases_ko": [
+"제조자 개발 생산"
+],
+"definition_ko": "제조사가 제품 개발·설계와 생산을 함께 맡아 발주사의 브랜드로 공급하는 방식.",
+"definition_en": "A method where the manufacturer handles both product development and design and production and supplies it under the ordering company's brand.",
+"example_ko": "ODM 업체의 개발 샘플을 검토해요.",
+"example_en": "Review the ODM vendor's development samples."
+},
+{
+"id": "fashion-341",
+"field": "fashion",
+"term_ko": "봉제공장",
+"term_en": "sewing factory",
+"english": "Sewing factory",
+"aliases_ko": [
+"봉제 공장",
+"봉제처"
+],
+"definition_ko": "재단된 원단 등을 봉제해 의류를 만드는 생산 업체.",
+"definition_en": "A production vendor that sews cut fabric into garments.",
+"example_ko": "봉제공장과 봉제 사양과 납기를 맞춰요.",
+"example_en": "Align the sewing specs and the delivery date with the sewing factory."
+},
+{
+"id": "fashion-342",
+"field": "fashion",
+"term_ko": "샘플실",
+"term_en": "sample room",
+"english": "Sample room",
+"aliases_ko": [
+"샘플실 업체"
+],
+"definition_ko": "본생산 전에 패턴과 사양에 따라 시험 의류를 만드는 작업 공간이나 조직.",
+"definition_en": "A workspace or organization that makes trial garments according to patterns and specs before main production.",
+"example_ko": "샘플실에 수정 패턴과 원단을 전달해요.",
+"example_en": "Deliver the revised pattern and fabric to the sample room."
+},
+{
+"id": "fashion-343",
+"field": "fashion",
+"term_ko": "패턴실",
+"term_en": "pattern room",
+"english": "Pattern room",
+"aliases_ko": [
+"패턴실 업체"
+],
+"definition_ko": "의류의 형태와 치수를 바탕으로 패턴을 개발·수정하는 조직이나 작업 공간.",
+"definition_en": "An organization or workspace that develops and revises patterns based on a garment's form and measurements.",
+"example_ko": "패턴실과 어깨선 수정을 확인해요.",
+"example_en": "Check the shoulder-line revision with the pattern room."
+},
+{
+"id": "fashion-344",
+"field": "fashion",
+"term_ko": "염색공장",
+"term_en": "dyeing factory",
+"english": "Dyeing mill",
+"aliases_ko": [
+"염색 공장",
+"염색처"
+],
+"definition_ko": "원사·원단·제품 등에 색을 입히는 공정과 관련 가공을 수행하는 업체.",
+"definition_en": "A vendor that performs dyeing processes and related finishing on yarn, fabric, or products.",
+"example_ko": "염색공장에서 컬러별 테스트를 진행해요.",
+"example_en": "The dyeing factory runs tests for each color."
+},
+{
+"id": "fashion-345",
+"field": "fashion",
+"term_ko": "원단업체",
+"term_en": "fabric vendor",
+"english": "Fabric supplier",
+"aliases_ko": [
+"원단 업체",
+"원단처",
+"원단상"
+],
+"definition_ko": "원단을 개발·생산하거나 유통해 공급하는 회사.",
+"definition_en": "A company that develops, produces, or distributes and supplies fabric.",
+"example_ko": "원단업체에 재고와 추가 생산 가능 여부를 확인해요.",
+"example_en": "Check the stock and the additional-production availability with the fabric vendor."
+},
+{
+"id": "fashion-346",
+"field": "fashion",
+"term_ko": "생산관리팀",
+"term_en": "production management team",
+"english": "Production management team",
+"aliases_ko": [
+"생산관리",
+"생산팀"
+],
+"definition_ko": "생산 일정·수량·공정·품질·협력 공장 진행을 관리하는 조직.",
+"definition_en": "An organization that manages the production schedule, quantity, processes, quality, and partner-factory progress.",
+"example_ko": "생산관리팀이 납기 지연 가능성을 확인해요.",
+"example_en": "The production management team checks the possibility of a delivery delay."
+},
+{
+"id": "fashion-347",
+"field": "fashion",
+"term_ko": "소재팀",
+"term_en": "materials team",
+"english": "Fabric development team",
+"aliases_ko": [
+"소재개발팀",
+"원단팀"
+],
+"definition_ko": "상품에 사용할 원단·소재의 개발·선정·품질·공급을 담당하는 조직.",
+"definition_en": "An organization in charge of developing, selecting, quality-checking, and supplying the fabrics and materials used in products.",
+"example_ko": "소재팀에서 시즌에 맞는 원단을 제안해요.",
+"example_en": "The materials team proposes fabrics suited to the season."
+},
+{
+"id": "fashion-348",
+"field": "fashion",
+"term_ko": "상품기획팀",
+"term_en": "merchandising team",
+"english": "Merchandising team",
+"aliases_ko": [
+"MD팀",
+"상품팀"
+],
+"definition_ko": "시장·판매·브랜드 방향에 맞춰 상품 구성·가격·물량·일정을 기획하는 팀.",
+"definition_en": "A team that plans the product assortment, price, volume, and schedule in line with the market, sales, and brand direction.",
+"example_ko": "상품기획팀과 스타일별 수량을 정해요.",
+"example_en": "Decide the quantity per style with the merchandising team."
+},
+{
+"id": "fashion-349",
+"field": "fashion",
+"term_ko": "디자인실",
+"term_en": "design room",
+"english": "Fashion design department",
+"aliases_ko": [
+"의상디자인팀",
+"패션디자인팀"
+],
+"definition_ko": "시즌 콘셉트와 의류·컬러·디테일 등을 디자인하는 조직.",
+"definition_en": "An organization that designs the seasonal concept and the garments, colors, and details.",
+"example_ko": "디자인실에서 도식화와 소재 조합을 전달해요.",
+"example_en": "The design room delivers the flat sketches and material combinations."
+},
+{
+"id": "fashion-350",
+"field": "fashion",
+"term_ko": "QC",
+"term_en": "QC",
+"english": "Quality control",
+"aliases_ko": [
+"품질관리",
+"품질 검사",
+"큐씨"
+],
+"definition_ko": "상품과 생산 과정이 정한 품질 기준에 맞는지 점검하고 관리하는 활동.",
+"definition_en": "Activities that inspect and manage whether products and the production process meet the set quality standards.",
+"example_ko": "출고 전 QC에서 봉제와 치수를 확인해요.",
+"example_en": "In QC before shipping, check the sewing and the measurements."
+},
+{
+"id": "fashion-351",
+"field": "fashion",
+"term_ko": "물류팀",
+"term_en": "logistics team",
+"english": "Logistics team",
+"aliases_ko": [
+"물류부",
+"출고팀"
+],
+"definition_ko": "상품의 입고·보관·이동·출고·배송 흐름을 관리하는 조직.",
+"definition_en": "An organization that manages the flow of goods: receiving, storage, movement, shipping, and delivery.",
+"example_ko": "물류팀에 행사 시작 전 입고 일정을 공유해요.",
+"example_en": "Share the inbound schedule with the logistics team before the event starts."
+},
+{
+"id": "fashion-352",
+"field": "fashion",
+"term_ko": "TD",
+"term_en": "TD",
+"english": "Technical designer",
+"aliases_ko": [
+"테크니컬 디자이너",
+"테크니컬 디자인"
+],
+"definition_ko": "디자인 의도를 실제 의류의 핏·치수·봉제 사양으로 구현하도록 기술적으로 조율하는 직무.",
+"definition_en": "A role that technically coordinates realizing the design intent into the actual garment's fit, measurements, and sewing specs.",
+"example_ko": "TD가 피팅 코멘트와 치수 수정을 정리해요.",
+"example_en": "The TD organizes the fitting comments and the measurement revisions."
+},
+{
+"id": "fashion-353",
+"field": "fashion",
+"term_ko": "패터너",
+"term_en": "patternmaker",
+"english": "Pattern maker",
+"aliases_ko": [
+"패턴사",
+"패턴 메이커"
+],
+"definition_ko": "디자인과 치수에 맞춰 의류 제작용 패턴을 만드는 사람.",
+"definition_en": "A person who makes garment production patterns according to the design and measurements.",
+"example_ko": "패터너와 소매 활동량을 조정해요.",
+"example_en": "Adjust the sleeve range of motion with the patternmaker."
+},
+{
+"id": "fashion-354",
+"field": "fashion",
+"term_ko": "원사",
+"term_en": "yarn",
+"english": "Yarn",
+"aliases_ko": [
+"실",
+"얀"
+],
+"definition_ko": "섬유를 모아 가늘고 길게 만든 것으로, 직물·편물 등을 만드는 재료.",
+"definition_en": "Material made by gathering fibers into a thin, long strand, used to make woven and knit fabrics.",
+"example_ko": "원사의 굵기와 꼬임에 따라 원단 촉감이 달라져요.",
+"example_en": "The fabric's feel changes with the yarn's thickness and twist."
+},
+{
+"id": "fashion-355",
+"field": "fashion",
+"term_ko": "방적",
+"term_en": "spinning",
+"english": "Spinning",
+"aliases_ko": [
+"방적 공정"
+],
+"definition_ko": "짧은 섬유 등을 정리하고 꼬아 실로 만드는 공정.",
+"definition_en": "The process of arranging and twisting short fibers into yarn.",
+"example_ko": "방적 조건에 맞는 원료를 선정해요.",
+"example_en": "Select raw material suited to the spinning conditions."
+},
+{
+"id": "fashion-356",
+"field": "fashion",
+"term_ko": "제직",
+"term_en": "weaving",
+"english": "Weaving",
+"aliases_ko": [
+"직조",
+"위빙"
+],
+"definition_ko": "경사와 위사를 교차시켜 직물을 만드는 공정.",
+"definition_en": "The process of interlacing warp and weft to make woven fabric.",
+"example_ko": "제직 조직을 바꾸면 표면 느낌이 달라져요.",
+"example_en": "Changing the weave structure changes the surface feel."
+},
+{
+"id": "fashion-357",
+"field": "fashion",
+"term_ko": "편직",
+"term_en": "knitting",
+"english": "Knitting",
+"aliases_ko": [
+"니팅",
+"편직 공정"
+],
+"definition_ko": "실로 고리를 만들고 연결해 편물을 만드는 공정.",
+"definition_en": "The process of making loops with yarn and connecting them to make knit fabric.",
+"example_ko": "편직 조직에 맞춰 신축성과 두께를 확인해요.",
+"example_en": "Check the stretch and thickness according to the knit structure."
+},
+{
+"id": "fashion-358",
+"field": "fashion",
+"term_ko": "경사",
+"term_en": "warp",
+"english": "Warp",
+"aliases_ko": [
+"날실"
+],
+"definition_ko": "직물을 짤 때 길이 방향으로 놓이는 실.",
+"definition_en": "The threads laid in the lengthwise direction when weaving fabric.",
+"example_ko": "경사 방향을 기준으로 패턴을 배치해요.",
+"example_en": "Place the pattern based on the warp direction."
+},
+{
+"id": "fashion-359",
+"field": "fashion",
+"term_ko": "위사",
+"term_en": "weft",
+"english": "Weft",
+"aliases_ko": [
+"씨실"
+],
+"definition_ko": "직물을 짤 때 경사와 교차하는 가로 방향의 실.",
+"definition_en": "The crosswise threads that interlace with the warp when weaving fabric.",
+"example_ko": "위사 색을 바꾸어 원단 느낌을 비교해요.",
+"example_en": "Change the weft color to compare the fabric feel."
+},
+{
+"id": "fashion-360",
+"field": "fashion",
+"term_ko": "혼용률",
+"term_en": "fiber composition",
+"english": "Fiber composition",
+"aliases_ko": [
+"혼용율",
+"섬유 조성"
+],
+"definition_ko": "원단이나 제품을 이루는 섬유 종류별 비율.",
+"definition_en": "The ratio of each fiber type that makes up a fabric or product.",
+"example_ko": "표기할 혼용률을 시험 결과와 대조해요.",
+"example_en": "Cross-check the fiber composition to be labeled against the test results."
+},
+{
+"id": "fashion-361",
+"field": "fashion",
+"term_ko": "중량",
+"term_en": "fabric weight",
+"english": "Fabric weight",
+"aliases_ko": [
+"원단 중량",
+"GSM",
+"평량"
+],
+"definition_ko": "원단의 무게를 나타내는 값. GSM은 1제곱미터당 그램 수로 면적당 무게를 나타낸다.",
+"definition_en": "A value indicating the weight of fabric. GSM expresses weight per area as grams per square meter.",
+"example_ko": "같은 조직이라도 중량이 높으면 착용감이 달라질 수 있어요.",
+"example_en": "Even with the same structure, a higher weight can change how it wears."
+},
+{
+"id": "fashion-362",
+"field": "fashion",
+"term_ko": "원단 폭",
+"term_en": "fabric width",
+"english": "Fabric width",
+"aliases_ko": [
+"원단폭",
+"폭",
+"유효폭"
+],
+"definition_ko": "원단의 가로 너비. 재단에 쓸 수 있는 실제 폭은 가장자리 등을 제외해 확인한다.",
+"definition_en": "The crosswise width of fabric. The usable width for cutting is confirmed after excluding the selvage and such.",
+"example_ko": "원단 폭이 달라져 요척을 다시 계산해요.",
+"example_en": "The fabric width changed, so recalculate the fabric consumption."
+},
+{
+"id": "fashion-363",
+"field": "fashion",
+"term_ko": "요척",
+"term_en": "fabric consumption",
+"english": "Fabric consumption",
+"aliases_ko": [
+"원단 소요량",
+"소요량"
+],
+"definition_ko": "의류 한 벌 등 제품 단위에 필요한 원단의 양.",
+"definition_en": "The amount of fabric needed per product unit, such as one garment.",
+"example_ko": "사이즈와 원단 폭별 요척을 계산해요.",
+"example_en": "Calculate the fabric consumption by size and fabric width."
+},
+{
+"id": "fashion-364",
+"field": "fashion",
+"term_ko": "수축률",
+"term_en": "shrinkage rate",
+"english": "Shrinkage",
+"aliases_ko": [
+"수축율",
+"슈링크"
+],
+"definition_ko": "세탁·가공 등의 전후에 원단이나 제품 치수가 줄어드는 비율.",
+"definition_en": "The percentage by which fabric or product dimensions shrink before and after washing, processing, and so on.",
+"example_ko": "수축률을 확인한 뒤 패턴에 반영해요.",
+"example_en": "Reflect the shrinkage rate in the pattern after checking it."
+},
+{
+"id": "fashion-365",
+"field": "fashion",
+"term_ko": "견뢰도",
+"term_en": "colorfastness",
+"english": "Color fastness",
+"aliases_ko": [
+"염색 견뢰도"
+],
+"definition_ko": "마찰·세탁·빛 등 외부 조건에 색이 얼마나 잘 유지되는지를 나타내는 성질.",
+"definition_en": "A property indicating how well color holds up against external conditions such as friction, washing, and light.",
+"example_ko": "진한 원단은 마찰 견뢰도도 확인해요.",
+"example_en": "For dark fabric, also check the rubbing colorfastness."
+},
+{
+"id": "fashion-366",
+"field": "fashion",
+"term_ko": "필링",
+"term_en": "pilling",
+"english": "Pilling",
+"aliases_ko": [
+"보풀",
+"필링 현상"
+],
+"definition_ko": "마찰 등에 의해 표면의 섬유가 얽혀 작은 보풀 덩어리가 생기는 현상.",
+"definition_en": "A phenomenon where surface fibers tangle from friction and form small balls of fuzz.",
+"example_ko": "착용 부위의 필링 발생 정도를 확인해요.",
+"example_en": "Check the degree of pilling in the wear areas."
+},
+{
+"id": "fashion-367",
+"field": "fashion",
+"term_ko": "이염",
+"term_en": "color bleeding",
+"english": "Color transfer",
+"aliases_ko": [
+"물빠짐 이염",
+"염료 전이"
+],
+"definition_ko": "한 소재의 색이 접촉한 다른 소재로 옮겨 묻는 현상.",
+"definition_en": "A phenomenon where one material's color transfers onto another material it contacts.",
+"example_ko": "밝은 배색에 이염이 생기는지 확인해요.",
+"example_en": "Check whether color bleeding occurs on the light color blocks."
+},
+{
+"id": "fashion-368",
+"field": "fashion",
+"term_ko": "선염",
+"term_en": "yarn dyeing",
+"english": "Yarn dyeing",
+"aliases_ko": [
+"선염 원단"
+],
+"definition_ko": "실을 먼저 염색한 뒤 원단을 만드는 방식.",
+"definition_en": "A method of dyeing the yarn first and then making the fabric.",
+"example_ko": "체크 배색은 선염으로 진행해요.",
+"example_en": "The check pattern is done with yarn dyeing."
+},
+{
+"id": "fashion-369",
+"field": "fashion",
+"term_ko": "후염",
+"term_en": "piece dyeing",
+"english": "Piece dyeing",
+"aliases_ko": [
+"후염 원단"
+],
+"definition_ko": "원단을 만든 뒤 색을 입히는 방식.",
+"definition_en": "A method of dyeing after the fabric is made.",
+"example_ko": "동일 생지를 컬러별로 후염해요.",
+"example_en": "Piece-dye the same greige fabric by color."
+},
+{
+"id": "fashion-370",
+"field": "fashion",
+"term_ko": "생지",
+"term_en": "greige",
+"english": "Greige fabric",
+"aliases_ko": [
+"그레이지",
+"미가공 원단"
+],
+"definition_ko": "제직·편직 후 염색이나 마무리 가공을 아직 하지 않은 상태의 원단.",
+"definition_en": "Fabric that has been woven or knit but not yet dyed or finished.",
+"example_ko": "생지 재고를 확인하고 염색 일정을 잡아요.",
+"example_en": "Check the greige stock and set the dyeing schedule."
+},
+{
+"id": "fashion-371",
+"field": "fashion",
+"term_ko": "워싱",
+"term_en": "washing",
+"english": "Washing",
+"aliases_ko": [
+"워시",
+"워싱 가공"
+],
+"definition_ko": "세탁·처리 공정으로 원단이나 의류의 촉감·외관·수축 등을 조정하는 가공.",
+"definition_en": "A finishing process that adjusts the feel, appearance, and shrinkage of fabric or garments through washing and treatment.",
+"example_ko": "워싱 전후 색과 치수를 비교해요.",
+"example_en": "Compare the color and dimensions before and after washing."
+},
+{
+"id": "fashion-372",
+"field": "fashion",
+"term_ko": "덤블",
+"term_en": "tumbling",
+"english": "Tumble finishing",
+"aliases_ko": [
+"덤블 가공",
+"덤블링"
+],
+"definition_ko": "원단이나 제품을 회전·기계적 처리해 촉감이나 수축 안정성 등을 조정하는 가공을 부르는 말.",
+"definition_en": "A term for a finishing that rotates or mechanically treats fabric or a product to adjust the feel or shrinkage stability.",
+"example_ko": "덤블 후 중량과 폭을 다시 확인해요.",
+"example_en": "Recheck the weight and width after tumbling."
+},
+{
+"id": "fashion-373",
+"field": "fashion",
+"term_ko": "텐타",
+"term_en": "stenter",
+"english": "Tentering",
+"aliases_ko": [
+"텐터",
+"텐타 가공",
+"덴타",
+"덴타 가공",
+"stenter",
+"덴터"
+],
+"definition_ko": "원단 폭을 펼쳐 고정하며 건조·열처리해 폭과 형태 등을 조정하는 가공.",
+"definition_en": "A finishing that spreads and fixes the fabric width while drying and heat-setting to adjust the width and form.",
+"example_ko": "텐타 후 목표 폭과 중량을 확인해요.",
+"example_en": "Check the target width and weight after stentering."
+},
+{
+"id": "fashion-374",
+"field": "fashion",
+"term_ko": "코팅",
+"term_en": "coating",
+"english": "Coating",
+"aliases_ko": [
+"원단 코팅"
+],
+"definition_ko": "원단 표면에 물질을 입혀 방수·촉감·외관 등의 성질을 부여하는 처리.",
+"definition_en": "A treatment that applies a substance to the fabric surface to give properties such as water resistance, feel, or appearance.",
+"example_ko": "코팅 후 접힘 부위의 상태를 확인해요.",
+"example_en": "Check the condition of folded areas after coating."
+},
+{
+"id": "fashion-375",
+"field": "fashion",
+"term_ko": "라미네이션",
+"term_en": "lamination",
+"english": "Lamination",
+"aliases_ko": [
+"원단 라미네이팅",
+"본딩 가공"
+],
+"definition_ko": "원단에 필름이나 다른 층을 붙여 여러 층의 소재로 만드는 가공.",
+"definition_en": "A finishing that bonds a film or another layer to fabric to make a multi-layer material.",
+"example_ko": "필름 라미네이션 후 접착 상태를 확인해요.",
+"example_en": "Check the bonding condition after film lamination."
+},
+{
+"id": "fashion-376",
+"field": "fashion",
+"term_ko": "랩딥",
+"term_en": "lab dip",
+"english": "Lab dip",
+"aliases_ko": [
+"랩 딥",
+"랩딥 테스트"
+],
+"definition_ko": "본 염색 전에 목표 색을 맞추기 위해 소량으로 시험 염색한 샘플.",
+"definition_en": "A small trial-dyed sample made to match the target color before main dyeing.",
+"example_ko": "랩딥 세 안을 기준색과 비교해 승인해요.",
+"example_en": "Compare three lab dips against the standard color and approve."
+},
+{
+"id": "fashion-377",
+"field": "fashion",
+"term_ko": "스트라이크오프",
+"term_en": "strike-off",
+"english": "Strike-off",
+"aliases_ko": [
+"스트라이크 오프",
+"나염 시험 샘플"
+],
+"definition_ko": "본 나염 전에 색·무늬·크기·품질 등을 확인하기 위해 시험 인쇄한 샘플.",
+"definition_en": "A trial-printed sample made before the main print run to check color, pattern, size, and quality.",
+"example_ko": "스트라이크오프에서 무늬 크기를 확인해요.",
+"example_en": "Check the pattern size on the strike-off."
+},
+{
+"id": "fashion-378",
+"field": "fashion",
+"term_ko": "나염",
+"term_en": "fabric printing",
+"english": "Textile printing",
+"aliases_ko": [
+"프린트",
+"원단 프린팅"
+],
+"definition_ko": "원단이나 의류 표면의 정해진 부분에 색과 무늬를 인쇄하는 작업.",
+"definition_en": "The work of printing color and patterns onto set areas of fabric or garment surfaces.",
+"example_ko": "나염 위치와 크기를 도식화에 표시해요.",
+"example_en": "Mark the print position and size on the flat sketch."
+},
+{
+"id": "fashion-379",
+"field": "fashion",
+"term_ko": "자수",
+"term_en": "embroidery",
+"english": "Embroidery",
+"aliases_ko": [
+"엠브로이더리"
+],
+"definition_ko": "실로 원단이나 의류 위에 무늬·글자 등을 수놓는 장식 방식.",
+"definition_en": "A decorative method of stitching patterns or letters onto fabric or garments with thread.",
+"example_ko": "로고 자수의 실 색과 밀도를 확인해요.",
+"example_en": "Check the thread color and density of the logo embroidery."
+},
+{
+"id": "fashion-380",
+"field": "fashion",
+"term_ko": "가봉",
+"term_en": "basted fitting",
+"english": "Basting fitting",
+"aliases_ko": [
+"가봉 샘플"
+],
+"definition_ko": "형태와 착용 상태를 확인하며 수정하기 위해 임시로 맞춰 봉제하는 작업이나 단계.",
+"definition_en": "The work or stage of temporarily sewing a garment to check the form and fit while making revisions.",
+"example_ko": "가봉에서 어깨와 허리 위치를 먼저 봐요.",
+"example_en": "In the basted fitting, first check the shoulder and waist positions."
+},
+{
+"id": "fashion-381",
+"field": "fashion",
+"term_ko": "초두",
+"term_en": "initial run",
+"english": "Initial production",
+"aliases_ko": [
+"초두 물량",
+"초도 물량",
+"초도"
+],
+"definition_ko": "처음 생산하거나 입고하는 물량을 가리키는 말.",
+"definition_en": "A term for the first quantity produced or received.",
+"example_ko": "초두 물량 판매를 보고 리오더를 결정해요.",
+"example_en": "We decide reorders based on the initial-run sales."
+},
+{
+"id": "fashion-382",
+"field": "fashion",
+"term_ko": "메인 생산",
+"term_en": "main production",
+"english": "Bulk production",
+"aliases_ko": [
+"메인",
+"본생산",
+"벌크 생산"
+],
+"definition_ko": "승인된 샘플과 사양을 기준으로 판매할 제품을 실제 수량으로 생산하는 단계.",
+"definition_en": "The stage of producing the products to be sold at actual quantities based on the approved sample and specs.",
+"example_ko": "샘플 승인 후 메인 생산에 들어가요.",
+"example_en": "We begin main production after the sample approval."
+},
+{
+"id": "fashion-383",
+"field": "fashion",
+"term_ko": "PP 샘플",
+"term_en": "PP sample",
+"english": "Pre-production sample",
+"aliases_ko": [
+"PP샘플",
+"피피 샘플",
+"생산 전 샘플",
+"피피샘플",
+"PPS"
+],
+"definition_ko": "본생산 전 실제 사용할 소재·부자재·사양 등을 확인하기 위해 만드는 샘플.",
+"definition_en": "A sample made before main production to confirm the actual materials, trims, and specs to be used.",
+"example_ko": "PP 샘플 승인 사항을 공장에 전달해요.",
+"example_en": "Pass the PP sample approvals to the factory.",
+"note_ko": "샘플 단계·명칭·승인 절차는 브랜드와 공장마다 다를 수 있습니다.",
+"note_en": "Sample stages, names, and approval processes can differ by brand and factory."
+},
+{
+"id": "fashion-384",
+"field": "fashion",
+"term_ko": "TOP 샘플",
+"term_en": "TOP sample",
+"english": "Top of production sample",
+"aliases_ko": [
+"TOP샘플",
+"탑 샘플",
+"탑샘플",
+"티오피 샘플"
+],
+"definition_ko": "본생산 초기 제품에서 뽑아 생산 품질과 사양을 확인하는 샘플.",
+"definition_en": "A sample pulled from early main-production units to check the production quality and specs.",
+"example_ko": "TOP 샘플에서 라벨 위치와 치수를 확인해요.",
+"example_en": "Check the label position and measurements on the TOP sample.",
+"note_ko": "샘플 채취 시점과 요구 수량은 거래처별로 확인해야 합니다.",
+"note_en": "The sampling timing and required quantity should be confirmed with each buyer."
+},
+{
+"id": "fashion-385",
+"field": "fashion",
+"term_ko": "사이즈 세트",
+"term_en": "size set",
+"english": "Size set",
+"aliases_ko": [
+"사이즈셋",
+"사이즈 세트 샘플"
+],
+"definition_ko": "여러 사이즈를 만들어 치수 전개와 착용 상태를 확인하는 샘플 묶음.",
+"definition_en": "A sample set made in multiple sizes to check the size grading and fit.",
+"example_ko": "사이즈 세트에서 작은 사이즈의 소매 폭도 확인해요.",
+"example_en": "In the size set, also check the sleeve width of the small size."
+},
+{
+"id": "fashion-386",
+"field": "fashion",
+"term_ko": "마킹",
+"term_en": "marking",
+"english": "Marker making",
+"aliases_ko": [
+"마카",
+"마커",
+"재단 마킹"
+],
+"definition_ko": "원단 사용량과 결 방향 등을 고려해 패턴 조각의 재단 배치를 만드는 작업.",
+"definition_en": "The work of arranging the cutting layout of pattern pieces, considering fabric usage and grain direction.",
+"example_ko": "마킹을 조정해 원단 로스를 줄여요.",
+"example_en": "Adjust the marking to reduce fabric loss."
+},
+{
+"id": "fashion-387",
+"field": "fashion",
+"term_ko": "연단",
+"term_en": "spreading",
+"english": "Fabric spreading",
+"aliases_ko": [
+"연단 작업"
+],
+"definition_ko": "여러 겹의 원단을 재단하기 좋게 길이와 방향을 맞춰 펼쳐 쌓는 작업.",
+"definition_en": "The work of spreading and stacking multiple layers of fabric, aligned in length and direction for easy cutting.",
+"example_ko": "연단 때 결 방향과 장력을 확인해요.",
+"example_en": "Check the grain direction and tension during spreading."
+},
+{
+"id": "fashion-388",
+"field": "fashion",
+"term_ko": "심지",
+"term_en": "interlining",
+"english": "Interlining",
+"aliases_ko": [
+"인터라이닝",
+"접착심"
+],
+"definition_ko": "카라·앞단 등 의류 부분의 형태와 힘을 보강하기 위해 사용하는 재료.",
+"definition_en": "A material used to reinforce the form and body of garment parts such as collars and front plackets.",
+"example_ko": "얇은 원단에 맞는 심지 강도를 골라요.",
+"example_en": "Choose an interlining strength suited to the thin fabric."
+},
+{
+"id": "fashion-389",
+"field": "fashion",
+"term_ko": "안감",
+"term_en": "lining",
+"english": "Lining",
+"aliases_ko": [
+"라이닝"
+],
+"definition_ko": "옷 안쪽에 덧대 착용감·형태·마감을 돕는 원단.",
+"definition_en": "Fabric added inside a garment to aid the feel, form, and finish.",
+"example_ko": "안감 길이가 겉감보다 나오지 않는지 확인해요.",
+"example_en": "Check that the lining length doesn't extend past the shell fabric."
+},
+{
+"id": "fashion-390",
+"field": "fashion",
+"term_ko": "겉감",
+"term_en": "shell fabric",
+"english": "Shell fabric",
+"aliases_ko": [
+"쉘 원단"
+],
+"definition_ko": "의류의 바깥쪽 주된 표면을 이루는 원단.",
+"definition_en": "The fabric that forms the main outer surface of a garment.",
+"example_ko": "겉감과 안감의 수축 차이를 확인해요.",
+"example_en": "Check the shrinkage difference between the shell and the lining."
+},
+{
+"id": "fashion-391",
+"field": "fashion",
+"term_ko": "스티치",
+"term_en": "stitch",
+"english": "Stitch",
+"aliases_ko": [
+"땀",
+"봉제땀",
+"바늘땀",
+"박음질"
+],
+"definition_ko": "바늘과 실이 원단에 만드는 봉제의 단위나 박음질 표현.",
+"definition_en": "The unit of sewing or topstitch expression that the needle and thread make in the fabric.",
+"example_ko": "눈에 보이는 스티치 간격을 일정하게 맞춰요.",
+"example_en": "Keep the visible stitch spacing consistent."
+},
+{
+"id": "fashion-392",
+"field": "fashion",
+"term_ko": "상침",
+"term_en": "topstitch",
+"english": "Topstitching",
+"aliases_ko": [
+"탑스티치",
+"겉박음"
+],
+"definition_ko": "겉에서 보이도록 박음질해 장식하거나 시접·형태를 고정하는 봉제.",
+"definition_en": "Sewing that is visible on the outside to decorate or to fix the seam allowance and form.",
+"example_ko": "포켓 둘레 상침 폭을 일정하게 해 주세요.",
+"example_en": "Keep the topstitch width around the pocket consistent."
+},
+{
+"id": "fashion-393",
+"field": "fashion",
+"term_ko": "오버로크",
+"term_en": "overlock",
+"english": "Overlocking",
+"aliases_ko": [
+"오바로크",
+"오버록",
+"오바록"
+],
+"definition_ko": "원단 가장자리를 감싸 박아 올 풀림을 막거나 연결하는 봉제 방식.",
+"definition_en": "A sewing method that wraps and stitches the fabric edge to prevent fraying or to join pieces.",
+"example_ko": "시접 가장자리는 오버로크로 마감해요.",
+"example_en": "Finish the seam allowance edges with overlock."
+},
+{
+"id": "fashion-394",
+"field": "fashion",
+"term_ko": "바인딩",
+"term_en": "binding",
+"english": "Binding",
+"aliases_ko": [
+"바인더 마감"
+],
+"definition_ko": "원단 가장자리를 띠 모양 재료로 감싸 마무리하는 방식.",
+"definition_en": "A method of finishing a fabric edge by wrapping it with a strip of material.",
+"example_ko": "목둘레 바인딩이 늘어나지 않게 확인해요.",
+"example_en": "Check that the neckline binding doesn't stretch out."
+},
+{
+"id": "fashion-395",
+"field": "fashion",
+"term_ko": "바텍",
+"term_en": "bartack",
+"english": "Bartack",
+"aliases_ko": [
+"바택",
+"바텍 봉제"
+],
+"definition_ko": "힘이 집중되는 부분에 짧고 촘촘한 박음질을 넣어 보강하는 것.",
+"definition_en": "Reinforcing a stress point with short, dense stitching.",
+"example_ko": "포켓 입구 양끝에 바텍을 넣어요.",
+"example_en": "Add a bartack at both ends of the pocket opening."
+},
+{
+"id": "fashion-396",
+"field": "fashion",
+"term_ko": "퍼커링",
+"term_en": "puckering",
+"english": "Seam puckering",
+"aliases_ko": [
+"퍼커",
+"봉제 주름"
+],
+"definition_ko": "봉제선 주변이 원단·실·장력 등 영향으로 울거나 주름지는 현상.",
+"definition_en": "A phenomenon where the area around a seam gathers or wrinkles due to fabric, thread, or tension.",
+"example_ko": "옆선 퍼커링을 줄이도록 봉제 조건을 확인해요.",
+"example_en": "Check the sewing conditions to reduce the side-seam puckering."
+},
+{
+"id": "fashion-397",
+"field": "fashion",
+"term_ko": "불량",
+"term_en": "defect",
+"english": "Defect",
+"aliases_ko": [
+"하자",
+"불량품",
+"불량건"
+],
+"definition_ko": "정한 사양이나 품질 기준에 맞지 않는 문제 또는 제품.",
+"definition_en": "A problem or product that doesn't meet the set specs or quality standards.",
+"example_ko": "불량 유형을 사진과 함께 기록해요.",
+"example_en": "Record the defect types together with photos."
+},
+{
+"id": "fashion-398",
+"field": "fashion",
+"term_ko": "검품",
+"term_en": "inspection",
+"english": "Garment inspection",
+"aliases_ko": [
+"검품 작업"
+],
+"definition_ko": "제품의 치수·봉제·오염·부자재·포장 등을 기준에 따라 검사하는 작업.",
+"definition_en": "The work of inspecting a product's measurements, sewing, stains, trims, and packaging against standards.",
+"example_ko": "출고 전 검품에서 오염과 실밥을 확인해요.",
+"example_en": "In the inspection before shipping, check for stains and loose threads."
+},
+{
+"id": "fashion-399",
+"field": "fashion",
+"term_ko": "검침",
+"term_en": "needle detection",
+"english": "Needle detection",
+"aliases_ko": [
+"검침 작업"
+],
+"definition_ko": "제품에 바늘 조각 등 금속 이물이 남았는지 장비 등으로 확인하는 작업.",
+"definition_en": "The work of checking, with equipment, whether metal foreign objects such as needle fragments remain in a product.",
+"example_ko": "검침 완료 여부를 출고 기록에 남겨요.",
+"example_en": "Record whether needle detection is complete in the shipping log."
+},
+{
+"id": "fashion-400",
+"field": "fashion",
+"term_ko": "프레스",
+"term_en": "pressing",
+"english": "Pressing",
+"aliases_ko": [
+"프레스 가공",
+"다림질 마감"
+],
+"definition_ko": "열·압력 등을 이용해 의류의 형태와 주름·표면을 정리하는 작업.",
+"definition_en": "The work of arranging a garment's form, wrinkles, and surface using heat and pressure.",
+"example_ko": "프레스에서 봉제선이 겉으로 비치지 않게 해요.",
+"example_en": "In pressing, keep the seams from showing through to the outside."
+},
+{
+"id": "fashion-401",
+"field": "fashion",
+"term_ko": "행택",
+"term_en": "hang tag",
+"english": "Hang tag",
+"aliases_ko": [
+"택",
+"행태그",
+"종이택"
+],
+"definition_ko": "상품에 달아 브랜드·가격·품번 등 정보를 안내하는 꼬리표.",
+"definition_en": "A tag attached to a product that provides information such as brand, price, and item number.",
+"example_ko": "행택의 품번이 실제 상품과 맞는지 확인해요.",
+"example_en": "Check that the hang tag's item number matches the actual product."
+},
+{
+"id": "fashion-402",
+"field": "fashion",
+"term_ko": "케어라벨",
+"term_en": "care label",
+"english": "Care label",
+"aliases_ko": [
+"케어 라벨",
+"케어택",
+"취급 라벨"
+],
+"definition_ko": "소재와 세탁·취급 등 제품 사용에 필요한 정보를 표시하는 라벨.",
+"definition_en": "A label that shows information needed to use the product, such as materials and washing and handling.",
+"example_ko": "케어라벨 문구를 최종 사양과 확인해요.",
+"example_en": "Check the care label wording against the final specs."
+},
+{
+"id": "fashion-403",
+"field": "fashion",
+"term_ko": "입고",
+"term_en": "inbound",
+"english": "Receiving",
+"aliases_ko": [
+"입고 처리"
+],
+"definition_ko": "상품이나 자재가 창고·매장 등에 들어와 수량과 상태를 확인하는 일.",
+"definition_en": "When goods or materials arrive at a warehouse or store and their quantity and condition are checked.",
+"example_ko": "입고 수량을 발주 내역과 맞춰요.",
+"example_en": "Match the received quantity against the purchase order."
+},
+{
+"id": "fashion-404",
+"field": "fashion",
+"term_ko": "출고",
+"term_en": "outbound",
+"english": "Dispatch",
+"aliases_ko": [
+"출고 처리"
+],
+"definition_ko": "주문·이동 등의 목적에 따라 창고나 매장에서 상품을 내보내는 일.",
+"definition_en": "Sending goods out of a warehouse or store for purposes such as orders or transfers.",
+"example_ko": "출고 전에 색상과 사이즈를 다시 확인해요.",
+"example_en": "Recheck the color and size before shipping."
+},
+{
+"id": "fashion-405",
+"field": "fashion",
+"term_ko": "배분",
+"term_en": "allocation",
+"english": "Allocation",
+"aliases_ko": [
+"물량 배분",
+"매장 배분",
+"물량배분",
+"채널 배분"
+],
+"definition_ko": "상품 수량을 매장·채널·지역 등의 수요와 계획에 맞춰 나누는 일.",
+"definition_en": "Dividing product quantities among stores, channels, or regions according to demand and plans.",
+"example_ko": "매장별 판매 속도를 보고 물량을 배분해요.",
+"example_en": "Allocate the volume based on each store's sales pace."
+},
+{
+"id": "fashion-406",
+"field": "fashion",
+"term_ko": "리플레니시먼트",
+"term_en": "replenishment",
+"english": "Replenishment",
+"aliases_ko": [
+"리플레니시",
+"보충",
+"재고 보충"
+],
+"definition_ko": "판매되거나 부족해진 상품을 다시 채워 적정 재고를 유지하는 일.",
+"definition_en": "Restocking sold or short items to maintain appropriate inventory.",
+"example_ko": "주력 사이즈를 빠르게 리플레니시먼트해요.",
+"example_en": "Quickly replenish the core sizes."
+},
+{
+"id": "fashion-407",
+"field": "fashion",
+"term_ko": "소진율",
+"term_en": "sell-through rate",
+"english": "Sell-through rate",
+"aliases_ko": [
+"셀스루",
+"재고 소진율"
+],
+"definition_ko": "특정 기간의 입고·가용 물량 중 판매된 비중을 보는 지표. 계산 기준 물량은 조직마다 정한다.",
+"definition_en": "A metric showing the share sold out of a period's received or available volume. The basis volume for the calculation is set by each organization.",
+"example_ko": "주간 소진율을 보고 추가 발주를 검토해요.",
+"example_en": "Review additional orders based on the weekly sell-through rate.",
+"note_ko": "판매율과 유사하게 쓰지만 분모·기간·반품 반영 기준이 다를 수 있어 지표 정의를 확인해야 합니다.",
+"note_en": "It's used similarly to sales rate, but the denominator, period, and returns-handling basis can differ, so the metric's definition should be confirmed."
+},
+{
+"id": "fashion-408",
+"field": "fashion",
+"term_ko": "재고 회전율",
+"term_en": "inventory turnover",
+"english": "Inventory turnover",
+"aliases_ko": [
+"재고회전",
+"턴오버"
+],
+"definition_ko": "일정 기간 재고가 판매 등으로 얼마나 순환했는지 나타내는 지표.",
+"definition_en": "A metric showing how much inventory cycled through sales over a period.",
+"example_ko": "재고 회전율을 보고 장기 보유 상품을 점검해요.",
+"example_en": "Review long-held products based on inventory turnover."
+},
+{
+"id": "fashion-409",
+"field": "fashion",
+"term_ko": "이월",
+"term_en": "carryover stock",
+"english": "Carryover stock",
+"aliases_ko": [
+"이월 상품",
+"이월 재고"
+],
+"definition_ko": "시즌이나 기간이 지나 다음 기간으로 넘어간 상품·재고.",
+"definition_en": "Products or inventory that passed into the next period after a season or period ended.",
+"example_ko": "이월 상품의 판매 채널을 따로 계획해요.",
+"example_en": "Plan a separate sales channel for the carryover stock."
+},
+{
+"id": "fashion-410",
+"field": "fashion",
+"term_ko": "캐리오버",
+"term_en": "carryover",
+"english": "Carryover",
+"aliases_ko": [
+"캐리 오버",
+"계속 상품"
+],
+"definition_ko": "이전 시즌의 상품·스타일을 다음 시즌에도 이어서 운영하는 것.",
+"definition_en": "Continuing to run a previous season's products or styles into the next season.",
+"example_ko": "기본 셔츠는 캐리오버하고 새 컬러를 추가해요.",
+"example_en": "Carry over the basic shirt and add new colors."
+},
+{
+"id": "fashion-411",
+"field": "fashion",
+"term_ko": "홀세일",
+"term_en": "wholesale",
+"english": "Wholesale",
+"aliases_ko": [
+"도매",
+"홀세일 판매"
+],
+"definition_ko": "소매점 등 사업자에게 상품을 묶음이나 거래 조건에 따라 판매하는 유통 방식.",
+"definition_en": "A distribution method of selling goods to businesses such as retailers in bulk or on set trade terms.",
+"example_ko": "홀세일 바이어에게 다음 시즌 라인시트를 보내요.",
+"example_en": "Send the next season's line sheet to the wholesale buyers."
+},
+{
+"id": "fashion-412",
+"field": "fashion",
+"term_ko": "리테일",
+"term_en": "retail",
+"english": "Retail",
+"aliases_ko": [
+"소매",
+"리테일 판매"
+],
+"definition_ko": "최종 소비자에게 상품을 판매하는 유통 방식.",
+"definition_en": "A distribution method of selling goods to the end consumer.",
+"example_ko": "리테일 가격과 도매 공급가를 구분해요.",
+"example_en": "Distinguish the retail price from the wholesale supply price."
+},
+{
+"id": "fashion-413",
+"field": "fashion",
+"term_ko": "쇼룸",
+"term_en": "showroom",
+"english": "Showroom",
+"aliases_ko": [
+"쇼룸 운영"
+],
+"definition_ko": "바이어·고객 등이 상품을 보고 상담·주문 등을 할 수 있도록 전시한 공간.",
+"definition_en": "A space displaying products so buyers and customers can view them and hold consultations or place orders.",
+"example_ko": "쇼룸에서 시즌 샘플과 소재를 보여 줘요.",
+"example_en": "Show the seasonal samples and materials in the showroom."
+},
+{
+"id": "fashion-414",
+"field": "fashion",
+"term_ko": "수주회",
+"term_en": "order fair",
+"english": "Order exhibition",
+"aliases_ko": [
+"오더회",
+"수주 전시회"
+],
+"definition_ko": "다음 시즌 등의 상품을 제시하고 바이어의 주문을 받는 행사.",
+"definition_en": "An event that presents the next season's products and takes buyers' orders.",
+"example_ko": "수주회 전에 사이즈별 샘플을 준비해요.",
+"example_en": "Prepare samples by size before the order fair."
+},
+{
+"id": "fashion-415",
+"field": "fashion",
+"term_ko": "팝업",
+"term_en": "pop-up",
+"english": "Pop-up",
+"aliases_ko": [
+"팝업 매장",
+"단기 매장"
+],
+"definition_ko": "한정된 기간 동안 운영하는 임시 판매·체험 공간.",
+"definition_en": "A temporary selling or experience space operated for a limited period.",
+"example_ko": "팝업 오픈 전에 동선과 재고를 점검해요.",
+"example_en": "Check the flow and stock before the pop-up opens.",
+"note_ko": "패션 매장 문맥입니다. 화면에 뜨는 팝업 창과는 뜻이 다릅니다.",
+"note_en": "This is the fashion-store context. It differs in meaning from a pop-up window on screen."
+},
+{
+"id": "fashion-416",
+"field": "fashion",
+"term_ko": "VM",
+"term_en": "visual merchandising",
+"english": "Visual merchandising",
+"aliases_ko": [
+"비주얼 머천다이징"
+],
+"definition_ko": "상품·집기·조명·공간 연출 등을 통해 매장에서 브랜드와 판매 메시지를 전달하는 활동.",
+"definition_en": "Activities that convey the brand and sales message in a store through product, fixtures, lighting, and space staging.",
+"example_ko": "VM 가이드에 따라 메인 집기 구성을 바꿔요.",
+"example_en": "Change the main fixture layout according to the VM guide."
+},
+{
+"id": "fashion-417",
+"field": "fashion",
+"term_ko": "집기",
+"term_en": "fixtures",
+"english": "Display fixture",
+"aliases_ko": [
+"매장 집기",
+"진열 집기"
+],
+"definition_ko": "상품을 진열·보관하거나 판매 공간을 구성하는 가구·장치.",
+"definition_en": "Furniture and devices that display or store products or make up the sales space.",
+"example_ko": "집기 높이에 맞춰 디스플레이를 조정해요.",
+"example_en": "Adjust the display to match the fixture height."
+},
+{
+"id": "fashion-418",
+"field": "fashion",
+"term_ko": "행거",
+"term_en": "hanger rack",
+"english": "Garment rack",
+"aliases_ko": [
+"헹거",
+"옷걸이 행거"
+],
+"definition_ko": "의류를 걸어 보관하거나 진열하는 기구.",
+"definition_en": "A device for hanging garments to store or display them.",
+"example_ko": "행거별로 컬러와 사이즈 순서를 맞춰요.",
+"example_en": "Arrange the color and size order on each rack."
+},
+{
+"id": "fashion-419",
+"field": "fashion",
+"term_ko": "착장",
+"term_en": "outfit",
+"english": "Outfit",
+"aliases_ko": [
+"착장컷",
+"풀 착장"
+],
+"definition_ko": "의류와 액세서리를 입고 갖춘 상태 또는 그 조합.",
+"definition_en": "The state or combination of wearing garments and accessories together.",
+"example_ko": "한 모델의 착장별 필요한 컷을 정리해요.",
+"example_en": "Organize the shots needed for each of one model's outfits."
+},
+{
+"id": "fashion-420",
+"field": "fashion",
+"term_ko": "착샷",
+"term_en": "worn shot",
+"english": "Outfit photo",
+"aliases_ko": [
+"착용샷",
+"착용 사진"
+],
+"definition_ko": "상품을 실제로 착용한 모습을 보여 주는 사진.",
+"definition_en": "A photo showing a product actually being worn.",
+"example_ko": "상세페이지에 앞뒤 착샷을 넣어 주세요.",
+"example_en": "Please include front and back worn shots on the detail page."
+},
+{
+"id": "fashion-421",
+"field": "fashion",
+"term_ko": "탕 차이",
+"term_en": "dye-lot color difference",
+"english": "",
+"aliases_ko": [
+"탕차이",
+"색탕 차이",
+"로트 색차"
+],
+"definition_ko": "염색 생산 묶음이나 작업 조건 차이 등으로 같은 목표 색 사이에 색상 차이가 나타난 상태.",
+"definition_en": "A state where a color difference appears between the same target color due to dye-lot or process-condition differences.",
+"example_ko": "몸판과 소매에 탕 차이가 없는지 확인해요.",
+"example_en": "Check that there's no dye-lot color difference between the body and the sleeves."
+},
+{
+"id": "fashion-422",
+"field": "fashion",
+"term_ko": "틀어짐",
+"term_en": "skewing",
+"english": "",
+"aliases_ko": [
+"원단 틀어짐",
+"옆선 돌아감"
+],
+"definition_ko": "원단의 결이나 의류 봉제선이 의도한 방향에서 돌아가거나 비뚤어진 상태.",
+"definition_en": "A state where the fabric grain or garment seams rotate or go crooked from the intended direction.",
+"example_ko": "세탁 후 옆선 틀어짐을 확인해요.",
+"example_en": "Check the side-seam skewing after washing."
+},
+{
+"id": "fashion-423",
+"field": "fashion",
+"term_ko": "뜬다",
+"term_en": "gaping",
+"english": "",
+"aliases_ko": [
+"뜨다",
+"카라 뜸"
+],
+"definition_ko": "의류의 특정 부분이 몸이나 다른 부분에 자연스럽게 붙지 않고 들리는 상태.",
+"definition_en": "A state where a particular part of a garment doesn't sit naturally against the body or another part and lifts away.",
+"example_ko": "뒷목 카라가 뜨는 부분을 수정해 주세요.",
+"example_en": "Please fix the part where the back-neck collar gaps.",
+"note_ko": "이 항목은 착용 시 옷의 일부가 몸에서 들리는 핏 문제입니다. 접착 심지가 겉감에서 분리되는 심지 들뜸과 구분합니다.",
+"note_en": "This entry is a fit issue where part of the garment lifts off the body when worn. Distinguish it from interlining bubbling, where fusible interlining separates from the shell fabric."
+},
+{
+"id": "fashion-424",
+"field": "fashion",
+"term_ko": "운다",
+"term_en": "rippling",
+"english": "",
+"aliases_ko": [
+"울다",
+"원단 운다",
+"봉제선 운다"
+],
+"definition_ko": "원단이나 봉제선이 매끈하지 않고 물결처럼 주름지는 상태를 부르는 말.",
+"definition_en": "A term for a state where fabric or seams aren't smooth and wrinkle like waves.",
+"example_ko": "지퍼 주변이 우는 원인을 확인해 주세요.",
+"example_en": "Please check the cause of the rippling around the zipper."
+},
+{
+"id": "fashion-425",
+"field": "fashion",
+"term_ko": "품",
+"term_en": "body width",
+"english": "",
+"aliases_ko": [
+"가슴품",
+"옷 품"
+],
+"definition_ko": "옷의 몸통 부분 너비나 여유를 가리키는 말.",
+"definition_en": "A term for the width or ease of a garment's body section.",
+"example_ko": "총장은 유지하고 품만 조금 넓혀 주세요.",
+"example_en": "Keep the total length and just widen the body a little."
+},
+{
+"id": "fashion-426",
+"field": "fashion",
+"term_ko": "핸드필",
+"term_en": "hand feel",
+"english": "Hand feel",
+"aliases_ko": [
+"핸드 필",
+"터치감",
+"원단 터치"
+],
+"definition_ko": "원단을 손으로 만졌을 때 느껴지는 부드러움·탄력·거칠기 등의 감각.",
+"definition_en": "The sensation—softness, resilience, roughness—felt when touching fabric by hand.",
+"example_ko": "워싱 후 핸드필이 너무 거칠어지지 않는지 봐요.",
+"example_en": "Check that the hand feel doesn't become too rough after washing."
+},
+{
+"id": "fashion-427",
+"field": "fashion",
+"term_ko": "떨어지다",
+"term_en": "drape",
+"english": "",
+"aliases_ko": [
+"떨어지는 핏",
+"옷 떨어짐"
+],
+"definition_ko": "옷이나 원단이 몸과 중력에 따라 내려오는 형태를 묘사하는 말.",
+"definition_en": "A term describing the form in which a garment or fabric falls along the body and gravity.",
+"example_ko": "밑단이 자연스럽게 떨어지는 핏으로 수정해요.",
+"example_en": "Revise it to a fit where the hem drapes naturally."
+},
+{
+"id": "fashion-428",
+"field": "fashion",
+"term_ko": "빼다",
+"term_en": "pull",
+"english": "",
+"aliases_ko": [
+"사이즈 빼다",
+"샘플 빼다",
+"원단 빼다"
+],
+"definition_ko": "샘플 제작·수량 준비·치수 감소 등 여러 작업에 쓰이는 구어. 무엇을 얼마나 할지 문맥을 확인해야 한다.",
+"definition_en": "A colloquial word used for various tasks such as making a sample, preparing quantity, or reducing measurements. What and how much must be confirmed from context.",
+"example_ko": "샘플 한 벌 빼서 피팅 때 볼 수 있게 해 주세요.",
+"example_en": "Please pull one sample so we can see it at the fitting."
+},
+{
+"id": "design-272",
+"field": "design",
+"term_ko": "디자인 에이전시",
+"term_en": "design agency",
+"english": "Design agency",
+"aliases_ko": [
+"디자인 회사",
+"디자인 전문회사"
+],
+"definition_ko": "고객의 의뢰에 따라 브랜드·시각물·제품·디지털 경험 등을 디자인하는 회사.",
+"definition_en": "A company that designs brands, visuals, products, and digital experiences on commission from clients.",
+"example_ko": "디자인 에이전시에 브랜드 개편을 의뢰해요.",
+"example_en": "Commission the brand revamp to the design agency."
+},
+{
+"id": "design-273",
+"field": "design",
+"term_ko": "디자인 스튜디오",
+"term_en": "design studio",
+"english": "Design studio",
+"aliases_ko": [
+"디자인 작업실",
+"스튜디오"
+],
+"definition_ko": "디자인 기획과 제작을 수행하는 조직이나 작업 공간.",
+"definition_en": "An organization or workspace that carries out design planning and production.",
+"example_ko": "디자인 스튜디오의 관련 작업 사례를 검토해요.",
+"example_en": "Review relevant work examples from the design studio."
+},
+{
+"id": "design-274",
+"field": "design",
+"term_ko": "디자인팀",
+"term_en": "design team",
+"english": "Design team",
+"aliases_ko": [
+"디자인부"
+],
+"definition_ko": "제품·브랜드·시각물·경험 등의 디자인을 담당하는 팀.",
+"definition_en": "A team in charge of the design of products, brands, visuals, and experiences.",
+"example_ko": "디자인팀과 화면 구성 우선순위를 맞춰요.",
+"example_en": "Align the screen layout priorities with the design team."
+},
+{
+"id": "design-275",
+"field": "design",
+"term_ko": "디자인 리드",
+"term_en": "design lead",
+"english": "Design lead",
+"aliases_ko": [
+"리드 디자이너",
+"디자인 리더"
+],
+"definition_ko": "팀이나 프로젝트의 디자인 방향과 품질을 이끄는 역할.",
+"definition_en": "A role that leads a team's or project's design direction and quality.",
+"example_ko": "디자인 리드가 주요 사용 흐름을 리뷰해요.",
+"example_en": "The design lead reviews the main user flows."
+},
+{
+"id": "design-276",
+"field": "design",
+"term_ko": "프로덕트 디자이너",
+"term_en": "product designer",
+"english": "Product designer",
+"aliases_ko": [
+"제품 디자이너",
+"PD"
+],
+"definition_ko": "사용자 문제와 사업 목표를 고려해 제품의 구조·경험·화면 등을 설계하는 디자이너.",
+"definition_en": "A designer who designs a product's structure, experience, and screens considering user problems and business goals.",
+"example_ko": "프로덕트 디자이너가 가입 흐름을 개선해요.",
+"example_en": "The product designer improves the sign-up flow.",
+"note_ko": "디지털 제품 문맥으로 설명했습니다. 산업·제품 디자인에서는 물리적 제품을 설계하는 직무도 같은 영문 명칭을 사용합니다.",
+"note_en": "Described in the digital product context. In industrial and product design, the same English title is also used for a role designing physical products."
+},
+{
+"id": "design-277",
+"field": "design",
+"term_ko": "UX 디자이너",
+"term_en": "UX designer",
+"english": "UX designer",
+"aliases_ko": [
+"사용자 경험 디자이너"
+],
+"definition_ko": "사용자가 목적을 달성하는 과정의 구조·흐름·상호작용 등을 설계하는 역할.",
+"definition_en": "A role that designs the structure, flow, and interactions of the process by which a user accomplishes a goal.",
+"example_ko": "UX 디자이너가 탐색 흐름을 정리해요.",
+"example_en": "The UX designer organizes the navigation flow."
+},
+{
+"id": "design-278",
+"field": "design",
+"term_ko": "UI 디자이너",
+"term_en": "UI designer",
+"english": "UI designer",
+"aliases_ko": [
+"인터페이스 디자이너"
+],
+"definition_ko": "사용자가 조작하는 화면의 시각 요소와 인터페이스 표현을 설계하는 역할.",
+"definition_en": "A role that designs the visual elements and interface expression of the screens a user operates.",
+"example_ko": "UI 디자이너가 버튼 상태와 간격을 맞춰요.",
+"example_en": "The UI designer aligns the button states and spacing."
+},
+{
+"id": "design-279",
+"field": "design",
+"term_ko": "BX 디자이너",
+"term_en": "BX designer",
+"english": "Brand experience designer",
+"aliases_ko": [
+"브랜드 경험 디자이너"
+],
+"definition_ko": "브랜드의 정체성이 여러 접점에서 일관되게 경험되도록 디자인하는 역할.",
+"definition_en": "A role that designs so a brand's identity is experienced consistently across many touchpoints.",
+"example_ko": "BX 디자이너가 패키지와 공간의 톤을 연결해요.",
+"example_en": "The BX designer connects the tone of the packaging and the space."
+},
+{
+"id": "design-280",
+"field": "design",
+"term_ko": "그래픽 디자이너",
+"term_en": "graphic designer",
+"english": "Graphic designer",
+"aliases_ko": [
+"시각 디자이너"
+],
+"definition_ko": "글자·이미지·색·구성 등을 통해 메시지를 시각적으로 전달하는 디자이너.",
+"definition_en": "A designer who conveys messages visually through type, images, color, and composition.",
+"example_ko": "그래픽 디자이너가 포스터와 리플렛을 만들어요.",
+"example_en": "The graphic designer creates the poster and leaflet."
+},
+{
+"id": "design-281",
+"field": "design",
+"term_ko": "편집 디자이너",
+"term_en": "editorial designer",
+"english": "Editorial designer",
+"aliases_ko": [
+"에디토리얼 디자이너"
+],
+"definition_ko": "책·잡지·브로슈어 등의 글과 이미지를 읽기 좋은 지면으로 구성하는 디자이너.",
+"definition_en": "A designer who arranges the text and images of books, magazines, and brochures into readable pages.",
+"example_ko": "편집 디자이너가 본문과 도판을 배치해요.",
+"example_en": "The editorial designer lays out the body text and figures."
+},
+{
+"id": "design-282",
+"field": "design",
+"term_ko": "모션 디자이너",
+"term_en": "motion designer",
+"english": "Motion designer",
+"aliases_ko": [
+"모션그래픽 디자이너"
+],
+"definition_ko": "글자·도형·이미지 등에 움직임을 설계해 메시지와 분위기를 전달하는 디자이너.",
+"definition_en": "A designer who designs movement for type, shapes, and images to convey a message and mood.",
+"example_ko": "모션 디자이너가 로고 애니메이션을 제작해요.",
+"example_en": "The motion designer produces the logo animation."
+},
+{
+"id": "design-283",
+"field": "design",
+"term_ko": "일러스트레이터",
+"term_en": "illustrator",
+"english": "Illustrator",
+"aliases_ko": [
+"삽화가",
+"일러스트 작가"
+],
+"definition_ko": "메시지나 장면을 그림으로 표현하는 작업자.",
+"definition_en": "A worker who expresses messages or scenes through drawing.",
+"example_ko": "일러스트레이터에게 패키지용 그림을 의뢰해요.",
+"example_en": "Commission the illustrator for the packaging artwork.",
+"note_ko": "사람의 직무를 뜻합니다. 같은 이름의 Adobe Illustrator 프로그램과 구분합니다.",
+"note_en": "This means the person's role. Distinguish it from the Adobe Illustrator program of the same name."
+},
+{
+"id": "design-284",
+"field": "design",
+"term_ko": "UX 리서처",
+"term_en": "UX researcher",
+"english": "UX researcher",
+"aliases_ko": [
+"사용자 연구자",
+"유엑스 리서처"
+],
+"definition_ko": "사용자의 행동·문제·맥락을 조사해 제품과 디자인 판단에 필요한 근거를 만드는 역할.",
+"definition_en": "A role that researches user behavior, problems, and context to create the evidence needed for product and design decisions.",
+"example_ko": "UX 리서처가 인터뷰에서 반복되는 문제를 정리해요.",
+"example_en": "The UX researcher organizes recurring problems from the interviews."
+},
+{
+"id": "design-285",
+"field": "design",
+"term_ko": "UX 라이터",
+"term_en": "UX writer",
+"english": "UX writer",
+"aliases_ko": [
+"UX 라이팅 담당",
+"유엑스 라이터"
+],
+"definition_ko": "사용자가 제품을 이해하고 행동할 수 있도록 화면의 안내·버튼·오류 문구 등을 설계하는 역할.",
+"definition_en": "A role that designs on-screen guidance, buttons, and error messages so users can understand the product and act.",
+"example_ko": "UX 라이터가 오류 메시지를 이해하기 쉽게 다듬어요.",
+"example_en": "The UX writer refines the error messages to be easy to understand."
+},
+{
+"id": "design-286",
+"field": "design",
+"term_ko": "UX",
+"term_en": "UX",
+"english": "User experience",
+"aliases_ko": [
+"사용자 경험",
+"유엑스"
+],
+"definition_ko": "사용자가 제품·서비스를 접하고 이용하면서 겪는 전체 경험.",
+"definition_en": "The whole experience a user has while encountering and using a product or service.",
+"example_ko": "화면 하나보다 구매 과정 전체의 UX를 확인해요.",
+"example_en": "Check the UX of the entire purchase process rather than a single screen."
+},
+{
+"id": "dev-325",
+"field": "dev",
+"term_ko": "UX",
+"term_en": "UX",
+"english": "User experience",
+"aliases_ko": [
+"사용자 경험",
+"유엑스"
+],
+"definition_ko": "사용자가 제품·서비스를 접하고 이용하면서 겪는 전체 경험.",
+"definition_en": "The whole experience a user has while encountering and using a product or service.",
+"example_ko": "중복 요청으로 주문이 두 번 생기지 않도록 구매 UX와 처리 로직을 함께 검토해요.",
+"example_en": "Review the purchase UX and the processing logic together so a duplicate request doesn't create two orders."
+},
+{
+"id": "design-287",
+"field": "design",
+"term_ko": "UI",
+"term_en": "UI",
+"english": "User interface",
+"aliases_ko": [
+"사용자 인터페이스",
+"유아이"
+],
+"definition_ko": "사용자가 시스템을 보고 조작하는 화면·입력·출력 등의 접점.",
+"definition_en": "The touchpoints—screens, inputs, outputs—through which a user sees and operates a system.",
+"example_ko": "작은 화면에서도 UI가 읽히게 조정해요.",
+"example_en": "Adjust it so the UI reads even on small screens."
+},
+{
+"id": "dev-326",
+"field": "dev",
+"term_ko": "UI",
+"term_en": "UI",
+"english": "User interface",
+"aliases_ko": [
+"사용자 인터페이스",
+"유아이"
+],
+"definition_ko": "사용자가 시스템을 보고 조작하는 화면·입력·출력 등의 접점.",
+"definition_en": "The touchpoints—screens, inputs, outputs—through which a user sees and operates a system.",
+"example_ko": "API 응답이 비어 있을 때도 UI가 깨지지 않게 처리해요.",
+"example_en": "Handle it so the UI doesn't break even when the API response is empty."
+},
+{
+"id": "design-288",
+"field": "design",
+"term_ko": "IA",
+"term_en": "IA",
+"english": "Information architecture",
+"aliases_ko": [
+"정보 구조",
+"정보 설계"
+],
+"definition_ko": "정보를 찾고 이해하기 쉽도록 분류·계층·탐색 관계를 설계하는 일.",
+"definition_en": "The work of designing classification, hierarchy, and navigation relationships so information is easy to find and understand.",
+"example_ko": "IA를 먼저 정리하고 메뉴 이름을 붙여요.",
+"example_en": "Organize the IA first, then name the menus."
+},
+{
+"id": "dev-327",
+"field": "dev",
+"term_ko": "IA",
+"term_en": "IA",
+"english": "Information architecture",
+"aliases_ko": [
+"정보 구조",
+"정보 설계"
+],
+"definition_ko": "정보를 찾고 이해하기 쉽도록 분류·계층·탐색 관계를 설계하는 일.",
+"definition_en": "The work of designing classification, hierarchy, and navigation relationships so information is easy to find and understand.",
+"example_ko": "합의한 IA에 맞춰 화면 라우트와 메뉴 계층을 구성해요.",
+"example_en": "Build the screen routes and menu hierarchy according to the agreed IA."
+},
+{
+"id": "design-289",
+"field": "design",
+"term_ko": "유저 플로우",
+"term_en": "user flow",
+"english": "User flow",
+"aliases_ko": [
+"사용자 흐름",
+"유저플로우"
+],
+"definition_ko": "사용자가 목표를 이루기 위해 거치는 화면과 행동의 경로.",
+"definition_en": "The path of screens and actions a user goes through to accomplish a goal.",
+"example_ko": "가입 유저 플로우에서 불필요한 단계를 줄여요.",
+"example_en": "Reduce unnecessary steps in the sign-up user flow."
+},
+{
+"id": "dev-328",
+"field": "dev",
+"term_ko": "유저 플로우",
+"term_en": "user flow",
+"english": "User flow",
+"aliases_ko": [
+"사용자 흐름",
+"유저플로우"
+],
+"definition_ko": "사용자가 목표를 이루기 위해 거치는 화면과 행동의 경로.",
+"definition_en": "The path of screens and actions a user goes through to accomplish a goal.",
+"example_ko": "로그인 유저 플로우에 따라 인증 후 원래 페이지로 돌아가도록 구현해요.",
+"example_en": "Per the login user flow, implement it to return to the original page after authentication."
+},
+{
+"id": "design-290",
+"field": "design",
+"term_ko": "저니맵",
+"term_en": "journey map",
+"english": "Journey map",
+"aliases_ko": [
+"고객 여정 지도",
+"사용자 여정 지도"
+],
+"definition_ko": "사용자가 목표를 향해 거치는 단계와 행동·생각·감정·접점을 정리한 지도.",
+"definition_en": "A map organizing the stages a user goes through toward a goal along with their actions, thoughts, emotions, and touchpoints.",
+"example_ko": "저니맵에서 결제 후 불안한 구간을 찾아요.",
+"example_en": "Find the anxious stretch after payment on the journey map."
+},
+{
+"id": "dev-329",
+"field": "dev",
+"term_ko": "저니맵",
+"term_en": "journey map",
+"english": "Journey map",
+"aliases_ko": [
+"고객 여정 지도",
+"사용자 여정 지도"
+],
+"definition_ko": "사용자가 목표를 향해 거치는 단계와 행동·생각·감정·접점을 정리한 지도.",
+"definition_en": "A map organizing the stages a user goes through toward a goal along with their actions, thoughts, emotions, and touchpoints.",
+"example_ko": "저니맵에서 찾은 결제 후 불안을 줄이도록 주문 상태 API를 연결해요.",
+"example_en": "Connect the order-status API to reduce the post-payment anxiety found on the journey map."
+},
+{
+"id": "design-291",
+"field": "design",
+"term_ko": "UT",
+"term_en": "usability testing",
+"english": "Usability testing",
+"aliases_ko": [
+"사용성 테스트",
+"유저 테스트"
+],
+"definition_ko": "사용자가 실제 과제를 수행하는 모습을 보며 제품 사용의 문제점을 확인하는 방법.",
+"definition_en": "A method of checking product usage problems by watching users perform real tasks.",
+"example_ko": "UT에서 검색 필터를 찾는지 관찰해요.",
+"example_en": "In usability testing, observe whether users find the search filter."
+},
+{
+"id": "dev-330",
+"field": "dev",
+"term_ko": "UT",
+"term_en": "usability testing",
+"english": "Usability testing",
+"aliases_ko": [
+"사용성 테스트",
+"유저 테스트"
+],
+"definition_ko": "사용자가 실제 과제를 수행하는 모습을 보며 제품 사용의 문제점을 확인하는 방법.",
+"definition_en": "A method of checking product usage problems by watching users perform real tasks.",
+"example_ko": "UT에서 나온 키보드 이동 문제를 재현하고 포커스 코드를 수정해요.",
+"example_en": "Reproduce the keyboard-navigation issue found in usability testing and fix the focus code."
+},
+{
+"id": "design-292",
+"field": "design",
+"term_ko": "인터랙션",
+"term_en": "interaction",
+"english": "Interaction",
+"aliases_ko": [
+"상호작용",
+"인터랙션 디자인"
+],
+"definition_ko": "사용자의 행동과 시스템의 반응이 주고받는 방식.",
+"definition_en": "The way a user's actions and a system's responses exchange.",
+"example_ko": "클릭 후 상태를 알 수 있도록 인터랙션을 설계해요.",
+"example_en": "Design the interaction so the state is clear after a click."
+},
+{
+"id": "dev-331",
+"field": "dev",
+"term_ko": "인터랙션",
+"term_en": "interaction",
+"english": "Interaction",
+"aliases_ko": [
+"상호작용",
+"인터랙션 디자인"
+],
+"definition_ko": "사용자의 행동과 시스템의 반응이 주고받는 방식.",
+"definition_en": "The way a user's actions and a system's responses exchange.",
+"example_ko": "저장 인터랙션 중에는 중복 요청을 막고 완료 결과를 표시해요.",
+"example_en": "During the save interaction, block duplicate requests and show the completion result."
+},
+{
+"id": "design-293",
+"field": "design",
+"term_ko": "어포던스",
+"term_en": "affordance",
+"english": "Affordance",
+"aliases_ko": [
+"행동 가능성"
+],
+"definition_ko": "사용자와 대상의 관계에서 가능한 행동의 성질. 디자인에서는 무엇을 할 수 있는지와 그 단서를 함께 검토한다.",
+"definition_en": "The property of possible actions in the relationship between a user and an object. In design, what can be done and its cues are reviewed together.",
+"example_ko": "버튼처럼 보이는 요소가 실제로 눌리는지 확인해요.",
+"example_en": "Check that an element that looks like a button actually presses."
+},
+{
+"id": "dev-332",
+"field": "dev",
+"term_ko": "어포던스",
+"term_en": "affordance",
+"english": "Affordance",
+"aliases_ko": [
+"행동 가능성"
+],
+"definition_ko": "사용자와 대상의 관계에서 가능한 행동의 성질. 디자인에서는 무엇을 할 수 있는지와 그 단서를 함께 검토한다.",
+"definition_en": "The property of possible actions in the relationship between a user and an object. In design, what can be done and its cues are reviewed together.",
+"example_ko": "클릭할 수 있어 보이는 요소는 실제 버튼으로 구현해 어포던스와 동작을 맞춰요.",
+"example_en": "Implement elements that look clickable as real buttons so the affordance and the behavior match."
+},
+{
+"id": "design-294",
+"field": "design",
+"term_ko": "휴리스틱 평가",
+"term_en": "heuristic evaluation",
+"english": "Heuristic evaluation",
+"aliases_ko": [
+"휴리스틱 리뷰"
+],
+"definition_ko": "정해진 사용성 원칙을 기준으로 인터페이스의 문제를 점검하는 방법.",
+"definition_en": "A method of checking interface problems against established usability principles.",
+"example_ko": "사용자 테스트 전에 휴리스틱 평가로 기본 문제를 찾아요.",
+"example_en": "Before user testing, find the basic problems with a heuristic evaluation."
+},
+{
+"id": "dev-333",
+"field": "dev",
+"term_ko": "휴리스틱 평가",
+"term_en": "heuristic evaluation",
+"english": "Heuristic evaluation",
+"aliases_ko": [
+"휴리스틱 리뷰"
+],
+"definition_ko": "정해진 사용성 원칙을 기준으로 인터페이스의 문제를 점검하는 방법.",
+"definition_en": "A method of checking interface problems against established usability principles.",
+"example_ko": "휴리스틱 평가에서 발견된 오류 복구 문제를 개발 백로그에 넣어요.",
+"example_en": "Put the error-recovery issues found in the heuristic evaluation into the development backlog."
+},
+{
+"id": "design-295",
+"field": "design",
+"term_ko": "접근성 검토",
+"term_en": "accessibility review",
+"english": "Accessibility review",
+"aliases_ko": [
+"접근성 점검"
+],
+"definition_ko": "다양한 능력·기기·보조 기술을 쓰는 사람이 이용할 수 있는지 확인하는 활동.",
+"definition_en": "An activity that checks whether people using various abilities, devices, and assistive technologies can use it.",
+"example_ko": "키보드 이동과 읽기 순서를 접근성 검토에 포함해요.",
+"example_en": "Include keyboard navigation and reading order in the accessibility review."
+},
+{
+"id": "dev-334",
+"field": "dev",
+"term_ko": "접근성 검토",
+"term_en": "accessibility review",
+"english": "Accessibility review",
+"aliases_ko": [
+"접근성 점검"
+],
+"definition_ko": "다양한 능력·기기·보조 기술을 쓰는 사람이 이용할 수 있는지 확인하는 활동.",
+"definition_en": "An activity that checks whether people using various abilities, devices, and assistive technologies can use it.",
+"example_ko": "접근성 검토에서 레이블 연결과 키보드 포커스 순서를 테스트해요.",
+"example_en": "In the accessibility review, test the label associations and the keyboard focus order."
+},
+{
+"id": "design-296",
+"field": "design",
+"term_ko": "반응형",
+"term_en": "responsive",
+"english": "Responsive design",
+"aliases_ko": [
+"반응형 디자인",
+"반응형 웹"
+],
+"definition_ko": "화면 크기와 환경에 따라 레이아웃과 표현이 유연하게 달라지는 설계 방식.",
+"definition_en": "A design approach where the layout and presentation flexibly change according to screen size and environment.",
+"example_ko": "반응형에서 좁은 화면의 메뉴 구성을 확인해요.",
+"example_en": "In responsive, check the menu layout on narrow screens."
+},
+{
+"id": "dev-335",
+"field": "dev",
+"term_ko": "반응형",
+"term_en": "responsive",
+"english": "Responsive design",
+"aliases_ko": [
+"반응형 디자인",
+"반응형 웹"
+],
+"definition_ko": "화면 크기와 환경에 따라 레이아웃과 표현이 유연하게 달라지는 설계 방식.",
+"definition_en": "A design approach where the layout and presentation flexibly change according to screen size and environment.",
+"example_ko": "반응형 CSS가 긴 텍스트와 좁은 화면에서도 가로 넘침을 만들지 않게 해요.",
+"example_en": "Make the responsive CSS avoid horizontal overflow even with long text and narrow screens."
+},
+{
+"id": "design-297",
+"field": "design",
+"term_ko": "브레이크포인트",
+"term_en": "breakpoint",
+"english": "Breakpoint",
+"aliases_ko": [
+"분기점",
+"반응형 분기점"
+],
+"definition_ko": "화면 폭 등 조건에 따라 레이아웃 규칙을 바꾸는 기준점.",
+"definition_en": "A reference point at which layout rules change according to conditions such as screen width.",
+"example_ko": "내용이 답답해지는 지점에 브레이크포인트를 정해요.",
+"example_en": "Set a breakpoint at the point where the content feels cramped."
+},
+{
+"id": "dev-336",
+"field": "dev",
+"term_ko": "브레이크포인트",
+"term_en": "breakpoint",
+"english": "Breakpoint",
+"aliases_ko": [
+"분기점",
+"반응형 분기점"
+],
+"definition_ko": "화면 폭 등 조건에 따라 레이아웃 규칙을 바꾸는 기준점.",
+"definition_en": "A reference point at which layout rules change according to conditions such as screen width.",
+"example_ko": "브레이크포인트 전후 너비에서 미디어 쿼리 동작을 테스트해요.",
+"example_en": "Test the media query behavior at the widths just before and after the breakpoint."
+},
+{
+"id": "design-298",
+"field": "design",
+"term_ko": "상태",
+"term_en": "state",
+"english": "State",
+"aliases_ko": [
+"UI 상태",
+"컴포넌트 상태"
+],
+"definition_ko": "선택·입력·로딩·오류 등 조건에 따라 달라지는 요소나 시스템의 현재 모습과 값.",
+"definition_en": "The current appearance and value of an element or system that changes according to conditions such as selection, input, loading, or error.",
+"example_ko": "기본 상태뿐 아니라 오류 상태도 디자인해요.",
+"example_en": "Design not only the default state but also the error state."
+},
+{
+"id": "dev-337",
+"field": "dev",
+"term_ko": "상태",
+"term_en": "state",
+"english": "State",
+"aliases_ko": [
+"UI 상태",
+"컴포넌트 상태",
+"state"
+],
+"definition_ko": "프로그램이나 컴포넌트가 현재 보관하는 값과 조건. 사용자 입력·요청 결과 등에 따라 바뀌며 화면 표시와 동작을 결정하는 데 사용한다.",
+"definition_en": "The values and conditions a program or component currently holds. It changes according to user input and request results, and is used to determine the display and behavior.",
+"example_ko": "요청이 끝나면 로딩 상태를 해제하고 응답 데이터를 상태에 저장해요.",
+"example_en": "When the request finishes, clear the loading state and store the response data in state."
+},
+{
+"id": "design-299",
+"field": "design",
+"term_ko": "호버",
+"term_en": "hover",
+"english": "Hover",
+"aliases_ko": [
+"마우스 오버",
+"hover 상태"
+],
+"definition_ko": "포인터가 요소 위에 올라가 있는 상태.",
+"definition_en": "The state where a pointer is over an element.",
+"example_ko": "호버에만 중요한 안내를 숨기지 마세요.",
+"example_en": "Don't hide important guidance only on hover."
+},
+{
+"id": "dev-338",
+"field": "dev",
+"term_ko": "호버",
+"term_en": "hover",
+"english": "Hover",
+"aliases_ko": [
+"마우스 오버",
+"hover 상태"
+],
+"definition_ko": "포인터가 요소 위에 올라가 있는 상태.",
+"definition_en": "The state where a pointer is over an element.",
+"example_ko": "호버 스타일과 키보드 포커스 스타일을 함께 구현해요.",
+"example_en": "Implement the hover style and the keyboard focus style together."
+},
+{
+"id": "design-300",
+"field": "design",
+"term_ko": "포커스",
+"term_en": "focus",
+"english": "Focus",
+"aliases_ko": [
+"키보드 포커스",
+"입력 초점"
+],
+"definition_ko": "키보드 입력이나 조작을 받을 현재 대상.",
+"definition_en": "The current target that will receive keyboard input or operation.",
+"example_ko": "탭 키로 이동할 때 포커스가 보이게 해 주세요.",
+"example_en": "Make the focus visible when moving with the Tab key."
+},
+{
+"id": "dev-339",
+"field": "dev",
+"term_ko": "포커스",
+"term_en": "focus",
+"english": "Focus",
+"aliases_ko": [
+"키보드 포커스",
+"입력 초점"
+],
+"definition_ko": "키보드 입력이나 조작을 받을 현재 대상.",
+"definition_en": "The current target that will receive keyboard input or operation.",
+"example_ko": "모달을 닫으면 호출한 버튼으로 포커스를 복원하도록 구현해요.",
+"example_en": "Implement it so that closing the modal restores focus to the button that opened it."
+},
+{
+"id": "design-301",
+"field": "design",
+"term_ko": "모달",
+"term_en": "modal",
+"english": "Modal",
+"aliases_ko": [
+"모달 창",
+"모달 다이얼로그"
+],
+"definition_ko": "현재 맥락 위에 열리고 닫기 전까지 다른 화면 조작을 제한하는 대화상자.",
+"definition_en": "A dialog that opens over the current context and restricts other screen operations until it's closed.",
+"example_ko": "모달을 닫으면 원래 버튼으로 포커스를 돌려요.",
+"example_en": "When the modal closes, return focus to the original button."
+},
+{
+"id": "dev-340",
+"field": "dev",
+"term_ko": "모달",
+"term_en": "modal",
+"english": "Modal",
+"aliases_ko": [
+"모달 창",
+"모달 다이얼로그"
+],
+"definition_ko": "현재 맥락 위에 열리고 닫기 전까지 다른 화면 조작을 제한하는 대화상자.",
+"definition_en": "A dialog that opens over the current context and restricts other screen operations until it's closed.",
+"example_ko": "모달이 열린 동안 배경 요소로 키보드 포커스가 빠지지 않게 처리해요.",
+"example_en": "Handle it so keyboard focus doesn't escape to background elements while the modal is open."
+},
+{
+"id": "design-302",
+"field": "design",
+"term_ko": "토스트",
+"term_en": "toast",
+"english": "Toast",
+"aliases_ko": [
+"토스트 메시지"
+],
+"definition_ko": "짧은 상태나 결과를 잠시 표시하는 알림 형태.",
+"definition_en": "A notification form that briefly shows a short status or result.",
+"example_ko": "저장 결과는 짧은 토스트로 알려 줘요.",
+"example_en": "Notify the save result with a short toast."
+},
+{
+"id": "dev-341",
+"field": "dev",
+"term_ko": "토스트",
+"term_en": "toast",
+"english": "Toast",
+"aliases_ko": [
+"토스트 메시지"
+],
+"definition_ko": "짧은 상태나 결과를 잠시 표시하는 알림 형태.",
+"definition_en": "A notification form that briefly shows a short status or result.",
+"example_ko": "저장 요청이 성공하면 토스트를 띄우고 보조기기에도 결과를 알려요.",
+"example_en": "When the save request succeeds, show a toast and also announce the result to assistive tech."
+},
+{
+"id": "design-303",
+"field": "design",
+"term_ko": "툴팁",
+"term_en": "tooltip",
+"english": "Tooltip",
+"aliases_ko": [
+"도움말 툴팁"
+],
+"definition_ko": "요소의 기능이나 추가 설명을 가까이에 짧게 표시하는 도움말.",
+"definition_en": "A help that briefly shows an element's function or extra explanation nearby.",
+"example_ko": "아이콘의 기능을 툴팁으로 보완해요.",
+"example_en": "Supplement the icon's function with a tooltip."
+},
+{
+"id": "dev-342",
+"field": "dev",
+"term_ko": "툴팁",
+"term_en": "tooltip",
+"english": "Tooltip",
+"aliases_ko": [
+"도움말 툴팁"
+],
+"definition_ko": "요소의 기능이나 추가 설명을 가까이에 짧게 표시하는 도움말.",
+"definition_en": "A help that briefly shows an element's function or extra explanation nearby.",
+"example_ko": "툴팁이 마우스뿐 아니라 키보드 포커스에서도 열리게 구현해요.",
+"example_en": "Implement the tooltip to open on keyboard focus, not just on mouse."
+},
+{
+"id": "design-304",
+"field": "design",
+"term_ko": "바텀시트",
+"term_en": "bottom sheet",
+"english": "Bottom sheet",
+"aliases_ko": [
+"바텀 시트"
+],
+"definition_ko": "화면 아래에서 올라와 선택지나 추가 내용을 제공하는 패널 형태.",
+"definition_en": "A panel form that rises from the bottom of the screen to offer options or extra content.",
+"example_ko": "모바일 필터는 바텀시트에서 선택하게 해요.",
+"example_en": "Let mobile filters be selected in a bottom sheet."
+},
+{
+"id": "dev-343",
+"field": "dev",
+"term_ko": "바텀시트",
+"term_en": "bottom sheet",
+"english": "Bottom sheet",
+"aliases_ko": [
+"바텀 시트"
+],
+"definition_ko": "화면 아래에서 올라와 선택지나 추가 내용을 제공하는 패널 형태.",
+"definition_en": "A panel form that rises from the bottom of the screen to offer options or extra content.",
+"example_ko": "바텀시트를 닫을 때 스크롤 잠금을 해제하도록 처리해요.",
+"example_en": "Release the scroll lock when the bottom sheet is closed."
+},
+{
+"id": "design-305",
+"field": "design",
+"term_ko": "스켈레톤",
+"term_en": "skeleton",
+"english": "Skeleton screen",
+"aliases_ko": [
+"스켈레톤 UI",
+"로딩 스켈레톤",
+"Skeleton screen",
+"스켈레톤 스크린"
+],
+"definition_ko": "내용이 로딩되는 동안 예상 배치의 빈 형태를 보여 주는 표현.",
+"definition_en": "A representation that shows an empty form of the expected layout while content is loading.",
+"example_ko": "목록 로딩 중에는 스켈레톤을 표시해요.",
+"example_en": "Show a skeleton while the list is loading."
+},
+{
+"id": "dev-344",
+"field": "dev",
+"term_ko": "스켈레톤",
+"term_en": "skeleton",
+"english": "Skeleton screen",
+"aliases_ko": [
+"스켈레톤 UI",
+"로딩 스켈레톤",
+"Skeleton screen",
+"스켈레톤 스크린"
+],
+"definition_ko": "내용이 로딩되는 동안 예상 배치의 빈 형태를 보여 주는 표현.",
+"definition_en": "A representation that shows an empty form of the expected layout while content is loading.",
+"example_ko": "응답을 받으면 스켈레톤을 실제 데이터로 교체해요.",
+"example_en": "When the response arrives, replace the skeleton with the real data."
+},
+{
+"id": "design-306",
+"field": "design",
+"term_ko": "빈 상태",
+"term_en": "empty state",
+"english": "Empty state",
+"aliases_ko": [
+"엠프티 스테이트",
+"빈 화면"
+],
+"definition_ko": "목록이나 결과가 없을 때 이유와 다음 행동을 안내하는 화면 상태.",
+"definition_en": "A screen state that explains the reason and guides the next action when there's no list or result.",
+"example_ko": "검색 결과가 없는 빈 상태에 필터 초기화를 넣어요.",
+"example_en": "Add a filter reset to the empty state when there are no search results."
+},
+{
+"id": "dev-345",
+"field": "dev",
+"term_ko": "빈 상태",
+"term_en": "empty state",
+"english": "Empty state",
+"aliases_ko": [
+"엠프티 스테이트",
+"빈 화면"
+],
+"definition_ko": "목록이나 결과가 없을 때 이유와 다음 행동을 안내하는 화면 상태.",
+"definition_en": "A screen state that explains the reason and guides the next action when there's no list or result.",
+"example_ko": "API가 빈 배열을 반환하면 빈 상태 안내와 초기화 버튼을 보여줘요.",
+"example_en": "When the API returns an empty array, show the empty-state guidance and a reset button."
+},
+{
+"id": "design-307",
+"field": "design",
+"term_ko": "에러 상태",
+"term_en": "error state",
+"english": "Error state",
+"aliases_ko": [
+"오류 상태"
+],
+"definition_ko": "작업이 실패했거나 입력에 문제가 있을 때 이를 설명하고 해결을 돕는 상태.",
+"definition_en": "A state that explains and helps resolve things when an action failed or there's an input problem.",
+"example_ko": "에러 상태에는 다시 시도할 방법을 제공해요.",
+"example_en": "Provide a way to retry in the error state."
+},
+{
+"id": "dev-346",
+"field": "dev",
+"term_ko": "에러 상태",
+"term_en": "error state",
+"english": "Error state",
+"aliases_ko": [
+"오류 상태"
+],
+"definition_ko": "작업이 실패했거나 입력에 문제가 있을 때 이를 설명하고 해결을 돕는 상태.",
+"definition_en": "A state that explains and helps resolve things when an action failed or there's an input problem.",
+"example_ko": "요청 실패를 잡아서 에러 상태로 바꾸고 재시도를 연결해요.",
+"example_en": "Catch the request failure, switch to the error state, and wire up a retry."
+},
+{
+"id": "design-308",
+"field": "design",
+"term_ko": "레이아웃",
+"term_en": "layout",
+"english": "Layout",
+"aliases_ko": [
+"지면 구성",
+"화면 배치"
+],
+"definition_ko": "글·이미지·여백 등 요소를 목적에 맞게 배치한 구조.",
+"definition_en": "A structure that arranges elements such as text, images, and whitespace to suit the purpose.",
+"example_ko": "레이아웃에서 제목과 본문의 위계를 정리해요.",
+"example_en": "In the layout, organize the hierarchy of the title and body."
+},
+{
+"id": "design-309",
+"field": "design",
+"term_ko": "그리드",
+"term_en": "grid",
+"english": "Grid",
+"aliases_ko": [
+"격자",
+"레이아웃 그리드",
+"그리드 시스템"
+],
+"definition_ko": "요소를 일관되게 배치하기 위한 열·행·간격 등의 기준 구조.",
+"definition_en": "A reference structure of columns, rows, and spacing for arranging elements consistently.",
+"example_ko": "그리드에 맞춰 카드의 시작선을 정렬해요.",
+"example_en": "Align the cards' starting line to the grid."
+},
+{
+"id": "design-310",
+"field": "design",
+"term_ko": "위계",
+"term_en": "hierarchy",
+"english": "Visual hierarchy",
+"aliases_ko": [
+"시각적 위계",
+"정보 위계"
+],
+"definition_ko": "크기·위치·색·굵기 등으로 정보의 중요도와 읽는 순서를 구분하는 것.",
+"definition_en": "Distinguishing the importance and reading order of information through size, position, color, and weight.",
+"example_ko": "주요 버튼과 보조 링크의 위계를 구분해요.",
+"example_en": "Distinguish the hierarchy of the primary button and the secondary link."
+},
+{
+"id": "design-311",
+"field": "design",
+"term_ko": "여백",
+"term_en": "whitespace",
+"english": "Whitespace",
+"aliases_ko": [
+"화이트 스페이스",
+"네거티브 스페이스"
+],
+"definition_ko": "요소 사이와 주변에 비워 두어 구분·강조·읽기 흐름을 만드는 공간.",
+"definition_en": "Space left empty between and around elements to create separation, emphasis, and reading flow.",
+"example_ko": "관련 없는 정보 사이에는 여백을 더 주세요.",
+"example_en": "Give more whitespace between unrelated information."
+},
+{
+"id": "design-312",
+"field": "design",
+"term_ko": "마진",
+"term_en": "margin",
+"english": "Margin",
+"aliases_ko": [
+"바깥 여백",
+"외부 여백"
+],
+"definition_ko": "요소나 지면의 바깥쪽에 두는 간격.",
+"definition_en": "The spacing placed on the outside of an element or page.",
+"example_ko": "카드 바깥 마진과 내부 패딩을 구분해요.",
+"example_en": "Distinguish the card's outer margin from the inner padding."
+},
+{
+"id": "design-313",
+"field": "design",
+"term_ko": "거터",
+"term_en": "gutter",
+"english": "Gutter",
+"aliases_ko": [
+"컬럼 간격",
+"열 사이 간격"
+],
+"definition_ko": "지면이나 그리드의 열 사이에 두는 간격. 제본에서는 안쪽 여백을 뜻하기도 한다.",
+"definition_en": "The spacing placed between columns of a page or grid. In binding it can also mean the inner margin.",
+"example_ko": "거터를 넓혀 두 열의 내용을 구분해요.",
+"example_en": "Widen the gutter to separate the content of the two columns."
+},
+{
+"id": "design-314",
+"field": "design",
+"term_ko": "오브젝트",
+"term_en": "object",
+"english": "Object",
+"aliases_ko": [
+"디자인 오브젝트",
+"객체"
+],
+"definition_ko": "디자인 도구에서 선택·이동·변형할 수 있는 글자·도형·이미지 등의 요소.",
+"definition_en": "An element such as type, a shape, or an image that can be selected, moved, and transformed in a design tool.",
+"example_ko": "오브젝트를 그룹으로 묶어 함께 이동해요.",
+"example_en": "Group the objects to move them together."
+},
+{
+"id": "design-315",
+"field": "design",
+"term_ko": "레이어",
+"term_en": "layer",
+"english": "Layer",
+"aliases_ko": [
+"레이어 구조"
+],
+"definition_ko": "이미지와 요소를 독립적으로 편집하도록 겹쳐 관리하는 작업 층.",
+"definition_en": "A working layer managed in a stack so images and elements can be edited independently.",
+"example_ko": "텍스트와 배경 레이어를 분리해 주세요.",
+"example_en": "Please separate the text and background layers."
+},
+{
+"id": "design-316",
+"field": "design",
+"term_ko": "아트보드",
+"term_en": "artboard",
+"english": "Artboard",
+"aliases_ko": [
+"아트 보드",
+"작업 보드"
+],
+"definition_ko": "하나의 화면이나 인쇄물 등을 구성하는 독립적인 작업 영역.",
+"definition_en": "An independent working area that makes up one screen, printed piece, and so on.",
+"example_ko": "사이즈별 아트보드를 나눠 제작해요.",
+"example_en": "Split the artboards by size to produce them."
+},
+{
+"id": "design-317",
+"field": "design",
+"term_ko": "마스크",
+"term_en": "mask",
+"english": "Mask",
+"aliases_ko": [
+"레이어 마스크",
+"마스킹"
+],
+"definition_ko": "원본을 지우지 않고 특정 영역을 보이거나 숨기도록 제어하는 방식.",
+"definition_en": "A method of controlling which areas show or hide without erasing the original.",
+"example_ko": "마스크로 이미지가 보이는 범위를 조정해요.",
+"example_en": "Use a mask to adjust the visible range of the image."
+},
+{
+"id": "design-318",
+"field": "design",
+"term_ko": "클리핑 마스크",
+"term_en": "clipping mask",
+"english": "Clipping mask",
+"aliases_ko": [
+"클리핑",
+"클리핑마스크"
+],
+"definition_ko": "다른 도형이나 요소의 모양을 기준으로 보이는 영역을 제한하는 마스크.",
+"definition_en": "A mask that limits the visible area based on the shape of another object or element.",
+"example_ko": "원형 클리핑 마스크 안에 사진을 넣어요.",
+"example_en": "Put the photo inside a circular clipping mask."
+},
+{
+"id": "design-319",
+"field": "design",
+"term_ko": "블렌드 모드",
+"term_en": "blend mode",
+"english": "Blend mode",
+"aliases_ko": [
+"혼합 모드",
+"블렌딩 모드"
+],
+"definition_ko": "겹친 레이어의 색과 밝기를 어떤 규칙으로 섞을지 정하는 방식.",
+"definition_en": "A method that sets by what rule the color and brightness of stacked layers are mixed.",
+"example_ko": "블렌드 모드를 바꾸며 합성 느낌을 비교해요.",
+"example_en": "Change the blend mode to compare the composite feel."
+},
+{
+"id": "design-320",
+"field": "design",
+"term_ko": "불투명도",
+"term_en": "opacity",
+"english": "Opacity",
+"aliases_ko": [
+"오퍼시티",
+"투명도 조절"
+],
+"definition_ko": "요소가 얼마나 불투명하게 보이는지 나타내는 정도.",
+"definition_en": "The degree indicating how opaque an element appears.",
+"example_ko": "배경 패턴의 불투명도를 낮춰 주세요.",
+"example_en": "Please lower the opacity of the background pattern."
+},
+{
+"id": "design-321",
+"field": "design",
+"term_ko": "그라데이션",
+"term_en": "gradient",
+"english": "Gradient",
+"aliases_ko": [
+"그라디언트",
+"색상 전이",
+"그라데"
+],
+"definition_ko": "색이나 밝기가 일정한 방향이나 형태에 따라 점진적으로 변하는 표현.",
+"definition_en": "A representation where color or brightness changes gradually along a direction or form.",
+"example_ko": "그라데이션의 중간 색이 탁해지지 않는지 봐요.",
+"example_en": "Check that the mid color of the gradient doesn't get muddy."
+},
+{
+"id": "design-322",
+"field": "design",
+"term_ko": "팔레트",
+"term_en": "palette",
+"english": "Color palette",
+"aliases_ko": [
+"컬러 팔레트",
+"색상 팔레트"
+],
+"definition_ko": "작업에 사용할 색들을 목적과 조합에 맞춰 모은 것.",
+"definition_en": "A set of colors gathered for the work to suit the purpose and combination.",
+"example_ko": "브랜드 팔레트 안에서 보조 색을 골라요.",
+"example_en": "Pick a secondary color from within the brand palette."
+},
+{
+"id": "design-323",
+"field": "design",
+"term_ko": "채도",
+"term_en": "saturation",
+"english": "Saturation",
+"aliases_ko": [
+"색 채도"
+],
+"definition_ko": "색이 얼마나 선명하고 강하게 느껴지는지를 나타내는 속성.",
+"definition_en": "A property indicating how vivid and strong a color feels.",
+"example_ko": "사진 채도를 낮춰 글자가 더 읽히게 해요.",
+"example_en": "Lower the photo's saturation so the text reads better."
+},
+{
+"id": "design-324",
+"field": "design",
+"term_ko": "명도",
+"term_en": "brightness",
+"english": "Lightness",
+"aliases_ko": [
+"밝기",
+"색 명도"
+],
+"definition_ko": "색이 얼마나 밝거나 어둡게 보이는지를 나타내는 속성.",
+"definition_en": "A property indicating how bright or dark a color appears.",
+"example_ko": "배경과 글자의 명도 차이를 확인해요.",
+"example_en": "Check the brightness difference between the background and the text."
+},
+{
+"id": "design-325",
+"field": "design",
+"term_ko": "색상",
+"term_en": "hue",
+"english": "Hue",
+"aliases_ko": [
+"색상환",
+"휴"
+],
+"definition_ko": "빨강·노랑·파랑처럼 색을 구분하는 성질.",
+"definition_en": "The property that distinguishes colors, such as red, yellow, and blue.",
+"example_ko": "같은 명도에서 색상을 바꾸어 비교해요.",
+"example_en": "Change the hue at the same brightness to compare."
+},
+{
+"id": "design-326",
+"field": "design",
+"term_ko": "대비",
+"term_en": "contrast",
+"english": "Contrast",
+"aliases_ko": [
+"콘트라스트",
+"컨트라스트"
+],
+"definition_ko": "색·밝기·크기 등 요소 사이의 차이로 구분과 강조가 생기는 것.",
+"definition_en": "When differences between elements—color, brightness, size—create separation and emphasis.",
+"example_ko": "본문과 배경의 대비를 높여 주세요.",
+"example_en": "Please increase the contrast between the body text and the background."
+},
+{
+"id": "design-327",
+"field": "design",
+"term_ko": "아웃라인",
+"term_en": "outline",
+"english": "Outline",
+"aliases_ko": [
+"윤곽선",
+"글자 윤곽선 변환",
+"Create outlines",
+"글자 깨기",
+"폰트 깨기",
+"아웃라인 따다",
+"아웃라인을 따다"
+],
+"definition_ko": "요소의 외곽선. 인쇄 파일 작업에서는 글자를 편집 가능한 문자 대신 도형 윤곽선으로 바꾸는 작업을 뜻하기도 한다.",
+"definition_en": "An element's outer line. In print file work, it can also mean converting text from editable characters into shape outlines.",
+"example_ko": "인쇄용 복사본에서 글자를 아웃라인 처리해요.",
+"example_en": "Outline the text in the print copy."
+},
+{
+"id": "design-328",
+"field": "design",
+"term_ko": "리터칭",
+"term_en": "retouching",
+"english": "Retouching",
+"aliases_ko": [
+"리터치",
+"보정",
+"사진 리터칭"
+],
+"definition_ko": "사진이나 이미지의 불필요한 부분·색·질감 등을 목적에 맞게 수정하는 작업.",
+"definition_en": "The work of modifying unnecessary parts, color, and texture of a photo or image to suit the purpose.",
+"example_ko": "제품 모양은 유지하고 먼지만 리터칭해요.",
+"example_en": "Keep the product's shape and retouch only the dust."
+},
+{
+"id": "design-329",
+"field": "design",
+"term_ko": "시안집",
+"term_en": "comp book",
+"english": "Design proposal deck",
+"aliases_ko": [
+"시안 모음",
+"디자인 제안서"
+],
+"definition_ko": "여러 디자인 안과 설명·적용 예시를 묶어 비교·제안하는 자료.",
+"definition_en": "Material that bundles several design options, explanations, and application examples for comparison and proposal.",
+"example_ko": "시안집에 각 안의 선택 이유를 간단히 적어요.",
+"example_en": "Briefly note the reason for choosing each option in the comp book."
+},
+{
+"id": "design-330",
+"field": "design",
+"term_ko": "인쇄소",
+"term_en": "print shop",
+"english": "Print shop",
+"aliases_ko": [
+"인쇄 업체",
+"인쇄사"
+],
+"definition_ko": "인쇄 데이터를 받아 종이 등 재료에 실제 인쇄물을 제작하는 업체.",
+"definition_en": "A vendor that receives print data and produces actual printed materials on paper or other substrates.",
+"example_ko": "인쇄소에 종이와 후가공 조건을 확인해요.",
+"example_en": "Check the paper and finishing conditions with the print shop."
+},
+{
+"id": "marketing-362",
+"field": "marketing",
+"term_ko": "인쇄소",
+"term_en": "print shop",
+"english": "Print shop",
+"aliases_ko": [
+"인쇄 업체",
+"인쇄사"
+],
+"definition_ko": "인쇄 데이터를 받아 종이 등 재료에 실제 인쇄물을 제작하는 업체.",
+"definition_en": "A vendor that receives print data and produces actual printed materials on paper or other substrates.",
+"example_ko": "인쇄소에 종이와 후가공 조건을 확인해요.",
+"example_en": "Check the paper and finishing conditions with the print shop."
+},
+{
+"id": "design-331",
+"field": "design",
+"term_ko": "감리",
+"term_en": "press check",
+"english": "Production supervision",
+"aliases_ko": [
+"제작 감리"
+],
+"definition_ko": "제작 결과가 의도와 사양에 맞도록 공정이나 현물을 확인하고 조율하는 일.",
+"definition_en": "The work of checking and coordinating the process or physical output so the production result matches the intent and specs.",
+"example_ko": "감리에서 색과 마감 상태를 확인해요.",
+"example_en": "In the press check, confirm the color and finish.",
+"note_ko": "디자인 제작 문맥의 뜻입니다. 건축·법규상 감리의 자격과 법적 책임을 설명하는 항목이 아닙니다.",
+"note_en": "This is the design-production context. It's not an entry explaining the qualifications and legal responsibility of construction or statutory supervision."
+},
+{
+"id": "marketing-363",
+"field": "marketing",
+"term_ko": "감리",
+"term_en": "press check",
+"english": "Production supervision",
+"aliases_ko": [
+"제작 감리"
+],
+"definition_ko": "제작 결과가 의도와 사양에 맞도록 공정이나 현물을 확인하고 조율하는 일.",
+"definition_en": "The work of checking and coordinating the process or physical output so the production result matches the intent and specs.",
+"example_ko": "감리에서 색과 마감 상태를 확인해요.",
+"example_en": "In the press check, confirm the color and finish.",
+"note_ko": "디자인 제작 문맥의 뜻입니다. 건축·법규상 감리의 자격과 법적 책임을 설명하는 항목이 아닙니다.",
+"note_en": "This is the design-production context. It's not an entry explaining the qualifications and legal responsibility of construction or statutory supervision."
+},
+{
+"id": "design-332",
+"field": "design",
+"term_ko": "교정",
+"term_en": "proofing",
+"english": "Proofreading and proofing",
+"aliases_ko": [
+"교정 작업",
+"교정본"
+],
+"definition_ko": "인쇄·발행 전에 글·배치·색 등의 오류를 확인하고 수정하는 과정 또는 확인용 결과물.",
+"definition_en": "The process of checking and fixing errors in text, layout, and color before printing or publishing, or the output used for checking.",
+"example_ko": "최종 교정에서 오탈자와 페이지 순서를 봐요.",
+"example_en": "In the final proof, check the typos and the page order."
+},
+{
+"id": "marketing-364",
+"field": "marketing",
+"term_ko": "교정",
+"term_en": "proofing",
+"english": "Proofreading and proofing",
+"aliases_ko": [
+"교정 작업",
+"교정본"
+],
+"definition_ko": "인쇄·발행 전에 글·배치·색 등의 오류를 확인하고 수정하는 과정 또는 확인용 결과물.",
+"definition_en": "The process of checking and fixing errors in text, layout, and color before printing or publishing, or the output used for checking.",
+"example_ko": "최종 교정에서 오탈자와 페이지 순서를 봐요.",
+"example_en": "In the final proof, check the typos and the page order."
+},
+{
+"id": "design-333",
+"field": "design",
+"term_ko": "교열",
+"term_en": "copyediting",
+"english": "Copy editing",
+"aliases_ko": [
+"문장 교열"
+],
+"definition_ko": "문장의 표현·표기·논리·일관성 등을 검토해 다듬는 일.",
+"definition_en": "The work of reviewing and refining a text's expression, notation, logic, and consistency.",
+"example_ko": "교열 후 수정된 문장을 다시 조판해요.",
+"example_en": "After copyediting, typeset the revised sentences again."
+},
+{
+"id": "marketing-365",
+"field": "marketing",
+"term_ko": "교열",
+"term_en": "copyediting",
+"english": "Copy editing",
+"aliases_ko": [
+"문장 교열"
+],
+"definition_ko": "문장의 표현·표기·논리·일관성 등을 검토해 다듬는 일.",
+"definition_en": "The work of reviewing and refining a text's expression, notation, logic, and consistency.",
+"example_ko": "교열 후 수정된 문장을 다시 조판해요.",
+"example_en": "After copyediting, typeset the revised sentences again."
+},
+{
+"id": "design-334",
+"field": "design",
+"term_ko": "조판",
+"term_en": "typesetting",
+"english": "Typesetting",
+"aliases_ko": [
+"조판 작업"
+],
+"definition_ko": "글과 이미지를 지면 규격과 편집 규칙에 맞춰 배치하는 작업.",
+"definition_en": "The work of arranging text and images to the page specs and editorial rules.",
+"example_ko": "교정 완료 후 최종 조판을 확인해요.",
+"example_en": "After the proofing is done, check the final typesetting."
+},
+{
+"id": "marketing-366",
+"field": "marketing",
+"term_ko": "조판",
+"term_en": "typesetting",
+"english": "Typesetting",
+"aliases_ko": [
+"조판 작업"
+],
+"definition_ko": "글과 이미지를 지면 규격과 편집 규칙에 맞춰 배치하는 작업.",
+"definition_en": "The work of arranging text and images to the page specs and editorial rules.",
+"example_ko": "교정 완료 후 최종 조판을 확인해요.",
+"example_en": "After the proofing is done, check the final typesetting."
+},
+{
+"id": "design-335",
+"field": "design",
+"term_ko": "제판",
+"term_en": "platemaking",
+"english": "Plate making",
+"aliases_ko": [
+"제판 작업"
+],
+"definition_ko": "인쇄에 사용할 판을 만드는 공정.",
+"definition_en": "The process of making the plates used for printing.",
+"example_ko": "제판 전 최종 파일의 별색 설정을 확인해요.",
+"example_en": "Before platemaking, check the spot-color settings in the final file."
+},
+{
+"id": "marketing-367",
+"field": "marketing",
+"term_ko": "제판",
+"term_en": "platemaking",
+"english": "Plate making",
+"aliases_ko": [
+"제판 작업"
+],
+"definition_ko": "인쇄에 사용할 판을 만드는 공정.",
+"definition_en": "The process of making the plates used for printing.",
+"example_ko": "제판 전 최종 파일의 별색 설정을 확인해요.",
+"example_en": "Before platemaking, check the spot-color settings in the final file."
+},
+{
+"id": "design-336",
+"field": "design",
+"term_ko": "옵셋 인쇄",
+"term_en": "offset printing",
+"english": "Offset printing",
+"aliases_ko": [
+"오프셋 인쇄",
+"옵셋"
+],
+"definition_ko": "판의 잉크를 중간 고무판을 거쳐 인쇄 재료로 옮기는 인쇄 방식.",
+"definition_en": "A printing method that transfers ink from the plate to the substrate via an intermediate rubber blanket.",
+"example_ko": "대량 브로슈어는 옵셋 인쇄로 견적을 받아요.",
+"example_en": "Get a quote for the large brochure run with offset printing."
+},
+{
+"id": "marketing-368",
+"field": "marketing",
+"term_ko": "옵셋 인쇄",
+"term_en": "offset printing",
+"english": "Offset printing",
+"aliases_ko": [
+"오프셋 인쇄",
+"옵셋"
+],
+"definition_ko": "판의 잉크를 중간 고무판을 거쳐 인쇄 재료로 옮기는 인쇄 방식.",
+"definition_en": "A printing method that transfers ink from the plate to the substrate via an intermediate rubber blanket.",
+"example_ko": "대량 브로슈어는 옵셋 인쇄로 견적을 받아요.",
+"example_en": "Get a quote for the large brochure run with offset printing."
+},
+{
+"id": "design-337",
+"field": "design",
+"term_ko": "디지털 인쇄",
+"term_en": "digital printing",
+"english": "Digital printing",
+"aliases_ko": [
+"디지털 출력"
+],
+"definition_ko": "디지털 데이터를 바탕으로 인쇄판 제작 없이 출력하는 인쇄 방식.",
+"definition_en": "A printing method that outputs based on digital data without making printing plates.",
+"example_ko": "소량 시제품은 디지털 인쇄로 확인해요.",
+"example_en": "Check the small prototype run with digital printing."
+},
+{
+"id": "marketing-369",
+"field": "marketing",
+"term_ko": "디지털 인쇄",
+"term_en": "digital printing",
+"english": "Digital printing",
+"aliases_ko": [
+"디지털 출력"
+],
+"definition_ko": "디지털 데이터를 바탕으로 인쇄판 제작 없이 출력하는 인쇄 방식.",
+"definition_en": "A printing method that outputs based on digital data without making printing plates.",
+"example_ko": "소량 시제품은 디지털 인쇄로 확인해요.",
+"example_en": "Check the small prototype run with digital printing."
+},
+{
+"id": "design-338",
+"field": "design",
+"term_ko": "4도 인쇄",
+"term_en": "four-color printing",
+"english": "Four-color printing",
+"aliases_ko": [
+"사도 인쇄",
+"4도",
+"프로세스 인쇄"
+],
+"definition_ko": "보통 CMYK 네 가지 기본 잉크를 조합해 색을 표현하는 인쇄.",
+"definition_en": "Printing that expresses color by combining the four basic inks, usually CMYK.",
+"example_ko": "4도 인쇄로 구현하기 어려운 색은 별색을 검토해요.",
+"example_en": "For colors hard to achieve in four-color printing, consider spot colors."
+},
+{
+"id": "marketing-370",
+"field": "marketing",
+"term_ko": "4도 인쇄",
+"term_en": "four-color printing",
+"english": "Four-color printing",
+"aliases_ko": [
+"사도 인쇄",
+"4도",
+"프로세스 인쇄"
+],
+"definition_ko": "보통 CMYK 네 가지 기본 잉크를 조합해 색을 표현하는 인쇄.",
+"definition_en": "Printing that expresses color by combining the four basic inks, usually CMYK.",
+"example_ko": "4도 인쇄로 구현하기 어려운 색은 별색을 검토해요.",
+"example_en": "For colors hard to achieve in four-color printing, consider spot colors."
+},
+{
+"id": "design-339",
+"field": "design",
+"term_ko": "먹",
+"term_en": "black",
+"english": "Black ink",
+"aliases_ko": [
+"먹판",
+"K판"
+],
+"definition_ko": "인쇄에서 검정 잉크나 검정 인쇄판을 가리키는 말.",
+"definition_en": "A term for the black ink or black printing plate in printing.",
+"example_ko": "작은 검정 글자는 먹판 설정을 확인해요.",
+"example_en": "Check the black-plate settings for small black text."
+},
+{
+"id": "marketing-371",
+"field": "marketing",
+"term_ko": "먹",
+"term_en": "black",
+"english": "Black ink",
+"aliases_ko": [
+"먹판",
+"K판"
+],
+"definition_ko": "인쇄에서 검정 잉크나 검정 인쇄판을 가리키는 말.",
+"definition_en": "A term for the black ink or black printing plate in printing.",
+"example_ko": "작은 검정 글자는 먹판 설정을 확인해요.",
+"example_en": "Check the black-plate settings for small black text."
+},
+{
+"id": "design-340",
+"field": "design",
+"term_ko": "칼선",
+"term_en": "dieline",
+"english": "Dieline",
+"aliases_ko": [
+"다이라인",
+"다이 라인",
+"패키지 칼선"
+],
+"definition_ko": "패키지나 가공물의 절단·접기 등의 위치를 표시한 제작용 선.",
+"definition_en": "A production line marking the cutting and folding positions of packaging or processed pieces.",
+"example_ko": "칼선과 실제 디자인 레이어를 구분해 주세요.",
+"example_en": "Please separate the dieline and the actual design layers."
+},
+{
+"id": "marketing-372",
+"field": "marketing",
+"term_ko": "칼선",
+"term_en": "dieline",
+"english": "Dieline",
+"aliases_ko": [
+"다이라인",
+"다이 라인",
+"패키지 칼선"
+],
+"definition_ko": "패키지나 가공물의 절단·접기 등의 위치를 표시한 제작용 선.",
+"definition_en": "A production line marking the cutting and folding positions of packaging or processed pieces.",
+"example_ko": "칼선과 실제 디자인 레이어를 구분해 주세요.",
+"example_en": "Please separate the dieline and the actual design layers."
+},
+{
+"id": "design-341",
+"field": "design",
+"term_ko": "접지",
+"term_en": "folding",
+"english": "Folding",
+"aliases_ko": [
+"접지 가공"
+],
+"definition_ko": "인쇄물을 정해진 위치와 순서로 접는 후가공.",
+"definition_en": "A finishing that folds printed material at set positions and in set order.",
+"example_ko": "접지 방향에 맞춰 안쪽 페이지를 배치해요.",
+"example_en": "Arrange the inner pages according to the fold direction."
+},
+{
+"id": "marketing-373",
+"field": "marketing",
+"term_ko": "접지",
+"term_en": "folding",
+"english": "Folding",
+"aliases_ko": [
+"접지 가공"
+],
+"definition_ko": "인쇄물을 정해진 위치와 순서로 접는 후가공.",
+"definition_en": "A finishing that folds printed material at set positions and in set order.",
+"example_ko": "접지 방향에 맞춰 안쪽 페이지를 배치해요.",
+"example_en": "Arrange the inner pages according to the fold direction."
+},
+{
+"id": "design-342",
+"field": "design",
+"term_ko": "오시",
+"term_en": "creasing",
+"english": "Creasing",
+"aliases_ko": [
+"접는선",
+"누름선",
+"오시 가공"
+],
+"definition_ko": "종이를 잘 접을 수 있도록 접힐 위치에 눌러 선을 만드는 가공.",
+"definition_en": "A finishing that presses a line at the fold position so paper folds well.",
+"example_ko": "두꺼운 종이는 접기 전에 오시를 넣어요.",
+"example_en": "Add a crease to thick paper before folding."
+},
+{
+"id": "marketing-374",
+"field": "marketing",
+"term_ko": "오시",
+"term_en": "creasing",
+"english": "Creasing",
+"aliases_ko": [
+"접는선",
+"누름선",
+"오시 가공"
+],
+"definition_ko": "종이를 잘 접을 수 있도록 접힐 위치에 눌러 선을 만드는 가공.",
+"definition_en": "A finishing that presses a line at the fold position so paper folds well.",
+"example_ko": "두꺼운 종이는 접기 전에 오시를 넣어요.",
+"example_en": "Add a crease to thick paper before folding."
+},
+{
+"id": "design-343",
+"field": "design",
+"term_ko": "미싱",
+"term_en": "perforation",
+"english": "Perforation",
+"aliases_ko": [
+"절취선",
+"미싱선"
+],
+"definition_ko": "쉽게 뜯을 수 있도록 일정한 간격으로 구멍이나 칼집을 넣는 가공.",
+"definition_en": "A finishing that adds holes or cuts at regular intervals so something can be torn off easily.",
+"example_ko": "쿠폰 부분에 미싱을 넣어 분리하게 해요.",
+"example_en": "Add perforation to the coupon part so it can be separated.",
+"note_ko": "이 항목은 인쇄의 절취 가공입니다. 의류 현장의 재봉틀 미싱과 다릅니다.",
+"note_en": "This entry is the tear-off finishing in printing. It differs from the sewing machine on an apparel floor."
+},
+{
+"id": "marketing-375",
+"field": "marketing",
+"term_ko": "미싱",
+"term_en": "perforation",
+"english": "Perforation",
+"aliases_ko": [
+"절취선",
+"미싱선"
+],
+"definition_ko": "쉽게 뜯을 수 있도록 일정한 간격으로 구멍이나 칼집을 넣는 가공.",
+"definition_en": "A finishing that adds holes or cuts at regular intervals so something can be torn off easily.",
+"example_ko": "쿠폰 부분에 미싱을 넣어 분리하게 해요.",
+"example_en": "Add perforation to the coupon part so it can be separated.",
+"note_ko": "이 항목은 인쇄의 절취 가공입니다. 의류 현장의 재봉틀 미싱과 다릅니다.",
+"note_en": "This entry is the tear-off finishing in printing. It differs from the sewing machine on an apparel floor."
+},
+{
+"id": "design-344",
+"field": "design",
+"term_ko": "제본",
+"term_en": "binding",
+"english": "Binding",
+"aliases_ko": [
+"제본 작업"
+],
+"definition_ko": "여러 장의 인쇄물을 순서에 맞춰 책 형태로 묶는 공정.",
+"definition_en": "The process of binding multiple printed sheets into book form in the correct order.",
+"example_ko": "페이지 수와 사용 방식에 맞는 제본을 선택해요.",
+"example_en": "Choose a binding suited to the page count and usage."
+},
+{
+"id": "marketing-376",
+"field": "marketing",
+"term_ko": "제본",
+"term_en": "binding",
+"english": "Binding",
+"aliases_ko": [
+"제본 작업"
+],
+"definition_ko": "여러 장의 인쇄물을 순서에 맞춰 책 형태로 묶는 공정.",
+"definition_en": "The process of binding multiple printed sheets into book form in the correct order.",
+"example_ko": "페이지 수와 사용 방식에 맞는 제본을 선택해요.",
+"example_en": "Choose a binding suited to the page count and usage."
+},
+{
+"id": "design-345",
+"field": "design",
+"term_ko": "중철",
+"term_en": "saddle stitching",
+"english": "Saddle stitching",
+"aliases_ko": [
+"중철 제본"
+],
+"definition_ko": "접힌 종이를 포개 가운데 접힌 부분을 철심 등으로 묶는 제본 방식.",
+"definition_en": "A binding method that nests folded sheets and binds the center fold with staples or similar.",
+"example_ko": "얇은 소책자는 중철로 진행해요.",
+"example_en": "Do the thin booklet with saddle stitching."
+},
+{
+"id": "marketing-377",
+"field": "marketing",
+"term_ko": "중철",
+"term_en": "saddle stitching",
+"english": "Saddle stitching",
+"aliases_ko": [
+"중철 제본"
+],
+"definition_ko": "접힌 종이를 포개 가운데 접힌 부분을 철심 등으로 묶는 제본 방식.",
+"definition_en": "A binding method that nests folded sheets and binds the center fold with staples or similar.",
+"example_ko": "얇은 소책자는 중철로 진행해요.",
+"example_en": "Do the thin booklet with saddle stitching."
+},
+{
+"id": "design-346",
+"field": "design",
+"term_ko": "무선제본",
+"term_en": "perfect binding",
+"english": "Perfect binding",
+"aliases_ko": [
+"무선 제본",
+"접착 제본"
+],
+"definition_ko": "책등 쪽을 접착제로 묶어 표지와 연결하는 제본 방식.",
+"definition_en": "A binding method that binds the spine side with adhesive and connects it to the cover.",
+"example_ko": "두꺼운 카탈로그는 무선제본으로 견적을 받아요.",
+"example_en": "Get a quote for the thick catalog with perfect binding."
+},
+{
+"id": "marketing-378",
+"field": "marketing",
+"term_ko": "무선제본",
+"term_en": "perfect binding",
+"english": "Perfect binding",
+"aliases_ko": [
+"무선 제본",
+"접착 제본"
+],
+"definition_ko": "책등 쪽을 접착제로 묶어 표지와 연결하는 제본 방식.",
+"definition_en": "A binding method that binds the spine side with adhesive and connects it to the cover.",
+"example_ko": "두꺼운 카탈로그는 무선제본으로 견적을 받아요.",
+"example_en": "Get a quote for the thick catalog with perfect binding."
+},
+{
+"id": "design-347",
+"field": "design",
+"term_ko": "박스 목업",
+"term_en": "box mockup",
+"english": "Packaging mockup",
+"aliases_ko": [
+"패키지 목업",
+"지기 목업"
+],
+"definition_ko": "크기·형태·조립·인쇄 위치를 확인하도록 만든 포장 구조의 시험 모델.",
+"definition_en": "A trial model of a packaging structure made to check the size, form, assembly, and print positions.",
+"example_ko": "박스 목업에 실제 제품을 넣어 봐요.",
+"example_en": "Put the actual product into the box mockup to try it."
+},
+{
+"id": "marketing-379",
+"field": "marketing",
+"term_ko": "박스 목업",
+"term_en": "box mockup",
+"english": "Packaging mockup",
+"aliases_ko": [
+"패키지 목업",
+"지기 목업"
+],
+"definition_ko": "크기·형태·조립·인쇄 위치를 확인하도록 만든 포장 구조의 시험 모델.",
+"definition_en": "A trial model of a packaging structure made to check the size, form, assembly, and print positions.",
+"example_ko": "박스 목업에 실제 제품을 넣어 봐요.",
+"example_en": "Put the actual product into the box mockup to try it."
+},
+{
+"id": "design-348",
+"field": "design",
+"term_ko": "자간",
+"term_en": "letter spacing",
+"english": "Letter spacing",
+"aliases_ko": [
+"글자 간격",
+"자간 조정"
+],
+"definition_ko": "글자와 글자 사이의 간격.",
+"definition_en": "The spacing between letters.",
+"example_ko": "제목 자간을 조금 좁혀 한 덩어리로 보이게 해요.",
+"example_en": "Tighten the title's letter spacing a little so it reads as one block."
+},
+{
+"id": "marketing-380",
+"field": "marketing",
+"term_ko": "자간",
+"term_en": "letter spacing",
+"english": "Letter spacing",
+"aliases_ko": [
+"글자 간격",
+"자간 조정"
+],
+"definition_ko": "글자와 글자 사이의 간격.",
+"definition_en": "The spacing between letters.",
+"example_ko": "제목 자간을 조금 좁혀 한 덩어리로 보이게 해요.",
+"example_en": "Tighten the title's letter spacing a little so it reads as one block."
+},
+{
+"id": "design-349",
+"field": "design",
+"term_ko": "행간",
+"term_en": "line spacing",
+"english": "Line spacing",
+"aliases_ko": [
+"줄 간격",
+"행간 조정"
+],
+"definition_ko": "글의 줄과 줄 사이 간격.",
+"definition_en": "The spacing between lines of text.",
+"example_ko": "본문 행간을 넓혀 읽기 편하게 해 주세요.",
+"example_en": "Please widen the body line spacing to make it easier to read."
+},
+{
+"id": "marketing-381",
+"field": "marketing",
+"term_ko": "행간",
+"term_en": "line spacing",
+"english": "Line spacing",
+"aliases_ko": [
+"줄 간격",
+"행간 조정"
+],
+"definition_ko": "글의 줄과 줄 사이 간격.",
+"definition_en": "The spacing between lines of text.",
+"example_ko": "본문 행간을 넓혀 읽기 편하게 해 주세요.",
+"example_en": "Please widen the body line spacing to make it easier to read."
+},
+{
+"id": "design-350",
+"field": "design",
+"term_ko": "톤 다운",
+"term_en": "tone down",
+"english": "Tone down",
+"aliases_ko": [
+"톤다운",
+"톤 낮추다"
+],
+"definition_ko": "색·밝기·표현의 강도를 낮춰 차분하게 조정한다는 말.",
+"definition_en": "An expression meaning to lower the intensity of color, brightness, or expression to make it calmer.",
+"example_ko": "배경을 톤 다운해서 제목을 강조해 주세요.",
+"example_en": "Please tone down the background to emphasize the title."
+},
+{
+"id": "marketing-382",
+"field": "marketing",
+"term_ko": "톤 다운",
+"term_en": "tone down",
+"english": "Tone down",
+"aliases_ko": [
+"톤다운",
+"톤 낮추다"
+],
+"definition_ko": "색·밝기·표현의 강도를 낮춰 차분하게 조정한다는 말.",
+"definition_en": "An expression meaning to lower the intensity of color, brightness, or expression to make it calmer.",
+"example_ko": "배경을 톤 다운해서 제목을 강조해 주세요.",
+"example_en": "Please tone down the background to emphasize the title."
+},
+{
+"id": "fashion-431",
+"field": "fashion",
+"term_ko": "톤 다운",
+"term_en": "tone down",
+"english": "Tone down",
+"aliases_ko": [
+"톤다운"
+],
+"definition_ko": "의상·컬렉션이나 브랜드 시각물의 색과 표현을 더 차분하게 조정한다는 작업 표현.",
+"definition_en": "A working expression meaning to adjust the color and expression of garments, a collection, or brand visuals to be calmer.",
+"example_ko": "배색이 너무 강해서 소매 배색을 톤 다운한 원단으로 비교해요.",
+"example_en": "The color blocking is too strong, so compare with a toned-down fabric for the sleeve blocking.",
+"note_ko": "정확한 색상값을 뜻하는 표준 용어는 아닙니다. 밝기·채도 중 무엇을 조정할지 견본으로 맞춥니다.",
+"note_en": "It's not a standard term for an exact color value. Match with a swatch which of brightness or saturation to adjust."
+},
+{
+"id": "design-351",
+"field": "design",
+"term_ko": "빼기",
+"term_en": "pare down",
+"english": "",
+"aliases_ko": [
+"덜어내기",
+"요소 빼기"
+],
+"definition_ko": "불필요한 시각 요소나 내용을 줄여 핵심이 드러나게 하는 작업 지시.",
+"definition_en": "A work instruction to reduce unnecessary visual elements or content so the essence stands out.",
+"example_ko": "아이콘을 조금 빼고 핵심 정보에 집중해요.",
+"example_en": "Remove a few icons and focus on the key information."
+},
+{
+"id": "marketing-383",
+"field": "marketing",
+"term_ko": "빼기",
+"term_en": "pare down",
+"english": "",
+"aliases_ko": [
+"덜어내기",
+"요소 빼기"
+],
+"definition_ko": "불필요한 시각 요소나 내용을 줄여 핵심이 드러나게 하는 작업 지시.",
+"definition_en": "A work instruction to reduce unnecessary visual elements or content so the essence stands out.",
+"example_ko": "아이콘을 조금 빼고 핵심 정보에 집중해요.",
+"example_en": "Remove a few icons and focus on the key information."
+},
+{
+"id": "fashion-432",
+"field": "fashion",
+"term_ko": "빼기",
+"term_en": "pare down",
+"english": "",
+"aliases_ko": [
+"덜어내기"
+],
+"definition_ko": "의류 디자인이나 스타일링에서 장식·색·아이템 등을 덜어 전체 표현을 단순하게 한다는 작업 지시.",
+"definition_en": "A work instruction in garment design or styling to pare down decoration, color, or items to simplify the overall expression.",
+"example_ko": "재킷의 장식을 조금 빼고 원단 질감이 드러나게 해 주세요.",
+"example_en": "Please remove some of the jacket's trim so the fabric texture shows.",
+"note_ko": "문맥에 따른 구어입니다. 생산 수량 제외나 패턴 치수 축소 지시라면 대상과 수치를 따로 확인합니다.",
+"note_en": "It's a context-dependent colloquialism. If it means excluding production quantity or reducing pattern measurements, confirm the target and figures separately."
+},
+{
+"id": "design-352",
+"field": "design",
+"term_ko": "키우다",
+"term_en": "enlarge",
+"english": "",
+"aliases_ko": [
+"사이즈 키우기",
+"크기 키우기"
+],
+"definition_ko": "글자나 이미지 등 요소의 크기를 늘린다는 작업 지시.",
+"definition_en": "A work instruction to increase the size of an element such as text or an image.",
+"example_ko": "주요 제목을 키우고 보조 설명은 유지해요.",
+"example_en": "Enlarge the main title and keep the secondary description."
+},
+{
+"id": "marketing-384",
+"field": "marketing",
+"term_ko": "키우다",
+"term_en": "enlarge",
+"english": "",
+"aliases_ko": [
+"사이즈 키우기",
+"크기 키우기"
+],
+"definition_ko": "글자나 이미지 등 요소의 크기를 늘린다는 작업 지시.",
+"definition_en": "A work instruction to increase the size of an element such as text or an image.",
+"example_ko": "주요 제목을 키우고 보조 설명은 유지해요.",
+"example_en": "Enlarge the main title and keep the secondary description."
+},
+{
+"id": "fashion-433",
+"field": "fashion",
+"term_ko": "키우다",
+"term_en": "enlarge",
+"english": "",
+"aliases_ko": [
+"크기 늘리기"
+],
+"definition_ko": "옷의 특정 치수나 프린트·장식 등의 크기를 늘리라는 작업 표현.",
+"definition_en": "A working expression to increase the size of a specific garment measurement or of a print or decoration.",
+"example_ko": "가슴 프린트 폭을 2cm 키운 시안과 현재 크기를 비교해요.",
+"example_en": "Compare the current size with a draft where the chest print width is enlarged by 2 cm.",
+"note_ko": "전체 사이즈를 같은 비율로 늘리라는 뜻은 아닙니다. 늘릴 부위와 기준 치수를 함께 정합니다.",
+"note_en": "It doesn't mean scaling the whole size up by the same ratio. Decide together which area to enlarge and the reference measurement."
+},
+{
+"id": "design-353",
+"field": "design",
+"term_ko": "눌리다",
+"term_en": "squished",
+"english": "",
+"aliases_ko": [
+"눌린 이미지",
+"가로세로 왜곡"
+],
+"definition_ko": "이미지를 비율과 다르게 줄여 형태가 납작하거나 찌그러져 보이는 상태.",
+"definition_en": "A state where an image is scaled off-ratio so its form looks flat or warped.",
+"example_ko": "로고가 눌리지 않게 원래 비율을 유지해 주세요.",
+"example_en": "Keep the original ratio so the logo doesn't get squished."
+},
+{
+"id": "marketing-385",
+"field": "marketing",
+"term_ko": "눌리다",
+"term_en": "squished",
+"english": "",
+"aliases_ko": [
+"눌린 이미지",
+"가로세로 왜곡"
+],
+"definition_ko": "이미지를 비율과 다르게 줄여 형태가 납작하거나 찌그러져 보이는 상태.",
+"definition_en": "A state where an image is scaled off-ratio so its form looks flat or warped.",
+"example_ko": "로고가 눌리지 않게 원래 비율을 유지해 주세요.",
+"example_en": "Keep the original ratio so the logo doesn't get squished."
+},
+{
+"id": "design-354",
+"field": "design",
+"term_ko": "깨지다",
+"term_en": "pixelated",
+"english": "",
+"aliases_ko": [
+"이미지 깨짐",
+"글자 깨짐",
+"화질 깨짐"
+],
+"definition_ko": "해상도 부족·파일 문제 등으로 이미지나 글자가 거칠거나 정상적으로 보이지 않는 상태.",
+"definition_en": "A state where an image or text looks rough or doesn't display properly due to low resolution or file problems.",
+"example_ko": "확대했을 때 로고가 깨져서 벡터 원본이 필요해요.",
+"example_en": "The logo is pixelated when enlarged, so we need the vector original."
+},
+{
+"id": "marketing-386",
+"field": "marketing",
+"term_ko": "깨지다",
+"term_en": "pixelated",
+"english": "",
+"aliases_ko": [
+"이미지 깨짐",
+"글자 깨짐",
+"화질 깨짐"
+],
+"definition_ko": "해상도 부족·파일 문제 등으로 이미지나 글자가 거칠거나 정상적으로 보이지 않는 상태.",
+"definition_en": "A state where an image or text looks rough or doesn't display properly due to low resolution or file problems.",
+"example_ko": "확대했을 때 로고가 깨져서 벡터 원본이 필요해요.",
+"example_en": "The logo is pixelated when enlarged, so we need the vector original."
+},
+{
+"id": "design-355",
+"field": "design",
+"term_ko": "칼맞춤",
+"term_en": "precise alignment",
+"english": "",
+"aliases_ko": [
+"칼 맞춤",
+"딱 맞춤"
+],
+"definition_ko": "요소의 기준선이나 간격을 정확하게 맞춘다는 구어 표현.",
+"definition_en": "A colloquial expression for aligning elements' baselines or spacing exactly.",
+"example_ko": "카드 하단을 같은 선에 칼맞춤해 주세요.",
+"example_en": "Please align the bottoms of the cards precisely to the same line."
+},
+{
+"id": "marketing-387",
+"field": "marketing",
+"term_ko": "칼맞춤",
+"term_en": "precise alignment",
+"english": "",
+"aliases_ko": [
+"칼 맞춤",
+"딱 맞춤"
+],
+"definition_ko": "요소의 기준선이나 간격을 정확하게 맞춘다는 구어 표현.",
+"definition_en": "A colloquial expression for aligning elements' baselines or spacing exactly.",
+"example_ko": "카드 하단을 같은 선에 칼맞춤해 주세요.",
+"example_en": "Please align the bottoms of the cards precisely to the same line."
+},
+{
+"id": "design-356",
+"field": "design",
+"term_ko": "먹선",
+"term_en": "black line",
+"english": "",
+"aliases_ko": [
+"먹선 처리",
+"검정 선"
+],
+"definition_ko": "도면이나 디자인에서 검정으로 표현한 선을 가리키는 말.",
+"definition_en": "A term for a line expressed in black on a drawing or design.",
+"example_ko": "칼선과 먹선이 혼동되지 않게 레이어를 구분해요.",
+"example_en": "Separate the layers so the dieline and the black line aren't confused."
+},
+{
+"id": "marketing-388",
+"field": "marketing",
+"term_ko": "먹선",
+"term_en": "black line",
+"english": "",
+"aliases_ko": [
+"먹선 처리",
+"검정 선"
+],
+"definition_ko": "도면이나 디자인에서 검정으로 표현한 선을 가리키는 말.",
+"definition_en": "A term for a line expressed in black on a drawing or design.",
+"example_ko": "칼선과 먹선이 혼동되지 않게 레이어를 구분해요.",
+"example_en": "Separate the layers so the dieline and the black line aren't confused."
+},
+{
+"id": "fashion-438",
+"field": "fashion",
+"term_ko": "미싱",
+"term_en": "sewing machine",
+"english": "Sewing machine",
+"aliases_ko": [
+"재봉틀",
+"미싱기"
+],
+"definition_ko": "원단 등을 실로 박아 연결하거나 마감하는 봉제 기계.",
+"definition_en": "A sewing machine that stitches fabric and such with thread to join or finish it.",
+"example_ko": "원단 두께에 맞춰 미싱 바늘과 장력을 확인해요.",
+"example_en": "Check the sewing-machine needle and tension to match the fabric thickness.",
+"note_ko": "의류 봉제의 재봉틀을 뜻합니다. 인쇄물에 절취선을 넣는 미싱 가공과 구분합니다.",
+"note_en": "This means the sewing machine in apparel sewing. Distinguish it from the perforation finishing that adds tear-off lines to printed material."
+},
+{
+"id": "fashion-439",
+"field": "fashion",
+"term_ko": "봉제사",
+"term_en": "sewing operator",
+"english": "Sewing operator",
+"aliases_ko": [
+"미싱사",
+"봉제 작업자"
+],
+"definition_ko": "봉제 기계를 사용하거나 손바느질로 의류·제품을 만드는 작업자.",
+"definition_en": "A worker who makes garments and products using a sewing machine or by hand sewing.",
+"example_ko": "봉제사에게 수정된 봉제 사양을 설명해요.",
+"example_en": "Explain the revised sewing specs to the sewing operator."
+},
+{
+"id": "fashion-440",
+"field": "fashion",
+"term_ko": "시접 정리",
+"term_en": "seam allowance finishing",
+"english": "Seam finishing",
+"aliases_ko": [
+"시접 마감"
+],
+"definition_ko": "봉제 뒤 남는 원단 가장자리를 풀리지 않게 처리하거나 두께·방향을 정리하는 작업.",
+"definition_en": "The work of finishing the leftover fabric edges after sewing so they don't fray, or organizing their thickness and direction.",
+"example_ko": "두꺼운 부분은 시접 정리 방법을 바꿔요.",
+"example_en": "For the thick parts, change the seam-allowance finishing method."
+},
+{
+"id": "fashion-441",
+"field": "fashion",
+"term_ko": "다트",
+"term_en": "dart",
+"english": "Dart",
+"aliases_ko": [
+"다아트"
+],
+"definition_ko": "평면 원단 일부를 접어 봉제해 몸의 입체 형태에 맞추는 구성 요소.",
+"definition_en": "A construction element made by folding and sewing part of flat fabric to fit the body's three-dimensional form.",
+"example_ko": "허리 다트 분량을 조정해 핏을 맞춰요.",
+"example_en": "Adjust the waist dart amount to fine-tune the fit."
+},
+{
+"id": "fashion-442",
+"field": "fashion",
+"term_ko": "턱",
+"term_en": "tuck",
+"english": "Tuck",
+"aliases_ko": [
+"턱 주름",
+"턱 디테일"
+],
+"definition_ko": "원단을 접고 일부를 고정해 여유나 장식 형태를 만드는 디테일.",
+"definition_en": "A detail that folds fabric and fixes part of it to create ease or a decorative form.",
+"example_ko": "앞판 턱 방향을 양쪽 대칭으로 맞춰요.",
+"example_en": "Match the front-panel tuck direction symmetrically on both sides."
+},
+{
+"id": "fashion-443",
+"field": "fashion",
+"term_ko": "플리츠",
+"term_en": "Pleats",
+"english": "Pleats",
+"aliases_ko": [
+"플리츠 주름",
+"주름 가공"
+],
+"definition_ko": "원단을 일정한 형태로 접어 만든 주름 또는 그 가공.",
+"definition_en": "Folds made by folding fabric into a set shape, or the process of making them.",
+"example_ko": "플리츠 간격이 일정한지 확인해요.",
+"example_en": "We check that the pleat spacing is even."
+},
+{
+"id": "fashion-444",
+"field": "fashion",
+"term_ko": "파이핑",
+"term_en": "Piping",
+"english": "Piping",
+"aliases_ko": [
+"파이핑 마감"
+],
+"definition_ko": "봉제선이나 가장자리에 가는 띠 등을 끼워 선을 강조하거나 마감하는 디테일.",
+"definition_en": "A detail in which a thin strip or cord is inserted into a seam or edge to emphasize or finish the line.",
+"example_ko": "카라 끝에 배색 파이핑을 넣어요.",
+"example_en": "We add contrast piping along the collar edge."
+},
+{
+"id": "fashion-445",
+"field": "fashion",
+"term_ko": "립",
+"term_en": "Rib",
+"english": "Rib",
+"aliases_ko": [
+"립 조직",
+"리브 조직",
+"시보리",
+"립 원단",
+"rib fabric",
+"시보리 원단"
+],
+"definition_ko": "겉뜨기와 안뜨기 등의 배열로 골이 생기고 신축성이 나타나는 편직 조직.",
+"definition_en": "A knit structure in which ridges form from an arrangement of knit and purl stitches, producing elasticity.",
+"example_ko": "소매 끝 립의 복원력을 확인해요.",
+"example_en": "We check the recovery of the rib at the cuff."
+},
+{
+"id": "fashion-446",
+"field": "fashion",
+"term_ko": "GSM",
+"term_en": "GSM",
+"english": "Grams per square metre",
+"aliases_ko": [
+"그램퍼스퀘어미터"
+],
+"definition_ko": "원단 1제곱미터의 무게를 그램으로 표시한 단위.",
+"definition_en": "A unit expressing the weight of one square meter of fabric in grams.",
+"example_ko": "샘플과 본생산 원단의 GSM을 비교해요.",
+"example_en": "We compare the GSM of the sample and the bulk-production fabric."
+},
+{
+"id": "marketing-389",
+"field": "marketing",
+"term_ko": "슛",
+"term_en": "Shoot",
+"english": "Shoot",
+"aliases_ko": [
+"슛 들어가다",
+"슛 간다",
+"슛팅"
+],
+"definition_ko": "촬영을 하거나 시작한다는 현장의 말.",
+"definition_en": "An on-set expression for filming or starting to film.",
+"example_ko": "리허설 확인했으면 다음 테이크 슛 갈게요.",
+"example_en": "If the rehearsal checks out, we'll shoot the next take."
+}
+]

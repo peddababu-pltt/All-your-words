@@ -7,7 +7,9 @@
 // Exact full-text-node replacement + regex for counts, re-applied on every
 // legacy re-render via MutationObserver. The wordmark 다, 너의 단어 is the brand and stays as-is.
 
-type Lang = "ko" | "en"
+import { JA, KO_TO_JA_RX } from "./translate-ja"
+
+type Lang = "ko" | "en" | "ja"
 
 const EN: Record<string, string> = {
   // field names (also dictionary field labels) — kept short so cards don't overflow
@@ -271,9 +273,13 @@ let observer: MutationObserver | null = null
 function swap(text: string, lang: Lang): string | null {
   const t = text.trim()
   if (!t) return null
-  if (lang === "en") {
-    if (EN[t]) return text.replace(t, EN[t])
-    for (const [rx, fn] of KO_TO_EN_RX) {
+  if (lang === "en" || lang === "ja") {
+    const map = lang === "en" ? EN : JA
+    if (map[t]) return text.replace(t, map[t])
+    // numbered labels, e.g. setup steps "01 내 업무 분야"
+    const numbered = t.match(/^(\d+) (.+)$/)
+    if (numbered && map[numbered[2]]) return text.replace(t, `${numbered[1]} ${map[numbered[2]]}`)
+    for (const [rx, fn] of lang === "en" ? KO_TO_EN_RX : KO_TO_JA_RX) {
       const m = t.match(rx)
       if (m) return text.replace(t, fn(m))
     }

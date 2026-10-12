@@ -3,8 +3,9 @@
 // Wrap-and-reuse: the verbatim vanilla app (../app.js) + search logic
 // (../core.js, ../workspace-core.js) run unchanged. Side-effect imports run in
 // order at bundle load: styles, dark theme, the DOM the app needs, the data and
-// logic globals, then app.js. The React shell adds Palette context, a backend
-// Drive state bridge, a theme + language toggle, and the user/org identity line.
+// logic globals, then app.js. The React shell adds Palette context and a backend
+// Drive state bridge. Hosted (staging / dev / qa) follows the Palette OS
+// language + light/dark mode; localhost adds dev toggles and the user/org line.
 
 // 0) sandbox-safe localStorage (in-memory fallback when the iframe blocks it)
 import "./storage-shim"
@@ -16,9 +17,10 @@ import "./dark.css"
 import "./layout-fix.css"
 // 2) DOM the legacy script needs (must precede app.js)
 import "./dom-setup"
-// 3) data (KO) + EN dataset + language-based dataset choice, then logic globals
+// 3) data (KO) + EN/JA datasets + language-based dataset choice, then logic globals
 import "../data.js"
 import "../data.en.js"
+import "../data.ja.js"
 import "./dataset-select"
 import "./globals"
 // 4) boot the app (reads #app / #toast / localStorage / window.WORD_DATA)
@@ -26,20 +28,22 @@ import "../app.js"
 
 import { useEffect, useRef, useState } from "react"
 import {
+  normalizePaletteLanguage,
   PluginProvider,
   usePlatform,
   type PluginComponentProps,
 } from "@palettelab/sdk"
 import { LEGACY_HOST } from "./dom-setup"
 import { platformFetch, runtime } from "./runtime"
-import { applyLanguage, type Lang } from "./translate"
+import { applyLanguage } from "./translate"
+import { LANGS, readLang, toLang, type Lang } from "./lang"
+import { switchLanguage } from "./language-switch"
 import { installDriveSync } from "./drive-sync"
 import { bootFromDrive } from "./drive-state"
 import { installSelectEnhancer } from "./select-enhance"
 import { IS_LOCAL } from "./env"
 
 const THEME_KEY = "daneo-theme"
-const LANG_KEY = "daneo-lang"
 
 type Theme = "light" | "dark"
 
@@ -49,6 +53,20 @@ function readStored<T extends string>(key: string, fallback: T): T {
   } catch {
     return fallback
   }
+}
+
+// phone layout of the legacy CSS (workspace.css switches at 700px)
+const NARROW = "(max-width: 700px)"
+function useNarrow() {
+  const [narrow, setNarrow] = useState(() => window.matchMedia?.(NARROW).matches ?? false)
+  useEffect(() => {
+    const mq = window.matchMedia?.(NARROW)
+    if (!mq) return
+    const on = () => setNarrow(mq.matches)
+    mq.addEventListener("change", on)
+    return () => mq.removeEventListener("change", on)
+  }, [])
+  return narrow
 }
 
 function LegacyBridge() {
@@ -79,45 +97,61 @@ function LegacyBridge() {
   return <div ref={mount} className="daneo-legacy-mount" />
 }
 
-function Controls() {
-  const platform = usePlatform()
-  const { user, organizationId, setColorMode, setLanguage } = platform
+// Hosted: no in-app toggles. Theme and language come from Palette OS and
+// follow it live, switching in place (no reload). The language change waits a
+// moment so a transient default value from the host can't win.
+function OsSync() {
+  const { language, colorMode } = usePlatform()
+  const osLang: Lang = toLang(normalizePaletteLanguage(language, "en")) ?? "en"
+  const theme: Theme = colorMode === "dark" ? "dark" : "light"
 
-  const [theme, setTheme] = useState<Theme>(() =>
-    readStored<Theme>(THEME_KEY, (platform.colorMode as Theme) || "light"),
-  )
-  const [lang, setLang] = useState<Lang>(() =>
-    readStored<Lang>(LANG_KEY, (platform.language as Lang) === "en" ? "en" : "ko"),
-  )
-
-  // apply theme: set <html data-color-mode>, inform the OS, persist
   useEffect(() => {
     document.documentElement.dataset.colorMode = theme
-    try {
-      setColorMode?.(theme)
-    } catch {
-      /* OS may not accept in sim */
-    }
+  }, [theme])
+
+  useEffect(() => {
+    applyLanguage(LEGACY_HOST, readLang())
+  }, [])
+
+  useEffect(() => {
+    const timer = setTimeout(() => switchLanguage(osLang), 250)
+    return () => clearTimeout(timer)
+  }, [osLang])
+
+  return null
+}
+
+// Localhost only: theme / language toggles and the user·org identity line.
+function Controls() {
+  const platform = usePlatform()
+  const { user, organizationId } = platform
+
+  const [theme, setTheme] = useState<Theme>(() =>
+    readStored<Theme>(
+      THEME_KEY,
+      platform.colorMode === "dark" || platform.colorMode === "light"
+        ? platform.colorMode
+        : window.matchMedia?.("(prefers-color-scheme: dark)").matches
+          ? "dark"
+          : "light",
+    ),
+  )
+  const [lang, setLang] = useState<Lang>(readLang)
+  const narrow = useNarrow()
+
+  // apply theme: set <html data-color-mode>, persist
+  useEffect(() => {
+    document.documentElement.dataset.colorMode = theme
     try {
       localStorage.setItem(THEME_KEY, theme)
     } catch {
       /* ignore */
     }
-  }, [theme, setColorMode])
+  }, [theme])
 
-  // apply language: translate the legacy host, inform the OS, persist
+  // apply language: translate the legacy host
   useEffect(() => {
     applyLanguage(LEGACY_HOST, lang)
-    try {
-      setLanguage?.(lang)
-    } catch {
-      /* ignore */
-    }
-    try {
-      localStorage.setItem(LANG_KEY, lang)
-    } catch {
-      /* ignore */
-    }
   }, [lang])
 
   const pill: React.CSSProperties = {
@@ -143,7 +177,7 @@ function Controls() {
     <div
       style={{
         position: "fixed",
-        top: 12,
+        top: narrow ? 14 : 18,
         right: 14,
         zIndex: 50,
         display: "flex",
@@ -176,30 +210,29 @@ function Controls() {
         type="button"
         style={pill}
         onClick={() => setTheme((t) => (t === "dark" ? "light" : "dark"))}
-        aria-label="Toggle theme"
-        title="Toggle light / dark"
+        aria-label={theme === "dark" ? "Switch to light theme" : "Switch to dark theme"}
+        title={theme === "dark" ? "Light" : "Dark"}
       >
-        {theme === "dark" ? "🌙 Dark" : "☀️ Light"}
+        {theme === "dark" ? "☀️" : "🌙"}
       </button>
 
-      <button
-        type="button"
-        style={pill}
-        onClick={() => {
-          const next: Lang = lang === "en" ? "ko" : "en"
-          try {
-            localStorage.setItem(LANG_KEY, next)
-          } catch {
-            /* ignore */
-          }
-          // reload so the dataset (KO/EN content) is chosen before app.js boots
-          location.reload()
+      <select
+        style={{ ...pill, paddingRight: 8 }}
+        value={lang}
+        onChange={(ev) => {
+          const next = ev.target.value as Lang
+          setLang(next)
+          switchLanguage(next)
         }}
-        aria-label="Toggle language"
-        title="Toggle KO / EN"
+        aria-label="Language"
+        title="Language"
       >
-        {lang === "en" ? "EN" : "KO"}
-      </button>
+        {LANGS.map(([id, name]) => (
+          <option key={id} value={id}>
+            {narrow ? id.toUpperCase() : name}
+          </option>
+        ))}
+      </select>
     </div>
   )
 }
@@ -211,7 +244,7 @@ export default function PluginRoot(props: PluginComponentProps) {
   const platform = props.platform ?? (props as unknown as PluginComponentProps["platform"])
   return (
     <PluginProvider value={platform}>
-      {IS_LOCAL && <Controls />}
+      {IS_LOCAL ? <Controls /> : <OsSync />}
       <LegacyBridge />
     </PluginProvider>
   )

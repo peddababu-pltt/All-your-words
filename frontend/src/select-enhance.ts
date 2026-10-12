@@ -1,4 +1,5 @@
-// Custom dropdown for the search filters (#filter-form: Field / Word type / Topic).
+// Custom dropdown for the search filters (#filter-form: Field / Word type / Topic)
+// and the display settings (#profile-form: Explanation order / List spacing).
 //
 // The native <select> opens an OS popup that can cover the whole screen when
 // the list is long (Topic has ~100 options). This replaces the visible control
@@ -6,22 +7,21 @@
 // offers a quick filter for long lists. The native <select> stays in the form
 // (visually hidden): choosing an option sets its value and dispatches a
 // bubbling "change", so app.js handles it exactly as before.
-import { IS_LOCAL } from "./env"
+import { readLang } from "./lang"
 
-const TARGET = "#filter-form select"
+const TARGET = "#filter-form select, #profile-form select"
 const SEARCHABLE_MIN = 12
 const MAX_LIST_HEIGHT = 360
 
 type Open = { wrap: HTMLElement; panel: HTMLElement; trigger: HTMLButtonElement }
 let current: Open | null = null
 
-const isEn = () => {
-  try {
-    return IS_LOCAL && localStorage.getItem("daneo-lang") === "en"
-  } catch {
-    return false
-  }
+const TEXT = {
+  ko: { filter: "목록에서 찾기…", empty: "일치하는 항목이 없어요" },
+  en: { filter: "Filter…", empty: "No matches" },
+  ja: { filter: "リストから探す…", empty: "一致する項目がありません" },
 }
+const text = () => TEXT[readLang()]
 
 function close(focusTrigger = false) {
   if (!current) return
@@ -87,7 +87,7 @@ function openPanel(wrap: HTMLElement, select: HTMLSelectElement, trigger: HTMLBu
     search = document.createElement("input")
     search.type = "search"
     search.className = "dd-search"
-    search.placeholder = isEn() ? "Filter…" : "목록에서 찾기…"
+    search.placeholder = text().filter
     search.setAttribute("aria-label", search.placeholder)
     search.autocomplete = "off"
     // typing here must not reach app.js's filter-form "change" handler
@@ -111,7 +111,7 @@ function openPanel(wrap: HTMLElement, select: HTMLSelectElement, trigger: HTMLBu
   })
   const empty = document.createElement("div")
   empty.className = "dd-empty"
-  empty.textContent = isEn() ? "No matches" : "일치하는 항목이 없어요"
+  empty.textContent = text().empty
   empty.hidden = true
   panel.append(list, empty)
   wrap.appendChild(panel)
@@ -182,7 +182,9 @@ export function installSelectEnhancer(host: HTMLElement) {
   installed = true
   const run = () => {
     if (current && !current.wrap.isConnected) current = null // re-rendered
-    host.querySelectorAll<HTMLSelectElement>(`${TARGET}:not([data-enhanced])`).forEach(enhance)
+    host.querySelectorAll<HTMLSelectElement>(TARGET).forEach((select) => {
+      if (!select.dataset.enhanced) enhance(select)
+    })
   }
   run()
   new MutationObserver(run).observe(host, { childList: true, subtree: true })

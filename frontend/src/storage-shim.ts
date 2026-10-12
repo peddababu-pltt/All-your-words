@@ -4,11 +4,10 @@
 // Storage instead (filled from the Drive at boot by drive-state.ts). Before
 // switching, any data left in the real localStorage by older versions is
 // captured once (LEGACY_STATE) so it can be moved into the Drive and then
-// removed from the browser. On localhost only, the dev toggles (theme /
-// language) still persist in the real localStorage.
+// removed from the browser. The theme / language preferences (not user data)
+// still persist in the real localStorage when the browser allows it.
 export const STATE_KEY = "daneoword.v1"
-const DEV_PREF_KEYS = new Set(["daneo-theme", "daneo-lang"])
-const IS_LOCALHOST = ["localhost", "127.0.0.1", "::1", "[::1]"].includes(window.location.hostname)
+const PREF_KEYS = new Set(["daneo-theme", "daneo-lang"])
 
 function realStorage(): Storage | null {
   try {
@@ -49,7 +48,7 @@ class MemoryStorage {
   }
   getItem(k: string) {
     k = String(k)
-    if (IS_LOCALHOST && DEV_PREF_KEYS.has(k) && REAL) {
+    if (PREF_KEYS.has(k) && REAL) {
       try {
         return REAL.getItem(k)
       } catch {
@@ -61,7 +60,7 @@ class MemoryStorage {
   setItem(k: string, v: string) {
     k = String(k)
     v = String(v)
-    if (IS_LOCALHOST && DEV_PREF_KEYS.has(k) && REAL) {
+    if (PREF_KEYS.has(k) && REAL) {
       try {
         REAL.setItem(k, v)
         return
