@@ -165,7 +165,15 @@ textarea:focus-visible,
 select:focus,
 select:focus-visible,
 .dd-trigger:focus {
-  outline: none;
+  outline: none !important;
+}
+/* Host platform adds its own blue focus ring to inputs; neutralise it too. */
+.search-box input:focus,
+.search-box input:focus-visible,
+.search-box input:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
 }
 .search-box:focus-within {
   border-color: #deded6;
